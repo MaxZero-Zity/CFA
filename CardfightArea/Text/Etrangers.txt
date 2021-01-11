@@ -691,3 +691,19 @@ global.UnitGrade[CardStat] = 2
 global.CardInClan[CardStat] = 22
 }
 global.PowerStat[CardStat] = 7000
+
+CardStat = 8172
+{
+global.CardName[CardStat] = 'Kuriboh Token'
+global.CardText[CardStat] = 'Etranger/Fiend
+
+CONT: This card is from all clans and nations.
+
+Auto [Hand]: If your vanguard is being attacked while you have five or more cards in your damage zone, Cost [discard this card from your hand], and all of your vanguard cannot be hit until the end of that battle.
+
+CONT [Deck]: You can only have one "Kuriboh" card in your deck'
+global.UnitGrade[CardStat] = 1
+global.CardInClan[CardStat] = 22
+}
+global.PowerStat[CardStat] = 300
+global.DefensePowerStat[CardStat] = 200
