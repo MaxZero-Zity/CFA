@@ -520,4 +520,3 @@ global.TriggerUnit[3402] = 2
 global.TriggerUnit[3403] = 3
 global.TriggerUnit[3404] = 3
 global.TriggerUnit[3405] = 1
-00
