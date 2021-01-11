@@ -37,8 +37,12 @@ DerivedData/
 !*.xcworkspace/contents.xcworkspacedata
 **/xcshareddata/WorkspaceSettings.xcsettings
 
-*/Cardfight!! Area Full Version 3.30/Deck.txt
 
+##Cardfight
+
+CardfightArea/
+*.Deck.txt
+*.Setting.ini
 
 
 # End of https://www.toptal.com/developers/gitignore/api/xcode
