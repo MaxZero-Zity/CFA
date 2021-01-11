@@ -1,0 +1,5124 @@
+x = 103
+CardStat = x+1
+{
+global.CardName[CardStat] = 'Battleraizer'
+global.CardText[CardStat] = 'Nova Grappler/Боевой робот/Звёздные врата/Поднимающий триггер-эффект
+
+АВТО: первопроходец (когда поверх этого воина помещается другой воин, относящийся к клану «Nova Grappler», Вы можете призвать данную карту в арьергард).
+
+АВТО [Арьергард]: когда этот воин передаёт кому-либо свою силу, атака нападающего воина увеличивается на 3,000. В конце хода, в котором данный эффект был активирован, данный воин возвращается в колоду. Колода перемешивается.'
+}
+
+CardStat = x+2
+{
+global.CardName[CardStat] = 'Beast Deity, White Tiger'
+global.CardText[CardStat] = 'Nova Grappler/Боевой робот/Звёздные врата
+
+АВТО: первопроходец (когда поверх этого воина помещается кто-либо из клана «Nova Grappler», Вы можете призвать данную карту в арьергард).
+
+АВТО [Арьергард]: [Встречный Взрыв 1 & поместите этого воина в душу] Если этот воин передаёт силу кому-то из клана «Nova Grappler» и атака достигает авангарда оппонента, Вы можете заплатить цену. Если Вы это сделаете – выберите одного находящегося у Вас в арьергарде воина серии «Beast Deity», относящегося к клану клана «Nova Grappler»; поднимите его в бой.'
+}
+
+CardStat = x+3
+{
+global.CardName[CardStat] = 'Blaujunger'
+global.CardText[CardStat] = 'Nova Grappler/Боевой робот/Звёздные врата
+
+АВТО: когда поверх этого воина помещается Blaupanzer, найдите в колоде одного Blaukluger и возьмите его в руку. Затем перемешайте колоду.'
+}
+
+CardStat = x+4
+{
+global.CardName[CardStat] = 'Cannon Ball'
+global.CardText[CardStat] = 'Nova Grappler/Боевой робот/Звёздные врата/Поднимающий триггер-эффект '
+}
+
+CardStat = x+5
+{
+global.CardName[CardStat] = 'Cat Butler'
+global.CardText[CardStat] = 'Nova Grappler/Боевой зверь/Звёздные врата
+
+АВТО [Арьергард]: [Уберите данного воина с поля] В конце боя, в котором Ваш авангард атаковал, если атака прошла неудачно, Вы можете заплатить цену. Если Вы это сделаете – выберите одного своего авангарда 2го или ниже ранга, относящегося к клану «Nova Grappler», и поднимите его в бой.'
+}
+
+CardStat = x+6
+{
+global.CardName[CardStat] = 'Fighting Battleship, Prometheus'
+global.CardText[CardStat] = 'Nova Grappler/Боевой робот/Звёздные врата/Критический триггер-эффект '
+}
+
+CardStat = x+7
+{
+global.CardName[CardStat] = 'Grapple Mania'
+global.CardText[CardStat] = 'Nova Grappler/Рабочий робот/Звёздные врата/Поднимающий триггер-эффект
+
+АВТО [Арьергард]: когда этот воин передаёт свою силу кому-либо из клана «Nova Grappler», если атака достигает авангарда оппонента, выберите одну карту, находящуюся у Вас в зоне урона, и переверните её в открытое положение. Если Вы это сделали – в конце этого хода данный воин возвращается в колоду. Колода перемешивается.'
+}
+
+
+x = 111
+
+CardStat = x
+{
+global.CardName[CardStat] = 'Kaleido Ace'
+global.CardText[CardStat] = 'Nova Grappler/Боевой робот/Звёздные врата'
+}
+
+CardStat = x+1
+{
+global.CardName[CardStat] = 'Lucky Girl'
+global.CardText[CardStat] = 'Nova Grappler/Высший зверь/Звёздные врата/Поднимающий триггер-эффект'
+}
+
+CardStat = x+2
+{
+global.CardName[CardStat] = 'Red Card Dealer'
+global.CardText[CardStat] = 'Nova Grappler/Прищелец/Звёздные врата/Поднимающий триггер-эффект'
+}
+
+CardStat = x+3
+{
+global.CardName[CardStat] = 'Red Lightning'
+global.CardText[CardStat] = 'Nova Grappler/Пришелец/Звёздные врата/Критический триггер-эффект
+
+АКТ [Арьергард]: [Поместите данного воина в душу] Если Ваш авангард относится к клану «Nova Grappler», переверните в открытое положение одну из карт, находящихся у Вас в зоне урона.'
+}
+
+CardStat = x+4
+{
+global.CardName[CardStat] = 'Ring Girl, Clara'
+global.CardText[CardStat] = 'Nova Grappler/Рабочий робот/Звёздные врата/Исцеляющий триггер-эффект
+
+В колоде нельзя иметь больше четырёх исцеляющих триггер-эффектов.'
+}
+
+CardStat = x+5
+{
+global.CardName[CardStat] = 'Shining Lady'
+global.CardText[CardStat] = 'Nova Grappler/Боевой робот/Звёздные врата/Критический триггер-эффект'
+}
+
+CardStat = x+6
+{
+global.CardName[CardStat] = 'The Gong'
+global.CardText[CardStat] = 'Nova Grappler/Рабочий робот/Звёздные врата/Дающий карту триггер-эффект'
+}
+
+CardStat = x+7
+{
+global.CardName[CardStat] = 'Three Minutes'
+global.CardText[CardStat] = 'Nova Grappler/Человек/Звёздные врата/Дающий карту триггер-эффект '
+}
+
+CardStat = x+8
+{
+global.CardName[CardStat] = 'Turboraizer'
+global.CardText[CardStat] = 'Nova Grappler/Боевой робот/Звёздные врата/Поднимающий триггер-эффект
+
+АВТО: первопроходец (когда поверх этого воина помещается другой воин, относящийся к клану «Nova Grappler», Вы можете призвать данную карту в арьергард).
+
+АВТО [Арьергард]: когда этот воин передаёт кому-либо свою силу, атака нападающего воина увеличивается на 3,000. В конце хода, в котором данный эффект был активирован, данный воин возвращается в колоду. Колода перемешивается.'
+}
+
+CardStat = x+9
+{
+global.CardName[CardStat] = 'Wall Boy'
+global.CardText[CardStat] = 'Nova Grappler/Боевой робот/Звёздные врата/Исцеляющий триггер-эффект
+
+В колоде нельзя иметь больше четырёх исцеляющих триггер-эффектов.'
+}
+
+CardStat = x+10
+{
+global.CardName[CardStat] = 'Almighty Reporter'
+global.CardText[CardStat] = 'Nova Grappler/Рабочий робот/Звёздные врата
+
+АВТО [Арьергард]: когда данный воин передаёт свою силу кому-либо, относящемуся к клану «Nova Grappler», если атака достигает авангарда оппонента, Вы можете вернуть этого воина в руку.'
+}
+
+CardStat = x+11
+{
+global.CardName[CardStat] = 'Battering Minotaur'
+global.CardText[CardStat] = 'Nova Grappler/Боевой зверь/Звёздные врата
+
+АВТО [Авангард/Арьергард]: [Встречный Взрыв 1] Когда этот воин атакует – Вы можете заплатить цену. Если Вы это сделаете, на время боя атака данного воина увеличивается на 3,000.'
+}
+
+CardStat = x+12
+{
+global.CardName[CardStat] = 'Beast Deity, Scarlet Bird'
+global.CardText[CardStat] = 'Nova Grappler/Боевой робот/Звёздные врата
+
+АВТО [Авангард/Арьергард]: когда атака данного воина достигает авангарда оппонента, если Ваш авангард относится к клану «Nova Grappler», посмотрите до пяти верхних карт своей колоды. Если среди этих карт окажется Beast Deity, Azure Dragon, Вы можете показать одного из них оппоненту и взять его в руку. Остальные карты помещаются в низ колоды в любом порядке.'
+}
+
+CardStat = x+13
+{
+global.CardName[CardStat] = 'Blaupanzer'
+global.CardText[CardStat] = 'Nova Grappler/Боевой робот/Звёздные врата
+
+ПРОДОЛЖИТЕЛЬНЫЙ [Авангард]: если у Вас в душе находится Blaujunger, атака данного воина увеличивается на 2,000.
+
+АВТО: [скиньте из руки одного воина 3го ранга, относящегося к клану «Nova Grappler»] Когда этот воин призывается в арьергард, Вы можете заплатить цену. Если Вы это сделаете – найдите в колоде одного Stern Blaukluger и возьмите его в руку. Затем перемешайте колоду.'
+}
+
+CardStat = x+14
+{
+global.CardName[CardStat] = 'Clay-doll Mechanic'
+global.CardText[CardStat] = 'Nova Grappler/Пришелец/Звёздные врата
+
+АВТО: когда этот воин призывается в арьергард, если Ваш авангард относится к клану «Nova Grappler», выберите одну карту, находящуюся у Вас в зоне урона, и переверните её в открытое положение.'
+}
+
+CardStat = x+15
+{
+global.CardName[CardStat] = 'Cray Soldier'
+global.CardText[CardStat] = 'Nova Grappler/Пришелец/Звёздные врата
+
+АВТО [Арьергард]: если данный воин передаёт свою силу кому-либо из клана «Nova Grappler» и атака проходит успешно, данный воин поднимается в бой.'
+}
+
+CardStat = x+16
+{
+global.CardName[CardStat] = 'Dancing Wolf'
+global.CardText[CardStat] = 'Nova Grappler/Боевой зверь/Звёздные врата
+
+АВТО [Арьергард]: во время Вашей боевой фазы, если этот воин поднимается в бой, до конца хода хода его атака увеличивается на 3,000.'
+}
+
+CardStat = x+17
+{
+global.CardName[CardStat] = 'Death Army Guy'
+global.CardText[CardStat] = 'Nova Grappler/Боевой робот/Звёздные врата
+
+АВТО [Арьергард]: если во время проверки эффектов Вам попадается воин 3го ранга, относящийся к клану «Nova Grappler», данный воин поднимается в бой.'
+}
+
+CardStat = x+18
+{
+global.CardName[CardStat] = 'Meshrad Roid'
+global.CardText[CardStat] = 'Nova Grappler/Боевой робот/Звёздные врата
+
+АКТ [Арьергард]: [Встречный Взрыв 1] Если Ваш авангард относится к клану «Nova Grappler» — поднимите данного воина в бой.'
+}
+
+CardStat = x+19
+{
+global.CardName[CardStat] = 'Oasis Girl'
+global.CardText[CardStat] = 'Nova Grappler/Рабочий робот/Звёздные врата
+
+АКТ [Авангард/Арьергард]: [Встречный Взрыв 1] До конца этого хода атака данного воина увеличивается на 1,000.'
+}
+
+CardStat = x+20
+{
+global.CardName[CardStat] = 'Queen of Heart'
+global.CardText[CardStat] = 'Nova Grappler/Боевой робот/Звёздные врата
+
+АВТО [Арьергард]: если данный воин передаёт свою силу воину, зовущемуся King of Sword, до конца боя сила атакующего воина увеличивается на 4,000.'
+}
+
+CardStat = x+21
+{
+global.CardName[CardStat] = 'Raizer Custom'
+global.CardText[CardStat] = 'Nova Grappler/Боевой робот/Звёздные врата
+
+ПРОДОЛЖИТЕЛЬНЫЙ [Авангард/Арьергард]: во время Вашего хода, если данный воин находится в той же колонке, что и Battleraizer, его сила увеличивается на 6,000.'
+}
+
+CardStat = x+22
+{
+global.CardName[CardStat] = 'Rocket Hammer Man'
+global.CardText[CardStat] = 'Nova Grappler/Человек/Звёздные врата
+
+АКТ [Арьергард]: [Отправьте данного воина на отдых] Выберите одного своего другого воина, относящегося в клану «Nova Grappler»; до конца хода атака выбранного Вами воина увеличивается на 2,000.'
+}
+
+CardStat = x+23
+{
+global.CardName[CardStat] = 'Screamin and Dancin Announcer, Shout'
+global.CardText[CardStat] = 'Nova Grappler/Пришелец/Звёздные врата
+
+АКТ [Авангард/Арьергард]: [Отправьте данного воина на отдых & скиньте одну карту из руки] Возьмите одну карту из колоды.'
+}
+
+CardStat = x+24
+{
+global.CardName[CardStat] = 'Toolkit Boy'
+global.CardText[CardStat] = 'Nova Grappler/Рабочий робот/Звёздные врата
+
+АВТО [Арьергард]: когда этот воин передаёт свою силу авангарду, относящемуся к клану «Nova Grappler», если атака достигает авангарда оппонента, выберите одну находящуюся у Вас в зоне урона карту и переверните её в открытое положение.'
+}
+
+CardStat = x+25
+{
+global.CardName[CardStat] = 'Tough Boy'
+global.CardText[CardStat] = 'Nova Grappler/Боевой робот/Звёздные врата'
+}
+
+CardStat = x+26
+{
+global.CardName[CardStat] = 'Twin Blader'
+global.CardText[CardStat] = 'Nova Grappler/Боевой робот/Звёздные врата
+
+АВТО: [Скиньте из руки на кладбище одного воина, относящегося к клану «Nova Grappler»] Когда этот воин помещается в круг защитников – Вы можете заплатить цену. Если Вы это сделаете и, если Ваш атакуемый воин относится к клану «Nova Grappler», атака оппонента не проходит.'
+}
+
+CardStat = x+27
+{
+global.CardName[CardStat] = 'Beast Deity, Black Tortoise'
+global.CardText[CardStat] = 'Nova Grappler/Боевой робот/Звёздные врата
+
+АВТО [Авангард/Арьергард]: когда атака данного воина достигает авангарда оппонента, если Ваш авангард относится к клану «Nova Grappler», посмотрите до пяти верхних карт своей колоды. Если среди этих карт окажется Beast Deity, Azure Dragon, Вы можете показать одного из них оппоненту и взять его в руку. Остальные карты помещаются в низ колоды в любом порядке.'
+}
+
+CardStat = x+28
+{
+global.CardName[CardStat] = 'Blaukluger'
+global.CardText[CardStat] = 'Nova Grappler/Боевой робот/Звёздные врата
+
+ПРОДОЛЖИТЕЛЬНЫЙ [Авангард]: если у Вас в душе находится Blaupanzer, сила данного воина увеличивается на 1,000.
+
+АВТО [Авангард]: когда атака данного воина достигает авангарда оппонента, переверните в открытое положение одну карту, находящуюся у Вас в зоне урона.'
+}
+
+CardStat = x+29
+{
+global.CardName[CardStat] = 'Boomerang Thrower'
+global.CardText[CardStat] = 'Nova Grappler/Человек/Звёздные врата
+
+АВТО: когда этот воин помещается поверх кого-либо, относящегося к клану «Nova Grappler», до конца хода данный воин приобретает следующий эффект: «ПРОДОЛЖИТЕЛЬНЫЙ [Авангард]: данный воин может атаковать воинов, находящихся в заднем ряду арьергарда оппонента».'
+}
+
+CardStat = x+30
+{
+global.CardName[CardStat] = 'Brutal Jack'
+global.CardText[CardStat] = 'Nova Grappler/Боевой робот/Звёздные врата
+
+ПРОДОЛЖИТЕЛЬНЫЙ [Авангард/Арьергард]: запрет (данный воин не может атаковать).
+
+АКТ [Авангард/Арьергард]: [Встречный Взрыв 1] До конца этого хода с данного воина снимается запрет.
+
+АВТО [Авангард]: когда этот воин получает силу от кого-либо, относящегося к клану «Nova Grappler», до конца боя его атака увеличивается на 5,000.'
+}
+
+CardStat = x+31
+{
+global.CardName[CardStat] = 'Cup Bowler'
+global.CardText[CardStat] = 'Nova Grappler/Человек/Звёздные врата
+
+АВТО [Авангард]: если Ваш воин, находящийся в арьергарде и относящийся к клану «Nova Grappler», переходит из стоячего положения в спящее, до конца этого хода атака данного воина увеличивается на 1,000.'
+}
+
+CardStat = x+32
+{
+global.CardName[CardStat] = 'Death Army Lady'
+global.CardText[CardStat] = 'Nova Grappler/Боевой робот/Звёздные врата
+
+АВТО [Арьергард]: если во время проверки эффектов Вам попадается воин 3го ранга, относящийся к клану «Nova Grappler», данный воин поднимается в бой.'
+}
+
+CardStat = x+33
+{
+global.CardName[CardStat] = 'Eisenkugel'
+global.CardText[CardStat] = 'Nova Grappler/Боевой робот/Звёздные врата
+
+ПРОДОЛЖИТЕЛЬНЫЙ [Авангард/Арьергард]: если у Вас в авангарде нет Stern Blaukluger или Blaukluger, атака данного воина снижается на 5,000.
+
+АВТО [Авангард/Арьергард]: когда этот воин атакует, его сила увеличивается на 2,000.'
+}
+
+CardStat = x+34
+{
+global.CardName[CardStat] = 'Hi-powered Raizer Custom'
+global.CardText[CardStat] = 'Nova Grappler/Боевой робот/Звёздные врата
+
+ПРОДОЛЖИТЕЛЬНЫЙ [Авангард/Арьергард]: время Вашего хода, если данный воин находится в той же колонке, что и Battleraizer, его сила увеличивается на 8,000.'
+}
+
+CardStat = x+35
+{
+global.CardName[CardStat] = 'Hungry Dumpty'
+global.CardText[CardStat] = 'Nova Grappler/Пришелец/Звёздные врата
+
+АВТО: когда этот воин призывается в арьергард, если Ваш авангард относится к клану «Nova Grappler», выберите одну находящуюся у Вас в зоне урона карту и переверните её в открытое положение.'
+}
+
+CardStat = x+36
+{
+global.CardName[CardStat] = 'King of Sword'
+global.CardText[CardStat] = 'Nova Grappler/Боевой робот/Звёздные врата '
+}
+
+CardStat = x+37
+{
+global.CardName[CardStat] = 'Kung Fu Kid, Bolter'
+global.CardText[CardStat] = 'Nova Grappler/Боевой робот/Звёздные врата
+
+АВТО [Авангард/Арьергард]: когда этот воин атакует, если у Вас в арьергарде больше воинов, чем у оппонента, до конца боя атака данного воина увеличивается на 3,000.'
+}
+
+CardStat = x+38
+{
+global.CardName[CardStat] = 'Magician Girl, Kirara'
+global.CardText[CardStat] = 'Nova Grappler/Рабочий робот/Звёздные врата
+
+АВТО [Авангард/Арьергард]: [Встречный Взрыв 2] Когда атака этого воина достигает цели, если Ваш авангард относится к клану «Nova Grappler», Вы можете заплатить цену. Если Вы это сделаете – возьмите одну карту из колоды.'
+}
+
+CardStat = x+39
+{
+global.CardName[CardStat] = 'Marvelous Hani'
+global.CardText[CardStat] = 'Nova Grappler/Пришелец/Звёздные врата
+
+АВТО [Авангард/Арьергард]: когда атака этого воина достигает авангарда оппонента, если у Вас в арьергарде находятся четыре или больше других воинов, относящихся к клану «Nova Grappler», возьмите одну карту из колоды.'
+}
+
+CardStat = x+40
+{
+global.CardName[CardStat] = 'NGM Prototype'
+global.CardText[CardStat] = 'Nova Grappler/Боевой робот/Звёздные врата
+
+АВТО: когда этот воин отправляется на перехват, если Ваш авангард относится к клану «Nova Grappler», на время данного боя его защита увеличивается на 5,000.'
+}
+
+CardStat = x+41
+{
+global.CardName[CardStat] = 'Street Bouncer'
+global.CardText[CardStat] = 'Nova Grappler/Пришелец/Звёздные врата
+
+АВТО: [Отправьте данного воина на отдых & выберите одного своего воина клана «Nova Grappler», находящегося в арьергарде, в той же колонке, что и данный воин, и отправьте его на отдых] Когда этот воин призывается в арьергард, если Ваш авангард относится к клану «Nova Grappler», Вы можете заплатить цену. Если Вы это сделаете – возьмите одну карту из колоды.'
+}
+
+CardStat = x+42
+{
+global.CardName[CardStat] = 'Super Electromagnetic Lifeform, Storm'
+global.CardText[CardStat] = 'Nova Grappler/Пришелец/Звёздные врата
+
+АВТО [Авангард/Арьергард]: когда атака этого воина достигает авангарда оппоненте, если Ваш авангард относится к клану «Nova Grappler», переверните в открытое положение одну карту, находящуюся у Вас в зоне урона.'
+}
+
+CardStat = x+43
+{
+global.CardName[CardStat] = 'Armoured Fairy, Sphira'
+global.CardText[CardStat] = 'Nova Grappler/Боевой робот/Звёздные врата
+
+АВТО [Авангард/Арьергард]: [Взрыв Души 3] Когда атака данного воина достигает цели, если Ваш авангард относится к клану «Nova Grappler», Вы можете заплатить цену. Если Вы это сделаете – возьмите одну карту из колоды.
+
+АВТО [Авангард]: когда этот воин получает силу от кого-либо, относящегося к клану «Nova Grappler», до конца боя его атака увеличивается на 3,000.'
+}
+
+CardStat = x+44
+{
+global.CardName[CardStat] = 'Asura Kaiser'
+global.CardText[CardStat] = 'Nova Grappler/Боевой робот/Звёздные врата
+
+ПРОДОЛЖИТЕЛЬНЫЙ [Авангард/Арьергард]: если у Вас в авангарде или же арьергарде нет больше ни одного другого воина клана «Nova Grappler», атака данного воина снижается на 2,000.
+
+АВТО [Авангард]: когда во время проверки эффектов Вам попадается воин 3го ранга, относящийся к клану «Nova Grappler», выберите одного находящегося у Вас в арьергарде воина и поднимите его в бой.'
+}
+
+CardStat = x+45
+{
+global.CardName[CardStat] = 'Beast Deity, Azure Dragon'
+global.CardText[CardStat] = 'Nova Grappler/Боевой робот/Звёздные врата
+
+ПРОДОЛЖИТЕЛЬНЫЙ [Авангард/Арьергард]: если у Вас в авангарде или же арьергарде находится воин, не относящийся к клану «Nova Grappler», атака данного воина снижается на 2,000.
+
+АВТО [Авангард]: [Скиньте из руки одного Beast Deity, Azure Dragon] Когда атака данного воина достигает авангарда оппонента, Вы можете заплатить цену. Если Вы это сделаете – выберите до двух находящихся у Вас в арьергарде воинов и поднимите их в бой.'
+}
+
+CardStat = x+46
+{
+global.CardName[CardStat] = 'Death Metal Droid'
+global.CardText[CardStat] = 'Nova Grappler/Боевой робот/Звёздные врата
+
+АВТО [Авангард/Арьергард]: [Встречный Взрыв 1] Когда этот воин атакует, Вы можете заплатить цену. Если Вы это сделаете, до конца боя атака данного воина увеличивается на 3,000.'
+}
+
+CardStat = x+47
+{
+global.CardName[CardStat] = 'Genocide Joker'
+global.CardText[CardStat] = 'Nova Grappler/Боевой робот/Звёздные врата
+
+АКТ [Авангард/Арьергард]: [Встречный Взрыв 2] До конца хода атака данного воина увеличивается на 4,000.'
+}
+
+CardStat = x+48
+{
+global.CardName[CardStat] = 'Gold Rutile'
+global.CardText[CardStat] = 'Nova Grappler/Боевой робот/Звёздные врата
+
+АВТО [Авангард]: когда атака Вашего находящегося в арьергарде воина достигает авангарда оппонента, выберите одну находящуюся у Вас в зоне урона карту и переверните её в открытое положение.
+
+АВТО [Авангард]: [Встречный Взрыв 2] Когда атака данного воина достигает авангарда оппонента, Вы можете заплатить цену. Если Вы это сделаете – выберите одного своего воина, находящегося в арьергарде и относящегося к клану «Nova Grappler»; поднимите его в бой.'
+}
+
+CardStat = x+49
+{
+global.CardName[CardStat] = 'Lion Heat'
+global.CardText[CardStat] = 'Nova Grappler/Боевой зверь/Звёздные врата
+
+АВТО [Авангард]: [Встречный Взрыв 2] Когда атака этого воина достигает авангарда оппонента, Вы можете заплатить цену. Если Вы это сделаете – выберите одного своего воина клана «Nova Grappler», находящегося в арьергарде; поднимите его в бой.
+
+АВТО [Арьергард]: [Встречный Взрыв 2] Когда атака этого воина достигает авангарда оппонента, Вы можете заплатить цену. Если Вы это сделаете – выберите одного своего воина клана «Nova Grappler» 1го или ниже ранга, находящегося в арьергарде; поднимите его в бой.'
+}
+
+CardStat = x+50
+{
+global.CardName[CardStat] = 'Miss Splendor'
+global.CardText[CardStat] = 'Nova Grappler/Пришелец/Звёздные врата
+
+АВТО [Авангард/Арьергард]: когда этот воин атакует – воины оппонента не могут быть отправлены на перехват.'
+}
+
+CardStat = x+51
+{
+global.CardName[CardStat] = 'Moai the Great'
+global.CardText[CardStat] = 'Nova Grappler/Пришелец/Звёздные врата
+
+АВТО [Авангард/Арьергард]: когда этот воин получает силу от кого-либо из клана «Nova Grappler», до конца боя его сила увеличивается на 2,000.'
+}
+
+CardStat = x+52
+{
+global.CardName[CardStat] = 'Mr. Invincible'
+global.CardText[CardStat] = 'Nova Grappler/Пришелец/Звёздные врата
+
+АВТО [Авангард]: в начале Вашей основной фазы – активируйте Заряд Души 1и выберите одну находящуюся у Вас в зоне урона карту; переверните выбранную Вами карту в открытое положение.
+
+АВТО [Авангард/Арьергард]: [Взрыв Души 8 & Встречный Взрыв 5] Когда атака данного воина достигает цели, Вы можете заплатить цену. Если Вы это сделаете – поднимите всех своих воинов в бой.'
+}
+
+CardStat = x+53
+{
+global.CardName[CardStat] = 'Muscle Hercules'
+global.CardText[CardStat] = 'Nova Grappler/Пришелец/Звёздные врата
+
+АВТО: когда этот воин призывается в авангард или же арьергард, если Ваш авангард относится к клану «Nova Grappler», выберите одну находящуюся у Вас в зоне урона карту; переверните её в открытое положение.'
+}
+
+CardStat = x+54
+{
+global.CardName[CardStat] = 'Perfect Raizer'
+global.CardText[CardStat] = 'Nova Grappler/Боевой робот/Звёздные врата
+
+ПРОД [Авангард/Арьергард]: если у Вас на поле нет другого воина серии «Raizer», атака этого воина снижается на 2,000.
+ПРОД [Авангард]: во время Вашего хода атака этого воина увеличивается на 3,000 за каждого воина серии «Raizer»,находящегося у Вас в душе.
+ПРОД [Авангард]: если у Вас в душе находятся четыре+ воинов серии «Raizer», критический удар этого воина увеличивается на один.
+АВТО [Авангард]: когда этот воин призывается в авангард, поместите всех воинов серии «Raizer» из арьергарда в душу.'
+}
+
+CardStat = x+55
+{
+global.CardName[CardStat] = 'Stern Blaukluger'
+global.CardText[CardStat] = 'Nova Grappler/Боевой робот/Звёздные врата
+
+ПРОДОЛЖИТЕЛЬНЫЙ [Авангард]: если у Вас в душе находится Blaukluger, сила данного воина увеличивается на 1,000.
+
+АВТО [Авангард]: [Встречный Взрыв 2 & скиньте из руки двух воинов, относящихся к клану «Nova Grappler»] Когда атака данного воина достигает авангарда оппонента, Вы можете заплатить цену. Если Вы это сделаете – поднимите в бой всех воинов, находящихся с данным воином в одной колонке. До конца хода данный воин теряет двойную проверку эффектов.'
+}
+
+CardStat = x+56
+{
+global.CardName[CardStat] = 'Top Gun'
+global.CardText[CardStat] = 'Nova Grappler/Боевой робот/Звёздные врата
+
+АВТО [Авангард]: если Ваш воин, находящийся в арьергарде и относящийся к клану «Nova Grappler», переходит из стоячего положения в спящее, до конца этого хода атака данного воина увеличивается на 1,000.'
+}
+
+CardStat = x+57
+{
+global.CardName[CardStat] = 'Ultimate Lifeform, Cosmo Lord'
+global.CardText[CardStat] = 'Nova Grappler/Пришелец/Звёздные врата
+
+АКТ [Авангард]: [Выберите одного своего воина, находящегося в арьергарде и относящегося к клану «Nova Grappler»; поместите его в спящее положение] До конца этого хода атака данного воина увеличивается на 3,000.'
+}
+
+
+
+//add Nova Grappler
+
+x = 988
+
+CardStat = x
+{
+global.CardName[CardStat] = 'Death Army Pawn'
+global.CardText[CardStat] = 'Nova Grappler/Боевой робот/Звёздные врата
+
+АВТО: первопроходец (когда поверх этого воина помешается кто-либо, относящийся к клану «Nova Grappler», Вы можете призвать данного воина в арьергард.)
+
+АКТ [Арьергард]: [Выберите одного другого находящегося у Вас в арьергарде воина, в имени которого содержится «Death Army», и отправьте его на отдых] Если Ваш авангард относится к клану «Nova Grappler», до конца хода сила данного воина увеличивается на 2,000.'
+}
+
+CardStat = x+1
+{
+global.CardName[CardStat] = 'Evolving Reincarnation, Miraioh'
+global.CardText[CardStat] = 'Nova Grappler/Боевой робот/Звёздные врата
+
+АВТО: первопроходец (когда поверх этого воина помешается кто-либо, относящийся к клану «Nova Grappler», Вы можете призвать данного воина в арьергард.)
+
+АКТ [Арьергард]: [Встречный Взрыв 1 & поместите данного воина в душу] Посмотрите до пяти верхних карт своей колоды. Если среди этих карт окажется воин 3го или выше ранга, относящийся к клану «Nova Grappler», Вы можете показать его оппоненту и взять его в руку. Остальные карты возвращаются в колоду и перемешиваются.'
+}
+
+CardStat = x+2
+{
+global.CardName[CardStat] = 'Lionet Heat'
+global.CardText[CardStat] = 'Nova Grappler/Боевой зверь/Звёздные врата
+
+АВТО: первопроходец (когда поверх этого воина помешается кто-либо, относящийся к клану «Nova Grappler», Вы можете призвать данного воина в арьергард.)
+
+АКТ [Арьергард]: [Поместите данного воина в душу] Выберите до одного своего воина, относящегося к клану «Nova Grappler»; до конца хода атака выбранного Вами воина увеличивается на 3,000.'
+}
+
+CardStat = x+3
+{
+global.CardName[CardStat] = 'Minimum Raizer'
+global.CardText[CardStat] = 'Nova Grappler/Боевой робот/Звёздные врата/Критический триггер-эффект' 
+}
+
+CardStat = x+4
+{
+global.CardName[CardStat] = 'Beast Deity, Blank Marsh'
+global.CardText[CardStat] = 'Nova Grappler/Боевой робот/Звёздные врата
+
+АВТО [Арьергард]: [Встречный Взрыв 1 & поместите данного воина в душу] Если этот воин передаёт свою силу кому-либо из клана «Nova Grappler» и атака достигает авангарда оппонента, Вы можете заплатить цену. Если Вы это сделаете – выберите одного находящегося у Вас в арьергарде воина клана «Nova Grappler», в названии которого содержится «Beast Deity», и поднимите его в бой.'
+}
+
+CardStat = x+5
+{
+global.CardName[CardStat] = 'Burstraizer'
+global.CardText[CardStat] = 'Nova Grappler/Боевой робот/Звёздные врата
+
+АКТ [Авангард/Арьергард]: [Встречный Взрыв 1] До конца хода атака данного воина увеличивается на 1,000.'
+}
+
+CardStat = x+6
+{
+global.CardName[CardStat] = 'Death Army Bishop'
+global.CardText[CardStat] = 'Nova Grappler/Боевой робот/Звёздные врата
+
+АКТ [Арьергард]: [Встречный Взрыв 1] Если Ваш авангард относится к клану «Nova Grapplers», выберите до двух находящихся у Вас в арьергарде воинов, в имени которых содержится «Death Army»; поднимите их в бой. Данный эффект может быть активирован лишь один раз за ход.'
+}
+
+CardStat = x+7
+{
+global.CardName[CardStat] = 'Stoic Hani'
+global.CardText[CardStat] = 'Nova Grappler/Боевой робот/Звёздные врата
+
+АВТО: [Встречный Взрыв 1] Когда этот воин призывается в авангард или же в арьергард, если Ваш авангард относится к клану «Nova Grappler», Вы можете заплатить цену. Если Вы это сделаете, поместите верхнюю карту своей колоды в зону урона. В конце этого хода выберите одну карту, находящуюся у Вас в зоне урона, и верните её в колоду.'
+}
+
+CardStat = x+8
+{
+global.CardName[CardStat] = 'Beast Deity, Golden Anglet'
+global.CardText[CardStat] = 'Nova Grappler/Боевой робот/Звёздные врата
+
+АВТО [Арьергард]: во время Вашей боевой фазы, когда этот воин поднимается в бой, до конца хода его сила увеличивается на 3,000.'
+}
+
+CardStat = x+9
+{
+global.CardName[CardStat] = 'Death Army Knight'
+global.CardText[CardStat] = 'Nova Grappler/Боевой робот/Звёздные врата
+
+АВТО: когда данный воин призывается в арьергард, если Ваш авангард относится к клану «Nova Grapplers», выберите до двух находящихся у Вас в арьергарде воинов, в имени которых содержится «Death Army»; поднимите их в бой.'
+}
+
+CardStat = x+10
+{
+global.CardName[CardStat] = 'Death Army Rook'
+global.CardText[CardStat] = 'Nova Grappler/Боевой робот/Звёздные врата'
+}
+
+CardStat = x+11
+{
+global.CardName[CardStat] = 'Heroic Hani'
+global.CardText[CardStat] = 'Nova Grappler/Боевой робот/Звёздные врата
+
+АВТО: [Встречный Взрыв 1] Когда этот воин призывается в авангард или же в арьергард, если Ваш авангард относится к клану «Nova Grappler», Вы можете заплатить цену. Если Вы это сделаете, поместите верхнюю карту своей колоды в зону урона. В конце этого хода выберите одну карту, находящуюся у Вас в зоне урона, и верните её в колоду.'
+}
+
+CardStat = x+12
+{
+global.CardName[CardStat] = 'Transraizer'
+global.CardText[CardStat] = 'Nova Grappler/Боевой робот/Звёздные врата
+
+АВТО: когда этот воин призывается в авангард или же в арьергард, посмотрите на верхнюю карту своей колоды. Если эта карта окажется воином 1го или 2го ранга, относящимся к клану «Nova Grappler», призовите его в арьергард. Если нет — верните его в колоду и перемешайте.'
+}
+
+CardStat = x+13
+{
+global.CardName[CardStat] = 'Beast Deity, Yamata Drake'
+global.CardText[CardStat] = 'Nova Grappler/Боевой робот/Звёздные врата
+
+АВТО [Арьергард]: во время Вашей боевой фазы, когда этот воин поднимается в бой, до конца хода его сила увеличивается на 3,000.'
+}
+
+CardStat = x+14
+{
+global.CardName[CardStat] = 'Hollow Nomad'
+global.CardText[CardStat] = 'Nova Grappler/Пришелец/Звёздные врата
+
+АВТО [Авангард/Арьергард]: когда этот воин атакует, если Ваш авангард относится к клану «Nova Grappler», до конца боя сила данного воина увеличивается на 2,000.'
+}
+
+CardStat = x+15
+{
+global.CardName[CardStat] = 'Infinite Phantom Invader, Death Army Cosmo Lord'
+global.CardText[CardStat] = 'Nova Grappler/Пришелец/Звёздные врата
+
+АКТ [Авангард]: [Разрыв Лимитов 4] [Встречный Взрыв 2] Поднимите в бой всех своих воинов клана «Nova Grappler». Если благодаря этому эффекту в бой было поднято как минимум четыре воина, до конца хода критический удар данного воина увеличивается на один. Данный эффект может быть использован лишь один раз за ход.
+
+АКТ [Авангард]: [Выберите двух находящихся у Вас в арьергарде воинов, в имени которых содержится «Death Army», и отправьте их на отдых] До конца хода сила данного воина увеличивается на 5,000.'
+}
+
+CardStat = x+16
+{
+global.CardName[CardStat] = 'Ultra Beast Deity, Illuminal Dragon'
+global.CardText[CardStat] = 'Nova Grappler/Боевой робот/Звёздные врата
+
+АВТО [Авангард]: [Разрыв Лимитов 4] [Встречный Взрыв 3] Когда этот воин атакует, Вы можете заплатить цену. Если Вы это сделаете — поднимите в бой до двух воинов серии «Beast Deity», находящихся у Вас в арьергарде.
+
+ПРОДОЛЖИТЕЛЬНЫЙ [Авангард]: если у Вас в душе находится Beast Deity, Azure Dragon, сила данного воина увеличивается на 2,000.
+
+ПРОДОЛЖИТЕЛЬНЫЙ [Авангард/Арьергард]: лидер.'
+}
+
+// Nova Add
+
+x = 1179
+
+CardStat = x
+{
+global.CardName[CardStat] = 'Armored Heavy Gunner'
+global.CardText[CardStat] = 'Nova Grappler/Боевой робот/Звёздные врата
+
+АВТО [Авангард]: [Разрыв Лимитов 4] Когда этот воин атакует авангард оппонента, до конца боя его сила увеличивается на 5,000.
+
+АВТО [Арьергард]: когда этот воин атакует авангард оппонента, если Ваш авангард относится к клану «Nova Grapplers», до конца битвы сила данного воина увеличивается на 2,000.'
+global.UnitGrade[CardStat] = 3
+global.CardInClan[CardStat] = 4
+}
+
+CardStat = x+1
+{
+global.CardName[CardStat] = 'Beast Deity, Hatred Chaos'
+global.CardText[CardStat] = 'Nova Grappler/Боевой робот/Звёздные врата
+
+АВТО [Арьергард]: когда этот воин атакует, если у Вашего авангарда в имени содержится "Beast Deity", до конца битвы сила данного воина увеличивается на 3,000.'
+global.UnitGrade[CardStat] = 2
+global.CardInClan[CardStat] = 4
+}
+
+CardStat = x+2
+{
+global.CardName[CardStat] = 'Beast Deity, Herarti Destroyer'
+global.CardText[CardStat] = 'Nova Grappler/Боевой робот/Звёздные врата
+
+АВТО [Авангард/Арьергард]: [Скиньте одну карту из руки] Когда атака этого воина достигает авангарда оппонента, если у Вашего авангарда в имени содержится "Beast Deity", Вы можете заплатить цену. Если Вы это сделаете – возьмите одну карту из колоды.'
+global.UnitGrade[CardStat] = 1
+global.CardInClan[CardStat] = 4
+}
+
+CardStat = x+3
+{
+global.CardName[CardStat] = 'Beast Deity, Riot Horn'
+global.CardText[CardStat] = 'Nova Grappler/Боевой робот/Звёздные врата
+
+АВТО: первопроходец (когда поверх этого воина помещается кто-либо, относящийся к клану «Nova Grapplers», Вы можете призвать данного воина в арьергард).
+
+АВТО [Арьергард]: если находящийся в той же колонке воин серии "Beast Deity" поднимается, данный воин тоже поднимается в бой.'
+global.UnitGrade[CardStat] = 0
+global.CardInClan[CardStat] = 4
+}
+
+// NG Add
+
+x = 1209
+
+CardStat = x
+{
+global.CardName[CardStat] = 'Beast Deity, Ethics Buster'
+global.CardText[CardStat] = 'Nova Grappler/Боевой робот/Звёздные врата
+
+АВТО [Авангард]: [Разрыв Лимитов 4]: когда поверх этого воина помещается кто-либо из клана «Nova Grappler», до конца хода Вы можете увеличить силу своего авангарда на 10,000 и дать ему следующий эффект: "АВТО [Авангард]: когда этот воин атакует авангард оппонента, поднимите в бой всех находящихся у Вас в переднем ряду арьергарда воинов клана «Nova Grappler»". 
+
+АВТО [Авангард]: когда этот воин получает силу от кого-либо из клана «Nova Grappler», до конца битвы его сила увеличивается на 2,000.
+
+ПРОДОЛЖИТЕЛЬНЫЙ [Авангард/Арьергард]: лидер.'
+global.UnitGrade[CardStat] = 3
+global.CardInClan[CardStat] = 4
+}
+
+// NG Add
+
+x = 1225
+
+CardStat = x
+{
+global.CardName[CardStat] = 'Bloody Rain'
+global.CardText[CardStat] = 'Nova Grappler/Вампир/Звёздные врата
+
+АВТО [Авангард/Арьергард]: когда этот воин атакует, если у Вас в авангарде или же в арьергарде находится воин клана «Nova Grappler», имеющий Разрыв Лимитов 4, до конца боя сила этого воина увеличивается на 3,000.'
+global.UnitGrade[CardStat] = 2
+global.CardInClan[CardStat] = 4
+}
+
+CardStat = x+1
+{
+global.CardName[CardStat] = 'Machinery Angel'
+global.CardText[CardStat] = 'Nova Grappler/Ангел/Звёздные врата
+
+АВТО [Арьергард]: [Встречный Взрыв 1] Когда этот воин передаёт свою силу воину клана «Nova Grappler», имеющему Разрыв Лимитов 4, Вы можете заплатить цену. Если Вы это сделаете, до конца боя сила атакующего воина увеличивается на 3,000.'
+global.UnitGrade[CardStat] = 1
+global.CardInClan[CardStat] = 4
+}
+
+CardStat = x+2
+{
+global.CardName[CardStat] = 'Battle Arm Leprechaun'
+global.CardText[CardStat] = 'Nova Grappler/Эльф/Звёздные врата
+
+АВТО: первопроходец (когда поверх этого воина помещается кто-либо, относящийся к клану «Nova Grappler», Вы можете призвать данного воина в арьергард.)
+
+
+АВТО [Арьергард]: [Поместите данного воина в душу] Когда этот воин передаёт свою силу авангарду клана «Nova Grappler», имеющему Разрыв Лимитов 4, если атака достигает авангарда оппонента, Вы можете заплатить цену. Если Вы это сделаете — возьмите одну карту из колоды.'
+global.UnitGrade[CardStat] = 0
+global.CardInClan[CardStat] = 4
+}
+
+// NG Add
+
+x = 1583
+
+CardStat = x
+{
+global.CardName[CardStat] = 'Strongest Beast Deity, Ethics Buster Extreme'
+global.CardText[CardStat] = 'Nova Grappler/Боевой робот/Звёздные врата
+
+АВТО [Авангард]: Разрыв лимитов 4 (данный эффект доступен лишь при наличии хотя бы четырёх очков урона): когда при проверке эффектов Вам попадается воин 1го или выше ранга, в имени которого содержится «Beast Deity», выберите одного находящегося у Вас в арьергарде воина клана «Nova Grappler» и поднимите его в бой.
+
+ПРОДОЛЖИТЕЛЬНЫЙ [Авангард]: если у Вас в душе находится Beast Deity, Ethics Buster, сила этого воина увеличивается на 2,000.
+
+ПРОДОЛЖИТЕЛЬНЫЙ [Авангард/Арьергард]: лидер.'
+global.UnitGrade[CardStat] = 3
+global.CardInClan[CardStat] = 4
+}
+
+// NG Add
+
+x = 1602
+
+CardStat = x
+{
+global.CardName[CardStat] = 'Death Army Commander'
+global.CardText[CardStat] = 'Nova Grappler/Боевой робот/Звёздные врата
+
+АВТО [Арьергард]: когда Вам при проверке эффектов попадается воин клана «Nova Grappler» 3го ранга, данный воин поднимается в бой.'
+global.UnitGrade[CardStat] = 3
+global.CardInClan[CardStat] = 4
+}
+
+CardStat = x+1
+{
+global.CardName[CardStat] = 'Beast Deity, Brainie Babio'
+global.CardText[CardStat] = 'Nova Grappler/Боевой робот/Звёздные врата
+
+АВТО [Авангард/Арьергард]: [Встречный взрыв 1 "Beast Deity"] Когда атака этого воина достигает авангарда оппонента, если Ваш авангард относится к клану «Nova Grappler», Вы можете заплатить цену. Если Вы это сделаете, выберите другого находящегося у Вас в арьергарде воина клана «Nova Grappler» и поднимите его в бой.'
+global.UnitGrade[CardStat] = 2
+global.CardInClan[CardStat] = 4
+}
+
+CardStat = x+2
+{
+global.CardName[CardStat] = 'Gatling Raizer'
+global.CardText[CardStat] = 'Nova Grappler/Боевой робот/Звёздные врата
+
+АВТО [Авангард/арьергард]: [Встречный взрыв 1 «Nova Grappler»] Когда этот воин атакует, если Ваш авангард относится к клану «Nova Grappler», Вы можете заплатить цену. Если Вы это сделаете, до конца боя сила данного воина увеличивается на 4,000.'
+global.UnitGrade[CardStat] = 2
+global.CardInClan[CardStat] = 4
+}
+
+CardStat = x+3
+{
+global.CardName[CardStat] = 'Beast Deity, Solar Falcon'
+global.CardText[CardStat] = 'Nova Grappler/Боевой робот/Звёздные врата
+
+ПРОДОЛЖИТЕЛЬНЫЙ: страж (в колоде не может содержаться больше четырёх стражей.)
+
+АВТО: [Скиньте из руки на кладбище одного воина, относящегося к клану «Nova Grappler»] Когда этот воин помещается в круг защитников – Вы можете заплатить цену. Если Вы это сделаете и, если Ваш атакуемый воин относится к клану «Nova Grappler», атака оппонента не проходит.'
+global.UnitGrade[CardStat] = 1
+global.CardInClan[CardStat] = 4
+}
+
+CardStat = x+4
+{
+global.CardName[CardStat] = 'Beast Deity, Max Beat'
+global.CardText[CardStat] = 'Nova Grappler/Боевой робот/Звёздные врата
+
+АВТО [Арьергард]: [Встречный взрыв 1 "Beast Deity"] Во время Вашей боевой фазы, когда этот воин поднимается в бой, если Ваш авангард относится к клану «Nova Grappler», Вы можете заплатить цену. Если Вы это сделаете, выберите одного находящегося у Вас в арьергарде воина клана «Nova Grappler» и поднимите его в бой.'
+global.UnitGrade[CardStat] = 1
+global.CardInClan[CardStat] = 4
+}
+
+CardStat = x+5
+{
+global.CardName[CardStat] = 'Energy Charger'
+global.CardText[CardStat] = 'Nova Grappler/Боевой робот/Звёздные врата
+
+АВТО: [Взрыв души 2] Когда этот воин призывается в арьергард, Вы можете заплатить цену. Если Вы это сделаете, возьмите одну карту из колоды.'
+global.UnitGrade[CardStat] = 1
+global.CardInClan[CardStat] = 4
+}
+
+CardStat = x+6
+{
+global.CardName[CardStat] = 'Beast Deity, Night Jackal'
+global.CardText[CardStat] = 'Nova Grappler/Боевой робот/Звёздные врата
+
+АВТО: первопроходец (когда поверх этого воина помешается кто-либо, относящийся к клану «Nova Grappler», Вы можете призвать данного воина в арьергард.)
+
+АВТО [Арьергард]: когда данный воин поднимается в бой, до конца хода его сила увеличивается на 3,000.'
+global.UnitGrade[CardStat] = 0
+global.CardInClan[CardStat] = 4
+}
+
+// NG Add
+
+x = 1635
+
+CardStat = x
+{
+global.CardName[CardStat] = 'Deadliest Beast Deity, Ethics Buster «Яeverse»'
+global.CardText[CardStat] = 'Nova Grappler/Боевой робот/Звёздные врата
+
+АКТ [Авангард]: [Разрыв лимитов 4] [Встречный взрыв 2 & скиньте из руки двух воинов "Beast Deity" & заблокируйте двух своих арьергардов клана «Nova Grappler»] Этот воин приобретает: «АВТО [Авангард]: в конце битвы, в которой данный воин атаковал авангард оппонента, он поднимается в бой. Данный эффект может быть использован лишь один раз за ход.»
+
+ПРОДОЛЖИТЕЛЬНЫЙ [Авангард]: если у Вас в душе находится Beast Deity, Ethics Buster, сила этого воина увеличивается на 2,000.
+
+ПРОДОЛЖИТЕЛЬНЫЙ [Авангард/арьергард]: лидер.'
+global.UnitGrade[CardStat] = 3
+global.CardInClan[CardStat] = 4
+}
+
+CardStat = x+1
+{
+global.CardName[CardStat] = 'Beast Deity, Damned Leo'
+global.CardText[CardStat] = 'Nova Grappler/Боевой робот/Звёздные врата'
+global.UnitGrade[CardStat] = 2
+global.CardInClan[CardStat] = 4
+}
+
+CardStat = x+2
+{
+global.CardName[CardStat] = 'Beast Deity, Desert Gator'
+global.CardText[CardStat] = 'Nova Grappler/Боевой робот/Звёздные врата
+
+АВТО [Арьергард]: когда этот воин атакует, если у Вашего авангарда в имени содержится «Beast Deity», до конца битвы сила данного воина увеличивается на 3,000.'
+global.UnitGrade[CardStat] = 1
+global.CardInClan[CardStat] = 4
+}
+
+CardStat = x+3
+{
+global.CardName[CardStat] = 'Beast Deity, Rescue Bunny'
+global.CardText[CardStat] = 'Nova Grappler/Боевой робот/Звёздные врата/Исцеляющий триггер-эффект
+
+В колоде нельзя иметь больше четырёх исцеляющих триггер-эффектов.'
+global.UnitGrade[CardStat] = 0
+global.CardInClan[CardStat] = 4
+}
+
+CardStat = x+4
+{
+global.CardName[CardStat] = 'Beast Deity, Death Stinger'
+global.CardText[CardStat] = 'Nova Grappler/Боевой робот/Звёздные врата/Критический триггер-эффект'
+global.UnitGrade[CardStat] = 0
+global.CardInClan[CardStat] = 4
+}
+
+CardStat = x+5
+{
+global.CardName[CardStat] = 'Beast Deity, Bright Cobra'
+global.CardText[CardStat] = 'Nova Grappler/Боевой робот/Звёздные врата/Поднимающий триггер-эффект'
+global.UnitGrade[CardStat] = 0
+global.CardInClan[CardStat] = 4
+}
+
+CardStat = x+6
+{
+global.CardName[CardStat] = 'Beast Deity, Banpauros'
+global.CardText[CardStat] = 'Nova Grappler/Боевой робот/Звёздные врата/Дающий карту триггер-эффект'
+global.UnitGrade[CardStat] = 0
+global.CardInClan[CardStat] = 4
+}
+
+// NG Add
+
+x = 1665
+
+CardStat = x
+{
+global.CardName[CardStat] = 'Jetraizer'
+global.CardText[CardStat] = 'Nova Grappler/Боевой робот/Звёздные врата
+
+АВТО [Арьергард]: [Встречный взрыв 1 & поместите данного воина в душу] Когда этот воин передаёт свою силу кому-либо из клана «Nova Grappler» и атака достигает авангарда оппонента, Вы можете заплатить цену. Если Вы это сделаете, выберите одного находящегося у Вас в арьергарде воина, в имени которого содержится "Raizer", и поднимите его в бой.'
+global.UnitGrade[CardStat] = 1
+global.CardInClan[CardStat] = 4
+}
+
+// NG Add
+
+x = 1667
+
+CardStat = x
+{
+global.CardName[CardStat] = 'Blau Dunkelheit'
+global.CardText[CardStat] = 'Nova Grappler/Боевой робот/Звёздные врата
+
+ПРОДОЛЖИТЕЛЬНЫЙ: страж (в колоде не может содержаться больше четырёх стражей.)
+
+АВТО: [Скиньте из руки на кладбище одного воина, относящегося к клану «Nova Grappler»] Когда этот воин помещается в круг защитников – Вы можете заплатить цену. Если Вы это сделаете и, если Ваш атакуемый воин относится к клану «Nova Grappler», атака оппонента не проходит.'
+global.UnitGrade[CardStat] = 1
+global.CardInClan[CardStat] = 4
+}
+
+// NG Add
+
+x = 1670
+
+CardStat = x
+{
+global.CardName[CardStat] = 'Galaxy Blaukluger'
+global.CardText[CardStat] = 'Nova Grappler/Боевой робот/Звёздные врата
+
+АВТО [Авангард]: [Разрыв лимитов 4] [Встречный взрыв 2 & скиньте из руки двух воинов клана «Nova Grappler»] Когда атака Вашего авангарда или арьергарда, в имени которого содержится "Blau", достигает авангарда и, если это была первая успешная атака по авангарду оппонента, Вы можете заплатить цену. Если заплатите, поднимите всех воинов, находящихся в одной колонке с данным воином (включая его).
+
+ПРОДОЛЖИТЕЛЬНЫЙ [Авангард]: если у Вас в душе есть Stern Blaukluger, сила этого воина увеличивается на 2,000.
+
+ПРОДОЛЖИТЕЛЬНЫЙ [Авангард/арьергард]: лидер.'
+global.UnitGrade[CardStat] = 3
+global.CardInClan[CardStat] = 4
+}
+
+CardStat = x+1
+{
+global.CardName[CardStat] = 'Mont Blaukluger'
+global.CardText[CardStat] = 'Nova Grappler/Боевой робот/Звёздные врата
+
+АВТО [Авангард]: [Разрыв лимитов 4] Когда поверх этого воина призывается кто-либо из клана «Nova Grappler», до конца хода сила Вашего авангарда увеличивается на 10,000 и он приобретает следующий эффект: «АВТО [Авангард]: [Встречный взрыв 1] Когда данный воин атакует авангард оппонента, Вы можете заплатить цену. Если Вы это сделаете, поднимите в бой всех находящихся у Вас в арьергарде воинов клана «Nova Grappler».»
+
+АВТО [Авангард]: когда этот воин получает силу от кого-либо из клана «Nova Grappler», до конца битвы его сила увеличивается на 2,000.
+
+ПРОД [Авангард/арьергард]: лидер.'
+global.UnitGrade[CardStat] = 3
+global.CardInClan[CardStat] = 4
+}
+
+CardStat = x+2
+{
+global.CardName[CardStat] = 'Pluto Blaukluger'
+global.CardText[CardStat] = 'Nova Grappler/Боевой робот/Звёздные врата
+
+АВТО [Авангард]: [Разрыв лимитов 4] Когда этот воин атакует авангард оппонента, до конца боя его сила увеличивается на 5,000.
+
+АВТО [Авангард]: [Встречный взрыв 3] Когда атака этого воина достигает авангарда оппонента, Вы можете заплатить цену. Если Вы это сделаете, выберите до двух находящихся у Вас в арьергарде воинов клана «Nova Grappler» и поднимите их в бой.'
+global.UnitGrade[CardStat] = 3
+global.CardInClan[CardStat] = 4
+}
+
+CardStat = x+3
+{
+global.CardName[CardStat] = 'Mars Blaukluger'
+global.CardText[CardStat] = 'Nova Grappler/Боевой робот/Звёздные врата
+
+АВТО [Арьергард]: [Встречный взрыв 1] Когда атака Вашего авангарда, в имени которого содержится «Blau», достигает авангард оппонента, Вы можете заплатить цену. Если Вы это сделаете, поднимите данного воина в бой и до конца хода его сила увеличивается на 5,000.'
+global.UnitGrade[CardStat] = 2
+global.CardInClan[CardStat] = 4
+}
+
+CardStat = x+4
+{
+global.CardName[CardStat] = 'Grosse Baer'
+global.CardText[CardStat] = 'Nova Grappler/Боевой робот/Звёздные врата
+
+АВТО [Арьергард]: когда этот воин атакует, если у Вашего авангарда в имени содержится «Blau», до конца боя била данного воина увеличивается на 3,000.'
+global.UnitGrade[CardStat] = 2
+global.CardInClan[CardStat] = 4
+}
+
+CardStat = x+5
+{
+global.CardName[CardStat] = 'Polar Stern'
+global.CardText[CardStat] = 'Nova Grappler/Боевой робот/Звёздные врата
+
+АВТО [Арьергард]: когда этот воин атакует, если у Вашего авангарда в имени содержится «Blau», до конца боя сила данного воина увеличивается на 3,000.'
+global.UnitGrade[CardStat] = 1
+global.CardInClan[CardStat] = 4
+}
+
+CardStat = x+6
+{
+global.CardName[CardStat] = 'Morgenrot'
+global.CardText[CardStat] = 'Nova Grappler/Боевой робот/Звёздные врата
+
+АВТО: первопроходец (когда поверх этого воина помещается кто-либо, относящийся к клану «Nova Grappler», Вы можете призвать данного воина в арьергард.)
+
+АВТО [Арьергард]: [Встречный взрыв 1] Когда атака вашего авангарда, в имени которого содержится «Blau», достигает авангарда оппонента, Вы можете заплатить цену. Если Вы это сделаете, посмотрите до трёх верхних карт своей колоды, найдите среди них до одного воина, в имени которого содержится «Blau», возьмите его в руку, а остальные карты верните в колоду и перемешайте.'
+global.UnitGrade[CardStat] = 0
+global.CardInClan[CardStat] = 4
+}
+
+CardStat = x+7
+{
+global.CardName[CardStat] = 'Blade Arm Leprechaun'
+global.CardText[CardStat] = 'Nova Grappler/Боевой робот/Звёздные врата
+
+АВТО [Арьергард]: [Взрыв души 1] Когда этот воин передаёт свою силу кому-либо, в чьём имени содержится "Blau", Вы можете заплатить цену. Если Вы это сделаете, до конца битвы сила того воина увеличивается на 6,000.'
+global.UnitGrade[CardStat] = 1
+global.CardInClan[CardStat] = 4
+}
+
+// NG Add
+
+x = 1688
+
+CardStat = x
+{
+global.CardName[CardStat] = 'Flower Lei Leprechaun'
+global.CardText[CardStat] = 'Nova Grappler/Боевой робот/Звёздные врата
+
+АВТО [Арьергард]: [Встречный взрыв 1] Когда атака Вашего авангарда, в имени которого содержится "Blau", достигает авангарда оппонента, Вы можете заплатить цену. Если Вы это сделаете, поднимите данного воина в бой и до конца хода его сила увеличивается на 5,000.'
+global.UnitGrade[CardStat] = 1
+global.CardInClan[CardStat] = 4
+}
+
+// NG Add
+
+x = 1692
+
+CardStat = x
+{
+global.CardName[CardStat] = 'Starker Wind'
+global.CardText[CardStat] = 'Nova Grappler/Боевой робот/Звёздные врата/Поднимающий триггер-эффект
+
+АВТО [Арьергард]: когда этот воин атакует, если у Вашего авангарда в имени содержится "Blau", до конца битвы сила данного воина увеличивается на 3,000.'
+global.UnitGrade[CardStat] = 0
+global.CardInClan[CardStat] = 4
+}
+
+CardStat = x+1
+{
+global.CardName[CardStat] = 'Schneeregen'
+global.CardText[CardStat] = 'Nova Grappler/Боевой робот/Звёздные врата/Дающий карту триггер-эффект'
+global.UnitGrade[CardStat] = 0
+global.CardInClan[CardStat] = 4
+}
+
+CardStat = x+2
+{
+global.CardName[CardStat] = 'Schones Wetter'
+global.CardText[CardStat] = 'Nova Grappler/Боевой робот/Звёздные врата/Критический триггер-эффект'
+global.UnitGrade[CardStat] = 0
+global.CardInClan[CardStat] = 4
+}
+
+CardStat = x+3
+{
+global.CardName[CardStat] = 'Regenbogen'
+global.CardText[CardStat] = 'Nova Grappler/Боевой робот/Звёздные врата/Исцеляющий триггер-эффект
+
+В колоде нельзя иметь больше четырёх исцеляющих триггер-эффектов.'
+global.UnitGrade[CardStat] = 0
+global.CardInClan[CardStat] = 4
+}
+
+// NG Add
+
+x = 1716
+
+CardStat = x
+{
+global.CardName[CardStat] = 'Immortal Asura Kaiser'
+global.CardText[CardStat] = 'Nova Grappler/Боевой робот/Звёздные врата
+
+АВТО [Авангард]: [Разрыв лимитов 4] Когда Вам при проверке эффектов попадается воин клана «Nova Grappler» 3го ранга, до конца хода данный воин приобретает: «АВТО [Авангард]: [Встречный взрыв 2 & сбросьте из руки двух воинов клана «Nova Grappler»] В конце битвы, в которой этот воин атаковал авангард, Вы можете заплатить цену. Если заплатите, поднимите данного воина и одного своего арьергарда. До конца хода сила этого воина увеличивается на 10,000. Данный эффект не может быть использован в этот ход повторно.
+ПРОД [Авангард]: если у Вас в душе находится Asura Kaiser, сила данного воина увеличивается на 2,000.
+ПРОД [Авангард/арьергард]: лидер.'
+global.UnitGrade[CardStat] = 3
+global.CardInClan[CardStat] = 4
+}
+
+CardStat = x+1
+{
+global.CardName[CardStat] = 'Bear Down Samurai'
+global.CardText[CardStat] = 'Nova Grappler/Боевой робот/Звёздные врата
+
+АВТО [Арьергард]: во время Вашей боевой фазы, когда Ваш воин, относящийся к клану «Nova Grappler», поднимается в бой, если в имени Вашего авангарда содержится «Asura«, до конца хода сила данного воина увеличивается на 3,000.'
+global.UnitGrade[CardStat] = 1
+global.CardInClan[CardStat] = 4
+}
+
+// NG Add
+
+x = 1733
+
+CardStat = x
+{
+global.CardName[CardStat] = 'Jupiter Blaukluger'
+global.CardText[CardStat] = 'Nova Grappler/Боевой робот/Звёздные врата'
+global.UnitGrade[CardStat] = 2
+global.CardInClan[CardStat] = 4
+}
+
+CardStat = x+1
+{
+global.CardName[CardStat] = 'Daredevil Samurai'
+global.CardText[CardStat] = 'Nova Grappler/Боевой робот/Звёздные врата
+
+АВТО [Арьергард]: во время Вашей боевой фазы, когда Ваш воин, относящийся к клану «Nova Grappler», поднимается в бой, если в имени Вашего авангарда содержится «Asura«, до конца хода сила данного воина увеличивается на 3,000.'
+global.UnitGrade[CardStat] = 2
+global.CardInClan[CardStat] = 4
+}
+
+// NG Add
+
+x = 2016
+
+CardStat = x
+{
+global.CardName[CardStat] = 'Merkur Blaukluger'
+global.CardText[CardStat] = 'Nova Grappler/боевой робот/Звёздные врата
+
+АВТО [Авангард]: [Разрыв лимитов 4] [Встречный взрыв 2 "Blau"] Когда этот воин атакует авангард оппонента, Вы можете заплатить цену. Если Вы это сделаете, поднимите в бой всех находящихся у Вас в переднем ряду арьергарда воинов, в именах которых содержится «Blau».
+
+АВТО [Авангард]: во время Вашей боевой фазы, когда Ваш воин поднимается в бой, до конца хода сила данного воина увеличивается на 2,000.'
+global.UnitGrade[CardStat] = 3
+global.CardInClan[CardStat] = 4
+}
+
+// NG Add
+
+x = 2020
+
+CardStat = x
+{
+global.CardName[CardStat] = 'Maximum Raizer'
+global.CardText[CardStat] = 'Nova Grappler/боевой робот/Звёздные врата
+
+ПРОДОЛЖИТЕЛЬНЫЙ [Авангард/арьергард]: во время Вашего хода, если в одной колонке с этим воином находится кто-либо, в чьём имени содержится "Raizer", сила данного воина увеличивается на 2,000.'
+global.UnitGrade[CardStat] = 3
+global.CardInClan[CardStat] = 4
+}
+
+// NG Add
+
+x = 2081
+
+CardStat = x
+{
+global.CardName[CardStat] = 'Ultimate Raizer Mega Flare'
+global.CardText[CardStat] = 'Nova Grappler/боевой робот/Звёздные врата
+
+АКТ [Авангард]: Легион 20,000 Ultimate Raizer Dual Flare.
+
+АВТО [Авангард]: когда этот воин атакует авангард оппонента, если он находится в легионе и у Вас на отдыхе находятся минимум четыре воина, до конца битвы битвы критический удар данного воина увеличивается на один.
+
+АВТО [Авангард]: когда атака данного воина достигает авангарда оппонента, если у Вас в центральной колонке находится ещё один воин, в имени которого содержится «Raizer», выберите одного находящегося у Вас в арьергарде воина и поднимите его в бой.'
+global.UnitGrade[CardStat] = 3
+global.CardInClan[CardStat] = 4
+}
+
+CardStat = x+1
+{
+global.CardName[CardStat] = 'Ultimate Raizer Dual Flare'
+global.CardText[CardStat] = 'Nova Grappler/боевой робот/Звёздные врата
+
+АВТО [Арьергард]: во время хода, в котором Ваш авангард встал в легион, когда авангард атакует, поднимите данного воина в бой и до конца хода его сила увеличивается на 5,000. Данная способность не может быть более использована до конца хода.'
+global.UnitGrade[CardStat] = 2
+global.CardInClan[CardStat] = 4
+}
+
+CardStat = x+2
+{
+global.CardName[CardStat] = 'Phoenix Raizer Flare Wing'
+global.CardText[CardStat] = 'Nova Grappler/боевой робот/Звёздные врата
+
+АВТО [Арьергард]: когда этот воин атакует, если у Вашего авангарда в имени содержится «Raizer», до конца битвы сила данного воина увеличивается на 3,000.'
+global.UnitGrade[CardStat] = 2
+global.CardInClan[CardStat] = 4
+}
+
+CardStat = x+3
+{
+global.CardName[CardStat] = 'Wingraizer'
+global.CardText[CardStat] = 'Nova Grappler/боевой робот/Звёздные врата
+
+ПРОДОЛЖИТЕЛЬНЫЙ [Авангард/арьергард]: во время Вашего хода, если за этим воином стоит кто-либо, в чьём имени содержится «Raizer», сила данного воина увеличивается на 2,000.'
+global.UnitGrade[CardStat] = 2
+global.CardInClan[CardStat] = 4
+}
+
+CardStat = x+4
+{
+global.CardName[CardStat] = 'Cannonraizer'
+global.CardText[CardStat] = 'Nova Grappler/боевой робот/Звёздные врата
+
+АВТО [Арьергард]: когда этот воин атакует, если у Вашего авангарда в имени содержится «Raizer», до конца битвы сила данного воина увеличивается на 3,000.'
+global.UnitGrade[CardStat] = 1
+global.CardInClan[CardStat] = 4
+}
+
+CardStat = x+5
+{
+global.CardName[CardStat] = 'Tankraizer'
+global.CardText[CardStat] = 'Nova Grappler/боевой робот/Звёздные врата
+
+ПРОДОЛЖИТЕЛЬНЫЙ [Арьергард]: если в одной колонке с данным воином находится кто-либо, у кого в имени содержится «Raizer», данный воин не может быть убран с поля никакими эффектами.'
+global.UnitGrade[CardStat] = 1
+global.CardInClan[CardStat] = 4
+}
+
+CardStat = x+6
+{
+global.CardName[CardStat] = 'Carvingraizer'
+global.CardText[CardStat] = 'Nova Grappler/боевой робот/Звёздные врата
+
+ПРОДОЛЖИТЕЛЬНЫЙ [Арьергард]: во время Вашего хода, сила всех других воинов, в именах которых содержится «Raizer» и которые стоят с данным воином в одной колонке, увеличивается на 2,000.'
+global.UnitGrade[CardStat] = 1
+global.CardInClan[CardStat] = 4
+}
+
+CardStat = x+7
+{
+global.CardName[CardStat] = 'Shieldraizer'
+global.CardText[CardStat] = 'Nova Grappler/боевой робот/Звёздные врата
+
+ПРОДОЛЖИТЕЛЬНЫЙ: страж.
+
+АВТО: [Встречный взрыв 1] Когда этот воин призывается в круг защитников из руки, Вы можете заплатить цену. Если Вы это сделаете, призовите пять верхних карт своей колоды в круг защитников в спящем положении.'
+global.UnitGrade[CardStat] = 1
+global.CardInClan[CardStat] = 4
+}
+
+CardStat = x+8
+{
+global.CardName[CardStat] = 'Energyraizer'
+global.CardText[CardStat] = 'Nova Grappler/боевой робот/Звёздные врата
+
+АВТО: первопроходец.
+
+АВТО [Арьергард]: [Встречный взрыв 1 & поместите данного воина в душу] Во время битвы, в которой данный воин передавал кому-либо свою силу, если атака достигает авангарда оппонента и Ваш авангард стоит в легионе, Вы можете заплатить цену. Если Вы это сделаете, выберите до двух находящихся у Вас в арьергарде воинов, в именах которых содержится «Raizer», и поднимите их в бой.'
+global.UnitGrade[CardStat] = 0
+global.CardInClan[CardStat] = 4
+}
+
+// NG Add
+
+x = 2106
+
+CardStat = x
+{
+global.CardName[CardStat] = 'Phoenix Raizer Drill Wing'
+global.CardText[CardStat] = 'Nova Grappler/боевой робот/Звёздные врата
+
+АКТ [Авангард]: Легион 20,000 Phoenix Raizer Flare Wing.
+
+АВТО [Авангард]: [Встречный взрыв 2] Когда этот воин атакует авангард, если этот воин стоит в легионе, Вы можете заплатить цену. Если Вы это сделаете, выберите до двух находящихся у Вас в переднем ряду арьергарда воинов, сзади которых имеется воин, и поднимите их в бой. 
+
+АВТО [Авангард]: когда этот воин атакует, если в центральной колонке у Вас находится другой воин, до конца битвы сила этого воина увеличивается на 3,000.'
+global.UnitGrade[CardStat] = 3
+global.CardInClan[CardStat] = 4
+}
+
+// NG Add
+
+x = 2130
+
+CardStat = x
+{
+global.CardName[CardStat] = 'Subliminal Gray'
+global.CardText[CardStat] = 'Nova Grappler/пришелец/Звёздные врата/поднимающий триггер-эффект
+
+АКТ [Арьергард]: [Взрыв души 1 & поместите данного воина в низ своей колоды] Возьмите одну карту из колоды, затем перемешайте колоду.'
+global.UnitGrade[CardStat] = 0
+global.CardInClan[CardStat] = 4
+}
+
+CardStat = x+1
+{
+global.CardName[CardStat] = 'Raizer Pilot, Huey'
+global.CardText[CardStat] = 'Nova Grappler/человек/Звёздные врата
+
+АВТО: первопроходец.
+
+АВТО [Арьергард]: когда Ваш авангард встаёт в легион, до конца хода сила данного воина увеличивается на 5,000.'
+global.UnitGrade[CardStat] = 0
+global.CardInClan[CardStat] = 4
+}
+
+CardStat = x+2
+{
+global.CardName[CardStat] = 'Reserveraizer'
+global.CardText[CardStat] = 'Nova Grappler/боевой робот/Звёздные врата
+
+АВТО [Арьергард]: когда этот воин передаёт свою силу авангарду, если Ваш авангард стоит в легионе, до конца битвы его сила увеличивается на 4,000.'
+global.UnitGrade[CardStat] = 1
+global.CardInClan[CardStat] = 4
+}
+
+CardStat = x+3
+{
+global.CardName[CardStat] = 'Rapidraizer'
+global.CardText[CardStat] = 'Nova Grappler/боевой робот/Звёздные врата
+
+АВТО [Арьергард]: когда этот воин атакует, если Ваш авангард стоит в легионе, до конца битвы сила данного воина увеличивается на 4,000.'
+global.UnitGrade[CardStat] = 2
+global.CardInClan[CardStat] = 4
+}
+
+CardStat = x+4
+{
+global.CardName[CardStat] = 'Space Pit'
+global.CardText[CardStat] = 'Nova Grappler/боевой робот/Звёздные врата
+
+АВТО: [Взрыв души 1] Когда этот воин призывается в арьергард, Вы можете заплатить цену. Если Вы это сделаете, выберите одного своего другого воина и до конца хода его сила увеличивается на 5,000.'
+global.UnitGrade[CardStat] = 1
+global.CardInClan[CardStat] = 4
+}
+
+CardStat = x+5
+{
+global.CardName[CardStat] = 'Marine Raizer Anchor Arm'
+global.CardText[CardStat] = 'Nova Grappler/боевой робот/Звёздные врата
+
+АКТ [Авангард?]: Легион 20,000 Marine Raizer High Torpedo.
+
+АВТО [Авангард]: когда этот воин атакует авангард оппонента, если он стоит в легионе, до конца битвы его сила увеличивается на 5,000.
+АВТО [Арьергард]: когда этот воин атакует авангард оппонента, до конца битвы его сила увеличивается на 2,000.'
+global.UnitGrade[CardStat] = 3
+global.CardInClan[CardStat] = 4
+}
+
+CardStat = x+6
+{
+global.CardName[CardStat] = 'Meteoraizer'
+global.CardText[CardStat] = 'Nova Grappler/боевой робот/Звёздные врата/критический триггер-эффект'
+global.UnitGrade[CardStat] = 0
+global.CardInClan[CardStat] = 4
+}
+
+CardStat = x+7
+{
+global.CardName[CardStat] = 'Nobody From Orimecha'
+global.CardText[CardStat] = 'Nova Grappler/пришелец/Звёздные врата
+
+АВТО [Авангард/арьергард]: [Взрыв души 1] Когда этот воин атакует авангард оппонента, Вы можете заплатить цену. Если Вы это сделаете, до конца хода сила данного воина увеличивается на 3,000.'
+global.UnitGrade[CardStat] = 3
+global.CardInClan[CardStat] = 4
+}
+
+CardStat = x+8
+{
+global.CardName[CardStat] = 'Marine Raizer High Torpedo'
+global.CardText[CardStat] = 'Nova Grappler/боевой робот/Звёздные врата'
+global.UnitGrade[CardStat] = 2
+global.CardInClan[CardStat] = 4
+}
+
+CardStat = x+9
+{
+global.CardName[CardStat] = 'Raizer Crew'
+global.CardText[CardStat] = 'Nova Grappler/человек/Звёздные врата/дающий карту триггер-эффект'
+global.UnitGrade[CardStat] = 0
+global.CardInClan[CardStat] = 4
+}
+
+CardStat = x+10
+{
+global.CardName[CardStat] = 'Raizer Girl, Kate'
+global.CardText[CardStat] = 'Nova Grappler/рабочий робот/Звёздные врата/исцеляющий триггер-эффект
+
+В колоде нельзя иметь больше четырёх исцеляющих триггер-эффектов.'
+global.UnitGrade[CardStat] = 0
+global.CardInClan[CardStat] = 4
+}
+
+// NG Add
+
+x = 2457
+
+CardStat = x
+{
+global.CardName[CardStat] = 'Beast Deity, Frog Master'
+global.CardText[CardStat] = 'Nova Grappler/боевой робот/Звёздные врата
+
+ПРОДОЛЖИТЕЛЬНЫЙ [Арьергард]: Разрыв лимитов 4 Вашего авангарда можно использовать даже если у Вас три или меньше урона.'
+global.UnitGrade[CardStat] = 1
+global.CardInClan[CardStat] = 4
+}
+
+CardStat = x+1
+{
+global.CardName[CardStat] = 'Masuraoraizer'
+global.CardText[CardStat] = 'Nova Grappler/боевой робот/Звёздные врата
+
+АВТО [Арьергард]: когда этот воин поднимается Вашим эффектом, если у Вашего авангарда в имени содержится "Raizer", выберите другого находящегося у Вас в той же колонке арьергарда и поднимите его в бой.'
+global.UnitGrade[CardStat] = 2
+global.CardInClan[CardStat] = 4
+}
+
+// NG Add
+
+x = 2460
+
+CardStat = x
+{
+global.CardName[CardStat] = 'Starlight Hedgehog'
+global.CardText[CardStat] = 'Nova Grappler/боевой зверь/Звёздные врата
+
+АВТО: когда этот воин призывается в авангард или же арьергард, выберите другого находящегося у Вас в арьергарде воина и до конца хода он получает следующий эффект: "АВТО [Арьергард]: когда этот воин поднимается в бой благодаря Вашему эффекту, возьмите одну карту из колоды, выберите одну находящуюся у Вас в зоне урона карту и переверните её в открытое положение. Данная способность не может быть активирована в ходу повторно".'
+global.UnitGrade[CardStat] = 2
+global.CardInClan[CardStat] = 4
+}
+
+// NG Add
+
+x = 2481
+
+CardStat = x
+{
+global.CardName[CardStat] = 'Meteorkaiser, Vikt Ten'
+global.CardText[CardStat] = 'Nova Grappler/боевой робот/Звёздные врата/воин наследия
+
+Вознесение. 
+
+АВТО [Авангард]: когда атака этого воина достигает авангарда оппонента, выберите одного находящегося у Вас в арьергарде воина, поднимите его и до конца хода его сила увеличивается на 5,000.'
+global.UnitGrade[CardStat] = 4
+global.CardInClan[CardStat] = 4
+global.ExtraDeck[CardStat] = 1
+}
+
+CardStat = x+1
+{
+global.CardName[CardStat] = 'Exxtreme Battler, Victor'
+global.CardText[CardStat] = 'Nova Grappler/боевой робот/Звёздные врата
+
+АВТО [Авангард] Импульс наследия 2: когда этот воин атакует авангард, на время этой битвы сила данного воина увеличивается на 5,000, также выберите одного находящегося у Вас в арьергарде воина, поднимите его в бой и до конца хода его силу увеличивается на 5,000.
+АВТО [Авангард]: во время Вашего хода, когда Ваш воин наследия возносится, выберите свой авангард и до конца хода он приобретает: «АВТО [Авангард]: [Встречный взрыв 1] Когда этот воин атакует авангард, Вы можете заплатить цену. Если Вы это сделаете, выберите одного находящегося у Вас в арьергарде воина, поднимите его в бой и до конца хода его сила увеличивается на 5,000. Данная способность не может быть активирована в ходу повторно».'
+global.UnitGrade[CardStat] = 3
+global.CardInClan[CardStat] = 4
+}
+
+CardStat = x+2
+{
+global.CardName[CardStat] = 'Muscle Shriek'
+global.CardText[CardStat] = 'Nova Grappler/пришелец/Звёздные врата
+
+АВТО [Авангард]: Импульс наследия 1: [Встречный взрыв 2] Когда этот воин атакует авангард, Вы можете заплатить цену. Если Вы это сделаете, выберите двух находящихся у Вас в арьергарде воина, поднимите их в бой и до конца хода их сила увеличивается на 2,000.
+
+АВТО: [Встречный взрыв 1 & Взрыв души 1] Когда этот воин призывается в авангард, Вы можете заплатить цену. Если Вы это сделаете, выберите одного своего воина 1го ранга, затем выберите находящегося в арьергарде оппонента воина, сила которого равна или ниже силы Вашего выбранного воина, и уберите его с поля.'
+global.UnitGrade[CardStat] = 3
+global.CardInClan[CardStat] = 4
+}
+
+CardStat = x+3
+{
+global.CardName[CardStat] = 'Extreme Battler, Sword Beam'
+global.CardText[CardStat] = 'Nova Grappler/боевой робот/Звёздные врата'
+global.UnitGrade[CardStat] = 2
+global.CardInClan[CardStat] = 4
+}
+
+CardStat = x+4
+{
+global.CardName[CardStat] = 'Extreme Battler, Arashid'
+global.CardText[CardStat] = 'Nova Grappler/боевой робот/Звёздные врата
+
+АВТО: [Покажите оппоненту одного находящегося у Вас в руке воина 3го ранга] Когда этот воин призывается в арьергард из руки, Вы можете заплатить цену. Если Вы это сделаете, найдите у себя в колоде до одного воина 3го ранга, в имени которого содержится «Victor», покажите его оппоненту, возьмите его в руку и перемешайте колоду. Затем скиньте одну карту из руки.
+
+ПРОДОЛЖИТЕЛЬНЫЙ [Рука]: когда Вы платите за вознесение, ранг этого воина увеличивается на два.'
+global.UnitGrade[CardStat] = 1
+global.CardInClan[CardStat] = 4
+}
+
+CardStat = x+5
+{
+global.CardName[CardStat] = 'Katanaraizer'
+global.CardText[CardStat] = 'Nova Grappler/боевой робот/Звёздные врата
+
+ПРОДОЛЖИТЕЛЬНЫЙ [Арьергард]: во время Вашего хода, другой воин, находящийся в одной колонке с этим воином, в имени которого содержится «Raizer», получает следующую способность: «АВТО [Авангард/арьергард]: [Встречный взрыв 2] Когда атака этого воина достигает авангарда оппонента, Вы можете заплатить цену. Если Вы это сделаете, возьмите одну карту из колоды».'
+global.UnitGrade[CardStat] = 1
+global.CardInClan[CardStat] = 4
+}
+
+CardStat = x+6
+{
+global.CardName[CardStat] = 'Extreme Battler, Kendall'
+global.CardText[CardStat] = 'Nova Grappler/боевой робот/Звёздные врата'
+global.UnitGrade[CardStat] = 1
+global.CardInClan[CardStat] = 4
+}
+
+CardStat = x+7
+{
+global.CardName[CardStat] = 'Extreme Battler, Ranball'
+global.CardText[CardStat] = 'Nova Grappler/боевой робот/Звёздные врата
+
+АВТО: первопроходец.
+
+АВТО [Арьергард] Импульс наследия 1: если находящийся в той же колонке воин поднимается, данный воин тоже поднимается в бой.'
+global.UnitGrade[CardStat] = 0
+global.CardInClan[CardStat] = 4
+}
+
+// NG Add
+
+x = 2544
+
+CardStat = x
+{
+global.CardName[CardStat] = 'Meteorkaiser, Viktplasma'
+global.CardText[CardStat] = 'Nova Grappler/боевой робот/Звёздные врата/воин наследия
+
+Вознесение. 
+
+АКТ [Авангард]: [Встречный взрыв 2 & переверните в открытое положение одного находящегося у Вас в зоне наследия Meteorkaiser, Viktplasma] Если у Вас в зоне наследия находятся как минимум два открытых воина, до конца хода этот воин лишается одной проверки эффектов и получает следующую способность: «АВТО [Авангард]: [Скиньте две карты из руки] В конце битвы, в которой этот воин атаковал авангард, Вы можете заплатить цену. Если Вы это сделаете, поднимите данного воина в бой. Данная способность не может быть использована в ходу повторно. (Даже если Вы не заплатили, эта способность не может быть использована до конца хода.)»'
+global.UnitGrade[CardStat] = 4
+global.CardInClan[CardStat] = 4
+global.ExtraDeck[CardStat] = 1
+}
+
+CardStat = x+1
+{
+global.CardName[CardStat] = 'Super Extreme Leader, Mu Sashi'
+global.CardText[CardStat] = 'Nova Grappler/боевой робот/Звёздные врата
+
+АКТ [Авангард] Импульс наследия 1: [Встречный взрыв 2] Выберите одного находящегося у Вас в арьергарде воина; до конца хода его сила увеличивается на 2,000, затем выберите арьергарда оппонента, сила которого равна или ниже силы Вашего выбранного воина, и уберите его с поля.
+
+АВТО: [Взрыв души 1] Когда этот воин призывается в авангард, Вы можете заплатить цену. Если Вы это сделаете, выберите до одного находящегося у Вас в руке воина, призовите его в арьергард, затем выберите одного своего воина и до конца хода его сила увеличивается на 5,000.'
+global.UnitGrade[CardStat] = 3
+global.CardInClan[CardStat] = 4
+}
+
+CardStat = x+2
+{
+global.CardName[CardStat] = 'Extreme Battler, Sazanda'
+global.CardText[CardStat] = 'Nova Grappler/боевой робот/Звёздные врата
+
+АВТО [Арьергард] Импульс наследия 1: когда данный воин поднимается из-за эффекта Вашей карты, до конца хода сила этого воина увеличивается на 5,000.'
+global.UnitGrade[CardStat] = 2
+global.CardInClan[CardStat] = 4
+}
+
+CardStat = x+3
+{
+global.CardName[CardStat] = 'Cool Hank'
+global.CardText[CardStat] = 'Nova Grappler/пришелец/Звёздные врата
+
+АВТО [Арьергард] Импульс наследия 1: [Встречный взрыв 1] Когда этот воин атакует авангард, если данный воин получает от кого-либо силу, Вы можете заплатить цену. Если Вы это сделаете, выберите одного своего другого арьергарда, поднимите его в бой и до конца хода сила того воина увеличивается на 5,000. Данная способность не может быть активирована в ходу повторно.'
+global.UnitGrade[CardStat] = 2
+global.CardInClan[CardStat] = 4
+}
+
+CardStat = x+4
+{
+global.CardName[CardStat] = 'Extreme Battler, Ganzock'
+global.CardText[CardStat] = 'Nova Grappler/боевой робот/Звёздные врата
+
+АВТО [Арьергард] Импульс наследия 1: когда этот воин атакует авангард, до конца битвы сила данного воина увеличивается на 3,000.'
+global.UnitGrade[CardStat] = 2
+global.CardInClan[CardStat] = 4
+}
+
+CardStat = x+5
+{
+global.CardName[CardStat] = 'Lady Cyclone'
+global.CardText[CardStat] = 'Nova Grappler/пришелец/Звёздные врата
+
+ПРОДОЛЖИТЕЛЬНЫЙ: страж.
+
+АВТО: [Скиньте одного воина из руки] Когда этот воин призывается в круг защитников из руки, Вы можете заплатить цену. Если Вы это сделаете, выберите свой подвергающийся атаке авангард и до конца битвы атаки по нему не проходят. Затем, если у Вас на кладбище есть Lady Cyclone, выберите до одной карты, находящейся у Вас в зоне урона, и переверните её в открытое положение.'
+global.UnitGrade[CardStat] = 1
+global.CardInClan[CardStat] = 4
+}
+
+CardStat = x+6
+{
+global.CardName[CardStat] = 'Aura Bowler'
+global.CardText[CardStat] = 'Nova Grappler/пришелец/Звёздные врата
+
+АВТО [Арьергард] Импульс наследия 1: когда этот воин атакует авангард, до конца битвы сила данного воина увеличивается на 3,000.'
+global.UnitGrade[CardStat] = 1
+global.CardInClan[CardStat] = 4
+}
+
+CardStat = x+7
+{
+global.CardName[CardStat] = 'Final Wrench'
+global.CardText[CardStat] = 'Nova Grappler/человек/Звёздные врата
+
+АВТО [Арьергард] Импульс наследия 1: когда Вы эффектом поднимаете другого воина, находящегося с данным воином в одной колонке, до конца хода сила того воина увеличивается на 4,000.'
+global.UnitGrade[CardStat] = 1
+global.CardInClan[CardStat] = 4
+}
+
+CardStat = x+8
+{
+global.CardName[CardStat] = 'Extreme Battler, Hajimaru'
+global.CardText[CardStat] = 'Nova Grappler/боевой робот/Звёздные врата
+
+АВТО: первопроходец.
+
+АВТО [Арьергард]: [Поместите данного воина в душу] Выберите одного своего воина и до конца хода его сила увеличивается на 3,000.'
+global.UnitGrade[CardStat] = 0
+global.CardInClan[CardStat] = 4
+}
+
+CardStat = x+9
+{
+global.CardName[CardStat] = 'Ring Girl, Ai'
+global.CardText[CardStat] = 'Nova Grappler/рабочий робот/Звёздные врата/исцеляющий триггер-эффект
+
+В колоде нельзя иметь больше четырёх исцеляющих триггер-эффектов.'
+global.UnitGrade[CardStat] = 0
+global.CardInClan[CardStat] = 4
+}
+
+CardStat = x+10
+{
+global.CardName[CardStat] = 'Extreme Battler, Zanbara'
+global.CardText[CardStat] = 'Nova Grappler/боевой робот/Звёздные врата/критический триггер-эффект'
+global.UnitGrade[CardStat] = 0
+global.CardInClan[CardStat] = 4
+}
+
+CardStat = x+11
+{
+global.CardName[CardStat] = 'Energy Girl'
+global.CardText[CardStat] = 'Nova Grappler/рабочий робот/Звёздные врата/поднимающий триггер-эффект
+
+АВТО [Арьергард] Импульс наследия 1: в конце битвы, в котором этот воин передавал кому-либо свою силу, выберите другого находящегося у Вас в арьергарде воина, и Вы можете поднять его в бой. Если Вы это сделаете, верните данного воина в колоду и перемешайте.'
+global.UnitGrade[CardStat] = 0
+global.CardInClan[CardStat] = 4
+}
+
+CardStat = x+12
+{
+global.CardName[CardStat] = 'Shadow Clone, Gesoraz'
+global.CardText[CardStat] = 'Nova Grappler/пришелец/Звёздные врата/поднимающий триггер-эффектr'
+global.UnitGrade[CardStat] = 0
+global.CardInClan[CardStat] = 4
+}
+
+CardStat = x+13
+{
+global.CardName[CardStat] = 'Drone Baron'
+global.CardText[CardStat] = 'Nova Grappler/пришелец/Звёздные врата/дающий карту триггер-эффект'
+global.UnitGrade[CardStat] = 0
+global.CardInClan[CardStat] = 4
+}
+
+CardStat = x+14
+{
+global.CardName[CardStat] = 'Super Extreme Leader, Reibad'
+global.CardText[CardStat] = 'Nova Grappler/боевой робот/Звёздные врата
+
+АВТО [Авангард] Импульс наследия 1: [Встречный взрыв 1] Когда атака этого воина достигает авангарда оппонента, Вы можете заплатить цену. Если Вы это сделаете, поднимите одного находящегося у Вас в арьергарде воина и до конца хода его сила увеличивается на 5,000.
+
+АВТО [Авангард]: во время Вашего хода, когда Ваш воин наследия возносится, выберите свой авангард и до конца хода его сила увеличивается на 5,000.'
+global.UnitGrade[CardStat] = 3
+global.CardInClan[CardStat] = 4
+}
+
+// NG Add
+
+x = 2659
+
+CardStat = x
+{
+global.CardName[CardStat] = 'Magical Gambler'
+global.CardText[CardStat] = 'Nova Grappler/человек/Звёздные врата
+
+АВТО [Арьергард] Импульс наследия 1: [Встречный взрыв 1] Когда этот воин поднимается Вашим эффектом, Вы можете заплатить цену. Если Вы это сделаете, поместите верхнюю карту своей колоды на кладбище и до конца хода сила этого воина увеличивается на оригинальную силу воина, отправленного этим эффектом на кладбище.'
+global.UnitGrade[CardStat] = 2
+global.CardInClan[CardStat] = 4
+}
+
+// NG Add
+
+x = 2814
+
+CardStat = x
+{
+global.CardName[CardStat] = 'Battle Deity, Asura Kaiser'
+global.CardText[CardStat] = 'Nova Grappler/боевой робот/Звёздные врата/воин наследия
+
+Вознесение. 
+
+АКТ [Авангард]: [Один раз за ход] [Выберите одного находящегося у Вас на кладбище воина 3го ранга и поместите его на верх своей колоды] Перемешайте колоду и до конца хода данный воин приобретает следующий эффект: «АВТО [Авангард]: когда во время проверки эффектов Вам попадается воин 3го ранга, если у Вашего сердца в имени содержится «Asura Kaiser», выберите до четырёх находящихся у Вас в арьергарде воинов и поднимите их в бой».'
+global.UnitGrade[CardStat] = 4
+global.CardInClan[CardStat] = 4
+global.ExtraDeck[CardStat] = 1
+}
+
+// NG Add
+
+x = 2864
+
+CardStat = x
+{
+global.CardName[CardStat] = 'Meteokaiser, Tribrute'
+global.CardText[CardStat] = 'Nova Grappler/боевой робот/Звёздные врата/воин наследия
+
+Вознесение. 
+
+АВТО [Авангард]: [Встречный взрыв 1] Когда Ваш арьергард поднимается из-за Вашего эффекта, Вы можете заплатить цену. Если Вы это сделаете, до конца хода сила поднявшегося воина увеличивается на 2,000, затем выберите одного находящегося в арьергарде оппонента воина, чья сила равна или ниже силы Вашего поднявшегося воина, и уберите его с поля.'
+global.UnitGrade[CardStat] = 4
+global.CardInClan[CardStat] = 4
+global.ExtraDeck[CardStat] = 1
+}
+
+// NG Add
+
+x = 3238
+
+CardStat = x
+{
+global.CardName[CardStat] = 'Geisharaizer'
+global.CardText[CardStat] = 'Nova Grappler/боевой робот/Звёздные врата/дающий карту триггер-эффект'
+global.UnitGrade[CardStat] = 0
+global.CardInClan[CardStat] = 4
+}
+
+// NG Add
+
+x = 3420
+
+CardStat = x
+{
+global.CardName[CardStat] = 'Ultimate Beast Deity, Ethics Buster Catastrophe'
+global.CardText[CardStat] = 'Nova Grappler/боевой робот/Звёздные врата/воин наследия
+
+Вознесение.
+
+АКТ [Авангард] [Один раз за ход]: [Переверните в открытое положение одного находящегося у Вас в зоне наследия воина] Если у Вашего сердца в имени содержится "Beast Deity", до конца хода данный воин приобретает следующую способность: "АВТО ?Авангард?: когда во время проверки эффектов Вам попадается воин 1го или выше ранга, в имени которого содержится "Beast Deity", выберите до одного находящегося у Вас в арьергарде воина и поднимите его в бой и, если у Вас в зоне наследия находятся как минимум два открытых Ultimate Beast Deity, Ethics Buster Catastrophe, до конца хода сила того воина увеличивается на 3,000".'
+global.UnitGrade[CardStat] = 4
+global.CardInClan[CardStat] = 4
+global.ExtraDeck[CardStat] = 1
+}
+
+// NG Add
+
+x = 3430
+
+CardStat = x
+{
+global.CardName[CardStat] = 'Beast Deity, Dragotwist'
+global.CardText[CardStat] = 'Nova Grappler/боевой робот/Звёздные врата
+
+АВТО [Арьергард]: [Встречный взрыв 1] Во время Вашей боевой фазы, когда этот воин поднимается в бой, если у Вашего авангарда в имени содержится «Beast Deity», Вы можете заплатить цену. Если Вы это сделаете, выберите до одного арьергарда оппонента, чья сила ниже или равна силе данного воина, и уберите его с поля.'
+global.UnitGrade[CardStat] = 2
+global.CardInClan[CardStat] = 4
+}
+
+CardStat = x+1
+{
+global.CardName[CardStat] = 'Beast Deity, Jackal Lord'
+global.CardText[CardStat] = 'Nova Grappler/боевой робот/Звёздные врата
+
+АВТО: [Встречный взрыв 1 "Beast Deity"] Когда этот воин призывается в арьергард, Вы можете заплатить цену. Если Вы это сделаете, до конца хода данный воин приобретает следующую способность: "АВТО [Арьергард] [Один раз за ход]: когда этот воин атакует авангард, выберите до одного своего другого арьергарда, в имени которого содержится "Beast Deity", поднимите его в бой и до конца хода его сила увеличивается на 3,000".'
+global.UnitGrade[CardStat] = 2
+global.CardInClan[CardStat] = 4
+}
+
+CardStat = 3542
+
+{
+
+global.CardName[3542] = 'Beast Deity, Horned Hulk'
+
+global.CardText[3542] = 'Nova Grappler/боевой робот/Звёздные врата
+
+АКТ [Арьергард]: [Взрыв души 1 "Breat Deity" & Отправьте данного воина на отдых] Выберите до одного своего другого воина, в имени которого содержится "Beast Deity", и до конца хода его сила увеличивается на 5,000.
+'
+
+global.UnitGrade[3542] = 1
+
+global.CardInClan[3542] = 4
+
+}
+
+global.PowerStat[3542] = 7000
+
+CardStat = 3627
+
+{
+
+global.CardName[3627] = 'Meteokaiser, Victor'
+
+global.CardText[3627] = 'Nova Grappler/боевой робот/Звёздные врата/воин наследия
+
+Вознесение.
+
+АКТ [Авангард] [Один раз за ход]: [Переверните в открытое положение одного находящегося у Вас в зоне наследия Meteokaiser, Victor] До конца хода этот воин приобретает следующие способности: «АВТО [Авангард]: когда атака этого воина достигает авангарда, выберите до одного своего арьергарда, поднимите его в бой, и до конца хода его сила увеличивается на 5,000? и «АВТО [Авангард] Импульс наследия 3: когда этот воин атакует авангард, выберите до одного своего арьергарда, поднимите его в бой, и до конца хода его сила увеличивается на 5,000.
+'
+
+global.UnitGrade[3627] = 4
+
+global.CardInClan[3627] = 4
+
+global.ExtraDeck[3627] = 1
+
+}
+
+global.PowerStat[3627] = 15000
+
+
+CardStat = 3628
+
+{
+
+global.CardName[3628] = 'Justice Messenger, Crystaldevil'
+
+global.CardText[3628] = 'Nova Grappler/пришелец/Звёздные врата
+
+АВТО [Авангард] Импульс наследия 1: [Встречный взрыв 1] Когда этот воин атакует авангард, Вы можете заплатить цену. Если заплатите, выберите до одного своего арьергарда с Натиском, поднимите его и до конца хода он приобретает: «АВТО [Арьергард] [Раз за ход]: в конце битвы, в которой этот воин атаковал авангард, поднимите его».
+АВТО: [Встречный взрыв 1 & Взрыв души 1] Когда этот воин призывается в авангард, Вы можете заплатить цену. Если заплатите, выберите до одного своего арьергарда и до конца хода он приобретает: «АВТО [Арьергард] [Раз за ход]: в конце битвы, в которой этот воин атаковал авангард, поднимите данного воина и до конца хода его сила увеличивается на 2,000.
+'
+
+global.UnitGrade[3628] = 3
+
+global.CardInClan[3628] = 4
+
+}
+
+global.PowerStat[3628] = 11000
+
+
+CardStat = 3629
+
+{
+
+global.CardName[3629] = 'Exxtreme Battler, Danshark'
+
+global.CardText[3629] = 'Nova Grappler/боевой робот/Звёздные врата
+
+Натиск — АВТО [Арьергард] Импульс наследия 1: когда этот воин поднимается способностью Вашей карты, до конца хода он приобретает: «АВТО [Арьергард]: [Встречный взрыв 1] Когда атака этого воина достигает авангарда оппонента, Вы можете заплатить цену. Если Вы это сделаете, выберите один арьергард оппонента, чья сила равна или меньше, чем у этого воина, и уберите его с поля».
+АВТО: [Встречный взрыв 1 & Взрыв души 1] Когда этот воин призывается в авангард, Вы можете заплатить цену. Если Вы это сделаете, посмотрите на пять верхних карт своей колоды, найдите среди них до одного воина со способностью Натиска, покажите его оппоненту, возьмите его себе в руку и перемешайте колоду.
+'
+
+global.UnitGrade[3629] = 3
+
+global.CardInClan[3629] = 4
+
+}
+
+global.PowerStat[3629] = 11000
+
+
+CardStat = 3630
+
+{
+
+global.CardName[3630] = 'Ultimate Raizer Glory-hand'
+
+global.CardText[3630] = 'Nova Grappler/боевой робот/Звёздные врата
+
+АКТ [Авангард]: Легион 20,000 Ultimate Raizer Dual-flare или Ultimate Raizer Speed-star.
+
+АВТО [Авангард]: когда другой Ваш воин, в имени которого содержится «Raizer», поднимается из-за способности Вашей карты, если данный воин стоит в легионе, до конца хода сила поднявшегося воина увеличивается на 5,000.
+
+АКТ [Авангард]: [Взрыв души 1] Если у Вас в центральной колонке находится ещё один воин, до конца хода сила данного воина увеличивается на 2,000.
+'
+
+global.UnitGrade[3630] = 3
+
+global.CardInClan[3630] = 4
+
+}
+
+global.PowerStat[3630] = 11000
+
+
+CardStat = 3631
+
+{
+
+global.CardName[3631] = 'Extreme Battler, Abarail'
+
+global.CardText[3631] = 'Nova Grappler/боевой робот/Звёздные врата
+
+АВТО: Импульс наследия 1: [Встречный взрыв 1 & Взрыв души 1] Когда этот воин призывается в арьергард, если у Вашего авангарда в имени содержится «Victor», Вы можете заплатить цену. Если Вы это сделаете, до конца хода сила данного воина увеличивается на 2,000 и он приобретает следующую способность: «АВТО [Арьергард] [Один раз за ход]: когда этот воин атакует авангард, выберите до одного своего другого арьергарда, поднимите его в бой и до конца хода сила того воина увеличивается на 5,000?.
+'
+
+global.UnitGrade[3631] = 2
+
+global.CardInClan[3631] = 4
+
+}
+
+global.PowerStat[3631] = 9000
+
+
+CardStat = 3632
+
+{
+
+global.CardName[3632] = 'Baby Face, Nalsis'
+
+global.CardText[3632] = 'Nova Grappler/пришелец/Звёздные врата
+
+Натиск — АВТО [Арьергард] Импульс наследия 1: когда этот воин поднимается из-за способности одной из Ваших карт, до конца хода данный воин приобретает следующую способность: «АВТО [Арьергард] Импульс наследия 1: когда атака этого воина достигает авангарда, активируйте Заряд счётчика 1 и Заряд души 1«.
+'
+
+global.UnitGrade[3632] = 2
+
+global.CardInClan[3632] = 4
+
+}
+
+global.PowerStat[3632] = 9000
+
+
+CardStat = 3633
+
+{
+
+global.CardName[3633] = 'Ultimate Raizer Speed-star'
+
+global.CardText[3633] = 'Nova Grappler/боевой робот/Звёздные врата
+
+АКТ [Арьергард]: [Встречный взрыв 1 «Raizer»] Если у Вас в авангарде находятся как минимум два воина, в оригинальных именах которых содержится «Raizer», до конца хода сила данного воина увеличивается на 3,000 и он приобретает следующую способность: «АВТО [Арьергард] [Один раз за ход]: когда атака этого воина достигает авангарда, выберите до одного своего другого арьергарда и поднимите его в бой».
+'
+
+global.UnitGrade[3633] = 2
+
+global.CardInClan[3633] = 4
+
+}
+
+global.PowerStat[3633] = 9000
+
+
+CardStat = 3634
+
+{
+
+global.CardName[3634] = 'Master Kungfu'
+
+global.CardText[3634] = 'Nova Grappler/боевой зверь/Звёздные врата
+
+Натиск — АВТО [Арьергард] Импульс наследия 1: когда этот воин поднимается из-за способности Вашей карты, до конца хода он приобретает следующую способность: «АВТО [Арьергард]: [Встречный взрыв 1] Когда атака этого воина достигает авангарда, Вы можете заплатить цену. Если Вы это сделаете, выберите до одного своего другого арьергарда, поднимите его в бой, и до конца хода сила того воина увеличивается на 5,000?.
+'
+
+global.UnitGrade[3634] = 2
+
+global.CardInClan[3634] = 4
+
+}
+
+global.PowerStat[3634] = 9000
+
+
+CardStat = 3635
+
+{
+
+global.CardName[3635] = 'Extreme Battler, Gachibattle'
+
+global.CardText[3635] = 'Nova Grappler/боевой робот/Звёздные врата
+
+ПРОДОЛЖИТЕЛЬНЫЙ: страж.
+АВТО: [Скиньте одного воина из руки] Когда этот воин призывается в круг защиты из руки, Вы можете заплатить цену. Если заплатите, выберите свой атакуемый авангард и до конца битвы атаки по нему не проходят.
+АВТО: Импульс наследия 1: когда этот воин призывается в круг защиты, если у Вас на кладбище есть Extreme Battler, Gachibattle, выберите до одного своего арьергарда и до конца хода он приобретает: «АВТО [Арьергард]: [Встречный взрыв 1] В начале Вашей фазы защиты, в которой Ваш авангард подвергается атаке, Вы можете заплатить цену. Если заплатите, переместите этого воина в круг защиты в спящем положении и до конца битвы его защита увеличивается на 10,000.
+'
+
+global.UnitGrade[3635] = 1
+
+global.CardInClan[3635] = 4
+
+}
+
+global.PowerStat[3635] = 6000
+
+
+CardStat = 3636
+
+{
+
+global.CardName[3636] = 'Shinobiraizer'
+
+global.CardText[3636] = 'Nova Grappler/боевой робот/Звёздные врата
+
+АВТО [Арьергард] [Один раз за ход]: когда из-за способности Вашей карты поднимается другой Ваш воин, в имени которого содержится «Raizer» и который находится с данным воином в одной колонке, Вы можете открыть три верхние карты своей колоды. Если Вы открыли три карты, и у всех у них в имени содержится «Raizer», выберите среди них до одного воина, возьмите его в руку, а остальные отправьте на кладбище, а если нет, отправьте все открытые карты на кладбище.
+'
+
+global.UnitGrade[3636] = 1
+
+global.CardInClan[3636] = 4
+
+}
+
+global.PowerStat[3636] = 7000
+
+
+CardStat = 3637
+
+{
+
+global.CardName[3637] = 'Extreme Battler, Malyaki'
+
+global.CardText[3637] = 'Nova Grappler/боевой робот/Звёздные врата
+
+ПРОДОЛЖИТЕЛЬНЫЙ [Арьергард] Импульс наследия 1: если в имени Вашего авангарда содержится «Victor», все остальные Ваши воины, находящиеся в одной колонке с данным воином, приобретают следующую способность: «Натиск — АВТО [Авангард/арьергард]: когда этот воин поднимается в бой из-за способности Вашей карты, до конца хода данный воин приобретает следующую способность: «АВТО [Авангард/арьергард]: когда этот воин атакует авангард, выберите до двух своих воинов, и до конца хода их сила увеличивается на 4,000».
+'
+
+global.UnitGrade[3637] = 1
+
+global.CardInClan[3637] = 4
+
+}
+
+global.PowerStat[3637] = 7000
+
+
+CardStat = 3638
+
+{
+
+global.CardName[3638] = 'Kumah the Destroyer'
+
+global.CardText[3638] = 'Nova Grappler/боевой зверь/Звёздные врата
+
+Натиск — АВТО [Арьергард] Импульс наследия 1: когда этот воин поднимается в бой из-за способности Вашей карты, до конца хода данный воин приобретает следующую способность: «АВТО [Авангард/арьергард]: когда этот воин атакует авангард, до конца битвы сила этого воина увеличивается на 5,000?.
+'
+
+global.UnitGrade[3638] = 1
+
+global.CardInClan[3638] = 4
+
+}
+
+global.PowerStat[3638] = 7000
+
+
+CardStat = 3639
+
+{
+
+global.CardName[3639] = 'Ratchadamnoen Kid'
+
+global.CardText[3639] = 'Nova Grappler/драко-человек/Звёздные врата
+
+АВТО [Арьергард]: когда поднимается другой Ваш воин, находящийся с данным воином в одной колонке и обладающий способностью Натиска, этот воин поднимается в бой.
+'
+
+global.UnitGrade[3639] = 1
+
+global.CardInClan[3639] = 4
+
+}
+
+global.PowerStat[3639] = 7000
+
+
+CardStat = 3640
+
+{
+
+global.CardName[3640] = 'Turboraizer Custom'
+
+global.CardText[3640] = 'Nova Grappler/боевой робот/Звёздные врата
+
+АВТО: первопроходец.
+
+АКТ [Арьергард]: [Встречный взрыв 1 & уберите данного воина с поля] Если у Вашего авангарда в имени содержится «Raizer», выберите до одного своего другого арьергарда, в имени которого содержится «Raizer», и до конца хода он приобретает следующую способность: «АВТО [Арьергард] [Один раз за ход]: когда Ваш авангард атакует, поднимите данного воина в бой и до конца хода сила этого воина увеличивается на 5,000?.
+'
+
+global.UnitGrade[3640] = 0
+
+global.CardInClan[3640] = 4
+
+}
+
+global.PowerStat[3640] = 5000
+
+
+CardStat = 3641
+
+{
+
+global.CardName[3641] = 'Extreme Battler, Cabtron'
+
+global.CardText[3641] = 'Nova Grappler/боевой робот/Звёздные врата
+
+АВТО: первопроходец.
+
+АВТО [Арьергард] Импульс наследия 1: [Встречный взрыв 1 & поместите данного воина в душу] В конце битвы, в которой этот воин поддерживал, Вы можете заплатить цену. Если Вы это сделаете, выберите до одного своего другого арьергарда и поднимите его в бой, и до конца хода сила того воина увеличивается на 2,000.
+'
+
+global.UnitGrade[3641] = 0
+
+global.CardInClan[3641] = 4
+
+}
+
+global.PowerStat[3641] = 5000
+
+
+CardStat = 3642
+
+{
+
+global.CardName[3642] = 'Training Therapist'
+
+global.CardText[3642] = 'Nova Grappler/рабочий робот/Звёздные врата/исцеляющий триггер-эффект
+
+В колоде нельзя иметь больше четырёх исцеляющих триггер-эффектов.
+'
+
+global.UnitGrade[3642] = 0
+
+global.CardInClan[3642] = 4
+
+}
+
+global.TriggerUnit[3642] = 4
+
+global.PowerStat[3642] = 5000
+
+
+CardStat = 3643
+
+{
+
+global.CardName[3643] = 'Extreme Battler, Break-pass'
+
+global.CardText[3643] = 'Nova Grappler/боевой робот/Звёздные врата/критический триггер-эффект
+
+АВТО [Арьергард]: [Поместите данного воина в душу] Когда Ваш авангард атакует, если у него в имени содержится «Victor», Вы можете заплатить цену. Если Вы это сделаете, возьмите одну карту из колоды, выберите свой авангард и до конца битвы его сила увеличивается на 5,000.
+'
+
+global.UnitGrade[3643] = 0
+
+global.CardInClan[3643] = 4
+
+}
+
+global.TriggerUnit[3643] = 2
+
+global.PowerStat[3643] = 4000
+
+
+CardStat = 3644
+
+{
+
+global.CardName[3644] = 'Beast Deity, Great Eater'
+
+global.CardText[3644] = 'Nova Grappler/боевой робот/Звёздные врата/поднимающий триггер-эффект
+
+АВТО [Арьергард]: [Поместите данного воина на верх своей колоды] Во время Вашей боевой фазы, когда Вы поднимаете другого находящегося у Вас в арьергарде воина, в имени которого содержится «Beast Deity», Вы можете заплатить цену. Если Вы это сделаете, перемешайте колоду и возьмите одну карту из колоды.
+'
+
+global.UnitGrade[3644] = 0
+
+global.CardInClan[3644] = 4
+
+}
+
+global.TriggerUnit[3644] = 3
+
+global.PowerStat[3644] = 4000
+
+
+CardStat = 3645
+
+{
+
+global.CardName[3645] = 'Perfect Referee 2.99'
+
+global.CardText[3645] = 'Nova Grappler/рабочий робот/Звёздные врата/поднимающий триггер-эффект
+
+АКТ [Арьергард] [Один раз за ход] Импульс наследия 1: [0] Выберите до одного своего другого воина и до конца хода он приобретает следующую способность: «Натиск — АВТО ?Арьергард?: когда этот воин поднимается из-за эффекта, он приобретает следующую способность: АВТО [Арьергард]: когда этот воин атакует авангард, до конца битвы его сила увеличивается на 5,000?. Затем верните данного воина в колоду и перемешайте.
+'
+
+global.UnitGrade[3645] = 0
+
+global.CardInClan[3645] = 4
+
+}
+
+global.TriggerUnit[3645] = 3
+
+global.PowerStat[3645] = 3000
+
+
+CardStat = 3646
+
+{
+
+global.CardName[3646] = 'Totem Brothers'
+
+global.CardText[3646] = 'Nova Grappler/пришелец/Звёздные врата/дающий карту триггер-эффект
+'
+
+global.UnitGrade[3646] = 0
+
+global.CardInClan[3646] = 4
+
+}
+
+global.TriggerUnit[3646] = 1
+
+global.PowerStat[3646] = 5000
+
+CardStat = 3683
+
+{
+
+global.CardName[3683] = 'Meteokaiser, Bustered'
+
+global.CardText[3683] = 'Nova Grappler/боевой робот/Звёздные врата/воин наследия
+
+Вознесение.
+
+АВТО [Авангард] [Раз за ход]: [Встречный взрыв 1 & переверните в открытое положение одного находящегося у Вас в зоне наследия воина] Когда этот воин атакует, Вы можете заплатить цену. Если заплатите, выберите столько своих арьергардов, сколько открытых Meteokaiser, Bastard у Вас в зоне наследия, и поднимите их. Если этой способностью поднялись минимум два арьергарда, и у Вас на поле пять арьергардов, до конца боя данный воин приобретает: "АВТО [Авангард]: [Встречный взрыв 1 & скиньте две карты из руки] В конце битвы, Вы можете заплатить цену. Если заплатите, поднимите данного воина, но до конца хода он теряет две проверки эффектов".
+'
+
+global.UnitGrade[3683] = 4
+
+global.CardInClan[3683] = 4
+
+global.ExtraDeck[3683] = 1
+
+}
+
+global.PowerStat[3683] = 15000
+
+CardStat = 3741
+
+{
+
+global.CardName[3741] = 'Righteous Superhuman, Blue Prison'
+
+global.CardText[3741] = 'Nova Grappler/пришелец/Звёздные врата/страж наследия
+
+Страж наследия.
+
+АВТО: когда этот воин призывается в круг защиты, если у Вас в зоне урона больше или же столько же карт, сколько и у оппонента, до конца битвы защита данного воина увеличивается на 5,000.
+'
+
+global.UnitGrade[3741] = 4
+
+global.CardInClan[3741] = 4
+
+global.ExtraDeck[3741] = 1
+
+}
+
+global.PowerStat[3741] = 0
+
+CardStat = 4386
+
+{
+
+global.CardName[4386] = 'Extreme Battler, Buttagil'
+
+global.CardText[4386] = 'Nova Grappler/боевой робот/Звёздные врата
+
+Натиск - АВТО [Арьергард] Импульс наследия 2: когда этот воин поднимается способностью карты, если у Вашего авангарда в имени содержится "Victor", до конца хода сила данного воина увеличивается на 5,000. 
+
+АВТО [Арьергард] Импульс наследия 1: когда Вам во время проверки эффектов попадается воин 3го ранга, выберите одного арьергарда, находящегося в переднем ряду оппонента, чья сила равна или ниже силы данного воина, и уберите его с поля.
+'
+
+global.UnitGrade[4386] = 2
+
+global.CardInClan[4386] = 4
+
+}
+
+global.PowerStat[4386] = 9000
+
+CardStat = 4420
+
+{
+
+global.CardName[4420] = 'Sonne Blaukluger'
+
+global.CardText[4420] = 'Nova Grappler/боевой робот/Звёздные врата/воин наследия
+
+Вознесение.
+АВТО [Авангард]: [Встречный взрыв 1] Когда этот воин атакует, если в имени Вашего сердца есть «Blau», Вы можете заплатить цену. Если заплатите, найдите в своей колоде до одной карты 3го ранга, в имени которой есть «Blau», покажите её оппоненту, возьмите в руку, перемешайте колоду, и до конца битвы этот воин приобретает: «АВТО [Авангард] Разрыв лимитов 5: [Выберите три находящиеся у Вас в руке карты и сбросьте их] В конце битвы, Вы можете заплатить цену. Если заплатите, поместите этого воина в свою зону наследия в открытом положении, выберите находящуюся у Вас в руке карту 3го ранга, и Вы можете сделать на неё смену в стоячем положении».
+'
+
+global.UnitGrade[4420] = 4
+
+global.CardInClan[4420] = 4
+
+global.ExtraDeck[4420] = 1
+
+}
+
+global.PowerStat[4420] = 15000
+
+CardStat = 4523
+
+{
+
+global.CardName[4523] = 'Vollmond Blaukluger'
+
+global.CardText[4523] = 'Nova Grappler/боевой робот/Звёздные врата
+
+АВТО [Разрыв лимитов 4]: [Встречный взрыв 1] Когда поверх делается смена на воина, в имени которого содержится "Blau", Вы можете заплатить цену. Если заплатите, до конца хода сила того воина увеличивается на 10,000 и он приобретает: "АВТО [Авангард]: когда этот воин атакует авангард, если у Вас в стоячем положении находятся как минимум три арьергарда, в именах которых содержится "Blau", до конца битвы оппонент не может призывать из руки на защиту воинов со способностью стража".
+АВТО [Авангард]: [Взрыв души 1 "Blau"] Когда атака Вашего арьергарда, в имени которого содержится "Blau", достигает авангарда, Вы можете заплатить цену. Если заплатите, активируйте Заряд счётчика 1.
+'
+
+global.UnitGrade[4523] = 3
+
+global.CardInClan[4523] = 4
+
+}
+
+global.PowerStat[4523] = 11000
+
+CardStat = 4550
+
+{
+
+global.CardName[4550] = 'Uranus Blaukluger'
+
+global.CardText[4550] = 'Nova Grappler/боевой робот/Звёздные врата
+
+АВТО [Арьергард]: когда к Вам в авангард призывается воин, в имени которого содержится "Blau", путём смены поверх воина 3го ранга или путём вознесения, до конца хода сила данного воина увеличивается на 5,000 и он приобретает следующую способность: "АВТО [Арьергард] [Один раз за ход]: [Встречный взрыв 1] Когда атака Вашего авангарда достигает авангарда, Вы можете заплатить цену. Если Вы это сделаете, поднимите данного воина в бой". 
+'
+
+global.UnitGrade[4550] = 2
+
+global.CardInClan[4550] = 4
+
+}
+
+global.PowerStat[4550] = 9000
+
+
+CardStat = 4551
+
+{
+
+global.CardName[4551] = 'Neptune Blaukluger'
+
+global.CardText[4551] = 'Nova Grappler/боевой робот/Звёздные врата
+
+ПРОДОЛЖИТЕЛЬНЫЙ [Рука]: если у Вас в душе находится карта 3го ранга, в имени которой содержится "Blau", когда Вы платите цену за вознесение, ранг данной карты увеличивается на два. 
+
+АВТО: когда эта карта скидывается из руки в качестве платы за вознесение, если у Вас в душе находится карта 3го ранга, в имени которой содержится "Blau", Вы можете призвать данную карту в арьергард.
+'
+
+global.UnitGrade[4551] = 1
+
+global.CardInClan[4551] = 4
+
+}
+
+global.PowerStat[4551] = 7000
+
+
+CardStat = 4552
+
+{
+
+global.CardName[4552] = 'Hyper Battler, Victor'
+
+global.CardText[4552] = 'Nova Grappler/боевой робот/Звёздные врата
+
+Натиск - АВТО [Авангард/арьергард] Импульс наследия 2: когда этот воин поднимается из-за эффекта Вашей карты, до конца хода сила всех Ваших воинов, находящихся в переднем ряду, увеличивается на 2,000. 
+
+АВТО [Авангард]: во время Вашего хода, когда Ваш воин наследия возносится, выберите одного находящегося у Вас в авангарде воина и до конца хода он приобретает следующую способность: "АВТО [Авангард] [Один раз за ход]: [Взрыв души 1] Когда этот воин атакует авангард, Вы можете заплатить цену. Если Вы это сделаете, выберите одного своего арьергарда, обладающего способностью Натиска, и поднимите всех арьергардов, находящихся в одной колонке с ранее выбранным воином". 
+'
+
+global.UnitGrade[4552] = 3
+
+global.CardInClan[4552] = 4
+
+}
+
+global.PowerStat[4552] = 11000
+
+CardStat = 4563
+
+{
+
+global.CardName[4563] = 'Bare Knuckle Ernest'
+
+global.CardText[4563] = 'Nova Grappler/человек/Звёздные врата
+
+АКТ [Арьергард] Импульс наследия 1: [Уберите данного воина с поля] Выберите одного своего арьергарда и поднимите его в бой. 
+
+АВТО: [Взрыв души 1 & отправьте данного воина на отдых & выберите одного своего другого арьергарда и отправьте его на отдых] Когда этот воин призывается в арьергард, Вы можете заплатить цену. Если Вы это сделаете, возьмите одну карту из колоды. 
+'
+
+global.UnitGrade[4563] = 2
+
+global.CardInClan[4563] = 4
+
+}
+
+global.PowerStat[4563] = 8000
+
+
+CardStat = 4564
+
+{
+
+global.CardName[4564] = 'Giant Star of Zenith, Moai the Supreme'
+
+global.CardText[4564] = 'Nova Grappler/пришелец/Звёздные врата
+
+Вознесение.
+
+АВТО [Авангард]: когда Вам в проверке эффектов попадается карта 3го ранга, выберите одного своего арьергарда, поднимите его, и до конца хода его сила увеличивается на 5,000.
+'
+
+global.UnitGrade[4564] = 4
+
+global.CardInClan[4564] = 4
+
+global.ExtraDeck[4564] = 1
+}
+
+global.PowerStat[4564] = 15000
+
+CardStat = 4572
+
+{
+
+global.CardName[4572] = 'Meteokaiser, Uniall'
+
+global.CardText[4572] = 'Nova Grappler/боевой робот/Звёздные врата/страж наследия
+
+Страж наследия.
+
+АВТО: когда этот воин призывается в круг защиты, если у Вас в зоне урона нет открытых карт, активируйте Заряд счётчика 2, и до конца битвы защита данного воина увеличивается на 5,000. 
+
+АВТО: когда этот воин призывается в круг защиты, если у Вас нет карт в душе, активируйте Заряд души 2, и до конца битвы защита данного воина увеличивается на 5,000. 
+'
+
+global.UnitGrade[4572] = 4
+
+global.CardInClan[4572] = 4
+
+global.ExtraDeck[4572] = 1
+}
+
+global.PowerStat[4572] = 15000
+
+CardStat = 4576
+
+{
+
+global.CardName[4576] = 'Screamin and Shoutin Announcer, The Mike'
+
+global.CardText[4576] = 'Nova Grappler/рабочий робот/Звёздные врата
+
+АВТО [Арьергард] [Один раз за ход]: когда эффектом карты поднимается другой Ваш воин, обладающий способностью Натиска и находящийся с данным воином в одной колонке, активируйте Заряд счётчика 1. 
+'
+
+global.UnitGrade[4576] = 1
+
+global.CardInClan[4576] = 4
+
+}
+
+global.PowerStat[4576] = 6000
+
+CardStat = 4581
+
+{
+
+global.CardName[4581] = 'Favorite Champ, Victor'
+
+global.CardText[4581] = 'Nova Grappler/боевой робот/Звёздные врата/воин наследия
+
+Вознесение.
+
+АВТО [Авангард] Импульс наследия 2: [Встречный взрыв 2 & выберите у себя в руке одну карту и скиньте её на кладбище] В конце битвы, в которой этот воин атаковал, Вы можете заплатить цену. Если Вы это сделаете, выберите до стольки своих арьергардов, сколько открытых воинов наследия находятся у Вас в зоне наследия, и поднимите их в бой. Если Вы подняли как минимум трёх воинов, выберите у себя в руке три карты и Вы можете скинуть их. Если Вы скинули три карты, активируйте Заряд счётчика 1, поднимите данного воина, и до конца хода проверка эффектов этого воина снижается на две. 
+'
+
+global.UnitGrade[4581] = 4
+
+global.CardInClan[4581] = 4
+
+global.ExtraDeck[4581] = 1
+
+}
+
+global.PowerStat[4581] = 15000
+
+
+CardStat = 4582
+
+{
+
+global.CardName[4582] = 'Extreme Battler, Winning-break'
+
+global.CardText[4582] = 'Nova Grappler/боевой робот/Звёздные врата
+
+Натиск - АВТО [Арьергард] Импульс наследия 1: [поместите данного воина в низ своей колоды] Когда этот воин поднимается из-за способности Вашей карты, Вы можете заплатить цену. Если Вы это сделаете, возьмите одну карту из колоды, выберите одного своего арьергарда, поднимите его в бой и перемешайте колоду. 
+'
+
+global.UnitGrade[4582] = 0
+
+global.CardInClan[4582] = 4
+
+}
+
+global.TriggerUnit[4582] = 3
+
+global.PowerStat[4582] = 4000
+
+
+CardStat = 4583
+
+{
+
+global.CardName[4583] = 'Extreme Battler, Banget'
+
+global.CardText[4583] = 'Nova Grappler/боевой робот/Звёздные врата
+
+Натиск - АВТО [Арьергард]: когда этот воин поднимается из-за способности карты, если у Вашего авангарда в имени содержится "Victor", до конца хода данный воин приобретает следующую способность: "АВТО [Арьергард]: [Поместите данного воина в душу] Когда атака достигает авангарда во время атаки, в которой данный воин атаковал или поддерживал, Вы можете заплатить цену. Если Вы это сделаете, выберите одного своего другого арьергарда, обладающего способностью Натиска, и поднимите его в бой".
+'
+
+global.UnitGrade[4583] = 1
+
+global.CardInClan[4583] = 4
+
+}
+
+global.PowerStat[4583] = 7000
+
+CardStat = 4629
+
+{
+
+global.CardName[4629] = 'Quad Gigas'
+
+global.CardText[4629] = 'Nova Grappler/пришелец/Звёздные врата
+
+АВТО [Авангард/арьергард] Импульс наследия 1: когда этот воин атакует авангард, до конца битвы его сила увеличивается на 4,000.
+
+АВТО [Арьергард]: [Взрыв души 1 & уберите данного воина с поля] Когда атака этого воина достигает авангарда, Вы можете заплатить цену. Если Вы это сделаете, выберите одного своего арьергарда и поднимите его в бой.
+'
+
+global.UnitGrade[4629] = 3
+
+global.CardInClan[4629] = 4
+
+}
+
+global.PowerStat[4629] = 10000
+
+
+CardStat = 4630
+
+{
+
+global.CardName[4630] = 'Saturn Blaukluger'
+
+global.CardText[4630] = 'Nova Grappler/боевой робот/Звёздные врата
+
+АВТО [Арьергард]: [Выберите у себя в руке одну карту и сбросьте её] Когда Вам во время проверки эффектов попадается воин 3го ранга, в имени которого содержится «Blau», Вы можете заплатить цену. Если Вы это сделаете, выберите одного находящегося у Вас в авангарде воина и до конца хода сила того воина, в также данного воина, увеличивается на 5,000.
+'
+
+global.UnitGrade[4630] = 2
+
+global.CardInClan[4630] = 4
+
+}
+
+global.PowerStat[4630] = 9000
+
+
+CardStat = 4631
+
+{
+
+global.CardName[4631] = 'Spurt Centaur'
+
+global.CardText[4631] = 'Nova Grappler/боевой зверь/Звёздные врата
+
+Натиск — АВТО [Арьергард] Импульс наследия 1: [Взрыв души 1 & выберите одного своего другого арьергарда, находящегося в одной колонке с данным воином, и верните его в руку] Когда этот воин поднимается благодаря Вашему эффекту, Вы можете заплатить цену. Если Вы это сделаете, до конца хода сила данного воина увеличивается на 5,000.
+'
+
+global.UnitGrade[4631] = 2
+
+global.CardInClan[4631] = 4
+
+}
+
+global.PowerStat[4631] = 9000
+
+
+CardStat = 4632
+
+{
+
+global.CardName[4632] = 'Magical Spinner'
+
+global.CardText[4632] = 'Nova Grappler/человек/Звёздные врата
+
+Натиск — АВТО [Арьергард]: когда этот воин поднимается благодаря Вашему эффекту, до конца хода он приобретает следующую способность: «АВТО [Арьергард]: когда атака этого воина достигает авангарда, выберите одного арьергарда оппонента, чья сила ниже или равна силе данного воина, и уберите его с поля».
+'
+
+global.UnitGrade[4632] = 2
+
+global.CardInClan[4632] = 4
+
+}
+
+global.PowerStat[4632] = 9000
+
+
+CardStat = 4633
+
+{
+
+global.CardName[4633] = 'Defending Goddess'
+
+global.CardText[4633] = 'Nova Grappler/пришелец/Звёздные врата
+
+ПРОДОЛЖИТЕЛЬНЫЙ: страж.
+
+АВТО: [Встречный взрыв 1] Когда этот воин помещается в круг защиты из руки во время битвы, в которой Ваш авангард подвергается атаке, Вы можете заплатить цену. Если Вы это сделаете, призовите пять верхних карт своей колоды на защиту. Выберите одного своего защитника со способностью Натиска и до конца битвы его защита увеличивается на 10,000.
+'
+
+global.UnitGrade[4633] = 1
+
+global.CardInClan[4633] = 4
+
+}
+
+global.PowerStat[4633] = 6000
+
+
+CardStat = 4634
+
+{
+
+global.CardName[4634] = 'Venus Blaukluger'
+
+global.CardText[4634] = 'Nova Grappler/боевой робот/Звёздные врата
+
+АВТО [Арьергард] [Один раз за ход] Импульс наследия 1: когда другой Ваш арьергард поднимается из-за способности авангарда, в имени которого содержится «Blau», поднимите данного воина в бой и до конца хода его сила увеличивается на 3,000.
+'
+
+global.UnitGrade[4634] = 1
+
+global.CardInClan[4634] = 4
+
+}
+
+global.PowerStat[4634] = 7000
+
+
+CardStat = 4635
+
+{
+
+global.CardName[4635] = 'Furious Puncher'
+
+global.CardText[4635] = 'Nova Grappler/боевой робот/Звёздные врата
+
+Натиск — АВТО [Арьергард] Импульс наследия 1: когда этот воин поднимается из-за Вашей способности, выберите одного своего другого воина и до конца хода его сила увеличивается на 5,000.
+
+АКТ [Арьергард] Импульс наследия 1: [Уберите данного воина с поля] Выберите одного своего арьергарда и поднимите его в бой.
+'
+
+global.UnitGrade[4635] = 1
+
+global.CardInClan[4635] = 4
+
+}
+
+global.PowerStat[4635] = 7000
+
+
+CardStat = 4636
+
+{
+
+global.CardName[4636] = 'Clay-doll Chariots'
+
+global.CardText[4636] = 'Nova Grappler/пришелец/Звёздные врата
+
+АВТО: [Взрыв души 2] Когда этот воин призывается в арьергард, Вы можете заплатить цену. Если Вы это сделаете, активируйте Заряд счётчика 2.
+'
+
+global.UnitGrade[4636] = 1
+
+global.CardInClan[4636] = 4
+
+}
+
+global.PowerStat[4636] = 5000
+
+
+CardStat = 4637
+
+{
+
+global.CardName[4637] = 'Petit Ace'
+
+global.CardText[4637] = 'Nova Grappler/боевой робот/Звёздные врата
+
+АВТО: первопроходец.
+
+АКТ [Арьергард] Импульс наследия 1: [Встречный взрыв 1 & отправьте данного воина на отдых] Выберите одного своего арьергарда, поднимите его в бой и, если у того воина есть способность Натиска, до конца хода его сила увеличивается на силу данного воина. Уберите данного воина с поля.
+
+АКТ [Арьергард]: [Выберите одного своего другого арьергарда и отправьте его на отдых] До конца хода сила данного воина увеличивается на 3,000.
+'
+
+global.UnitGrade[4637] = 0
+
+global.CardInClan[4637] = 4
+
+}
+
+global.PowerStat[4637] = 5000
+
+
+CardStat = 4638
+
+{
+
+global.CardName[4638] = 'Toughness Jane'
+
+global.CardText[4638] = 'Nova Grappler/пришелец/Звёздные врата/исцеляющий триггер-эффект
+
+В колоде не может быть больше четырёх исцеляющих триггер-эффектов.
+'
+
+global.UnitGrade[4638] = 0
+
+global.CardInClan[4638] = 4
+
+}
+
+global.TriggerUnit[4638] = 4
+
+global.PowerStat[4638] = 5000
+
+
+CardStat = 4639
+
+{
+
+global.CardName[4639] = 'Mega Hammer Lady'
+
+global.CardText[4639] = 'Nova Grappler/пришелец/Звёздные врата/дающий карту триггер-эффект
+'
+
+global.UnitGrade[4639] = 0
+
+global.CardInClan[4639] = 4
+
+}
+
+global.TriggerUnit[4639] = 1
+
+global.PowerStat[4639] = 5000
+
+CardStat = 4699
+
+{
+
+global.CardName[4699] = 'Extreme Battler, Ganseal'
+
+global.CardText[4699] = 'Nova Grappler/боевой робот/Звёздные врата/исцеляющий триггер-эффект
+
+В колоде нельзя иметь больше четырёх исцеляющих триггер-эффектов.
+
+АВТО: [Взрыв души 1] Когда эта карта скидывается для призыва Meteokaiser, Gandread, если у Вас в зоне урона как максимум одна открытая карта, Вы можете заплатить цену. Если Вы это сделаете, активируйте Заряд счётчика 1.
+'
+
+global.UnitGrade[4699] = 0
+
+global.CardInClan[4699] = 4
+
+}
+
+global.TriggerUnit[4699] = 4
+
+global.PowerStat[4699] = 4000
+
+
+CardStat = 4700
+
+{
+
+global.CardName[4700] = 'Meteokaiser, Gandread'
+
+global.CardText[4700] = 'Nova Grappler/боевой робот/Звёздные врата
+
+Страж наследия.
+
+АВТО [Импульс наследия 1]: [Выберите у себя в зоне наследия одного закрытого стража наследия и переверните его в открытое положение] Когда этот воин призывается в круг защиты, Вы можете заплатить цену. Если Вы это сделаете, выберите одного своего авангарда и до конца хода он приобретает следующую способность: «АВТО [Авангард]: в конце битвы, в которой этот воин бы атакован, если атака не прошла, активируйте Заряд счётчика 1«.
+'
+
+global.UnitGrade[4700] = 4
+
+global.CardInClan[4700] = 4
+
+global.ExtraDeck[4700] = 1
+}
+
+global.PowerStat[4700] = 4000
+
+CardStat = 4805
+
+{
+
+global.CardName[4805] = 'Fang Dragon King Fist, Driger'
+
+global.CardText[4805] = 'Nova Grappler/боевой робот/Звёздные врата
+
+Вознесение.
+
+АВТО [Авангард] [Импульс наследия 8]: [Встречный взрыв 1] Когда этот воин атакует авангард, Вы можете заплатить цену. Если Вы это сделаете, поднимите всех своих арьергардов, и до конца хода они приобретают следующую способность: "АВТО [Арьергард] [Один раз за ход]: когда этот воин отправляется на отдых, поднимите данного воина в бой", и за каждого Вашего арьергарда, до конца битвы сила данного воина увеличивается на 5,000.
+'
+
+global.UnitGrade[4805] = 4
+
+global.CardInClan[4805] = 4
+
+global.ExtraDeck[4805] = 1
+
+}
+
+global.PowerStat[4805] = 15000
+
+CardStat = 5391
+
+{
+
+global.CardName[5391] = 'Extreme Battler, Ninjard'
+
+global.CardText[5391] = 'Nova Grappler/боевой робот/Звёздные врата
+
+АВТО [Арьергард] [Один раз за ход] Импульс наследия 1: [Встречный взрыв 1] Когда этот воин атакует, если у Вашего авангарда в имени содержится «Victor», Вы можете заплатить цену. Если Вы это сделаете, выберите до одного своего другого арьергарда, поднимите его в бой и, до конца хода, за каждую Вашу открытую карту в зоне наследия, сила поднявшегося и этого воина увеличивается на 2,000.
+'
+
+global.UnitGrade[5391] = 2
+
+global.CardInClan[5391] = 4
+
+}
+
+global.PowerStat[5391] = 9000
+
+CardStat = 5393
+
+{
+
+global.CardName[5393] = 'Regia Blaulanze'
+
+global.CardText[5393] = 'Nova Grappler/боевой робот/Звёздные врата
+
+АВТО [Арьергард]: [Встречный взрыв 1 & Взрыв души 1] Когда атакует Ваш авангард 3го или выше ранга, в имени которого содержится "Blau", Вы можете заплатить цену. Если Вы это сделаете, поднимите данного воина в бой и до конца хода его сила увеличивается на 2,000.
+'
+
+global.UnitGrade[5393] = 2
+
+global.CardInClan[5393] = 4
+
+}
+
+global.PowerStat[5393] = 9000
+
+CardStat = 5394
+
+{
+
+global.CardName[5394] = 'Meteokaiser, Dogantitan'
+
+global.CardText[5394] = 'Nova Grappler/боевой робот/Звёздные врата
+
+Страж наследия.
+
+ПРОДОЛЖИТЕЛЬНЫЙ [Круг защиты]: если у Вас в арьергарде меньше воинов, нежели у оппонента, защита данного воина увеличивается на 10,000. 
+
+АКТ [Зона наследия]: [Взрыв души 1 & переверните эту карту в закрытое положение] Выберите одну карту у себя в зоне урона или в кругу, и переверните её в открытое положение.
+'
+
+global.UnitGrade[5394] = 4
+
+global.CardInClan[5394] = 4
+
+global.ExtraDeck[5394] = 1
+}
+
+global.PowerStat[5394] = 0
+
+
+CardStat = 5397
+
+{
+
+global.CardName[5397] = 'Winning Champ, Victor'
+
+global.CardText[5397] = 'Nova Grappler/боевой робот/Звёздные врата
+
+Вознесение.
+
+АВТО [Авангард]: [Взрыв души 1 & выберите у себя в зоне наследия одну закрытую карту и переверните её в открытое положение] Когда Ваш арьергард поднимается, Вы можете заплатить цену. Если Вы это сделаете, до конца хода сила того и этого воинов увеличивается на 5,000. 
+
+АВТО [Авангард] Импульс наследия 3: в конце битвы, в которой этот воин атаковал, возьмите одну карту из колоды, выберите одного арьергарда оппонента, имеющего наинизшую силу, и уберите его с поля. 
+'
+
+global.UnitGrade[5397] = 4
+
+global.CardInClan[5397] = 4
+
+global.ExtraDeck[5397] = 1
+
+}
+
+global.PowerStat[5397] = 15000
+
+
+CardStat = 5398
+
+{
+
+global.CardName[5398] = 'Zubat Battler, Victor'
+
+global.CardText[5398] = 'Nova Grappler/боевой робот/Звёздные врата
+
+АВТО [Авангард]: [Встречный взрыв 1] Когда Ваш воин наследия возносится, Вы можете заплатить цену. Если Вы это сделаете, возьмите одну карту из колоды, выберите одну карту у себя в руке, призовите её в арьергард, выберите одного своего воина и до конца хода он приобретает следующую способность: "АВТО [Авангард/арьергард] [Один раз за ход]: когда этот воин атакует, выберите одного своего другого арьергарда и поднимите его в бой". 
+АВТО [Авангард]: в конце Вашего хода, если у Вас в зоне урона как максимум одна открытая карта, активируйте Заряд счётчика 1. Если у Вас в душе как максимум одна карта, активируйте Заряд души 1. Если Вы сделали и Заряд счётчика, и Заряд души, возьмите одну карту из колоды. 
+'
+
+global.UnitGrade[5398] = 3
+
+global.CardInClan[5398] = 4
+
+}
+
+global.PowerStat[5398] = 11000
+
+
+CardStat = 5399
+
+{
+
+global.CardName[5399] = 'Extreme Battler, Jerohork'
+
+global.CardText[5399] = 'Nova Grappler/боевой робот/Звёздные врата
+
+АВТО [Арьергард] Импульс наследия 1: [Встречный взрыв 1 & поместите данного воина в душу] В конце битвы, в которой этот воин поддерживал арьергард, если у Вашего авангарда в имени содержится "Victor", Вы можете заплатить цену. Если Вы это сделаете, возьмите одну карту из колоды, поднимите в бой ранее поддерживаемого арьергарда и до конца хода его сила увеличивается на 2,000.
+'
+
+global.UnitGrade[5399] = 1
+
+global.CardInClan[5399] = 4
+
+}
+
+global.PowerStat[5399] = 7000
+
+
+CardStat = 5403
+
+{
+
+global.CardName[5403] = 'Neumond Blaukluger'
+
+global.CardText[5403] = 'Nova Grappler/боевой робот/Звёздные врата
+
+АВТО [Авангард]: во время Вашего хода, когда возносится Ваш воин, в оригинальном имени которого содержится "Blau", выберите до одного своего воина, в имени которого содержится "Blau", и до конца хода его сила увеличивается на 5,000. 
+
+АВТО: [Встречный взрыв 1] Когда поверх этого воина сменяется кто-либо, в чьём имени содержится "Blau", Вы можете заплатить цену. Если Вы это сделаете, выберите до четырёх своих воинов, в именах которых содержится "Blau", поднимите их, и до конца хода их сила увеличивается на 5,000.
+'
+
+global.UnitGrade[5403] = 3
+
+global.CardInClan[5403] = 4
+
+}
+
+global.PowerStat[5403] = 11000
+
+
+CardStat = 5409
+
+{
+
+global.CardName[5409] = 'Extreme Battler, Baryon'
+
+global.CardText[5409] = 'Nova Grappler/боевой робот/Звёздные врата
+
+ПРОДОЛЖИТЕЛЬНЫЙ: страж.
+
+АВТО: [Выберите у себя в руке одну карту и скиньте её] Когда этот воин призывается в круг защиты из руки, Вы можете заплатить цену. Если Вы это сделаете, выберите одного своего воина, в имени которого содержится "Victor", и до конца битвы атаки по нему не проходят. Затем, Вы можете активировать Встречный взрыв 1. Если Вы это сделаете, возьмите одну карту из колоды.
+'
+
+global.UnitGrade[5409] = 1
+
+global.CardInClan[5409] = 4
+
+}
+
+global.PowerStat[5409] = 6000
+
+
+CardStat = 5411
+
+{
+
+global.CardName[5411] = 'Dr. Angstrom'
+
+global.CardText[5411] = 'Nova Grappler/пришелец/Звёздные врата
+
+АВТО [Авангард/арьергард] [Один раз за ход] Импульс наследия 1: [Встречный взрыв 1 & выберите у себя в руке три карты и скиньте их] Когда атака этого воина достигает авангард, Вы можете заплатить цену. Если Вы это сделаете, поднимите всех своих арьергардов.
+ 
+Натиск - АВТО [Авангард/арьергард] [Один раз за ход] Импульс наследия 1: когда этот воин поднимается способностью Вашей карты, до конца хода сила данного воина увеличивается на 5,000.
+'
+
+global.UnitGrade[5411] = 3
+
+global.CardInClan[5411] = 4
+
+}
+
+global.PowerStat[5411] = 11000
+
+
+CardStat = 5416
+
+{
+
+global.CardName[5416] = 'Esteemed Champion'
+
+global.CardText[5416] = 'Nova Grappler/пришелец/Звёздные врата
+
+Натиск - АВТО [Арьергард] [Один раз за ход] Импульс наследия 1: [Встречный взрыв 1 & Взрыв души 1] Когда этот воин поднимается из-за способности Вашей карты, Вы можете заплатить цену. Если Вы это сделаете, до конца хода сила данного воина удваивается. 
+'
+
+global.UnitGrade[5416] = 2
+
+global.CardInClan[5416] = 4
+
+}
+
+global.PowerStat[5416] = 7000
+
+CardStat = 5416
+
+{
+
+global.CardName[5416] = 'Esteemed Champion'
+
+global.CardText[5416] = 'Nova Grappler/пришелец/Звёздные врата
+
+Натиск - АВТО [Арьергард] [Один раз за ход] Импульс наследия 1: [Встречный взрыв 1 & Взрыв души 1] Когда этот воин поднимается из-за способности Вашей карты, Вы можете заплатить цену. Если Вы это сделаете, до конца хода сила данного воина удваивается. 
+'
+
+global.UnitGrade[5416] = 2
+
+global.CardInClan[5416] = 4
+
+}
+
+global.PowerStat[5416] = 7000
+
+CardStat = 5434
+
+{
+
+global.CardName[5434] = 'Extreme Battler, Golshachi'
+
+global.CardText[5434] = 'Nova Grappler/боевой робот/Звёздные врата
+
+ПРОДОЛЖИТЕЛЬНЫЙ [Арьергард]: если у Вашего авангарда в имени содержится "Victor", данный воин приобретает следующие способности: "ПРОДОЛЖИТЕЛЬНЫЙ [Арьергард]: Сопротивление" и "АВТО [Арьергард] [Один раз за ход]: [Встречный взрыв 1] Когда этот воин атакует, Вы можете заплатить цену. Если Вы это сделаете, выберите одного своего другого арьергарда и поднимите его в бой". 
+
+Натиск - АВТО [Арьергард] [Один раз за ход] Импульс наследия 2: когда этот воин поднимается способностью Вашей карты, до конца ход сила данного воина увеличивается на 7,000".
+'
+
+global.UnitGrade[5434] = 2
+
+global.CardInClan[5434] = 4
+
+}
+
+global.PowerStat[5434] = 9000
+
+CardStat = 5449
+
+{
+
+global.CardName[5449] = 'Arago Blauenergie'
+
+global.CardText[5449] = 'Nova Grappler/боевой робот/Звёздные врата/исцеляющий триггер-эффект
+
+В колоде не может быть больше четырёх исцеляющих триггер-эффектов. 
+
+АВТО: [Ограничьте данную карту в открытом положении & выберите у себя на кладбище одно своё другое исцеление и ограничьте его в открытом положении] Когда данная карта скидывается из руки в качестве платы за призыв стража наследия, Вы можете заплатить цену. Если Вы это сделаете, активируйте Заряд счётчика 1 или Заряд души 1. 
+'
+
+global.UnitGrade[5449] = 0
+
+global.CardInClan[5449] = 4
+
+}
+
+global.TriggerUnit[5449] = 4
+
+global.PowerStat[5449] = 4000
+
+
+CardStat = 5450
+
+{
+
+global.CardName[5450] = 'Annihilation Machine Beast, Demolsaurer'
+
+global.CardText[5450] = 'Nova Grappler/боевой робот/Звёздные врата
+
+Вознесение.
+
+АКТ [Авангард] [Один раз за ход]: [Выберите двух своих арьергардов и отправьте их на отдых] Возьмите одну карту из колоды, активируйте Заряд души 1, и до конца хода данный воин приобретает следующую способность: "АВТО [Авангард]: [Встречный взрыв 1] Когда этот воин атакует, Вы можете заплатить цену. Если Вы это сделаете, выберите одного своего арьергарда, поднимите его в бой, и до конца хода его сила увеличивается на 3,000". 
+'
+
+global.UnitGrade[5450] = 4
+
+global.CardInClan[5450] = 4
+
+global.ExtraDeck[5450] = 1
+
+}
+
+global.PowerStat[5450] = 15000
+
+
+CardStat = 5451
+
+{
+
+global.CardName[5451] = 'Varna Blauvant'
+
+global.CardText[5451] = 'Nova Grappler/боевой робот/Звёздные врата
+
+ПРОДОЛЖИТЕЛЬНЫЙ: страж.
+
+АВТО: [Выберите у себя в руке одну карту и скиньте её] Когда этот воин призывается в круг защиты, Вы можете заплатить цену. Если Вы это сделаете, выберите одного своего воина, в имени которого содержится "Blau", и до конца битвы атаки по нему не проходят. Если у Вас на кладбище находится страж, выберите до одного своего арьергарда, в имени которого содержится "Blau", и до конца хода он приобретает следующие способности: "ПРОДОЛЖИТЕЛЬНЫЙ [Арьергард]: Сопротивление" и "ПРОДОЛЖИТЕЛЬНЫЙ [Арьергард]: атаки по этому воину не проходят".
+'
+
+global.UnitGrade[5451] = 1
+
+global.CardInClan[5451] = 4
+
+}
+
+global.PowerStat[5451] = 6000
+
+
+CardStat = 5454
+
+{
+
+global.CardName[5454] = 'Barde Blaukanone'
+
+global.CardText[5454] = 'Nova Grappler/боевой робот/Звёздные врата
+
+ПРОДОЛЖИТЕЛЬНЫЙ [Арьергард]: если у Вас в зоне урона больше или столько же карт, сколько и у оппонента, сила данного воина увеличивается на 2,000. 
+
+АКТ [Арьергард] [Один раз за ход] Импульс наследия 1: [Встречный взрыв 1] Раскройте верхнюю карту своей колоды и поместите её в свою зону урона в закрытом положении. Если в зону урона была помещена карта, в имени которой содержится "Blau", до конца хода сила данного воина увеличивается на 5,000, а в конце хода выберите одну карту у себя в зоне урона и исцелите её.
+
+
+'
+
+global.UnitGrade[5454] = 2
+
+global.CardInClan[5454] = 4
+
+}
+
+global.PowerStat[5454] = 9000
+
+
+CardStat = 5455
+
+{
+
+global.CardName[5455] = 'Order Blauschleife'
+
+global.CardText[5455] = 'Nova Grappler/боевой робот/Звёздные врата
+
+АКТ [Арьергард] [Один раз за ход]: [Встречный взрыв 1] Если у Вашего авангарда в имени содержится "Blau", до конца хода сила данного воина увеличивается на 4,000, затем, сила данного воина увеличивается на 4,000 за каждую открытую карту 4го ранга у Вас в авангарде или в зоне наследия, в имени которой содержится "Blau".
+'
+
+global.UnitGrade[5455] = 2
+
+global.CardInClan[5455] = 4
+
+}
+
+global.PowerStat[5455] = 8000
+
+
+CardStat = 5456
+
+{
+
+global.CardName[5456] = 'Extreme Battler, Victhead'
+
+global.CardText[5456] = 'Nova Grappler/боевой робот/Звёздные врата
+
+АВТО: первопроходец.
+ 
+АВТО [Арьергард]: [Встречный взрыв 1 & поместите данного воин в душу] Когда Ваш воин поднимается из-за способности карты, Вы можете заплатить цену. Если Вы это сделаете, возьмите одну карту из колоды, выберите одного своего воина, и до конца хода его сила увеличивается на 2,000. Если у Вас в зоне урона нет открытых карт, активируйте Заряд счётчика 1. 
+'
+
+global.UnitGrade[5456] = 0
+
+global.CardInClan[5456] = 4
+
+}
+
+global.PowerStat[5456] = 5000
+
+
+CardStat = 5457
+
+{
+
+global.CardName[5457] = 'Reamer Blaukette'
+
+global.CardText[5457] = 'Nova Grappler/боевой робот/Звёздные врата
+
+АВТО: когда этот воин призывается в арьергард, если у Вашего авангарда в имени содержится "Blau" и у Вас в зоне урона больше или столько же карт, сколько и у оппонента, активируйте Заряд счётчика 1 и Заряд души 1. 
+
+АВТО [Арьергард] Импульс наследия 1: [Поместите данного воина в душу] Когда атака Вашего авангарда, в имени которого содержится "Blau", достигает авангарда, Вы можете заплатить цену. Если Вы это сделаете, возьмите одну карту из колоды.
+'
+
+global.UnitGrade[5457] = 1
+
+global.CardInClan[5457] = 4
+
+}
+
+global.PowerStat[5457] = 7000
+
+
+CardStat = 5458
+
+{
+
+global.CardName[5458] = 'Young Blaufetter'
+
+global.CardText[5458] = 'Nova Grappler/боевой робот/Звёздные врата
+
+АВТО: первопроходец. 
+
+АКТ [Арьергард]: [Встречный взрыв 1 & поместите данного воин в душу] Если у Вашего авангарда в имени содержится "Blau", раскройте четыре верхние карты своей колоды, выберите среди них до одной карты 1го или выше ранга, в имени которой содержится "Blau", возьмите её в руку и перемешайте колоду.
+'
+
+global.UnitGrade[5458] = 0
+
+global.CardInClan[5458] = 4
+
+}
+
+global.PowerStat[5458] = 5000
+
+
+CardStat = 5461
+
+{
+
+global.CardName[5461] = 'Extreme Battler, Gunsdon'
+
+global.CardText[5461] = 'Nova Grappler/боевой робот/Звёздные врата
+
+АКТ [Арьергард] [Один раз за ход] Импульс наследия 1: [Отправьте данного воина на отдых] Выберите до пяти своих арьергардов и до конца ход они приобретают следующую способность: "ПРОДОЛЖИТЕЛЬНЫЙ [Арьергард]: Сопротивление". 
+
+Натиск - АВТО [Арьергард] [Один раз за ход]: когда этот воин поднимается из-за способности Вашей карты, до конца хода сила данного воина увеличивается на 4,000 за каждую открытую карту у Вас в зоне наследия. 
+'
+
+global.UnitGrade[5461] = 1
+
+global.CardInClan[5461] = 4
+
+}
+
+global.PowerStat[5461] = 7000
+
+
+CardStat = 5462
+
+{
+
+global.CardName[5462] = 'Magical Performer'
+
+global.CardText[5462] = 'Nova Grappler/человек/Звёздные врата
+
+Натиск - АВТО [Арьергард] [Один раз за ход]: когда этот воин поднимается из-за способности Вашей карты, до конца хода сила данного воина увеличивается на 5,000 за каждую открытую карту у Вас в зоне наследия.
+'
+
+global.UnitGrade[5462] = 2
+
+global.CardInClan[5462] = 4
+
+}
+
+global.PowerStat[5462] = 9000
+
+
+CardStat = 5464
+
+{
+
+global.CardName[5464] = 'Vesta Blauklinge'
+
+global.CardText[5464] = 'Nova Grappler/боевой робот/Звёздные врата
+
+ПРОДОЛЖИТЕЛЬНЫЙ [Арьергард]: во время Вашего хода, если у Вас в зоне урона больше или столько же карт, сколько у оппонента, сила данного воина увеличивается на 2,000.
+
+АКТ [Арьергард] [Один раз за ход] Импульс наследия 1: [Встречный взрыв 1] Раскройте верхнюю карту своей колоды и поместите её в свою зону урона в закрытом положении. Если в зону урона была помещена карта, в имени которой содержится "Blau", до конца хода сила данного воина увеличивается на 5,000, а в конце хода выберите одну карту у себя в зоне урона и исцелите её.
+'
+
+global.UnitGrade[5464] = 1
+
+global.CardInClan[5464] = 4
+
+}
+
+global.PowerStat[5464] = 7000
+
+CardStat = 5482
+
+{
+
+global.CardName[5482] = 'Blazer Blaukluger'
+
+global.CardText[5482] = 'Nova Grappler/боевой робот/Звёздные врата
+
+Вознесение.
+
+АВТО [Авангард] Разрыв лимитов 4: [Встречный взрыв 1 & выберите у себя в руке две карты и скиньте их] В конце битвы, в которой этот воин атаковал, если у Вашего сердца в имени содержится "Blau", Вы можете заплатить цену. Если Вы это сделаете, верните эту карту в свою зону наследия в открытом положении, выберите у себя в руке до одной карты 3го ранга, в имени которой содержится "Blau", и сделайте на неё смену в стоячем положении. 
+'
+
+global.UnitGrade[5482] = 4
+
+global.CardInClan[5482] = 4
+
+global.ExtraDeck[5482] = 1
+
+}
+
+global.PowerStat[5482] = 15000
+
+
+CardStat = 5483
+
+{
+
+global.CardName[5483] = 'Otero Blaufliegen'
+
+global.CardText[5483] = 'Nova Grappler/боевой робот/Звёздные врата/поднимающий триггер-эффект
+'
+
+global.UnitGrade[5483] = 0
+
+global.CardInClan[5483] = 4
+
+}
+
+global.TriggerUnit[5483] = 3
+
+global.PowerStat[5483] = 5000
+
+
+CardStat = 5484
+
+{
+
+global.CardName[5484] = 'Saar Blaugrantz'
+
+global.CardText[5484] = 'Nova Grappler/боевой робот/Звёздные врата/критический триггер-эффект
+
+АКТ [Арьергард] Импульс наследия 1: [Встречный взрыв 1 & поместите данного воина в душу] Выберите в сумме две карты у Вас в любом кругу или в зоне урона, и переверните их в открытое положение.
+'
+
+global.TriggerUnit[5484] = 2
+
+global.UnitGrade[5484] = 0
+
+global.CardInClan[5484] = 4
+
+}
+
+global.PowerStat[5484] = 4000
+
+
+CardStat = 5485
+
+{
+
+global.CardName[5485] = 'Orchis Blaukreuzer'
+
+global.CardText[5485] = 'Nova Grappler/боевой робот/Звёздные врата/дающий карту триггер-эффект
+
+АКТ [Арьергард]: [Отправьте данного воина в душу] Выберите одного своего воина и до конца хода его сила увеличивается на 3,000.
+'
+
+global.UnitGrade[5485] = 0
+
+global.CardInClan[5485] = 4
+
+}
+
+global.TriggerUnit[5485] = 1
+
+global.PowerStat[5485] = 4000
+
+CardStat = 5682
+
+{
+
+global.CardName[5682] = 'Turboraizer '
+
+global.CardText[5682] = 'Nova Grappler/боевой робот/Звёздные врата/передовой триггер-эффект
+'
+
+global.UnitGrade[5682] = 0
+
+global.CardInClan[5682] = 4
+
+}
+
+global.TriggerUnit[5682] = 5
+
+global.PowerStat[5682] = 5000
+
+CardStat = 5699
+
+{
+
+global.CardName[5699] = 'Morning Timer'
+
+global.CardText[5699] = 'Nova Grappler/рабочий робот/Звёздные врата
+
+АВТО [Арьергард]: [Уберите этого воина с поля] В начале Вашей боевой фазы, Вы можете заплатить цену. Если Вы это сделаете, поднимите всех своих арьергардов.
+'
+
+global.UnitGrade[5699] = 1
+
+global.CardInClan[5699] = 4
+
+}
+
+global.PowerStat[5699] = 7000
+
+CardStat = 5715
+
+{
+
+global.CardName[5715] = 'Extra Muscular'
+
+global.CardText[5715] = 'Nova Grappler/пришелец/герой/Звёздные врата
+
+АВТО [Арьергард]: когда этот воин поднимается, до конца хода его сила увеличивается на 3,000.
+'
+
+global.UnitGrade[5715] = 2
+
+global.CardInClan[5715] = 4
+
+}
+
+global.PowerStat[5715] = 9000
+
+CardStat = 5737
+
+{
+
+global.CardName[5737] = 'Asura Kaiser '
+
+global.CardText[5737] = 'Nova Grappler/боевой робот/Звёздные врата/дар воображения: Ускорение
+
+АВТО [Авангард]: когда во время проверки эффектов Вы раскрываете карту 2го или выше ранга, поднимите одного своего арьергарда и, если у раскрытой карты 3ий или выше ранг, заплатите цену [Встречный взрыв 1] и до конца хода сила того арьергарда увеличивается на 10,000.
+'
+
+global.UnitGrade[5737] = 3
+
+global.CardInClan[5737] = 4
+
+}
+
+global.PowerStat[5737] = 12000
+
+global.OrangeTokenAdd[5737] = 1
+
+
+CardStat = 5738
+
+{
+
+global.CardName[5738] = 'Death Army Guy '
+
+global.CardText[5738] = 'Nova Grappler/боевой робот/Звёздные врата
+'
+
+global.UnitGrade[5738] = 1
+
+global.CardInClan[5738] = 4
+
+}
+
+global.PowerStat[5738] = 9000
+
+CardStat = 5753
+
+{
+
+global.CardName[5753] = 'Miss Splendor '
+
+global.CardText[5753] = 'Nova Grappler/пришелец/герой/Звёздные врата
+
+АВТО [Авангард/арьергард]: во время боя, в котором Ваш герой атакует, оппонент не может перехватывать. Если у Вас больше арьергардов, чем у оппонента, до конца боя сила атакующего воина увеличивается на 3,000. 
+'
+
+global.UnitGrade[5753] = 3
+
+global.CardInClan[5753] = 4
+
+}
+
+global.PowerStat[5753] = 12000
+
+
+CardStat = 5754
+
+{
+
+global.CardName[5754] = 'Cup Bowler '
+
+global.CardText[5754] = 'Nova Grappler/человек/герой/Звёздные врата
+
+ПРОДОЛЖИТЕЛЬНЫЙ [Авангард/арьергард]: во время Вашего хода, если у Вас на поле находится другой герой, сила данного воина увеличивается на 5,000. 
+'
+
+global.UnitGrade[5754] = 2
+
+global.CardInClan[5754] = 4
+
+}
+
+global.PowerStat[5754] = 9000
+
+
+CardStat = 5755
+
+{
+
+global.CardName[5755] = 'Tap the Hyper'
+
+global.CardText[5755] = 'Nova Grappler/человек/герой/Звёздные врата
+
+АВТО: когда поверх этого воина делается смена, возьмите одну карту из колоды. Затем, если у авангарда оппонента как минимум 1ый ранг, возьмите в руку скоростной щит.
+'
+
+global.UnitGrade[5755] = 0
+
+global.CardInClan[5755] = 4
+
+}
+
+global.PowerStat[5755] = 6000
+
+global.QuickShieldAdd[5755] = 1
+
+
+CardStat = 5756
+
+{
+
+global.CardName[5756] = 'Rocket Hammer Man '
+
+global.CardText[5756] = 'Nova Grappler/человек/герой/Звёздные врата
+
+АВТО [Арьергард]: когда этот воин поддерживает героя, заплатите цену [Взрыв души 1] и до конца хода сила данного воина увеличивается на 5,000. 
+'
+
+global.UnitGrade[5756] = 1
+
+global.CardInClan[5756] = 4
+
+}
+
+global.PowerStat[5756] = 8000
+
+
+CardStat = 5757
+
+{
+
+global.CardName[5757] = 'Boomerang Thrower '
+
+global.CardText[5757] = 'Nova Grappler/человек/герой/Звёздные врата
+
+АВТО [Арьергард]: при помещении, если у Вас в зоне урона находится как максимум одна открытая карта, активируйте Заряд счётчика 1. 
+
+АВТО [Арьергард]: при помещении, если у Вас в душе находится как максимум одна карта, активируйте Заряд души 1.
+'
+
+global.UnitGrade[5757] = 2
+
+global.CardInClan[5757] = 4
+
+}
+
+global.PowerStat[5757] = 9000
+
+
+CardStat = 5763
+
+{
+
+global.CardName[5763] = 'Battledore Fighter'
+
+global.CardText[5763] = 'Nova Grappler/человек/герой/Звёздные врата/дар воображения: Ускорение
+
+АКТ [Авангард] [Один раз за ход]: заплатите цену [Встречный взрыв 1 & Взрыв души 1], выберите одного своего воина и до конца хода, когда выбранный воин атакует, оппонент может призывать лишь двух или более защитников. 
+
+АВТО [Авангард/арьергард]: когда этот воин атакует авангард, если у Вас как минимум три арьергарда, до конца битвы сила данного воина увеличивается на 5,000. 
+'
+
+global.UnitGrade[5763] = 3
+
+global.CardInClan[5763] = 4
+
+}
+
+global.OrangeTokenAdd[5763] = 1
+
+global.PowerStat[5763] = 12000
+
+CardStat = 5765
+
+{
+
+global.CardName[5765] = 'Maximum Raizer '
+
+global.CardText[5765] = 'Nova Grappler/боевой робот/Звёздные врата
+
+АВТО [Авангард/арьергард]: когда этот воин атакует авангард без поддержки, до конца битвы сила данного воина увеличивается на 10,000. 
+'
+
+global.UnitGrade[5765] = 3
+
+global.CardInClan[5765] = 4
+
+}
+
+global.PowerStat[5765] = 12000
+
+
+CardStat = 5766
+
+{
+
+global.CardName[5766] = 'Jetraizer '
+
+global.CardText[5766] = 'Nova Grappler/боевой робот/Звёздные врата
+
+АВТО [Авангард/арьергард]: когда на поле помещается другой Ваш арьергард, до конца хода сила этого воина увеличивается на 3,000.
+'
+
+global.UnitGrade[5766] = 1
+
+global.CardInClan[5766] = 4
+
+}
+
+global.PowerStat[5766] = 7000
+
+
+CardStat = 5767
+
+{
+
+global.CardName[5767] = 'Perfect Raizer '
+
+global.CardText[5767] = 'Nova Grappler/боевой робот/Звёздные врата/дар воображения: Ускорение
+
+АВТО [Авангард]: когда этот воин атакует, заплатите цену [Встречный взрыв 2], выберите двух арьергардов у себя в переднем ряду и поднимите их. 
+
+АВТО [Авангард]: когда атака этого воина достигает цели, если у Вас в душе есть карта, в имени которой содержится "Raizer", активируйте Заряд счётчика 1, и до конца хода сила одного Вашего воина увеличивается на 5,000. 
+'
+
+global.UnitGrade[5767] = 3
+
+global.CardInClan[5767] = 4
+
+}
+
+global.OrangeTokenAdd[5767] = 1
+
+global.PowerStat[5767] = 12000
+
+
+CardStat = 5768
+
+{
+
+global.CardName[5768] = 'Hi-powered Raizer Custom '
+
+global.CardText[5768] = 'Nova Grappler/боевой робот/Звёздные врата
+
+АВТО [Авангард/арьергард]: при помещении, выберите у себя в душе одного Battleraizer и призовите его в круг арьергарда, в одну колонку с данным воином. 
+
+АВТО [Авангард/арьергард]: когда атака этого воина достигает авангарда, заплатите цену [Встречный взрыв 1 & выберите у себя в кругу арьергарда одного Battleraizer и поместите его в свою душу], выберите одного своего другого арьергарда и поднимите его. 
+
+'
+
+global.UnitGrade[5768] = 2
+
+global.CardInClan[5768] = 4
+
+}
+
+global.PowerStat[5768] = 9000
+
+
+CardStat = 5769
+
+{
+
+global.CardName[5769] = 'Raizer Custom '
+
+global.CardText[5769] = 'Nova Grappler/боевой робот/Звёздные врата
+
+АКТ [Авангард] [Один раз за ход]: заплатите цену [выберите одну карту у себя в руке и поместите её в свою душу], этот воин может атаковать в первом ходу, и до конца хода его проверка эффектов снижается на одну. 
+
+АВТО [Арьергард] [Один раз за ход]: когда поднимается другой Ваш арьергард, находящийся с данным воином в одной колонке, Вы можете поднять этого воина.
+'
+
+global.UnitGrade[5769] = 1
+
+global.CardInClan[5769] = 4
+
+}
+
+global.PowerStat[5769] = 8000
+
+
+CardStat = 5770
+
+{
+
+global.CardName[5770] = 'Battleraizer '
+
+global.CardText[5770] = 'Nova Grappler/боевой робот/Звёздные врата
+
+АВТО: когда поверх этого воина делается смена, возьмите одну карту из колоды. Затем, если у авангарда оппонента как минимум 1ый ранг, возьмите в руку скоростной щит.
+'
+
+global.UnitGrade[5770] = 0
+
+global.CardInClan[5770] = 4
+
+}
+
+global.PowerStat[5770] = 6000
+
+global.QuickShieldAdd[5770] = 1
+
+
+
+CardStat = 5773
+
+{
+
+global.CardName[5773] = 'Iron Killer'
+
+global.CardText[5773] = 'Nova Grappler/боевой робот/Звёздные врата
+
+АВТО [Авангард/арьергард]: когда этот воин атакует авангард, если у Вас в арьергарде находятся как минимум три воина, до конца битвы сила данного воина увеличивается на 5,000.
+'
+
+global.UnitGrade[5773] = 2
+
+global.CardInClan[5773] = 4
+
+}
+
+global.PowerStat[5773] = 9000
+
+CardStat = 5779
+
+{
+
+global.CardName[5779] = 'Transraizer '
+
+global.CardText[5779] = 'Nova Grappler/боевой робот/Звёздные врата
+
+АВТО [Арьергард]: когда этот воин поддерживает, заплатите цену [Взрыв души 2], активируйте Заряд счётчика 1 и, если атака нацелена на авангард, до конца битвы сила данного воина увеличивается на 3,000.
+'
+
+global.UnitGrade[5779] = 1
+
+global.CardInClan[5779] = 4
+
+}
+
+global.PowerStat[5779] = 8000
+
+
+CardStat = 5780
+
+{
+
+global.CardName[5780] = 'Twin Blader '
+
+global.CardText[5780] = 'Nova Grappler/боевой робот/Звёздные врата/дающий карту триггер-эффект
+
+ПРОДОЛЖИТЕЛЬНЫЙ: страж. 
+
+АВТО [Круг защиты]: при помещении, заплатите цену [скиньте одну карту из своей руки], и до конца битвы атаки по одному Вашему воину не проходят.
+'
+
+global.UnitGrade[5780] = 0
+
+global.CardInClan[5780] = 4
+
+}
+
+global.TriggerUnit[5780] = 1
+
+global.PowerStat[5780] = 5000
+
+CardStat = 5793
+
+{
+
+global.CardName[5793] = 'Burstraizer'
+
+global.CardText[5793] = 'Nova Grappler/боевой робот/Звёздные врата
+
+АВТО [Арьергард]: когда Ваш авангард атакует, заплатите цену [Встречный взрыв 1 & Взрыв души 1], поднимите этого воина, если у оппонента в зоне урона как минимум четыре карты, до конца хода сила данного воина увеличивается на 3,000.
+'
+
+global.UnitGrade[5793] = 2
+
+global.CardInClan[5793] = 4
+
+}
+
+global.PowerStat[5793] = 9000
+
+CardStat = 5798
+
+{
+
+global.CardName[5798] = 'Wall Boy '
+
+global.CardText[5798] = 'Nova Grappler/боевой робот/Звёздные врата/исцеляющий триггер-эффект
+
+В колоде не может быть больше четырёх триггер-эффектов. 
+'
+
+global.UnitGrade[5798] = 0
+
+global.CardInClan[5798] = 4
+
+}
+
+global.TriggerUnit[5798] = 4
+
+global.PowerStat[5798] = 5000
+
+
+CardStat = 5799
+
+{
+
+global.CardName[5799] = 'Cannon Ball '
+
+global.CardText[5799] = 'Nova Grappler/боевой робот/Звёздные врата/передовой триггер-эффект'
+
+global.UnitGrade[5799] = 0
+
+global.CardInClan[5799] = 4
+
+}
+
+global.TriggerUnit[5799] = 5
+
+global.PowerStat[5799] = 5000
+
+
+CardStat = 5800
+
+{
+
+global.CardName[5800] = 'Three Minutes '
+
+global.CardText[5800] = 'Nova Grappler/человек/Звёздные врата/дающий карту триггер-эффект'
+
+global.UnitGrade[5800] = 0
+
+global.CardInClan[5800] = 4
+
+}
+
+global.TriggerUnit[5800] = 1
+
+global.PowerStat[5800] = 5000
+
+
+CardStat = 5801
+
+{
+
+global.CardName[5801] = 'Red Lightning '
+
+global.CardText[5801] = 'Nova Grappler/пришелец/Звёздные врата/критический триггер-эффект
+'
+
+global.UnitGrade[5801] = 0
+
+global.CardInClan[5801] = 4
+
+}
+
+global.TriggerUnit[5801] = 2
+
+global.PowerStat[5801] = 5000
+
+
+CardStat = 5802
+
+{
+
+global.CardName[5802] = 'Shining Lady '
+
+global.CardText[5802] = 'Nova Grappler/боевой робот/Звёздные врата/критический триггер-эффект
+'
+
+global.UnitGrade[5802] = 0
+
+global.CardInClan[5802] = 4
+
+}
+
+global.TriggerUnit[5802] = 2
+
+global.PowerStat[5802] = 5000
+
+
+CardStat = 5810
+
+{
+
+global.CardName[5810] = 'Cat Butler '
+
+global.CardText[5810] = 'Nova Grappler/боевой зверь/Звёздные врата
+
+АВТО [Арьергард]: в конце битвы, в которой атака Вашего авангарда не прошла, заплатите цену [Взрыв души 1 & уберите этого воина с поля], выберите одного своего воина и до конца хода его сила увеличивается на 3,000 и, если Вы выбрали авангарда 2го или ниже ранга, поднимите его. 
+'
+
+global.UnitGrade[5810] = 0
+
+global.CardInClan[5810] = 4
+
+}
+
+global.PowerStat[5810] = 5000
+
+
+CardStat = 5811
+
+{
+
+global.CardName[5811] = 'Hate Reflector'
+
+global.CardText[5811] = 'Nova Grappler/боевой робот/Звёздные врата
+
+ПРОДОЛЖИТЕЛЬНЫЙ: страж. 
+
+АВТО [Круг защиты]: при помещении, заплатите цену [скиньте одну карту из своей руки], и до конца битвы атаки по одному Вашему воину не проходят.
+'
+
+global.UnitGrade[5811] = 1
+
+global.CardInClan[5811] = 4
+
+}
+
+global.PowerStat[5811] = 7000
+
+CardStat = 5866
+
+{
+
+global.CardName[5866] = 'King of Sword '
+
+global.CardText[5866] = 'Nova Grappler/боевой робот/Звёздные врата
+
+АВТО [Авангард/арьергард]: при помещении из руки, заплатите цену [Взрыв души 1] и до конца хода сила двух Ваших воинов увеличивается на 3,000 и, если у Вас как минимум пять воинов на поле, сила ранее выбранных Вами воинов увеличивается на 5,000 вместо 3,000. 
+
+'
+
+global.UnitGrade[5866] = 2
+
+global.CardInClan[5866] = 4
+
+}
+
+global.PowerStat[5866] = 9000
+
+
+CardStat = 5867
+
+{
+
+global.CardName[5867] = 'Queen of Heart '
+
+global.CardText[5867] = 'Nova Grappler/боевой робот/Звёздные врата
+
+АВТО [Арьергард] [Один раз за ход]: когда в круг защиты оппонента призывается страж, Вы можете поднять данного воина.
+'
+
+global.UnitGrade[5867] = 1
+
+global.CardInClan[5867] = 4
+
+}
+
+global.PowerStat[5867] = 7000
+
+CardStat = 6082
+
+{
+
+global.CardName[6082] = 'Hardhit Scrapper'
+
+global.CardText[6082] = 'Nova Grappler/боевой робот/Звёздные врата
+
+АВТО [Арьергард] [Один раз за ход]: когда этот воин поднимается, если он находится в переднем ряду, до конца хода Вы можете увеличить силу данного воина на 5,000. Если у Вас в зоне урона пять закрытых карт, сила этого воина увеличивается на 10,000 вместо 5,000, к тому же, активируйте Заряд счётчика 1 и Заряд души 1.
+'
+
+global.UnitGrade[6082] = 1
+
+global.CardInClan[6082] = 4
+
+}
+
+global.PowerStat[6082] = 8000
+
+CardStat = 6535
+{
+global.CardName[CardStat] = 'Refilling Raizer'
+global.CardText[CardStat] = 'Nova Grappler/боевой робот/Звёздные врата
+
+АВТО [Авангард/арьергард]: когда этот воин атакует, до конца хода сила одного Вашего другого воина увеличивается на 3,000. Если тот воин находится на отдыхе, его сила увеличивается на 5,000 вместо 3,000.'
+global.UnitGrade[CardStat] = 2
+global.CardInClan[CardStat] = 4
+}
+global.PowerStat[CardStat] = 9000
+
+CardStat = 6570
+{
+global.CardName[CardStat] = 'Screamin and Dancin Announcer, Shout '
+global.CardText[CardStat] = 'Nova Grappler/пришелец/Звёздные врата
+
+АКТ [Арьергард]: заплатите цену [отправьте этого воина на отдых], Вы с оппонентом раскрываете верхнюю карту своей колоды, если у раскрытых карт разный ранг, игрок, раскрывший карту с большим рангом, берёт одну карту из колоды, а игрок, раскрывший карту с низшим рангом, активирует Заряд души 1. Если у раскрытых карт одинаковый ранг, Вы с оппонентом берёте по одной карте из колоды. (Раскрытая карта берётся в руку.)'
+global.UnitGrade[CardStat] = 1
+global.CardInClan[CardStat] = 4
+}
+global.PowerStat[CardStat] = 6000
+
+CardStat = 6583
+{
+global.CardName[CardStat] = 'Brutal Jack '
+global.CardText[CardStat] = 'Nova Grappler/боевой робот/Звёздные врата
+
+ПРОДОЛЖИТЕЛЬНЫЙ [Авангард/арьергард]: во время Вашего хода, сила этого воина увеличивается на 10,000. 
+
+ПРОДОЛЖИТЕЛЬНЫЙ [Арьергард]: данный воин не может подняться во время Вашей фазы подъёма. 
+
+АКТ [Арьергард] [Один раз за ход]: заплатите цену [отправьте двух Ваших арьергардов на отдых] и поднимите этого воина. '
+global.UnitGrade[CardStat] = 2
+global.CardInClan[CardStat] = 4
+}
+global.PowerStat[CardStat] = 9000
+
+
+CardStat = 6584
+{
+global.CardName[CardStat] = 'Clay-doll Mechanic '
+global.CardText[CardStat] = 'Nova Grappler/пришелец/Звёздные врата
+
+АВТО [Арьергард]: при помещении, если у Вас в руке и в арьергарде в сумме как максимум четыре карты, возьмите одну карту из колоды. 
+
+АВТО [Арьергард]: когда Вы активируете Встречный взрыв, заплатите цену [уберите этого воина с поля] и активируйте Заряд счётчика 1.'
+global.UnitGrade[CardStat] = 1
+global.CardInClan[CardStat] = 4
+}
+global.PowerStat[CardStat] = 8000
+
+
+CardStat = 6586
+{
+global.CardName[CardStat] = 'Meganton Poweredon'
+global.CardText[CardStat] = 'Nova Grappler/герой/Звёздные врата/дар воображения: Ускорение
+
+АВТО: когда этот спящий воин убирается из арьергарда, верните одного героя со своего кладбища себе в руку. Способность карты с этим именем может быть использована лишь один раз за ход.'
+global.UnitGrade[CardStat] = 3
+global.CardInClan[CardStat] = 4
+}
+global.OrangeTokenAdd[CardStat] = 1
+global.PowerStat[CardStat] = 12000
+
+
+CardStat = 6599
+{
+global.CardName[CardStat] = 'Outer Princess, Jaysee'
+global.CardText[CardStat] = 'Nova Grappler/пришелец/Звёздные врата
+
+ПРОДОЛЖИТЕЛЬНЫЙ [Арьергард]: когда Вы или Ваш оппонент собираетесь выбрать Вашего воина целью эффекта карты оппонента, выберите воинов, среди которых этот воин должен быть выбрать максимально возможное количество раз.
+'
+global.UnitGrade[CardStat] = 1
+global.CardInClan[CardStat] = 4
+}
+global.PowerStat[CardStat] = 8000
+
+CardStat = 6615
+{
+global.CardName[CardStat] = 'Death Army Lady '
+global.CardText[CardStat] = 'Nova Grappler/боевой робот/Звёздные врата
+'
+global.UnitGrade[CardStat] = 2
+global.CardInClan[CardStat] = 4
+}
+global.PowerStat[CardStat] = 12000
+
+CardStat = 6625
+{
+global.CardName[CardStat] = 'Incise Raizer'
+global.CardText[CardStat] = 'Nova Grappler/боевой робот/Звёздные врата/дар воображения: Ускорение
+
+АВТО [Авангард]: когда этот воин атакует, заплатите цену [Встречный взрыв 1] и поднимите всех своих воинов в дополнительных кругах арьергарда.'
+global.UnitGrade[CardStat] = 3
+global.CardInClan[CardStat] = 4
+}
+global.OrangeTokenAdd[CardStat] = 1
+global.PowerStat[CardStat] = 12000
+
+
+CardStat = 6629
+{
+global.CardName[CardStat] = 'Beast Deity, Azure Dragon '
+global.CardText[CardStat] = 'Nova Grappler/боевой робот/Звёздные врата/дар воображения: Ускорение
+
+АВТО [Авангард]: при помещении, заплатите цену [Встречный взрыв 1], возьмите одну карту из колоды, призовите одну карту из руки в арьергард и атакуйте авангард оппонента призванным воином. Если атака не достигла цели, в конце битвы поднимите того воина. 
+
+АВТО [Авангард]: когда этот воин атакует, заплатите цену [Встречный взрыв 1] и поднимите одного своего арьергарда. '
+global.UnitGrade[CardStat] = 3
+global.CardInClan[CardStat] = 4
+}
+global.OrangeTokenAdd[CardStat] = 1
+global.PowerStat[CardStat] = 12000
+
+
+CardStat = 6630
+{
+global.CardName[CardStat] = 'Beast Deity, Black Tortoise '
+global.CardText[CardStat] = 'Nova Grappler/боевой робот/Звёздные врата
+
+АКТ [Арьергард] [Один раз за ход]: заплатите цену [Встречный взрыв 1 & Взрыв души 1], поднимите этого воина и атакуйте им авангард оппонента. Если атака не достигла цели, в конце битвы поднимите этого воина. '
+global.UnitGrade[CardStat] = 2
+global.CardInClan[CardStat] = 4
+}
+global.PowerStat[CardStat] = 9000
+
+
+CardStat = 6631
+{
+global.CardName[CardStat] = 'Beast Deity, Scarlet Bird '
+global.CardText[CardStat] = 'Nova Grappler/боевой робот/Звёздные врата
+
+АВТО [Арьергард]: при помещении во время основной фазы, заплатите цену [Взрыв души 1] и поднимите всех своих воинов. Если Вы подняли как минимум двух воинов и если у Вас в душе находится Beast Deity, White Tiger, возьмите одну карту из колоды.'
+global.UnitGrade[CardStat] = 1
+global.CardInClan[CardStat] = 4
+}
+global.PowerStat[CardStat] = 8000
+
+CardStat = 6642
+{
+global.CardName[CardStat] = 'Beast Deity, Grantz Dragon'
+global.CardText[CardStat] = 'Nova Grappler/боевой робот/Звёздные врата
+
+АВТО [Арьергард] [Один раз за ход]: когда другой Ваш воин атакует, если у Вас в авангарде находится воин 3го ранга, в имени которого содержится "Beast Deity", заплатите цену [Взрыв души 1] и поднимите этого воина. '
+global.UnitGrade[CardStat] = 1
+global.CardInClan[CardStat] = 4
+}
+global.PowerStat[CardStat] = 8000
+
+
+CardStat = 6644
+{
+global.CardName[CardStat] = 'Beast Deity, White Tiger '
+global.CardText[CardStat] = 'Nova Grappler/боевой робот/Звёздные врата
+
+АВТО: когда поверх этого воина делается смена, возьмите одну карту из колоды. Затем, если у авангарда оппонента как минимум 1ый ранг, возьмите в руку скоростной щит.'
+global.UnitGrade[CardStat] = 0
+global.CardInClan[CardStat] = 4
+}
+global.PowerStat[CardStat] = 6000
+global.QuickShieldAdd[CardStat] = 1
+
+
+CardStat = 6651
+{
+global.CardName[CardStat] = 'Drill the Dual'
+global.CardText[CardStat] = 'Nova Grappler/боевой робот/Звёздные врата
+
+АВТО [Арьергард]: когда этот воин поддерживает, заплатите цену [скиньте одну карту из своей руки] и до конца хода, когда оппонент собирается призвать карту из руки на защиту против атаки воина, поддержанного данным воином, он должен призвать сразу как минимум две карты. (Эта битва тоже считается.)'
+global.UnitGrade[CardStat] = 1
+global.CardInClan[CardStat] = 4
+}
+global.PowerStat[CardStat] = 8000
+
+CardStat = 6653
+{
+global.CardName[CardStat] = 'Beast Deity, Eclair Dragon'
+global.CardText[CardStat] = 'Nova Grappler/боевой робот/Звёздные врата
+
+АВТО [Арьергард]: при помещении во время Вашей основной фазы, если у Вас в авангарде находится воин 3го ранга, в имени которого содержится "Beast Deity", заплатите цену [Встречный взрыв 1 & скиньте одну карту из своей руки], до конца хода сила этого воина увеличивается на 3,000 и он атакует авангард оппонента. Если атака не достигает цели, этот воин поднимается. '
+global.UnitGrade[CardStat] = 2
+global.CardInClan[CardStat] = 4
+}
+global.PowerStat[CardStat] = 9000
+
+
+CardStat = 6654
+{
+global.CardName[CardStat] = 'Ultra Beast Deity, Illuminal Dragon '
+global.CardText[CardStat] = 'Nova Grappler/боевой робот/Звёздные врата/дар воображения: Ускорение
+
+АВТО [Авангард] [Один раз за ход]: в конце битвы, в которой Ваш арьергард атаковал и его атака не достигла цели, заплатите цену [Встречный взрыв 1], поднимите того воина и до конца хода его сила увеличивается на 10,000. Атакуйте авангард оппонента тем воином. 
+
+АВТО [Авангард/арьергард] [Один раз за ход]: когда атака другого Вашего воина достигает цели, до конца хода сила этого воина увеличивается на 15,000.'
+global.UnitGrade[CardStat] = 3
+global.CardInClan[CardStat] = 4
+}
+global.PowerStat[CardStat] = 12000
+global.OrangeTokenAdd[CardStat] = 1
+
+
+CardStat = 6658
+{
+global.CardName[CardStat] = 'Girly Dolly'
+global.CardText[CardStat] = 'Nova Grappler/пришелец/герой/Звёздные врата/дар воображения: Ускорение
+
+ПРОДОЛЖИТЕЛЬНЫЙ [Авангард/арьергард]: если у Вас в арьергарде как минимум пять героев, защита всех Ваших защитников увеличивается на 10,000. '
+global.UnitGrade[CardStat] = 3
+global.CardInClan[CardStat] = 4
+}
+global.PowerStat[CardStat] = 12000
+global.OrangeTokenAdd[CardStat] = 1
+
+
+CardStat = 6659
+{
+global.CardName[CardStat] = 'Spinning Valiant'
+global.CardText[CardStat] = 'Nova Grappler/человек/герой/Звёздные врата/дар воображения: Ускорение
+
+ПРОДОЛЖИТЕЛЬНЫЙ [Авангард]: все воины могут атаковать только авангард. 
+
+АВТО [Авангард]: когда этот воин атакует, если у Вас в переднем ряду как минимум четыре воина, до конца хода сила этого воина увеличивается на 10,000, затем, заплатите цену [Встречный взрыв 4] и когда оппонент собирается призвать карту из руки на защиту, он должен призвать сразу как минимум три карты.
+
+'
+global.UnitGrade[CardStat] = 3
+global.CardInClan[CardStat] = 4
+}
+global.PowerStat[CardStat] = 12000
+global.OrangeTokenAdd[CardStat] = 1
+
+
+CardStat = 6660
+{
+global.CardName[CardStat] = 'Stylish Hustler'
+global.CardText[CardStat] = 'Nova Grappler/человек/герой/Звёздные врата
+
+АВТО [Авангард/арьергард]: когда другой Ваш арьергард убирается с поля способностью карты оппонента, заплатите цену [Взрыв души 1] и верните одну из тех карт в свою руку. 
+
+АВТО [Арьергард]: когда этот воин атакует, до конца битвы его сила увеличивается на 3,000 за каждую карту у Вас в зоне урона. '
+global.UnitGrade[CardStat] = 2
+global.CardInClan[CardStat] = 4
+}
+global.PowerStat[CardStat] = 9000
+
+CardStat = 6664
+{
+global.CardName[CardStat] = 'Spin Kid'
+global.CardText[CardStat] = 'Nova Grappler/человек/герой/Звёздные врата
+
+АВТО [Авангард]: при призыве поверх 0го ранга, заплатите цену [раскройте одного Spinning Valiant у себя в руке] и нанесите по одному урону своему авангарду и авангарду оппонента. (Вы делаете проверку урона первее оппонента.)'
+global.UnitGrade[CardStat] = 1
+global.CardInClan[CardStat] = 4
+}
+global.PowerStat[CardStat] = 8000
+
+CardStat = 6681
+{
+global.CardName[CardStat] = 'Savannah Wild'
+global.CardText[CardStat] = 'Nova Grappler/боевой зверь/герой/Звёздные врата/дар воображения: Ускорение
+
+АВТО [Авангард/арьергард]: при помещении, заплатите цену [Встречный взрыв 1 & Взрыв души 2] и уберите с поля всех арьергардов оппонента, находящихся с этим воином в одной колонке. Если Вы убрали с поля как максимум одного воина, до конца хода сила этого воина увеличивается на 15,000. '
+global.UnitGrade[CardStat] = 3
+global.CardInClan[CardStat] = 4
+}
+global.OrangeTokenAdd[CardStat] = 1
+global.PowerStat[CardStat] = 12000
+
+
+CardStat = 6682
+{
+global.CardName[CardStat] = 'Warrior of Chakram'
+global.CardText[CardStat] = 'Nova Grappler/человек/герой/Звёздные врата
+
+АВТО [Арьергард]: когда Ваш авангард подвергается атаке, заплатите цену [Взрыв души 1] и до конца хода защита этого воина увеличивается на 5,000 за каждую карту у Вас в зоне урона. '
+global.UnitGrade[CardStat] = 2
+global.CardInClan[CardStat] = 4
+}
+global.PowerStat[CardStat] = 9000
+
+
+CardStat = 6683
+{
+global.CardName[CardStat] = 'Vernal Cracker'
+global.CardText[CardStat] = 'Nova Grappler/боевой робот/Звёздные врата
+
+АВТО [Арьергард]: когда этот воин атакует, до конца битвы его сила увеличивается на 3,000 за каждого Вашего другого арьергарда.'
+global.UnitGrade[CardStat] = 2
+global.CardInClan[CardStat] = 4
+}
+global.PowerStat[CardStat] = 8000
+
+CardStat = 6699
+{
+global.CardName[CardStat] = 'Glad Grat'
+global.CardText[CardStat] = 'Nova Grappler/боевой робот/Звёздные врата/дар воображения: Ускорение
+
+АВТО [Авангард]: когда этот воин атакует, если у Вас как минимум два спящих арьергарда, заплатите цену [Встречный взрыв 1 & Взрыв души 1], до конца хода сила этого воина увеличивается на 10,000 и, если у Вас как минимум пять спящих арьергардов, поднимите два арьергарда у себя в переднем ряду. '
+global.UnitGrade[CardStat] = 3
+global.CardInClan[CardStat] = 4
+}
+global.OrangeTokenAdd[CardStat] = 1
+global.PowerStat[CardStat] = 12000
+
+
+CardStat = 6700
+{
+global.CardName[CardStat] = 'Kick Kick Typhoon'
+global.CardText[CardStat] = 'Nova Grappler/боевой робот/Звёздные врата
+
+АВТО [Авангард/арьергард]: при помещении, если этот воин находится в авангарде или в дополнительном кругу арьергарда, до конца хода сила одного Вашего воина увеличивается на 5,000. 
+
+АВТО [Арьергард] [Один раз за ход]: когда этот воин атакует, если во всех Ваших передних кругах арьергарда есть воины, заплатите цену [Встречный взрыв 1] и поднимите одного своего другого арьергарда.'
+global.UnitGrade[CardStat] = 2
+global.CardInClan[CardStat] = 4
+}
+global.PowerStat[CardStat] = 9000
+
+
+CardStat = 6703
+{
+global.CardName[CardStat] = 'The Turbogust Type 1'
+global.CardText[CardStat] = 'Nova Grappler/боевой робот/Звёздные врата
+
+АКТ [Арьергард]: заплатите цену [Встречный взрыв 1] и до конца хода сила этого воина увеличивается на 2,000. 
+
+АВТО [Арьергард]: когда данный воин подвергается атаке без поддержки, до конца битвы атаки по этому воину не проходят.'
+global.UnitGrade[CardStat] = 1
+global.CardInClan[CardStat] = 4
+}
+global.PowerStat[CardStat] = 8000
+
+CardStat = 6709
+{
+global.CardName[CardStat] = 'Universe Ace, Bustered'
+global.CardText[CardStat] = 'Nova Grappler/боевой робот/Звёздные врата
+
+Вознесение. 
+
+АВТО [Авангард]: когда Ваш арьергард поднимается, заплатите цену [Взрыв души 1 & переверните в открытое положение одну карту у себя в зоне наследия] и до конца хода проверка эффектов этого воина увеличивается на одну. 
+
+АВТО [Авангард]: в конце битвы, в которой этот воин атаковал, если у данного воина как минимум пять проверок эффектов, заплатите цену [скиньте три карты из своей руки], поднимите этого воина и до конца хода его проверка эффектов снижается на пять. '
+global.UnitGrade[CardStat] = 4
+global.CardInClan[CardStat] = 4
+global.ExtraDeck[CardStat] = 1
+}
+global.PowerStat[CardStat] = 15000
+
+CardStat = 6725
+{
+global.CardName[CardStat] = 'Magnegauss 2502'
+global.CardText[CardStat] = 'Nova Grappler/боевой робот/Звёздные врата/критический триггер-эффект
+
+АВТО [Арьергард] Импульс наследия 1: когда Ваш авангард атакует, заплатите цену [поместите этого воина в свою душу], возьмите одну карту из колоды и до конца битвы сила одного Вашего авангарда увеличивается на 10,000.'
+global.UnitGrade[CardStat] = 0
+global.CardInClan[CardStat] = 4
+}
+global.TriggerUnit[CardStat] = 2
+global.PowerStat[CardStat] = 4000
+
+CardStat = 6743
+{
+global.CardName[CardStat] = 'Capable Mechanic, Spechanic'
+global.CardText[CardStat] = 'Nova Grappler/пришелец/Звёздные врата
+
+ПРОДОЛЖИТЕЛЬНЫЙ: страж.
+
+АВТО [Круг защиты]: при помещении, заплатите цену [скиньте одну карту из своей руки] и до конца битвы атаки по одному Вашему воину не проходят. 
+
+АВТО [Авангард]: при помещении, возьмите одну карту из колоды, после чего скиньте одну карту из руки. '
+global.UnitGrade[CardStat] = 1
+global.CardInClan[CardStat] = 4
+}
+global.PowerStat[CardStat] = 7000
+
+
+CardStat = 6750
+{
+global.CardName[CardStat] = 'Dividing Rose'
+
+global.CardText[CardStat] = 'Nova Grappler/боевой робот/герой/Звёздные врата
+'
+global.UnitGrade[CardStat] = 1
+global.CardInClan[CardStat] = 4
+}
+global.PowerStat[CardStat] = 9000
+
+
+CardStat = 6752
+{
+global.CardName[CardStat] = 'Smash Masher'
+global.CardText[CardStat] = 'Nova Grappler/человек/герой/Звёздные врата
+
+АВТО [Арьергард]: когда этот воин атакует, заплатите цену [Встречный взрыв 1] и до конца битвы сила этого воина увеличивается на 5,000 за каждую карту у Вас в зоне урона.
+ 
+АВТО [Арьергард]: в конце Вашего хода, если у Вас в авангарде находится герой 3го ранга, заплатите цену [поместите этого воина в свою душу] и активируйте Заряд счётчика 1. '
+global.UnitGrade[CardStat] = 1
+global.CardInClan[CardStat] = 4
+}
+global.PowerStat[CardStat] = 8000
+
+
+CardStat = 6753
+{
+global.CardName[CardStat] = 'Old Anchor'
+global.CardText[CardStat] = 'Nova Grappler/боевой робот/Звёздные врата/критический триггер-эффект
+'
+global.UnitGrade[CardStat] = 0
+global.CardInClan[CardStat] = 4
+}
+global.TriggerUnit[CardStat] = 2
+global.PowerStat[CardStat] = 5000
+
+
+CardStat = 6754
+{
+global.CardName[CardStat] = 'Sling Burster'
+global.CardText[CardStat] = 'Nova Grappler/человек/герой/Звёздные врата
+
+АВТО: когда поверх этого воина делается смена, возьмите одну карту из колоды. Затем, если у авангарда оппонента как минимум 1ый ранг, возьмите в руку скоростной щит. '
+global.UnitGrade[CardStat] = 0
+global.CardInClan[CardStat] = 4
+}
+global.PowerStat[CardStat] = 6000
+global.QuickShieldAdd[CardStat] = 1
+
+
+CardStat = 6755
+{
+global.CardName[CardStat] = 'Eight Languages Announcer, Blabber'
+global.CardText[CardStat] = 'Nova Grappler/пришелец/Звёздные врата/передовой триггер-эффект
+'
+global.UnitGrade[CardStat] = 0
+global.CardInClan[CardStat] = 4
+}
+global.TriggerUnit[CardStat] = 5
+global.PowerStat[CardStat] = 5000
+
+
+CardStat = 6760
+{
+global.CardName[CardStat] = 'Farmed Gaias'
+global.CardText[CardStat] = 'Nova Grappler/пришелец/Звёздные врата
+'
+global.UnitGrade[CardStat] = 2
+global.CardInClan[CardStat] = 4
+}
+global.PowerStat[CardStat] = 3000
+
+CardStat = 7045
+{
+global.CardName[CardStat] = 'Hardtile Breaker'
+global.CardText[CardStat] = 'Nova Grappler/боевой робот/Звёздные врата
+
+АВТО: во время Вашего хода, когда эта карта скидывается у Вас из руки, заплатите цену [Встречный взрыв 1] и возьмите одну карту из колоды.'
+global.UnitGrade[CardStat] = 2
+global.CardInClan[CardStat] = 4
+}
+global.PowerStat[CardStat] = 9000
+
+
+CardStat = 7046
+{
+global.CardName[CardStat] = 'Fighting Fist Dragon, God Hand Dragon'
+global.CardText[CardStat] = 'Nova Grappler/дракон пространства/Звёздные врата/дар воображения: Ускорение
+
+ПРОДОЛЖИТЕЛЬНЫЙ [Авангард]: сила передовых триггеров, попавшихся Вам в проверке эффектов, увеличивается на 10,000.
+
+АВТО [Авангард]: когда этот воин атакует, заплатите цену [Встречный взрыв 1 & скиньте одну карту у себя из руки] и до конца битвы проверка эффектов этого воина увеличивается на одну и, если у авангарда оппонента как минимум 3ий ранг, критический удар этого воина увеличивается на один.
+'
+global.UnitGrade[CardStat] = 3
+global.CardInClan[CardStat] = 4
+}
+global.OrangeTokenAdd[CardStat] = 1
+global.PowerStat[CardStat] = 12000
+global.TriggerPowerUpEffect[CardStat, 1] = 10000
+
+
+CardStat = 7047
+{
+global.CardName[CardStat] = 'Gaingain X2'
+global.CardText[CardStat] = 'Nova Grappler/боевой робот/Звёздные врата
+
+АВТО [Арьергард] [Один раз за ход]: когда Вам во время проверки эффектов попадается передовой триггер, Вы можете поднять этого воина.'
+global.UnitGrade[CardStat] = 2
+global.CardInClan[CardStat] = 4
+}
+global.PowerStat[CardStat] = 9000
+
+
+CardStat = 7048
+{
+global.CardName[CardStat] = 'Grit Bengal'
+global.CardText[CardStat] = 'Nova Grappler/боевой зверь/Звёздные врата
+
+АВТО [Арьергард]: при помещении, Вы можете раскрыть один передовой триггер у себя в руке и поместить его на верх своей колоды.'
+global.UnitGrade[CardStat] = 1
+global.CardInClan[CardStat] = 4
+}
+global.PowerStat[CardStat] = 7000
+
+
+CardStat = 7049
+{
+global.CardName[CardStat] = 'Fusing Striker'
+global.CardText[CardStat] = 'Nova Grappler/пришелец/Звёздные врата
+
+ПРОДОЛЖИТЕЛЬНЫЙ [Авангард/арьергард]: сила передовых триггеров, попавшихся Вам в проверке эффектов, увеличивается на 5,000.
+
+АВТО [Авангард/арьергард]: при помещении, посмотрите на пять верхних карт своей колоды, раскройте среди них до одного Fighting Fist Dragon, God Hand Dragon, возьмите его в руку и перемешайте колоду. Если Вы взяли карту в руку, скиньте одну карту из руки.'
+global.UnitGrade[CardStat] = 2
+global.CardInClan[CardStat] = 4
+}
+global.PowerStat[CardStat] = 9000
+global.TriggerPowerUpEffect[CardStat, 0] = 5000
+
+CardStat = 7084
+{
+global.CardName[CardStat] = 'Full-time Mechanic, Strolginie'
+global.CardText[CardStat] = 'Nova Grappler/пришелец/Звёздные врата
+
+АВТО [Арьергард]: когда Вам во время проверки эффектов попадается передовой триггер, до конца хода сила этого воина увеличивается на 10,000.'
+global.UnitGrade[CardStat] = 1
+global.CardInClan[CardStat] = 4
+}
+global.PowerStat[CardStat] = 8000
+
+
+CardStat = 7085
+{
+global.CardName[CardStat] = 'Star Fighter, Silver Fist'
+global.CardText[CardStat] = 'Nova Grappler/боевой зверь/Звёздные врата
+
+ПРОДОЛЖИТЕЛЬНЫЙ [Авангард/арьергард]: сила передовых триггеров, попавшихся Вам в проверке эффектов, увеличивается на 5,000.
+
+АВТО [Авангард]: когда атака этого воина достигает авангарда, возьмите одну карту из колоды и скиньте одну карту из руки.'
+global.UnitGrade[CardStat] = 1
+global.CardInClan[CardStat] = 4
+}
+global.PowerStat[CardStat] = 8000
+global.TriggerPowerUpEffect[CardStat, 0] = 5000
+
+
+CardStat = 7086
+{
+global.CardName[CardStat] = 'Fullturbo Engineer'
+global.CardText[CardStat] = 'Nova Grappler/боевой зверь/Звёздные врата
+
+АВТО [Арьергард]: при помещении, до конца хода сила одного Вашего воина увеличивается на 3,000.'
+global.UnitGrade[CardStat] = 1
+global.CardInClan[CardStat] = 4
+}
+global.PowerStat[CardStat] = 8000
+
+CardStat = 7109
+{
+global.CardName[CardStat] = 'Sword Trooper, Equites'
+global.CardText[CardStat] = 'Nova Grappler/боевой зверь/Звёздные врата/дар воображения: Ускорение
+
+АВТО [Авангард]: в конце битвы, в которой этот воин атаковал, заплатите цену [Встречный взрыв 2] и поднимите все свои арьергарды, у которых минимум 20,000 силы.'
+global.UnitGrade[CardStat] = 3
+global.CardInClan[CardStat] = 4
+}
+global.OrangeTokenAdd[CardStat] = 1
+global.PowerStat[CardStat] = 12000
+
+
+CardStat = 7110
+{
+global.CardName[CardStat] = 'Odd Puncher, Zelnoin'
+global.CardText[CardStat] = 'Nova Grappler/пришелец/Звёздные врата
+
+АВТО [Авангард/арьергард] [Один раз за ход]: когда во время проверки эффектов Вам попадается передовой триггер, до конца хода Вы можете увеличить критический удар этого воина на один.'
+global.UnitGrade[CardStat] = 2
+global.CardInClan[CardStat] = 4
+}
+global.PowerStat[CardStat] = 8000
+
+
+CardStat = 7111
+{
+global.CardName[CardStat] = 'Fever Rocketeer'
+global.CardText[CardStat] = 'Nova Grappler/человек/герой/Звёздные врата
+
+ПРОДОЛЖИТЕЛЬНЫЙ [Арьергард]: во время битвы, в которой этот воин атакует авангард, сила данного воина увеличивается на 3,000.
+
+АВТО: когда этот воин перехватывает, если атаке подвергается Ваш авангард, заплатите цену [Взрыв души 1] и до конца битвы защита данного воина увеличивается на 10,000.'
+global.UnitGrade[CardStat] = 2
+global.CardInClan[CardStat] = 4
+}
+global.PowerStat[CardStat] = 9000
+
+CardStat = 7112
+{
+global.CardName[CardStat] = 'Cannon Trooper, Huskarl'
+global.CardText[CardStat] = 'Nova Grappler/боевой зверь/Звёздные врата
+
+АВТО [Арьергард]: когда находящийся у Вас в авангарде Fighting Fist Dragon, God Hand Dragon атакует, заплатите цену [Встречный взрыв 1] и возьмите одну карту из колоды.'
+global.UnitGrade[CardStat] = 2
+global.CardInClan[CardStat] = 4
+}
+global.PowerStat[CardStat] = 9000
+
+CardStat = 7132
+{
+global.CardName[CardStat] = 'Gun Trooper, Klephts'
+global.CardText[CardStat] = 'Nova Grappler/боевой робот/Звёздные врата
+
+АВТО [Арьергард]: когда во время проверки эффектов Вам попадается обычный воин, если у Вас в авангарде находится Fighting Fist Dragon, God Hand Dragon, заплатите цену [Встречный взрыв 1 & уберите этого воина с поля] и до конца битвы проверка эффектов Вашего авангарда увеличивается на одну.'
+global.UnitGrade[CardStat] = 1
+global.CardInClan[CardStat] = 4
+}
+global.PowerStat[CardStat] = 8000
+
+
+CardStat = 7133
+{
+global.CardName[CardStat] = 'Powered Trooper, Shing'
+global.CardText[CardStat] = 'Nova Grappler/боевой робот/Звёздные врата/дар воображения: Ускорение
+
+АВТО [Арьергард] [Один раз за ход]: когда этот воин атакует, заплатите цену [Встречный взрыв 1 & скиньте одну карту у себя из руки] и до конца битвы проверка эффектов этого воина снижается на одну, и во время этой битвы данный воин делает проверку эффектов.'
+global.UnitGrade[CardStat] = 3
+global.CardInClan[CardStat] = 4
+}
+global.OrangeTokenAdd[CardStat] = 1
+global.PowerStat[CardStat] = 12000
+
+
+CardStat = 7134
+{
+global.CardName[CardStat] = 'Fullmoon Muscle'
+global.CardText[CardStat] = 'Nova Grappler/боевой зверь/Звёздные врата
+
+АВТО: когда поверх этого воина делается смена, возьмите одну карту из колоды. Затем, если у авангарда оппонента как минимум 1ый ранг, возьмите в руку скоростной щит.'
+global.UnitGrade[CardStat] = 0
+global.CardInClan[CardStat] = 4
+}
+global.PowerStat[CardStat] = 6000
+global.QuickShieldAdd[CardStat] = 1
+
+
+CardStat = 7135
+{
+global.CardName[CardStat] = 'Rolling Extender'
+global.CardText[CardStat] = 'Nova Grappler/человек/герой/Звёздные врата
+
+ПРОДОЛЖИТЕЛЬНЫЙ [Арьергард]: во время Вашего хода сила этого воина увеличивается на 5,000.
+
+ПРОДОЛЖИТЕЛЬНЫЙ [Арьергард]: данный воин не может атаковать арьергард и не может поддерживать атаку, направленную на арьергард.'
+global.UnitGrade[CardStat] = 1
+global.CardInClan[CardStat] = 4
+}
+global.PowerStat[CardStat] = 8000
+
+
+CardStat = 7136
+{
+global.CardName[CardStat] = 'Fighting Referee'
+global.CardText[CardStat] = 'Nova Grappler/рабочий робот/Звёздные врата
+'
+global.UnitGrade[CardStat] = 1
+global.CardInClan[CardStat] = 4
+}
+global.PowerStat[CardStat] = 9000
+
+
+CardStat = 7137
+{
+global.CardName[CardStat] = 'Quatron Liger'
+global.CardText[CardStat] = 'Nova Grappler/пришелец/Звёздные врата
+
+АВТО [Арьергард]: когда атака этого воина достигает авангарда, заплатите цену [Взрыв души 1] и возьмите одну карту из колоды.'
+global.UnitGrade[CardStat] = 2
+global.CardInClan[CardStat] = 4
+}
+global.PowerStat[CardStat] = 8000
+
+
+CardStat = 7138
+{
+global.CardName[CardStat] = 'Bugabood Mammoth'
+global.CardText[CardStat] = 'Nova Grappler/боевой зверь/Звёздные врата
+
+АВТО [Арьергард]: когда этот воин атакует, если у Вас как минимум семь воинов, до конца битвы сила данного воина увеличивается на 15,000.'
+global.UnitGrade[CardStat] = 3
+global.CardInClan[CardStat] = 4
+}
+global.PowerStat[CardStat] = 12000
+
+CardStat = 7160
+{
+global.CardName[CardStat] = 'Unknown Adamski'
+global.CardText[CardStat] = 'Nova Grappler/пришелец/Звёздные врата
+
+АВТО [Арьергард]: при помещении, заплатите цену [Встречный взрыв 1], поднимите одного своего другого арьергарда и атакуйте им авангард оппонента. В конце битвы, если та атака не прошла, поднимите того воина. '
+global.UnitGrade[CardStat] = 1
+global.CardInClan[CardStat] = 4
+}
+global.PowerStat[CardStat] = 8000
+
+CardStat = 7497
+{
+global.CardName[CardStat] = 'Heteromorphic Dragon King, Azdabulk'
+global.CardText[CardStat] = 'Nova Grappler/дракон пространства/Звёздные врата
+
+Вознесение.
+
+АВТО [Авангард]: когда этот воин атакует, заплатите цену [Встречный взрыв 1 & переверните в открытое положение одну карту у себя в зоне наследия] и поднимите всех своих арьергардов в переднем ряду. До конца битвы сила этого воина увеличивается на 5,000 за каждого поднявшегося воина.'
+global.UnitGrade[CardStat] = 4
+global.CardInClan[CardStat] = 4
+global.ExtraDeck[CardStat] = 1
+}
+global.PowerStat[CardStat] = 15000
+
+CardStat = 7544
+{
+global.CardName[CardStat] = 'Kitton Pikkon'
+global.CardText[CardStat] = 'Nova Grappler/боевой робот/Звёздные врата/критический триггер-эффект
+
+ПРОДОЛЖИТЕЛЬНЫЙ [Рука]: когда Вы платите цену за вознесение, эта карта может быть скинута в качестве 3го ранга.'
+global.UnitGrade[CardStat] = 0
+global.CardInClan[CardStat] = 4
+}
+global.TriggerUnit[CardStat] = 2
+global.PowerStat[CardStat] = 4000
+global.NewTriggerStat[CardStat] = 1
+
+CardStat = 7890
+{
+global.CardName[CardStat] = 'Stern Blaukluger '
+global.CardText[CardStat] = 'Nova Grappler/боевой робот/Звёздные врата/дар воображения: Ускорение
+
+ПРОДОЛЖИТЕЛЬНЫЙ [Авангард]: во время Вашего хода, если у Вас в душе находится Blaukluger, сила всех Ваших воинов 3го ранга, в именах которых содержится «Blau», увеличивается на 10,000.
+
+АВТО [Авангард]: в конце битвы, в которой этот воин атаковал, заплатите цену [скиньте две карты из своей руки], выберите одного Galaxy Blaukluger у себя в арьергарде, ограничьте его, затем сделайте на него смену в стоячем положении, и до конца хода проверка эффектов того воина снижается на одну.'
+global.UnitGrade[CardStat] = 3
+global.CardInClan[CardStat] = 4
+}
+global.OrangeTokenAdd[CardStat] = 1
+global.PowerStat[CardStat] = 12000
+
+
+CardStat = 7891
+{
+global.CardName[CardStat] = 'Blaukluger '
+global.CardText[CardStat] = 'Nova Grappler/боевой робот/Звёздные врата
+
+АВТО [Авангард]: при помещении, заплатите цену [Встречный взрыв 1], посмотрите на семь верхних карт своей колоды, раскройте среди них до одной карты, в имени которой содержится «Blau», возьмите её в руку и перемешайте свою колоду.
+
+АВТО [Арьергард]: в конце битвы, в которой этот воин атаковал, если у Вашего авангарда в имени содержится «Blau», заплатите цену [поместите этого воина в свою душу] и возьмите одну карту из колоды.'
+global.UnitGrade[CardStat] = 2
+global.CardInClan[CardStat] = 4
+}
+global.PowerStat[CardStat] = 9000
+
+
+CardStat = 7892
+{
+global.CardName[CardStat] = 'Blaupanzer '
+global.CardText[CardStat] = 'Nova Grappler/боевой робот/Звёздные врата
+
+АВТО [Авангард]: когда этот воин сменяется поверх Blaujunger, посмотрите на пять верхних карт своей колоды, раскройте среди них до одной карты, в имени которой содержится «Blau», возьмите её в руку и перемешайте свою колоду.
+
+АВТО [Арьергард]: при помещении, заплатите цену [скиньте один триггер из руки], найдите у себя в колоде до одного воина 3го ранга, в имени которого содержится «Blau», раскройте его и возьмите его в руку, после чего перемешайте свою колоду.'
+global.UnitGrade[CardStat] = 1
+global.CardInClan[CardStat] = 4
+}
+global.PowerStat[CardStat] = 8000
+
+
+CardStat = 7893
+{
+global.CardName[CardStat] = 'Blaujunger '
+global.CardText[CardStat] = 'Nova Grappler/боевой робот/Звёздные врата
+
+АВТО: когда поверх этого воина делается смена, возьмите одну карту из колоды. Затем, если у авангарда оппонента как минимум 1ый ранг, возьмите в руку скоростной щит.'
+global.UnitGrade[CardStat] = 0
+global.CardInClan[CardStat] = 4
+}
+global.PowerStat[CardStat] = 6000
+global.QuickShieldAdd[CardStat] = 1
+
+
+CardStat = 7894
+{
+global.CardName[CardStat] = 'Galaxy Blaukluger '
+global.CardText[CardStat] = 'Nova Grappler/боевой робот/Звёздные врата/дар воображения: Ускорение
+
+ПРОДОЛЖИТЕЛЬНЫЙ [Авангард]: во время Вашего хода, если у Вас в душе находится Blaukluger, сила всех Ваших воинов 3го ранга, в именах которых содержится «Blau», увеличивается на 10,000.
+
+АВТО [Авангард]: когда этот воин атакует, заплатите цену [Встречный взрыв 1] и призовите до одного Stern Blaukluger из своей души в арьергард.
+
+АВТО: когда поверх этого воина сменяется воин, в имени которого содержится «Blau», Вы можете призвать эту карту в арьергард.'
+global.UnitGrade[CardStat] = 3
+global.CardInClan[CardStat] = 4
+}
+global.OrangeTokenAdd[CardStat] = 1
+global.PowerStat[CardStat] = 12000
+
+
+CardStat = 7895
+{
+global.CardName[CardStat] = 'Morgenrot '
+global.CardText[CardStat] = 'Nova Grappler/боевой робот/Звёздные врата
+
+АВТО [Арьергард]: в конце Вашего хода, заплатите цену [уберите этого воина с поля] и верните себе в руку одного своего арьергарда, в имени которого содержится «Blau».'
+global.UnitGrade[CardStat] = 1
+global.CardInClan[CardStat] = 4
+}
+global.PowerStat[CardStat] = 8000
+
+CardStat = 7906
+{
+global.CardName[CardStat] = 'Lightness Cool'
+global.CardText[CardStat] = 'Nova Grappler/боевой зверь/Звёздные врата
+'
+global.UnitGrade[CardStat] = 1
+global.CardInClan[CardStat] = 4
+}
+global.PowerStat[CardStat] = 7000
+
+
+CardStat = 7907
+{
+global.CardName[CardStat] = 'Cutting Gyre'
+global.CardText[CardStat] = 'Nova Grappler/человек/герой/Звёздные врата
+
+АВТО [Арьергард]: при помещении, заплатите цену [Взрыв души 1 & отправьте на отдых этого воина и другого своего арьергарда] и возьмите одну карту из колоды.'
+global.UnitGrade[CardStat] = 2
+global.CardInClan[CardStat] = 4
+}
+global.PowerStat[CardStat] = 8000
+
+CardStat = 7924
+{
+global.CardName[CardStat] = 'Exxtreme Battler, Victor '
+global.CardText[CardStat] = 'Nova Grappler/боевой робот/Звёздные врата/дар воображения: Ускорение
+
+АВТО [Авангард]: при помещении, посмотрите на семь верхних карт своей колоды, выберите среди них до одной карты 2го или ниже ранга, в имени которой содержится «Extreme Battler», призовите её в арьергард и перемешайте свою колоду.
+
+АВТО [Авангард]: когда этот воин атакует, заплатите цену [Встречный взрыв 1 & Взрыв души 1], выберите до одного своего арьергарда и поднимите его. Если тот арьергард во время этого хода поднялся способностью карт уже как минимум дважды, до конца хода проверка эффектов этого воина увеличивается на одну. (Поднятие от этой способности тоже считается.)'
+global.UnitGrade[CardStat] = 3
+global.CardInClan[CardStat] = 4
+}
+global.OrangeTokenAdd[CardStat] = 1
+global.PowerStat[CardStat] = 12000
+
+
+CardStat = 7925
+{
+global.CardName[CardStat] = 'Extreme Battler, Dosledge'
+global.CardText[CardStat] = 'Nova Grappler/боевой робот/Звёздные врата
+
+АВТО [Арьергард]: когда этот воин поднимается способностью карты, выполните нижестоящие эффекты, в зависимости от того, сколько раз этот воин поднялся способностью карты в этом ходу.
+• Один раз: до конца хода сила этого воина увеличивается на 10,000.
+• Два раза: активируйте Заряд души 1.
+• Три раза: до конца хода сила этого воина увеличивается на 10,000 и, когда этот воин атакует, оппонент не может призывать стражей из руки в круг защиты.'
+global.UnitGrade[CardStat] = 2
+global.CardInClan[CardStat] = 4
+}
+global.PowerStat[CardStat] = 9000
+
+
+CardStat = 7926
+{
+global.CardName[CardStat] = 'Extreme Battler, Ganbarugun'
+global.CardText[CardStat] = 'Nova Grappler/боевой робот/Звёздные врата
+
+АВТО [Арьергард] [Один раз за ход]: когда этот воин атакует, если у Вашего авангарда в имени содержится «Victor», заплатите цену [Взрыв души 1], поднимите одного своего арьергарда и до конца хода сила этого воина увеличивается на 5,000.'
+global.UnitGrade[CardStat] = 1
+global.CardInClan[CardStat] = 4
+}
+global.PowerStat[CardStat] = 8000
+
+
+CardStat = 7927
+{
+global.CardName[CardStat] = 'Extreme Battler, Sosaucer'
+global.CardText[CardStat] = 'Nova Grappler/боевой робот/Звёздные врата
+
+АВТО [Авангард]: при помещении, заплатите цену [скиньте одну карту из руки] и возьмите одну карту из колоды.
+
+АВТО [Арьергард] [Один раз за ход]: когда этот воин поднимается, если он находится в дополнительном кругу арьергарда, до конца хода Вы можете увеличить силу данного воина на 10,000.'
+global.UnitGrade[CardStat] = 1
+global.CardInClan[CardStat] = 4
+}
+global.PowerStat[CardStat] = 8000
+
+
+CardStat = 7928
+{
+global.CardName[CardStat] = 'Extreme Battler, Break-pass '
+global.CardText[CardStat] = 'Nova Grappler/боевой робот/Звёздные врата/критический триггер-эффект
+
+ПРОДОЛЖИТЕЛЬНЫЙ: страж.'
+global.UnitGrade[CardStat] = 0
+global.CardInClan[CardStat] = 4
+}
+global.TriggerUnit[CardStat] = 2
+global.PowerStat[CardStat] = 5000
+
+
+CardStat = 7929
+{
+global.CardName[CardStat] = 'Visarded Ashura'
+global.CardText[CardStat] = 'Nova Grappler/пришелец/Звёздные врата
+
+АВТО [Арьергард] [Один раз за ход]: когда этот воин атакует, заплатите цену [Взрыв души 1] и поднимите данного воина.'
+global.UnitGrade[CardStat] = 3
+global.CardInClan[CardStat] = 4
+}
+global.PowerStat[CardStat] = 12000
+
+
+CardStat = 7930
+{
+global.CardName[CardStat] = 'Brute the Beast'
+global.CardText[CardStat] = 'Nova Grappler/боевой зверь/Звёздные врата
+
+АКТ [Арьергард] [Один раз за ход]: если у Вашего авангарда как минимум 3ий ранг, заплатите цену [Встречный взрыв 2], найдите у себя в колоде до одной карты 3го ранга, призовите её в арьергард и перемешайте свою колоду.'
+global.UnitGrade[CardStat] = 2
+global.CardInClan[CardStat] = 4
+}
+global.PowerStat[CardStat] = 9000
+
+CardStat = 7944
+{
+global.CardName[CardStat] = 'Earnest Second'
+global.CardText[CardStat] = 'Nova Grappler/пришелец/Звёздные врата/исцеляющий триггер-эффект
+
+В колоде не может быть больше четырёх исцеляющих триггер-эффектов.'
+global.UnitGrade[CardStat] = 0
+global.CardInClan[CardStat] = 4
+}
+global.TriggerUnit[CardStat] = 4
+global.PowerStat[CardStat] = 5000
+
+
+CardStat = 7945
+{
+global.CardName[CardStat] = 'Extreme Battler, Arashid '
+global.CardText[CardStat] = 'Nova Grappler/боевой робот/Звёздные врата
+
+ПРОДОЛЖИТЕЛЬНЫЙ [Арьергард]: если во время этого хода Ваш воин поднялся способностью карты, сила этого воина увеличивается на 5,000.
+
+АВТО [Авангард/арьергард]: при помещении из руки, посмотрите на пять верхних карт своей колоды, раскройте среди них до одной карты 3го ранга, возьмите её в руку, перемешайте свою колоду и, если Вы взяли карту, скиньте одну карту из своей руки.'
+global.UnitGrade[CardStat] = 1
+global.CardInClan[CardStat] = 4
+}
+global.PowerStat[CardStat] = 8000
+
+
+CardStat = 7946
+{
+global.CardName[CardStat] = 'Cool Hank '
+global.CardText[CardStat] = 'Nova Grappler/пришелец/Звёздные врата
+
+АВТО [Авангард]: когда атака этого воина достигает цели, заплатите цену [Взрыв души 1] и возьмите одну карту из колоды.
+
+АВТО [Арьергард] [Один раз за ход]: когда этот воин атакует, заплатите цену [скиньте одну карту из своей руки] и поднимите одного своего другого арьергарда.'
+global.UnitGrade[CardStat] = 2
+global.CardInClan[CardStat] = 4
+}
+global.PowerStat[CardStat] = 9000
+
+CardStat = 7963
+{
+global.CardName[CardStat] = 'Qigong Fighting Hermit, Master Torga'
+global.CardText[CardStat] = 'Nova Grappler/боевой зверь/Звёздные врата/дар воображения: Ускорение
+
+ПРОДОЛЖИТЕЛЬНЫЙ [Авангард/арьергард]: сила передовых триггеров, попавшихся Вам в проверке эффектов, увеличивается на 5,000.
+
+АВТО [Авангард/арьергард] [Один раз за ход]: когда Вам во время проверки эффектов попадается передовой триггер, заплатите цену [скиньте одну карту из своей руки], поднимите этого воина и до конца хода его проверка эффектов снижается на одну.'
+global.UnitGrade[CardStat] = 3
+global.CardInClan[CardStat] = 4
+}
+global.OrangeTokenAdd[CardStat] = 1
+global.PowerStat[CardStat] = 12000
+global.TriggerPowerUpEffect[CardStat, 0] = 5000
+
+
+CardStat = 7964
+{
+global.CardName[CardStat] = 'Memory Bot, Aldale'
+global.CardText[CardStat] = 'Nova Grappler/рабочий робот/Звёздные врата/дающий карту триггер-эффект
+'
+global.UnitGrade[CardStat] = 0
+global.CardInClan[CardStat] = 4
+}
+global.TriggerUnit[CardStat] = 1
+global.PowerStat[CardStat] = 5000
+
+CardStat = 8027
+{
+global.CardName[CardStat] = 'Giant Elephant Battler, Paon Mask'
+global.CardText[CardStat] = 'Nova Grappler/боевой зверь/Звёздные врата
+
+АВТО [Арьергард] [Один раз за ход]: когда Ваш воин поднимается способностью Вашей карты, до конца хода Вы можете увеличить силу этого воина, а также одного своего авангарда, на 10,000.'
+global.UnitGrade[CardStat] = 2
+global.CardInClan[CardStat] = 4
+}
+global.PowerStat[CardStat] = 9000
+global.DefensePowerStat[CardStat] = 5000
