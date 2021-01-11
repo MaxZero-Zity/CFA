@@ -1,0 +1,689 @@
+x = 1194
+
+CardStat = x
+{
+global.CardName[CardStat] = 'Blaster Mameshiba'
+global.CardText[CardStat] = 'Etranger/Высший зверь/Звёздные врата
+
+АВТО: когда этот воин отправляется из зоны защитников на кладбище, поместите его в душу.'
+global.UnitGrade[CardStat] = 0
+global.CardInClan[CardStat] = 22
+}
+
+CardStat = x+1
+{
+global.CardName[CardStat] = 'Kumamon'
+global.CardText[CardStat] = 'Etranger/Высший зверь/Звёздные врата
+
+АВТО: когда этот воин отправляется из зоны защитников на кладбище, поместите его в душу.'
+global.UnitGrade[CardStat] = 0
+global.CardInClan[CardStat] = 22
+}
+
+CardStat = x+2
+{
+global.CardName[CardStat] = 'Princess of the Corals, Tethys'
+global.CardText[CardStat] = 'Etranger/Русалка/Звёздные врата
+
+АКТ [Авангард/Арьергард]: [Встречный Взрыв 1] До конца хода сила этого воина увеличивается на 1,000.
+
+ПРОДОЛЖИТЕЛЬНЫЙ: этот воин относится также к клану «Aqua Force».'
+global.UnitGrade[CardStat] = 1
+global.CardInClan[CardStat] = 22
+}
+
+CardStat = x+3
+{
+global.CardName[CardStat] = 'Blaster Keroro'
+global.CardText[CardStat] = 'Etranger/Пришелец/Звёздные врата
+
+АВТО [Авангард/Арьергард]: когда этот воин атакует, если у Вас в руке больше карт, чем у оппонента, до конца битвы сила этого воина увеличивается на 3,000.'
+global.UnitGrade[CardStat] = 2
+global.CardInClan[CardStat] = 22
+}
+
+CardStat = x+4
+{
+global.CardName[CardStat] = 'Blaster Keroro Dark'
+global.CardText[CardStat] = 'Etranger/Пришелец/Звёздные врата
+
+АВТО [Авангард/Арьергард]: когда этот воин атакует, если у Вас в арьергарде меньше воинов, чем у оппонента, до конца битвы сила этого воина увеличивается на 3,000.'
+global.UnitGrade[CardStat] = 2
+global.CardInClan[CardStat] = 22
+}
+
+CardStat = x+5
+{
+global.CardName[CardStat] = 'Incandescent Lion, Keroro Ezel'
+global.CardText[CardStat] = 'Etranger/Пришелец/Звёздные врата
+
+АВТО [Авангард/Арьергард]: когда этот воин получает силу от кого-либо из клана «Etranger», до конца боя его сила увеличивается на 2,000.'
+global.UnitGrade[CardStat] = 3
+global.CardInClan[CardStat] = 22
+}
+
+CardStat = x+6
+{
+global.CardName[CardStat] = 'Kidani Baron'
+global.CardText[CardStat] = 'Etranger/Человек/Звёздные врата
+
+АВТО [Авангард]: когда этот воин атакует, если в бою участвует Кидани Барон, до конца боя сила этого воина увеличивается на 3,000.
+
+АВТО [Арьергард]: когда этот воин атакует, если в бою участвует Кидани Барон, до конца боя сила этого воина увеличивается на 1,000.'
+global.UnitGrade[CardStat] = 3
+global.CardInClan[CardStat] = 22
+}
+
+
+CardStat = x+7
+{
+global.CardName[CardStat] = 'Spiderman'
+global.CardText[CardStat] = 'Etranger/Человек/Звёздные врата
+
+АВТО [Авангард]: [Разрыв Лимитов 4] Когда этот воин атакует авангард оппонента, до конца битвы его сила увеличивается на 5,000.
+
+АВТО: [Встречный Взрыв 2] Когда этот воин призывается в авангард, Вы можете заплатить цену. Если Вы это сделаете, выберите воина 2го или ниже ранга, находящегося в арьергарде оппонента; уберите его с поля.'
+global.UnitGrade[CardStat] = 3
+global.CardInClan[CardStat] = 22
+}
+
+// Etrangers Add
+
+x = 1228
+
+CardStat = x
+{
+global.CardName[CardStat] = 'Golden Knight, Garo'
+global.CardText[CardStat] = 'Etranger/Человек/Звёздные врата'
+global.UnitGrade[CardStat] = 2
+global.CardInClan[CardStat] = 22
+}
+
+// E Add
+
+x = 1255
+
+CardStat = x
+{
+global.CardName[CardStat] = 'Demonic Beast, Zaruba'
+global.CardText[CardStat] = 'Etranger/Демон/Звёздные врата
+
+АВТО [Авангард/Арьергард]: когда этот воин атакует, если у Вас в авангарде или же в арьергарде находится воин клана «Etranger», имеющий Разрыв Лимитов 4, до конца боя сила этого воина увеличивается на 3,000.'
+global.UnitGrade[CardStat] = 2
+global.CardInClan[CardStat] = 22
+}
+
+// E Add
+
+x = 1262
+
+CardStat = x
+{
+global.CardName[CardStat] = 'Blue Dragon Knight, Garo'
+global.CardText[CardStat] = 'Etranger/Человек/Звёздные врата
+
+АВТО [Авангард]: [Разрыв Лимитов 4] Когда этот воин атакует авангард оппонента, до конца боя его сила увеличивается на 5,000.
+
+АВТО [Арьергард]: когда этот воин атакует авангард оппонента, если Ваш авангард относится к клану «Etranger», до конца битвы сила данного воина увеличивается на 2,000.'
+global.UnitGrade[CardStat] = 3
+global.CardInClan[CardStat] = 22
+}
+
+// E Add
+
+x = 1341
+
+CardStat = x
+{
+global.CardName[CardStat] = 'Fire Leon'
+global.CardText[CardStat] = 'Etranger/Человек/Звёздные врата
+
+АВТО [Авангард]: [Разрыв Лимитов 4] Когда этот воин атакует авангард оппонента, до конца боя его сила увеличивается на 5,000.
+
+АВТО [Арьергард]: когда этот воин атакует авангард оппонента, если Ваш авангард относится к клану «Etranger», до конца битвы сила данного воина увеличивается на 2,000.'
+global.UnitGrade[CardStat] = 3
+global.CardInClan[CardStat] = 22
+}
+
+// E Add
+
+x = 1344
+
+CardStat = x
+{
+global.CardName[CardStat] = 'Ferald Kingdom, Queen Lyne'
+global.CardText[CardStat] = 'Etranger/Человек/Звёздные врата
+
+АКТ [Авангард/Арьергард]: [Встречный Взрыв 1] До конца хода сила данного воина увеличивается на 1,000.'
+global.UnitGrade[CardStat] = 1
+global.CardInClan[CardStat] = 22
+}
+
+// E Add
+
+x = 1392
+
+CardStat = x
+{
+global.CardName[CardStat] = 'Dark Noble, Muma'
+global.CardText[CardStat] = 'Etranger/Демон/Звёздные врата
+
+АВТО [Авангард/Арьергард]: когда этот воин атакует, если у Вас в арьергарде больше воинов, чем у оппонента, до конца битвы сила данного воина увеличивается на 3,000.'
+global.UnitGrade[CardStat] = 2
+global.CardInClan[CardStat] = 22
+}
+
+// E Add
+
+x = 1441
+
+CardStat = x
+{
+global.CardName[CardStat] = 'Black DAIGO'
+global.CardText[CardStat] = 'Etranger/Человек/Звёздные врата'
+global.UnitGrade[CardStat] = 2
+global.CardInClan[CardStat] = 22
+}
+
+CardStat = x+1
+{
+global.CardName[CardStat] = 'Legendary Star, DAIGO'
+global.CardText[CardStat] = 'Etranger/человек/Звёздные врата'
+global.UnitGrade[CardStat] = 2
+global.CardInClan[CardStat] = 22
+}
+
+// E Add
+
+x = 2057
+
+CardStat = x
+{
+global.CardName[CardStat] = '"Man"'
+global.CardText[CardStat] = 'Etranger/человек/Звёздные врата
+
+АКТ [Авангард]: [Взгляд] Используйте "силу манипуляции" и возьмите контроль над всеми людьми.'
+global.UnitGrade[CardStat] = 3
+global.CardInClan[CardStat] = 22
+}
+
+CardStat = x+1
+{
+global.CardName[CardStat] = '"Man who Cannot be Manipulated" Shuichi Tanaka'
+global.CardText[CardStat] = 'Etranger/человек/Звёздные врата
+
+ПРОДОЛЖИТЕЛЬНЫЙ [Авангард]: этим воином нельзя управлять с помощью "силы манипулирования".
+ 
+ПРОДОЛЖИТЕЛЬНЫЙ [Авангард]: этот воин устойчив к различным угрозам.'
+global.UnitGrade[CardStat] = 3
+global.CardInClan[CardStat] = 22
+}
+
+CardStat = x+2
+{
+global.CardName[CardStat] = 'Kanae Kumoi'
+global.CardText[CardStat] = 'Etranger/человек/Звёздные врата
+
+ПРОДОЛЖИТЕЛЬНЫЙ [Авангард/арьергард]: этот воин хочет опубликовать свою собственную книгу про мир.'
+global.UnitGrade[CardStat] = 1
+global.CardInClan[CardStat] = 22
+}
+
+// E Add
+
+x = 2868
+
+CardStat = x
+{
+global.CardName[CardStat] = 'Golden Knight, Garo Sho'
+global.CardText[CardStat] = 'Etranger/человек/Звёздные врата
+
+АВТО [Авангард]: [Разрыв лимитов 4] Когда этот воин атакует авангард, до конца боя его сила увеличивается на 5,000.
+
+ПРОДОЛЖИТЕЛЬНЫЙ [Авангард]: если у Вас в душе находится Golden Knight, Garo, сила данного воина увеличивается на 1,000.'
+global.UnitGrade[CardStat] = 3
+global.CardInClan[CardStat] = 22
+}
+
+CardStat = x+1
+{
+global.CardName[CardStat] = 'Demonic Beast, Degoru'
+global.CardText[CardStat] = 'Etranger/демон/Звёздные врата
+
+АКТ [Авангард/арьергард]: [Встречный взрыв 2] До конца хода сила данного воина увеличивается на 4,000.'
+global.UnitGrade[CardStat] = 2
+global.CardInClan[CardStat] = 22
+}
+
+CardStat = x+2
+{
+global.CardName[CardStat] = 'Humanoid Magical Tool, Ago'
+global.CardText[CardStat] = 'Etranger/демон/Звёздные врата'
+global.UnitGrade[CardStat] = 2
+global.CardInClan[CardStat] = 22
+}
+
+CardStat = 3689
+
+{
+
+global.CardName[3689] = 'Sanctuary Guard DAIGO'
+
+global.CardText[3689] = 'Etranger/человек/Звёздные врата/воин наследия
+
+Вознесение.
+'
+
+global.UnitGrade[3689] = 4
+
+global.CardInClan[3689] = 22
+
+global.ExtraDeck[3689] = 1
+
+}
+
+global.PowerStat[3689] = 16000
+
+CardStat = 3690
+
+{
+
+global.CardName[3690] = 'Osaka Spokesman Lieutenant Governor Mozuyan'
+
+global.CardText[3690] = 'Etranger/высший зверь/Звёздные врата
+
+АВТО: когда этот воин отправляется с круга защиты на кладбище, поместите его в душу. 
+'
+
+global.UnitGrade[3690] = 0
+
+global.CardInClan[3690] = 22
+
+}
+
+global.PowerStat[3690] = 5000
+
+
+CardStat = 3691
+
+{
+
+global.CardName[3691] = 'KIRIMI-chan.'
+
+global.CardText[3691] = 'Etranger/филе лосося
+
+АВТО: когда этот воин отправляется с круга защиты на кладбище, поместите его в душу. 
+'
+
+global.UnitGrade[3691] = 0
+
+global.CardInClan[3691] = 22
+
+}
+
+global.PowerStat[3691] = 5000
+
+
+CardStat = 3692
+
+{
+
+global.CardName[3692] = 'A (Daily) Blue Vote! Vangaro'
+
+global.CardText[3692] = 'Etranger/человек/Звёздные врата
+
+АВТО: когда этот воин отправляется с круга защиты на кладбище, поместите его в душу. 
+'
+
+global.UnitGrade[3692] = 0
+
+global.CardInClan[3692] = 22
+
+}
+
+global.PowerStat[3692] = 5000
+
+
+CardStat = 3693
+
+{
+
+global.CardName[3693] = 'Toshiki Kais Auditor, Kento'
+
+global.CardText[3693] = 'Etranger/человек/Звёздные врата
+'
+
+global.UnitGrade[3693] = 2
+
+global.CardInClan[3693] = 22
+
+}
+
+global.PowerStat[3693] = 10000
+
+
+CardStat = 3694
+
+{
+
+global.CardName[3694] = 'Ren Suzugamoris Auditor, Toshiyuki Someya'
+
+global.CardText[3694] = 'Etranger/человек/Звёздные врата
+'
+
+global.UnitGrade[3694] = 2
+
+global.CardInClan[3694] = 22
+
+}
+
+global.PowerStat[3694] = 10000
+
+
+CardStat = 3695
+
+{
+
+global.CardName[3695] = 'Kourin Tatsunagis Auditor, Suzuko Mimori'
+
+global.CardText[3695] = 'Etranger/человек/Звёздные врата
+'
+
+global.UnitGrade[3695] = 2
+
+global.CardInClan[3695] = 22
+
+}
+
+global.PowerStat[3695] = 10000
+
+
+CardStat = 3696
+
+{
+
+global.CardName[3696] = 'Escort Ship "Izumo"'
+
+global.CardText[3696] = 'Etranger/морские силы/Звёздные врата
+'
+
+global.UnitGrade[3696] = 2
+
+global.CardInClan[3696] = 22
+
+}
+
+global.PowerStat[3696] = 10000
+
+
+CardStat = 3697
+
+{
+
+global.CardName[3697] = 'Aichi Sendous Auditor, Shunya Ohira'
+
+global.CardText[3697] = 'Etranger/человек/Звёздные врата
+'
+
+global.UnitGrade[3697] = 2
+
+global.CardInClan[3697] = 22
+
+}
+
+global.PowerStat[3697] = 10000
+
+
+CardStat = 3698
+
+{
+
+global.CardName[3698] = 'Machine Divine General Giga Road'
+
+global.CardText[3698] = 'Etranger/боевой робот/Звёздные врата
+
+АВТО [Авангард] [Разрыв лимитов 4]: когда этот воин атакует авангард, до конца битвы его сила увеличивается на 5,000.
+
+АВТО: [Встречный взрыв 2] Когда этот воин призывается в авангард, Вы можете заплатить цену. Если Вы это сделаете, выберите одного арьергарда оппонента 2го или ниже ранга и уберите его с поля. 
+'
+
+global.UnitGrade[3698] = 3
+
+global.CardInClan[3698] = 22
+
+}
+
+global.PowerStat[3698] = 10000
+
+CardStat = 4856
+
+{
+
+global.CardName[4856] = 'Summer Days at Grand Fest, Try 3'
+
+global.CardText[4856] = 'Etranger/человек/Звёздные врата/критический триггер-эффект'
+
+global.UnitGrade[4856] = 0
+
+global.CardInClan[4856] = 22
+
+}
+
+global.TriggerUnit[4856] = 2
+
+global.PowerStat[4856] = 5000
+
+CardStat = 5418
+
+{
+
+global.CardName[5418] = 'Classical Folk Dancer'
+
+global.CardText[5418] = 'Etranger/человек/Звёздные врата
+
+АВТО [Авангард] Импульс наследия 1: когда этот воин атакует авангард, активируйте Заряд счётчика 1 и Заряд души 1, и до конца хода сила данного воина увеличивается на 5,000. 
+
+АВТО [Авангард]: [Встречный взрыв 1] Во время Вашего хода, когда Ваш воин наследия возносится, Вы можете заплатить цену. Если Вы это сделаете, возьмите одну карту из колоды.
+'
+
+global.UnitGrade[5418] = 3
+
+global.CardInClan[5418] = 22
+
+}
+
+global.PowerStat[5418] = 11000
+
+CardStat = 5515
+
+{
+
+global.CardName[5515] = 'Happy Childrens Day'
+
+global.CardText[5515] = 'Etranger/человек/Звёздные врата
+
+АВТО [Арьергард] Импульс наследия 1: [Взрыв души 1] Когда этот воин поддерживает авангард, Вы можете заплатить цену. Если Вы это сделаете, выберите одного своего воина и до конца хода его сила увеличивается на 4,000.
+'
+
+global.UnitGrade[5515] = 1
+
+global.CardInClan[5515] = 22
+
+}
+
+global.PowerStat[5515] = 7000
+
+CardStat = 5859
+
+{
+
+global.CardName[5859] = 'Phra Aphai Mani'
+
+global.CardText[5859] = 'Etranger/человек/Звёздные врата
+
+Вознесение.
+
+АВТО [Авангард]: [Встречный взрыв 1] В конце битвы, в которой этот воин атаковал, если его атака не прошла, Вы можете заплатить цену. Если Вы это сделаете, выберите до двух своих арьергардов и до конца хода их сила увеличивается на 5,000.
+'
+
+global.UnitGrade[5859] = 4
+
+global.CardInClan[5859] = 22
+
+}
+
+global.ExtraDeck[5859] = 1
+
+global.PowerStat[5859] = 15000
+
+CardStat = 5929
+
+{
+
+global.CardName[5929] = 'Scout, Rather Lose Life Than Honesty'
+
+global.CardText[5929] = 'Etranger/человек/Звёздные врата
+
+ПРОДОЛЖИТЕЛЬНЫЙ: у Вас в колоде может быть до двенадцати копий карты Scout, Rather Lose Life Than Honesty. 
+
+ПРОДОЛЖИТЕЛЬНЫЙ [Арьергард] Импульс наследия 1: во время Вашего хода сила данного воина увеличивается на 1,000 за каждого другого Вашего Scout, Rather Lose Life Than Honesty в арьергарде.
+'
+
+global.UnitGrade[5929] = 1
+
+global.CardInClan[5929] = 22
+
+}
+
+global.PowerStat[5929] = 7000
+
+CardStat = 6016
+
+{
+
+global.CardName[6016] = 'Thai Football Lover'
+
+global.CardText[6016] = 'Etranger/человек/Звёздные врата
+
+АВТО [Арьергард] [Один раз за ход] Импульс наследия 1: [Взрыв души 1] Когда другой Ваш воин, находящийся с данным воином в одной колонке, возвращается в Вашу колоду, Вы можете заплатить цену. Если Вы это сделаете, Вы можете взять одну карту из колоды.
+'
+
+global.UnitGrade[6016] = 1
+
+global.CardInClan[6016] = 22
+
+}
+
+global.PowerStat[6016] = 7000
+
+CardStat = 6072
+
+{
+
+global.CardName[6072] = 'Happy Mothers Day'
+
+global.CardText[6072] = 'Etranger/человек/Звёздные врата
+
+АВТО [Авангард]: когда поверх этого воина призывается Happy Fathers Day, найдите у себя в колоде до одной Happy Childrens Day, раскройте её, возьмите её в руку и перемешайте колоду. 
+
+АВТО: [Встречный взрыв 2] Когда этот воин помещается в арьергард, Вы можете заплатить цену. Если Вы это сделаете, выберите у себя на кладбище до одного триггер-воина и возьмите его в руку.
+'
+
+global.UnitGrade[6072] = 2
+
+global.CardInClan[6072] = 22
+
+}
+
+global.PowerStat[6072] = 9000
+
+CardStat = 6278
+{
+global.CardName[CardStat] = 'Roselia, Hikawa Sayo'
+global.CardText[CardStat] = 'Etranger/человек/Звёздные врата
+'
+global.UnitGrade[CardStat] = 2
+global.CardInClan[CardStat] = 22
+}
+global.PowerStat[CardStat] = 10000
+
+
+CardStat = 6279
+{
+global.CardName[CardStat] = 'Roselia, Imai Lisa'
+global.CardText[CardStat] = 'Etranger/человек/Звёздные врата
+'
+global.UnitGrade[CardStat] = 2
+global.CardInClan[CardStat] = 22
+}
+global.PowerStat[CardStat] = 10000
+
+
+CardStat = 6280
+{
+global.CardName[CardStat] = 'Roselia, Minato Yukina'
+global.CardText[CardStat] = 'Etranger/человек/Звёздные врата
+'
+global.UnitGrade[CardStat] = 2
+global.CardInClan[CardStat] = 22
+}
+global.PowerStat[CardStat] = 10000
+
+
+CardStat = 6281
+{
+global.CardName[CardStat] = 'Roselia, Shirokane Rinko'
+global.CardText[CardStat] = 'Etranger/человек/Звёздные врата
+'
+global.UnitGrade[CardStat] = 2
+global.CardInClan[CardStat] = 22
+}
+global.PowerStat[CardStat] = 10000
+
+
+CardStat = 6282
+{
+global.CardName[CardStat] = 'Roselia, Udagawa Ako'
+global.CardText[CardStat] = 'Etranger/человек/Звёздные врата
+'
+global.UnitGrade[CardStat] = 2
+global.CardInClan[CardStat] = 22
+}
+global.PowerStat[CardStat] = 10000
+
+
+CardStat = 6283
+{
+global.CardName[CardStat] = 'Ruttsu'
+global.CardText[CardStat] = 'Etranger/боевой зверь/Звёздные врата
+'
+global.UnitGrade[CardStat] = 2
+global.CardInClan[CardStat] = 22
+}
+global.PowerStat[CardStat] = 10000
+
+
+CardStat = 6284
+{
+global.CardName[CardStat] = 'Suzuko Mimori'
+global.CardText[CardStat] = 'Etranger/человек/Звёздные врата
+'
+global.UnitGrade[CardStat] = 2
+global.CardInClan[CardStat] = 22
+}
+global.PowerStat[CardStat] = 10000
+
+CardStat = 6602
+{
+global.CardName[CardStat] = 'Gargantua Dragon'
+global.CardText[CardStat] = 'Etranger/драковышний/Звёздные врата
+
+ПРОДОЛЖИТЕЛЬНЫЙ: эта карта относится ко всем кланам и нациям. 
+
+ПРОДОЛЖИТЕЛЬНЫЙ: данная карта не может быть призвана обычным призывом, если Вы не заплатите Встречный взрыв 1. Если заплатите, активируйте Заряд души 1. 
+
+АВТО [Авангард]: в конце битвы, в которой этот воин атаковал, выберите у себя в руке до одного драковышнего и сделайте на него смену в стоячем положении.'
+global.UnitGrade[CardStat] = 2
+global.CardInClan[CardStat] = 22
+}
+global.PowerStat[CardStat] = 7000

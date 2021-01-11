@@ -1,0 +1,5485 @@
+x = 169
+
+CardStat = x
+{
+global.CardName[CardStat] = 'Black Dragon Whelp, Vortimer'
+global.CardText[CardStat] = 'Gold Paladin/Человек/Единое святилище
+
+АВТО: когда поверх этого воина помещается Scout of Darkness, Vortimer, посмотрите до семи верхних карт своей колоды. Если среди этих карт окажутся Spectral Duke Dragon и/или Black Dragon Knight, Vortimer, Вы можете показать одного их них оппоненту и взять его в руку. Остальные карты возвращаются в колоду и перемешиваются.
+
+АВТО: когда поверх этого воина помещается кто-либо из клана «Gold Paladin», за исключением Scout of Darkness, Vortimer, Вы можете призвать данного воина в арьергард.'
+}
+
+
+CardStat = x+1
+{
+global.CardName[CardStat] = 'Coongal'
+global.CardText[CardStat] = 'Gold Paladin/Высший зверь/Единое святилище
+
+АВТО: когда этот воин отправляется из зоны защитников на кладбище – он помещается в душу.'
+}
+
+
+CardStat = x+2
+{
+global.CardName[CardStat] = 'Crimson Lion Cub, Kyrph'
+global.CardText[CardStat] = 'Gold Paladin/Человек/Единое святилище
+
+(ПРЕМИУМ: нельзя использовать стартовым авангардом.)
+
+АВТО: первопроходец.
+
+АКТ [Арьергард]: [Выберите находящихся у Вас в арьергарде Crimson Lion Cub, Kyrph и Knight of Elegant Skills, Gareth и поместите их в душу] Если у Вас в авангарде находится Knight of Superior Skills, Beaumains, найдите в колоде до одного Incandescent Lion, Blond Ezel и призовите его в авангард. Затем перемешайте колоду.'
+}
+
+global.CardLimidet[CardStat] = 1
+
+
+CardStat = x+3
+{
+global.CardName[CardStat] = 'Elixir Sommelier'
+global.CardText[CardStat] = 'Gold Paladin/Эльф/Единое святилище/Исцеляющий триггер-эффект
+
+В колоде нельзя иметь больше четырёх исцеляющих триггер-эффектов.'
+}
+
+
+CardStat = x+4
+{
+global.CardName[CardStat] = 'Falcon Knight of the Azure'
+global.CardText[CardStat] = 'Gold Paladin/Человек/Единое святилище/Дающий карту триггер-эффект
+
+АВТО: когда этот воин призывается в арьергард из колоды, выберите одного своего воина, относящегося к клану «Gold Paladin»; до конца хода атака выбранного Вами воина увеличивается на 2,000.'
+}
+
+
+CardStat = x+5
+{
+global.CardName[CardStat] = 'Flame of Victory'
+global.CardText[CardStat] = 'Gold Paladin/Саламандра/Единое святилище/Критический триггер-эффект
+
+АКТ [Арьергард]: [Поместите данного воина в душу] Выберите до одного своего воина, относящегося к клану «Gold Paladin»; до конца хода атака выбранного Вами воина увеличивается на 3,000.'
+}
+
+
+CardStat = x+6
+{
+global.CardName[CardStat] = 'Fortune Bell'
+global.CardText[CardStat] = 'Gold Paladin/Сильф/Единое святилище/Поднимающий триггер-эффект'
+}
+
+
+CardStat = x+7
+{
+global.CardName[CardStat] = 'Grassland Breeze, Sagramore'
+global.CardText[CardStat] = 'Gold Paladin/Человек/Единое святилище'
+}
+
+
+CardStat = x+8
+{
+global.CardName[CardStat] = 'Greeting Drummer'
+global.CardText[CardStat] = 'Gold Paladin/Человек/Единое святилище/Поднимающий триггер-эффект'
+}
+
+
+CardStat = x+9
+{
+global.CardName[CardStat] = 'Little Fighter, Cron'
+global.CardText[CardStat] = 'Gold Paladin/Гигант/Единое святилище
+
+АВТО: первопроходец (когда поверх этого воина помещается кто-либо, относящийся к клану «Gold Paladin», Вы можете призвать данного воина в арьергард.)
+
+АКТ [Арьергард]: [Встречный Взрыв 1 & поместите данного воина в душу] Посмотрите до пяти верхних карт своей колоды. Если среди этих карт окажется воин 3го или выше ранга, относящийся к клану «Gold Paladin», Вы можете показать его оппоненту и взять его в руку. Остальные карты возвращаются в колоду и перемешиваются.'
+}
+
+
+CardStat = x+10
+{
+global.CardName[CardStat] = 'Silent Punisher'
+global.CardText[CardStat] = 'Gold Paladin/Демон/Единое святилище/Критический триггер-эффект'
+}
+
+
+CardStat = x+11
+{
+global.CardName[CardStat] = 'Speeder Hound'
+global.CardText[CardStat] = 'Gold Paladin/Высший зверь/Единое святилище/Дающий карту триггер-эффект'
+}
+
+
+CardStat = x+12
+{
+global.CardName[CardStat] = 'Spring Breeze Messenger'
+global.CardText[CardStat] = 'Gold Paladin/Человек/Единое святилище
+
+АВТО: первопроходец (когда поверх этого воина помещается кто-либо из клана «Gold Paladin», можете призвать его в арьергард.)
+
+АВТО [Арьергард]: [Встречный Взрыв 1 & поместите в душу] Если этот воин передаёт кому-либо свою силу и атака достигает авангарда оппонента, можете заплатить цену. Если заплатите, посмотрите до трёх верхних карт колоды, выберите среди них до одного воина клана «Gold Paladin», призовите его в арьергард в спящем положении. Остальные карты возвращаются в низ колоды в любом порядке.'
+}
+
+
+CardStat = x+13
+{
+global.CardName[CardStat] = 'Weapons Dealer, Gwydion'
+global.CardText[CardStat] = 'Gold Paladin/Гном/Единое святилище/Дающий карту триггер-эффект'
+}
+
+
+CardStat = x+14
+{
+global.CardName[CardStat] = 'Black Mane Witch'
+global.CardText[CardStat] = 'Gold Paladin/Человек/Единое святилище
+
+АВТО: [Выберите одного своего другого воина, относящегося к клану «Gold Paladin», и уберите его с поля] Когда этот воин призывается в авангард или же в арьергард, если Ваш авангард относится к клану «Gold Paladin», Вы можете заплатить цену. Если Вы это сделаете – посмотрите на верхнюю карту своей колоды и, если эта карта относится к клану «Gold Paladin», Вы можете призвать её свободный круг арьергарда. Если нет – она возвращается в колоду и перемешивается.'
+}
+
+
+CardStat = x+15
+{
+global.CardName[CardStat] = 'Blade Feather Valkyrie'
+global.CardText[CardStat] = 'Gold Paladin/Эльф/Единое святилище
+
+АВТО [Арьергард]: [Встречный Взрыв 1] Когда Flash Edge Valkyrie получает силу от этого воина, если атака достигает авангарда оппонента и Ваш авангард относится к клану «Gold Paladin», Вы можете заплатить цену. Если Вы это сделаете, посмотрите на верхнюю карту своей колоды и, если она относится к клану «Gold Paladin», Вы можете призвать её в свободный круг арьергарда. Если нет – она возвращается в колоде и перемешивается.'
+}
+
+
+CardStat = x+16
+{
+global.CardName[CardStat] = 'Blessing Owl'
+global.CardText[CardStat] = 'Gold Paladin/Высший зверь/Единое святилище
+
+АВТО: когда этот воин призывается в арьергард, выберите одного своего другого воина, относящегося к клану «Gold Paladin»; до конца хода атака выбранного Вами воина увеличивается на 2,000.'
+}
+
+
+CardStat = x+17
+{
+global.CardName[CardStat] = 'Charjgal'
+global.CardText[CardStat] = 'Gold Paladin/Высший зверь/Единое святилище
+
+АВТО [Арьергард]: [Взрыв Души 1] Когда этот воин передаёт свою силу воину, зовущемуся Great Silver Wolf, Garmore, Вы можете заплатить цену. Если Вы это сделаете, до конца хода сила атакующего воина увеличивается на 5,000.'
+}
+
+
+CardStat = x+18
+{
+global.CardName[CardStat] = 'Disciple of Pain'
+global.CardText[CardStat] = 'Gold Paladin/Эльф/Единое святилище
+
+АВТО: [Встречный Взрыв 1] Когда этот воин призывается в авангард или же в арьергард, если Ваш авангард относится к клану «Gold Paladin», Вы можете заплатить цену. Если Вы это сделаете, поместите верхнюю карту своей колоды в зону урона. В конце этого хода выберите одну карту, находящуюся у Вас в зоне урона, и верните её в колоду.'
+}
+
+
+CardStat = x+19
+{
+global.CardName[CardStat] = 'Evil Slaying Swordsman, Haugan'
+global.CardText[CardStat] = 'Gold Paladin/Человек/Единое святилище
+
+АКТ [Авангард/Арьергард]: [Встречный Взрыв 1] До конца хода атака данного воина увеличивается на 1,000.'
+}
+
+
+CardStat = x+20
+{
+global.CardName[CardStat] = 'Halo Shield, Mark'
+global.CardText[CardStat] = 'Gold Paladin/Человек/Единое святилище
+
+ПРОДОЛЖИТЕЛЬНЫЙ: страж (в колоде не может содержаться больше четырёх стражей).
+
+АВТО: [Скиньте из руки одного воина, относящегося к клану «Gold Paladin»] Когда этот воин призывается в круг защитников – Вы можете заплатить цену. Если Вы это сделаете и, если Ваш атакуемый воин относится к клану «Gold Paladin», атака оппонента не проходит.'
+}
+
+
+CardStat = x+21
+{
+global.CardName[CardStat] = 'Knight of Elegant Skills, Gareth'
+global.CardText[CardStat] = 'Gold Paladin/Человек/Единое святилище'
+}
+
+
+CardStat = x+22
+{
+global.CardName[CardStat] = 'Listener of Truth, Dindrane'
+global.CardText[CardStat] = 'Gold Paladin/Человек/Единое святилище
+
+АВТО: [Взрыв Души 1] Когда этот воин призывается в арьергард из колоды, если Ваш авангард относится к клану «Gold Paladin», Вы можете заплатить цену. Если Вы это сделаете – возьмите одну карту из колоды.'
+}
+
+
+CardStat = x+23
+{
+global.CardName[CardStat] = 'Little Battler, Tron'
+global.CardText[CardStat] = 'Gold Paladin/Гигант/Единое святилище
+
+АВТО [Арьергард]: когда данный воин передаёт свою силу авангарду, относящемуся к клану «Gold Paladin», если у Вас в арьергарде находится больше воинов, чем у оппонента, до конца боя сила атакующего воина увеличивается на 4,000.'
+}
+
+
+CardStat = x+24
+{
+global.CardName[CardStat] = 'Player of the Holy Axe, Nimue'
+global.CardText[CardStat] = 'Gold Paladin/Человек/Единое святилище
+
+АВТО [Авангард/Арьергард]: [Встречный Взрыв 1] Когда данный воин получает силу от кого-либо из клана «Gold Paladin», если его атака достигает авангарда оппонента, Вы можете заплатить цену. Если Вы это сделаете – посмотрите на верхнюю карту своей колоды. Если она будет относиться к клану «Gold Paladin» – Вы можете призвать её в свободный круг арьергарда. Если нет – она возвращается в колоду и перемешивается.'
+}
+
+
+CardStat = x+25
+{
+global.CardName[CardStat] = 'Precipice Whirlwind, Sagramore'
+global.CardText[CardStat] = 'Gold Paladin/Человек/Единое святилище
+
+АВТО [Арьергард]: [Скиньте одну карту из руки] Когда этот воин передаёт кому-либо свою силу, если атака проходит успешно, Вы можете заплатить цену. Если Вы это сделаете – возьмите одну карту из колоды.'
+}
+
+
+CardStat = x+26
+{
+global.CardName[CardStat] = 'Scout of Darkness, Vortimer'
+global.CardText[CardStat] = 'Gold Paladin/Человек/Единое святилище
+
+ПРОД [Авангард]: если в душе есть Black Dragon Whelp, Vortimer, сила этого воина увеличивается на 1,000.
+
+АВТО [Авангард]: [Уберите у себя из арьергарда воина клана «Gold Paladin»] Если поверх помещается Black Dragon Knight, Vortimer и в душе есть Black Dragon Whelp, Vortimer, можете заплатить цену. Заплатите - посмотрите до двух верхних карт колоды, выберите среди них до двух воинов клана «Gold Paladin», призовите их в пустые круги арьергарда. Другие карты помещаются в низ колоды в любом порядке.'
+}
+
+
+CardStat = x+27
+{
+global.CardName[CardStat] = 'Silver Fang Witch'
+global.CardText[CardStat] = 'Gold Paladin/Человек/Единое святилище
+
+АВТО: [Взрыв Души 2] Когда этот воин призывается в арьергард, если Ваш авангард относится к клану «Gold Paladin», Вы можете заплатить цену. Если Вы это сделаете – возьмите одну карту из колоды.'
+}
+
+
+CardStat = x+28
+{
+global.CardName[CardStat] = 'Sleygal Dagger'
+global.CardText[CardStat] = 'Gold Paladin/Высший зверь/Единое святилище
+
+АКТ [Авангард/Арьергард]: [Встречный Взрыв 1] Если у Вас в арьергарде находятся четыре или больше других воинов, относящихся к клану «Gold Paladin», до конца хода атака данного воина увеличивается на 2,000.'
+}
+
+
+CardStat = x+29
+{
+global.CardName[CardStat] = 'War-horse, Raging Storm'
+global.CardText[CardStat] = 'Gold Paladin/Высший зверь/Единое святилище
+
+АВТО: когда этот воин призывается в авангард или же в арьергард, если Ваш авангард относится к клану «Gold Paladin», поместите до одного воина клана «Gold Paladin» из руки в душу.'
+}
+
+
+CardStat = x+30
+{
+global.CardName[CardStat] = 'Waving Owl'
+global.CardText[CardStat] = 'Gold Paladin/Высший зверь/Единое святилище
+
+АВТО [Арьергард]: когда данный воин передаёт свою силу кому-либо, относящемуся к клану «Gold Paladin», если атака достигает авангарда оппонента, Вы можете вернуть этого воина в руку.'
+}
+
+
+CardStat = x+31
+{
+global.CardName[CardStat] = 'Battle Flag Knight, Laudine'
+global.CardText[CardStat] = 'Gold Paladin/Человек/Единое святилище
+
+АВТО: когда этот воин призывается в арьергард, выберите своего другого воина, относящегося к клану «Gold Paladin»; до конца хода его сила увеличивается на 2,000.'
+}
+
+
+CardStat = x+32
+{
+global.CardName[CardStat] = 'Black Dragon Knight, Vortimer'
+global.CardText[CardStat] = 'Gold Paladin/Человек/Единое святилище
+
+ПРОД [Авангард]: если в душе есть Scout of Darkness, Vortimer, сила этого воина увеличивается на 1,000.
+
+АВТО [Авангард]: [Уберите у себя из арьергарда воина клана «Gold Paladin»] Если поверх помещается Spectral Duke Dragon и в душе есть Scout of Darkness, Vortimer, можете заплатить цену. Заплатите - посмотрите до двух верхних карт колоды, выберите среди них до двух воинов клана «Gold Paladin», призовите их в пустые круги арьергарда. Другие карты помещаются в низ колоды в любом порядке.'
+}
+
+
+CardStat = x+33
+{
+global.CardName[CardStat] = 'Charging Chariot Knight'
+global.CardText[CardStat] = 'Gold Paladin/Человек/Единое святилище
+
+АВТО [Авангард/Арьергард]: когда этот воин атакует, если у Вас в руке меньше карт, чем у оппонента, до конца боя атака данного воина увеличивается на 3,000.'
+}
+
+
+CardStat = x+34
+{
+global.CardName[CardStat] = 'Flash Edge Valkyrie'
+global.CardText[CardStat] = 'Gold Paladin/Эльф/Единое святилище
+
+АВТО: [Встречный Взрыв 1] Когда этот воин призывается в арьергард из колоды, если Ваш авангард относится к клану «Gold Paladin», Вы можете заплатить цену. Если Вы это сделаете, посмотрите на верхнюю карту своей колоды и, если она окажется воином клана «Gold Paladin», Вы можете призвать её в свободный круг арьергарда. Если нет – она возвращается в низ колоды.'
+}
+
+
+CardStat = x+35
+{
+global.CardName[CardStat] = 'Gigantech Commander'
+global.CardText[CardStat] = 'Gold Paladin/Гигант/Единое святилище
+
+АВТО [Авангард/Арьергард]: когда этот воин атакует, если у Вас в арьергарде находится больше воинов, чем у оппонента, до конца боя сила данного воина увеличивается на 3,000.'
+}
+
+
+CardStat = x+36
+{
+global.CardName[CardStat] = 'Knight of Superior Skills, Beaumains'
+global.CardText[CardStat] = 'Gold Paladin/Человек/Единое святилище'
+}
+
+CardStat = x+37
+{
+global.CardName[CardStat] = 'Lop Ear Shooter'
+global.CardText[CardStat] = 'Gold Paladin/Человек/Единое святилище
+
+АВТО: [Скиньте одну карту из руки] Когда этот воин призывается в арьергард из колоды, если Ваш авангард относится к клану «Gold Paladin», Вы можете заплатить цену. Если Вы это сделаете, посмотрите до трёх верхних карт своей колоды, выберите среди этих карт до одного воина, относящегося к клану «Gold Paladin», и призовите его в арьергард. Остальные карты возвращаются в низ колоды в любом порядке.'
+}
+
+CardStat = x+38
+{
+global.CardName[CardStat] = 'Mage of Calamity, Tripp'
+global.CardText[CardStat] = 'Gold Paladin/Ангел/Единое святилище
+
+АВТО [Авангард/Арьергард]: когда атака этого воина достигает авангард оппонента, если Ваш авангард относится к клану «Gold Paladin», выберите одну карту, находящуюся у Вас в зоне урона; переверните её в открытое положение.'
+}
+
+
+CardStat = x+39
+{
+global.CardName[CardStat] = 'Master of Pain'
+global.CardText[CardStat] = 'Gold Paladin/Эльф/Единое святилище
+
+АВТО: [Встречный Взрыв 1] Когда этот воин призывается в авангард или же в арьергард, если Ваш авангард относится к клану «Gold Paladin», Вы можете заплатить цену. Если Вы это сделаете, поместите верхнюю карту своей колоды в зону урона. В конце этого хода выберите одну карту, находящуюся у Вас в зоне урона, и верните её в колоду.'
+}
+
+
+CardStat = x+40
+{
+global.CardName[CardStat] = 'Player of the Holy Bow, Viviane'
+global.CardText[CardStat] = 'Gold Paladin/Эльф/Единое святилище
+
+АВТО [Авангард/Арьергард]: [Встречный Взрыв 1] Когда данный воин получает силу от кого-либо из клана «Gold Paladin», если его атака достигает авангарда оппонента, Вы можете заплатить цену. Если Вы это сделаете – посмотрите на верхнюю карту своей колоды. Если она будет относиться к клану «Gold Paladin» – Вы можете призвать её в свободный круг арьергарда. Если нет – поместите её в низ Вашей колоды.'
+}
+
+
+CardStat = x+41
+{
+global.CardName[CardStat] = 'Providence Strategist'
+global.CardText[CardStat] = 'Gold Paladin/Человек/Единое святилище
+
+АВТО [Авангард/Арьергард]: когда атака этого воина достигает авангарда оппонента, если у Вас в арьергарде находятся ещё хотя бы четыре воина, относящихся к клану «Gold Paladin», возьмите одну карту из колоды.'
+}
+
+
+CardStat = x+42
+{
+global.CardName[CardStat] = 'Sacred Guardian Beast, Elephas'
+global.CardText[CardStat] = 'Gold Paladin/Высший зверь/Единое святилище
+
+АВТО: [Встречный Взрыв 2] Когда этот воин призывается в авангард или же в арьергарда, если Ваш авангард относится к клану «Gold Paladin», Вы можете заплатить цену. Если Вы это сделаете, найдите в колоде до одного обычного воина 0го ранга, относящегося к клану «Gold Paladin», и призовите его в арьергард. Затем перемешайте колоду.'
+}
+
+
+CardStat = x+43
+{
+global.CardName[CardStat] = 'Sacred Guardian Beast, Nemean Lion'
+global.CardText[CardStat] = 'Gold Paladin/Высший зверь/Единое святилище
+
+АВТО: когда этот воин отправляется на перехват, если Ваш авангард относится к клану «Gold Paladin», на время боя защита данного воина увеличивается на 5,000.'
+}
+
+
+CardStat = x+44
+{
+global.CardName[CardStat] = 'Sleygal Sword'
+global.CardText[CardStat] = 'Gold Paladin/Высший зверь/Единое святилище
+
+АКТ [Авангард/Арьергард]: [Встречный Взрыв 1] Если у Вас в арьергарде находятся четыре или больше других воинов, относящихся к клану «Gold Paladin», до конца хода сила данного воина увеличивается на 2,000.'
+}
+
+
+CardStat = x+45
+{
+global.CardName[CardStat] = 'Archer of Dancing Light, Griflet'
+global.CardText[CardStat] = 'Gold Paladin/Гигант/Единое святилище
+
+АВТО [Авангард]: [Встречный Взрыв 2] Когда атака этого воина достигает авангарда оппонента, можете заплатить цену. Если заплатите, выберите у себя в арьергарде одного воина клана «Gold Paladin»; поднимите его в бой.
+
+АВТО [Арьергард]: [Встречный Взрыв 2] Когда атака этого воина достигает авангарда оппонента, можете заплатить цену. Если заплатите, выберите у себя в арьергарде одного своего воина клана «Gold Paladin» 1го или ниже ранга; поднимите его в бой.'
+}
+
+
+CardStat = x+46
+{
+global.CardName[CardStat] = 'Battlefield Storm, Sagramore'
+global.CardText[CardStat] = 'Gold Paladin/Человек/Единое святилище
+
+АВТО [Авангард/Арьергард]: [Встречный Взрыв 1] Когда этот воин атакует – Вы можете заплатить цену. Если Вы это сделаете, до конца боя атака данного воина увеличивается на 3,000.'
+}
+
+
+CardStat = x+47
+{
+global.CardName[CardStat] = 'Gigantech Crusher'
+global.CardText[CardStat] = 'Gold Paladin/Гигант/Единое святилище
+
+АВТО [Авангард]: когда этот воин атакует, если в этом ходу Вы призвали в арьергард четыре или больше воинов, относящихся к клану «Gold Paladin», до конца боя атака данного воина увеличивается на 10,000.'
+}
+
+
+CardStat = x+48
+{
+global.CardName[CardStat] = 'Gigantech Destroyer'
+global.CardText[CardStat] = 'Gold Paladin/Гигант/Единое святилище
+
+АВТО [Авангард/Арьергард]: когда этот воин атакует авангард оппонента, если Ваш авангард относится к клану «Gold Paladin», до конца боя сила данного воина увеличивается на 2,000.'
+}
+
+
+CardStat = x+49
+{
+global.CardName[CardStat] = 'Great Silver Wolf, Garmore'
+global.CardText[CardStat] = 'Gold Paladin/Человек/Единое святилище
+
+АВТО [Авангард]: [Разрыв Лимитов 4] Если данный воин атакует авангард оппонента, до конца боя его атака увеличивается на 5,000.
+
+АВТО: [Встречный Взрыв 2] Когда этот воин призывается в авангард – Вы можете заплатить цену. Если Вы это сделаете – найдите в колоде до одного воина 2го или ниже ранга, относящегося к клану «Gold Paladin», и призовите его в арьергард. Затем перемешайте колоду.'
+}
+
+
+CardStat = x+50
+{
+global.CardName[CardStat] = 'Holy Mage, Manawydan'
+global.CardText[CardStat] = 'Gold Paladin/Эльф/Единое святилище
+
+АВТО [Авангард/Арьергард]: если этот воин получает силу от кого-либо из клана «Gold Paladin», на время битвы его атака увеличивается на 2,000.'
+}
+
+
+CardStat = x+51
+{
+global.CardName[CardStat] = 'Incandescent Lion, Blond Ezel'
+global.CardText[CardStat] = 'Gold Paladin/Человек/Единое святилище
+
+АКТ [Авангард]: [Разрыв Лимитов 4] [Встречный Взрыв 2] Посмотрите верхнюю карту своей колоды. Если она относится к клану «Gold Paladin» – можете призвать её в свободный круг арьергарда. Если нет – она возвращается в низ колоды. До конца хода сила этого воина увеличивается на силу воина, призванного этим эффектом.
+
+ПРОДОЛЖИТЕЛЬНЫЙ [Авангард]: в Вашем ходу сила этого воина увеличивается на 1,000 за каждого находящегося у Вас в арьергарде воина клана «Gold Paladin».'
+}
+
+
+CardStat = x+52
+{
+global.CardName[CardStat] = 'Knight of Endurance, Lucan'
+global.CardText[CardStat] = 'Gold Paladin/Человек/Единое святилище
+
+АВТО [Авангард]: если во время проверки эффектов Вам попадается воин 3го ранга, относящийся к клану «Gold Paladin», до конца битвы сила данного воина увеличивается на 5,000.'
+}
+
+
+CardStat = x+53
+{
+global.CardName[CardStat] = 'Knight of Fury, Agravain'
+global.CardText[CardStat] = 'Gold Paladin/Демон/Единое святилище
+
+АВТО [Авангард]: в начале своей основной фазы – активируйте Заряд Души 1. До конца хода сила данного воина увеличивается на 2,000.
+
+АКТ [Авангард]: [Взрыв Души 8 & Встречный Взрыв 5] До конца игры критический удар этого воина увеличивается на один и он приобретает следующий эффект: "ПРОДОЛЖИТЕЛЬНЫЙ [Авангард]: атака этого воина увеличивается на 1,000 за каждого находящегося у Вас в арьергарде воина, относящегося к клану «Gold Paladin»".'
+}
+
+
+CardStat = x+54
+{
+global.CardName[CardStat] = 'Satellitefall Dragon'
+global.CardText[CardStat] = 'Gold Paladin/Космический дракон/Единое святилище
+
+АВТО [Авангард/Арьергард]: когда какой-либо другой Ваш воин 3го ранга, относящийся к клану «Gold Paladin», призывается в арьергард, до конца хода сила этого воина увеличивается на 3,000.'
+}
+
+
+CardStat = x+55
+{
+global.CardName[CardStat] = 'Sleygal Double Edge'
+global.CardText[CardStat] = 'Gold Paladin/Высший зверь/Единое святилище
+
+АКТ [Авангард/Арьергард]: [Встречный Взрыв 1] Если у Вас в арьергарде находятся четыре или больше других воинов, относящихся к клану «Gold Paladin», до конца хода атака данного воина увеличивается на 2,000.'
+}
+
+
+CardStat = x+56
+{
+global.CardName[CardStat] = 'Spectral Duke Dragon'
+global.CardText[CardStat] = 'Gold Paladin/Дракон бездны/Единое святилище
+
+АВТО [Авангард]: [Разрыв Лимитов 4] [Встречный Взрыв 2 & уберите у себя из арьергарда трёх воинов клана «Gold Paladin»] В конце боя, в котором этот воин атаковал авангард оппонента, Вы можете заплатить цену. Если Вы это сделаете, данный воин вновь поднимается в бой, однако до конца этого хода он теряет двойную проверку эффектов.
+
+ПРОДОЛЖИТЕЛЬНЫЙ [Авангард]: если у Вас в душе находится Black Dragon Knight, Vortimer, атака данного воина увеличивается на 1,000.'
+}
+
+
+CardStat = x+57
+{
+global.CardName[CardStat] = 'White Hare in the Moons Shadow, Pellinore'
+global.CardText[CardStat] = 'Gold Paladin/Человек/Единое святилище
+
+АВТО [Авангард]: [Разрыв Лимитов 4] [Выберите у себя в арьергарде двух воинов клана «Gold Paladin», поместите их в низ колоды в любом порядке] Когда этот воин атакует, можете заплатить цену. Если заплатите, выберите до двух воинов клана «Gold Paladin»; до конца хода их сила увеличивается на 5,000.
+
+АВТО: [Скиньте из руки воина клана «Gold Paladin»] Если этот воин призывается в арьергард из колоды и у авангарда оппонента 2+ ранг, можете заплатить цену. Если заплатите, поместите этого воина в авангард.'
+}
+
+// GoldPaladine Add
+
+x = 921
+
+CardStat = x
+{
+global.CardName[CardStat] = 'Dreaming Sage, Corron'
+global.CardText[CardStat] = 'Gold Paladin/Гигант/Единое святилище
+
+АВТО: первопроходец (когда поверх этого воина помешается кто-либо, относящийся к клану «Gold Paladin», Вы можете призвать данного воина в арьергард.)
+
+АКТ [Арьергард]: [Встречный Взрыв 1 & поместите данного воина в душу] Посмотрите до пяти верхних карт своей колоды и, если среди этих карт окажется воин, в имени которого содержится «Ezel», Вы можете показать его оппоненту и взять его в руку. Остальные карты возвращаются в колоду и перемешиваются.'
+}
+
+CardStat = x+1
+{
+global.CardName[CardStat] = 'Advance of the Black Chains, Kahedin'
+global.CardText[CardStat] = 'Gold Paladin/Человек/Единое святилище
+
+АВТО [Арьергард]: [Встречный Взрыв 1 & выберите другого воина клана «Gold Paladin», находящегося у Вас в арьергарде, и уберите его с поля] Когда этот воин передаёт свою силу воину клана «Gold Paladin», если атака достигает авангарда оппонента, Вы можете заплатить цену. Если Вы это сделаете, посмотрите на верхнюю карту своей колоды и, если она окажется воином клана «Gold Paladin», Вы можете призвать его в открытый круг арьергарда в спящем положении. Если нет — карта возвращается в низ колоды.'
+}
+
+CardStat = x+2
+{
+global.CardName[CardStat] = 'Holy Mage, Gale'
+global.CardText[CardStat] = 'Gold Paladin/Человек/Единое святилище
+
+АВТО: когда этот воин призывается в арьергард, выберите одного своего воина 3го ранга, относящегося к клану «Gold Paladin»; до конца хода атака выбранного Вами воина увеличивается на 3,000.'
+}
+
+CardStat = x+3
+{
+global.CardName[CardStat] = 'Knight of Passion, Bagdemagus'
+global.CardText[CardStat] = 'Gold Paladin/Человек/Единое святилище
+
+АВТО [Арьергард]: когда этот воин атакует, если у Вашего авангарда в имени содержится «Ezel», до конца битвы атака данного воина увеличивается на 3,000.'
+}
+
+CardStat = x+4
+{
+global.CardName[CardStat] = 'Knight of the Afterglow, Gerard'
+global.CardText[CardStat] = 'Gold Paladin/Человек/Единое святилище
+
+АВТО [Авангард]: [Разрыв Лимитов 4] Когда атака этого воина достигает авангарда оппонента, посмотрите до трёх верхних карт колоды и, если среди них окажется воин клана «Gold Paladin» 3го ранга, можете призвать его в свободный круг арьергарда. Остальные карты помещаются в низ колоды в любом порядке.
+
+ПРОДОЛЖИТЕЛЬНЫЙ [Авангард]: в Вашем ходу, если у Вас в арьергарде находится воин 3го ранга, относящийся к клану «Gold Paladin», сила этого воина увеличивается на 3,000.'
+}
+
+CardStat = x+5
+{
+global.CardName[CardStat] = 'Blazing Lion, Platina Ezel'
+global.CardText[CardStat] = 'Gold Paladin/Человек/Единое святилище
+
+АКТ [Авангард]: [Разрыв Лимитов 5] [Встречный Взрыв 3] Выберите до пяти своих воинов, находящихся в арьергарде и относящихся к клану «Gold Paladin»; до конца хода их сила увеличивается на 5,000.
+
+ПРОДОЛЖИТЕЛЬНЫЙ [Авангард]: если у Вас в душе находится Incandescent Lion, Blond Ezel, атака данного воина увеличивается на 2,000.
+
+ПРОДОЛЖИТЕЛЬНЫЙ [Авангард/Арьергард]: лидер.'
+}
+
+//ещё дофига воинов
+
+x = 1061
+
+CardStat = x+1
+{
+global.CardName[CardStat] = 'Stronghold of the Black Chains, Hoel'
+global.CardText[CardStat] = 'Gold Paladin/Человек/Единое святилище
+
+АВТО: первопроходец (когда поверх этого воина помешается кто-либо, относящийся к клану «Gold Paladin», Вы можете призвать данного воина в арьергард.)
+
+АКТ [Арьергард]: [Поместите данного воина в душу] Выберите одного своего воина клана «Gold Paladin»; до конца хода его сила увеличивается на 3,000.'
+}
+
+CardStat = x+2
+{
+global.CardName[CardStat] = 'Loonbau'
+global.CardText[CardStat] = 'Gold Paladin/Высший зверь/Единое святилище/Поднимающий триггер-эффект
+
+АКТ [Арьергард]: [Встречный Взрыв 1 & поместите данного воина в душу] Посмотрите на верхнюю карту своей колоды и, если она окажется воином клана «Gold Paladin», Вы можете призвать этого воина в открытый круг арьергарда. В любом другом случае карта возвращается в низ колоды.'
+}
+
+CardStat = x+3
+{
+global.CardName[CardStat] = 'Dantegal'
+global.CardText[CardStat] = 'Gold Paladin/Высший зверь/Единое святилище/Критический триггер-эффект'
+}
+
+CardStat = x+4
+{
+global.CardName[CardStat] = 'Ladybug Cavalry'
+global.CardText[CardStat] = 'Gold Paladin/Сильф/Единое святилище
+
+АВТО: [Встречный Взрыв 1] Когда этот воин призывается в круг защитников, если Ваш авангард относится к клану «Gold Paladin», Вы можете заплатить цену. Если Вы это сделаете, защита данного воина увеличивается на 5,000.'
+}
+
+CardStat = x+5
+{
+global.CardName[CardStat] = 'Martial Arts Sirius, Daikengo'
+global.CardText[CardStat] = 'Gold Paladin/Боевой робот/Единое святилище
+
+АВТО [Авангард]: [Скиньте из руки одного воина, относящегося к клану «Gold Paladin»] Когда этот воин атакует, Вы можете заплатить цену. Если Вы это сделаете – до конца битвы сила данного воина увеличивается на 6,000.
+
+АВТО [Арьергард]: [Скиньте из руки одного воина, относящегося к клану «Gold Paladin»] Когда этот воин атакует, Вы можете заплатить цену. Если Вы это сделаете – до конца битвы сила данного воина увеличивается на 3,000.'
+}
+
+CardStat = x+6
+{
+global.CardName[CardStat] = 'Conviction Dragon, Chromejailer Dragon'
+global.CardText[CardStat] = 'Gold Paladin/Дракон бездны/Единое святилище
+
+АКТ [Авангард]: [Разрыв Лимитов 4] [Встречный Взрыв 2 & уберите из арьергарда двух воинов клана «Gold Paladin»] До конца хода сила этого воина увеличивается на 10,000, а критический удар — на один.
+
+АКТ [Авангард]: [Встречный Взрыв 1 & скиньте из руки одного Convicting Dragon, Chrome Jailer Dragon] Посмотрите до четырёх верхних карт колоды, выберите среди них до двух воинов клана «Gold Paladin», призовите их в разные открытые круги арьергарда. Остальные карты помещаются в низ колоды в любом порядке.'
+}
+
+// Gold Paladin Add
+
+x = 1099
+
+CardStat = x
+{
+global.CardName[CardStat] = 'Solitary Liberator, Gancelot'
+global.CardText[CardStat] = 'Gold Paladin/Эльф/Единое святилище
+
+АВТО [Авангард]: [Разрыв Лимитов 4] Когда поверх этого воина помещается кто-либо из клана «Gold Paladin», до конца хода атака Вашего авангарда увеличивается на 10,000, к тому же, выберите до трёх воинов клана «Gold Paladin», находящихся у Вас в арьергарде; до конца хода их сила увеличивается на 5,000.
+
+АВТО [Авангард]: когда этот воин атакует авангард оппонента, до конца боя его сила увеличивается на 2,000.
+
+ПРОДОЛЖИТЕЛЬНЫЙ [Авангард/Арьергард]: лидер.'
+global.UnitGrade[CardStat] = 3
+global.CardInClan[CardStat] = 5
+}
+
+CardStat = x+1
+{
+global.CardName[CardStat] = 'Dignified Gold Dragon'
+global.CardText[CardStat] = 'Gold Paladin/Космический дракон/Единое святилище
+
+АВТО [Авангард]: [Разрыв Лимитов 4] Когда этот воин атакует авангард оппонента, до конца боя его сила увеличивается на 5,000.
+
+АВТО [Арьергард]: когда этот воин атакует авангард оппонента, если Ваш авангард относится к клану «Gold Paladin», до конца битвы сила данного воина увеличивается на 2,000.'
+global.UnitGrade[CardStat] = 3
+global.CardInClan[CardStat] = 5
+}
+
+CardStat = x+2
+{
+global.CardName[CardStat] = 'Wild Dancing Liberator, Mailshion'
+global.CardText[CardStat] = 'Gold Paladin/Человек/Единое святилище
+
+АВТО [Авангард/Арьергард]: [Встречный Взрыв 1] Когда этот воин атакует, Вы можете заплатить цену. Если Вы это сделаете, до конца боя сила данного воина увеличивается на 3,000.'
+global.UnitGrade[CardStat] = 3
+global.CardInClan[CardStat] = 5
+}
+
+CardStat = x+3
+{
+global.CardName[CardStat] = 'Liberator of Silence, Gallatin'
+global.CardText[CardStat] = 'Gold Paladin/Человек/Единое святилище'
+global.UnitGrade[CardStat] = 2
+global.CardInClan[CardStat] = 5
+}
+
+CardStat = x+4
+{
+global.CardName[CardStat] = 'Liberator of the Kingdom, Faron'
+global.CardText[CardStat] = 'Gold Paladin/Гигант/Единое святилище
+
+АВТО [Арьергард]: когда этот воин атакует, если у Вашего авангарда в имени содержится «Liberator», до конца битвы сила этого воина увеличивается на 3,000.'
+global.UnitGrade[CardStat] = 2
+global.CardInClan[CardStat] = 5
+}
+
+CardStat = x+5
+{
+global.CardName[CardStat] = 'Zoomdown Eagle'
+global.CardText[CardStat] = 'Gold Paladin/Высший зверь/Единое святилище
+
+АВТО: когда этот воин отправляется на перехват, если Ваш авангард относится к клану «Gold Paladin», на время этого боя защита данного воина увеличивается на 5,000.'
+global.UnitGrade[CardStat] = 2
+global.CardInClan[CardStat] = 5
+}
+
+CardStat = x+6
+{
+global.CardName[CardStat] = 'Liberator, Zoegal'
+global.CardText[CardStat] = 'Gold Paladin/Высший зверь/Единое святилище
+
+АВТО [Авангард/Арьергард]: когда этот воин атакует, если у Вас в арьергарде находятся как минимум три других воина, в именах которых содержится "Liberator", до конца битвы сила этого воина увеличивается на 3,000.'
+global.UnitGrade[CardStat] = 2
+global.CardInClan[CardStat] = 5
+}
+
+CardStat = x+7
+{
+global.CardName[CardStat] = 'Little Liberator, Marron'
+global.CardText[CardStat] = 'Gold Paladin/Гигант/Единое святилище
+
+АВТО [Арьергард]: когда этот воин атакует, если у Вашего авангарда в имени содержится "Liberator", до конца битвы сила этого воина увеличивается на 3,000.'
+global.UnitGrade[CardStat] = 1
+global.CardInClan[CardStat] = 5
+}
+
+CardStat = x+8
+{
+global.CardName[CardStat] = 'Bomergal the Liberator'
+global.CardText[CardStat] = 'Gold Paladin/Высший зверь/Единое святилище
+
+АКТ [Авангард/Арьергард]: [Встречный Взрыв 1] На время этого хода сила данного воина увеличивается на 1,000.'
+global.UnitGrade[CardStat] = 1
+global.CardInClan[CardStat] = 5
+}
+
+CardStat = x+9
+{
+global.CardName[CardStat] = 'Future Liberator, Llew'
+global.CardText[CardStat] = 'Gold Paladin/Человек/Единое святилище
+
+АВТО [Арьергард]: когда этот воин передаёт свою силу авангарду, относящемуся к клану «Gold Paladin», если у Вас в арьергарде находятся по крайней мере три других воина, в имени которых содержится "Liberator", до конца битвы сила нападающего воина увеличивается на 4,000.'
+global.UnitGrade[CardStat] = 1
+global.CardInClan[CardStat] = 5
+}
+
+CardStat = x+10
+{
+global.CardName[CardStat] = 'Angelic Liberator'
+global.CardText[CardStat] = 'Gold Paladin/Ангел/Единое святилище'
+global.UnitGrade[CardStat] = 0
+global.CardInClan[CardStat] = 5
+}
+
+CardStat = x+11
+{
+global.CardName[CardStat] = 'Strike Liberator'
+global.CardText[CardStat] = 'Gold Paladin/Человек/Единое святилище/Критический триггер-эффект'
+global.UnitGrade[CardStat] = 0
+global.CardInClan[CardStat] = 5
+}
+
+CardStat = x+12
+{
+global.CardName[CardStat] = 'Armament Liberator, Gwydion'
+global.CardText[CardStat] = 'Gold Paladin/Гном/Единое святилище/Дающий карту триггер-эффект'
+global.UnitGrade[CardStat] = 0
+global.CardInClan[CardStat] = 5
+}
+
+CardStat = x+13
+{
+global.CardName[CardStat] = 'Liberator of Fate'
+global.CardText[CardStat] = 'Gold Paladin/Человек/Единое святилище/Поднимающий триггер-эффект'
+global.UnitGrade[CardStat] = 0
+global.CardInClan[CardStat] = 5
+}
+
+CardStat = x+14
+{
+global.CardName[CardStat] = 'Liberator of Elixir'
+global.CardText[CardStat] = 'Gold Paladin/Эльф/Единое святилище/Исцеляющий триггер-эффект
+
+В колоде нельзя иметь больше четырёх исцеляющих триггер-эффектов.'
+global.UnitGrade[CardStat] = 0
+global.CardInClan[CardStat] = 5
+}
+
+CardStat = x+15
+{
+global.CardName[CardStat] = 'Holy Edge Knight'
+global.CardText[CardStat] = 'Gold Paladin/Человек/Единое святилище
+
+АВТО [Авангард/Арьергард]: когда этот воин атакует авангард оппонента, если Ваш авангард относится к клану «Gold Paladin», до конца боя сила данного воина увеличивается на 2,000.'
+global.UnitGrade[CardStat] = 3
+global.CardInClan[CardStat] = 5
+}
+
+// Gold Paladin Add
+
+x = 1121
+
+CardStat = x
+{
+global.CardName[CardStat] = 'Liberator of Round Table, Alfred'
+global.CardText[CardStat] = 'Gold Paladin/Человек/Единое святилище
+
+ПРОДОЛЖИТЕЛЬНЫЙ [Авангард]: [Разрыв Лимитов 4] Во время Вашего хода, за каждого воина, в имени которого содержится «Liberator», сила данного воина увеличивается на 2,000.
+
+АКТ [Авангард]: [Встречный Взрыв 2 "Liberator"] Вы можете посмотреть верхнюю карту своей колоды. Если она окажется воином клана «Gold Paladin», Вы можете призвать этого воина в арьергард. Если нет – поместите его в низ колоды.
+
+ПРОДОЛЖИТЕЛЬНЫЙ [Авангард/Арьергард]: лидер'
+global.UnitGrade[CardStat] = 3
+global.CardInClan[CardStat] = 5
+}
+
+CardStat = x+1
+{
+global.CardName[CardStat] = 'Moongal'
+global.CardText[CardStat] = 'Gold Paladin/Высший зверь/Единое святилище
+
+АВТО [Арьергард]: когда к Вам в авангард призывается воин клана «Gold Paladin» 3го ранга, до конца хода сила этого воина увеличивается на 10,000.'
+global.UnitGrade[CardStat] = 3
+global.CardInClan[CardStat] = 5
+}
+
+CardStat = x+2
+{
+global.CardName[CardStat] = 'Knight of Break Fist, Segfriedes'
+global.CardText[CardStat] = 'Gold Paladin/Гигант/Единое святилище
+
+АВТО [Авангард/Арьергард]: [Встречный Взрыв 2 «Gold Paladin»] Когда этот воин атакует, если Ваш авангард относится к клану «Gold Paladin», Вы можете заплатить цену. Если Вы это сделаете, до конца хода сила этого воина увеличивается на 4,000.'
+global.UnitGrade[CardStat] = 2
+global.CardInClan[CardStat] = 5
+}
+
+CardStat = x+3
+{
+global.CardName[CardStat] = 'Liberator of the Flute, Escrad'
+global.CardText[CardStat] = 'Gold Paladin/Человек/Единое святилище
+
+АВТО [Авангард/Арьергард]: [Встречный Взрыв 1 "Liberator"] Когда атака этого воина достигает авангарда оппонента, если Ваш авангард относится к клану «Gold Paladin», Вы можете заплатить цену. Если Вы это сделаете, посмотрите на верхнюю карту своей колоды и, если она окажется воином клана «Gold Paladin», можете призвать этого воина в свободный круг арьергарда. Если нет — карта возвращается в низ колоды.'
+global.UnitGrade[CardStat] = 2
+global.CardInClan[CardStat] = 5
+}
+
+CardStat = x+4
+{
+global.CardName[CardStat] = 'Knight of Far Bow, Sapphire'
+global.CardText[CardStat] = 'Gold Paladin/Человек/Единое святилище
+
+АВТО: когда этот воин призывается в арьергард из колоды, если Ваш авангард относится к клану «Gold Paladin», выберите до одной находящейся у Вас в зоне урона карты и переверните её в открытое положение. Затем активируйте Заряд Души 1.'
+global.UnitGrade[CardStat] = 2
+global.CardInClan[CardStat] = 5
+}
+
+CardStat = x+5
+{
+global.CardName[CardStat] = 'Liberator, Flare Mane Stallion'
+global.CardText[CardStat] = 'Gold Paladin/Высший зверь/Единое святилище
+
+АВТО [Арьергард]: [Взрыв Души 1] Когда Liberator of Round Table, Alfred получает силу от этого воина, Вы можете заплатить цену. Если Вы это сделаете, до конца хода сила атакующего воина увеличивается на 5,000.'
+global.UnitGrade[CardStat] = 1
+global.CardInClan[CardStat] = 5
+}
+
+CardStat = x+6
+{
+global.CardName[CardStat] = 'Guiding Falconee'
+global.CardText[CardStat] = 'Gold Paladin/Человек/Единое святилище
+
+АВТО [Арьергард]: [Встречный Взрыв 1] Когда этот воин передаёт свою силу кому-либо из клана «Gold Paladin», если у атакующего воина имеется Разрыв Лимитов 4, Вы можете заплатить цену. Если Вы это сделаете, до конца боя сила того воина увеличивается на 3,000.'
+global.UnitGrade[CardStat] = 1
+global.CardInClan[CardStat] = 5
+}
+
+CardStat = x+7
+{
+global.CardName[CardStat] = 'Curve Blade Liberator, Yoseph'
+global.CardText[CardStat] = 'Gold Paladin/Человек/Единое святилище
+
+АВТО: [Взрыв Души 1 "Liberator"] Когда этот воин призывается в арьергард из колоды, если у Вашего авангарда в имени содержится «Liberator», Вы можете заплатить цену. Если Вы это сделаете, возьмите одну карту из колоды.'
+global.UnitGrade[CardStat] = 1
+global.CardInClan[CardStat] = 5
+}
+
+CardStat = x+8
+{
+global.CardName[CardStat] = 'Halo Liberator, Mark'
+global.CardText[CardStat] = 'Gold Paladin/Человек/Единое святилище
+
+ПРОДОЛЖИТЕЛЬНЫЙ: страж (в колоде не может содержаться больше четырёх стражей).
+
+АВТО: [Скиньте из руки одного воина, относящегося к клану «Gold Paladin»] Когда этот воин призывается в круг защитников – Вы можете заплатить цену. Если Вы это сделаете и, если Ваш атакуемый воин относится к клану «Gold Paladin», атака оппонента не проходит.'
+global.UnitGrade[CardStat] = 1
+global.CardInClan[CardStat] = 5
+}
+
+CardStat = x+9
+{
+global.CardName[CardStat] = 'Wingal Liberator'
+global.CardText[CardStat] = 'Gold Paladin/Высший зверь/Единое святилище
+
+АВТО: первопроходец (когда поверх этого воина помещается кто-либо, относящийся к клану «Gold Paladin», Вы можете призвать данного воина в арьергард.)
+
+АВТО [Арьергард]: [Поместите данного воина в душу] Когда этот воин передаёт свою силу кому-либо, в чьём имени содержится «Liberator», если атака достигает авангарда оппонента, Вы можете заплатить цену. Если Вы это сделаете, выберите находящегося у Вас в душе Blaster Blade Liberator и призовите его в открытый круг арьергарда.'
+global.UnitGrade[CardStat] = 0
+global.CardInClan[CardStat] = 5
+}
+
+CardStat = x+10
+{
+global.CardName[CardStat] = 'Holy Squire, Enide'
+global.CardText[CardStat] = 'Gold Paladin/Человек/Единое святилище
+
+АВТО: первопроходец (когда поверх этого воина помещается кто-либо, относящийся к клану «Gold Paladin», Вы можете призвать данного воина в арьергард.)
+
+АВТО [Арьергард]: [Поместите данного воина в душу] Когда этот воин передаёт свою силу воину клана «Gold Paladin», имеющего Разрыв Лимитов 4, если атака достигает авангарда оппонента, Вы можете заплатить цену. Если Вы это сделаете — возьмите одну карту из колоды.'
+global.UnitGrade[CardStat] = 0
+global.CardInClan[CardStat] = 5
+}
+
+CardStat = x+11
+{
+global.CardName[CardStat] = 'Liberator of Hope, Epona'
+global.CardText[CardStat] = 'Gold Paladin/Сильф/Единое святилище/Критический триггер-эффект'
+global.UnitGrade[CardStat] = 0
+global.CardInClan[CardStat] = 5
+}
+
+CardStat = x+12
+{
+global.CardName[CardStat] = 'Flogal Liberator'
+global.CardText[CardStat] = 'Gold Paladin/Высший зверь/Единое святилище/Поднимающий триггер-эффект'
+global.UnitGrade[CardStat] = 0
+global.CardInClan[CardStat] = 5
+}
+
+CardStat = x+13
+{
+global.CardName[CardStat] = 'Blaster Blade Liberator'
+global.CardText[CardStat] = 'Gold Paladin/Человек/Единое святилище
+
+АВТО: [Встречный Взрыв 2] Когда этот воин призывается в авангард или же в арьергард, если у Вашего авангарда в имени содержится "Liberator", Вы можете заплатить цену. Если Вы это сделаете, выберите одного воина, находящегося в переднем ряду арьергарда оппонента, и уберите его с поля.'
+global.UnitGrade[CardStat] = 2
+global.CardInClan[CardStat] = 5
+}
+
+CardStat = x+14
+{
+global.CardName[CardStat] = 'Shield Knight of the Sea of Clouds'
+global.CardText[CardStat] = 'Gold Paladin/Человек/Единое святилище
+
+АВТО: когда этот воин призывает в арьергард прямиком из колоды, выберите другого своего воина клана «Gold Paladin»; до конца хода его сила увеличивается на 2,000.'
+global.UnitGrade[CardStat] = 1
+global.CardInClan[CardStat] = 5
+}
+
+// Gold Paladin Add
+
+x = 1263
+
+CardStat = x
+{
+global.CardName[CardStat] = 'Goshawk Liberator, Cadeau'
+global.CardText[CardStat] = 'Gold Paladin/Человек/Единое святилище
+
+АВТО [Авангард]: [Разрыв Лимитов 4] Когда этот воин атакует авангард оппонента, до конца боя его сила увеличивается на 5,000.
+
+АВТО [Авангард]: [Встречный Взрыв 1 "Liberator"] Когда атака этого воина достигает авангарда оппонента, Вы можете заплатить цену. Если Вы это сделаете, посмотрите на верхнюю карту своей колоды и, если она относится к клану «Gold Paladin», Вы можете призвать её в свободный круг арьергарда. В любом другом случае карта помещается в низ колоды.'
+global.UnitGrade[CardStat] = 3
+global.CardInClan[CardStat] = 5
+}
+
+// Gold Paladin Add
+
+x = 1342
+
+CardStat = x
+{
+global.CardName[CardStat] = 'Jumping Street Knight'
+global.CardText[CardStat] = 'Gold Paladin/Человек/Единое святилище
+
+АКТ [Авангрд/Арьергард]: [Встречный Взрыв 1] До конца хода сила данного воина увеличивается на 1,000.'
+global.UnitGrade[CardStat] = 1
+global.CardInClan[CardStat] = 5
+}
+
+CardStat = x+1
+{
+global.CardName[CardStat] = 'Wing Blader Knight'
+global.CardText[CardStat] = 'Gold Paladin/Человек/Единое святилище
+
+АВТО [Авангард/Арьергард]: Когда этот воин атакует, если у Вас в арьергарде больше воинов, чем у оппонента, до конца битвы сила данного воина увеличивается на 3,000.'
+global.UnitGrade[CardStat] = 2
+global.CardInClan[CardStat] = 5
+}
+
+// Gold Paladin Add
+
+x = 1357
+
+CardStat = x
+{
+global.CardName[CardStat] = 'Steel Spear Liberator, Bleoberis'
+global.CardText[CardStat] = 'Gold Paladin/Человек/Единое святилище
+
+АВТО [Авангард]: [Разрыв Лимитов 4] [Встречный Взрыв 1] Когда поверх этого воина помещается кто-либо из клана «Gold Paladin», Вы можете заплатить цену. Если Вы это сделаете - посмотрите до двух верхних карт своей колоды, найдите среди них до двух воинов клана «Gold Paladin», призовите их в открытые круги арьергарда, а остальные карты поместите в низ колоды в любом порядке. До конца хода Вы можете увеличить силу своего авангарда на 10,000. 
+
+АВТО [Авангард]: когда этот воин атакует авангард оппонента, до конца боя его сила увеличивается на 2,000. 
+
+ПРОДОЛЖИТЕЛЬНЫЙ [Авангард/Арьергард]: лидер.'
+global.UnitGrade[CardStat] = 3
+global.CardInClan[CardStat] = 5
+}
+
+// Gold Paladin Add
+
+x = 1443
+
+CardStat = x
+{
+global.CardName[CardStat] = 'Wolf Fang Liberator, Garmore'
+global.CardText[CardStat] = 'Gold Paladin/Человек/Единое святилище
+
+АКТ [Авангард]: [Разрыв Лимитов 4] [Встречный Взрыв 3 "Liberator"] Посмотрите верхнюю карту своей колоды и, если это воин клана «Gold Paladin», Вы можете признать его в открытый круг арьергарда, если нет, поместите его в низ колоды. Если воин был призван и у Вас всё ещё есть открытые круги арьергарда, Вы можете активировать данный эффект повторно, без платы. 
+АВТО [Авангард]: [Поместите одного своего арьергарда, в имени которого содержится "Liberator", в низ колоды] Когда этот воин атакует авангард, Вы можете заплатить цену. Если Вы это сделаете, до конца битвы сила этого воина увеличивается на 4,000. 
+ПРОДОЛЖИТЕЛЬНЫЙ [Авангард/Арьергард]: лидер.'
+global.UnitGrade[CardStat] = 3
+global.CardInClan[CardStat] = 5
+}
+
+// Gold Paladin Add
+
+x = 1448
+
+CardStat = x
+{
+global.CardName[CardStat] = 'Liberator, Cheer-Up Trumpeter'
+global.CardText[CardStat] = 'Gold Paladin/Ангел/Единое святилище
+
+АВТО: первопроходец (когда поверх этого воина помещается кто-либо, относящийся к клану «Gold Paladin», Вы можете призвать данного воина в арьергард.)
+
+АКТ [Арьергард]: [Поместите данного воина в душу] Выберите своего авангарда, в имени которого содержится «Liberator»; до конца хода он приобретает следующий эффект: "АВТО [Авангард]: каждый раз, когда к Вам в арьергард из колоды призывается воин клана «Gold Paladin», до конца хода сила этого воина увеличивается на 3,000"'
+global.UnitGrade[CardStat] = 0
+global.CardInClan[CardStat] = 5
+}
+
+CardStat = x+1
+{
+global.CardName[CardStat] = 'Assault Sky Knight'
+global.CardText[CardStat] = 'Gold Paladin/Человек/Единое святилище
+
+АВТО: когда этот воин призывается к Вам в арьергард из колоды - выберите одного своего воина клана «Gold Paladin»; до конца хода его сила увеличивается на 2,000.'
+global.UnitGrade[CardStat] = 2
+global.CardInClan[CardStat] = 5
+}
+
+// Gold Paladin Add
+
+x = 1476
+
+CardStat = x
+{
+global.CardName[CardStat] = 'Barcgal Liberator'
+global.CardText[CardStat] = 'Gold Paladin/Высший зверь/Единое святилище
+
+АВТО [Арьергард]: когда Blaster Blade Liberator получает силу от данного воина и атака достигает авангарда оппонента, посмотрите до трёх верхних карт своей колоды, найдите среди них до одного воина, в имени которого содержится "Liberator", призовите его в арьергард в спящем положении, а остальные карты верните в низ колоды в любом порядке.'
+global.UnitGrade[CardStat] = 1
+global.CardInClan[CardStat] = 5
+}
+
+// Gold Paladin Add
+
+x = 1504
+
+CardStat = x
+{
+global.CardName[CardStat] = 'Cloudy Sky Liberator, Geraint'
+global.CardText[CardStat] = 'Gold Paladin/Человек/Единое святилище
+
+АВТО [Арьергард]: когда к Вам из колоды в арьергард призывается другой воин клана «Gold Paladin», если у Вашего авангарда в имени содержится «Liberator», до конца хода сила этого воина увеличивается на 3,000.'
+global.UnitGrade[CardStat] = 2
+global.CardInClan[CardStat] = 5
+}
+
+CardStat = x+1
+{
+global.CardName[CardStat] = 'Liberator, Bagpipe Angel'
+global.CardText[CardStat] = 'Gold Paladin/Ангел/Единое святилище
+
+АВТО: когда этот воин призывается в арьергард из колоды, Вы можете выбрать до двух воинов, в именах которых содержится «Liberator»; до конца хода их сила увеличивается на 2,000.'
+global.UnitGrade[CardStat] = 2
+global.CardInClan[CardStat] = 5
+}
+
+CardStat = x+2
+{
+global.CardName[CardStat] = 'May Rain Liberator, Bruno'
+global.CardText[CardStat] = 'Gold Paladin/Человек/Единое святилище
+
+АВТО [Арьергард]: когда к Вам из колоды в арьергард призывается другой воин клана «Gold Paladin», если у Вашего авангарда в имени содержится «Liberator», до конца хода сила этого воина увеличивается на 3,000.'
+global.UnitGrade[CardStat] = 1
+global.CardInClan[CardStat] = 5
+}
+
+// Gold Paladin Add
+
+x = 1533
+
+CardStat = x
+{
+global.CardName[CardStat] = 'Gigantech Pillar Fighter'
+global.CardText[CardStat] = 'Gold Paladin/Гигант/Единое святилище
+
+АВТО [Авангард]: когда этот воин атакует, если у Вас в арьергарде больше воинов, чем у оппонента, атака данного воина увеличивается на 3,000.
+
+АВТО [Арьергард]: когда этот воин атакует, если у Вас в арьергарде больше воинов, чем у оппонента, атака данного воина увеличивается на 1,000.'
+global.UnitGrade[CardStat] = 3
+global.CardInClan[CardStat] = 5
+}
+
+CardStat = x+1
+{
+global.CardName[CardStat] = 'Peekgal'
+global.CardText[CardStat] = 'Gold Paladin/Высший зверь/Единое святилище
+
+АКТ [Авангард/арьергард]: [Встречный взрыв 2] До конца хода сила данного воина увеличивается на 4,000.'
+global.UnitGrade[CardStat] = 2
+global.CardInClan[CardStat] = 5
+}
+
+CardStat = x+2
+{
+global.CardName[CardStat] = 'Sunrise Unicorn'
+global.CardText[CardStat] = 'Gold Paladin/Высший зверь/Единое святилище
+
+АКТ [Арьергарда]: [Отправьте данного воина на отдых] Выберите одного своего воина клана «Gold Paladin»; до конца хода его сила увеличивается на 2,000.'
+global.UnitGrade[CardStat] = 1
+global.CardInClan[CardStat] = 5
+}
+
+CardStat = x+3
+{
+global.CardName[CardStat] = 'Dawn Liberator, Murron'
+global.CardText[CardStat] = 'Gold Paladin/Гигант/Единое святилище/Поднимающий триггер-эффект'
+global.UnitGrade[CardStat] = 0
+global.CardInClan[CardStat] = 5
+}
+
+// Gold Paladin Add
+
+x = 1661
+
+CardStat = x
+{
+global.CardName[CardStat] = 'Papilugal'
+global.CardText[CardStat] = 'Gold Paladin/Высший зверь/Единое святилище
+
+АВТО [Арьергард]: [Встречный взрыв 2] Когда этот воин передаёт свою силу кому-либо из клана «Gold Paladin», имеющему Разрыв лимитов 4, если атака достигает авангарда оппонента, Вы можете заплатить цену. Если Вы это сделаете - возьмите одну карту из колоды.'
+global.UnitGrade[CardStat] = 1
+global.CardInClan[CardStat] = 5
+}
+
+// Gold Paladin Add
+
+x = 1700
+
+CardStat = x
+{
+global.CardName[CardStat] = 'Liberator of Bonds, Gancelot Zenith'
+global.CardText[CardStat] = 'Gold Paladin/Эльф/Единое святилище
+
+АВТО [Авангард]: [Разрыв лимитов 4] [Встречный взрыв 1 "Liberator" & поместите одного находящегося у вас в арьергарде воина 2го или ниже ранга в низ своей колоды] Когда этот воин атакует авангард оппонента, Вы можете заплатить цену. Если Вы это сделаете, посмотрите верхнюю карту своей колоды и если это воин клана «Gold Paladin», Вы можете призвать его в открытый круг арьергарда. До конца хода сила воина, призванного данным эффектом, увеличивается на 10,000.
+
+ПРОДОЛЖИТЕЛЬНЫЙ [Авангард]: если у Вас в душе находится Solitary Liberator, Gancelot, сила данного воина увеличивается на 2,000.
+
+ПРОДОЛЖИТЕЛЬНЫЙ [Авангард/арьергард]: лидер.'
+global.UnitGrade[CardStat] = 3
+global.CardInClan[CardStat] = 5
+}
+
+CardStat = x+1
+{
+global.CardName[CardStat] = 'Dorgal Liberator'
+global.CardText[CardStat] = 'Gold Paladin/Высший зверь/Единое святилище
+
+АВТО [Авангард/арьергард]: [Встречный взрыв 1] Если у Вашего авангарда в имени содержится «Liberator», когда атака другого Вашего воина, в имени которого содержится «Liberator», достигает авангарда оппонента, Вы можете заплатить цену. Если Вы это сделаете, до конца хода сила данного воина увеличивается на 5,000.'
+global.UnitGrade[CardStat] = 2
+global.CardInClan[CardStat] = 5
+}
+
+CardStat = x+2
+{
+global.CardName[CardStat] = 'Knight of Axe, Taliesin'
+global.CardText[CardStat] = 'Gold Paladin/Человек/Единое святилище
+
+АВТО [Арьергард]: когда к Вам в авангард призывается воин клана «Gold Paladin» 3го ранга, до конца хода сила данного воина увеличивается на 10,000.'
+global.UnitGrade[CardStat] = 2
+global.CardInClan[CardStat] = 5
+}
+
+CardStat = x+3
+{
+global.CardName[CardStat] = 'Blue Sky Liberator, Hengest'
+global.CardText[CardStat] = 'Gold Paladin/Человек/Единое святилище
+
+АВТО [Авангард/арьергард]: [Встречный взрыв 2] Когда атака данного воина достигает цели, если Ваш авангард относится к клану «Gold Paladin», Вы можете заплатить цену. Если Вы это сделаете, возьмите одну карту из колоды.'
+global.UnitGrade[CardStat] = 2
+global.CardInClan[CardStat] = 5
+}
+
+CardStat = x+4
+{
+global.CardName[CardStat] = 'Throw Blade Knight, Maleagant'
+global.CardText[CardStat] = 'Gold Paladin/Человек/Единое святилище
+
+АВТО: [Взрыв души 2] Когда этот воин призывается в арьергард, если Ваш авангард относится к клану «Gold Paladin», Вы можете заплатить цену. Если Вы это сделаете, выберите до двух находящихся у Вас в зоне урона карт и переверните их в открытое положение.'
+global.UnitGrade[CardStat] = 1
+global.CardInClan[CardStat] = 5
+}
+
+CardStat = x+5
+{
+global.CardName[CardStat] = 'Flying Sword Liberator, Gorlois'
+global.CardText[CardStat] = 'Gold Paladin/Человек/Единое святилище
+
+АКТ [Арьергард]: [Выберите находящегося у Вас на кладбище воина, в имени которого содержится "Gancelot", и поместите его в низ своей колоды] Если Ваш авангард относится к клану «Gold Paladin», Вы можете заплатить цену. Если Вы это сделаете, Выберите одного своего воина, в имени которого содержится «Gancelot»; до конца хода его сила увеличивается на 5,000.'
+global.UnitGrade[CardStat] = 1
+global.CardInClan[CardStat] = 5
+}
+
+// Gold Paladin Add
+
+x = 1739
+
+CardStat = x
+{
+global.CardName[CardStat] = 'Salvation Lion, Grand Ezel Scissors'
+global.CardText[CardStat] = 'Gold Paladin/Человек/Единое святилище
+
+АКТ [Авангард]: [Разрыв лимитов 4] [Встречный взрыв 2 & Взрыв души 2] Разблокируйте всех своих воинов и, если у Вас в арьергарде находятся пять воинов клана «Gold Paladin», до конца хода сила этого воина увеличивается на 10,000, а критический удар – на один. В конце этого хода активируйте Заряд души 1, затем выберите находящуюся у Вас в зоне урона карту и переверните её в открытое положение.
+
+ПРОДОЛЖИТЕЛЬНЫЙ [Авангард]: во время Вашего хода, за каждого находящегося у Вас в арьергарде воина клана «Gold Paladin», сила данного воина увеличивается на 1,000.
+
+ПРОДОЛЖИТЕЛЬНЫЙ [Авангард/Арьергард]: лидер.'
+global.UnitGrade[CardStat] = 3
+global.CardInClan[CardStat] = 5
+}
+
+CardStat = x+1
+{
+global.CardName[CardStat] = 'Twin Holy Beast, Black Lion'
+global.CardText[CardStat] = 'Gold Paladin/Высший зверь/Единое святилище
+
+ПРОДОЛЖИТЕЛЬНЫЙ [Авангард/арьергард]: во время Вашего ход, если у Вас в арьергарде находятся минимум четыре воина клана «Gold Paladin», сила данного воина увеличивается на 3,000.'
+global.UnitGrade[CardStat] = 2
+global.CardInClan[CardStat] = 5
+}
+
+CardStat = x+2
+{
+global.CardName[CardStat] = 'Sword Formation Liberator, Igraine'
+global.CardText[CardStat] = 'Gold Paladin/Человек/Единое святилище
+
+ПРОДОЛЖИТЕЛЬНЫЙ: страж (в колоде не может содержаться больше четырёх стражей.)
+
+АВТО: [Встречный взрыв 1] Когда этот воин призывается в круг защитников из руки, если Ваш авангард относится к клану «Gold Paladin», Вы можете заплатить цену. Если Вы это сделаете, посмотрите на пять верхних карт своей колоды и призовите всех оказавшихся там воинов клана «Gold Paladin» в круг защитников в спящем положении. Остальные карты, если таковые имеются, отправляются на кладбище.'
+global.UnitGrade[CardStat] = 1
+global.CardInClan[CardStat] = 5
+}
+
+CardStat = x+3
+{
+global.CardName[CardStat] = 'Twin Holy Beast, White Lion'
+global.CardText[CardStat] = 'Gold Paladin/Высший зверь/Единое святилище
+
+АВТО: [Встречный взрыв 1] Когда этот воин призывается в арьергард, если у Вашего авангарда в имени содержится «Ezel», Вы можете заплатить цену. Если Вы это сделаете, активируйте Заряд души 1, затем поместите верхнюю карту своей колоды в зону и урона и в конце выберите одну находящуюся у Вас в зоне урона карту, верните её в колоду и перемешайте.'
+global.UnitGrade[CardStat] = 1
+global.CardInClan[CardStat] = 5
+}
+
+CardStat = x+4
+{
+global.CardName[CardStat] = 'Knight of Passion, Tor'
+global.CardText[CardStat] = 'Gold Paladin/Человек/Единое святилище
+
+АВТО [Арьергард]: когда этот воин атакует, если у Вашего авангарда в имени содержится «Ezel», до конца битвы сила данного воина увеличивается на 3,000.'
+global.UnitGrade[CardStat] = 1
+global.CardInClan[CardStat] = 5
+}
+
+CardStat = x+5
+{
+global.CardName[CardStat] = 'Small Scarlet Lion, Caria '
+global.CardText[CardStat] = 'Gold Paladin/Человек/Единое святилище
+
+АВТО: первопроходец (когда поверх этого воина призывается кто-либо из того же клана, Вы можете призвать данного воина в арьергард).
+
+АВТО [Арьергард]: [Поместите данного воина в душу] Когда этот воин передаёт свою силу авангарду, в чьём имени содержится "Ezel", если атака достигает авангарда оппонента, Вы можете заплатить цену. Если Вы это сделаете, посмотрите до двух верхних карт своей колоды, найдите среди них до двух воинов клана «Gold Paladin», призовите их в открытые круги арьергарда в спящем положении и остальные карты поместите в низ своей колоды в любом порядке.'
+global.UnitGrade[CardStat] = 0
+global.CardInClan[CardStat] = 5
+}
+
+// Gold Paladin Add
+
+x = 1773
+
+CardStat = x
+{
+global.CardName[CardStat] = 'Knight of Drizzle, Bernard'
+global.CardText[CardStat] = 'Gold Paladin/Человек/Единое святилище
+
+АВТО: когда этот воин призывается в арьергард, если Ваш авангард относится к клану «Gold Paladin», выберите одного своего заблокированного воина и разблокируйте его.'
+global.UnitGrade[CardStat] = 2
+global.CardInClan[CardStat] = 5
+}
+
+CardStat = x+1
+{
+global.CardName[CardStat] = 'Awakening Liberator, Freed'
+global.CardText[CardStat] = 'Gold Paladin/Человек/Единое святилище
+
+АВТО [Авангард]: [Разрыв лимитов 4] [Встречный взрыв 1] Когда этот воин призывается в авангард, Вы можете заплатить цену. Если Вы это сделаете, посмотрите до двух верхних карт своей колоды, выберите среди них до двух воинов клана «Gold Paladin», и призовите их на разные круги арьергарда. Остальные карты помещаются в низ колоды в любом порядке.
+
+ПРОДОЛЖИТЕЛЬНЫЙ [Авангард/арьергард]: лидер.'
+global.UnitGrade[CardStat] = 3
+global.CardInClan[CardStat] = 5
+}
+
+CardStat = x+2
+{
+global.CardName[CardStat] = 'Shine Spear Liberator, Reinet'
+global.CardText[CardStat] = 'Gold Paladin/Человек/Единое святилище
+
+АВТО [Авангард/арьергард]: [Встречный взрыв 1] Когда атака этого воина достигает авангарда оппонента, Вы можете заплатить цену. Если Вы это сделаете, посмотрите до пяти верхних карт своей колоды, выберите среди них до одного воина клана «Gold Paladin» 3го или выше ранга, покажите его оппоненту и возьмите его в руку. Остальные карты возвращаются в колоду и перемешиваются.  '
+global.UnitGrade[CardStat] = 2
+global.CardInClan[CardStat] = 5
+}
+
+CardStat = x+3
+{
+global.CardName[CardStat] = 'Treasure Liberator, Calogrenant '
+global.CardText[CardStat] = 'Gold Paladin/Человек/Единое святилище
+
+АВТО [Авангард]: [Встречный взрыв 1] Когда во время проверки эффектов Вам попадается воин клана «Gold Paladin» 3го или выше ранга, Вы можете заплатить цену. Если Вы это сделаете, посмотрите верхнюю карту своей колоды и, если это окажется воином клана «Gold Paladin», Вы можете призвать его в открытый круг арьергарда. В любом другом случае карта возвращается в низ колоды. 
+
+АВТО [Авангард]: когда этот воин атакует авангард оппонента, до конца битвы его сила увеличивается на 3,000. '
+global.UnitGrade[CardStat] = 3
+global.CardInClan[CardStat] = 5
+}
+
+// Gold Paladin Add
+
+x = 1796
+
+CardStat = x
+{
+global.CardName[CardStat] = 'Knight of Scorching Scales, Eliwood'
+global.CardText[CardStat] = 'Gold Paladin/Человек/Единое святилище
+
+АВТО [Арьергард]: [Встречный взрыв 1] Когда к Вам в авангард призывается воин 3го ранга, в имени которого содержится "Ezel", Вы можете заплатить цену. Если Вы это сделаете, посмотрите верхнюю карту своей колоды и, если это окажется воин клана «Gold Paladin», Вы можете призвать его в свободный круг арьергарда. В любом другом случае карта возвращается в низ колоды.'
+global.UnitGrade[CardStat] = 2
+global.CardInClan[CardStat] = 5
+}
+
+// Gold Paladin Add
+
+x = 1799
+
+CardStat = x
+{
+global.CardName[CardStat] = 'Liberator, Burning Blow'
+global.CardText[CardStat] = 'Gold Paladin/Гигант/Единое святилище
+
+АВТО [Авангард]: когда во время проверки эффектов Вам попадается воин клана «Gold Paladin», до конца битвы сила этого воина увеличивается на 2,000.'
+global.UnitGrade[CardStat] = 3
+global.CardInClan[CardStat] = 5
+}
+
+CardStat = x+1
+{
+global.CardName[CardStat] = 'Sacred Guardian Beast, Ceryneian'
+global.CardText[CardStat] = 'Gold Paladin/Высший зверь/Единое святилище
+
+АВТО [Арьергард]: когда атака данного воина достигает авангарда оппонента, выберите одного своего воина клана «Gold Paladin» и до конца хода его сила увеличивается на 3,000.'
+global.UnitGrade[CardStat] = 3
+global.CardInClan[CardStat] = 5
+}
+
+// Gold Paladin Add
+
+x = 1815
+
+CardStat = x
+{
+global.CardName[CardStat] = 'Nappgal Liberator'
+global.CardText[CardStat] = 'Gold Paladin/Высший зверь/Единое святилище/Исцеляющий триггер-эффект
+
+В колоде нельзя иметь больше четврёх исцеляющих триггер-эффектов. '
+global.UnitGrade[CardStat] = 0
+global.CardInClan[CardStat] = 5
+}
+
+CardStat = x+1
+{
+global.CardName[CardStat] = 'Ground Crack Liberator'
+global.CardText[CardStat] = 'Gold Paladin/Гигант/Единое святилище/Поднимающий триггер-эффект'
+global.UnitGrade[CardStat] = 0
+global.CardInClan[CardStat] = 5
+}
+
+// Gold Paladin Add
+
+x = 1826
+
+CardStat = x
+{
+global.CardName[CardStat] = 'Starry Sky Liberator, Guinevere'
+global.CardText[CardStat] = 'Gold Paladin/Человек/Единое святилище
+
+АВТО: [Встречный взрыв 1] Когда этот воин призывается на защиту, если у Вашего авангарда в имени содержится "Liberator", Вы можете заплатить цену. Если Вы это сделаете, до конца битвы за каждого находящегося у Вас в арьергарде воина клана «Gold Paladin» защита данного воина увеличивается на 5,000.'
+global.UnitGrade[CardStat] = 1
+global.CardInClan[CardStat] = 5
+}
+
+CardStat = x+1
+{
+global.CardName[CardStat] = 'Liberator, Star Rain Trumpeter'
+global.CardText[CardStat] = 'Gold Paladin/Ангел/Единое святилище
+
+АВТО: [Выберите одного находящегося у Вас в душе или же на кладбище Blaster Blade Liberator и поместите его на верх своей колоды] Когда этот воин призывается в арьергард, Вы можете заплатить цену. Если Вы это сделаете, перемешайте колоду, посмотрите на верхнюю карту своей колоды и если это окажется воин клана «Gold Paladin», Вы можете призвать его в открытый круг арьергарда. В любом другом случае карта возвращается в низ колоды.'
+global.UnitGrade[CardStat] = 2
+global.CardInClan[CardStat] = 5
+}
+
+// Gold Paladin Add
+
+x = 1851
+
+CardStat = x
+{
+global.CardName[CardStat] = 'Red Rainbow Liberator, Balin'
+global.CardText[CardStat] = 'Gold Paladin/Эльф/Единое святилище
+
+АВТО [Арьергард]: когда Blaster Blade Liberator призывается к Вам в арьергард, если у Вашего авангарда в имени содержится "Liberator", до конца хода сила данного воина увеличивается на 5,000.'
+global.UnitGrade[CardStat] = 2
+global.CardInClan[CardStat] = 5
+}
+
+CardStat = x+1
+{
+global.CardName[CardStat] = 'White Rainbow Liberator, Balan'
+global.CardText[CardStat] = 'Gold Paladin/Эльф/Единое святилище
+
+АВТО [Арьергард]: когда Blaster Blade Liberator призывается к Вам в арьергард, если у Вашего авангарда в имени содержится "Liberator", выберите одну находящуюся у Вас в зоне урона карту и переверните её в открытое положение.'
+global.UnitGrade[CardStat] = 1
+global.CardInClan[CardStat] = 5
+}
+
+// Gold Paladin Add
+
+x = 1864
+
+CardStat = x
+{
+global.CardName[CardStat] = 'Liberator, Monarch Sanctuary Alfred'
+global.CardText[CardStat] = 'Gold Paladin/Человек/Единое святилище
+
+АВТО [Авангард]: [Разрыв лимитов 5] Когда к Вам из колоды в арьергард призывается Blaster Blade Liberator, до конца хода сила данного воина увеличивается на 10,000, а критический удар — на один.
+
+АКТ [Авангард]: [Разрыв лимитов 4] [Встречный взрыв 3 & Взрыв души 2] Поместите всех находящихся у Вас в арьергарде воинов, а также всех своих заблокированных воинов, на верх своей колоды в любом порядке, затем посмотрите пять верхних карт своей колоды, выберите среди них до пяти воинов, в именах которых содержится «Liberator», призовите их в разные открытые круги арьергарда, а остальные карты поместите в низ своей колоды в любом порядке. Данная способность не может быть более использована до конца хода.
+
+ПРОДОЛЖИТЕЛЬНЫЙ [Авангард]: во время Вашего хода сила данного воина увеличивается на 1,000 за каждого находящегося у Вас в арьергарде воина клана «Gold Paladin».
+
+ПРОДОЛЖИТЕЛЬНЫЙ [Авангард/арьергард]: лидер.'
+global.UnitGrade[CardStat] = 3
+global.CardInClan[CardStat] = 5
+}
+
+CardStat = x+1
+{
+global.CardName[CardStat] = 'Liberator, Holy Shine Dragon'
+global.CardText[CardStat] = 'Gold Paladin/Космический дракон/Единое святилище
+
+АВТО [Авангард]: [Разрыв лимитов 4] В конце Вашего хода, выберите одного находящегося у Вас в душе воина клана «Gold Paladin» 3го ранга, и Вы можете сделать на него смену. Если Вы это сделаете, выберите одного находящегося у Вас в душе Liberator, Holy Shine Dragon и возьмите его в руку.
+АВТО: [Встречный взрыв 1 "Liberator"] Когда этот воин призывается в авангард, Вы можете заплатить цену. Если Вы это сделаете, посмотрите верхнюю карту своей колоды и, если это окажется воин клана «Gold Paladin», Вы можете призвать его в арьергард. В любом другом случае та карта помещается в низ колоды.
+ПРОДОЛЖИТЕЛЬНЫЙ [Авангард/арьергард]: лидер.'
+global.UnitGrade[CardStat] = 3
+global.CardInClan[CardStat] = 5
+}
+
+CardStat = x+2
+{
+global.CardName[CardStat] = 'History Liberator, Merron'
+global.CardText[CardStat] = 'Gold Paladin/Гигант/Единое святилище
+
+АВТО: когда этот воин призывается к Вам в арьергард из колоды, если Ваш авангард относится к клану «Gold Paladin», посмотрите до пяти верхних карт своей колоды, найдите среди них до одного воина клана «Gold Paladin» 3го ранга, покажите его оппоненту и возьмите его в руку. Все остальные карты возвращаются в колоду и перемешиваются.'
+global.UnitGrade[CardStat] = 2
+global.CardInClan[CardStat] = 5
+}
+
+CardStat = x+3
+{
+global.CardName[CardStat] = 'Physical Force Liberator, Zorron'
+global.CardText[CardStat] = 'Gold Paladin/Гигант/Единое святилище
+
+АВТО: [Поместите данного воина в душу] Когда этот воин призывается к Вам в арьергард из колоды, если Ваш авангард относится к клану «Gold Paladin», Вы можете заплатить цену. Если Вы это сделаете, посмотрите до трёх верхних карт своей колоды, найдите среди них до одного воина, в имени которого содержится «Liberator», и призовите его в арьергард. Остальные карты помещаются в низ колоды в любом порядке.'
+global.UnitGrade[CardStat] = 1
+global.CardInClan[CardStat] = 5
+}
+
+CardStat = x+4
+{
+global.CardName[CardStat] = 'Aspiring Liberator, Alm'
+global.CardText[CardStat] = 'Gold Paladin/человек/Единое святилище
+
+АВТО: первопроходец (когда поверх этого воина помешается другой воин, относящийся к клану «Gold Paladin», Вы можете призвать данного воина в арьергард).
+
+АКТ [Арьергард]: [Поместите данного воина в душу] Если у Вас в авангарде находится воин клана «Gold Paladin» 3го или выше ранга, Вы можете найти у себя в колоде одного Blaster Blade Liberator, показать его оппоненту, затем перемешать карты и поместить Blaster Blade Liberator на верх своей колоды.'
+global.UnitGrade[CardStat] = 0
+global.CardInClan[CardStat] = 5
+}
+
+// Gold Paladin Add
+
+x = 1889
+
+CardStat = x
+{
+global.CardName[CardStat] = 'Brunt Liberator, Gold Lancer'
+global.CardText[CardStat] = 'Gold Paladin/Человек/Единое святилище
+
+АВТО: [Скиньте из руки одного воина клана «Gold Paladin» 3го ранга] Когда этот воин призывается в арьергард, если Ваш авангард относится к клану «Gold Paladin», Вы можете заплатить цену. Если Вы это сделаете, найдите в колоде до одного Solitary Liberator, Gancelot, покажите его оппоненту и возьмите в руку. Затем перемешайте колоду.'
+global.UnitGrade[CardStat] = 1
+global.CardInClan[CardStat] = 5
+}
+
+// Gold Paladin Add
+
+x = 1898
+
+CardStat = x
+{
+global.CardName[CardStat] = 'Gurtgal'
+global.CardText[CardStat] = 'Gold Paladin/высший зверь/Единое святилище
+
+АВТО [Авангард/арьергард]: [Поместите одного находящегося у Вас в арьергарде воина клана «Gold Paladin» в низ своей колоды] Когда этот воин атакует, если Ваш авангард относится к клану «Gold Paladin», Вы можете заплатить цену. Если Вы это сделаете, до конца битвы сила этого воина увеличивается на 5,000.'
+global.UnitGrade[CardStat] = 3
+global.CardInClan[CardStat] = 5
+}
+
+CardStat = x+1
+{
+global.CardName[CardStat] = 'Mastygal'
+global.CardText[CardStat] = 'Gold Paladin/высший зверь/Единое святилище
+
+АВТО [Авангард/арьергард]: [Покажите оппоненту одного находящегося у Вас в руке воина клана «Gold Paladin» 3го ранга] Когда этот воин атакует, если у Вас в авангарде находится воин клана «Gold Paladin», Вы можете заплатить цену. Если Вы это сделаете, до конца битвы сила данного воина увеличивается на 3,000.'
+global.UnitGrade[CardStat] = 2
+global.CardInClan[CardStat] = 5
+}
+
+CardStat = x+2
+{
+global.CardName[CardStat] = 'Lucky Sign Rabbit'
+global.CardText[CardStat] = 'Gold Paladin/высший зверь/Единое святилище
+
+АВТО [Авангард/арьергард]: когда этот воин атакует, если у Вас в арьергарде больше воинов, нежели у оппонента, до конца битвы сила этого воина увеличивается на 3,000.'
+global.UnitGrade[CardStat] = 1
+global.CardInClan[CardStat] = 5
+}
+
+CardStat = x+3
+{
+global.CardName[CardStat] = 'Flower Gardener'
+global.CardText[CardStat] = 'Gold Paladin/сильф/Единое святилище
+
+АВТО: первопроходец (когда поверх этого воина помещается кто-либо из клана «Gold Paladin», Вы можете призвать данного воина в арьергард.)
+
+АКТ [Арьергард]: [Поместите данного воина в душу & скиньте одну карту из руки] Если Ваш авангард относится к клану «Gold Paladin» - возьмите одну карту из колоды.'
+global.UnitGrade[CardStat] = 0
+global.CardInClan[CardStat] = 5
+}
+
+// Gold Paladin Add
+
+x = 2002
+
+CardStat = x
+{
+global.CardName[CardStat] = 'Twin Blade Liberator, Margaux'
+global.CardText[CardStat] = 'Gold Paladin/человек/Единое святилище
+
+АКТ [Авангард]: [Разрыв лимитов 4] [Встречный взрыв 2 "Liberator" & поместите одного находящегося у Вас в арьергарде воина, в имени которого содержится "Liberator", в низ своей колоды] Посмотрите две верхние карты своей колоды, выберите до двух из них, призовите их в разные открытые круги арьергарда и до конца хода сила этих воинов увеличивается на 5,000, а остальные карты, если таковые имеются, поместите в низ колоды в любом порядке.
+
+АВТО [Авангард]: когда этот воин атакует, до конца битвы его сила увеличивается на 2,000.'
+global.UnitGrade[CardStat] = 3
+global.CardInClan[CardStat] = 5
+}
+
+// Gold Paladin Add
+
+x = 2189
+
+CardStat = x
+{
+global.CardName[CardStat] = 'Prideful Liberator, Elidurus'
+global.CardText[CardStat] = 'Gold Paladin/человек/Единое святилище
+
+АВТО: когда этот воин призывается в арьергард из колоды, если Ваш авангард стоит в легионе, до конца хода сила данного воина увеличивается на 5,000.'
+global.UnitGrade[CardStat] = 2
+global.CardInClan[CardStat] = 5
+}
+
+// Gold Paladin Add
+
+x = 2193
+
+CardStat = x
+{
+global.CardName[CardStat] = 'Oath Liberator, Aglovale'
+global.CardText[CardStat] = 'Gold Paladin/человек/Единое святилище
+
+АВТО: [Встречный взрыв 1] Когда этот воин призывается в арьергард, если у Вашего авангарда в имени содержится «Liberator», Вы можете заплатить цену. Если Вы это сделаете, посмотрите на три верхние карты своей колоды, выберите среди них до одного воина, в имени которого содержится «Liberator», призовите его в открытый круг арьергарда и поместите все остальные карты в низ своей колоды в любой последовательности.'
+global.UnitGrade[CardStat] = 2
+global.CardInClan[CardStat] = 5
+}
+
+CardStat = x+1
+{
+global.CardName[CardStat] = 'Bluish Flame Liberator, Percival'
+global.CardText[CardStat] = 'Gold Paladin/человек/Единое святилище
+
+АКТ [Авангард]: Легион 20,000 Oath Liberator, Aglovale.
+
+АВТО [Авангард]: когда этот воин встаёт в легион, посмотрите на четыре верхние карты своей колоды, выберите среди них до одного воина, в имени которого содержится «Liberator», призовите его в открытый круг арьергарда и поместите все остальные карты в низ своей колоды в любой последовательности.
+
+АВТО [Авангард]: когда этот воин атакует авангард, до конца битвы его сила увеличивается на 2,000.'
+global.UnitGrade[CardStat] = 3
+global.CardInClan[CardStat] = 5
+}
+
+// Gold Paladin Add
+
+x = 2214
+
+CardStat = x
+{
+global.CardName[CardStat] = 'Majesty Liberator, Danner'
+global.CardText[CardStat] = 'Gold Paladin/человек/Единое святилище
+
+АВТО: [Встречный взрыв 1 & Взрыв души 1] Когда этот воин призывается в авангард, Вы можете заплатить цену. Если Вы это сделаете, найдите у себя в колоде до одного Bluish Flame Liberator, Percival, покажите его оппоненту и возьмите его в руку. Затем перемешайте колоду.
+
+АВТО [Авангард]: когда этот воин атакует авангард оппонента, до конца битвы его сила увеличивается на 2,000.'
+global.UnitGrade[CardStat] = 3
+global.CardInClan[CardStat] = 5
+}
+
+CardStat = x+1
+{
+global.CardName[CardStat] = 'Liberator, Blue Flame Dragon'
+global.CardText[CardStat] = 'Gold Paladin/космический дракон/Единое святилище
+
+АКТ [Авангард]: Легион 20,000 Unbending Liberator, Keredic (если у оппонента в авангарде находится воин 3го или выше ранга, один раз Вы можете вернуть у себя с кладбища в колоду любых четырёх воинов, затем найдите у себя в колоде вышеуказанного воина и встаньте с ним в легион).
+
+АВТО [Авангард]: когда этот воин атакует авангард оппонента, если он стоит в легионе, до конца битвы его сила увеличивается на 5,000.
+
+АВТО [Арьергард]: когда этот воин атакует авангард оппонента, до конца битвы его сила увеличивается на 2,000.'
+global.UnitGrade[CardStat] = 3
+global.CardInClan[CardStat] = 5
+}
+
+CardStat = x+2
+{
+global.CardName[CardStat] = 'Unbending Liberator, Keredic'
+global.CardText[CardStat] = 'Gold Paladin/человек/Единое святилище'
+global.UnitGrade[CardStat] = 2
+global.CardInClan[CardStat] = 5
+}
+
+// Gold Paladin Add
+
+x = 2225
+
+CardStat = x
+{
+global.CardName[CardStat] = 'Opposing Liberator, Polyus'
+global.CardText[CardStat] = 'Gold Paladin/человек/Единое святилище
+
+АВТО: [Сбросьте одну карту из руки] Когда этот воин призывается в арьергард, если у Вас в авангарде и/или арьергарде находятся как минимум четыре других воина, в именах которых содержится "Liberator", Вы можете заплатить цену. Если Вы это сделаете, возьмите одну карту из колоды.'
+global.UnitGrade[CardStat] = 1
+global.CardInClan[CardStat] = 5
+}
+
+CardStat = x+1
+{
+global.CardName[CardStat] = 'Genius Liberator, Woltimer'
+global.CardText[CardStat] = 'Gold Paladin/человек/Единое святилище
+
+АВТО: первопроходец.
+
+АВТО [Арьергард]: когда этот воин передаёт кому-либо свою силу, если у Вас в авангарде и/или арьергарде находятся как минимум четыре воина, в именах которых содержится "Liberator", до конца хода сила атакующего воина увеличивается на 3,000.'
+global.UnitGrade[CardStat] = 0
+global.CardInClan[CardStat] = 5
+}
+
+CardStat = x+2
+{
+global.CardName[CardStat] = 'Evening Rain Liberator, Trahern'
+global.CardText[CardStat] = 'Gold Paladin/человек/Единое святилище
+
+АВТО: когда этот воин призывается в арьергард из колоды, если Ваш авангард стоит в легионе, выберите до двух своих воинов и доконца хода их сила увеличивается на 3,000.'
+global.UnitGrade[CardStat] = 2
+global.CardInClan[CardStat] = 5
+}
+
+// Gold Paladin Add
+
+x = 2242
+
+CardStat = x
+{
+global.CardName[CardStat] = 'Catchgal Liberator'
+global.CardText[CardStat] = 'Gold Paladin/высший зверь/Единое святилище/поднимающий триггер-эффект
+
+АВТО: [Поместите данного воина в низ Вашей колоды] Когда этот воин призывается Вам в арьергард из колоды, Вы можете заплатить цену. Если Вы это сделаете, посмотрите три верхние карты своей колоды, найдите среди них до одного воина, за исключением Catchgal Liberator, призовите его в открытый круг арьергарда и перемешайте колоду.'
+global.UnitGrade[CardStat] = 0
+global.CardInClan[CardStat] = 5
+}
+
+CardStat = x+1
+{
+global.CardName[CardStat] = 'Steel Blade Liberator, Alwira'
+global.CardText[CardStat] = 'Gold Paladin/человек/Единое святилище/критический триггер-эффект'
+global.UnitGrade[CardStat] = 0
+global.CardInClan[CardStat] = 5
+}
+
+// Gold Paladin Add
+
+x = 2246
+
+CardStat = x
+{
+global.CardName[CardStat] = 'Liberator of Vigor, Kadvan'
+global.CardText[CardStat] = 'Gold Paladin/человек/Единое святилище
+
+АВТО [Авангард/арьергард]: [Встречный взрыв 1] Когда этот воин атакует, Вы можете заплатить цену. Если Вы это сделаете, до конца битвы сила данного воина увеличивается на 3,000.'
+global.UnitGrade[CardStat] = 3
+global.CardInClan[CardStat] = 5
+}
+
+CardStat = x+1
+{
+global.CardName[CardStat] = 'Liberator of Preparation, Caradox'
+global.CardText[CardStat] = 'Gold Paladin/человек/Единое святилище
+
+АВТО: когда этот воин отправляется на перехват, до конца битвы защита данного воина увеличивается на 5,000.'
+global.UnitGrade[CardStat] = 2
+global.CardInClan[CardStat] = 5
+}
+
+CardStat = x+2
+{
+global.CardName[CardStat] = 'Huntgal Liberator'
+global.CardText[CardStat] = 'Gold Paladin/высший зверь/Единое святилище
+
+АВТО [Арьергард]: когда этот воин атакует, если Ваш авангард находится в легионе, до конца битвы сила данного воина увеличивается на 4,000.'
+global.UnitGrade[CardStat] = 2
+global.CardInClan[CardStat] = 5
+}
+
+CardStat = x+3
+{
+global.CardName[CardStat] = 'Liberator of Quiet, Cador'
+global.CardText[CardStat] = 'Gold Paladin/человек/Единое святилище
+
+АКТ [Авангард/арьергард]: [Встречный взрыв 1] До конца хода сила этого воина увеличивается на 1,000.'
+global.UnitGrade[CardStat] = 1
+global.CardInClan[CardStat] = 5
+}
+
+CardStat = x+4
+{
+global.CardName[CardStat] = 'Boardgal Liberator'
+global.CardText[CardStat] = 'Gold Paladin/высший зверь/Единое святилище
+
+АВТО [Арьергард]: когда этот воин передаёт свою силу авангарду, если тот стоит в легионе, до конца битвы его сила увеличивается на 4,000.'
+global.UnitGrade[CardStat] = 1
+global.CardInClan[CardStat] = 5
+}
+
+CardStat = x+5
+{
+global.CardName[CardStat] = 'Liberator of Holy Tree, Elkia'
+global.CardText[CardStat] = 'Gold Paladin/сильф/Единое святилище/исцеляющий триггер-эффект
+
+В колоде нельзя иметь больше четырёх исцеляющих триггер-эффектов.'
+global.UnitGrade[CardStat] = 0
+global.CardInClan[CardStat] = 5
+}
+
+CardStat = x+6
+{
+global.CardName[CardStat] = 'Liberator of Ambition, Asus'
+global.CardText[CardStat] = 'Gold Paladin/сильф/Единое святилище/критиеский триггер-эффект'
+global.UnitGrade[CardStat] = 0
+global.CardInClan[CardStat] = 5
+}
+
+CardStat = x+7
+{
+global.CardName[CardStat] = 'Wise Liberator, Yuron'
+global.CardText[CardStat] = 'Gold Paladin/гигант/Единое святилище/поднимающий триггер-эффект'
+global.UnitGrade[CardStat] = 0
+global.CardInClan[CardStat] = 5
+}
+
+CardStat = x+8
+{
+global.CardName[CardStat] = 'Liberator, Lucky Charmy'
+global.CardText[CardStat] = 'Gold Paladin/высший зверь/Единое святилище/дающий карту триггер-эффект'
+global.UnitGrade[CardStat] = 0
+global.CardInClan[CardStat] = 5
+}
+
+// Gold Paladin Add
+
+x = 2274
+
+CardStat = x
+{
+global.CardName[CardStat] = 'Liberator of Locus, Asclepius'
+global.CardText[CardStat] = 'Gold Paladin/гигант/Единое святилище
+
+АКТ [Авангард]: Легион 20,000 Liberator of Royalty, Phallon.
+
+АКТ [Авангард]: [Встречный взрыв 2 "Liberator"] Если этот воин стоит в легионе и у Вас в авангарде и/или арьергарде находятся как минимум четыре воина, в именах которых содержится "Liberator", до конца хода сила данного воина увеличивается на 5,000, а критический удар - на один. 
+
+АВТО [Авангард]: когда этот воин атакует авангард оппонента, если у Вас в центральной колонке находится другой воин, до конца битвы сила данного воина увеличивается на 3,000.'
+global.UnitGrade[CardStat] = 3
+global.CardInClan[CardStat] = 5
+}
+
+// Gold Paladin Add
+
+x = 2286
+
+CardStat = x
+{
+global.CardName[CardStat] = 'Bluish Flame Liberator, Prominence Core'
+global.CardText[CardStat] = 'Gold Paladin/космический дракон/Единое святилище
+
+АКТ [Авангард]: Легион 20,000 Oath Liberator, Aglovale.
+
+АВТО [Авангард]: когда к Вам из колоды в арьергард призывается воин с тем же именем, что и у Вашего авангарда, если данный воин находится в легионе, до конца хода его сила увеличивается на 3,000, а критический удар - на один. 
+
+АКТ [Авангард]: [Встречный взрыв 1 & уберите одного своего арьергарда] Посмотрите четыре верхние карты своей колоды, найдите среди них до одного воина, в имени которого содержится "Liberator", призовите его в арьергард, а остальные карты поместите в низ своей колоды в любом порядке. Данная способность не может быть использована в ходу повторно.'
+global.UnitGrade[CardStat] = 3
+global.CardInClan[CardStat] = 5
+}
+
+// Gold Paladin Add
+
+x = 2305
+
+CardStat = x
+{
+global.CardName[CardStat] = 'Shine Formation Liberator, Eldol'
+global.CardText[CardStat] = 'Gold Paladin/человек/Единое святилище
+
+ПРОДОЛЖИТЕЛЬНЫЙ: страж.
+
+АВТО: [Скиньте одного воина из руки] Когда этот воин призывается в круг защитников – Вы можете заплатить цену. Если Вы это сделаете, атака оппонента не проходит.'
+global.UnitGrade[CardStat] = 1
+global.CardInClan[CardStat] = 5
+}
+
+CardStat = x+1
+{
+global.CardName[CardStat] = 'Twin Axe Liberator, Bassia'
+global.CardText[CardStat] = 'Gold Paladin/человек/Единое святилище
+
+АВТО: когда этот воин призывается к Вам в арьергард из колоды, если Ваш авангард стоит в легионе, до конца хода сила данного воина увеличивается на 5,000. '
+global.UnitGrade[CardStat] = 1
+global.CardInClan[CardStat] = 5
+}
+
+// Gold Paladin Add
+
+x = 2339
+
+CardStat = x
+{
+global.CardName[CardStat] = 'Autumn Rain Liberator, Coil'
+global.CardText[CardStat] = 'Gold Paladin/человек/Единое святилище
+
+АКТ [Авангард]: Легион 20,000  Evening Rain Liberator, Trahern.
+
+АКТ [Авангард]: [Встречный взрыв 2 & скиньте из руки одного воина с тем же именем, что и у Вашего авангарда] Если данный воин стоит в легионе, посмотрите четыре верхние карты своей колоды, выберите среди них до двух воинов, призовите их в разные круги арьергарда, а остальные карты поместите в низ колоды в любом порядке. До конца хода сила воинов, призванных этим эффектом, увеличивается на 5,000.
+
+АВТО [Авангард]: когда этот воин атакует авангард, до конца боя его сила увеличивается на 2,000.'
+global.UnitGrade[CardStat] = 3
+global.CardInClan[CardStat] = 5
+}
+
+CardStat = x+1
+{
+global.CardName[CardStat] = 'Liberator of Pike, Marius'
+global.CardText[CardStat] = 'Gold Paladin/человек/Единое святилище
+
+АКТ [Авангард]: [Встречный взрыв 1] Если у Вас в арьергарде находятся пять воинов с разными именами, до конца хода сила данного воина увеличивается на 10,000.'
+global.UnitGrade[CardStat] = 3
+global.CardInClan[CardStat] = 5
+}
+
+CardStat = x+2
+{
+global.CardName[CardStat] = 'Liberator, Feather Lion'
+global.CardText[CardStat] = 'Gold Paladin/высший зверь/Единое святилище
+
+АВТО [Авангард/арьергард]: [Взрыв души 1] Когда этот воин атакует авангард, Вы можете заплатить цену. Если Вы это сделаете, до конца битвы сила данного воина увеличивается на 3,000.'
+global.UnitGrade[CardStat] = 3
+global.CardInClan[CardStat] = 5
+}
+
+CardStat = x+3
+{
+global.CardName[CardStat] = 'Liberator, Lawful Trumpeter'
+global.CardText[CardStat] = 'Gold Paladin/ангел/Единое святилище
+
+АВТО [Арьергард]: когда Ваш авангард встаёт в легион, посмотрите на три верхние карты своей колоды, выберите среди них до одного воина, в имени которого содержится «Liberator» и призовите его открытый круг арьергарда. Остальные карты поместите в низ колоды в любом порядке.'
+global.UnitGrade[CardStat] = 2
+global.CardInClan[CardStat] = 5
+}
+
+CardStat = x+4
+{
+global.CardName[CardStat] = 'Liberator, Holy Wizard'
+global.CardText[CardStat] = 'Gold Paladin/человек/Единое святилище
+
+АВТО [Авангард/арьергард]: когда этот воин атакует, если у Вас на поле находятся как минимум четыре других воина, в именах которых содержится «Liberator», до конца битвы сила данного воина увеличивается на 3,000.'
+global.UnitGrade[CardStat] = 2
+global.CardInClan[CardStat] = 5
+}
+
+CardStat = x+5
+{
+global.CardName[CardStat] = 'Nailgal Liberator'
+global.CardText[CardStat] = 'Gold Paladin/высший зверь/Единое святилище
+
+АВТО [Арьергард]: когда атака этого воина достигает авангарда, если Ваш авангард стоит в легионе, возьмите одну карту из колоды.'
+global.UnitGrade[CardStat] = 2
+global.CardInClan[CardStat] = 5
+}
+
+CardStat = x+6
+{
+global.CardName[CardStat] = 'Liberator, Bright Bicorn'
+global.CardText[CardStat] = 'Gold Paladin/высший зверь/Единое святилище
+
+ПРОДОЛЖИТЕЛЬНЫЙ [Арьергард]: Разрыв лимитов 4 Вашего авангарда можно использовать даже если у Вас три или меньше урона.'
+global.UnitGrade[CardStat] = 1
+global.CardInClan[CardStat] = 5
+}
+
+CardStat = x+7
+{
+global.CardName[CardStat] = 'Liberator, Holy Acolyte'
+global.CardText[CardStat] = 'Gold Paladin/человек/Единое святилище
+
+АВТО [Авангард/арьергард]: когда этот воин атакует, если у Вас на поле находятся как минимум четыре других воина, в именах которых содержится «Liberator», до конца битвы сила данного воина увеличивается на 3,000.'
+global.UnitGrade[CardStat] = 1
+global.CardInClan[CardStat] = 5
+}
+
+CardStat = x+8
+{
+global.CardName[CardStat] = 'Coronagal Liberator'
+global.CardText[CardStat] = 'Gold Paladin/высший зверь/Единое святилище
+
+АВТО: первопроходец (когда поверх этого воина призывается кто-либо из того же клана, Вы можете призвать данного воина в арьергард).
+
+АВТО [Арьергард]: когда к Вам в арьергард из колоды призывается другой воин, если Ваш авангард стоит в легионе, до конца хода сила данного воина увеличивается на 3,000.'
+global.UnitGrade[CardStat] = 0
+global.CardInClan[CardStat] = 5
+}
+
+CardStat = x+9
+{
+global.CardName[CardStat] = 'Liberator, Blessing Arrow Angel'
+global.CardText[CardStat] = 'Gold Paladin/ангел/Единое святилище
+
+АВТО: первопроходец (когда поверх этого воина призывается кто-либо из того же клана, Вы можете призвать данного воина в арьергард).
+
+АВТО [Арьергард]: когда Ваш авангард встаёт в легион, до конца хода сила этого воина увеличивается на 5,000.'
+global.UnitGrade[CardStat] = 0
+global.CardInClan[CardStat] = 5
+}
+
+// Gold Paladin Add
+
+x = 2393
+
+CardStat = x
+{
+global.CardName[CardStat] = 'Bluish Flame Liberator, Prominence Glare'
+global.CardText[CardStat] = 'Gold Paladin/космический дракон/Единое святилище
+
+АКТ [Авангард]: Легион 20,000 Liberator of Destiny, Aglovale.
+АВТО [Авангард]: [Встречный взрыв 1 & сбросьте с руки карту с именем "Bluish Flame"] Когда воин призывается Вам в арьергард из колоды, если этот воин в легионе, Вы можете заплатить цену. Если заплатите, до конца хода данный воин приобретает +1 критический удар и: «ПРОД [Авангард]: когда этот воин атакует, оппонент не может призывать из руки на защиту карты 1го и выше ранга».
+АКТ [Авангард] [Раз за ход]: [Встречный взрыв 1 & уберите одного своего арьергарда] Посмотрите четыре верхние карты своей колоды, выберите до одного воина с именем «Liberator», призовите его в арьергард, остальные карты поместите в низ колоды в любом порядке.'
+global.UnitGrade[CardStat] = 3
+global.CardInClan[CardStat] = 5
+}
+
+CardStat = x+1
+{
+global.CardName[CardStat] = 'Liberator of Destiny, Aglovale'
+global.CardText[CardStat] = 'Gold Paladin/человек/Единое святилище
+
+АВТО [Арьергард]: когда этот воин атакует, если в имени Вашего авангарда содержится «Bluish Flame», до конца битвы сила данного воина увеличивается на 2,000.
+
+АВТО: [Взрыв души 1] Когда этот воин призывается в арьергард из колоды, Вы можете заплатить цену. Если Вы это сделаете, посмотрите на пять верхних карт своей колоды, найдите среди них до одного воина, в имени которого содержится «Bluish Flame», возьмите его себе в руку, а остальные карты верните в колоду и перемешайте.'
+global.UnitGrade[CardStat] = 2
+global.CardInClan[CardStat] = 5
+}
+
+CardStat = x+2
+{
+global.CardName[CardStat] = 'Invitation Liberator, Beli'
+global.CardText[CardStat] = 'Gold Paladin/человек/Единое святилище
+
+АВТО [Арьергард]: [Встречный взрыв 1 & поместите данного воина в душу] Когда атака этого воина достигает авангарда оппонента, Вы можете заплатить цену. Если Вы это сделаете, посмотрите на три верхние карты своей колоды, выберите среди них до одного воина, призовите его в арьергард, а остальные карты поместите в низ своей колоды в любом порядке.'
+global.UnitGrade[CardStat] = 2
+global.CardInClan[CardStat] = 5
+}
+
+CardStat = x+3
+{
+global.CardName[CardStat] = 'Meltgal Liberator'
+global.CardText[CardStat] = 'Gold Paladin/высший зверь/Единое святилище
+
+АВТО [Арьергард]: когда Ваш авангард встаёт в легион, до конца хода сила данного воина увеличивается на 10,000.'
+global.UnitGrade[CardStat] = 2
+global.CardInClan[CardStat] = 5
+}
+
+CardStat = x+4
+{
+global.CardName[CardStat] = 'Fire Passion Liberator, Guido'
+global.CardText[CardStat] = 'Gold Paladin/человек/Единое святилище
+
+АВТО: первопроходец.
+
+АКТ [Арьергард]: [Поместите данного воина в душу] Если Ваш авангард стоит в легионе, Вы можете заплатить цену. Если Вы это сделаете, посмотрите три верхние карты своей колоды, найдите среди них до одного воина, в имени которого содержится «Liberator», призовите его в арьергард, а остальные карты верните в колоду и перемешайте.'
+global.UnitGrade[CardStat] = 0
+global.CardInClan[CardStat] = 5
+}
+
+// Gold Paladin Add
+
+x = 2419
+
+CardStat = x
+{
+global.CardName[CardStat] = 'Liberator, Gigantech Anger'
+global.CardText[CardStat] = 'Gold Paladin/гигант/Единое святилище
+
+АВТО [Авангард/арьергард]: [Встречный взрыв 1 & Взрыв души 1] Когда этот воин атакует, Вы можете заплатить цену. Если Вы это сделаете, до конца битвы сила данного воина увеличивается на 5,000.'
+global.UnitGrade[CardStat] = 3
+global.CardInClan[CardStat] = 5
+}
+
+CardStat = x+1
+{
+global.CardName[CardStat] = 'Pleasing Liberator, Lud'
+global.CardText[CardStat] = 'Gold Paladin/человек/Единое святилище
+
+АВТО [Арьергард]: [Встречный взрыв 1 & поместите данного воина в душу] Когда этот воин передаёт кому-либо свою силу и атака достигает авангарда, Вы можете заплатить цену. Если Вы это сделаете, посмотрите на три верхние карты Вашей колоды, найдите среди них до одного воина, призовите его в открытый круг арьергарда и поместите остальные карты в низ Вашей колоды в любом порядке.'
+global.UnitGrade[CardStat] = 1
+global.CardInClan[CardStat] = 5
+}
+
+CardStat = x+2
+{
+global.CardName[CardStat] = 'Liberator, Dulcet Archer'
+global.CardText[CardStat] = 'Gold Paladin/эльф/Единое святилище
+
+АВТО [Арьергард]: [Скиньте одну карту из руки] Когда к Вам в арьергард из колоды призывается другой воин, в имени которого содержится «Liberator», Вы можете заплатить цену. Если Вы это сделаете, возьмите одну карту из колоды. Данная способность не может быть более использована до конца хода. (Вы не можете активировать данную способность до конца хода, даже если не оплатили стоимость.)'
+global.UnitGrade[CardStat] = 1
+global.CardInClan[CardStat] = 5
+}
+
+CardStat = x+3
+{
+global.CardName[CardStat] = 'Cheekgal Liberator'
+global.CardText[CardStat] = 'Gold Paladin/высший зверь/Единое святилище
+
+АВТО [Авангард/арьергард]: [Взрыв души 1] Когда этот воин атакует, Вы можете заплатить цену. Если Вы это сделаете, до конца битвы сила данного воина увеличивается на 3,000.'
+global.UnitGrade[CardStat] = 1
+global.CardInClan[CardStat] = 5
+}
+
+// Gold Paladin Add
+
+x = 2665
+
+CardStat = x
+{
+global.CardName[CardStat] = 'Galloping Golden Knight, Campbell'
+global.CardText[CardStat] = 'Gold Paladin/человек/Единое святилище/воин наследия
+
+Вознесение. 
+
+АВТО [Авангард]: когда атака этого воина достигает авангарда, посмотрите пять верхних карт своей колоды, выберите среди них до одного воина, призовите его в арьергард и до конца хода сила призванного воина увеличивается на 2,000.'
+global.UnitGrade[CardStat] = 4
+global.CardInClan[CardStat] = 5
+global.ExtraDeck[CardStat] = 1
+}
+
+// Gold Paladin Add
+
+x = 2732
+
+CardStat = x
+{
+global.CardName[CardStat] = 'Purgation Lion Emperor, Mithril Ezel'
+global.CardText[CardStat] = 'Gold Paladin/человек/Единое святилище/воин наследия
+
+Вознесение. 
+
+АКТ [Авангард] [Один раз за ход]: [Встречный взрыв 1 & переверните в открытое положение одного находящегося у Вас в зоне наследия Purgation Lion Emperor, Mithril Ezel] Если у Вас в сердце находится воин, в имени которого содержится "Ezel", разблокируйте всех своих заблокированных воинов, посмотрите пять верхних карт своей колоды, выберите среди них до одного воина, призовите его в арьергард, перемешайте колоду и до конца хода увеличьте силу того воина и данного воина на оригинальную силу воина, призванного этим эффектом.'
+global.UnitGrade[CardStat] = 4
+global.CardInClan[CardStat] = 5
+global.ExtraDeck[CardStat] = 1
+}
+
+// Gold Paladin Add
+
+x = 2834
+
+CardStat = x
+{
+global.CardName[CardStat] = 'Coolgal'
+global.CardText[CardStat] = 'Gold Paladin/высший зверь/Единое святилище
+
+АВТО: Импульс наследия 1: когда этот воин призывается в арьергард из колоды, возьмите одну карту.'
+global.UnitGrade[CardStat] = 1
+global.CardInClan[CardStat] = 5
+}
+
+// Gold Paladin Add
+
+x = 2871
+
+CardStat = x
+{
+global.CardName[CardStat] = 'Farmgal'
+global.CardText[CardStat] = 'Gold Paladin/высший зверь/Единое святилище
+
+АВТО: Импульс наследия 1: когда этот воин призывается в арьергард из колоды, посмотрите до трёх верхних карт своей колоды, выберите среди них одного воина, призовите его в арьергард и перемешайте колоду.'
+global.UnitGrade[CardStat] = 2
+global.CardInClan[CardStat] = 5
+}
+
+CardStat = x+1
+{
+global.CardName[CardStat] = 'Golden Dragon, Scourge Point Dragon'
+global.CardText[CardStat] = 'Gold Paladin/космический дракон/Единое святилище/воин наследия
+
+Вознесение. 
+
+АВТО [Авангард]: когда к Вам в арьергард из колоды призывается воин, до конца хода сила того воина и данного воина увеличивается на 5,000.'
+global.UnitGrade[CardStat] = 4
+global.CardInClan[CardStat] = 5
+global.ExtraDeck[CardStat] = 1
+}
+
+// Gold Paladin Add
+
+x = 2892
+
+CardStat = x
+{
+global.CardName[CardStat] = 'Sunrise Ray Knight, Gurguit'
+global.CardText[CardStat] = 'Gold Paladin/человек/Единое святилище
+
+АВТО [Авангард] Импульс наследия 2: [Встречный взрыв 1 & Взрыв души 1] В начале фазы призыва защитников, когда этот воин подвергается атаке, Вы можете заплатить цену. Если Вы это сделаете, посмотрите четыре верхние карты своей колоды, найдите среди них до одного воина, призовите его в круг защиты в спящем положении, остальные карты верните в колоду и перемешайте. 
+
+АВТО [Авангард]: [Встречный взрыв 1] Во время Вашего хода, когда Ваш воин наследия возносится, Вы можете заплатить цену. Если Вы это сделаете, посмотрите четыре верхние карты своей колоды, выберите среди них до одного воина, призовите его в арьергард и до конца хода его сила увеличивается на 2,000. Остальные карты возвращаются в колоду и перемешиваются.'
+global.UnitGrade[CardStat] = 3
+global.CardInClan[CardStat] = 5
+}
+
+CardStat = x+1
+{
+global.CardName[CardStat] = 'Veteran Knight, Danvalo'
+global.CardText[CardStat] = 'Gold Paladin/человек/Единое святилище
+
+АВТО [Авангард/арьергард] Импульс наследия 1: [Встречный взрыв 1] Когда атака этого воина достигает авангарда, Вы можете заплатить цену. Если Вы это сделаете, посмотрите на 4 верхние карты своей колоды, найдите среди них до одной карты, призовите её в арьергард,а остальные карты замешайте в колоду.'
+global.UnitGrade[CardStat] = 3
+global.CardInClan[CardStat] = 5
+}
+
+CardStat = x+2
+{
+global.CardName[CardStat] = 'Superior Gaze Liberator, Barbtruc'
+global.CardText[CardStat] = 'Gold Paladin/человек/Единое святилище/критический триггер-эффект
+
+АВТО: [Поместите данного воина в низ колоды] Когда этот воин призывается в арьергард из колоды, Вы можете заплатить цену. Если Вы это сделаете, посмотрите четыре верхние карты своей колоды, найдите среди них до одного воина, в имени которого содержится "Bluish Flame", покажите его оппоненту, возьмите его в руку и перемешайте колоду.'
+global.UnitGrade[CardStat] = 0
+global.CardInClan[CardStat] = 5
+}
+
+CardStat = x+3
+{
+global.CardName[CardStat] = 'Slaymy'
+global.CardText[CardStat] = 'Gold Paladin/высший зверь/Единое святилище
+
+АВТО [Арьергард] Импульс наследия 1: [Уничтожьте данного воина] В начале Вашей фазы защиты, когда Ваш авангард подвергается атаке, если у Вас в арьергарде находятся как минимум три других воина, Вы можете заплатить цену. Если Вы это сделаете, посмотрите три верхние карты своей колоды, найдите среди них до одного воина, призовите его в круг защиты в спящем положении и перемешайте колоды.'
+global.UnitGrade[CardStat] = 1
+global.CardInClan[CardStat] = 5
+}
+
+CardStat = x+4
+{
+global.CardName[CardStat] = 'Braygal'
+global.CardText[CardStat] = 'Gold Paladin/высший зверь/Единое святилище
+
+АВТО: [Встречный взрыв 1] Когда этот воин перехватывает, Вы можете заплатить цену. Если Вы это сделаете, призовите две верхние карты своей колоды в круг защитников в спящем положении.'
+global.UnitGrade[CardStat] = 2
+global.CardInClan[CardStat] = 5
+}
+
+CardStat = x+5
+{
+global.CardName[CardStat] = 'Holy Mage, Pwyll'
+global.CardText[CardStat] = 'Gold Paladin/эльф/Единое святилище
+
+АВТО [Арьергард] Импульс наследия 1: [Встречный взрыв 1] Когда этот воин атакует авангард, если данного воина поддерживают, Вы можете заплатить цену. Если Вы это сделаете, посмотрите три верхние карты своей колоды, выберите среди них до одного воина, призовите его в арьергард, а остальные карты верните в колоду и перемешайте.'
+global.UnitGrade[CardStat] = 2
+global.CardInClan[CardStat] = 5
+}
+
+CardStat = x+6
+{
+global.CardName[CardStat] = 'Lofty Head Lion'
+global.CardText[CardStat] = 'Gold Paladin/высший зверь/Единое святилище
+
+АВТО [Авангард] Импульс наследия 1: во время Вашего хода, когда к Вам в арьергард из колоды призывается воин, до конца хода сила того воина и данного воина увеличивается на 3,000. 
+
+АВТО [Авангард]: [Встречный взрыв 1 & Взрыв души 1] Когда этот воин призывается в авангард, Вы можете заплатить цену. Если Вы это сделаете, посмотрите четыре верхние карты своей колоды, выберите среди них до одного воина и призовите его в открытый круг арьергард. Остальные карты помещаются в низ Вашей колоды в любом порядке.'
+global.UnitGrade[CardStat] = 3
+global.CardInClan[CardStat] = 5
+}
+
+CardStat = x+7
+{
+global.CardName[CardStat] = 'Reticent Liberator, Brennius'
+global.CardText[CardStat] = 'Gold Paladin/человек/Единое святилище
+
+АВТО [Арьергард]: когда к Вам в арьергард из колоды призывается другой воин, если у Вашего авангарда в имени содержится "Liberator", до конца хода сила данного воина увеличивается на 2,000 и он приобретает следующую способность: "АВТО [Арьергард]: когда атака этого воина достигает авангарда, выберите одну находящуюся у Вас в зоне урона карту и переверните её в открытое положение".'
+global.UnitGrade[CardStat] = 2
+global.CardInClan[CardStat] = 5
+}
+
+// Gold Paladin Add
+
+x = 2971
+
+CardStat = x
+{
+global.CardName[CardStat] = 'Golden Dragon, Spear Cross Dragon'
+global.CardText[CardStat] = 'Gold Paladin/космический дракон/Единое святилище/воин наследия
+
+Вознесение.
+
+АВТО [Авангард]: [Встречный взрыв 2 & выберите одного закрытого Golden Dragon, Spear Cross Dragon, находящегося у Вас в зоне наследия, и переверните его в открытое положение] Когда этот воин призывается в авангард, если у Вас в зоне наследия находится как минимум один открытый воин, Вы можете заплатить цену. Если Вы это сделаете, посмотрите до пяти верхних карт своей колоды, и за каждого открытого воина, находящегося у Вас в зоне наследия, выберите по одному воину из просмотренных и призовите их в разные свободные круги арьергарда, затем перемешайте колоду.'
+global.UnitGrade[CardStat] = 4
+global.CardInClan[CardStat] = 5
+global.ExtraDeck[CardStat] = 1
+}
+
+CardStat = x+1
+{
+global.CardName[CardStat] = 'Law Abiding Knight, Kroten'
+global.CardText[CardStat] = 'Gold Paladin/человек/Единое святилище
+
+АВТО [Арьергард] Импульс наследия 1: когда этот воин атакует авангард, до конца битвы сила данного воина увеличивается на 3,000.'
+global.UnitGrade[CardStat] = 2
+global.CardInClan[CardStat] = 5
+}
+
+CardStat = x+2
+{
+global.CardName[CardStat] = 'Holy Mage, Pryderi'
+global.CardText[CardStat] = 'Gold Paladin/эльф/Единое святилище
+
+ПРОДОЛЖИТЕЛЬНЫЙ: страж.
+
+АВТО: [Скиньте одного воина из руки] Когда этот воин призывается в круг защитников из руки, Вы можете заплатить цену. Если Вы это сделаете, выберите свой подвергающийся атаке авангард и до конца битвы атаки по нему не проходят. Затем, если у Вас на кладбище есть Holy Mage, Pryderi, выберите до одной карты, находящейся у Вас в зоне урона, и переверните её в открытое положение.'
+global.UnitGrade[CardStat] = 1
+global.CardInClan[CardStat] = 5
+}
+
+CardStat = x+3
+{
+global.CardName[CardStat] = 'Butterfly Liberator, Codelia'
+global.CardText[CardStat] = 'Gold Paladin/человек/Единое святилище
+
+АКТ [Арьергард]: [Встречный взрыв 1 & уберите данного воина с поля] Если у Вашего авангарда в имени содержится «Liberator», посмотрите на три верхние карты своей колоды, выберите среди них до одного воина, в имени которого содержится «Liberator» и призовите его в пустой круг арьергарда. Остальные карты отправьте на кладбище.'
+global.UnitGrade[CardStat] = 1
+global.CardInClan[CardStat] = 5
+}
+
+CardStat = x+4
+{
+global.CardName[CardStat] = 'Liberator of After Glow, Belinus'
+global.CardText[CardStat] = 'Gold Paladin/человек/Единое святилище
+
+АВТО: Импульс наследия 1: когда этот воин призывается в арьергард из колоды, выберите до двух других находящихся у Вас в арьергарде воинов и до конца хода их сила увеличивается на 2,000.'
+global.UnitGrade[CardStat] = 1
+global.CardInClan[CardStat] = 5
+}
+
+CardStat = x+5
+{
+global.CardName[CardStat] = 'Knight of Dawns Light, Iago'
+global.CardText[CardStat] = 'Gold Paladin/человек/Единое святилище'
+global.UnitGrade[CardStat] = 2
+global.CardInClan[CardStat] = 5
+}
+
+CardStat = x+6
+{
+global.CardName[CardStat] = 'Dawning Knight, Gorboduc'
+global.CardText[CardStat] = 'Gold Paladin/человек/Единое святилище
+
+АВТО: [Покажите оппоненту одного находящегося у Вас в руке воина 3го ранга] Когда этот воин призывается в арьергард из руки, Вы можете заплатить цену. Если Вы это сделаете, найдите у себя в колоде до одного воина 3го ранга, в имени которого содержится «Gurguit», покажите его оппоненту, возьмите его в руку и перемешайте колоду. Затем скиньте одну карту из руки.
+
+ПРОДОЛЖИТЕЛЬНЫЙ [Рука]: когда Вы платите за вознесение, ранг этого воина увеличивается на два.'
+global.UnitGrade[CardStat] = 1
+global.CardInClan[CardStat] = 5
+}
+
+CardStat = x+7
+{
+global.CardName[CardStat] = 'Knight of Mornings Shadow, Kimarcus'
+global.CardText[CardStat] = 'Gold Paladin/человек/Единое святилище'
+global.UnitGrade[CardStat] = 1
+global.CardInClan[CardStat] = 5
+}
+
+CardStat = x+8
+{
+global.CardName[CardStat] = 'Rising Lionet'
+global.CardText[CardStat] = 'Gold Paladin/высший зверь/Единое святилище
+
+АВТО: первопроходец.
+
+АВТО [Арьергард] Импульс наследия 1: [Поместите данного воина в душу] Когда другой воин призывается к Вам в арьергард из колоды, Вы можете заплатить цену. Если Вы это сделаете, до конца хода сила того призванного воина увеличивается на 5,000 и он приобретает следующую способность: «АВТО [Арьергард]: [Встречный взрыв 1] Когда атака этого воина достигает авангарда, Вы можете заплатить цену. Если Вы это сделаете, посмотрите до трёх верхних карт своей колоды, выберите среди них до одного воина, призовите его в арьергард и перемешайте колоду».'
+global.UnitGrade[CardStat] = 0
+global.CardInClan[CardStat] = 5
+}
+
+CardStat = x+9
+{
+global.CardName[CardStat] = 'Pharmacy Witch'
+global.CardText[CardStat] = 'Gold Paladin/эльф/Единое святилище/исцеляющий триггер-эффект
+
+В колоде нельзя иметь больше четырёх исцеляющих триггер-эффектов.'
+global.UnitGrade[CardStat] = 0
+global.CardInClan[CardStat] = 5
+}
+
+CardStat = x+10
+{
+global.CardName[CardStat] = 'Air Raid Lion'
+global.CardText[CardStat] = 'Gold Paladin/высший зверь/Единое святилище/критический триггер-эффект'
+global.UnitGrade[CardStat] = 0
+global.CardInClan[CardStat] = 5
+}
+
+CardStat = x+11
+{
+global.CardName[CardStat] = 'Gigantech Ringer'
+global.CardText[CardStat] = 'Gold Paladin/гигант/Единое святилище/поднимающий триггер-эффект
+
+АВТО [Арьергард] Импульс наследия 1: [Поместите данного воина на верх своей колоды] Когда другой воин призывается к Вам в арьергард из колоды, Вы можете заплатить цену. Если Вы это сделаете, перемешайте колоду, возьмите одну карту из колоды, и до конца хода сила призванного ранее воина увеличивается на 5,000.'
+global.UnitGrade[CardStat] = 0
+global.CardInClan[CardStat] = 5
+}
+
+CardStat = x+12
+{
+global.CardName[CardStat] = 'Peeping Rabbit'
+global.CardText[CardStat] = 'Gold Paladin/высший зверь/Единое святилище/дающий карту триггер-эффект'
+global.UnitGrade[CardStat] = 0
+global.CardInClan[CardStat] = 5
+}
+
+// Gold Paladin Add
+
+x = 3418
+
+CardStat = x
+{
+global.CardName[CardStat] = 'Sword Physical Liberator, Magnus'
+global.CardText[CardStat] = 'Gold Paladin/человек/Единое святилище
+
+АВТО: когда этот воин призывается в арьергард из колоды, если у Вас в авангарде находятся как минимум два воина, в оригинальных именах которых содержится "Liberator", посмотрите три верхние карты своей колоды, найдите среди них до одного воина, в имени которого содержится "Liberator", призовите его в арьергард и поместите остальные карты в низ своей колоды в любом порядке. Затем, если у воина, призванного данной способностью, в имени содержится "Bluish Flame", Вы можете вернуть того воина в руку.'
+global.UnitGrade[CardStat] = 2
+global.CardInClan[CardStat] = 5
+}
+
+CardStat = x+1
+{
+global.CardName[CardStat] = 'Bluish Flame True Liberator, Holy Flame'
+global.CardText[CardStat] = 'Gold Paladin/космический дракон/Единое святилище/воин наследия
+
+Вознесение.
+
+АКТ [Авангард] [Один раз за ход]: [Встречный взрыв 1 & выберите одного находящегося у Вас в зоне наследия воина и переверните его в открытое положение] Если у Вашего сердца в имени содержится "Liberator", за каждого открытого Bluish Flame True Liberator, Holy Flame, находящегося у Вас в зоне наследия, активируйте следующую способность: "посмотрите три верхние карты своей колоды, найдите среди них до одного воина, призовите его в арьергард, а остальные карты поместите на кладбище, и до конца хода сила воина, призванного этой способностью, увеличивается на 2,000".'
+global.UnitGrade[CardStat] = 4
+global.CardInClan[CardStat] = 5
+global.ExtraDeck[CardStat] = 1
+}
+
+CardStat = 3676
+
+{
+
+global.CardName[3676] = 'Knight of Early Dawn, Coel'
+
+global.CardText[3676] = 'Gold Paladin/человек/Единое святилище
+
+АВТО: первопроходец.
+
+АКТ [Арьергард] Импульс наследия 1 [Единство] [Поместите данного воина в душу] Посмотрите три верхние карты своей колоды, выберите среди них до одного воина, призовите его в арьергард, перемешайте колоду и до конца хода сила того воина увеличивается на 2,000.
+'
+
+global.UnitGrade[3676] = 0
+
+global.CardInClan[3676] = 5
+
+}
+
+global.PowerStat[3676] = 5000
+
+
+CardStat = 3677
+
+{
+
+global.CardName[3677] = 'Golden Dragon, Rising Shine Dragon'
+
+global.CardText[3677] = 'Gold Paladin/космический дракон/Единое святилище/воин наследия
+
+Вознесение.
+
+АВТО [Авангард]: [Встречный взрыв 1 & переверните в открытое положение одного находящегося у Вас в зоне наследия воина] Когда атака этого воина достигает авангарда, Вы можете заплатить цену. Если Вы это сделаете, посмотрите три верхние карты своей колоды, выберите среди них до двух воинов и призовите их в разные круги арьергарда, а остальные карты верните в низ своей колоды в любом порядке.
+'
+
+global.UnitGrade[3677] = 4
+
+global.CardInClan[3677] = 5
+
+global.ExtraDeck[3677] = 1
+
+}
+
+global.PowerStat[3677] = 15000
+
+CardStat = 3708
+
+{
+
+global.CardName[3708] = 'Raven-haired Ezel'
+
+global.CardText[3708] = 'Gold Paladin/человек/Единое святилище
+
+АВТО: [Разрыв лимитов 5] когда этот воин призывается поверх воина 3го или выше ранга, в имени которого содержится "Ezel", до конца хода сила данного воина увеличивается на 10,000, и оппонент может призывать из руки на защиту только воинов 1го ранга.
+'
+
+global.UnitGrade[3708] = 3
+
+global.CardInClan[3708] = 5
+
+}
+
+global.PowerStat[3708] = 11000
+
+CardStat = 3709
+
+{
+
+global.CardName[3709] = 'Golden Dragon, Ray Breath Dragon'
+
+global.CardText[3709] = 'Gold Paladin/космический дракон/Единое святилище/воин наследия
+
+Вознесение.
+
+АВТО [Авангард] [Единство]: сила данного воина увеличивается на 5,000. Сила всех Ваших арьергардов, находящихся в переднем ряду, увеличивается на 2,000.
+'
+
+global.UnitGrade[3709] = 4
+
+global.CardInClan[3709] = 5
+
+global.ExtraDeck[3709] = 1
+
+}
+
+global.PowerStat[3709] = 15000
+
+
+CardStat = 3710
+
+{
+
+global.CardName[3710] = 'Divinity Lancer Dragon'
+
+global.CardText[3710] = 'Gold Paladin/космический дракон/Единое святилище
+
+АВТО [Авангард/арьергард] [Единство]: когда этот воин атакует авангард, до конца битвы сила данного воина увеличивается на 3,000.
+'
+
+global.UnitGrade[3710] = 3
+
+global.CardInClan[3710] = 5
+
+}
+
+global.PowerStat[3710] = 11000
+
+
+CardStat = 3711
+
+{
+
+global.CardName[3711] = 'Bladecross Lion'
+
+global.CardText[3711] = 'Gold Paladin/высший зверь/Единое святилище
+
+АВТО [Авангард] Импульс наследия 1: когда этот воин атакует авангард, до конца битвы сила данного воина увеличивается на 6,000.
+
+АВТО: [Встречный взрыв 2] Когда этот воин призывается в авангард, Вы можете заплатить цену. Если Вы это сделаете, посмотрите четыре верхние карты своей колоды, выберите среди них до одного воина, призовите его в арьергард, а остальные карты поместите в низ своей колоды в любом порядке.
+'
+
+global.UnitGrade[3711] = 3
+
+global.CardInClan[3711] = 5
+
+}
+
+global.PowerStat[3711] = 10000
+
+
+CardStat = 3712
+
+{
+
+global.CardName[3712] = 'Holy Mage, Elio'
+
+global.CardText[3712] = 'Gold Paladin/эльф/Единое святилище
+
+АВТО [Арьергард]: [Встречный взрыв 1 & поместите данного воина в душу] Когда атака этого воина достигает авангарда, Вы можете заплатить цену. Если Вы это сделаете, посмотрите три верхние карты своей колоды, выберите среди них до одного воина, призовите его в открытый круг арьергарда, а остальные карты поместите в низ своей колоды в любом порядке.
+'
+
+global.UnitGrade[3712] = 2
+
+global.CardInClan[3712] = 5
+
+}
+
+global.PowerStat[3712] = 9000
+
+
+CardStat = 3713
+
+{
+
+global.CardName[3713] = 'Knight of Evening Glow, Capoir'
+
+global.CardText[3713] = 'Gold Paladin/человек/Единое святилище
+
+АВТО: Импульс наследия 1: когда этот воин перехватывает, до конца битвы его защита увеличивается на 10,000.
+'
+
+global.UnitGrade[3713] = 2
+
+global.CardInClan[3713] = 5
+
+}
+
+global.PowerStat[3713] = 8000
+
+
+CardStat = 3714
+
+{
+
+global.CardName[3714] = 'Knight of New Sun, Catillus'
+
+global.CardText[3714] = 'Gold Paladin/человек/Единое святилище
+
+ПРОДОЛЖИТЕЛЬНЫЙ [Арьергард]: Импульс наследия 1 [Единство]: сила данного воина увеличивается на 3,000.
+'
+
+global.UnitGrade[3714] = 2
+
+global.CardInClan[3714] = 5
+
+}
+
+global.PowerStat[3714] = 9000
+
+
+CardStat = 3715
+
+{
+
+global.CardName[3715] = 'Holy Mage, Candace'
+
+global.CardText[3715] = 'Gold Paladin/эльф/Единое святилище
+
+ПРОДОЛЖИТЕЛЬНЫЙ: страж.
+
+АВТО: [Скиньте одного воина из руки] Когда этот воин призывается в круг защитников, Вы можете заплатить цену. Если Вы это сделаете, выберите своего подвергающегося атаке воина и до конца битвы атаки по нему не проходят.
+'
+
+global.UnitGrade[3715] = 1
+
+global.CardInClan[3715] = 5
+
+}
+
+global.PowerStat[3715] = 6000
+
+
+CardStat = 3716
+
+{
+
+global.CardName[3716] = 'Knight of Red Day, Runo'
+
+global.CardText[3716] = 'Gold Paladin/человек/Единое святилище
+
+АВТО [Арьергард]: Импульс наследия 1: когда этот воин передаёт свою силу кому-либо, обладающему способностью Единства, до конца битвы сила поддерживаемого воина увеличивается на 2,000.
+'
+
+global.UnitGrade[3716] = 1
+
+global.CardInClan[3716] = 5
+
+}
+
+global.PowerStat[3716] = 7000
+
+
+CardStat = 3717
+
+{
+
+global.CardName[3717] = 'Cresgal'
+
+global.CardText[3717] = 'Gold Paladin/высший зверь/Единое святилище
+
+АВТО: когда этот воин призывается в арьергард, выберите до одного своего другого воина и до конца хода его сила увеличивается на 2,000.
+'
+
+global.UnitGrade[3717] = 1
+
+global.CardInClan[3717] = 5
+
+}
+
+global.PowerStat[3717] = 6000
+
+
+CardStat = 3718
+
+{
+
+global.CardName[3718] = 'Curable Angel'
+
+global.CardText[3718] = 'Gold Paladin/ангел/Единое святилище/исцеляющий триггер-эффект
+
+В колоде нельзя иметь больше четырёх исцеляющих триггер-эффектов.
+'
+
+global.UnitGrade[3718] = 0
+
+global.CardInClan[3718] = 5
+
+}
+
+global.TriggerUnit[3718] = 4
+
+global.PowerStat[3718] = 5000
+
+
+CardStat = 3719
+
+{
+
+global.CardName[3719] = 'Rustless Knight of Speed Attack'
+
+global.CardText[3719] = 'Gold Paladin/человек/Единое святилище/критический триггер-эффект
+'
+
+global.UnitGrade[3719] = 0
+
+global.CardInClan[3719] = 5
+
+}
+
+global.TriggerUnit[3719] = 2
+
+global.PowerStat[3719] = 5000
+
+
+CardStat = 3720
+
+{
+
+global.CardName[3720] = 'Imperative Owl'
+
+global.CardText[3720] = 'Gold Paladin/высший зверь/Единое святилище/поднимающий триггер-эффект
+'
+
+global.UnitGrade[3720] = 0
+
+global.CardInClan[3720] = 5
+
+}
+
+global.TriggerUnit[3720] = 3
+
+global.PowerStat[3720] = 5000
+
+
+CardStat = 3721
+
+{
+
+global.CardName[3721] = 'Discerning Appraiser, Donnelly'
+
+global.CardText[3721] = 'Gold Paladin/гном/Единое святилище/дающий карту триггер-эффект
+'
+
+global.UnitGrade[3721] = 0
+
+global.CardInClan[3721] = 5
+
+}
+
+global.TriggerUnit[3721] = 1
+
+global.PowerStat[3721] = 5000
+
+
+CardStat = 3722
+
+{
+
+global.CardName[3722] = 'Knight of Morning Day, Edadus'
+
+global.CardText[3722] = 'Gold Paladin/человек/Единое святилище
+
+ПРОДОЛЖИТЕЛЬНЫЙ [Арьергард] [Единство]: сила данного воина увеличивается на 2,000.
+'
+
+global.UnitGrade[3722] = 1
+
+global.CardInClan[3722] = 5
+
+}
+
+global.PowerStat[3722] = 7000
+
+
+CardStat = 3723
+
+{
+
+global.CardName[3723] = 'Knight of Slanting Radiant, Ledion'
+
+global.CardText[3723] = 'Gold Paladin/человек/Единое святилище
+
+АКТ [Арьергард]: [Единство]: [Встречный взрыв 1] До конца хода сила данного воина увеличивается на 3,000.
+'
+
+global.UnitGrade[3723] = 2
+
+global.CardInClan[3723] = 5
+
+}
+
+global.PowerStat[3723] = 9000
+
+
+CardStat = 3724
+
+{
+
+global.CardName[3724] = 'Dawngal'
+
+global.CardText[3724] = 'Gold Paladin/высший зверь/Единое святилище
+
+ПРОДОЛЖИТЕЛЬНЫЙ [Арьергард] Импульс наследия 1 [Единство]: данный воин приобретает способность перехвата и "АВТО: когда этот воин перехватывает, до конца битвы его защита увеличивается на 5,000". 
+
+АВТО: когда этот воин призывается в арьергард, до конца хода он приобретает способность поддержки.
+'
+
+global.UnitGrade[3724] = 3
+
+global.CardInClan[3724] = 5
+
+}
+
+global.PowerStat[3724] = 10000
+
+
+CardStat = 3725
+
+{
+
+global.CardName[3725] = 'Holy Mage, Connor'
+
+global.CardText[3725] = 'Gold Paladin/эльф/Единое святилище
+
+АВТО: [Взрыв души 1] Когда этот воин призывается в арьергард или в круг защиты из колоды, Вы можете заплатить цену. Если Вы это сделаете, до конца хода сила и защита данного воина увеличиваются на 5,000.
+'
+
+global.UnitGrade[3725] = 1
+
+global.CardInClan[3725] = 5
+
+}
+
+global.PowerStat[3725] = 6000
+
+
+CardStat = 3726
+
+{
+
+global.CardName[3726] = 'Scarface Lion'
+
+global.CardText[3726] = 'Gold Paladin/высший зверь/Единое святилище/критический триггер-эффект
+
+АВТО [Арьергард]: [Поместите этого воина в душу] Когда Ваш авангард атакует, если у Вас в авангарде находится воин 3го или выше ранга, в имени которого содержится «Gurguit», Вы можете заплатить цену. Если Вы это сделаете, возьмите одну карту из колоды, выберите одного своего авангарда и до конца битвы его сила увеличивается на 5,000.
+'
+
+global.UnitGrade[3726] = 0
+
+global.CardInClan[3726] = 5
+
+}
+
+global.TriggerUnit[3726] = 2
+
+global.PowerStat[3726] = 4000
+
+
+CardStat = 3727
+
+{
+
+global.CardName[3727] = 'Holy Mage, Irena'
+
+global.CardText[3727] = 'Gold Paladin/эльф/Единое святилище
+
+ПРОДОЛЖИТЕЛЬНЫЙ: страж. 
+
+АВТО: [Встречный взрыв 1] Во время битвы, в которой Ваш авангард подвергается атаке, если этот воин был призван в круг защитников из руки, Вы можете заплатить цену. Если Вы это сделаете, призовите пять верхних карт своей колоды в круг защиты. 
+
+АВТО: [Скиньте одного воина из руки] Когда этот воин призывается в круг защиты из колоды, Вы можете заплатить цену. Если Вы это сделаете, верните данного воина в руку, призовите верхнюю карту своей колоды в круг защиты и до конца хода защита воина, призванного данной способностью, увеличивается на 5,000.
+'
+
+global.UnitGrade[3727] = 1
+
+global.CardInClan[3727] = 5
+
+}
+
+global.PowerStat[3727] = 6000
+
+
+CardStat = 3728
+
+{
+
+global.CardName[3728] = 'Knight of Springs Light, Perimore'
+
+global.CardText[3728] = 'Gold Paladin/человек/Единое святилище
+
+ПРОДОЛЖИТЕЛЬНЫЙ [Арьергард]: [Единство]: сила данного воина увеличивается на 2,000.
+
+АВТО: Импульс наследия 1: [Встречный взрыв 1] Когда этот воин призывается в арьергард, Вы можете заплатить цену. Если Вы это сделаете, посмотрите три верхние карты своей колоды, выберите среди них до одного воина, призовите его в арьергард, в одну колонку с данным воином, а остальные карты поместите в низ своей колоды в любом порядке.
+'
+
+global.UnitGrade[3728] = 2
+
+global.CardInClan[3728] = 5
+
+}
+
+global.PowerStat[3728] = 9000
+
+
+CardStat = 3729
+
+{
+
+global.CardName[3729] = 'Knight of Thin Sun, Marcia'
+
+global.CardText[3729] = 'Gold Paladin/человек/Единое святилище
+
+АВТО [Арьергард]: Единство: [Поместите данного воина в душу] В конце каждого хода, Вы можете заплатить цену. Если Вы это сделаете, активируйте Заряд счётчика 1. 
+
+ПРОДОЛЖИТЕЛЬНЫЙ [Авангард/арьергард/круг защиты]: сопротивление.
+'
+
+global.UnitGrade[3729] = 2
+
+global.CardInClan[3729] = 5
+
+}
+
+global.PowerStat[3729] = 8000
+
+CardStat = 3755
+
+{
+
+global.CardName[3755] = 'Golden Knight of Incandescence, Ebraucus'
+
+global.CardText[3755] = 'Gold Paladin/человек/Единое святилище/воин наследия
+
+Вознесение.
+
+АВТО: [Встречный взрыв 1 & Взрыв души 1] Когда этот воин призывается в авангард, Вы можете заплатить цену. Если Вы это сделаете, посмотрите две верхние карты своей колоды, найдите среди них до одного воина, призовите его в открытый круг арьергарда, а остальные карты поместите в низ своей колоды в любом порядке.
+'
+
+global.UnitGrade[3755] = 4
+
+global.CardInClan[3755] = 5
+
+global.ExtraDeck[3755] = 1
+
+}
+
+global.PowerStat[3755] = 15000
+
+
+CardStat = 3756
+
+{
+
+global.CardName[3756] = 'Sacred Heaven Prayer Master, Reia'
+
+global.CardText[3756] = 'Gold Paladin/эльф/Единое святилище/страж наследия
+
+Страж наследия.
+
+АВТО: когда этот воин призывается в круг защиты, если у Вас в арьергарде как минимум два воина, до конца битвы защита данного воина увеличивается на 5,000.
+
+
+'
+
+global.UnitGrade[3756] = 4
+
+global.CardInClan[3756] = 5
+
+global.ExtraDeck[3756] = 1
+
+}
+
+global.PowerStat[3756] = 0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CardStat = 3805
+
+{
+
+global.CardName[3805] = 'Knight of Merciful Light, Bradott'
+
+global.CardText[3805] = 'Gold Paladin/человек/Единое святилище
+
+АКТ [Авангард] [Один раз за ход] [Единство]: [Взрыв души 1] Откройте верхнюю карту своей колоды и до конца хода сила данного воина увеличивается на силу открытого воина. Затем, если у открытого воина есть способность Единства, призовите его в открытый круг арьергарда, в ином случае, поместите его в низ своей колоды.
+'
+
+global.UnitGrade[3805] = 3
+
+global.CardInClan[3805] = 5
+
+}
+
+global.PowerStat[3805] = 11000
+
+
+CardStat = 3806
+
+{
+
+global.CardName[3806] = 'Bururugal'
+
+global.CardText[3806] = 'Gold Paladin/высший зверь/Единое святилище
+
+АВТО [Арьергард] Импульс наследия 1 [Единство]: когда этот воин атакует авангард, до конца битвы его сила увеличивается на 5,000.
+'
+
+global.UnitGrade[3806] = 2
+
+global.CardInClan[3806] = 5
+
+}
+
+global.PowerStat[3806] = 9000
+
+
+CardStat = 3807
+
+{
+
+global.CardName[3807] = 'Sunshine Knight, Jeffrey'
+
+global.CardText[3807] = 'Gold Paladin/человек/Единое святилище
+
+АВТО [Арьергард] Импульс наследия 1 [Единство]: [Поместите данного воина в душу] В конце битвы, в которой этот воин поддерживал, Вы можете заплатить цену. Если Вы это сделаете, возьмите одну карту из колоды.
+'
+
+global.UnitGrade[3807] = 1
+
+global.CardInClan[3807] = 5
+
+}
+
+global.PowerStat[3807] = 7000
+
+
+CardStat = 3864
+
+{
+
+global.CardName[3864] = 'Sunrise Ray Radiant Sword, Gurguit'
+
+global.CardText[3864] = 'Gold Paladin/человек/Единое святилище/воин наследия
+
+Вознесение.
+
+АКТ [Авангард] Импульс наследия 2 [Единство]: [Встречный взрыв 1 & Взрыв души 2] До конца хода сила данного воина увеличивается на 5,000 за каждого находящегося у Вас в арьергарде воина. Выберите до пяти своих арьергардов и до конца хода их сила увеличивается на 5,000.
+'
+
+global.UnitGrade[3864] = 4
+
+global.CardInClan[3864] = 5
+
+global.ExtraDeck[3864] = 1
+
+}
+
+global.PowerStat[3864] = 15000
+
+
+CardStat = 3865
+
+{
+
+global.CardName[3865] = 'Golden Beast, Sleimy Flare'
+
+global.CardText[3865] = 'Gold Paladin/королевский зверь/Единое святилище/страж наследия
+
+Страж наследия.
+
+АВТО: [Поместите одного своего арьергарда в низ своей колоды] Когда этот воин призывается в круг защиты, Вы можете заплатить цену. Если Вы это сделаете, посмотрите пять верхних карт своей колоды, найдите среди них до двух воинов с разными рангами, призовите их на защиту и перемешайте колоду.
+'
+
+global.UnitGrade[3865] = 4
+
+global.CardInClan[3865] = 5
+
+global.ExtraDeck[3865] = 1
+
+}
+
+global.PowerStat[3865] = 0
+
+
+CardStat = 3866
+
+{
+
+global.CardName[3866] = 'Flame Wind Lion, Wonder Ezel'
+
+global.CardText[3866] = 'Gold Paladin/человек/Единое святилище
+
+АВТО: когда этот воин призывается в арьергард, если у Вас в авангарде в стоячем положении находится воин 3го ранга, в имени которого содержится «Ezel», найдите у себя в колоде до одного воина, в имени которого содержится «Ezel», сделайте на него смену в стоячем положении, перемешайте колоду и до конца хода сила призванного воина увеличивается на 5,000.
+'
+
+global.UnitGrade[3866] = 2
+
+global.CardInClan[3866] = 5
+
+}
+
+global.PowerStat[3866] = 9000
+
+global.CardBanned[3866] = 1
+
+
+CardStat = 3867
+
+{
+
+global.CardName[3867] = 'Player of the Holy Harp, Nimane'
+
+global.CardText[3867] = 'Gold Paladin/человек/Единое святилище
+
+ПРОДОЛЖИТЕЛЬНЫЙ [Круг защиты] [Единство]: защита данного воина увеличивается на 5,000.
+'
+
+global.UnitGrade[3867] = 1
+
+global.CardInClan[3867] = 5
+
+}
+
+global.PowerStat[3867] = 6000
+
+
+CardStat = 3868
+
+{
+
+global.CardName[3868] = 'Crimson Lion Beast, Howell'
+
+global.CardText[3868] = 'Gold Paladin/человек/Единое святилище
+
+АВТО: когда этот воин призывается в арьергард, если у Вашего авангарда в имени содержится «Ezel», активируйте Заряд счётчика 1 и Заряд души 1.
+'
+
+global.UnitGrade[3868] = 1
+
+global.CardInClan[3868] = 5
+
+}
+
+global.PowerStat[3868] = 7000
+
+
+CardStat = 3869
+
+{
+
+global.CardName[3869] = 'Iron Blue Lion, Scheidt'
+
+global.CardText[3869] = 'Gold Paladin/высший зверь/Единое святилище
+
+АВТО [Душа]: [Взрыв души 1 за исключением Iron Blue Lion, Scheidt] Когда к Вам в авангард призывается воин, в имени которого содержится «Ezel», Вы можете заплатить цену. Если Вы это сделаете, призовите данного воина в арьергард, возьмите одну карту из колоды, и до конца хода сила данного воина увеличивается на 2,000.
+'
+
+global.UnitGrade[3869] = 0
+
+global.CardInClan[3869] = 5
+
+}
+
+global.PowerStat[3869] = 5000
+
+
+CardStat = 3870
+
+{
+
+global.CardName[3870] = 'Bashgal'
+
+global.CardText[3870] = 'Gold Paladin/высший зверь/Единое святилище
+
+АВТО: первопроходец.
+
+АКТ [Арьергард]: [Поместите данного воина в душу & скиньте из руки одного обычного воина] Посмотрите верхнюю карту своей колоды, поместите её на верх или в низ своей колоды, возьмите одну карту из колоды и, если у Вас в зоне наследия находится хотя бы один открытый воин, выберите одного своего воина и до конца хода его сила увеличивается на 5,000.
+'
+
+global.UnitGrade[3870] = 0
+
+global.CardInClan[3870] = 5
+
+}
+
+global.PowerStat[3870] = 4000
+
+
+CardStat = 3871
+
+{
+
+global.CardName[3871] = 'Player of the Holy Pipe, Gerrie'
+
+global.CardText[3871] = 'Gold Paladin/человек/Единое святилище/поднимающий триггер-эффект
+
+ПРОДОЛЖИТЕЛЬНЫЙ [Арьергард] Импульс наследия 1 [Единство]: сила данного воина увеличивается на 3,000 и он приобретает следующую способность: «АВТО [Арьергард]: в конце битвы, в которой этот воин атаковал или поддерживал, поместите данного воина в душу и активируйте Заряд счётчика 1«.
+'
+
+global.UnitGrade[3871] = 0
+
+global.CardInClan[3871] = 5
+
+}
+
+global.TriggerUnit[3871] = 3
+
+global.PowerStat[3871] = 4000
+
+CardStat = 3941
+
+{
+
+global.CardName[3941] = 'Setting Sun Knight, Henrines'
+
+global.CardText[3941] = 'Gold Paladin/человек/Единое святилище
+
+АВТО: Импульс наследия 1: [Встречный взрыв 1 & Взрыв души 1] Когда этот воин призывается в арьергард, Вы можете заплатить цену. Если Вы это сделаете, посмотрите три верхние карты своей колоды, выберите среди них до одного воина, призовите его в арьергард, а остальные карты поместите в низ своей колоды в любом порядке. Если у Вашего авангарда в имени содержится "Gurguit", до конца хода сила воина, призванного этой способностью, а также данного воина, увеличивается на 3,000.
+'
+
+global.UnitGrade[3941] = 2
+
+global.CardInClan[3941] = 5
+
+}
+
+global.PowerStat[3941] = 9000
+
+
+CardStat = 4048
+
+{
+
+global.CardName[4048] = 'Knight of Autumn Light, Legan'
+
+global.CardText[4048] = 'Gold Paladin/человек/Единое святилище
+
+ПРОДОЛЖИТЕЛЬНЫЙ [Арьергард] [Единство]: если у Вашего авангарда 4ый или выше ранг, сила данного воина увеличивается на 3,000.
+
+ПРОДОЛЖИТЕЛЬНЫЙ [Авангард/арьергард/круг защиты]: сопротивление.
+'
+
+global.UnitGrade[4048] = 2
+
+global.CardInClan[4048] = 5
+
+}
+
+global.PowerStat[4048] = 9000
+
+
+CardStat = 4049
+
+{
+
+global.CardName[4049] = 'Holy Mage, Lavinia'
+
+global.CardText[4049] = 'Gold Paladin/эльф/Единое святилище
+
+ПРОДОЛЖИТЕЛЬНЫЙ: страж.
+
+АВТО: [Выберите одну находящуюся у Вас в руке карту и сбросьте её] Когда этот воин помещается в круг защиты из руки, Вы можете заплатить цену. Если Вы это сделаете, выберите до одного своего атакованного авангарда, и до конца битвы атака по выбранному воину не достигнет цели.
+
+АВТО: Импульс наследия 1: [Единство]: [Выберите одного другого своего арьергарда и поместите его в низ своей колоды] Когда этот воин помещается на круг арьергарда из колоды, Вы можете заплатить цену. Если Вы это сделаете, в конце хода верните этого воина в руку.
+'
+
+global.UnitGrade[4049] = 1
+
+global.CardInClan[4049] = 5
+
+}
+
+global.PowerStat[4049] = 6000
+
+
+CardStat = 4050
+
+{
+
+global.CardName[4050] = 'Knight of Daybreak, Holsa'
+
+global.CardText[4050] = 'Gold Paladin/человек/Единое святилище
+
+АВТО [Арьергард] Импульс наследия 1 [Единство]: когда другой Ваш воин призывается в арьергард, выберите другого своего воина, находящегося в одной колонке с этим воином, и до конца хода сила того и этого воинов увеличивается на 2,000.
+'
+
+global.UnitGrade[4050] = 1
+
+global.CardInClan[4050] = 5
+
+}
+
+global.PowerStat[4050] = 7000
+
+CardStat = 4098
+
+{
+
+global.CardName[4098] = 'Golden Dragon, Glorious Reigning Dragon'
+
+global.CardText[4098] = 'Gold Paladin/космический дракон/Единое святилище/воин наследия
+
+Вознесение.
+
+АВТО [Авангард] [Единство]: [Встречный взрыв 1 & переверните в открытое положение одного находящегося у Вас в зоне наследия закрытого Golden Dragon, Glorious Reigning Dragon & поместите двух своих арьергардов в низ колоды в любом порядке] Когда этот воин атакует, Вы можете заплатить цену. Если Вы это сделаете, посмотрите на семь верхних карт своей колоды, найдите среди них до стольки карт, сколько у Вас открытых карт в зоне наследия, призовите их в разные круги арьергарда, перемешайте колоду и, если Вы призвали как минимум три карты, активируйте Заряд счётчика 1 и Заряд души 1.
+'
+
+global.UnitGrade[4098] = 4
+
+global.CardInClan[4098] = 5
+
+global.ExtraDeck[4098] = 1
+
+}
+
+global.PowerStat[4098] = 15000
+
+
+CardStat = 4099
+
+{
+
+global.CardName[4099] = 'Knight of the Scorching Sun, Arvirarkus'
+
+global.CardText[4099] = 'Gold Paladin/человек/Единое святилище
+
+АВТО [Авангард/арьергард] Импульс наследия 1: когда этот воин атакует авангард, до конца битвы его сила увеличивается на 4,000.
+
+АВТО [Авангард/арьергард] [Единство]: когда Ваш другой воин призывается в арьергард, до конца хода сила этого воина увеличивается на 1,000.
+'
+
+global.UnitGrade[4099] = 3
+
+global.CardInClan[4099] = 5
+
+}
+
+global.PowerStat[4099] = 10000
+
+
+CardStat = 4100
+
+{
+
+global.CardName[4100] = 'Dexgal'
+
+global.CardText[4100] = 'Gold Paladin/высший зверь/Единое святилище
+
+АВТО: Импульс наследия 1: когда этот воин призывается в арьергард из колоды, Вы можете выполнить следующую способность: «посмотрите на три верхние карты своей колоды, найдите среди них одну карту, призовите её в круг арьергарда, занятый этим воином, остальные карты поместите в низ колоды в любом порядке, и до конца хода сила призванного воина увеличивается на 2,000».
+'
+
+global.UnitGrade[4100] = 1
+
+global.CardInClan[4100] = 5
+
+}
+
+global.PowerStat[4100] = 6000
+
+
+CardStat = 4101
+
+{
+
+global.CardName[4101] = 'Riding Rookie'
+
+global.CardText[4101] = 'Gold Paladin/сильф/Единое святилище
+
+АВТО: первопроходец.
+
+ПРОДОЛЖИТЕЛЬНЫЙ [Арьергард]: все Ваши другие арьергарды, находящиеся в одной колонке с этим воином, приобретают: «ПРОДОЛЖИТЕЛЬНЫЙ [Арьергард]: сопротивление«.
+
+АКТ [Арьергард в центральной колонке] Импульс наследия 1: [Встречный взрыв 1 & поместите этого воина в душу] Возьмите карту из колоды.
+'
+
+global.UnitGrade[4101] = 0
+
+global.CardInClan[4101] = 5
+
+}
+
+global.PowerStat[4101] = 4000
+
+CardStat = 4416
+
+{
+
+global.CardName[4416] = 'Knight of Daylight, Kinarius'
+
+global.CardText[4416] = 'Gold Paladin/человек/Единое святилище
+
+ПРОДОЛЖИТЕЛЬНЫЙ [Арьергард] Единство: если в имени Вашего авангарда содержится «Gurguit», сила этого воина увеличивается на 4,000.
+
+АВТО [Импульс наследия 1]: [Выберите одну находящуюся у Вас в руке карту и сбросьте её] Когда этот воин призывается в арьергард, Вы можете заплатить цену. Если Вы это сделаете, посмотрите на три верхние карты своей колоды, найдите среди них до одной карты, призовите её в арьергард, а остальные карты поместите в низ своей колоды в любом порядке.
+'
+
+global.UnitGrade[4416] = 2
+
+global.CardInClan[4416] = 5
+
+}
+
+global.PowerStat[4416] = 9000
+
+CardStat = 4546
+
+{
+
+global.CardName[4546] = 'Knight of Teaching, Judon'
+
+global.CardText[4546] = 'Gold Paladin/человек/Единое святилище
+
+АВТО [Авангард/арьергард] Импульс наследия 1 [Единство]: [Встречный взрыв 1] Когда атака этого воина достигает авангарда, Вы можете заплатить цену. Если Вы это сделаете, посмотрите четыре верхние карты своей колоды, выберите одну из них и призовите в арьергард, перемешайте колоду и до конца хода сила призванного воина увеличивается на 3,000.
+'
+
+global.UnitGrade[4546] = 3
+
+global.CardInClan[4546] = 5
+
+}
+
+global.PowerStat[4546] = 11000
+
+CardStat = 4553
+
+{
+
+global.CardName[4553] = 'Golden Knight of Shining Fang, Garmore'
+
+global.CardText[4553] = 'Gold Paladin/человек/Единое святилище/воин наследия
+
+Вознесение.
+АКТ [Авангард] [Раз за ход] Импульс наследия 2: [Выберите находящуюся у Вас на кладбище карту и поместите её в низ колоды] Раскройте шесть верхних карт колоды, выберите столько своих воинов, сколько было раскрыто высших зверей, до конца хода их сила увеличивается на 4,000 и, если Вы выбрали хотя бы четырёх, до конца хода критический этого воина увеличивается на один, перемешайте колоду. 
+АКТ [Авангард]: [Встречный взрыв 1 & Взрыв души 1] Если в имени Вашего сердца содержится "Garmore", посмотрите три верхние карты колоды, выберите одну из них, призовите её в арьергард, перемешайте колоду. 
+ПРОД: эта карта относится и к клану «Royal Paladin».
+'
+
+global.UnitGrade[4553] = 4
+
+global.CardInClan[4553] = 5
+
+global.ExtraDeck[4553] = 1
+
+}
+
+global.PowerStat[4553] = 15000
+
+
+CardStat = 4557
+
+{
+
+global.CardName[4557] = 'Knight of Springs Sun, Conanus'
+
+global.CardText[4557] = 'Gold Paladin/человек/Единое святилище
+
+ПРОДОЛЖИТЕЛЬНЫЙ [Арьергард] Импульс наследия 1 [Единство]: сила данного воина увеличивается на 1,000 за каждого Вашего воина, обладающего способностью Единства.
+'
+
+global.UnitGrade[4557] = 1
+
+global.CardInClan[4557] = 5
+
+}
+
+global.PowerStat[4557] = 7000
+
+CardStat = 4574
+
+{
+
+global.CardName[4574] = 'Holy Mage, Alessia'
+
+global.CardText[4574] = 'Gold Paladin/эльф/Единое святилище
+
+ПРОДОЛЖИТЕЛЬНЫЙ: страж.
+
+АВТО: [Выберите одну находящуюся у Вас в руке карту и сбросьте её] Когда этот воин помещается в круг защиты, Вы можете заплатить цену. Если Вы это сделаете, выберите одного своего атакованного авангарда, и до конца битвы атаки по нему не проходят.
+
+АВТО [Единство]: [Выберите одного своего арьергарда и поместите его в низ своей колоды] Когда этот воин призывается в круг защиты, Вы можете заплатить цену. Если Вы это сделаете, до конца битвы защита данного воина увеличивается на 15,000. 
+'
+
+global.UnitGrade[4574] = 1
+
+global.CardInClan[4574] = 5
+
+}
+
+global.PowerStat[4574] = 6000
+
+
+CardStat = 4575
+
+{
+
+global.CardName[4575] = 'Golden Dragon, Build Peak Dragon'
+
+global.CardText[4575] = 'Gold Paladin/космический дракон/Единое святилище/воин наследия
+
+Вознесение.
+
+АВТО [Единство]: когда этот воин помещается из круга авангарда в Вашу зону наследия, активируйте Заряд счётчика 1 и Заряд души 1. 
+
+ПРОДОЛЖИТЕЛЬНЫЙ [Авангард]: сила данного воина увеличивается на 3,000 за каждого Вашего арьергарда.
+'
+
+global.UnitGrade[4575] = 4
+
+global.CardInClan[4575] = 5
+
+global.ExtraDeck[4575] = 1
+}
+
+global.PowerStat[4575] = 15000
+
+CardStat = 4584
+
+{
+
+global.CardName[4584] = 'Golden Holy Sword, Gurguit'
+
+global.CardText[4584] = 'Gold Paladin/человек/Единое святилище
+
+ПРОДОЛЖИТЕЛЬНЫЙ [Авангард] Импульс наследия 2 [Единство]: все Ваши арьергарды приобретают способность перехвата, а также: "ПРОДОЛЖИТЕЛЬНЫЙ [Арьергард]: во время битвы, в которой Ваш авангард подвергается атаке, этот воин может перехватывать из заднего ряда".
+ 
+АВТО [Авангард]: [Встречный взрыв 1 & Взрыв души 1] Во время Вашего хода, когда Ваш воин наследия возносится, Вы можете заплатить цену. Если Вы это сделаете, посмотрите четыре верхние карты своей колоды, призовите одну карту в арьергард, перемешайте колоду и, если Вы призвали воина со способностью Единства, посмотрите верхнюю карту своей колоды и призовите её в арьергард в спящем положении. 
+'
+
+global.UnitGrade[4584] = 3
+
+global.CardInClan[4584] = 5
+
+}
+
+global.PowerStat[4584] = 11000
+
+
+CardStat = 4585
+
+{
+
+global.CardName[4585] = 'Holy Sword of Heavenly Law, Gurguit'
+
+global.CardText[4585] = 'Gold Paladin/человек/Единое святилище/воин наследия
+
+Вознесение.
+
+АКТ [Авангард] [Один раз за ход]: [Встречный взрыв 1 & выберите у себя в зоне наследия одного закрытого Holy Sword of Heavenly Law, Gurguit и переверните его в открытое положение & выберите у себя в руке одну карту и скиньте её] До конца хода данный воин приобретает следующие способности: "АВТО [Авангард] Единство: когда этот воин атакует, посмотрите семь верхних карт своей колоды, призовите одну из них в арьергард и перемешайте колоду" и "ПРОДОЛЖИТЕЛЬНЫЙ [Авангард]: за каждого открытого воина у Вас в зоне наследия, в имени которого содержится "Gurguit", сила всех Ваших воинов увеличивается на 2,000".
+'
+
+global.UnitGrade[4585] = 4
+
+global.CardInClan[4585] = 5
+
+global.ExtraDeck[4585] = 1
+
+}
+
+global.PowerStat[4585] = 15000
+
+CardStat = 4640
+
+{
+
+global.CardName[4640] = 'Holy Mage, Rossa'
+
+global.CardText[4640] = 'Gold Paladin/эльф/Единое святилище
+
+АКТ [Арьергард] Импульс наследия 1 [Единство]: [Встречный взрыв 1] Выберите одного своего другого воина и до конца хода сила этого воина, а также выбранного, увеличивается на 2,000.
+'
+
+global.UnitGrade[4640] = 2
+
+global.CardInClan[4640] = 5
+
+}
+
+global.PowerStat[4640] = 9000
+
+
+CardStat = 4641
+
+{
+
+global.CardName[4641] = 'Liberator, Stiletto Hawk'
+
+global.CardText[4641] = 'Gold Paladin/высший зверь/Единое святилище
+
+АВТО [Импульс наследия 1]: когда этот воин призывается в арьергард эффектом, до конца хода Вы можете снизить силу данного воина на 2,000. Если сила будет снижена на 2,000, до конца хода данный воин приобретает способность поддержки.
+'
+
+global.UnitGrade[4641] = 2
+
+global.CardInClan[4641] = 5
+
+}
+
+global.PowerStat[4641] = 9000
+
+
+CardStat = 4642
+
+{
+
+global.CardName[4642] = 'Holy Mage, Maraine'
+
+global.CardText[4642] = 'Gold Paladin/эльф/Единое святилище
+
+ПРОДОЛЖИТЕЛЬНЫЙ [Арьергард/круг защиты] Импульс наследия 1 [Единство]: сила данного воина увеличивается на 2,000, а защита — на 5,000.
+'
+
+global.UnitGrade[4642] = 2
+
+global.CardInClan[4642] = 5
+
+}
+
+global.PowerStat[4642] = 8000
+
+
+CardStat = 4643
+
+{
+
+global.CardName[4643] = 'Chasegal Liberator'
+
+global.CardText[4643] = 'Gold Paladin/высший зверь/Единое святилище
+
+АВТО [Импульс наследия 1]: [Взрыв души 1] Когда этот воин убирается с круга защитников, если в этом ходу в Вашу зону урона не помещалась карта, Вы можете заплатить цену. Если Вы это сделаете, возьмите одну карту из колоды.
+'
+
+global.UnitGrade[4643] = 1
+
+global.CardInClan[4643] = 5
+
+}
+
+global.PowerStat[4643] = 6000
+
+
+CardStat = 4644
+
+{
+
+global.CardName[4644] = 'Banagal Liberator'
+
+global.CardText[4644] = 'Gold Paladin/высший зверь/Единое святилище
+
+АВТО [Арьергард]: [Встречный взрыв 1 & Взрыв души 1] Когда другой Ваш воин призывается в арьергард из колоды, Вы можете заплатить цену. Если Вы это сделаете, до конца хода тот воин приобретает способность поддержки.
+'
+
+global.UnitGrade[4644] = 1
+
+global.CardInClan[4644] = 5
+
+}
+
+global.PowerStat[4644] = 6000
+
+
+CardStat = 4645
+
+{
+
+global.CardName[4645] = 'Sparkling Flash Glint Knight'
+
+global.CardText[4645] = 'Gold Paladin/человек/Единое святилище/критический триггер-эффект
+'
+
+global.UnitGrade[4645] = 0
+
+global.CardInClan[4645] = 5
+
+}
+
+global.TriggerUnit[4645] = 2
+
+global.PowerStat[4645] = 5000
+
+
+CardStat = 4646
+
+{
+
+global.CardName[4646] = 'Explorer of Good News'
+
+global.CardText[4646] = 'Gold Paladin/человек/Единое святилище/дающий карту триггер-эффект
+'
+
+global.UnitGrade[4646] = 0
+
+global.CardInClan[4646] = 5
+
+}
+
+global.TriggerUnit[4646] = 1
+
+global.PowerStat[4646] = 5000
+
+CardStat = 4766
+
+{
+
+global.CardName[4766] = 'Elixir Liberator'
+
+global.CardText[4766] = 'Gold Paladin/эльф/Единое святилище/исцеляющий триггер-эффект
+
+В колоде нельзя иметь больше четырёх исцеляющих триггер-эффектов. 
+
+АВТО: [Взрыв души 1] когда эта карта скидывается для призыва Healing True Liberator, Ellise, если у Вас в зоне урона находится как максимум одна открытая карта, Вы можете заплатить цену. Если Вы это сделаете, активируйте Заряд счётчика 1. 
+'
+
+global.UnitGrade[4766] = 0
+
+global.CardInClan[4766] = 5
+
+}
+
+global.TriggerUnit[4766] = 4
+
+global.PowerStat[4766] = 4000
+
+
+CardStat = 4767
+
+{
+
+global.CardName[4767] = 'Healing True Liberator, Ellise'
+
+global.CardText[4767] = 'Gold Paladin/эльф/Единое святилище
+
+Страж наследия.
+
+АВТО [Импульс наследия 1]: [Встречный взрыв 1 & выберите у себя в зоне наследия одного закрытого стража наследия и переверните его в открытое положение] Когда этот воин призывается в круг защиты, Вы можете заплатить цену. Если Вы это сделаете, посмотрите на две верхние карты своей колоды, призовите одну из них на защиту, и до конца хода она приобретает следующую способность: "АВТО [Круг защиты]: если атака не проходит, Вы можете переместить данного воина в арьергард", а вторую карту поместите в низ своей колоды.
+'
+
+global.UnitGrade[4767] = 4
+
+global.CardInClan[4767] = 5
+
+global.ExtraDeck[4767] = 1
+
+}
+
+global.PowerStat[4767] = 0
+
+CardStat = 4785
+
+{
+
+global.CardName[4785] = 'Golden Knight of Links, Celtis Winner'
+
+global.CardText[4785] = 'Gold Paladin/человек/Единое святилище
+
+Вознесение.
+
+АВТО [Авангард] Импульс наследия 8 [Единство]: когда этот воин атакует, выберите до четырёх своих арьергардов, и до конца хода они приобретают следующую способность: "АВТО [Арьергард]: в конце битвы, в которой этот воин атаковал или поддерживал, посмотрите две верхние карты своей колоды, призовите одну из них в арьергард, и до конца хода её сила увеличивается на 5,000, затем поместите оставшуюся карту в низ своей колоды".
+'
+
+global.UnitGrade[4785] = 4
+
+global.CardInClan[4785] = 5
+
+global.ExtraDeck[4785] = 1
+
+}
+
+global.PowerStat[4785] = 15000
+
+CardStat = 5242
+
+{
+
+global.CardName[5242] = 'Shining Fang Liberator, Garmore Excel'
+
+global.CardText[5242] = 'Gold Paladin/человек/Единое святилище
+
+АВТО [Авангард]: [Встречный взрыв 1] Когда возносится Ваш воин, в оригинальном имени которого содержится "Liberator" или "Garmore", Вы можете заплатить цену. Если Вы это сделаете, посмотрите на три верхние карты своей колоды, выберите среди них до двух карт, в именах которых содержится "Liberator", призовите их в разные круги арьергарда, а остальные карты поместите в низ своей колоды в любом порядке. 
+
+АВТО [Авангард] Импульс наследия 1: [Выберите двух своих арьергардов, в именах которых содержится "Liberator", и поместите их в низ своей колоды в любом порядке] В конце Вашего хода, Вы можете заплатить цену. Если Вы это сделаете, возьмите одну карту из колоды. 
+'
+
+global.UnitGrade[5242] = 3
+
+global.CardInClan[5242] = 5
+
+}
+
+global.PowerStat[5242] = 11000
+
+
+CardStat = 5243
+
+{
+
+global.CardName[5243] = 'Agilgal Liberator'
+
+global.CardText[5243] = 'Gold Paladin/высший зверь/Единое святилище
+
+АВТО [Импульс наследия 1]: [Встречный взрыв 1 & Взрыв души 1] Когда этот воин призывается в арьергард из Вашей колоды благодаря способности Вашей карты, в оригинальном имени которой содержится "Liberator", Вы можете заплатить цену. Если Вы это сделаете, посмотрите три верхние карты своей колоды, выберите среди них до двух карт, в именах которых содержится "Liberator", призовите их в разные круги арьергарда, а остальные карты поместите в низ своей колоды в любом порядке. 
+'
+
+global.UnitGrade[5243] = 2
+
+global.CardInClan[5243] = 5
+
+}
+
+global.PowerStat[5243] = 9000
+
+
+CardStat = 5244
+
+{
+
+global.CardName[5244] = 'Liberator, Board Andalusian'
+
+global.CardText[5244] = 'Gold Paladin/высший зверь/Единое святилище
+
+АВТО [Арьергард] [Один раз за ход] Импульс наследия 1: когда другой Ваш воин призывается в арьергард, если у Вашего авангарда в имени содержится "Liberator", до конца хода сила данного воина увеличивается на 7,000.
+'
+
+global.UnitGrade[5244] = 1
+
+global.CardInClan[5244] = 5
+
+}
+
+global.PowerStat[5244] = 7000
+
+CardStat = 5245
+
+{
+
+global.CardName[5245] = 'Master Swordsman of First Light, Gurguit Helios'
+
+global.CardText[5245] = 'Gold Paladin/человек/Единое святилище
+
+Вознесение.
+
+АКТ [Авангард] [Один раз за ход] Единство: [Выберите у себя в зоне наследия одну закрытую карту с тем же именем, что и у данного воина, и переверните её в открытое положение] Проверка эффектов этого воина увеличивается на одну. 
+
+ПРОДОЛЖИТЕЛЬНЫЙ [Авангард] Импульс наследия 3: сила данного воина увеличивается на 5,000 за каждого Вашего арьергарда и во время битвы, в которой этот воин атакует, оппонент не может призывать из руки на защиту карты 1го или выше ранга. 
+'
+
+global.UnitGrade[5245] = 4
+
+global.CardInClan[5245] = 5
+
+global.ExtraDeck[5245] = 1
+
+}
+
+global.PowerStat[5245] = 15000
+
+
+CardStat = 5246
+
+{
+
+global.CardName[5246] = 'Knight of Sunny Day, Salonius'
+
+global.CardText[5246] = 'Gold Paladin/человек/Единое святилище
+
+ПРОДОЛЖИТЕЛЬНЫЙ [Арьергард] Единство: если у Вас в авангарде находится воин 4го ранга, в имени которого содержится "Gurguit", сила всех Ваших воинов увеличивается на 2,000. 
+
+АВТО [Арьергард]: в начале шага защиты, во время боя, в котором Ваш авангард, в имени которого содержится "Gurguit", подвергается атаке, Вы можете поместить данного воина в душу. Если Вы это сделаете, призовите две верхние карты своей колоды в круг защиты. 
+'
+
+global.UnitGrade[5246] = 2
+
+global.CardInClan[5246] = 5
+
+}
+
+global.PowerStat[5246] = 9000
+
+
+CardStat = 5247
+
+{
+
+global.CardName[5247] = 'Knight of Radiant Sun, Carinus'
+
+global.CardText[5247] = 'Gold Paladin/человек/Единое святилище
+
+ПРОДОЛЖИТЕЛЬНЫЙ [Арьергард]: если у Вашего авангарда есть способность Единства, данный воин приобретает следующую способность: "ПРОДОЛЖИТЕЛЬНЫЙ [Арьергард]: Сопротивление". 
+
+АКТ [Арьергард] Импульс наследия 1 [Единство]: [Отправьте данного воина на отдых] Выберите одного своего воина и до конца хода его сила увеличивается на 4,000. Если у Вашего авангарда в имени содержится "Gurguit", выберите одного своего арьергарда, имеющего отличное от данного воина имя, и Вы можете поместить его в низ своей колоды. Если Вы это сделаете, возьмите одну карту из колоды и активируйте Заряд счётчика 1.
+'
+
+global.UnitGrade[5247] = 1
+
+global.CardInClan[5247] = 5
+
+}
+
+global.PowerStat[5247] = 7000
+
+CardStat = 5266
+
+{
+
+global.CardName[5266] = 'Easgal Liberator'
+
+global.CardText[5266] = 'Gold Paladin/высший зверь/Единое святилище
+
+АКТ [Арьергард/рука]: [Ограничьте эту карту в открытом положении] Выберите одного своего воина или одну свою заблокированную карту, разблокируйте её, и до конца хода сила того воина увеличивается на 2,000.
+
+АВТО [Арьергард]: [Поместите данного воина в низ своей колоды] В начале Вашей фазы смены, если у Вашего авангарда в имени содержится "Liberator", Вы можете заплатить цену. Если Вы это сделаете, до конца хода, когда Вы будете платить цену за ближайшее вознесение, Вы можете заплатить её следующим образом: "Встречный взрыв 1 "Liberator"". 
+'
+
+global.UnitGrade[5266] = 1
+
+global.CardInClan[5266] = 5
+
+}
+
+global.PowerStat[5266] = 7000
+
+
+CardStat = 5267
+
+{
+
+global.CardName[5267] = 'Young Lion Liberator, Romanus'
+
+global.CardText[5267] = 'Gold Paladin/человек/Единое святилище
+
+АВТО: первопроходец. 
+
+АКТ [Арьергард] Импульс наследия 1: [Встречный взрыв 1 & уберите этого воина с поля] Если у Вашего авангарда в имени содержится "Liberator", выберите до двух находящихся у Вас в арьергарде воинов, в именах которых содержится "Liberator", и до конца хода они приобретают следующую способность: "АВТО [Арьергард]: когда другой Ваш воин призывается в арьергард из колоды, до конца хода сила данного воина увеличивается на 3,000".
+'
+
+global.UnitGrade[5267] = 0
+
+global.CardInClan[5267] = 5
+
+}
+
+global.PowerStat[5267] = 5000
+
+CardStat = 5280
+
+{
+
+global.CardName[5280] = 'Liberator, Improve Falcon'
+
+global.CardText[5280] = 'Gold Paladin/высший зверь/Единое святилище
+
+ПРОДОЛЖИТЕЛЬНЫЙ: страж. 
+АВТО: [Выберите у себя в руке одну карту и скиньте её] Когда этот воин призывается в круг защиты из руки, Вы можете заплатить цену. Если Вы это сделаете, выберите одного своего атакованного воина и до конца битвы атаки по нему не проходят. 
+АКТ [Кладбище]: [Выберите у себя на кладбище другую одноимённую карту и ограничьте её в открытом положении] Выберите до двух своих карт в любых кругах, кроме круга авангарда, поместите их в низ своей колоды в любом порядке, если в низ была помещена минимум одна карта, посмотрите три верхние карты колоды, выберите среди них одну, призовите её в арьергард, а оставшиеся поместите в низ колоды в любом порядке.
+'
+
+global.UnitGrade[5280] = 1
+
+global.CardInClan[5280] = 5
+
+}
+
+global.PowerStat[5280] = 6000
+
+CardStat = 5299
+
+{
+
+global.CardName[5299] = 'Liberator, Shaggy Rabbit'
+
+global.CardText[5299] = 'Gold Paladin/высший зверь/Единое святилище/исцеляющий триггер-эффект
+
+В колоде не может быть больше четырёх исцеляющих триггер-эффектов. 
+
+АВТО: [Ограничьте данную карту в открытом положении & выберите у себя на кладбище одно своё другое исцеление и ограничьте его в открытом положении] Когда данная карта скидывается из руки в качестве платы за призыв стража наследия, Вы можете заплатить цену. Если Вы это сделаете, активируйте Заряд счётчика 1 или Заряд души 1. 
+'
+
+global.UnitGrade[5299] = 0
+
+global.CardInClan[5299] = 5
+
+}
+
+global.TriggerUnit[5299] = 4
+
+global.PowerStat[5299] = 4000
+
+
+CardStat = 5300
+
+{
+
+global.CardName[5300] = 'Shining True Liberator, Saram Gritter'
+
+global.CardText[5300] = 'Gold Paladin/космический дракон/Единое святилище
+
+Вознесение.
+
+АКТ [Авангард] [Один раз за ход]: [Встречный взрыв 1] Если у Вашего сердца в имени содержится "Liberator", посмотрите на три верхние карты своей колоды, выберите среди них до двух карт, в именах которых содержится "Liberator", призовите их в разные круги арьергарда, а оставшиеся карты верните в низ своей колоды в любом порядке. 
+'
+
+global.UnitGrade[5300] = 4
+
+global.CardInClan[5300] = 5
+
+global.ExtraDeck[5300] = 1
+
+}
+
+global.PowerStat[5300] = 15000
+
+
+CardStat = 5301
+
+{
+
+global.CardName[5301] = 'Militant Act Dragon'
+
+global.CardText[5301] = 'Gold Paladin/космический дракон/Единое святилище
+
+АВТО [Авангард/арьергард]: [Встречный взрыв 1] Когда Ваш воин наследия возносится, Вы можете заплатить цену. Если Вы это сделаете, верните все свои карты в любых кругах, кроме круга авангарда, в низ своей колоды в любом порядке, если Вами была возвращена как минимум одна карта, посмотрите на три верхние карты своей колоды, выберите среди них до двух карт и призовите их в разные круги арьергарда, а оставшиеся карты верните в низ своей колоды в любом порядке.
+'
+
+global.UnitGrade[5301] = 3
+
+global.CardInClan[5301] = 5
+
+}
+
+global.PowerStat[5301] = 11000
+
+
+CardStat = 5302
+
+{
+
+global.CardName[5302] = 'Prodomm Liberator'
+
+global.CardText[5302] = 'Gold Paladin/высший зверь/Единое святилище/критический триггер-эффект
+'
+
+global.UnitGrade[5302] = 0
+
+global.CardInClan[5302] = 5
+
+}
+
+global.TriggerUnit[5302] = 2
+
+global.PowerStat[5302] = 5000
+
+CardStat = 5339
+
+{
+
+global.CardName[5339] = 'Knight of Tremble, Druis'
+
+global.CardText[5339] = 'Gold Paladin/человек/Единое святилище
+
+ПРОДОЛЖИТЕЛЬНЫЙ [Арьергард] Импульс наследия 1 [Единство]: все Ваши остальные арьергарды приобретают способность поддержки.
+'
+
+global.UnitGrade[5339] = 2
+
+global.CardInClan[5339] = 5
+
+}
+
+global.PowerStat[5339] = 9000
+
+CardStat = 6084
+
+{
+
+global.CardName[6084] = 'Ladybug Cavalry '
+
+global.CardText[6084] = 'Gold Paladin/сильф/Единое святилище
+
+АВТО [Арьергард]: при помещении, до конца хода сила данного воина увеличивается на 3,000. Если данный воин был призван способностью Вашей карты, заплатите цену [Встречный взрыв 1] и сила этого воина увеличивается на 10,000 вместо 3,000. 
+'
+
+global.UnitGrade[6084] = 2
+
+global.CardInClan[6084] = 5
+
+}
+
+global.PowerStat[6084] = 9000
+
+
+CardStat = 6096
+
+{
+
+global.CardName[6096] = 'Golden Beast, Rampage Turtle'
+
+global.CardText[6096] = 'Gold Paladin/высший зверь/Единое святилище
+
+ПРОДОЛЖИТЕЛЬНЫЙ [Арьергард]: во время битвы, в которой этот воин атакует, если у Вас больше арьергардов, чем у оппонента, когда оппонент собирается призвать защитников из руки, он должен призвать сразу как минимум двух. 
+'
+
+global.UnitGrade[6096] = 2
+
+global.CardInClan[6096] = 5
+
+}
+
+global.PowerStat[6096] = 8000
+
+CardStat = 6112
+
+{
+
+global.CardName[6112] = 'Listener of Truth, Dindrane '
+
+global.CardText[6112] = 'Gold Paladin/человек/Единое святилище
+
+АВТО [Арьергард]: при помещении способностью карты, заплатите цену [Взрыв души 1] и активируйте одну из следующих способностей: "возьмите одну карту из колоды" или "активируйте Заряд счётчика 1 и до конца хода сила данного воина увеличивается на 3,000".
+'
+
+global.UnitGrade[6112] = 1
+
+global.CardInClan[6112] = 5
+
+}
+
+global.PowerStat[6112] = 7000
+
+
+CardStat = 6118
+
+{
+
+global.CardName[6118] = 'Warring Brave Knight, Tornus'
+
+global.CardText[6118] = 'Gold Paladin/человек/Единое святилище
+
+ПРОДОЛЖИТЕЛЬНЫЙ [Арьергард]: если у Вас в душе одна карта, сила данного воина увеличивается на 3,000. Если у Вас в душе нет карт, сила этого воина увеличивается на 8,000 вместо 3,000.
+'
+
+global.UnitGrade[6118] = 2
+
+global.CardInClan[6118] = 5
+
+}
+
+global.PowerStat[6118] = 9000
+
+
+CardStat = 6119
+
+{
+
+global.CardName[6119] = 'Player of the Holy Bow, Viviane '
+
+global.CardText[6119] = 'Gold Paladin/эльф/Единое святилище
+
+АВТО [Авангард/арьергард]: при помещении из руки, заплатите цену [Встречный взрыв 1 & Взрыв души 1], посмотрите на три верхние карты своей колоды, призовите до одной из них в арьергард, поместите оставшиеся карты в низ своей колоды в любом порядке и до конца хода сила данного воина увеличивается на 3,000.
+'
+
+global.UnitGrade[6119] = 2
+
+global.CardInClan[6119] = 5
+
+}
+
+global.PowerStat[6119] = 9000
+
+
+CardStat = 6124
+
+{
+
+global.CardName[6124] = 'Sacred Guardian Beast, Nemean Lion '
+
+global.CardText[6124] = 'Gold Paladin/высший зверь/Единое святилище
+
+АВТО [Авангард/арьергард/круг защиты]: при помещении из руки, до конца хода сила данного воина увеличивается на 3,000, а защита - на 5,000.
+'
+
+global.UnitGrade[6124] = 2
+
+global.CardInClan[6124] = 5
+
+}
+
+global.PowerStat[6124] = 9000
+
+
+CardStat = 6127
+
+{
+
+global.CardName[6127] = 'Halo Shield, Mark '
+
+global.CardText[6127] = 'Gold Paladin/человек/Единое святилище/дающий карту триггер-эффект
+
+ПРОДОЛЖИТЕЛЬНЫЙ: страж. 
+
+АВТО [Круг защиты]: при помещении, заплатите цену [скиньте одну карту из своей руки], и до конца битвы атаки по одному Вашему воину не проходят.
+'
+
+global.UnitGrade[6127] = 0
+
+global.CardInClan[6127] = 5
+
+}
+
+global.TriggerUnit[6127] = 1
+
+global.PowerStat[6127] = 5000
+
+CardStat = 6132
+
+{
+
+global.CardName[6132] = 'Lop Ear Shooter '
+
+global.CardText[6132] = 'Gold Paladin/человек/Единое святилище
+
+АВТО [Рука]: в конце битвы, в которой Ваш авангард 2го или выше ранга атаковал, заплатите цену [Встречный взрыв 1], призовите эту карту в арьергард и до конца хода её сила увеличивается на 5,000.
+'
+
+global.UnitGrade[6132] = 2
+
+global.CardInClan[6132] = 5
+
+}
+
+global.PowerStat[6132] = 9000
+
+
+CardStat = 6139
+
+{
+
+global.CardName[6139] = 'Battle Flag Knight, Laudine '
+
+global.CardText[6139] = 'Gold Paladin/человек/Единое святилище
+
+АКТ [Арьергард]: заплатите цену [Встречный взрыв 2], посмотрите на три верхние карты своей колоды, призовите среди них в арьергард до одной карты, чей ранг равен или ниже ранга Вашего авангарда, а остальные карты поместите в низ своей колоды в любом порядке.
+'
+
+global.UnitGrade[6139] = 1
+
+global.CardInClan[6139] = 5
+
+}
+
+global.PowerStat[6139] = 8000
+
+CardStat = 6142
+
+{
+
+global.CardName[6142] = 'Incandescent Lion, Blond Ezel '
+
+global.CardText[6142] = 'Gold Paladin/человек/Единое святилище/дар воображения: Ускорение
+
+АКТ [Рука]: если у Вас в авангарде или арьергарде находятся Knight of Superior Skills, Beaumains и Knight of Elegant Skills, Gareth, заплатите цену [Взрыв души 1 Crimson Lion Cub, Kyrph], сделайте смену на этого воина в стоячем положении и, если у авангарда оппонента 2ой или ниже ранг, до конца хода проверка эффектов этого воина снижается на одну. 
+
+АВТО [Авангард]: когда данный воин атакует, Вы можете призвать одну карту у себя из руки в арьергард. 
+
+'
+
+global.UnitGrade[6142] = 3
+
+global.CardInClan[6142] = 5
+
+}
+
+global.OrangeTokenAdd[6142] = 1
+
+global.PowerStat[6142] = 12000
+
+
+CardStat = 6143
+
+{
+
+global.CardName[6143] = 'Crimson Lion Cub, Kyrph '
+
+global.CardText[6143] = 'Gold Paladin/человек/Единое святилище
+
+АВТО: когда поверх этого воина делается смена, возьмите одну карту из колоды. Затем, если у авангарда оппонента как минимум 1ый ранг, возьмите в руку скоростной щит.
+'
+
+global.UnitGrade[6143] = 0
+
+global.CardInClan[6143] = 5
+
+}
+
+global.PowerStat[6143] = 6000
+
+global.QuickShieldAdd[6143] = 1
+
+
+CardStat = 6144
+
+{
+
+global.CardName[6144] = 'Knight of Elegant Skills, Gareth '
+
+global.CardText[6144] = 'Gold Paladin/человек/Единое святилище
+
+АВТО [Арьергард]: при помещении способностью Вашей карты, заплатите цену [Встречный взрыв 1] и до конца хода сила данного воина увеличивается на 10,000. 
+'
+
+global.UnitGrade[6144] = 1
+
+global.CardInClan[6144] = 5
+
+}
+
+global.PowerStat[6144] = 8000
+
+
+CardStat = 6145
+
+{
+
+global.CardName[6145] = 'Knight of Superior Skills, Beaumains '
+
+global.CardText[6145] = 'Gold Paladin/человек/Единое святилище
+
+АВТО [Авангард/арьергард]: при помещении из руки, заплатите цену [скиньте одну карту из руки], найдите у себя в колоде до одного Knight of Elegant Skills, Gareth, призовите его в арьергард и перемешайте колоду. 
+
+АВТО [Арьергард]: при помещении способностью Вашей карты, до конца хода сила данного воина увеличивается на 3,000.
+'
+
+global.UnitGrade[6145] = 2
+
+global.CardInClan[6145] = 5
+
+}
+
+global.PowerStat[6145] = 9000
+
+
+CardStat = 6153
+
+{
+
+global.CardName[6153] = 'Clad-crest Lion'
+
+global.CardText[6153] = 'Gold Paladin/высший зверь/Единое святилище
+
+ПРОДОЛЖИТЕЛЬНЫЙ: страж. 
+
+АВТО [Круг защиты]: при помещении, заплатите цену [скиньте одну карту из своей руки], и до конца битвы атаки по одному Вашему воину не проходят.
+'
+
+global.UnitGrade[6153] = 1
+
+global.CardInClan[6153] = 5
+
+}
+
+global.PowerStat[6153] = 7000
+
+
+CardStat = 6154
+
+{
+
+global.CardName[6154] = 'Dantegal '
+
+global.CardText[6154] = 'Gold Paladin/высший зверь/Единое святилище/передовой триггер-эффект
+'
+
+global.UnitGrade[6154] = 0
+
+global.CardInClan[6154] = 5
+
+}
+
+global.TriggerUnit[6154] = 5
+
+global.PowerStat[6154] = 5000
+
+
+CardStat = 6155
+
+{
+
+global.CardName[6155] = 'Elixir Sommelier '
+
+global.CardText[6155] = 'Gold Paladin/эльф/Единое святилище/исцеляющий триггер-эффект
+
+В колоде нельзя иметь больше четырёх исцеляющих триггер-эффектов. 
+'
+
+global.UnitGrade[6155] = 0
+
+global.CardInClan[6155] = 5
+
+}
+
+global.TriggerUnit[6155] = 4
+
+global.PowerStat[6155] = 5000
+
+
+CardStat = 6160
+
+{
+
+global.CardName[6160] = 'Farsight Courier'
+
+global.CardText[6160] = 'Gold Paladin/человек/Единое святилище/дающий карту триггер-эффект
+'
+
+global.UnitGrade[6160] = 0
+
+global.CardInClan[6160] = 5
+
+}
+
+global.TriggerUnit[6160] = 1
+
+global.PowerStat[6160] = 5000
+
+
+CardStat = 6162
+
+{
+
+global.CardName[6162] = 'Battlefield Storm, Sagramore '
+
+global.CardText[6162] = 'Gold Paladin/человек/Единое святилище/дар воображения: Ускорение
+
+АВТО [Авангард/арьергард]: при помещении из руки, заплатите цену [Взрыв души 1], возьмите одну карту из колоды и призовите одну карту из руки в арьергард.
+'
+
+global.UnitGrade[6162] = 3
+
+global.CardInClan[6162] = 5
+
+}
+
+global.OrangeTokenAdd[6162] = 1
+
+global.PowerStat[6162] = 12000
+
+CardStat = 6175
+
+{
+
+global.CardName[6175] = 'White Hare in the Moons Shadow, Pellinore '
+
+global.CardText[6175] = 'Gold Paladin/человек/Единое святилище/дар воображения: Ускорение
+
+АВТО [Рука]: в конце битвы, в которой атака Вашего арьергарда прошла по авангарду 3го или выше ранга, заплатите цену [Встречный взрыв 1 & Взрыв души 3], сделайте смену на эту карту в стоячем положении и до конца хода проверка эффектов данного воина снижается на одну. 
+
+АВТО [Авангард]: в конце битвы, в которой Ваш арьергард атаковал авангард, заплатите цену [Встречный взрыв 1] и верните атаковавшего воина в свою руку.
+'
+
+global.UnitGrade[6175] = 3
+
+global.CardInClan[6175] = 5
+
+}
+
+global.OrangeTokenAdd[6175] = 1
+
+global.PowerStat[6175] = 12000
+
+CardStat = 6179
+
+{
+
+global.CardName[6179] = 'Evil Slaying Swordsman, Haugan '
+
+global.CardText[6179] = 'Gold Paladin/человек/Единое святилище
+
+АВТО [Авангард/арьергард]: когда атака Вашего авангарда достигает цели, посмотрите верхнюю карту своей колоды и, если её ранг равен или ниже ранга Вашего авангарда, Вы можете призвать ту карту в другой круг арьергард. Если Вы это сделаете, уберите у себя из арьергарда одного Evil Slaying Swordsman, Haugan. 
+'
+
+global.UnitGrade[6179] = 1
+
+global.CardInClan[6179] = 5
+
+}
+
+global.PowerStat[6179] = 8000
+
+
+CardStat = 6180
+
+{
+
+global.CardName[6180] = 'Mach Slash Dragon'
+
+global.CardText[6180] = 'Gold Paladin/космический дракон/Единое святилище
+
+АВТО [Авангард/арьергард]: когда этот воин атакует, заплатите цену [Встречный взрыв 1], призовите одну карту у себя из руки в арьергард и до конца хода сила данного воина увеличивается на 5,000.
+'
+
+global.UnitGrade[6180] = 3
+
+global.CardInClan[6180] = 5
+
+}
+
+global.PowerStat[6180] = 12000
+
+
+CardStat = 6181
+
+{
+
+global.CardName[6181] = 'Waving Owl '
+
+global.CardText[6181] = 'Gold Paladin/высший зверь/Единое святилище
+'
+
+global.UnitGrade[6181] = 1
+
+global.CardInClan[6181] = 5
+
+}
+
+global.PowerStat[6181] = 9000
+
+
+CardStat = 6182
+
+{
+
+global.CardName[6182] = 'Flame of Victory '
+
+global.CardText[6182] = 'Gold Paladin/саламандра/Единое святилище/критический триггер-эффект'
+
+global.UnitGrade[6182] = 0
+
+global.CardInClan[6182] = 5
+
+}
+
+global.TriggerUnit[6182] = 2
+
+global.PowerStat[6182] = 5000
+
+
+CardStat = 6187
+
+{
+
+global.CardName[6187] = 'Knight of Hard Fight, Nalnes'
+
+global.CardText[6187] = 'Gold Paladin/человек/Единое святилище/передовой триггер-эффект
+'
+
+global.UnitGrade[6187] = 0
+
+global.CardInClan[6187] = 5
+
+}
+
+global.TriggerUnit[6187] = 5
+
+global.PowerStat[6187] = 5000
+
+
+CardStat = 6188
+
+{
+
+global.CardName[6188] = 'Azure Sky Night, Shanak'
+
+global.CardText[6188] = 'Gold Paladin/человек/Единое святилище/критический триггер-эффект
+'
+
+global.UnitGrade[6188] = 0
+
+global.CardInClan[6188] = 5
+
+}
+
+global.TriggerUnit[6188] = 2
+
+global.PowerStat[6188] = 5000
+
+CardStat = 6332
+{
+global.CardName[CardStat] = 'Charjgal '
+global.CardText[CardStat] = 'Gold Paladin/высший зверь/Единое святилище
+
+АВТО [Авангард/арьергард]: при помещении из руки, до конца хода сила этого воина увеличивается на 5,000. '
+global.UnitGrade[CardStat] = 1
+global.CardInClan[CardStat] = 5
+}
+global.PowerStat[CardStat] = 7000
+
+
+CardStat = 6333
+{
+global.CardName[CardStat] = 'Bowled Sparrow'
+global.CardText[CardStat] = 'Gold Paladin/высший зверь/Единое святилище
+
+АВТО [Арьергард]: когда в одну колонку с этим воином помещается другой Ваш арьергард способностью Вашей карты, до конца хода сила этого воина увеличивается на 5,000.'
+global.UnitGrade[CardStat] = 1
+global.CardInClan[CardStat] = 5
+}
+global.PowerStat[CardStat] = 8000
+
+
+CardStat = 6334
+{
+global.CardName[CardStat] = 'Direcgal'
+global.CardText[CardStat] = 'Gold Paladin/высший зверь/Единое святилище
+
+АВТО [Арьергард]: при помещении Вашего авангарда, если этот воин находится в Вашем переднем ряду, заплатите цену [Встречный взрыв 1], выберите у себя в руке до двух карт 2го или ниже ранга и призовите их в круги арьергарда. Если Вы призвали две карты, возьмите одну карту из колоды. '
+global.UnitGrade[CardStat] = 2
+global.CardInClan[CardStat] = 5
+}
+global.PowerStat[CardStat] = 9000
+
+CardStat = 6342
+{
+global.CardName[CardStat] = 'Knight of Exhaustion, Azerus'
+global.CardText[CardStat] = 'Gold Paladin/человек/Единое святилище
+
+АВТО [Авангард/арьергард]: при помещении из руки, заплатите цену [скиньте одну карту из своей руки], посмотрите на три верхние карты своей колоды, выберите среди них до одной карты, чей ранг равен или же ниже ранга Вашего авангарда, призовите её в арьергард, а оставшиеся карты поместите в низ своей колоды в любом порядке. '
+global.UnitGrade[CardStat] = 2
+global.CardInClan[CardStat] = 5
+}
+global.PowerStat[CardStat] = 9000
+
+
+CardStat = 6343
+{
+global.CardName[CardStat] = 'Knight of Energetic Steel, Blennius'
+global.CardText[CardStat] = 'Gold Paladin/человек/Единое святилище
+
+АВТО [Арьергард]: когда помещается Ваш авангард 3го или выше ранга, заплатите цену [поместите этого воина в свою душу], возьмите одну карту из колоды и призовите одну карту из руки в арьергард.'
+global.UnitGrade[CardStat] = 1
+global.CardInClan[CardStat] = 5
+}
+global.PowerStat[CardStat] = 8000
+
+
+CardStat = 6347
+{
+global.CardName[CardStat] = 'Raven-haired Ezel '
+global.CardText[CardStat] = 'Gold Paladin/человек/Единое святилище/дар воображения: Ускорение
+
+АКТ [Рука]: если у Вас в авангарде находится Incandescent Lion, Blond Ezel, заплатите цену [Встречный взрыв 1] и сделайте смену на эту карту в стоячем положении. 
+
+АВТО [Авангард]: когда этот воин атакует, если у Вас в душе находится Incandescent Lion, Blonde Ezel, заплатите цену [Встречный взрыв 1] и до конца битвы сила этого воина увеличивается на 15,000, критический удар увеличивается на один, и оппонент не может призывать стражей из руки. '
+global.UnitGrade[CardStat] = 3
+global.CardInClan[CardStat] = 5
+}
+global.OrangeTokenAdd[CardStat] = 1
+global.PowerStat[CardStat] = 12000
+
+
+CardStat = 6348
+{
+global.CardName[CardStat] = 'Crimson Lion Beast, Howell '
+global.CardText[CardStat] = 'Gold Paladin/человек/Единое святилище
+
+АВТО [Арьергард]: в конце битвы, в которой этот воин поддерживал, если у Вашего авангарда в имени содержится "Ezel", заплатите цену [Встречный взрыв 1 & поместите этого воина в свою душу], возьмите одну карту из колоды и призовите одну карту из своей руки в арьергард. 
+'
+global.UnitGrade[CardStat] = 1
+global.CardInClan[CardStat] = 5
+}
+global.PowerStat[CardStat] = 8000
+
+
+CardStat = 6349
+{
+global.CardName[CardStat] = 'Flame Wind Lion, Wonder Ezel '
+global.CardText[CardStat] = 'Gold Paladin/человек/Единое святилище
+
+АКТ [Авангард]: заплатите цену [Взрыв души 1 & уберите у себя с арьергарда одного Crimson Lion Beast, Howell], найдите у себя в колоде до одного Incandescent Lion, Blond Ezel, сделайте на него смену в стоячем положении, и до конца хода его проверка эффектов снижается на одну. Перемешайте свою колоду. 
+
+АВТО [Арьергард]: при помещении, Вы можете призвать карту из своей руки в арьергард.'
+global.UnitGrade[CardStat] = 2
+global.CardInClan[CardStat] = 5
+}
+global.PowerStat[CardStat] = 9000
+
+
+CardStat = 6350
+{
+global.CardName[CardStat] = 'Knight of Civilization, Villegas'
+global.CardText[CardStat] = 'Gold Paladin/человек/Единое святилище
+
+ПРОДОЛЖИТЕЛЬНЫЙ [Арьергард]: во время любого хода, кроме хода помещения этого воина на поле, сила данного воина увеличивается на 3,000. '
+global.UnitGrade[CardStat] = 2
+global.CardInClan[CardStat] = 5
+}
+global.PowerStat[CardStat] = 9000
+
+
+CardStat = 6351
+{
+global.CardName[CardStat] = 'Knight of Counterattack, Diggeirus'
+global.CardText[CardStat] = 'Gold Paladin/человек/Единое святилище
+
+ПРОДОЛЖИТЕЛЬНЫЙ [Арьергард]: во время любого хода, кроме хода помещения этого воина на поле, сила данного воина увеличивается на 3,000.'
+global.UnitGrade[CardStat] = 1
+global.CardInClan[CardStat] = 5
+}
+global.PowerStat[CardStat] = 7000
+
+
+CardStat = 6352
+{
+global.CardName[CardStat] = 'Knight of Great Strength, Belanas'
+global.CardText[CardStat] = 'Gold Paladin/человек/Единое святилище
+
+ПРОДОЛЖИТЕЛЬНЫЙ [Арьергард]: если во время этого хода были призваны как минимум четыре Ваших арьергарда, сила этого воина увеличивается на 20,000. (Призыв этого воина тоже считается.)'
+global.UnitGrade[CardStat] = 3
+global.CardInClan[CardStat] = 5
+}
+global.PowerStat[CardStat] = 12000
+
+
+CardStat = 6357
+{
+global.CardName[CardStat] = 'Great Silver Wolf, Garmore '
+global.CardText[CardStat] = 'Gold Paladin/человек/Единое святилище/дар воображения: Ускорение
+
+ПРОДОЛЖИТЕЛЬНЫЙ [Авангард]: если у Вас в руке как максимум одна карта, все Ваши арьергарды не могут быть атакованы воинами оппонента и не могут быть убраны с поля способностями карт оппонента. 
+
+АВТО [Авангард]: при помещении, заплатите цену [Встречный взрыв 1], посмотрите на три верхние карты своей колоды, призовите одну из них в арьергард, а остальные карты поместите в низ своей колоды в любом порядке, и до конца хода сила шести Ваших воинов увеличивается на 3,000.'
+global.UnitGrade[CardStat] = 3
+global.CardInClan[CardStat] = 5
+}
+global.OrangeTokenAdd[CardStat] = 1
+global.PowerStat[CardStat] = 12000
+
+CardStat = 6387
+{
+global.CardName[CardStat] = 'Knight of Fury, Grashanas'
+global.CardText[CardStat] = 'Gold Paladin/человек/Единое святилище
+
+ПРОДОЛЖИТЕЛЬНЫЙ [Арьергард]: если во время этого хода арьергард был помещён на поле способностью Вашей карты, сила данного воина увеличивается на 5,000.'
+global.UnitGrade[CardStat] = 2
+global.CardInClan[CardStat] = 5
+}
+global.PowerStat[CardStat] = 9000
+
+CardStat = 6402
+{
+global.CardName[CardStat] = 'Prigal'
+global.CardText[CardStat] = 'Gold Paladin/высший зверь/Единое святилище
+
+АВТО [Круг защиты]: при помещении, если у Вас в руке как максимум одна карта, заплатите цену [Взрыв души 1] и, когда этот воин должен быть убран с поля, Вы можете переместить его в арьергард.'
+global.UnitGrade[CardStat] = 1
+global.CardInClan[CardStat] = 5
+}
+global.PowerStat[CardStat] = 7000
+
+CardStat = 6593
+{
+global.CardName[CardStat] = 'Hardbone Knight, Aidan'
+global.CardText[CardStat] = 'Gold Paladin/человек/Единое святилище
+
+АВТО [Арьергард]: при помещении, до конца следующего хода оппонента, этот воин не может быть атакован и выбран эффектами карт оппонента.'
+global.UnitGrade[CardStat] = 2
+global.CardInClan[CardStat] = 5
+}
+global.PowerStat[CardStat] = 9000
+
+CardStat = 6666
+{
+global.CardName[CardStat] = 'Golden Dragon, Spearex Dragon'
+global.CardText[CardStat] = 'Gold Paladin/космический дракон/Единое святилище
+
+Вознесение.
+ 
+АКТ [Зона наследия] Единство: если у Вашего авангарда 3ий ранг, заплатите цену [Встречный взрыв 2 & скиньте одну карту из своей руки] и вознесите этого закрытого воина над Вашим кругом авангарда. 
+
+АКТ [Авангард] [Один раз за ход]: заплатите цену [Взрыв души 1 & переверните в открытое положение одну карту у себя в зоне наследия], посмотрите на пять верхних карт своей колоды, призовите две из них в арьергард и перемешайте колоду.'
+global.UnitGrade[CardStat] = 4
+global.CardInClan[CardStat] = 5
+global.ExtraDeck[CardStat] = 1
+}
+global.PowerStat[CardStat] = 15000
+
+CardStat = 6731
+{
+global.CardName[CardStat] = 'Player of the Holy String, Theodora'
+global.CardText[CardStat] = 'Gold Paladin/эльф/Единое святилище/критический триггер-эффект
+
+АВТО [Арьергард] Импульс наследия 1: когда Ваш авангард атакует, заплатите цену [поместите этого воина в свою душу], возьмите одну карту из колоды и до конца битвы сила одного Вашего авангарда увеличивается на 10,000.'
+global.UnitGrade[CardStat] = 0
+global.CardInClan[CardStat] = 5
+}
+global.TriggerUnit[CardStat] = 2
+global.PowerStat[CardStat] = 4000
+
+CardStat = 6859
+{
+global.CardName[CardStat] = 'Blazing Lion, Platina Ezel '
+global.CardText[CardStat] = 'Gold Paladin/человек/Единое святилище/дар воображения: Ускорение
+
+АКТ [Авангард]: заплатите цену [Встречный взрыв 1] и измените первую проверку эффектов в этом ходу на "посмотрите на две верхние карты своей колоды, раскройте одну из них в свою зону триггеров, а вторую призовите в арьергард". Если у Вас в душе как минимум две карты 3го ранга, остальные проверки в этом ходу тоже изменяются. '
+global.UnitGrade[CardStat] = 3
+global.CardInClan[CardStat] = 5
+}
+global.OrangeTokenAdd[CardStat] = 1
+global.PowerStat[CardStat] = 12000
+
+
+CardStat = 6860
+{
+global.CardName[CardStat] = 'Stronghold of the Black Chains, Hoel '
+global.CardText[CardStat] = 'Gold Paladin/человек/Единое святилище
+
+ПРОДОЛЖИТЕЛЬНЫЙ [Арьергард]: сила другого Вашего воина, находящегося с этим воином в одной колонке и помещённого в этом ходу, увеличивается на 5,000. Если у Вас в авангарде или в арьергарде находится Advance of the Black Chains, Kahedin, сила увеличивается на 10,000 вместо 5,000. '
+global.UnitGrade[CardStat] = 1
+global.CardInClan[CardStat] = 5
+}
+global.PowerStat[CardStat] = 8000
+
+
+CardStat = 6861
+{
+global.CardName[CardStat] = 'Advance of the Black Chains, Kahedin '
+global.CardText[CardStat] = 'Gold Paladin/человек/Единое святилище
+
+АВТО [Арьергард]: при помещении, заплатите цену [Встречный взрыв 1 & скиньте одну карту из своей руки], посмотрите на три верхние карты своей колоды, призовите одну из них в арьергард, перемешайте свою колоду и, если Stronghold of the Black Chains, Hoel находится у Вас в авангарде или в арьергарде, возьмите одну карту из колоды.'
+global.UnitGrade[CardStat] = 2
+global.CardInClan[CardStat] = 5
+}
+global.PowerStat[CardStat] = 9000
+
+CardStat = 6880
+{
+global.CardName[CardStat] = 'Fortune Bell '
+global.CardText[CardStat] = 'Gold Paladin/сильф/Единое святилище/критический триггер-эффект
+'
+global.UnitGrade[CardStat] = 0
+global.CardInClan[CardStat] = 5
+}
+global.TriggerUnit[CardStat] = 2
+global.PowerStat[CardStat] = 5000
+
+
+CardStat = 6881
+{
+global.CardName[CardStat] = 'Greeting Drummer '
+global.CardText[CardStat] = 'Gold Paladin/человек/Единое святилище/передовой триггер-эффект
+'
+global.UnitGrade[CardStat] = 0
+global.CardInClan[CardStat] = 5
+}
+global.TriggerUnit[CardStat] = 5
+global.PowerStat[CardStat] = 5000
+
+CardStat = 7061
+{
+global.CardName[CardStat] = 'Knight of Coloration, Mercia'
+global.CardText[CardStat] = 'Gold Paladin/человек/Единое святилище
+
+АВТО [Арьергард]: при помещении способностью карты, если у Вас как минимум шесть арьергардов, до конца хода сила этого воина увеличивается на 15,000.'
+global.UnitGrade[CardStat] = 2
+global.CardInClan[CardStat] = 5
+}
+global.PowerStat[CardStat] = 9000
+
+
+CardStat = 7062
+{
+global.CardName[CardStat] = 'Knight of Reverberation, Hafren'
+global.CardText[CardStat] = 'Gold Paladin/эльф/Единое святилище
+
+АВТО [Авангард/арьергард]: при помещении из руки, до конца хода сила этого воина увеличивается на 3,000, выберите у себя в руке до одной карты 2го или ниже ранга и призовите её в одну колонку с этим воином.'
+global.UnitGrade[CardStat] = 2
+global.CardInClan[CardStat] = 5
+}
+global.PowerStat[CardStat] = 9000
+
+CardStat = 7095
+{
+global.CardName[CardStat] = 'Huddlgal'
+global.CardText[CardStat] = 'Gold Paladin/высший зверь/Единое святилище
+
+АВТО [Арьергард]: при помещении, если у Вас есть дополнительный круг арьергарда, до конца хода сила этого воина увеличивается на 5,000.'
+global.UnitGrade[CardStat] = 1
+global.CardInClan[CardStat] = 5
+}
+global.PowerStat[CardStat] = 8000
+
+CardStat = 7145
+{
+global.CardName[CardStat] = 'Knight of Fury, Agravain '
+global.CardText[CardStat] = 'Gold Paladin/демон/Единое святилище/дар воображения: Ускорение
+
+АВТО [Авангард]: когда этот воин атакует, заплатите цену [Встречный взрыв 1 & поместите всех своих арьергардов в свою душу], посмотрите на столько верхних карт своей колоды, сколько воинов Вы призвали в этом ходу, призовите любое их количество в арьергард и перемешайте колоду.
+
+АКТ [Авангард]: заплатите цену [Взрыв души 12] и до конца игры оппонент может призвать лишь обычных воинов. (Включая специальные призывы.)'
+global.UnitGrade[CardStat] = 3
+global.CardInClan[CardStat] = 5
+}
+global.OrangeTokenAdd[CardStat] = 1
+global.PowerStat[CardStat] = 12000
+
+
+CardStat = 7146
+{
+global.CardName[CardStat] = 'Liberator of the Flute, Escrad '
+global.CardText[CardStat] = 'Gold Paladin/человек/Единое святилище
+
+АВТО [Авангард/арьергард]: при помещении, если у Вас в авангарде находится Knight of Fury, Agravain или Liberator of the Flute, Escrad, посмотрите на верхнюю карту своей колоды, призовите её в арьергард, заплатите цену [Встречный взрыв 1] и до конца хода сила этого воина увеличивается на 5,000.'
+global.UnitGrade[CardStat] = 2
+global.CardInClan[CardStat] = 5
+}
+global.PowerStat[CardStat] = 9000
+
+
+CardStat = 7147
+{
+global.CardName[CardStat] = 'Knight of Phosphorescence, Langlee'
+global.CardText[CardStat] = 'Gold Paladin/эльф/Единое святилище
+
+ПРОДОЛЖИТЕЛЬНЫЙ [Арьергард]: этот воин приобретает все нижестоящие способности, в зависимости от количества призванных Вами в этом ходу арьергардов.
+? Как минимум два: оппонент не может перехватывать.
+? Как минимум четыре: сила этого воина увеличивается на 5,000.'
+global.UnitGrade[CardStat] = 2
+global.CardInClan[CardStat] = 5
+}
+global.PowerStat[CardStat] = 9000
+
+
+CardStat = 7148
+{
+global.CardName[CardStat] = 'Cloudwing Eagle'
+global.CardText[CardStat] = 'Gold Paladin/высший зверь/Единое святилище
+
+АВТО [Авангард/арьергард]: когда помещается другой Ваш воин, до конца хода сила этого воина увеличивается на 5,000. (Эта способность активируется также и при помещении защитников.)'
+global.UnitGrade[CardStat] = 2
+global.CardInClan[CardStat] = 5
+}
+global.PowerStat[CardStat] = 5000
+
+
+CardStat = 7149
+{
+global.CardName[CardStat] = 'Full Cavalier Dragon'
+global.CardText[CardStat] = 'Gold Paladin/космический дракон/Единое святилище/дар воображения: Ускорение
+
+АКТ [Авангард/арьергард] [Один раз за ход]: заплатите цену [Взрыв души 1], посмотрите на верхнюю карту своей колоды, призовите её в арьергард, и до конца хода сила одного Вашего авангарда увеличивается на 5,000.'
+global.UnitGrade[CardStat] = 3
+global.CardInClan[CardStat] = 5
+}
+global.OrangeTokenAdd[CardStat] = 1
+global.PowerStat[CardStat] = 12000
+
+CardStat = 7172
+{
+global.CardName[CardStat] = 'Decisive Knight, Besok'
+global.CardText[CardStat] = 'Gold Paladin/эльф/Единое святилище
+
+ПРОДОЛЖИТЕЛЬНЫЙ [Арьергард]: этот воин приобретает все нижестоящие способности, в зависимости от количества призванных Вами в этом ходу арьергардов.
+• Как минимум два: сила данного воина увеличивается на 5,000.
+• Как минимум четыре: этот воин не отправляется на отдых при поддержке.'
+global.UnitGrade[CardStat] = 1
+global.CardInClan[CardStat] = 5
+}
+global.PowerStat[CardStat] = 5000
+
+
+CardStat = 7173
+{
+global.CardName[CardStat] = 'Matching Knight, Uther'
+global.CardText[CardStat] = 'Gold Paladin/человек/Единое святилище/дар воображения: Ускорение
+
+АВТО [Авангард/арьергард]: в начале Вашей основной фазы, до конца хода сила этого воина увеличивается на 5,000 за каждого Вашего арьергарда.'
+global.UnitGrade[CardStat] = 3
+global.CardInClan[CardStat] = 5
+}
+global.OrangeTokenAdd[CardStat] = 1
+global.PowerStat[CardStat] = 12000
+
+CardStat = 7161
+{
+global.CardName[CardStat] = 'Sorcery Crystal of Uprising, Coiras'
+global.CardText[CardStat] = 'Gold Paladin/человек/Единое святилище
+
+АВТО [Арьергард]: при помещении, если у Вас в руке как максимум одна карта, заплатите цену [Взрыв души 1] и до конца хода этот воин приобретает способность поддержки и его сила увеличивается на 10,000.'
+global.UnitGrade[CardStat] = 2
+global.CardInClan[CardStat] = 5
+}
+global.PowerStat[CardStat] = 9000
+
+
+CardStat = 7162
+{
+global.CardName[CardStat] = 'Providencial Angel'
+global.CardText[CardStat] = 'Gold Paladin/ангел/Единое святилище
+
+АКТ [Арьергард]: если у Вас в руке как максимум одна карта, заплатите цену [Встречный взрыв 1], до конца хода оппонент может призвать лишь одного стража из руки и сила этого воина увеличивается на 10,000.'
+global.UnitGrade[CardStat] = 2
+global.CardInClan[CardStat] = 5
+}
+global.PowerStat[CardStat] = 9000
+
+CardStat = 7176
+{
+global.CardName[CardStat] = 'Interlude Angel'
+global.CardText[CardStat] = 'Gold Paladin/ангел/Единое святилище
+
+АВТО [Арьергард]: при помещении способностью карты, заплатите цену [поместите этого воина себе в душу], посмотрите на верхнюю карту своей колоды и призовите её в арьергард.'
+global.UnitGrade[CardStat] = 1
+global.CardInClan[CardStat] = 5
+}
+global.PowerStat[CardStat] = 7000
+
+
+CardStat = 7177
+{
+global.CardName[CardStat] = 'Hard-working Knight, Arienohl'
+global.CardText[CardStat] = 'Gold Paladin/человек/Единое святилище
+
+АВТО [Арьергард]: когда этот воин атакует, выполните все нижестоящие способности, в зависимости от количества призванных в этом ходу арьергардов.
+• Как минимум два: до конца битвы сила этого воина увеличивается на 5,000.
+• Как минимум четыре: затем, Вы можете усилить данного воина на 10,000. Если Вы это сделаете, в конце битвы поместите этого воина в свою душу.'
+global.UnitGrade[CardStat] = 2
+global.CardInClan[CardStat] = 5
+}
+global.PowerStat[CardStat] = 9000
+
+CardStat = 7178
+{
+global.CardName[CardStat] = 'Talented Knight, Gunhild'
+global.CardText[CardStat] = 'Gold Paladin/человек/Единое святилище
+
+ПРОДОЛЖИТЕЛЬНЫЙ [Арьергард/круг защиты]: если у Вас в руке как максимум одна карта, этот воин приобретает способность перехвата и может перехватывать с заднего ряда, и его сила и защита увеличиваются на 5,000.'
+global.UnitGrade[CardStat] = 1
+global.CardInClan[CardStat] = 5
+}
+global.PowerStat[CardStat] = 8000
+
+
+CardStat = 7179
+{
+global.CardName[CardStat] = 'Longal'
+global.CardText[CardStat] = 'Gold Paladin/высший зверь/Единое святилище
+
+ПРОДОЛЖИТЕЛЬНЫЙ: на эту карту не может быть сделана смена. (Включая специальную смену.)'
+global.UnitGrade[CardStat] = 3
+global.CardInClan[CardStat] = 5
+}
+global.PowerStat[CardStat] = 24000
+
+
+CardStat = 7180
+{
+global.CardName[CardStat] = 'Little Battler, Tron '
+global.CardText[CardStat] = 'Gold Paladin/гигант/Единое святилище
+
+АВТО [Арьергард]: при помещении, заплатите цену [Встречный взрыв 1] и до конца хода сила этого воина увеличивается на 5,000.
+
+АВТО [Авангард/арьергард]: когда атака данного воина достигает авангарда, если ранг Вашего авангарда равен или ниже ранга авангарда оппонента, посмотрите на верхнюю карту своей колоды и призовите её в арьергард.'
+global.UnitGrade[CardStat] = 1
+global.CardInClan[CardStat] = 5
+}
+global.PowerStat[CardStat] = 8000
+
+
+CardStat = 7181
+{
+global.CardName[CardStat] = 'Knight of Strong Influence, Cunedagius'
+global.CardText[CardStat] = 'Gold Paladin/человек/Единое святилище
+
+АВТО [Арьергард]: когда этот воин поддерживает, если у Вас в авангарде находится Knight of fury Agravain, активируйте все перечисленные ниже способности, в зависимости от количества призванных Вами в этом ходу арьергардов.
+• Как минимум два: до конца боя сила поддерживаемого воина увеличивается на 3,000.
+• Как минимум четыре: затем, сила поддерживаемого воина увеличивается ещё на 5,000.'
+global.UnitGrade[CardStat] = 1
+global.CardInClan[CardStat] = 5
+}
+global.PowerStat[CardStat] = 8000
+
+
+CardStat = 7182
+{
+global.CardName[CardStat] = 'Repulse Rod Angel'
+global.CardText[CardStat] = 'Gold Paladin/ангел/Единое святилище
+
+ПРОДОЛЖИТЕЛЬНЫЙ: страж.
+
+АВТО [Круг защиты]: при помещении, заплатите цену [скиньте одну карту из своей руки] и до конца битвы атаки по одному Вашему воину не проходят.
+
+АВТО [Авангард]: при помещении, возьмите одну карту из колоды, после чего скиньте одну карту из руки.'
+global.UnitGrade[CardStat] = 1
+global.CardInClan[CardStat] = 5
+}
+global.PowerStat[CardStat] = 7000
+
+
+CardStat = 7183
+{
+global.CardName[CardStat] = 'Magical Light of Jewel, Mormteus'
+global.CardText[CardStat] = 'Gold Paladin/человек/Единое святилище
+'
+global.UnitGrade[CardStat] = 1
+global.CardInClan[CardStat] = 5
+}
+global.PowerStat[CardStat] = 9000
+
+
+CardStat = 7184
+{
+global.CardName[CardStat] = 'Spring Breeze Messenger '
+global.CardText[CardStat] = 'Gold Paladin/человек/Единое святилище
+
+АВТО: когда поверх этого воина делается смена, возьмите одну карту из колоды. Затем, если у авангарда оппонента как минимум 1ый ранг, возьмите в руку скоростной щит.'
+global.UnitGrade[CardStat] = 0
+global.CardInClan[CardStat] = 5
+}
+global.PowerStat[CardStat] = 6000
+global.QuickShieldAdd[CardStat] = 1
+
+CardStat = 7539
+{
+global.CardName[CardStat] = 'Gold Garnish Lion'
+global.CardText[CardStat] = 'Gold Paladin/высший зверь/Единое святилище/критический триггер-эффект
+
+ПРОДОЛЖИТЕЛЬНЫЙ [Рука]: когда Вы платите цену за вознесение, эта карта может быть скинута в качестве 3го ранга.'
+global.UnitGrade[CardStat] = 0
+global.CardInClan[CardStat] = 5
+}
+global.TriggerUnit[CardStat] = 2
+global.PowerStat[CardStat] = 4000
+global.NewTriggerStat[CardStat] = 1
+
+CardStat = 7583
+{
+global.CardName[CardStat] = 'Golden Dragon, Blambent Dragon'
+global.CardText[CardStat] = 'Gold Paladin/космический дракон/Единое святилище
+
+Вознесение.
+
+АВТО [Авангард]: когда этот воин атакует, заплатите цену [поместите двух своих арьергардов в низ своей колоды в любом порядке & переверните в открытое положение одну карту у себя в зоне наследия], возьмите две карты из колоды и призовите до двух карт из своей руки в арьергард. Если Вы призвали две карты, до конца боя критический удар этого воина увеличивается на один.'
+global.UnitGrade[CardStat] = 4
+global.CardInClan[CardStat] = 5
+global.ExtraDeck[CardStat] = 1
+}
+global.PowerStat[CardStat] = 15000
+
+CardStat = 7984
+{
+global.CardName[CardStat] = 'Knight of Early Dawn, Coel '
+global.CardText[CardStat] = 'Gold Paladin/человек/Единое святилище
+
+АВТО: когда поверх этого воина делается смена, возьмите одну карту из колоды. Затем, если у авангарда оппонента как минимум 1ый ранг, возьмите в руку скоростной щит.'
+global.UnitGrade[CardStat] = 0
+global.CardInClan[CardStat] = 5
+}
+global.PowerStat[CardStat] = 6000
+global.QuickShieldAdd[CardStat] = 1
+
+
+CardStat = 7985
+{
+global.CardName[CardStat] = 'Converge Archer, Biscott'
+global.CardText[CardStat] = 'Gold Paladin/эльф/Единое святилище
+
+АКТ [Арьергард] [Один раз за ход]: заплатите цену [Встречный взрыв 1 & Взрыв души 1], посмотрите на три верхние карты своей колоды, призовите одну из них в арьергард, а остаток поместите в низ своей колоды в любом порядке.'
+global.UnitGrade[CardStat] = 1
+global.CardInClan[CardStat] = 5
+}
+global.PowerStat[CardStat] = 7000
+
+CardStat = 8006
+{
+global.CardName[CardStat] = 'Player of the Holy Pipe, Gerrie '
+global.CardText[CardStat] = 'Gold Paladin/человек/Единое святилище/дающий карту триггер-эффект
+'
+global.UnitGrade[CardStat] = 0
+global.CardInClan[CardStat] = 5
+}
+global.TriggerUnit[CardStat] = 1
+global.PowerStat[CardStat] = 5000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 8007
+{
+global.CardName[CardStat] = 'Knight of Beloved Day, Cuthred'
+global.CardText[CardStat] = 'Gold Paladin/человек/Единое святилище
+
+ПРОДОЛЖИТЕЛЬНЫЙ [Арьергард]: если во время этого хода Вы призвали как минимум две карты из колоды, сила этого воина увеличивается на 10,000.'
+global.UnitGrade[CardStat] = 2
+global.CardInClan[CardStat] = 5
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 8008
+{
+global.CardName[CardStat] = 'Oath Liberator, Aglovale '
+global.CardText[CardStat] = 'Gold Paladin/человек/Единое святилище
+
+АВТО [Авангард]: при помещении, заплатите цену [Встречный взрыв 1], посмотрите на три верхние карты своей колоды, призовите одну из них в арьергард, а остаток поместите в низ своей колоды в любом порядке.
+
+АВТО [Арьергард]: когда этот воин атакует, заплатите цену [поместите одного своего другого арьергарда к себе в душу] и до конца боя сила этого воина увеличивается на 10,000. В конце боя верните данного воина в свою руку.'
+global.UnitGrade[CardStat] = 2
+global.CardInClan[CardStat] = 5
+}
+global.PowerStat[CardStat] = 9000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 8009
+{
+global.CardName[CardStat] = 'Bluish Flame Liberator, Percival '
+global.CardText[CardStat] = 'Gold Paladin/человек/Единое святилище/дар воображения: Ускорение
+
+ПРОДОЛЖИТЕЛЬНЫЙ [Авангард]: сила всех Ваших воинов в дополнительных кругах увеличивается на 5,000.
+
+АВТО [Авангард/арьергард]: при помещении, если у Вашего авангарда как минимум 3ий ранг, заплатите цену [Встречный взрыв 1 & скиньте одну карту из своей руки], получите один дар воображения: Ускорение, найдите у себя в колоде или на кладбище до одного Oath Liberator, Aglovale, призовите его в арьергард и, если Вы искали в колоде, перемешайте свою колоду. Эта способность может быть использована картой с таким именем лишь раз за ход.
+
+(SHIFT + левая кнопка мыши по этому воину чтобы создать дополнительный дар Ускорения.)'
+global.UnitGrade[CardStat] = 3
+global.CardInClan[CardStat] = 5
+}
+global.PowerStat[CardStat] = 12000
+global.DefensePowerStat[CardStat] = 0
+global.OrangeTokenAdd[CardStat] = 1
+global.AccelAdd[CardStat] = 1
+
+CardStat = 8010
+{
+global.CardName[CardStat] = 'Sunrise Ray Knight, Gurguit '
+global.CardText[CardStat] = 'Gold Paladin/человек/Единое святилище/дар воображения: Ускорение
+
+ПРОДОЛЖИТЕЛЬНЫЙ [Авангард]: во время Вашего хода, если у авангарда оппонента как минимум 3ий ранг, сила этого воина, а также сила всех воинов, помещённых в этом ходу способностью карты, увеличивается на 5,000 за каждый Ваш дополнительный круг арьергарда.
+
+АВТО [Авангард] [Один раз за ход]: когда этот воин атакует или подвергается атаке, заплатите цену [Встречный взрыв 1], посмотрите на пять верхних карт своей колоды, призовите до двух из них в арьергард и перемешайте свою колоду. Если сейчас ход оппонента, призовите их в круг защиты вместо арьергарда.'
+global.UnitGrade[CardStat] = 3
+global.CardInClan[CardStat] = 5
+}
+global.OrangeTokenAdd[CardStat] = 1
+global.PowerStat[CardStat] = 12000
+global.DefensePowerStat[CardStat] = 0
+
+
+CardStat = 8011
+{
+global.CardName[CardStat] = 'Knight of Springs Light, Perimore '
+global.CardText[CardStat] = 'Gold Paladin/человек/Единое святилище
+
+АКТ [Авангард/арьергард] [Один раз за ход]: заплатите цену [Встречный взрыв 1 & призовите у себя из руки в арьергард одну карту 2го или ниже ранга] и возьмите одну карту из колоды.
+
+АВТО [Арьергард/круг защиты]: при помещении способностью карты, до конца хода сила и защита этого воина увеличиваются на 5,000.'
+global.UnitGrade[CardStat] = 2
+global.CardInClan[CardStat] = 5
+}
+global.PowerStat[CardStat] = 9000
+global.DefensePowerStat[CardStat] = 5000
+
+
+CardStat = 8012
+{
+global.CardName[CardStat] = 'Sunshine Knight, Jeffrey '
+global.CardText[CardStat] = 'Gold Paladin/человек/Единое святилище
+
+АВТО [Авангард]: при помещении, посмотрите на семь верхних карт своей колоды, раскройте среди них до одного Sunrise Ray Knight, Gurguit или Knight of Springs Light, Perimore, возьмите раскрытую карту себе в руку и перемешайте свою колоду.
+
+АВТО [Арьергард/круг защиты]: при помещении способностью карты, до конца хода сила и защита этого воина увеличиваются на 5,000.'
+global.UnitGrade[CardStat] = 1
+global.CardInClan[CardStat] = 5
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 10000
+
+
+CardStat = 8013
+{
+global.CardName[CardStat] = 'Dawning Knight, Gorboduc '
+global.CardText[CardStat] = 'Gold Paladin/человек/Единое святилище
+
+ПРОДОЛЖИТЕЛЬНЫЙ [Авангард/арьергард]: во время Вашего хода, если в этом ходу Вы призвали как минимум два арьергарда, сила этого воина увеличивается на 5,000.
+
+АВТО [Авангард/арьергард]: при помещении из руки, посмотрите на пять верхних карт своей колоды, раскройте среди них до одной карты 3го ранга, возьмите её в руку, перемешайте свою колоду и, если Вы взяли карту, скиньте одну карту из своей руки.'
+global.UnitGrade[CardStat] = 1
+global.CardInClan[CardStat] = 5
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 10000
+
+
+CardStat = 8014
+{
+global.CardName[CardStat] = 'Holy Mage, Indulf'
+global.CardText[CardStat] = 'Gold Paladin/эльф/Единое святилище
+'
+global.UnitGrade[CardStat] = 2
+global.CardInClan[CardStat] = 5
+}
+global.PowerStat[CardStat] = 12000
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 8022
+{
+global.CardName[CardStat] = 'Knight of Benefits, Berengaria'
+global.CardText[CardStat] = 'Gold Paladin/человек/Единое святилище
+
+АВТО [Арьергард]: при помещении способностью карты, выполните одну из нижестоящих способностей.
+• Заплатите цену [Встречный взрыв 1] и активируйте Заряд души 1.
+• Заплатите цену [Взрыв души 1] и активируйте Заряд счётчика 1.'
+global.UnitGrade[CardStat] = 2
+global.CardInClan[CardStat] = 5
+}
+global.PowerStat[CardStat] = 9000
+global.DefensePowerStat[CardStat] = 5000
+
+
+CardStat = 8023
+{
+global.CardName[CardStat] = 'Sage Who Goes Ahead, Peyron'
+global.CardText[CardStat] = 'Gold Paladin/гигант/Единое святилище/исцеляющий триггер-эффект
+
+В колоде нельзя иметь больше четырёх исцеляющих триггер-эффектов.'
+global.UnitGrade[CardStat] = 0
+global.CardInClan[CardStat] = 5
+}
+global.TriggerUnit[CardStat] = 4
+global.PowerStat[CardStat] = 5000
+global.DefensePowerStat[CardStat] = 20000
+
+CardStat = 8044
+{
+global.CardName[CardStat] = 'Scarface Lion '
+global.CardText[CardStat] = 'Gold Paladin/высший зверь/Единое святилище/критический триггер-эффект
+
+ПРОДОЛЖИТЕЛЬНЫЙ: страж.'
+global.UnitGrade[CardStat] = 0
+global.CardInClan[CardStat] = 5
+}
+global.TriggerUnit[CardStat] = 2
+global.PowerStat[CardStat] = 5000
+global.DefensePowerStat[CardStat] = 30000
+
+
+CardStat = 8045
+{
+global.CardName[CardStat] = 'Flywheel Knight, Edmund'
+global.CardText[CardStat] = 'Gold Paladin/человек/Единое святилище/дар воображения: Ускорение
+
+АВТО [Круг защиты]: при помещении, если у Вашего авангарда как минимум 3ий ранг, до конца хода защита этого воина увеличивается на 10,000.
+
+АВТО [Арьергард]: когда этот воин атакует, заплатите цену [поместите другого арьергарда в свою душу] и до конца боя сила данного воина увеличивается на 10,000. В конце боя верните этого воина в свою руку.'
+global.UnitGrade[CardStat] = 3
+global.CardInClan[CardStat] = 5
+}
+global.OrangeTokenAdd[CardStat] = 1
+global.PowerStat[CardStat] = 12000
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 8051
+{
+global.CardName[CardStat] = 'Fierce Fighting Knight, Chlorus'
+global.CardText[CardStat] = 'Gold Paladin/человек/Единое святилище
+
+АВТО [Арьергард]: когда этот воин атакует или поддерживает, заплатите цену [Взрыв души 1] и выполните все нижестоящие способности, в зависимости от количества арьергардов, которых Вы призвали в этом ходу.
+• Как минимум два: до конца боя сила этого воина увеличивается на 5,000.
+• Как минимум четыре: до конца боя оппонент должен перехватывать, если есть такая возможность.'
+global.UnitGrade[CardStat] = 1
+global.CardInClan[CardStat] = 5
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 10000
+
+CardStat = 8061
+{
+global.CardName[CardStat] = 'Knight of Illumination, Muir'
+global.CardText[CardStat] = 'Gold Paladin/человек/Единое святилище
+
+АВТО [Арьергард]: при помещении способностью карты, заплатите цену [Взрыв души 1] и до конца хода сила этого воина увеличивается на 10,000.'
+global.UnitGrade[CardStat] = 1
+global.CardInClan[CardStat] = 5
+}
+global.PowerStat[CardStat] = 7000
+global.DefensePowerStat[CardStat] = 10000
+
+CardStat = 8062
+{
+global.CardName[CardStat] = 'Spaigal'
+global.CardText[CardStat] = 'Gold Paladin/высший зверь/Единое святилище'
+global.UnitGrade[CardStat] = 1
+global.CardInClan[CardStat] = 5
+}
+global.PowerStat[CardStat] = 7000
+global.DefensePowerStat[CardStat] = 15000
+
+CardStat = 8063
+{
+global.CardName[CardStat] = 'Knight of Inspiration, Lulach'
+global.CardText[CardStat] = 'Gold Paladin/человек/Единое святилище
+
+АВТО [Авангард]: при помещении, заплатите цену [скиньте одну карту из своей руки] и возьмите одну карту из колоды.
+
+АВТО [Арьергард]: когда Ваш авангард 3го ранга помещается во время Вашей основной фазы, заплатите цену [поместите этого воина в свою душу] и активируйте Заряд счётчика 1.'
+global.UnitGrade[CardStat] = 1
+global.CardInClan[CardStat] = 5
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 10000
+
+
+CardStat = 8064
+{
+global.CardName[CardStat] = 'Plenary Ray Dragon'
+global.CardText[CardStat] = 'Gold Paladin/космический дракон/Единое святилище/дар воображения: Ускорение
+
+ПРОДОЛЖИТЕЛЬНЫЙ [Авангард/арьергард]: во время битвы, в которой этот воин атакует, если у Вас на поле как минимум пять арьергардов, когда оппонент собирается призывать карты из руки в круг защиты, он должен призвать сразу как минимум две.'
+global.UnitGrade[CardStat] = 3
+global.CardInClan[CardStat] = 5
+}
+global.OrangeTokenAdd[CardStat] = 1
+global.PowerStat[CardStat] = 12000
+global.DefensePowerStat[CardStat] = 0
+
+
+CardStat = 8065
+{
+global.CardName[CardStat] = 'Battalion Lance Dragon'
+global.CardText[CardStat] = 'Gold Paladin/космический дракон/Единое святилище
+
+АВТО [Арьергард]: при помещении способностью карты, заплатите цену [скиньте две карты из своей руки] и до конца хода сила этого воина увеличивается на 20,000, а критический удар — на один.'
+global.UnitGrade[CardStat] = 3
+global.CardInClan[CardStat] = 5
+}
+global.PowerStat[CardStat] = 12000
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 8119
+{
+global.CardName[CardStat] = 'Thriving Knight, Palsolo'
+global.CardText[CardStat] = 'Gold Paladin/человек/Единое святилище
+
+АВТО [Арьергард]: при помещении из руки, заплатите цену [Взрыв души 2], посмотрите на верхнюю карту своей колоды и призовите её в арьергард.'
+global.UnitGrade[CardStat] = 2
+global.CardInClan[CardStat] = 5
+}
+global.PowerStat[CardStat] = 9000
+global.DefensePowerStat[CardStat] = 5000
