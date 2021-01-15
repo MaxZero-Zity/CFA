@@ -13,7 +13,7 @@ global.CardText[CardStat] = 'Murakumo/High Beast/Dragon Empire
 
 AUTO: Pioneer (When another card with the same clan rides this unit, you may call this unit to a Rear-guard circle.)
 
-ACT [R]: [Put this unit to the bottom of your deck] Choose up to one «Murakumo» from your hand, call it to Rear-guard circle, and at the beginning of that turns end phase, return that unit to hand.'
+ACT [R]: [Put this unit to the bottom of your deck] Choose up to one ï¿½Murakumoï¿½ from your hand, call it to Rear-guard circle, and at the beginning of that turns end phase, return that unit to hand.'
 }
 
 CardStat = x+2
@@ -27,7 +27,7 @@ CardStat = x+3
 global.CardName[CardStat] = 'Stealth Fiend, Dart Spider'
 global.CardText[CardStat] = 'Murakumo/Insect/Dragon Empire/Stand Trigger
 
-ACT [R]: [Put this unit into your soul] If you have a «Murakumo» Vanguard, choose a card from your damage zone, and turn it face-up.'
+ACT [R]: [Put this unit into your soul] If you have a ï¿½Murakumoï¿½ Vanguard, choose a card from your damage zone, and turn it face-up.'
 }
 
 CardStat = x+4
@@ -50,7 +50,7 @@ CardStat = x+6
 global.CardName[CardStat] = 'Stealth Beast, Leaf Raccoon'
 global.CardText[CardStat] = 'Murakumo/High Beast/Dragon Empire
 
-AUTO [R]: When this unit boost a «Murakumo» Vanguard, if the number of cards in your hand is greater than your opponents, the boosted unit gets power +4000 until end of that battle.'
+AUTO [R]: When this unit boost a ï¿½Murakumoï¿½ Vanguard, if the number of cards in your hand is greater than your opponents, the boosted unit gets power +4000 until end of that battle.'
 }
 
 CardStat = x+7
@@ -58,7 +58,7 @@ CardStat = x+7
 global.CardName[CardStat] = 'Stealth Beast, Leaves Mirage'
 global.CardText[CardStat] = 'Murakumo/Warbeast/Dragon Empire
 
-AUTO: [Choose a «Murakumo» from your hand, and discard it] When this unit is placed on Guardian circle, you may pay the cost. If you do, choose one of your «Murakumo», and that unit cannot be hit until end of that battle.'
+AUTO: [Choose a ï¿½Murakumoï¿½ from your hand, and discard it] When this unit is placed on Guardian circle, you may pay the cost. If you do, choose one of your ï¿½Murakumoï¿½, and that unit cannot be hit until end of that battle.'
 }
 
 CardStat = x+8
@@ -66,7 +66,7 @@ CardStat = x+8
 global.CardName[CardStat] = 'Stealth Beast, Million Rat'
 global.CardText[CardStat] = 'Murakumo/High Beast/Dragon Empire
 
-AUTO: [Counter Blast 1] When this unit appears in the Vanguard or Rear-guard circle and you have a «Murakumo» Vanguard, you may pay the cost. If you did, search your deck up to one "Stealth Beast, Million Rat" and call it to a Rear-guard circle. Shuffle your deck. At the beginning of the end phase for that turn, place that unit at the bottom of your deck.'
+AUTO: [Counter Blast 1] When this unit appears in the Vanguard or Rear-guard circle and you have a ï¿½Murakumoï¿½ Vanguard, you may pay the cost. If you did, search your deck up to one "Stealth Beast, Million Rat" and call it to a Rear-guard circle. Shuffle your deck. At the beginning of the end phase for that turn, place that unit at the bottom of your deck.'
 }
 
 CardStat = x+9
@@ -74,7 +74,7 @@ CardStat = x+9
 global.CardName[CardStat] = 'Stealth Dragon, Turbulent Edge'
 global.CardText[CardStat] = 'Murakumo/Winged Dragon/Dragon Empire
 
-AUTO [V/R]: When this units attack hits a Vanguard, if you have a «Murakumo» Vanguard, look up to five cards from the top of your deck, choose up to one "Covert Demonic Dragon, Mandala Lord", reveal it to your opponent, put it into your hand, and put the remaining cards on the bottom of your deck in any order.'
+AUTO [V/R]: When this units attack hits a Vanguard, if you have a ï¿½Murakumoï¿½ Vanguard, look up to five cards from the top of your deck, choose up to one "Covert Demonic Dragon, Mandala Lord", reveal it to your opponent, put it into your hand, and put the remaining cards on the bottom of your deck in any order.'
 }
 
 CardStat = x+10
@@ -82,7 +82,7 @@ CardStat = x+10
 global.CardName[CardStat] = 'Caped Stealth Rogue, Shanaou'
 global.CardText[CardStat] = 'Murakumo/Demon/Dragon Empire
 
-AUTO [R]: When this units attack hits a vanguard, if you have a «Murakumo» Vanguard, you may return this unit to your hand.'
+AUTO [R]: When this units attack hits a vanguard, if you have a ï¿½Murakumoï¿½ Vanguard, you may return this unit to your hand.'
 }
 
 CardStat = x+11
@@ -90,7 +90,7 @@ CardStat = x+11
 global.CardName[CardStat] = 'Left Arrester'
 global.CardText[CardStat] = 'Murakumo/Warbeast/Dragon Empire
 
-CONT: [Your top row, left side Rear-guard circle]: If you have a «Murakumo» Vanguard and you have "Right Arrester" on your top row, right side Rear-guard circle, this unit gains +3000 power.'
+CONT: [Your top row, left side Rear-guard circle]: If you have a ï¿½Murakumoï¿½ Vanguard and you have "Right Arrester" on your top row, right side Rear-guard circle, this unit gains +3000 power.'
 }
 
 CardStat = x+12
@@ -98,7 +98,7 @@ CardStat = x+12
 global.CardName[CardStat] = 'Swift Archer, FUSHIMI'
 global.CardText[CardStat] = 'Murakumo/Warbeast/Dragon Empire
 
-AUTO: When you ride this unit on a «Murakumo», this unit gains: "CONT [V]: This unit can battle with a unit in your opponents back row" until end of turn.'
+AUTO: When you ride this unit on a ï¿½Murakumoï¿½, this unit gains: "CONT [V]: This unit can battle with a unit in your opponents back row" until end of turn.'
 }
 
 CardStat = x+13
@@ -106,7 +106,7 @@ CardStat = x+13
 global.CardName[CardStat] = 'Right Arrester'
 global.CardText[CardStat] = 'Murakumo/Warbeast/Dragon Empire
 
-CONT: [Your top row, right side Rear-guard circle]: If you have a «Murakumo» Vanguard and you have "Left Arrester" on your top row, left side Rear-guard circle, this unit gains +3000 power.'
+CONT: [Your top row, right side Rear-guard circle]: If you have a ï¿½Murakumoï¿½ Vanguard and you have "Left Arrester" on your top row, left side Rear-guard circle, this unit gains +3000 power.'
 }
 
 CardStat = x+14
@@ -120,7 +120,7 @@ CardStat = x+15
 global.CardName[CardStat] = 'Stealth Beast, White Mane'
 global.CardText[CardStat] = 'Murakumo/Warbeast/Dragon Empire
 
-AUTO [V/R]: When this units attack hits a Vanguard, if you have a «Murakumo» Vanguard, choose a card from your damage zone, and turn it face-up.'
+AUTO [V/R]: When this units attack hits a Vanguard, if you have a ï¿½Murakumoï¿½ Vanguard, choose a card from your damage zone, and turn it face-up.'
 }
 
 CardStat = x+16
@@ -128,7 +128,7 @@ CardStat = x+16
 global.CardName[CardStat] = 'Stealth Dragon, Cursed Breath'
 global.CardText[CardStat] = 'Murakumo/Winged Dragon/Dragon Empire
 
-AUTO [V/R]: When this units attack hits a Vanguard, if you have a «Murakumo» Vanguard, look up to five cards from the top of your deck, choose up to one "Covert Demonic Dragon, Mandala Lord", reveal it to your opponent, put it into your hand, and put the remaining cards on the bottom of your deck in any order.'
+AUTO [V/R]: When this units attack hits a Vanguard, if you have a ï¿½Murakumoï¿½ Vanguard, look up to five cards from the top of your deck, choose up to one "Covert Demonic Dragon, Mandala Lord", reveal it to your opponent, put it into your hand, and put the remaining cards on the bottom of your deck in any order.'
 }
 
 CardStat = x+17
@@ -136,7 +136,7 @@ CardStat = x+17
 global.CardName[CardStat] = 'Stealth Fiend, Midnight Crow'
 global.CardText[CardStat] = 'Murakumo/Warbeast/Dragon Empire
 
-AUTO: [Counter Blast 1] When this unit is placed on Vanguard or Rear-guard circle, if you have a «Murakumo» Vanguard, you may pay the cost. If you do, search your deck for up to one card named "Stealth Fiend, Midnight Crow", call it to Rear-guard circle, and shuffle your deck. At the beginning of that turns end phase, return that unit to the bottom of your deck.'
+AUTO: [Counter Blast 1] When this unit is placed on Vanguard or Rear-guard circle, if you have a ï¿½Murakumoï¿½ Vanguard, you may pay the cost. If you do, search your deck for up to one card named "Stealth Fiend, Midnight Crow", call it to Rear-guard circle, and shuffle your deck. At the beginning of that turns end phase, return that unit to the bottom of your deck.'
 }
 
 CardStat = x+18
@@ -144,7 +144,7 @@ CardStat = x+18
 global.CardName[CardStat] = 'Covert Demonic Dragon, Mandala Lord'
 global.CardText[CardStat] = 'Murakumo/Abyss Dragon/Dragon Empire
 
-CONT [V/R]: If you have a non-«Murakumo» Vanguard or Rear-guard, this unit gets power -2000.
+CONT [V/R]: If you have a non-ï¿½Murakumoï¿½ Vanguard or Rear-guard, this unit gets power -2000.
 
 AUTO [V]: [Counter Blast 1 & Choose a card named "Covert Demonic Dragon, Mandala Lord" from your hand, and discard it] At the beginning of the guard step of the battle that this unit is attacked, you may pay the cost. If you do, choose one of your opponents attacking units, and that unit gets power -10000 until end of that battle.'
 }
@@ -154,7 +154,7 @@ CardStat = x+19
 global.CardName[CardStat] = 'Dueling Dragon, ZANBAKU'
 global.CardText[CardStat] = 'Murakumo/Abyss Dragon/Dragon Empire
 
-CONT [V/R]: While you do not have another «Murakumo», this unit gets power -2000. 
+CONT [V/R]: While you do not have another ï¿½Murakumoï¿½, this unit gets power -2000. 
 
 AUTO [V]: During your opponents ride phase, if your opponents Vanguard is grade 3 or above, the opponent may choose one card from their hand and discard it. If they did not discard, they cannot normal ride during that ride phase.'
 }
@@ -164,7 +164,7 @@ CardStat = x+20
 global.CardName[CardStat] = 'Stealth Dragon, Voidgelga'
 global.CardText[CardStat] = 'Murakumo/Abyss Dragon/Dragon Empire
 
-AUTO: [Counter Blast 1] When this unit appears in the Vanguard or Rear-guard circle and you have a «Murakumo» Vanguard, you may pay the cost. If you did, search up to one "Stealth Dragon, Voidgelga" from your deck and call it to a Rear-guard circle. Shuffle your deck. At the beginning of the end phase of that turn, place that unit at the bottom of your deck.'
+AUTO: [Counter Blast 1] When this unit appears in the Vanguard or Rear-guard circle and you have a ï¿½Murakumoï¿½ Vanguard, you may pay the cost. If you did, search up to one "Stealth Dragon, Voidgelga" from your deck and call it to a Rear-guard circle. Shuffle your deck. At the beginning of the end phase of that turn, place that unit at the bottom of your deck.'
 }
 
 CardStat = x+21
@@ -196,7 +196,7 @@ global.CardText[CardStat] = 'Murakumo/Demon/Dragon Empire
 
 AUTO: Forerunner (When another unit from the same clan rides this unit, you may call it to Rear-guard circle.)
 
-ACT [R]: [Counter Blast 1 & Put this unit into your soul] Look at up to five cards from the top of your deck, search for up to one grade 3 or greater «Murakumo» from among them, reveal it to your opponent, put it into your hand, and shuffle your deck.'
+ACT [R]: [Counter Blast 1 & Put this unit into your soul] Look at up to five cards from the top of your deck, search for up to one grade 3 or greater ï¿½Murakumoï¿½ from among them, reveal it to your opponent, put it into your hand, and shuffle your deck.'
 }
 
 CardStat = x+1
@@ -204,7 +204,7 @@ CardStat = x+1
 global.CardName[CardStat] = 'Stealth Beast, Cat Devil'
 global.CardText[CardStat] = 'Murakumo/Warbeast/Dragon Empire/Critical Trigger
 
-ACT [R]: [Put this unit into your soul] Choose up to one of your «Murakumo», and that unit gets power +3000 until end of turn.'
+ACT [R]: [Put this unit into your soul] Choose up to one of your ï¿½Murakumoï¿½, and that unit gets power +3000 until end of turn.'
 }
 
 CardStat = x+2
@@ -214,7 +214,7 @@ global.CardText[CardStat] = 'Murakumo/Abyss Dragon/Dragon Empire
 
 AUTO: When a card named "Stealth Dragon, Magatsu Breath" rides this unit, look at up to seven cards from the top of your deck, search for up to one card named "Covert Demonic Dragon, Magatsu Storm" or "Stealth Dragon, Magatsu Gale" from among them, reveal it to your opponent, put it into your hand, and shuffle your deck.
 
-AUTO: When a «Murakumo» other than a card named "Stealth Dragon, Magatsu Breath" rides this unit, you may call this card to Rear-guard circle.'
+AUTO: When a ï¿½Murakumoï¿½ other than a card named "Stealth Dragon, Magatsu Breath" rides this unit, you may call this card to Rear-guard circle.'
 }
 
 CardStat = x+3
@@ -222,7 +222,7 @@ CardStat = x+3
 global.CardName[CardStat] = 'Stealth Rogue of Summoning, Jiraiya'
 global.CardText[CardStat] = 'Murakumo/Demon/Dragon Empire
 
-ACT [R]: [Counter Blast 1 & put this unit on the bottom of your deck] If you have a «Murakumo» Vanguard, search your deck for up to one "Stealth Beast, Gigantoad", call it to Rear-guard circle and shuffle your deck.'
+ACT [R]: [Counter Blast 1 & put this unit on the bottom of your deck] If you have a ï¿½Murakumoï¿½ Vanguard, search your deck for up to one "Stealth Beast, Gigantoad", call it to Rear-guard circle and shuffle your deck.'
 }
 
 CardStat = x+4
@@ -280,7 +280,7 @@ CardStat = x+9
 global.CardName[CardStat] = 'Money-Grubbing Stealth Ogre, Arahabaki'
 global.CardText[CardStat] = 'Murakumo/Demon/Dragon Empire
 
-AUTO [V/R]: When this unit is boosted by a «Murakumo», this unit gets power +2000 until end of that battle.'
+AUTO [V/R]: When this unit is boosted by a ï¿½Murakumoï¿½, this unit gets power +2000 until end of that battle.'
 }
 
 
@@ -294,7 +294,7 @@ CONT [V]: During your turn, if you have another card named "Stealth Beast, Gigan
 CONT [R]: During your turn, if you have another card named "Stealth Beast, Gigantoad" on your Rear-guard circle, this unit gets power +1000.'
 }
 
-//àïäåéò
+//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 
 
 x = 1051
@@ -332,7 +332,7 @@ CardStat = x+5
 global.CardName[CardStat] = 'Stealth Fiend, Oboro Cart'
 global.CardText[CardStat] = 'Murakumo/Demon/Dragon Empire
 
-AUTO: [Counter Blast 1] When this unit is placed on Vanguard or Rear-guard circle, if you have a «Murakumo» Vanguard, you may pay the cost. If you do, choose a «Murakumo» other than "Stealth Fiend, Oboro Cart" from your Rear-guard circle, search up to one card with the same name as the chosen unit from your deck, call it to a Rear-guard circle, and shuffle your deck. At the end of the turn, place the unit called by this ability to the bottom of your deck.'
+AUTO: [Counter Blast 1] When this unit is placed on Vanguard or Rear-guard circle, if you have a ï¿½Murakumoï¿½ Vanguard, you may pay the cost. If you do, choose a ï¿½Murakumoï¿½ other than "Stealth Fiend, Oboro Cart" from your Rear-guard circle, search up to one card with the same name as the chosen unit from your deck, call it to a Rear-guard circle, and shuffle your deck. At the end of the turn, place the unit called by this ability to the bottom of your deck.'
 }
  
 CardStat = x+6
@@ -340,7 +340,7 @@ CardStat = x+6
 global.CardName[CardStat] = 'Stealth Beast, Spell Hound'
 global.CardText[CardStat] = 'Murakumo/Warbeast/Dragon Empire
 
-AUTO: [Counter Blast 1] When this unit is placed on Vanguard or Rear-guard circle, if you have a «Murakumo» Vanguard, you may pay the cost. If you do, put the top card of your deck into your damage zone, and at the beginning of your end phase, choose a card from your damage zone, return it to your deck, and shuffle your deck.'
+AUTO: [Counter Blast 1] When this unit is placed on Vanguard or Rear-guard circle, if you have a ï¿½Murakumoï¿½ Vanguard, you may pay the cost. If you do, put the top card of your deck into your damage zone, and at the beginning of your end phase, choose a card from your damage zone, return it to your deck, and shuffle your deck.'
 }
 
 CardStat = x+7
@@ -360,7 +360,7 @@ global.CardText[CardStat] = 'Murakumo/High Beast/Dragon Empire
 
 AUTO [V]: Limit Break 4 (This ability is active if you have four or more damage): When this unit attacks a Vanguard, this unit gets power +5000 until end of battle.
 
-ACT [V]: [Counter Blast 1] Choose one of your grade 2 or higher «Murakumo» Rear-guards, search up to one card with the same name as the chosen unit from your deck, call it to a Rear-guard circle and shuffle your deck. At the end of the turn, place the unit called by this ability to the bottom of your deck.'
+ACT [V]: [Counter Blast 1] Choose one of your grade 2 or higher ï¿½Murakumoï¿½ Rear-guards, search up to one card with the same name as the chosen unit from your deck, call it to a Rear-guard circle and shuffle your deck. At the end of the turn, place the unit called by this ability to the bottom of your deck.'
 }
 
 // Murakumo Add
@@ -372,7 +372,7 @@ CardStat = x
 global.CardName[CardStat] = 'Stealth Fiend, Gashadokuro'
 global.CardText[CardStat] = 'Murakumo/Ghost/Dragon Empire
 
-ACT [V]: [Choose one of your «Murakumo» Rear-guard, and rest it] Choose one of your «Murakumo» Rear-guard, and put it at the bottom of the deck. Choose a unit with the same name as that unit, it gets power +5000 until end of turn.'
+ACT [V]: [Choose one of your ï¿½Murakumoï¿½ Rear-guard, and rest it] Choose one of your ï¿½Murakumoï¿½ Rear-guard, and put it at the bottom of the deck. Choose a unit with the same name as that unit, it gets power +5000 until end of turn.'
 global.UnitGrade[CardStat] = 3
 global.CardInClan[CardStat] = 20
 }
@@ -407,12 +407,12 @@ x = 1732
 
 CardStat = x
 {
-global.CardName[CardStat] = 'Covert Demonic Dragon, Hyakki Vogue "ßeverse"'
+global.CardName[CardStat] = 'Covert Demonic Dragon, Hyakki Vogue "ï¿½everse"'
 global.CardText[CardStat] = 'Murakumo/Abyss Dragon/Dragon Empire
 
-ACT [V]: Limit Break 4 (This ability is active if you have four or more damage): [Choose two of your «Murakumo» Rear-guards, and lock them] Choose up to three of your units named "Covert Demonic Dragon, Hyakki Vogue "ßeverse"", and those units get power +10000 until end of turn.
+ACT [V]: Limit Break 4 (This ability is active if you have four or more damage): [Choose two of your ï¿½Murakumoï¿½ Rear-guards, and lock them] Choose up to three of your units named "Covert Demonic Dragon, Hyakki Vogue "ï¿½everse"", and those units get power +10000 until end of turn.
 
-AUTO [V]: [Counter Blast 2] When this unit is placed on Vanguard circle, you may pay the cost. If you do, search your deck for up to one card named "Covert Demonic Dragon, Hyakki Vogue "ßeverse"", call it to Rear-guard circle, shuffle your deck, and at the end of that turn, return the unit called with this effect into your hand.
+AUTO [V]: [Counter Blast 2] When this unit is placed on Vanguard circle, you may pay the cost. If you do, search your deck for up to one card named "Covert Demonic Dragon, Hyakki Vogue "ï¿½everse"", call it to Rear-guard circle, shuffle your deck, and at the end of that turn, return the unit called with this effect into your hand.
 
 CONT [V/R]: Lord (If you have a unit without a same clan as this unit, this unit cannot attack.)'
 global.UnitGrade[CardStat] = 3
@@ -428,9 +428,9 @@ CardStat = x
 global.CardName[CardStat] = 'Covert Demonic Dragon, Kagurabloom'
 global.CardText[CardStat] = 'Murakumo/Abyss Dragon/Dragon Empire
 
-AUTO: Limit Break 4 (This ability is active if you have four or more damage): [Counter Blast 1] When a «Murakumo» rides this unit, you may pay the cost. If you do, choose your Vanguard, that unit gets power +10000 until end of turn, search your deck for up to two cards with the same name as that unit, call them to separate Rear-guard circles, shuffle your deck, and at the end of that turn, return the units called with this effect into your hand.
+AUTO: Limit Break 4 (This ability is active if you have four or more damage): [Counter Blast 1] When a ï¿½Murakumoï¿½ rides this unit, you may pay the cost. If you do, choose your Vanguard, that unit gets power +10000 until end of turn, search your deck for up to two cards with the same name as that unit, call them to separate Rear-guard circles, shuffle your deck, and at the end of that turn, return the units called with this effect into your hand.
 
-AUTO [V]: When this unit is boosted by a «Murakumo», this unit gets power +2000 until end of that battle.
+AUTO [V]: When this unit is boosted by a ï¿½Murakumoï¿½, this unit gets power +2000 until end of that battle.
 
 CONT [V/R]: Lord (If you have a unit without a same clan as this unit, this unit cannot attack.)'
 global.UnitGrade[CardStat] = 3
@@ -444,7 +444,7 @@ global.CardText[CardStat] = 'Murakumo/Demon/Dragon Empire
 
 AUTO [V]: Limit Break 4 (This ability is active if you have four or more damage): When this unit attacks a Vanguard, this unit gets power +5000 until end of that battle.
 
-AUTO [R]: When this unit attacks a Vanguard, if you have a «Murakumo» Vanguard, this unit gets power +2000 until end of the battle. '
+AUTO [R]: When this unit attacks a Vanguard, if you have a ï¿½Murakumoï¿½ Vanguard, this unit gets power +2000 until end of the battle. '
 global.UnitGrade[CardStat] = 3
 global.CardInClan[CardStat] = 20
 }
@@ -454,7 +454,7 @@ CardStat = x+2
 global.CardName[CardStat] = 'Demonic Hair Stealth Rogue, Grenjin'
 global.CardText[CardStat] = 'Murakumo/Demon/Dragon Empire
 
-AUTO [V/R]: [Counter Blast 1] When this units attack hits a Vanguard, if you have a «Murakumo» Vanguard, and this unit is boosted by a «Murakumo», you may pay the cost. If you do, search your deck for up to one card named "Demonic Hair Stealth Rogue, Grenjin", call it to Rear-guard circle, and shuffle your deck, and at the end of that turn, put the unit called with this effect on the bottom of your deck. '
+AUTO [V/R]: [Counter Blast 1] When this units attack hits a Vanguard, if you have a ï¿½Murakumoï¿½ Vanguard, and this unit is boosted by a ï¿½Murakumoï¿½, you may pay the cost. If you do, search your deck for up to one card named "Demonic Hair Stealth Rogue, Grenjin", call it to Rear-guard circle, and shuffle your deck, and at the end of that turn, put the unit called with this effect on the bottom of your deck. '
 global.UnitGrade[CardStat] = 2
 global.CardInClan[CardStat] = 20
 }
@@ -466,7 +466,7 @@ global.CardText[CardStat] = 'Murakumo/Demon/Dragon Empire
 
 CONT: Sentinel (You may only have up to four cards with "Sentinel" in a deck.)
 
-AUTO: [Counter Blast 1] When this unit is placed on Guardian circle from your hand, if you have a «Murakumo» Vanguard, you may pay the cost. If you do, reveal five cards from the top of your deck, call all «Murakumo» from among them to Guardian circle as rest, and put the rest into the drop zone. '
+AUTO: [Counter Blast 1] When this unit is placed on Guardian circle from your hand, if you have a ï¿½Murakumoï¿½ Vanguard, you may pay the cost. If you do, reveal five cards from the top of your deck, call all ï¿½Murakumoï¿½ from among them to Guardian circle as rest, and put the rest into the drop zone. '
 global.UnitGrade[CardStat] = 1
 global.CardInClan[CardStat] = 20
 }
@@ -476,7 +476,7 @@ CardStat = x+4
 global.CardName[CardStat] = 'Bangasa Stealth Rogue, Sukerock'
 global.CardText[CardStat] = 'Murakumo/Demon/Dragon Empire
 
-ACT [R]: [Soul Blast 1] If you have a «Murakumo» Vanguard, choose one of your open Rear-guard circle, and move this unit to that circle. (The state of the card does not change.) '
+ACT [R]: [Soul Blast 1] If you have a ï¿½Murakumoï¿½ Vanguard, choose one of your open Rear-guard circle, and move this unit to that circle. (The state of the card does not change.) '
 global.UnitGrade[CardStat] = 1
 global.CardInClan[CardStat] = 20
 }
@@ -486,7 +486,7 @@ CardStat = x+5
 global.CardName[CardStat] = 'Stealth Beast, Deathly Dagger'
 global.CardText[CardStat] = 'Murakumo/Warbeast/Dragon Empire
 
-AUTO [R]: When this unit boosts a «Murakumo», if you have a «Murakumo» Vanguard, and the number of units you have with the same name as the boosted unit is two or more, the boosted unit gets power +3000 until end of that battle. '
+AUTO [R]: When this unit boosts a ï¿½Murakumoï¿½, if you have a ï¿½Murakumoï¿½ Vanguard, and the number of units you have with the same name as the boosted unit is two or more, the boosted unit gets power +3000 until end of that battle. '
 global.UnitGrade[CardStat] = 1
 global.CardInClan[CardStat] = 20
 }
@@ -498,7 +498,7 @@ global.CardText[CardStat] = 'Murakumo/Demon/Dragon Empire
 
 AUTO: Forerunner (When a unit of the same clan rides this unit, you may call this unit to Rear-guard circle.)
 
-ACT [R]: [Soul Blast 1] If you have a «Murakumo» Vanguard, choose one of your open Rear-guard circles, and move this unit to that circle. (The state of the card does not change.)'
+ACT [R]: [Soul Blast 1] If you have a ï¿½Murakumoï¿½ Vanguard, choose one of your open Rear-guard circles, and move this unit to that circle. (The state of the card does not change.)'
 global.UnitGrade[CardStat] = 0
 global.CardInClan[CardStat] = 20
 }
@@ -512,7 +512,7 @@ CardStat = x
 global.CardName[CardStat] = 'Stealth Beast, Metamorfox'
 global.CardText[CardStat] = 'Murakumo/Warbeast/Dragon Empire
 
-AUTO: When this unit is placed on Rear-guard circle, if you have a «Murakumo» Vanguard, choose one of your locked cards, and unlock it. '
+AUTO: When this unit is placed on Rear-guard circle, if you have a ï¿½Murakumoï¿½ Vanguard, choose one of your locked cards, and unlock it. '
 global.UnitGrade[CardStat] = 1
 global.CardInClan[CardStat] = 20
 }
@@ -538,7 +538,7 @@ CardStat = x
 global.CardName[CardStat] = 'Stealth Beast, Chain Geek'
 global.CardText[CardStat] = 'Murakumo/Warbeast/Dragon Empire
 
-CONT [V/R]: During your turn, if the number of «Murakumo» Rear-guards you have is four or more, this unit gets power +3000.'
+CONT [V/R]: During your turn, if the number of ï¿½Murakumoï¿½ Rear-guards you have is four or more, this unit gets power +3000.'
 global.UnitGrade[CardStat] = 2
 global.CardInClan[CardStat] = 20
 }
@@ -560,7 +560,7 @@ CardStat = x
 global.CardName[CardStat] = 'Stealth Beast, Bandit Ape'
 global.CardText[CardStat] = 'Murakumo/Warbeast/Dragon Empire
 
-AUTO [R]: [Put this unit on the bottom of your deck] When this units attack hits a Vanguard, if you have a «Murakumo» Vanguard, you may pay the cost. If you do, draw a card.'
+AUTO [R]: [Put this unit on the bottom of your deck] When this units attack hits a Vanguard, if you have a ï¿½Murakumoï¿½ Vanguard, you may pay the cost. If you do, draw a card.'
 global.UnitGrade[CardStat] = 3
 global.CardInClan[CardStat] = 20
 }
@@ -1535,7 +1535,7 @@ global.CardText[4560] = 'Murakumo/Abyss Dragon
 
 AUTO: Forerunner.
 
-AUTO [R]: [Choose this card and one "Covert Demonic Dragon, Hyakki Vogue "ßeverse"" on your R, and put them into your soul] When your vanguard attacks, you may pay the cost. If you do, search your deck for up to one "Covert Demonic Dragon, Hyakki Vogue "ßeverse"", call it to R, shuffle your deck, it gets power +5000 until end of turn, and at the end of that turn, put that unit on the bottom of your deck.
+AUTO [R]: [Choose this card and one "Covert Demonic Dragon, Hyakki Vogue "ï¿½everse"" on your R, and put them into your soul] When your vanguard attacks, you may pay the cost. If you do, search your deck for up to one "Covert Demonic Dragon, Hyakki Vogue "ï¿½everse"", call it to R, shuffle your deck, it gets power +5000 until end of turn, and at the end of that turn, put that unit on the bottom of your deck.
 '
 
 global.UnitGrade[4560] = 0
@@ -1555,9 +1555,9 @@ global.CardName[4561] = 'Covert Demonic Dragon, Hyakki Zora'
 
 global.CardText[4561] = 'Murakumo/Abyss Dragon
 
-CONT [R/Deck]: This card is also regarded as "Covert Demonic Dragon, Hyakki Vogue "ßeverse"".
+CONT [R/Deck]: This card is also regarded as "Covert Demonic Dragon, Hyakki Vogue "ï¿½everse"".
 
-AUTO: [Soul Blast 2] When this unit is placed on V, you may pay the cost. If you do, search your deck for up to one "Covert Demonic Dragon, Hyakki Vogue "ßeverse"", ride it as stand, and shuffle your deck. If you rode, Counter Charge 1.
+AUTO: [Soul Blast 2] When this unit is placed on V, you may pay the cost. If you do, search your deck for up to one "Covert Demonic Dragon, Hyakki Vogue "ï¿½everse"", ride it as stand, and shuffle your deck. If you rode, Counter Charge 1.
 '
 
 global.UnitGrade[4561] = 3
@@ -3552,6 +3552,7 @@ global.CardText[CardStat] = 'Murakumo/Ghost
 global.UnitGrade[CardStat] = 3
 global.CardInClan[CardStat] = 20
 }
+global.OrangeTokenAdd[CardStat] = 1
 global.PowerStat[CardStat] = 12000
 global.DefensePowerStat[CardStat] = 0
 
