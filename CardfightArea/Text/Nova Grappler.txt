@@ -5160,7 +5160,7 @@ global.DefensePowerStat[CardStat] = 5000
 
 CardStat = 8185
 {
-global.CardName[CardStat] = 'Extreme Battler, Arashid '
+global.CardName[CardStat] = 'Beast Deity, Lift Tauros'
 global.CardText[CardStat] = 'Nova Grappler/Battleroid
 
 [AUTO](RC):When placed during your main phase, you may [Stand] one of your units with "Beast Deity" in its card name.
