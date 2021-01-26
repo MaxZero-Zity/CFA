@@ -1,6 +1,6 @@
 n = x
 
-global.AllCard = 8182
+global.AllCard = 8185
 global.Versia = 330
 
 CardStat = 1
