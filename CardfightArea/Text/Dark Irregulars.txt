@@ -4113,10 +4113,10 @@ global.CardText[CardStat] = 'Dark Irregulars/Demon
 
 [AUTO](VC):At the beginning of your battle phase, COST [Counter Blast (1)], draw a card, and your opponent chooses one of the following effects for every five cards in your soul. You perform the chosen effects in any order. (Each effect can only be chosen once)
 
-• All of your front row units get [Critical]+1 until end of turn.
-• Your opponents vanguards [Power] increases or decreases to 1 until end of turn.
-• All of your opponents [AUTO] abilities do not activate until end of turn.
-• Your opponent chooses a card from his or her hand, and puts it into his or her damage zone face down.'
+- All of your front row units get [Critical]+1 until end of turn.
+- Your opponents vanguards [Power] increases or decreases to 1 until end of turn.
+- All of your opponents [AUTO] abilities do not activate until end of turn.
+- Your opponent chooses a card from his or her hand, and puts it into his or her damage zone face down.'
 global.UnitGrade[CardStat] = 3
 global.CardInClan[CardStat] = 11
 }
