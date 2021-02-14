@@ -3729,3 +3729,60 @@ global.CardInClan[CardStat] = 16
 }
 global.PowerStat[CardStat] = 8000
 global.DefensePowerStat[CardStat] = 10000
+
+CardStat = 8144
+{
+global.CardName[CardStat] = 'Sephilath-aider, Shin Malkuth-melekh'
+global.CardText[CardStat] = 'Angel Feather/ангельский робот/Единое святилище
+
+АВТО: когда эта карта раскрывается при проверке урона, если у Вас в авангарде находится Arch-aider, Malkuth-melekh, заплатите цену [скиньте одну карту у себя из руки] и сделайте смену на эту карту в стоячем положении.
+
+ПРОДОЛЖИТЕЛЬНЫЙ [Авангард]: во время Вашего хода, если на Ваших кругах находятся как минимум два маркера Щита, сила всех Ваших воинов в переднем ряду увеличивается на 10,000.
+
+ПРОДОЛЖИТЕЛЬНЫЙ [Авангард]: все Ваши арьергарды, находящиеся в кругах с маркером Щита, не могут быть убраны с поля способностями карт любого игрока.'
+global.UnitGrade[CardStat] = 3
+global.CardInClan[CardStat] = 16
+}
+global.GreenTokenAdd[CardStat] = 1
+global.PowerStat[CardStat] = 12000
+global.DefensePowerStat[CardStat] = 0
+
+
+CardStat = 8145
+{
+global.CardName[CardStat] = 'Holy Road Angel'
+global.CardText[CardStat] = 'Angel Feather/ангел/Единое святилище
+
+АВТО [Авангард/арьергард]: при помещении, посмотрите на семь верхних карт своей колоды, раскройте среди них до одной карты, в имени которой содержится «Malkuth-melekh», возьмите раскрытую карту себе в руку, перемешайте свою колоду, раскройте у себя в руке до одного обычного воина и поместите его на верх своей колоды. Эта способность может быть использована картой с таким именем лишь раз за ход.'
+global.UnitGrade[CardStat] = 2
+global.CardInClan[CardStat] = 16
+}
+global.PowerStat[CardStat] = 9000
+global.DefensePowerStat[CardStat] = 5000
+
+
+CardStat = 8146
+{
+global.CardName[CardStat] = 'Persistence Angel'
+global.CardText[CardStat] = 'Angel Feather/ангел/Единое святилище
+
+АКТ [Арьергард] [Один раз за ход]: заплатите цену [Взрыв души 1], возьмите одну карту из колоды, скиньте одну карту у себя из руки и поместите у себя с кладбища на верх своей колоды до одной карты, в имени которой содержится «Malkuth-melekh».'
+global.UnitGrade[CardStat] = 1
+global.CardInClan[CardStat] = 16
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 10000
+
+CardStat = 8188
+{
+global.CardName[CardStat] = 'Cure Basket Angel'
+global.CardText[CardStat] = 'Angel Feather/ангел/Единое святилище
+
+АВТО [Авангард]: при помещении, заплатите цену [скиньте одну карту у себя из руки] и возьмите одну карту из колоды.
+
+АВТО [Арьергард]: в начале боевой фазы оппонента, заплатите цену [поместите этого воина в свою душу], выберите двух своих арьергардов 1го или выше ранга и до конца хода они приобретают способность перехвата и могут перехватывать из заднего ряда.'
+global.UnitGrade[CardStat] = 1
+global.CardInClan[CardStat] = 16
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 10000

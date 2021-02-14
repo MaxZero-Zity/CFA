@@ -3207,3 +3207,46 @@ global.CardInClan[CardStat] = 17
 }
 global.PowerStat[CardStat] = 8000
 global.DefensePowerStat[CardStat] = 10000
+
+CardStat = 8175
+{
+global.CardName[CardStat] = 'Light Battle Dragon, Gigannoblazer'
+global.CardText[CardStat] = 'Tachikaze/дино-дракон/Империя драконов/дар воображения: Ускорение
+
+ПРОДОЛЖИТЕЛЬНЫЙ [Авангард]: во время Вашего хода, если во время этого хода под Ваших воинов были помещены как минимум три новых боеприпаса, сила всех Ваших воинов в переднем ряду увеличивается на 5,000.
+
+АКТ [Авангард] [Один раз за ход]: заплатите цену [Встречный взрыв 1 & Взрыв души 1], возьмите две карты из колоды и призовите две карты из своей руки в арьергард. Поместите до одной верхней карты своей колоды под каждого того призванного воина в закрытом положении в качестве боеприпаса.'
+global.UnitGrade[CardStat] = 3
+global.CardInClan[CardStat] = 17
+}
+global.OrangeTokenAdd[CardStat] = 1
+global.PowerStat[CardStat] = 12000
+global.DefensePowerStat[CardStat] = 0
+
+
+CardStat = 8176
+{
+global.CardName[CardStat] = 'Blackmail Dragon, Spinoextort'
+global.CardText[CardStat] = 'Tachikaze/дино-дракон/Империя драконов
+
+АВТО [Авангард/арьергард]: когда этот воин атакует авангард, заплатите цену [Встречный взрыв 1 & уберите другого своего арьергарда с поля], возьмите одну карту из колоды и призовите к себе в арьергард до одного боеприпаса, который находился на воине, убранном с поля в качестве платы за способность этого воина. Поместите верхнюю карту своей колоды под призванного воина в закрытом положении в качестве боеприпаса.'
+global.UnitGrade[CardStat] = 2
+global.CardInClan[CardStat] = 17
+}
+global.PowerStat[CardStat] = 9000
+global.DefensePowerStat[CardStat] = 5000
+
+
+CardStat = 8177
+{
+global.CardName[CardStat] = 'Savage Shooter'
+global.CardText[CardStat] = 'Tachikaze/человек/Империя драконов
+
+АВТО [Авангард]: при помещении, заплатите цену [Взрыв души 1], возьмите одну карту из своей колоды и призовите одну карту из своей руки в арьергард. Поместите верхнюю карту своей колоды под призванного воина в закрытом положении в качестве боеприпаса.
+
+АКТ [Арьергард]: заплатите цену [отправьте этого воина на отдых] и поместите одну карту у себя с кладбища под одного своего воина, не имеющего боеприпасов, в закрытом положении в качестве боеприпаса.'
+global.UnitGrade[CardStat] = 1
+global.CardInClan[CardStat] = 17
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 10000

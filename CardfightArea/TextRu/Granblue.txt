@@ -3901,3 +3901,50 @@ global.UnitGrade[CardStat] = 0
 global.CardInClan[CardStat] = 8
 }
 global.PowerStat[CardStat] = 5000
+
+CardStat = 8181
+{
+global.CardName[CardStat] = 'Ghostie Leader, Beatrice'
+global.CardText[CardStat] = 'Granblue/демон/Магалланика/дар воображения: Щит
+
+АВТО [Авангард/арьергард]: при помещении, заплатите цену [Взрыв души 1] и призовите со своего кладбища в арьергард одну карту, за исключением Ghostie Leader, Beatrice.
+
+ПРОДОЛЖИТЕЛЬНЫЙ [Авангард]: все Ваши воины, находящиеся в арьергарде или в кругу защиты, в именах которых содержится «Ghostie», приобретают способность перехвата, а их сила и защита увеличиваются на 5,000.
+
+АВТО [Авангард]: во время Вашего хода, когда Ваш арьергард убирается с поля способностью карты, заплатите цену [Встречный взрыв 1] и призовите у себя с кладбища в арьергард одного воина, в имени которого содержится «Ghostie» и чей ранг ниже ранга воина, убранного ранее с поля.'
+global.UnitGrade[CardStat] = 3
+global.CardInClan[CardStat] = 8
+}
+global.GreenTokenAdd[CardStat] = 1
+global.PowerStat[CardStat] = 12000
+global.DefensePowerStat[CardStat] = 0
+
+
+CardStat = 8182
+{
+global.CardName[CardStat] = 'Jessie the Ghostie'
+global.CardText[CardStat] = 'Granblue/призрак/Магалланика
+
+АКТ [Кладбище]: заплатите цену [уберите у себя с поля двух арьергардов, за исключением Jessie the Ghostie] и призовите эту карту в арьергард. Эта способность может быть использована картой с таким именем лишь раз за ход.
+
+АВТО [Арьергард]: когда этот воин атакует, до конца боя его сила увеличивается на 5,000. В конце боя уберите этого воина с поля и, если в этом ходу Вы ещё не активировали Заряд счётчика способностью Jessie the Ghostie, активируйте Заряд счётчика 1.'
+global.UnitGrade[CardStat] = 2
+global.CardInClan[CardStat] = 8
+}
+global.PowerStat[CardStat] = 9000
+global.DefensePowerStat[CardStat] = 5000
+
+
+CardStat = 8183
+{
+global.CardName[CardStat] = 'Damian the Ghostie'
+global.CardText[CardStat] = 'Granblue/призрак/Магалланика
+
+АВТО [Авангард/арьергард]: при помещении из руки, найдите у себя в колоде до одной карты, в имени которой содержится «Ghostie», поместите её на своё кладбище и перемешайте свою колоду.
+
+АВТО [Арьергард]: в конце битвы, в которой этот воин атаковал, если у Вашего авангарда в имени содержится «Ghostie», заплатите цену [уберите этого воина с поля] и, если в этом ходу Вы ещё не активировали Заряд счётчика способностью Damian the Ghostie, активируйте Заряд счётчика 1.'
+global.UnitGrade[CardStat] = 1
+global.CardInClan[CardStat] = 8
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 10000

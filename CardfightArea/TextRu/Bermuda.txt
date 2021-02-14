@@ -8018,3 +8018,48 @@ global.CardInClan[CardStat] = 13
 }
 global.PowerStat[CardStat] = 8000
 global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 8194
+{
+global.CardName[CardStat] = 'Legendary PR<3ISM-Duo, Nectaria '
+global.CardText[CardStat] = 'Bermuda Triangle/русалка/Магалланика/дар воображения: Мощь
+
+АКТ [Рука]: заплатите цену [ограничьте эту карту], найдите у себя в колоде до одного обычного воина, ограничьте его и перемешайте свою колоду. Эта способность может быть использована картой с таким именем лишь раз за ход.
+
+ПРОДОЛЖИТЕЛЬНЫЙ [Авангард/арьергард]: во время Вашего хода, если у Вас в зоне ограничений находится воин с таким же именем, как у данного воина, сила этого воина увеличивается на 10,000 и, если данный воин находится в авангарде, его критический удар и проверка эффектов увеличиваются на один.'
+global.UnitGrade[CardStat] = 4
+global.CardInClan[CardStat] = 13
+}
+global.BlueTokenAdd[CardStat] = 1
+global.PowerStat[CardStat] = 14000
+global.DefensePowerStat[CardStat] = 0
+
+
+CardStat = 8195
+{
+global.CardName[CardStat] = 'Noir Fixer, Hilda'
+global.CardText[CardStat] = 'Bermuda Triangle/русалка/Магалланика
+
+ПРОДОЛЖИТЕЛЬНЫЙ [Арьергард]: если у Вашего авангарда как минимум 3ий ранг, этот воин приобретает способность поддержки.
+
+АВТО [Арьергард] [Один раз за ход]: во время Вашей боевой фазы, когда помещается Ваш воин 3го или выше ранга, если этот воин находится в Вашем заднем ряду, Вы можете поднять данного воина.'
+global.UnitGrade[CardStat] = 2
+global.CardInClan[CardStat] = 13
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+
+CardStat = 8196
+{
+global.CardName[CardStat] = 'Innocence, Mernil'
+global.CardText[CardStat] = 'Bermuda Triangle/русалка/Магалланика
+
+АВТО [Авангард/арьергард]: при помещении, заплатите цену [раскройте одного обычного воина у себя в руке и поместите его в низ своей колоды] и возьмите одну карту из колоды.
+
+АВТО [Арьергард] [Один раз за ход]: во время Вашей боевой фазы, когда помещается Ваш воин 3го или выше ранга, если этот воин находится в Вашем заднем ряду, Вы можете до конца хода увеличить силу одного своего авангарда на 10,000.'
+global.UnitGrade[CardStat] = 1
+global.CardInClan[CardStat] = 13
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 10000

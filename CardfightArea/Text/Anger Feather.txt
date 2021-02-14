@@ -3762,16 +3762,16 @@ global.CardInClan[CardStat] = 16
 global.PowerStat[CardStat] = 8000
 global.DefensePowerStat[CardStat] = 10000
 
-CardStat = 8147
+CardStat = 8144
 {
 global.CardName[CardStat] = 'Sephilath-aider, Shin Malkuth-melekh'
-global.CardText[CardStat] = 'Angel Feather/Angeloid
+global.CardText[CardStat] = 'Angel Feather/Angelroid
 
-[AUTO]:When revealed for a damage check, if your vanguard is "Arch-aider, Malkuth-melekh", COST [discard a card from your hand], and ride this card as [Stand].
+AUTO: When revealed for a damage check, if your vanguard is "Arch-aider, Malkuth-melekh", COST [discard a card from your hand], and ride this card as stand.
 
-[CONT](VC):During your turn, if you have two or more protect markers on your circles, all of your front row units get [Power]+10000.
+CONT [V]: During your turn, if you have two or more protect markers on your circles, all of your front row units get power +10000.
 
-[CONT](VC):All of your units on (RC) with a protect marker cannot be retired by any players card effects'
+CONT [V]: All of your units on R with a protect marker cannot be retired by any players card effects.'
 global.UnitGrade[CardStat] = 3
 global.CardInClan[CardStat] = 16
 }
@@ -3779,24 +3779,40 @@ global.GreenTokenAdd[CardStat] = 1
 global.PowerStat[CardStat] = 12000
 global.DefensePowerStat[CardStat] = 0
 
-CardStat = 8148
+
+CardStat = 8145
 {
 global.CardName[CardStat] = 'Holy Road Angel'
 global.CardText[CardStat] = 'Angel Feather/Angel
 
-[AUTO](VC/RC):When placed, look at seven cards from the top of your deck, reveal up to one card with "Malkuth-melekh" in its card name from among them and put it into your hand, shuffle your deck, reveal up to one normal unit from your hand, and put it on the top of your deck. This ability may only be used by a card with the same card name once a turn.'
+AUTO [V/R]: When placed, look at seven cards from the top of your deck, reveal up to one card with "Malkuth-melekh" in its card name from among them and put it into your hand, shuffle your deck, reveal up to one normal unit from your hand, and put it on the top of your deck. This ability may only be used by a card with the same card name once a turn.'
 global.UnitGrade[CardStat] = 2
 global.CardInClan[CardStat] = 16
 }
 global.PowerStat[CardStat] = 9000
 global.DefensePowerStat[CardStat] = 5000
 
-CardStat = 8149
+
+CardStat = 8146
 {
 global.CardName[CardStat] = 'Persistence Angel'
 global.CardText[CardStat] = 'Angel Feather/Angel
 
-[ACT](RC)1/Turn:COST [Soul Blast (1)], draw a card, discard a card from your hand, and put up to one card with "Malkuth-melekh" in its card name from your drop zone on the top of your deck.'
+ACT [R] 1/Turn: COST [Soul Blast 1], draw a card, discard a card from your hand, and put up to one card with "Malkuth-melekh" in its card name from your drop zone on the top of your deck.'
+global.UnitGrade[CardStat] = 1
+global.CardInClan[CardStat] = 16
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 10000
+
+CardStat = 8188
+{
+global.CardName[CardStat] = 'Cure Basket Angel'
+global.CardText[CardStat] = 'Angel Feather/Angel
+
+AUTO [V]: When placed, COST [discard a card from your hand], and draw a card.
+
+AUTO [R]: At the beginning of your opponents battle phase, COST [put this unit into your soul], choose two of your grade 1 or greater rear-guards, until end of turn, they get "Intercept", and can intercept from the back row.'
 global.UnitGrade[CardStat] = 1
 global.CardInClan[CardStat] = 16
 }

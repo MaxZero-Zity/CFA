@@ -1,7 +1,7 @@
 n = x
 
-global.AllCard = 8188
-global.Versia = 330
+global.AllCard = 8219
+global.Versia = 331
 
 CardStat = 1
 {

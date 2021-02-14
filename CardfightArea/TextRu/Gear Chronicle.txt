@@ -5840,3 +5840,45 @@ global.CardInClan[CardStat] = 26
 }
 global.PowerStat[CardStat] = 5000
 global.DefensePowerStat[CardStat] = 10000
+
+CardStat = 8138
+{
+global.CardName[CardStat] = 'Interdimensional Dragon, Time Leaper Dragon'
+global.CardText[CardStat] = 'Gear Chronicle/механический дракон/Зона тьмы
+
+АВТО [Авангард]: когда этот воин атакует авангард, заплатите цену [поместите одного своего арьергарда в низ своей колоды], найдите у себя в колоде до одной карты, ранг которой на один выше ранга воина, помещённого в низ колоды в качестве платы за способность данного воина, призовите его в арьергард, перемешайте свою колоду и до конца хода сила призванного воина увеличивается на 10,000.'
+global.UnitGrade[CardStat] = 4
+global.CardInClan[CardStat] = 26
+}
+global.PowerStat[CardStat] = 15000
+global.DefensePowerStat[CardStat] = 0
+
+
+CardStat = 8139
+{
+global.CardName[CardStat] = 'Steam Gunner, Zayd'
+global.CardText[CardStat] = 'Gear Chronicle/механический робот/Зона тьмы
+
+АВТО [Авангард/арьергард]: при помещении, заплатите цену [Взрыв души 1 & скиньте одну карту у себя из руки], возьмите одну карту из колоды, выберите одного арьергарда оппонента, чей ранг равен или ниже ранга карты, скинутой Вами из руки за способность этого воина, и уберите его с поля.
+
+АВТО [Арьергард]: когда этот воин атакует, если во время этого хода Вы сделали смену на воина 4го ранга, активируйте Заряд души 1.'
+global.UnitGrade[CardStat] = 2
+global.CardInClan[CardStat] = 26
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+
+CardStat = 8140
+{
+global.CardName[CardStat] = 'Lost Gear Dog, Eight'
+global.CardText[CardStat] = 'Gear Chronicle/механический зверь/Зона тьмы
+
+АВТО [Авангард/арьергард]: при помещении из руки, заплатите цену [раскройте у себя в руке одну карту 3го или выше ранга], найдите у себя в колоде до одной карты 3го ранга, раскройте её, возьмите её в руку, перемешайте свою колоду и, если Вы взяли карту в руку, выберите у себя в руке как минимум одну карту, чтобы суммарный ранг выбранных карт был равен как минимум трём, и скиньте их.
+
+ПРОДОЛЖИТЕЛЬНЫЙ [Рука]: когда эта карта должна быть скинута, она может быть скинута в качестве карты 3го ранга.'
+global.UnitGrade[CardStat] = 1
+global.CardInClan[CardStat] = 26
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 10000

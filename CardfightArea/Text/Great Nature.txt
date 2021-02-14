@@ -7,7 +7,7 @@ global.CardText[CardStat] = 'Great Nature/High Beast/Zoo
 
 AUTO: Pioneer (when another unit from the same clan rides this unit, you may call this card to Rear-guard circle.)
 
-ACT [R]: [Counter Blast 1 & Put this unit into your soul] Look at up to five cards from the top of your deck, search for up to one grade 3 or greater ï¿½Great Natureï¿½ from among them, reveal it to your opponent, put it into your hand, and shuffle your deck.'
+ACT [R]: [Counter Blast 1 & Put this unit into your soul] Look at up to five cards from the top of your deck, search for up to one grade 3 or greater «Great Nature» from among them, reveal it to your opponent, put it into your hand, and shuffle your deck.'
 }
 
 CardStat = x+1
@@ -21,9 +21,9 @@ CardStat = x+2
 global.CardName[CardStat] = 'Blackboard Parrot'
 global.CardText[CardStat] = 'Great Nature/High Beast/Zoo
 
-AUTO: When another ï¿½Great Natureï¿½ rides this unit, you may call this card to Rear-guard circle.
+AUTO: When another «Great Nature» rides this unit, you may call this card to Rear-guard circle.
 
-ACT [R]: [Put this unit into your soul] Choose one of your ï¿½Great Natureï¿½ Rear-guards and that unit gets "AUTO: During your end phase, when this unit is put into the drop zone from Rear-guard Circle, draw a card" until end of turn.'
+ACT [R]: [Put this unit into your soul] Choose one of your «Great Nature» Rear-guards and that unit gets "AUTO: During your end phase, when this unit is put into the drop zone from Rear-guard Circle, draw a card" until end of turn.'
 }
 
 CardStat = x+3
@@ -47,7 +47,7 @@ global.CardText[CardStat] = 'Great Nature/High Beast/Zoo
 
 AUTO: Pioneer (when another unit from the same clan rides this unit, you may call this card to Rear-guard circle.)
 
-ACT [R]: [Counter Blast 2] Choose one of your ï¿½Great Natureï¿½ Rear-guards and that unit gets Power +4000 until end of turn, and at the beginning of the end phase of that turn, retire that unit.'
+ACT [R]: [Counter Blast 2] Choose one of your «Great Nature» Rear-guards and that unit gets Power +4000 until end of turn, and at the beginning of the end phase of that turn, retire that unit.'
 }
 
 CardStat = x+6
@@ -61,7 +61,7 @@ CardStat = x+7
 global.CardName[CardStat] = 'Intelli-mouse'
 global.CardText[CardStat] = 'Great Nature/High Beast/Zoo
 
-ACT [R]: [Rest this Unit] Choose 1 of your ï¿½Great Natureï¿½ Rear-guards and for that turn it gains +4000 power, at the start of the end phase, retire that unit.'
+ACT [R]: [Rest this Unit] Choose 1 of your «Great Nature» Rear-guards and for that turn it gains +4000 power, at the start of the end phase, retire that unit.'
 }
 
 CardStat = x+8
@@ -69,7 +69,7 @@ CardStat = x+8
 global.CardName[CardStat] = 'Ruler Chameleon'
 global.CardText[CardStat] = 'Great Nature/High Beast/Zoo/Critical Trigger
 
-AUTO: [Counter Blast 1] During your end phase, when this unit is put into the drop zone from Rear-guard circle, if you have a ï¿½Great Natureï¿½ Vanguard, you may pay the cost. If you do, search your deck for up to one card name "Ruler Chameleon", reveal it to your opponent, put it into your hand, and shuffle your deck.'
+AUTO: [Counter Blast 1] During your end phase, when this unit is put into the drop zone from Rear-guard circle, if you have a «Great Nature» Vanguard, you may pay the cost. If you do, search your deck for up to one card name "Ruler Chameleon", reveal it to your opponent, put it into your hand, and shuffle your deck.'
 }
 
 CardStat = x+9
@@ -79,7 +79,7 @@ global.CardText[CardStat] = 'Great Nature/High Beast/Zoo
 
 AUTO: When a card name "Bringer of Knowledge, Lox" rides this unit, look at up to seven cards from the top of your deck, search for up to one card name "Guardian of Truth, Lox" or "Law Official, Lox" from among them, reveal it to your opponent, put it into your hand, and shuffle your deck.
 
-AUTO: When a ï¿½Great Natureï¿½ other than a card name "Bringer of Knowledge, Lox" rides this unit, you may call this card to Rear-guard circle.'
+AUTO: When a «Great Nature» other than a card name "Bringer of Knowledge, Lox" rides this unit, you may call this card to Rear-guard circle.'
 }
 
 CardStat = x+10
@@ -95,7 +95,7 @@ global.CardText[CardStat] = 'Great Nature/High Beast/Zoo
 
 CONT [V]: If you have a card name "Schoolyard Prodigy, Lox" in your soul, this unit gets Power +1000.
 
-AUTO: When a card name "Law Official, Lox" rides this unit, if you have a card name "Schoolyard Prodigy, Lox" in your soul, choose up to two of your ï¿½Great Natureï¿½ Rear-guards and those units gets "AUTO: during your end phase, when this unit is put into the drop zone from Rear-guard circle, draw a card" until end of turn.'
+AUTO: When a card name "Law Official, Lox" rides this unit, if you have a card name "Schoolyard Prodigy, Lox" in your soul, choose up to two of your “Great Nature» Rear-guards and those units gets "AUTO: during your end phase, when this unit is put into the drop zone from Rear-guard circle, draw a card" until end of turn.'
 }
 
 CardStat = x+12
@@ -103,14 +103,14 @@ CardStat = x+12
 global.CardName[CardStat] = 'Cable Sheep'
 global.CardText[CardStat] = 'Great Nature/High Beast/Zoo
 
-AUTO: [Choose a ï¿½Great Natureï¿½ from your hand and discard it] When this unit is placed on Guardian circle, you may pay the cost. If you do, choose one of your ï¿½Great Natureï¿½ and that unit cannot be hit until end of that battle.'
+AUTO: [Choose a «Great Nature» from your hand and discard it] When this unit is placed on Guardian circle, you may pay the cost. If you do, choose one of your «Great Nature» and that unit cannot be hit until end of that battle.'
 }
 CardStat = x+13
 {
 global.CardName[CardStat] = 'Element Glider'
 global.CardText[CardStat] = 'Great Nature/High Beast/Zoo
 
-AUTO [R]: When an attack hits a Vanguard during the battle that this unit boosted a ï¿½Great Natureï¿½, you may return this unit to your hand.'
+AUTO [R]: When an attack hits a Vanguard during the battle that this unit boosted a «Great Nature», you may return this unit to your hand.'
 }
 
 CardStat = x+14
@@ -118,7 +118,7 @@ CardStat = x+14
 global.CardName[CardStat] = 'Failure Scientist, Ponkichi'
 global.CardText[CardStat] = 'Great Nature/High Beast/Zoo
 
-AUTO: [Counter Blast 1] When this unit is placed on Vanguard or Rear-guard circle, if you have a ï¿½Great Natureï¿½ Vanguard, you may pay the cost. If you do, put the top card of your deck into your damage zone and at the beginning of the end phase of that turn, choose a card from your damage zone, return it to your deck, and shuffle your deck.'
+AUTO: [Counter Blast 1] When this unit is placed on Vanguard or Rear-guard circle, if you have a «Great Nature» Vanguard, you may pay the cost. If you do, put the top card of your deck into your damage zone and at the beginning of the end phase of that turn, choose a card from your damage zone, return it to your deck, and shuffle your deck.'
 }
 
 CardStat = x+15
@@ -142,7 +142,7 @@ CardStat = x+17
 global.CardName[CardStat] = 'Loop-the-Loop, Duckbill'
 global.CardText[CardStat] = 'Great Nature/High Beast/Zoo
 
-AUTO: During your main phase, when this unit is placed on Rear-guard circle, choose another of your ï¿½Great Natureï¿½ Rear-guards and until end of turn, that unit gets "AUTO: During the end phase, if this card is placed on the drop zone, draw a card."'
+AUTO: During your main phase, when this unit is placed on Rear-guard circle, choose another of your «Great Nature» Rear-guards and until end of turn, that unit gets "AUTO: During the end phase, if this card is placed on the drop zone, draw a card."'
 }
 
 CardStat = x+18
@@ -150,7 +150,7 @@ CardStat = x+18
 global.CardName[CardStat] = 'Monoculus Tiger'
 global.CardText[CardStat] = 'Great Nature/High Beast/Zoo
 
-AUTO [V/R]: When this unit attacks a Vanguard, choose another of your ï¿½Great Natureï¿½ Rear-guards and that unit may get power +4000 until end of turn. Once it gets power +4000, at the beginning of the end phase of that turn, retire that unit.'
+AUTO [V/R]: When this unit attacks a Vanguard, choose another of your «Great Nature» Rear-guards and that unit may get power +4000 until end of turn. Once it gets power +4000, at the beginning of the end phase of that turn, retire that unit.'
 }
 
 CardStat = x+19
@@ -158,7 +158,7 @@ CardStat = x+19
 global.CardName[CardStat] = 'Pencil Squire, Hammsuke'
 global.CardText[CardStat] = 'Great Nature/High Beast/Zoo
 
-AUTO: [Counter Blast 1] During your end phase, when this unit is put into the drop zone from Rear-guard circle, if you have a ï¿½Great Natureï¿½ Vanguard, you may pay the cost. If you do, search your deck for up to one card name "Pencil Squire, Hammsuke", reveal it to your opponent, put it into your hand, and shuffle your deck.'
+AUTO: [Counter Blast 1] During your end phase, when this unit is put into the drop zone from Rear-guard circle, if you have a «Great Nature» Vanguard, you may pay the cost. If you do, search your deck for up to one card name "Pencil Squire, Hammsuke", reveal it to your opponent, put it into your hand, and shuffle your deck.'
 }
 
 CardStat = x+20
@@ -172,7 +172,7 @@ CardStat = x+21
 global.CardName[CardStat] = 'Stamp Sea Otter'
 global.CardText[CardStat] = 'Great Nature/High Beast/Zoo
 
-CONT [R]: As long as you have a ï¿½Great Natureï¿½ Vanguard, this card cannot be retired by any other card effects.'
+CONT [R]: As long as you have a «Great Nature» Vanguard, this card cannot be retired by any other card effects.'
 }
 
 CardStat = x+22
@@ -180,7 +180,7 @@ CardStat = x+22
 global.CardName[CardStat] = 'Tank Mouse'
 global.CardText[CardStat] = 'Great Nature/High Beast/Zoo
 
-ACT [R]: [Rest this unit] Choose one of your ï¿½Great Natureï¿½ Rear-guards and that unit gets power +4000 until end of turn, and at the beginning of the end phase of that turn, retire it.'
+ACT [R]: [Rest this unit] Choose one of your «Great Nature» Rear-guards and that unit gets power +4000 until end of turn, and at the beginning of the end phase of that turn, retire it.'
 }
 
 CardStat = x+23
@@ -188,7 +188,7 @@ CardStat = x+23
 global.CardName[CardStat] = 'Thermometer Giraffe'
 global.CardText[CardStat] = 'Great Nature/High Beast/Zoo
 
-AUTO [R]: When this unit boosts a ï¿½Great Natureï¿½ Vanguard, if the number of cards fac- up in your opponents damage zone is two or more, the boosted unit gets power +4000 until end of that battle.'
+AUTO [R]: When this unit boosts a «Great Nature» Vanguard, if the number of cards fac- up in your opponents damage zone is two or more, the boosted unit gets power +4000 until end of that battle.'
 }
 
 CardStat = x+24
@@ -204,7 +204,7 @@ CardStat = x+25
 global.CardName[CardStat] = 'Tic-Toc Flamingo'
 global.CardText[CardStat] = 'Great Nature/High Beast/Zoo
 
-AUTO: During your main phase, when this unit is placed on Rear-guard circle, choose another of your ï¿½Great Natureï¿½ Rear-guards and until end of turn, that unit gets "AUTO: During your end phase, when this unit is put into the drop zone from Rear-guard circle, choose up to one card from your damage zone, and turn it face-up."'
+AUTO: During your main phase, when this unit is placed on Rear-guard circle, choose another of your «Great Nature» Rear-guards and until end of turn, that unit gets "AUTO: During your end phase, when this unit is put into the drop zone from Rear-guard circle, choose up to one card from your damage zone, and turn it face-up."'
 }
 
 CardStat = x+26
@@ -212,7 +212,7 @@ CardStat = x+26
 global.CardName[CardStat] = 'Beaker Holstein'
 global.CardText[CardStat] = 'Great Nature/High Beast/Zoo
 
-AUTO: When this unit is placed on Rear-guard circle, choose another of your ï¿½Great Natureï¿½ and that unit gets power +2000 until end of turn.'
+AUTO: When this unit is placed on Rear-guard circle, choose another of your «Great Nature» and that unit gets power +2000 until end of turn.'
 }
 
 CardStat = x+27
@@ -220,7 +220,7 @@ CardStat = x+27
 global.CardName[CardStat] = 'Binoculus Tiger'
 global.CardText[CardStat] = 'Great Nature/High Beast/Zoo
 
-AUTO [V/R]: When this unit attacks a Vanguard, choose another of your ï¿½Great Natureï¿½ Rear-guards and that unit may get power +4000 until end of turn. Once it gets power +4000, at the beginning of the end phase of that turn, retire that unit.'
+AUTO [V/R]: When this unit attacks a Vanguard, choose another of your «Great Nature» Rear-guards and that unit may get power +4000 until end of turn. Once it gets power +4000, at the beginning of the end phase of that turn, retire that unit.'
 }
 
 CardStat = x+28
@@ -228,7 +228,7 @@ CardStat = x+28
 global.CardName[CardStat] = 'Canvas Koala'
 global.CardText[CardStat] = 'Great Nature/High Beast/Zoo
 
-AUTO [V/R]: When this units attack hits a Vanguard, if you have four or more other ï¿½Great Natureï¿½ Rear-guards, draw a card.'
+AUTO [V/R]: When this units attack hits a Vanguard, if you have four or more other «Great Nature» Rear-guards, draw a card.'
 }
 
 CardStat = x+29
@@ -245,7 +245,7 @@ CardStat = x+30
 global.CardName[CardStat] = 'Explosion Scientist, Bunta'
 global.CardText[CardStat] = 'Great Nature/High Beast/Zoo
 
-AUTO: [Counter Blast 1] When this unit is placed on Vanguard or Rear-guard circle, if you have a ï¿½Great Natureï¿½ Vanguard, you may pay the cost. If you do, put the top card of your deck into your damage zone, and at the beginning of the end phase of that turn, choose a card from your damage zone, return it to your deck, and shuffle your deck.'
+AUTO: [Counter Blast 1] When this unit is placed on Vanguard or Rear-guard circle, if you have a «Great Nature» Vanguard, you may pay the cost. If you do, put the top card of your deck into your damage zone, and at the beginning of the end phase of that turn, choose a card from your damage zone, return it to your deck, and shuffle your deck.'
 }
 
 CardStat = x+31
@@ -259,7 +259,7 @@ CardStat = x+32
 global.CardName[CardStat] = 'Globe Armadillo'
 global.CardText[CardStat] = 'Great Nature/High Beast/Zoo
 
-AUTO: When this unit intercepts, if you have a ï¿½Great Natureï¿½ Vanguard, this unit gets shield +5000 until end of that battle.'
+AUTO: When this unit intercepts, if you have a «Great Nature» Vanguard, this unit gets shield +5000 until end of that battle.'
 }
 
 CardStat = x+33
@@ -267,7 +267,7 @@ CardStat = x+33
 global.CardName[CardStat] = 'Lamp Camel'
 global.CardText[CardStat] = 'Great Nature/High Beast/Zoo
 
-AUTO [V/R]: [Counter Blast 2] When this units attack hits, if you have a ï¿½Great Natureï¿½ Vanguard, you may pay the cost. If you do, draw a card.'
+AUTO [V/R]: [Counter Blast 2] When this units attack hits, if you have a «Great Nature» Vanguard, you may pay the cost. If you do, draw a card.'
 }
 
 CardStat = x+34
@@ -277,7 +277,7 @@ global.CardText[CardStat] = 'Great Nature/High Beast/Zoo
 
 CONT [V]: If you have a card name "Bringer of Knowledge, Lox" in your soul, this unit gets power +1000.
 
-AUTO: When a card name "Guardian of Truth, Lox" rides this unit, if you have a card name "Bringer of Knowledge, Lox" in your soul, choose up to two of your ï¿½Great Natureï¿½ Rear-guards and those units gets "AUTO: during your end phase, when this unit is put into the drop zone from Rear-guard circle, draw a card" until end of turn.'
+AUTO: When a card name "Guardian of Truth, Lox" rides this unit, if you have a card name "Bringer of Knowledge, Lox" in your soul, choose up to two of your «Great Nature» Rear-guards and those units gets "AUTO: during your end phase, when this unit is put into the drop zone from Rear-guard circle, draw a card" until end of turn.'
 }
 
 CardStat = x+35
@@ -293,7 +293,7 @@ CardStat = x+36
 global.CardName[CardStat] = 'Pencil Knight, Hammsuke'
 global.CardText[CardStat] = 'Great Nature/High Beast/Zoo
 
-AUTO: [Counter Blast 1] During your end phase, when this unit is put into the drop zone from Rear-guard circle, if you have a ï¿½Great Natureï¿½ Vanguard, you may pay the cost. If you do, search your deck for up to one card name "Pencil Knight, Hammsuke", reveal it to your opponent, put it into your hand, and shuffle your deck.'
+AUTO: [Counter Blast 1] During your end phase, when this unit is put into the drop zone from Rear-guard circle, if you have a «Great Nature» Vanguard, you may pay the cost. If you do, search your deck for up to one card name "Pencil Knight, Hammsuke", reveal it to your opponent, put it into your hand, and shuffle your deck.'
 }
 
 CardStat = x+37
@@ -311,9 +311,9 @@ CardStat = x+38
 global.CardName[CardStat] = 'Armed Instructor, Bison'
 global.CardText[CardStat] = 'Great Nature/High Beast/Zoo
 
-AUTO [V]: Limit Break 4 (This ability is active if you have four or more damage): during your end phase, when one of your ï¿½Great Natureï¿½ Rear-guards is put into the drop zone, choose up to two cards from your damage zone and turn them face-up.
+AUTO [V]: Limit Break 4 (This ability is active if you have four or more damage): during your end phase, when one of your «Great Nature» Rear-guards is put into the drop zone, choose up to two cards from your damage zone and turn them face-up.
 
-ACT [V]: [Counter Blast 2] Choose one of your ï¿½Great Natureï¿½ Rear-guards and that unit gets power +4000 until end of turn, and at the beginning of the end phase of that turn, retire that unit.'
+ACT [V]: [Counter Blast 2] Choose one of your «Great Nature» Rear-guards and that unit gets power +4000 until end of turn, and at the beginning of the end phase of that turn, retire that unit.'
 }
 
 CardStat = x+39
@@ -321,7 +321,7 @@ CardStat = x+39
 global.CardName[CardStat] = 'Schoolbag Sea Lion'
 global.CardText[CardStat] = 'Great Nature/High Beast/Zoo
 
-AUTO [V]: When this units drive check reveals a grade 3 ï¿½Great Natureï¿½, this unit gets power +5000 until end of that battle.'
+AUTO [V]: When this units drive check reveals a grade 3 «Great Nature», this unit gets power +5000 until end of that battle.'
 }
 
 CardStat = x+40
@@ -329,7 +329,7 @@ CardStat = x+40
 global.CardName[CardStat] = 'Calculator Hippo'
 global.CardText[CardStat] = 'Great Nature/High Beast/Zoo
 
-AUTO [V/R]: When this unit is boosted by a ï¿½Great Natureï¿½, this unit gets power +2000 until end of that battle.'
+AUTO [V/R]: When this unit is boosted by a «Great Nature», this unit gets power +2000 until end of that battle.'
 }
 
 CardStat = x+41
@@ -337,9 +337,9 @@ CardStat = x+41
 global.CardName[CardStat] = 'Dumbbell Kangaroo'
 global.CardText[CardStat] = 'Great Nature/High Beast/Zoo
 
-AUTO [V]: [Counter Blast 2] When this units attack hits a Vanguard, you may pay the cost. If you do, choose one of your ï¿½Great Natureï¿½ Rear-guards and stand it.
+AUTO [V]: [Counter Blast 2] When this units attack hits a Vanguard, you may pay the cost. If you do, choose one of your «Great Nature» Rear-guards and stand it.
 
-AUTO [R]: [Counter Blast 2] When this units attack hits a Vanguard, you may pay the cost. If you do, choose one of your grade 1 or less ï¿½Great Natureï¿½ Rear-guards and stand it.'
+AUTO [R]: [Counter Blast 2] When this units attack hits a Vanguard, you may pay the cost. If you do, choose one of your grade 1 or less «Great Nature» Rear-guards and stand it.'
 }
 
 CardStat = x+42
@@ -349,7 +349,7 @@ global.CardText[CardStat] = 'Great Nature/High Beast/Zoo
 
 CONT [V]: If you have a card name "Law Official, Lox" in your soul, this unit gets power +1000.
 
-ACT [V]: [Counter Blast 2 & Choose a card name "Guardian of Truth, Lox" from your hand and discard it] Choose one of your ï¿½Great Natureï¿½ Rear-guards and that unit gets power +4000/Critical +1 until end of turn, and at the beginning of your end phase, retire that unit.'
+ACT [V]: [Counter Blast 2 & Choose a card name "Guardian of Truth, Lox" from your hand and discard it] Choose one of your «Great Nature» Rear-guards and that unit gets power +4000/Critical +1 until end of turn, and at the beginning of your end phase, retire that unit.'
 }
 
 CardStat = x+43
@@ -357,7 +357,7 @@ CardStat = x+43
 global.CardName[CardStat] = 'Magnet Crocodile'
 global.CardText[CardStat] = 'Great Nature/High Beast/Zoo
 
-AUTO [V/R]: When this unit attacks a Vanguard, if you have a ï¿½Great Natureï¿½ Vanguard, this unit gets power +2000 until end of that battle.'
+AUTO [V/R]: When this unit attacks a Vanguard, if you have a «Great Nature» Vanguard, this unit gets power +2000 until end of that battle.'
 }
 
 CardStat = x+44
@@ -365,7 +365,7 @@ CardStat = x+44
 global.CardName[CardStat] = 'Pencil Hero, Hammsuke'
 global.CardText[CardStat] = 'Great Nature/High Beast/Zoo
 
-AUTO: [Counter Blast 1] During your end phase, when this unit is put into the drop zone from Rear-guard circle, if you have a ï¿½Great Natureï¿½ Vanguard, you may pay the cost. If you do, search your deck for up to one card name "Pencil Hero, Hammsuke", reveal it to your opponent, put it into your hand, and shuffle your deck.'
+AUTO: [Counter Blast 1] During your end phase, when this unit is put into the drop zone from Rear-guard circle, if you have a «Great Nature» Vanguard, you may pay the cost. If you do, search your deck for up to one card name "Pencil Hero, Hammsuke", reveal it to your opponent, put it into your hand, and shuffle your deck.'
 }
 
 CardStat = x+45
@@ -375,7 +375,7 @@ global.CardText[CardStat] = 'Great Nature/High Beast/Zoo
 
 AUTO [V]: Limit Break 4 (This ability is active if you have four or more damage): When this unit attacks a Vanguard, this unit gets power +5000 until end of that battle.
 
-AUTO [V]: [Choose one of your ï¿½Great Natureï¿½ Rear-guards and retire it] When this units attack hits a Vanguard, you may pay the cost. If you do, choose up to one ï¿½Great Natureï¿½ from your hand and call it to Rear-guard circle.'
+AUTO [V]: [Choose one of your «Great Nature» Rear-guards and retire it] When this units attack hits a Vanguard, you may pay the cost. If you do, choose up to one «Great Nature» from your hand and call it to Rear-guard circle.'
 }
 
 CardStat = x+46
@@ -383,9 +383,9 @@ CardStat = x+46
 global.CardName[CardStat] = 'School Hunter, Leo-pald'
 global.CardText[CardStat] = 'Great Nature/High Beast/Zoo
 
-AUTO [V]: Limit Break 4 (This ability is active if you have four or more damage): [Counter Blast 1] During your end phase, when one of your ï¿½Great Natureï¿½ Rear-guards is put into the drop zone, you may pay the cost. If you do, call that card to an open Rear-guard circle.
+AUTO [V]: Limit Break 4 (This ability is active if you have four or more damage): [Counter Blast 1] During your end phase, when one of your «Great Nature» Rear-guards is put into the drop zone, you may pay the cost. If you do, call that card to an open Rear-guard circle.
 
-AUTO [V]: When this unit attacks a Vanguard, choose another of your ï¿½Great Natureï¿½ Rear-guards and you may have that unit get power +4000 until end of turn. If you do, at the beginning of your end phase, retire that unit.'
+AUTO [V]: When this unit attacks a Vanguard, choose another of your «Great Nature» Rear-guards and you may have that unit get power +4000 until end of turn. If you do, at the beginning of your end phase, retire that unit.'
 }
 
 CardStat = x+47
@@ -393,10 +393,10 @@ CardStat = x+47
 global.CardName[CardStat] = 'Scientist Monkey Rue'
 global.CardText[CardStat] = 'Great Nature/Warbeast/Zoo
 
-Activate [V/R]: [Counter Blast 2] Choose 1 of your ï¿½Great Natureï¿½ Rear-guards, during that turn, it gains +4000 power and at the start of that turns end phase retire that unit.'
+Activate [V/R]: [Counter Blast 2] Choose 1 of your «Great Nature» Rear-guards, during that turn, it gains +4000 power and at the start of that turns end phase retire that unit.'
 }
 
-//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+//îáíîâëåíèå
 
 x = 1019
  
@@ -405,7 +405,7 @@ CardStat = x+1
 global.CardName[CardStat] = 'Castanet Donkey'
 global.CardText[CardStat] = 'Great Nature/High Beast/Zoo/Draw Trigger
 
-ACT [R]: [Put this unit into your soul] Choose up to one of ï¿½Great Natureï¿½ and that unit gets power +3000 until end of turn.'
+ACT [R]: [Put this unit into your soul] Choose up to one of «Great Nature» and that unit gets power +3000 until end of turn.'
 }
  
 CardStat = x+2
@@ -415,7 +415,7 @@ global.CardText[CardStat] = 'Great Nature/High Beast/Zoo
 
 AUTO: Pioneer (when another unit from the same clan rides this unit, you may call this card to Rear-guard circle.)
 
-AUTO [R]: [Counter Blast 1 & Put this unit into your soul] During your end phase, when one of your ï¿½Great Natureï¿½ Rear-guards is put into the drop zone, you may pay the cost. If you do, put that card into your hand.'
+AUTO [R]: [Counter Blast 1 & Put this unit into your soul] During your end phase, when one of your «Great Nature» Rear-guards is put into the drop zone, you may pay the cost. If you do, put that card into your hand.'
 }
  
 CardStat = x+3
@@ -423,7 +423,7 @@ CardStat = x+3
 global.CardName[CardStat] = 'Protractor Peacock'
 global.CardText[CardStat] = 'Great Nature/High Beast/Zoo 
 
-AUTO: [Counter Blast 1] When this unit is placed on Guardian circle, if you have an ï¿½Great Natureï¿½ Vanguard, you may pay the cost. If you do, this unit gets shield +5000 until end of that battle.'
+AUTO: [Counter Blast 1] When this unit is placed on Guardian circle, if you have an «Great Nature» Vanguard, you may pay the cost. If you do, this unit gets shield +5000 until end of that battle.'
 }
  
 CardStat = x+4
@@ -431,7 +431,7 @@ CardStat = x+4
 global.CardName[CardStat] = 'Recorder Dog'
 global.CardText[CardStat] = 'Great Nature/High Beast/Zoo 
 
-AUTO: [Counter Blast 1] During your end phase, when this unit is put into the drop zone from Rear-guard circle, if you have a ï¿½Great Natureï¿½ Vanguard, you may pay the cost. If you do, search your deck for up to one card named "Vocal Chicken", reveal it to your opponent, call it to an open Rear-guard circle and shuffle your deck.'
+AUTO: [Counter Blast 1] During your end phase, when this unit is put into the drop zone from Rear-guard circle, if you have a «Great Nature» Vanguard, you may pay the cost. If you do, search your deck for up to one card named "Vocal Chicken", reveal it to your opponent, call it to an open Rear-guard circle and shuffle your deck.'
 }
  
 CardStat = x+5
@@ -439,7 +439,7 @@ CardStat = x+5
 global.CardName[CardStat] = 'Sharpener Beaver'
 global.CardText[CardStat] = 'Great Nature/High Beast/Zoo 
 
-AUTO: When this unit is placed on Rear-guard circle, choose another of your grade 3 ï¿½Great Natureï¿½ and that unit gets power +3000 until end of turn.'
+AUTO: When this unit is placed on Rear-guard circle, choose another of your grade 3 «Great Nature» and that unit gets power +3000 until end of turn.'
 }
  
 CardStat = x+6
@@ -455,7 +455,7 @@ CardStat = x+7
 global.CardName[CardStat] = 'Pianika Cat'
 global.CardText[CardStat] = 'Great Nature/High Beast/Zoo 
 
-AUTO: [Counter Blast 1] During your end phase, when this unit is put into the drop zone from Rear-guard circle, if you have a ï¿½Great Natureï¿½ Vanguard, you may pay the cost. If you do, search your deck for up to one card named "Recorder Dog", reveal it to your opponent, call it to an open Rear-guard corcle and shuffle your deck.'
+AUTO: [Counter Blast 1] During your end phase, when this unit is put into the drop zone from Rear-guard circle, if you have a «Great Nature» Vanguard, you may pay the cost. If you do, search your deck for up to one card named "Recorder Dog", reveal it to your opponent, call it to an open Rear-guard corcle and shuffle your deck.'
 }
  
 CardStat = x+8
@@ -463,7 +463,7 @@ CardStat = x+8
 global.CardName[CardStat] = 'Twin Brush Fighter, Polaris'
 global.CardText[CardStat] = 'Great Nature/High Beast/Zoo 
 
-AUTO [V]: Limit Break 4 (This ability is active if you have four or more damage): [Counter Blast 2] When this unit attacks a Vanguard, you may pay the cost. If you do, choose another of your ï¿½Great Natureï¿½ Rear-guards, stand it and that unit gets power +4000 until end of turn, and at the beginning of your end phase, retire that unit.
+AUTO [V]: Limit Break 4 (This ability is active if you have four or more damage): [Counter Blast 2] When this unit attacks a Vanguard, you may pay the cost. If you do, choose another of your «Great Nature» Rear-guards, stand it and that unit gets power +4000 until end of turn, and at the beginning of your end phase, retire that unit.
 
 AUTO [V]: When this unit attacks a Vanguard, this unit gets power +3000 until end of battle.'
 }
@@ -473,10 +473,10 @@ CardStat = x+9
 global.CardName[CardStat] = 'Vocal Chicken'
 global.CardText[CardStat] = 'Great Nature/High Beast/Zoo 
 
-AUTO: [Counter Blast 1] During your end phase, when this unit is put into the drop zone from Rear-guard circle, if you have a ï¿½Great Natureï¿½ Vanguard, you may pay the cost. If you do, search your deck for up to one card named "Pianika Cat", reveal it to your opponent, call it to an open Rear-guard circle and shuffle your deck.'
+AUTO: [Counter Blast 1] During your end phase, when this unit is put into the drop zone from Rear-guard circle, if you have a «Great Nature» Vanguard, you may pay the cost. If you do, search your deck for up to one card named "Pianika Cat", reveal it to your opponent, call it to an open Rear-guard circle and shuffle your deck.'
 }
  
-//ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ 
+//çàáûë òóïóþ çåáðó 
 
 x = 1050
 
@@ -485,7 +485,7 @@ CardStat = x+1
 global.CardName[CardStat] = 'Barcode Zebra'
 global.CardText[CardStat] = 'Great Nature/High Beast/Zoo 
 
-AUTO: When this unit is placed on Vanguard or Rear-guard circle, reveal the top card of your deck. If the revealed card is a grade 1 or 2 ï¿½Great Natureï¿½, call that card to Rear-guard circle and if it is not, shuffle your deck.'
+AUTO: When this unit is placed on Vanguard or Rear-guard circle, reveal the top card of your deck. If the revealed card is a grade 1 or 2 «Great Nature», call that card to Rear-guard circle and if it is not, shuffle your deck.'
 }
 
 // Great Nature Add
@@ -497,7 +497,7 @@ CardStat = x
 global.CardName[CardStat] = 'Soft Tank Sloth'
 global.CardText[CardStat] = 'Great Nature/High Beast/Zoo
 
-AUTO: [Soul Blast 1] During your end phase, when this unit is put into the drop zone from Rear-guard circle, if you have a ï¿½Great Natureï¿½ Vanguard, you may pay the cost. If you do, choose up to two cards in your damage zone, and turn it face-up.'
+AUTO: [Soul Blast 1] During your end phase, when this unit is put into the drop zone from Rear-guard circle, if you have a «Great Nature» Vanguard, you may pay the cost. If you do, choose up to two cards in your damage zone, and turn it face-up.'
 global.UnitGrade[CardStat] = 1
 global.CardInClan[CardStat] = 7
 }
@@ -513,7 +513,7 @@ global.CardText[CardStat] = 'Great Nature/High Beast/Zoo
 
 AUTO [V]: When this unit attacks a Vanguard, if the power of your opponents battling unit is 12000 or greater, this unit gets power +10000 until end of that battle.
 
-AUTO [R]: When this unit attacks a Vanguard, if you have a ï¿½Great Natureï¿½ Vanguard, this unit gets power +2000 until end of that battle.'
+AUTO [R]: When this unit attacks a Vanguard, if you have a «Great Nature» Vanguard, this unit gets power +2000 until end of that battle.'
 global.UnitGrade[CardStat] = 3
 global.CardInClan[CardStat] = 7
 }
@@ -524,10 +524,10 @@ x = 1584
 
 CardStat = x
 {
-global.CardName[CardStat] = 'School Punisher, Leo-pald ï¿½ï¿½everseï¿½'
+global.CardName[CardStat] = 'School Punisher, Leo-pald «ßeverse»'
 global.CardText[CardStat] = 'Great Nature/High Beast/Zoo
 
-ACT [V]: Limit Break 4 (This ability is active if you have four or more damage): [Choose one of your ï¿½Great Natureï¿½ Rear-guards and lock it] Choose up to two of your ï¿½Great Natureï¿½ Rear-guards, those units get power +4000 and "AUTO [R]: At the end of your turn, retire this unit" and "AUTO: During your end phase, when this unit is put into the drop zone from Rear-guard circle, call it to an open Rear-guard circle" until end of turn. (Locked cards are turned face-down, and cannot do anything. Turn them face-up at the end of its owners turn.)
+ACT [V]: Limit Break 4 (This ability is active if you have four or more damage): [Choose one of your «Great Nature» Rear-guards and lock it] Choose up to two of your «Great Nature» Rear-guards, those units get power +4000 and "AUTO [R]: At the end of your turn, retire this unit" and "AUTO: During your end phase, when this unit is put into the drop zone from Rear-guard circle, call it to an open Rear-guard circle" until end of turn. (Locked cards are turned face-down, and cannot do anything. Turn them face-up at the end of its owners turn.)
 
 CONT [V]: If you have a card named "School Hunter, Leo-pald" in your soul, this unit gets power +2000. 
 
@@ -541,7 +541,7 @@ CardStat = x+1
 global.CardName[CardStat] = 'Honorary Professor, Chatnoir'
 global.CardText[CardStat] = 'Great Nature/High Beast/Zoo
 
-AUTO: Limit Break 4 (This ability is active if you have four or more damage): When a ï¿½Great Natureï¿½ rides this unit, choose your Vanguard, that unit gets power +10000 and "AUTO [V]: When one of your ï¿½Great Natureï¿½ Rear-guards attacks a Vanguard, choose one of your ï¿½Great Natureï¿½ Rear-guards, that unit get power +4000 until end of turn, and at the end of that turn, draw a card, and retire that unit" until end of turn.
+AUTO: Limit Break 4 (This ability is active if you have four or more damage): When a «Great Nature» rides this unit, choose your Vanguard, that unit gets power +10000 and "AUTO [V]: When one of your «Great Nature» Rear-guards attacks a Vanguard, choose one of your «Great Nature» Rear-guards, that unit get power +4000 until end of turn, and at the end of that turn, draw a card, and retire that unit" until end of turn.
 
 AUTO [V]: When this unit attacks a Vanguard, this unit gets power +2000 until end of that battle.
 
@@ -557,7 +557,7 @@ global.CardText[CardStat] = 'Great Nature/High Beast/Zoo
 
 AUTO: Forerunner (When a unit of the same clan rides this unit, you may call this unit to Rear-guard circle.)
 
-ACT [R]: [Counter Blast 1 & rest this unit] Choose one of your ï¿½Great Natureï¿½ Rear-guards, that unit gets power +4000 until end of turn, and at the end of that turn, retire that unit.'
+ACT [R]: [Counter Blast 1 & rest this unit] Choose one of your «Great Nature» Rear-guards, that unit gets power +4000 until end of turn, and at the end of that turn, retire that unit.'
 global.UnitGrade[CardStat] = 0
 global.CardInClan[CardStat] = 7
 }
@@ -571,7 +571,7 @@ CardStat = x
 global.CardName[CardStat] = 'Abacus Bear'
 global.CardText[CardStat] = 'Great Nature/Warbeast/Zoo
 
-AUTO [V]: When this units drive check reveals a grade 3 ï¿½Great Natureï¿½, choose two of your ï¿½Great Natureï¿½ Rear-guards, and you may have those units get power +4000 until end of turn. If you do, at the end of that turn, retire those units.'
+AUTO [V]: When this units drive check reveals a grade 3 «Great Nature», choose two of your «Great Nature» Rear-guards, and you may have those units get power +4000 until end of turn. If you do, at the end of that turn, retire those units.'
 global.UnitGrade[CardStat] = 3
 global.CardInClan[CardStat] = 7
 }
@@ -581,7 +581,7 @@ CardStat = x+1
 global.CardName[CardStat] = 'Washup Raccoon'
 global.CardText[CardStat] = 'Great Nature/High Beast/Zoo
 
-AUTO: [Counter Blast 1 & Choose three grade 1 or greater ï¿½Great Natureï¿½ not named "Washup Raccoon" from your drop zone, and put them on top of your deck] During your end phase, when this unit is put into drop zone from Rear-guard circle, if you have a ï¿½Great Natureï¿½ Vanguard, you may pay the cost. If you do, search your deck for up to one card named "Washup Raccoon", reveal it to your opponent, put it into your hand, and shuffle your deck.'
+AUTO: [Counter Blast 1 & Choose three grade 1 or greater «Great Nature» not named "Washup Raccoon" from your drop zone, and put them on top of your deck] During your end phase, when this unit is put into drop zone from Rear-guard circle, if you have a «Great Nature» Vanguard, you may pay the cost. If you do, search your deck for up to one card named "Washup Raccoon", reveal it to your opponent, put it into your hand, and shuffle your deck.'
 global.UnitGrade[CardStat] = 1
 global.CardInClan[CardStat] = 7
 }
@@ -595,7 +595,7 @@ CardStat = x
 global.CardName[CardStat] = 'Whistle Hyena'
 global.CardText[CardStat] = 'Great Nature/High Beast/Zoo
 
-AUTO [V/R]: [Counter Blast 1 ï¿½Great Natureï¿½] When this unit attacks, if you have a ï¿½Great Natureï¿½ Vanguard, you may pay the cost. If you do, this unit gets power +4000 until end of that battle.'
+AUTO [V/R]: [Counter Blast 1 «Great Nature»] When this unit attacks, if you have a «Great Nature» Vanguard, you may pay the cost. If you do, this unit gets power +4000 until end of that battle.'
 global.UnitGrade[CardStat] = 2
 global.CardInClan[CardStat] = 7
 }
@@ -627,7 +627,7 @@ CardStat = x
 global.CardName[CardStat] = 'Taping Cat'
 global.CardText[CardStat] = 'Great Nature/High Beast/Zoo
 
-AUTO: [Soul Blast 2] When this unit is placed on Rear-guard circle, if you have a ï¿½Great Natureï¿½ Vanguard, you may pay the cost. If you do, draw a card.'
+AUTO: [Soul Blast 2] When this unit is placed on Rear-guard circle, if you have a «Great Nature» Vanguard, you may pay the cost. If you do, draw a card.'
 global.UnitGrade[CardStat] = 1
 global.CardInClan[CardStat] = 7
 }
@@ -643,7 +643,7 @@ global.CardText[CardStat] = 'Great Nature/High Beast/Zoo
 
 CONT: This card cannot be put in a deck after February 28, 2013.
 
-AUTO [V]: When this unit attacks a Vanguard, if the number of ï¿½Great Natureï¿½ Rear-guards you have is three or more, this unit gets power +10000 until end of that battle.'
+AUTO [V]: When this unit attacks a Vanguard, if the number of «Great Nature» Rear-guards you have is three or more, this unit gets power +10000 until end of that battle.'
 global.UnitGrade[CardStat] = 4
 global.CardInClan[CardStat] = 7
 }
@@ -2879,8 +2879,8 @@ global.CardText[CardStat] = 'Great Nature/High Beast
 CONT [V]: If you have a grade 3 in your soul, this units AUTO abilities activate two times. ("When placed" abilities will also activate two times.)
 
 AUTO [V]: When placed, put the top card of your deck into your drop zone, and perform one of the effects below depending on that cards type.
-ï¿½ Normal unit - Look at four cards from the top of your deck, call up to two grade 2 or less cards from among them to R, and shuffle your deck.
-ï¿½ Trigger unit - This unit gets power +15000/critical +1 until end of turn.'
+• Normal unit - Look at four cards from the top of your deck, call up to two grade 2 or less cards from among them to R, and shuffle your deck.
+• Trigger unit - This unit gets power +15000/critical +1 until end of turn.'
 global.UnitGrade[CardStat] = 3
 global.CardInClan[CardStat] = 7
 }
@@ -2894,8 +2894,8 @@ global.CardName[CardStat] = 'Binoculus Tiger '
 global.CardText[CardStat] = 'Great Nature/High Beast
 
 AUTO [V/R]: When it attacks a vanguard, COST [Counter Blast 1], put the top card of your deck into your drop zone, and perform one of the effects below depending on that cards type.
-ï¿½ Normal unit - Draw a card.
-ï¿½ Trigger unit - Choose one of your opponents rear-guards, retire it, and three of the units in your front row get power +5000 until end of turn.'
+• Normal unit - Draw a card.
+• Trigger unit - Choose one of your opponents rear-guards, retire it, and three of the units in your front row get power +5000 until end of turn.'
 global.UnitGrade[CardStat] = 2
 global.CardInClan[CardStat] = 7
 }
@@ -2908,8 +2908,8 @@ global.CardName[CardStat] = 'Monoculus Tiger '
 global.CardText[CardStat] = 'Great Nature/High Beast
 
 AUTO [V/R]: When it attacks or boosts a rear-guard, COST [Soul Blast 1], put the top card of your deck into your drop zone, and perform one of the effects below depending on that cards type.
-ï¿½ Normal unit - Your opponent cannot call sentinels from his or her hand until end of that battle.
-ï¿½ Trigger unit - Your opponent can only call trigger units from his or her hand until end of that battle.'
+• Normal unit - Your opponent cannot call sentinels from his or her hand until end of that battle.
+• Trigger unit - Your opponent can only call trigger units from his or her hand until end of that battle.'
 global.UnitGrade[CardStat] = 1
 global.CardInClan[CardStat] = 7
 }
@@ -3328,8 +3328,8 @@ global.CardText[CardStat] = 'Great Nature/High Beast
 CONT [V]: If your opponents vanguard is grade 3 or greater, you perform both of the effects for "perform one of the effects".
 
 AUTO [V/R]: When placed, COST [Soul Blast 1], put the top card of your deck into the drop zone, and perform one of the effects below depending on that cards type.
-ï¿½ Normal Unit - This unit gets power +15000 until end of turn.
-ï¿½ Trigger Unit - Return the card put from your deck into the drop zone by this effect to your hand.'
+• Normal Unit - This unit gets power +15000 until end of turn.
+• Trigger Unit - Return the card put from your deck into the drop zone by this effect to your hand.'
 global.UnitGrade[CardStat] = 3
 global.CardInClan[CardStat] = 7
 }
@@ -3343,8 +3343,8 @@ global.CardName[CardStat] = 'Scientist of Black Sheen, Mathilda'
 global.CardText[CardStat] = 'Great Nature/High Beast
 
 AUTO [V/R]: When placed, COST [Counter Blast 1], put the top card of your deck into the drop zone, and perform one of the effects below depending on that cards type.
-ï¿½ Normal Unit - Until end of turn, when your opponent would call cards from hand to GC for the battle this unit attacked, he or she must call two or more at the same time.
-ï¿½ Trigger Unit - This unit get critical +1 until end of turn.'
+• Normal Unit - Until end of turn, when your opponent would call cards from hand to GC for the battle this unit attacked, he or she must call two or more at the same time.
+• Trigger Unit - This unit get critical +1 until end of turn.'
 global.UnitGrade[CardStat] = 2
 global.CardInClan[CardStat] = 7
 }
@@ -3357,8 +3357,8 @@ global.CardName[CardStat] = 'Prober of Black Jet, Cecile'
 global.CardText[CardStat] = 'Great Nature/High Beast
 
 AUTO [V/R]: When placed, COST [Soul Blast 1], put the top card of your deck into the drop zone, and perform one of the effects below depending on that cards type.
-ï¿½ Normal Unit - Soul Charge 1, and this unit gets power +5000 until end of turn.
-ï¿½ Trigger Unit - Draw two cards, and discard two cards from your hand.'
+• Normal Unit - Soul Charge 1, and this unit gets power +5000 until end of turn.
+• Trigger Unit - Draw two cards, and discard two cards from your hand.'
 global.UnitGrade[CardStat] = 1
 global.CardInClan[CardStat] = 7
 }
@@ -3418,8 +3418,8 @@ global.CardName[CardStat] = 'Daring Scientist, Marimarten'
 global.CardText[CardStat] = 'Great Nature/High Beast
 
 AUTO [V/R]: When placed, COST [Counter Blast 1 & Soul Blast 1], put the top card of your deck into the drop zone, and perform one of the effects below depending on that cards type.
-ï¿½ Normal Unit - Your opponent cannot intercept until end of turn.
-ï¿½ Trigger unit - Retire all of your opponents rear-guards in the same column as this unit.'
+• Normal Unit - Your opponent cannot intercept until end of turn.
+• Trigger unit - Retire all of your opponents rear-guards in the same column as this unit.'
 global.UnitGrade[CardStat] = 3
 global.CardInClan[CardStat] = 7
 }
@@ -3625,8 +3625,8 @@ global.CardName[CardStat] = 'Lablab Dotter'
 global.CardText[CardStat] = 'Great Nature/High Beast
 
 AUTO [V/R]: When placed, COST [Counter Blast 1], put the top card of your deck into the drop zone, and perform one of the effects below depending on that cards type.
-ï¿½ Normal Unit - Call that card to R.
-ï¿½ Trigger Unit - This unit gets power +15000 until end of turn.'
+• Normal Unit - Call that card to R.
+• Trigger Unit - This unit gets power +15000 until end of turn.'
 global.UnitGrade[CardStat] = 2
 global.CardInClan[CardStat] = 7
 }
@@ -3639,8 +3639,8 @@ global.CardName[CardStat] = 'Besom Ringtail'
 global.CardText[CardStat] = 'Great Nature/High Beast
 
 AUTO [R]: When it attacks or boosts, COST [Counter Blast 1], put the top card of your deck into the drop zone, and perform one of the effects below depending on that cards type.
-ï¿½ Normal Unit - Draw a card.
-ï¿½ Trigger Unit - Choose one of your opponents rear-guards, retire it, and this unit gets power +5000 until end of turn.'
+• Normal Unit - Draw a card.
+• Trigger Unit - Choose one of your opponents rear-guards, retire it, and this unit gets power +5000 until end of turn.'
 global.UnitGrade[CardStat] = 1
 global.CardInClan[CardStat] = 7
 }
@@ -3696,8 +3696,8 @@ global.CardName[CardStat] = 'Clerical Kakapo'
 global.CardText[CardStat] = 'Great Nature/High Beast
 
 AUTO [V/R]: When placed, put the top card of your deck into the drop zone, and perform one of the effects below depending on that cards type.
-ï¿½ Normal Unit - Draw a card, and discard a card from your hand.
-ï¿½ Trigger Unit - Draw a card, and put a card from your hand on the bottom of your deck.'
+• Normal Unit - Draw a card, and discard a card from your hand.
+• Trigger Unit - Draw a card, and put a card from your hand on the bottom of your deck.'
 global.UnitGrade[CardStat] = 1
 global.CardInClan[CardStat] = 7
 }
@@ -3826,22 +3826,22 @@ global.CardName[CardStat] = 'Afflated Lemur'
 global.CardText[CardStat] = 'Great Nature/High Beast
 
 AUTO [R]: When placed, if your vanguard is grade 3 or greater, put the top card of your deck into your drop zone, and perform one of the effects below depending on that cards type.
-ï¿½ Normal unit - Soul Charge 1.
-ï¿½ Trigger unit - Counter Charge 1.'
+• Normal unit - Soul Charge 1.
+• Trigger unit - Counter Charge 1.'
 global.UnitGrade[CardStat] = 1
 global.CardInClan[CardStat] = 7
 }
 global.PowerStat[CardStat] = 8000
 global.DefensePowerStat[CardStat] = 10000
 
-CardStat = 8180
+CardStat = 8184
 {
 global.CardName[CardStat] = 'Hammsukes Rival, Jumbo Crayon Hammyan'
 global.CardText[CardStat] = 'Great Nature/High Beast
 
-[ACT](VC)1/Turn:COST [Counter Blast (2) & discard a card from your hand], search your deck for any number of cards with "Hammsuke" in their different card names, call them to the front row (RC), and shuffle your deck.
+ACT [V] 1/Turn: COST [Counter Blast 2 & discard a card from your hand], search your deck for any number of cards with "Hammsuke" in their different card names, call them to the front row R, and shuffle your deck.
 
-[AUTO](VC):At the end of the battle it attacked, if your opponents vanguard is grade 3 or greater, COST [discard two cards from your hand], reveal the bottom card of your deck, if that card is "Pencil Hero, Hammsuke", ride it as [Stand], and that unit gets drive -1 until end of turn.'
+AUTO [V]: At the end of the battle it attacked, if your opponents vanguard is grade 3 or greater, COST [discard two cards from your hand], reveal the bottom card of your deck, if that card is "Pencil Hero, Hammsuke", ride it as stand, and that unit gets drive -1 until end of turn.'
 global.UnitGrade[CardStat] = 3
 global.CardInClan[CardStat] = 7
 }
@@ -3849,30 +3849,31 @@ global.OrangeTokenAdd[CardStat] = 1
 global.PowerStat[CardStat] = 12000
 global.DefensePowerStat[CardStat] = 0
 
-CardStat = 8181
-{
-global.CardName[CardStat] = 'Hammsukes Rival, Nail Pencil Hammgoro'
-global.CardText[CardStat] = 'Great Nature/High Beast
 
-[AUTO](VC/RC):When placed from hand, COST [Counter Blast (1)], look at three cards from the top of your deck, reveal up to one card with "Hammsuke" in its card name from among them and put it into your hand, and put the rest on the bottom of your deck in any order.
-
-[ACT](RC)1/Turn:If you have a vanguard with "Hammsuke" in its card name, COST [put two cards with "Hammsuke" in their card names from your drop zone on the bottom of your deck in any order], and this unit gets [Power]+3000 until end of turn.'
-global.UnitGrade[CardStat] = 2
-global.CardInClan[CardStat] = 7
-}
-global.PowerStat[CardStat] = 9000
-global.DefensePowerStat[CardStat] = 5000
-
-CardStat = 8182
+CardStat = 8185
 {
 global.CardName[CardStat] = 'Hammsukes Teacher, Dip Pencil Hammyuki'
 global.CardText[CardStat] = 'Great Nature/High Beast
 
-[AUTO](VC):When placed, COST [discard a card from your hand], search your deck for up to one "Pencil Squire, Hammsuke", call it to (RC), and shuffle your deck.
+AUTO [V]: When placed, COST [discard a card from your hand], search your deck for up to one "Pencil Squire, Hammsuke", call it to R, and shuffle your deck.
 
-[ACT](RC)1/Turn:If you have a vanguard with "Hammsuke" in its card name, COST [put two cards with "Hammsuke" in their card names from your drop zone on the bottom of your deck in any order], and Counter Charge (1)'
+ACT [R] 1/Turn: If you have a vanguard with "Hammsuke" in its card name, COST [put two cards with "Hammsuke" in their card names from your drop zone on the bottom of your deck in any order], and Counter Charge 1.'
 global.UnitGrade[CardStat] = 1
 global.CardInClan[CardStat] = 7
 }
 global.PowerStat[CardStat] = 8000
 global.DefensePowerStat[CardStat] = 10000
+
+CardStat = 8200
+{
+global.CardName[CardStat] = 'Hammsukes Rival, Nail Pencil Hammgoro'
+global.CardText[CardStat] = 'Great Nature/High Beast
+
+AUTO [V/R]: When placed from hand, COST [Counter Blast 1], look at three cards from the top of your deck, reveal up to one card with "Hammsuke" in its card name from among them and put it into your hand, and put the rest on the bottom of your deck in any order.
+
+ACT [R] 1/Turn: If you have a vanguard with "Hammsuke" in its card name, COST [put two cards with "Hammsuke" in their card names from your drop zone on the bottom of your deck in any order], and this unit gets power +3000 until end of turn.'
+global.UnitGrade[CardStat] = 2
+global.CardInClan[CardStat] = 7
+}
+global.PowerStat[CardStat] = 9000
+global.DefensePowerStat[CardStat] = 5000

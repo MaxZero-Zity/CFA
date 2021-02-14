@@ -27,7 +27,7 @@ CardStat = x+3
 global.CardName[CardStat] = 'Dark Knight of Nightmareland'
 global.CardText[CardStat] = 'Dark Irregulars/Demon/Dark Zone/Critical Trigger
 
-ACT [R]: [Put this unit into your soul] Choose up to one of your ï¿½Dark Irregularsï¿½, and that unit gets power +3000 until end of turn.'
+ACT [R]: [Put this unit into your soul] Choose up to one of your «Dark Irregulars», and that unit gets power +3000 until end of turn.'
 }
 
 CardStat = x+4
@@ -45,7 +45,7 @@ global.CardText[CardStat] = 'Dark Irregulars/Human/Dark Zone
 
 AUTO: Pioneer (When another unit from the same clan rides this unit, you may call this card to Rear-guard circle.)
 
-ACT [R]: [Counter Blast 1 & Put this unit into your soul] Look at up to five cards from the top of your deck, search for up to one grade 3 or greater ï¿½Dark Irregularsï¿½ from among them, reveal it to your opponent, put it into your hand, and shuffle your deck.'
+ACT [R]: [Counter Blast 1 & Put this unit into your soul] Look at up to five cards from the top of your deck, search for up to one grade 3 or greater «Dark Irregulars» from among them, reveal it to your opponent, put it into your hand, and shuffle your deck.'
 }
 
 CardStat = x+6
@@ -55,7 +55,7 @@ global.CardText[CardStat] = 'Dark Irregulars/Human/Dark Zone
 
 AUTO: Pioneer (When another unit from the same clan rides this unit, you may call this card to Rear-guard circle.)
 
-ACT [R]: [Counter Blast 1 & Put this unit into your soul] Search your deck for up to one grade 2 or less ï¿½Dark Irregularsï¿½, put it into your soul, and shuffle your deck.'
+ACT [R]: [Counter Blast 1 & Put this unit into your soul] Search your deck for up to one grade 2 or less «Dark Irregulars», put it into your soul, and shuffle your deck.'
 }
 
 CardStat = x+7
@@ -69,7 +69,7 @@ CardStat = x+8
 global.CardName[CardStat] = 'Hysteric Shirley'
 global.CardText[CardStat] = 'Dark Irregulars/Human/Dark Zone/Draw Trigger
 
-ACT [R]: [Move this unit to soul] If you have a ï¿½Dark Irregularsï¿½ Vanguard, you may Soul Charge 1.'
+ACT [R]: [Move this unit to soul] If you have a «Dark Irregulars» Vanguard, you may Soul Charge 1.'
 }
 
 CardStat = x+9
@@ -97,7 +97,7 @@ CardStat = x+12
 global.CardName[CardStat] = 'Vermillion Gatekeeper'
 global.CardText[CardStat] = 'Dark Irregulars/Demon/Dark Zone
 
-AUTO [V]: When another ï¿½Dark Irregularsï¿½ rides this unit, you may Soul Charge 1.'
+AUTO [V]: When another «Dark Irregulars» rides this unit, you may Soul Charge 1.'
 }
 
 CardStat = x+13
@@ -105,7 +105,7 @@ CardStat = x+13
 global.CardName[CardStat] = 'Alluring Succubus'
 global.CardText[CardStat] = 'Dark Irregulars/Succubus/Dark Zone
 
-AUTO: When this unit is placed on Vanguard or Rear-guard circle, if you have a ï¿½Dark Irregularsï¿½ Vanguard, you may Soul Charge 1.'
+AUTO: When this unit is placed on Vanguard or Rear-guard circle, if you have a «Dark Irregulars» Vanguard, you may Soul Charge 1.'
 }
 
 CardStat = x+14
@@ -113,7 +113,7 @@ CardStat = x+14
 global.CardName[CardStat] = 'Bloody Calf'
 global.CardText[CardStat] = 'Dark Irregulars/Elf/Dark Zone
 
-AUTO: [Counter Blast 2] When this unit is placed on Vanguard or Rear-guard circle, if you have a ï¿½Dark Irregularsï¿½ Vanguard, you may pay the cost. If you do, choose an opponents grade 1 or less Rear-guard, and retire it.'
+AUTO: [Counter Blast 2] When this unit is placed on Vanguard or Rear-guard circle, if you have a «Dark Irregulars» Vanguard, you may pay the cost. If you do, choose an opponents grade 1 or less Rear-guard, and retire it.'
 }
 
 CardStat = x+15
@@ -121,7 +121,7 @@ CardStat = x+15
 global.CardName[CardStat] = 'Courting Succubus'
 global.CardText[CardStat] = 'Dark Irregulars/Succubus/Dark Zone
 
-AUTO [R]: When an attack hits a Vanguard during the battle that this unit boosted a ï¿½Dark Irregularsï¿½, you may Soul Charge 1.'
+AUTO [R]: When an attack hits a Vanguard during the battle that this unit boosted a «Dark Irregulars», you may Soul Charge 1.'
 }
 
 CardStat = x+16
@@ -137,7 +137,7 @@ CardStat = x+17
 global.CardName[CardStat] = 'Devil Child'
 global.CardText[CardStat] = 'Dark Irregulars/Demon/Dark Zone
 
-AUTO [R]: When this unit boosts a ï¿½Dark Irregularsï¿½ Vanguard, if you have six or more ï¿½Dark Irregularsï¿½ in your soul, the boosted unit gets power +4000 until end of that battle.'
+AUTO [R]: When this unit boosts a «Dark Irregulars» Vanguard, if you have six or more «Dark Irregulars» in your soul, the boosted unit gets power +4000 until end of that battle.'
 }
 
 CardStat = x+18
@@ -145,7 +145,7 @@ CardStat = x+18
 global.CardName[CardStat] = 'Doreen the Thruster'
 global.CardText[CardStat] = 'Dark Irregulars/Elf/Dark Zone
 
-AUTO [R]: During your main phase, when a card is put into your soul, if you have a ï¿½Dark Irregularsï¿½ Vanguard, this unit gets power +3000 until end of turn.'
+AUTO [R]: During your main phase, when a card is put into your soul, if you have a «Dark Irregulars» Vanguard, this unit gets power +3000 until end of turn.'
 }
 
 CardStat = x+19
@@ -153,7 +153,7 @@ CardStat = x+19
 global.CardName[CardStat] = 'Harpyria the Beautiful'
 global.CardText[CardStat] = 'Dark Irregulars/Elf/Dark Zone
 
-AUTO: [Counter Blast 1] When this unit is placed on Vanguard or Rear-guard circle, if you have a ï¿½Dark Irregularsï¿½ Vanguard, you may pay the cost. If you do, put the top card of your deck into your damage zone, and at the beginning of the end phase of that turn, choose a card from your damage zone, return it to your deck, and shuffle your deck.'
+AUTO: [Counter Blast 1] When this unit is placed on Vanguard or Rear-guard circle, if you have a «Dark Irregulars» Vanguard, you may pay the cost. If you do, put the top card of your deck into your damage zone, and at the beginning of the end phase of that turn, choose a card from your damage zone, return it to your deck, and shuffle your deck.'
 }
 
 CardStat = x+20
@@ -161,7 +161,7 @@ CardStat = x+20
 global.CardName[CardStat] = 'Jet Black Poet, Amon'
 global.CardText[CardStat] = 'Dark Irregulars/Demon/Dark Zone
 
-CONT [V/R]: During your turn, if the number of ï¿½Dark Irregularsï¿½ in your soul is six or more, this unit gets power +3000.'
+CONT [V/R]: During your turn, if the number of «Dark Irregulars» in your soul is six or more, this unit gets power +3000.'
 }
 
 CardStat = x+21
@@ -171,7 +171,7 @@ global.CardText[CardStat] = 'Dark Irregulars/Warbeast/Dark Zone
 
 CONT: Sentinel (You may only have up to four cards with "Sentinel" in a deck.)
 
-AUTO: [Choose a ï¿½Dark Irregularsï¿½ from your hand, and discard it] When this unit is placed on Guardian ï¿½ircle, you may pay the cost. If you do, choose one of your ï¿½Dark Irregularsï¿½ that is being attacked, and that unit cannot be hit until end of that battle.'
+AUTO: [Choose a «Dark Irregulars» from your hand, and discard it] When this unit is placed on Guardian ñircle, you may pay the cost. If you do, choose one of your «Dark Irregulars» that is being attacked, and that unit cannot be hit until end of that battle.'
 }
 
 CardStat = x+22
@@ -179,7 +179,7 @@ CardStat = x+22
 global.CardName[CardStat] = 'Mirage Maker'
 global.CardText[CardStat] = 'Dark Irregulars/Demon/Dark Zone
 
-AUTO [R]: When an attack hits a Vanguard during the battle that this unit boosted a ï¿½Dark Irregularsï¿½, you may return this unit to your hand.'
+AUTO [R]: When an attack hits a Vanguard during the battle that this unit boosted a «Dark Irregulars», you may return this unit to your hand.'
 }
 
 CardStat = x+23
@@ -201,7 +201,7 @@ CardStat = x+25
 global.CardName[CardStat] = 'Rune Weaver'
 global.CardText[CardStat] = 'Dark Irregulars/Human/Dark Zone
 
-AUTO: When this unit is placed on Vanguard or Rear-guard circle, if you have a ï¿½Dark Irregularsï¿½ Vanguard, choose up to one ï¿½Dark Irregularsï¿½ from your hand, and put it into your soul.'
+AUTO: When this unit is placed on Vanguard or Rear-guard circle, if you have a «Dark Irregulars» Vanguard, choose up to one «Dark Irregulars» from your hand, and put it into your soul.'
 }
 
 CardStat = x+26
@@ -209,7 +209,7 @@ CardStat = x+26
 global.CardName[CardStat] = 'Yellow Bolt'
 global.CardText[CardStat] = 'Dark Irregulars/Human/Dark Zone
 
-ACT [V/R]: [Rest this unit] If you have a ï¿½Dark Irregularsï¿½ Vanguard, Soul Charge 1.'
+ACT [V/R]: [Rest this unit] If you have a «Dark Irregulars» Vanguard, Soul Charge 1.'
 }
 
 CardStat = x+27
@@ -217,7 +217,7 @@ CardStat = x+27
 global.CardName[CardStat] = 'Beast in Hand'
 global.CardText[CardStat] = 'Dark Irregulars/Elf/Dark Zone
 
-AUTO: [Counter Blast 1] When this unit is placed on Vanguard or Rear-guard circle, if you have a ï¿½Dark Irregularsï¿½ Vanguard, you may pay the cost. If you do, put the top card of your deck into your damage zone, and at the beginning of the end phase of that turn, choose a card from your damage zone, return it to your deck, and shuffle your deck.'
+AUTO: [Counter Blast 1] When this unit is placed on Vanguard or Rear-guard circle, if you have a «Dark Irregulars» Vanguard, you may pay the cost. If you do, put the top card of your deck into your damage zone, and at the beginning of the end phase of that turn, choose a card from your damage zone, return it to your deck, and shuffle your deck.'
 }
 
 CardStat = x+28
@@ -225,7 +225,7 @@ CardStat = x+28
 global.CardName[CardStat] = 'Blue Dust'
 global.CardText[CardStat] = 'Dark Irregulars/Human/Dark Zone
 
-AUTO [V/R]: When this units attack hits, if you have a ï¿½Dark Irregularsï¿½ Vanguard, you may Soul Charge 1.'
+AUTO [V/R]: When this units attack hits, if you have a «Dark Irregulars» Vanguard, you may Soul Charge 1.'
 }
 
 CardStat = x+29
@@ -233,7 +233,7 @@ CardStat = x+29
 global.CardName[CardStat] = 'Cyber Beast'
 global.CardText[CardStat] = 'Dark Irregulars/Demon/Dark Zone
 
-AUTO [V/R]: When this units attack hits a Vanguard, if you have four or more other ï¿½Dark Irregularsï¿½ Rear-guards, draw a card.'
+AUTO [V/R]: When this units attack hits a Vanguard, if you have four or more other «Dark Irregulars» Rear-guards, draw a card.'
 }
 
 CardStat = x+30
@@ -241,7 +241,7 @@ CardStat = x+30
 global.CardName[CardStat] = 'Dark Soul Conductor'
 global.CardText[CardStat] = 'Dark Irregulars/Elf/Dark Zone
 
-AUTO: When this unit is put into the drop zone from Guardian circle, if you have a ï¿½Dark Irregularsï¿½ Vanguard, you may Soul Charge 2.'
+AUTO: When this unit is put into the drop zone from Guardian circle, if you have a «Dark Irregulars» Vanguard, you may Soul Charge 2.'
 }
 
 CardStat = x+31
@@ -249,7 +249,7 @@ CardStat = x+31
 global.CardName[CardStat] = 'Demon of Aspiration, Amon'
 global.CardText[CardStat] = 'Dark Irregulars/Demon/Dark Zone
 
-CONT [V/R]: During your turn, if the number of ï¿½Dark Irregularsï¿½ in your soul is six or more, this unit gets power +3000.'
+CONT [V/R]: During your turn, if the number of «Dark Irregulars» in your soul is six or more, this unit gets power +3000.'
 }
 
 CardStat = x+32
@@ -257,7 +257,7 @@ CardStat = x+32
 global.CardName[CardStat] = 'Emblem Master'
 global.CardText[CardStat] = 'Dark Irregulars/Human/Dark Zone
 
-AUTO [V/R]: [Counter Blast 1] When this units attack hits a Vanguard, if you have a ï¿½Dark Irregularsï¿½ Vanguard, you may pay the cost. If you do, you may Soul Charge 3.'
+AUTO [V/R]: [Counter Blast 1] When this units attack hits a Vanguard, if you have a «Dark Irregulars» Vanguard, you may pay the cost. If you do, you may Soul Charge 3.'
 }
 
 CardStat = x+33
@@ -265,7 +265,7 @@ CardStat = x+33
 global.CardName[CardStat] = 'Flirtatious Succubus'
 global.CardText[CardStat] = 'Dark Irregulars/Succubus/Dark Zone
 
-AUTO: When this unit is placed on Vanguard or Rear-guard circle, if you have a ï¿½Dark Irregularsï¿½ Vanguard, you may Soul Charge 1.'
+AUTO: When this unit is placed on Vanguard or Rear-guard circle, if you have a «Dark Irregulars» Vanguard, you may Soul Charge 1.'
 }
 
 CardStat = x+34
@@ -273,7 +273,7 @@ CardStat = x+34
 global.CardName[CardStat] = 'Free Traveller'
 global.CardText[CardStat] = 'Dark Irregulars/Human/Dark Zone
 
-AUTO: [Counter Blast 1] When this unit is placed on Vanguard or Rear-guard circle, if you have a ï¿½Dark Irregularsï¿½ Vanguard, you may pay the cost. If you do, search your deck for up to one grade 2 or less ï¿½Dark Irregularsï¿½, put it into your soul, and shuffle your deck.'
+AUTO: [Counter Blast 1] When this unit is placed on Vanguard or Rear-guard circle, if you have a «Dark Irregulars» Vanguard, you may pay the cost. If you do, search your deck for up to one grade 2 or less «Dark Irregulars», put it into your soul, and shuffle your deck.'
 }
 
 CardStat = x+35
@@ -281,7 +281,7 @@ CardStat = x+35
 global.CardName[CardStat] = 'Gwynn the Ripper'
 global.CardText[CardStat] = 'Dark Irregulars/Elf/Dark Zone
 
-AUTO: [Counter Blast 2] When this unit is placed on Vanguard or Rear-guard circle, if you have a ï¿½Dark Irregularsï¿½ Vanguard, you may pay the cost. If you do, choose one of your opponents grade 2 or less Rear-guards, and retire it.'
+AUTO: [Counter Blast 2] When this unit is placed on Vanguard or Rear-guard circle, if you have a «Dark Irregulars» Vanguard, you may pay the cost. If you do, choose one of your opponents grade 2 or less Rear-guards, and retire it.'
 }
 
 CardStat = x+36
@@ -301,7 +301,7 @@ CONT [V/R]: Restraint (This unit cannot attack.)
 
 ACT [V/R]: [Soul Blast 3] This unit loses "Restraint" until end of turn. 
 
-AUTO [V]: When this unit is boosted by a ï¿½Dark Irregularsï¿½, this unit gets power +5000 until end of that battle.'
+AUTO [V]: When this unit is boosted by a «Dark Irregulars», this unit gets power +5000 until end of that battle.'
 }
 
 CardStat = x+38
@@ -309,7 +309,7 @@ CardStat = x+38
 global.CardName[CardStat] = 'Knowledge Drunkard'
 global.CardText[CardStat] = 'Dark Irregulars/Demon/Dark Zone
 
-AUTO [V/R]: [Send one card from your hand to soul] When this units attack hits a Vanguard, and you have a ï¿½Dark Irregularsï¿½ Vanguard, you may pay the cost. If paid, draw one card.'
+AUTO [V/R]: [Send one card from your hand to soul] When this units attack hits a Vanguard, and you have a «Dark Irregulars» Vanguard, you may pay the cost. If paid, draw one card.'
 }
 
 CardStat = x+39
@@ -317,7 +317,7 @@ CardStat = x+39
 global.CardName[CardStat] = 'Red Magma'
 global.CardText[CardStat] = 'Dark Irregulars/Human/Dark Zone
 
-AUTO [V/R]: When this unit attacks and you have at least six ï¿½Dark Irregularsï¿½ in your soul, draw one card, then choose one card from your hand and place it to the bottom of your deck.'
+AUTO [V/R]: When this unit attacks and you have at least six «Dark Irregulars» in your soul, draw one card, then choose one card from your hand and place it to the bottom of your deck.'
 }
 
 CardStat = x+40
@@ -325,7 +325,7 @@ CardStat = x+40
 global.CardName[CardStat] = 'Succubus of Deterioration'
 global.CardText[CardStat] = 'Dark Irregulars/Succubus/Dark Zone
 
-AUTO [V]: When another of your ï¿½Dark Irregularsï¿½ is placed on Rear-guard circle, you may Soul Charge 1.'
+AUTO [V]: When another of your «Dark Irregulars» is placed on Rear-guard circle, you may Soul Charge 1.'
 }
 
 CardStat = x+41
@@ -339,9 +339,9 @@ CardStat = x+42
 global.CardName[CardStat] = 'Blade Wing Reijy'
 global.CardText[CardStat] = 'Dark Irregulars/Human/Dark Zone
 
-CONT [V]: If the number of ï¿½Dark Irregularsï¿½ in your soul is fifteen or more, this unit gets critical +2. 
+CONT [V]: If the number of «Dark Irregulars» in your soul is fifteen or more, this unit gets critical +2. 
 
-AUTO: When this unit is placed on Vanguard circle, choose one of your ï¿½Dark Irregularsï¿½ Rear-guards, search your deck for up to three cards with the same name as that card, put them into your soul, and shuffle your deck.'
+AUTO: When this unit is placed on Vanguard circle, choose one of your «Dark Irregulars» Rear-guards, search your deck for up to three cards with the same name as that card, put them into your soul, and shuffle your deck.'
 }
 
 CardStat = x+43
@@ -349,9 +349,9 @@ CardStat = x+43
 global.CardName[CardStat] = 'Dark Lord of the Abyss'
 global.CardText[CardStat] = 'Dark Irregulars/Human/Dark Zone
 
-ACT [V]: Limit Break 4 (This ability is active if you have four or more damage): [Counter Blast 2] Soul Charge 2, this unit gets power +1000 for each ï¿½Dark Irregularsï¿½ in your soul until end of turn. 
+ACT [V]: Limit Break 4 (This ability is active if you have four or more damage): [Counter Blast 2] Soul Charge 2, this unit gets power +1000 for each «Dark Irregulars» in your soul until end of turn. 
 
-CONT [V/R]: If you have a non-ï¿½Dark Irregularsï¿½ Vanguard or Rear-guard, this unit gets power -2000.'
+CONT [V/R]: If you have a non-«Dark Irregulars» Vanguard or Rear-guard, this unit gets power -2000.'
 }
 
 CardStat = x+44
@@ -377,9 +377,9 @@ CardStat = x+46
 global.CardName[CardStat] = 'Demon World Marquis, Amon'
 global.CardText[CardStat] = 'Dark Irregulars/Demon/Dark Zone
 
-CONT [V]: During your turn, this unit gets power +1000 for each ï¿½Dark Irregularsï¿½ in your soul. 
+CONT [V]: During your turn, this unit gets power +1000 for each «Dark Irregulars» in your soul. 
 
-ACT [V]: [Counter Blast 1 & Choose one of your ï¿½Dark Irregularsï¿½ Rear-guards, and put it into your soul] Your opponent chooses one of his or her Rear-guards, and retires it.'
+ACT [V]: [Counter Blast 1 & Choose one of your «Dark Irregulars» Rear-guards, and put it into your soul] Your opponent chooses one of his or her Rear-guards, and retires it.'
 }
 
 CardStat = x+47
@@ -397,9 +397,9 @@ CardStat = x+48
 global.CardName[CardStat] = 'King of Diptera, Beelzebub'
 global.CardText[CardStat] = 'Dark Irregulars/Demon/Dark Zone
 
-CONT [V]: If you have eight or more ï¿½Dark Irregularsï¿½ in your soul, this unit gets power +1000. 
+CONT [V]: If you have eight or more «Dark Irregulars» in your soul, this unit gets power +1000. 
 
-AUTO [V]: [Counter Blast 2] When this unit attacks, if you have six or more ï¿½Dark Irregularsï¿½ in your soul, you may pay the cost. If you do, choose up to two of your ï¿½Dark Irregularsï¿½ Rear-guards, and they get power +3000 until end of that turn.'
+AUTO [V]: [Counter Blast 2] When this unit attacks, if you have six or more «Dark Irregulars» in your soul, you may pay the cost. If you do, choose up to two of your «Dark Irregulars» Rear-guards, and they get power +3000 until end of that turn.'
 }
 
 CardStat = x+49
@@ -407,7 +407,7 @@ CardStat = x+49
 global.CardName[CardStat] = 'Mad Eye, Bassilisk'
 global.CardText[CardStat] = 'Dark Irregulars/Demon/Dark Zone
 
-AUTO [V/R]: When this unit attacks a Vanguard, if you have a ï¿½Dark Irregularsï¿½ Vanguard, this unit gets power +2000 until end of that battle.'
+AUTO [V/R]: When this unit attacks a Vanguard, if you have a «Dark Irregulars» Vanguard, this unit gets power +2000 until end of that battle.'
 }
 
 CardStat = x+50
@@ -415,11 +415,11 @@ CardStat = x+50
 global.CardName[CardStat] = 'No Life King, Death Anchor'
 global.CardText[CardStat] = 'Dark Irregulars/Ghost/Dark Zone
 
-CONT [V]: If you have eight or more ï¿½Dark Irregularsï¿½ in your soul, this unit gets power +1000. 
+CONT [V]: If you have eight or more «Dark Irregulars» in your soul, this unit gets power +1000. 
 
 AUTO [V]: At the beginning of your main phase, Soul Charge 1, and this unit gets power +2000 until end of turn. 
 
-AUTO [V]: [Choose five face-up ï¿½Dark Irregularsï¿½ from your damage zone and put them into your soul] When this unit attacks, you may pay the cost. If you do, this unit gets power +10000 & critical +1 until end of turn. At the beginning of the end phase of that turn, put five cards from the top of your deck into your damage zone.'
+AUTO [V]: [Choose five face-up «Dark Irregulars» from your damage zone and put them into your soul] When this unit attacks, you may pay the cost. If you do, this unit gets power +10000 & critical +1 until end of turn. At the beginning of the end phase of that turn, put five cards from the top of your deck into your damage zone.'
 }
 
 CardStat = x+51
@@ -441,7 +441,7 @@ CardStat = x
 global.CardName[CardStat] = 'Earth Gunner'
 global.CardText[CardStat] = 'Dark Irregulars/Human/Dark Zone
 
-AUTO [V/R]: When this unit is boosted by a ï¿½Dark Irregularsï¿½, this unit gets power +2000 until end of that battle.'
+AUTO [V/R]: When this unit is boosted by a «Dark Irregulars», this unit gets power +2000 until end of that battle.'
 global.UnitGrade[CardStat] = 3
 global.CardInClan[CardStat] = 11
 }
@@ -455,7 +455,7 @@ CardStat = x
 global.CardName[CardStat] = 'Story Teller'
 global.CardText[CardStat] = 'Dark Irregulars/Human/Dark Zone
 
-AUTO [V/R]: [Counter Blast 2] When this units attack hits, if you have a ï¿½Dark Irregularsï¿½ Vanguard, you may pay the cost. If you do, draw a card.'
+AUTO [V/R]: [Counter Blast 2] When this units attack hits, if you have a «Dark Irregulars» Vanguard, you may pay the cost. If you do, draw a card.'
 global.UnitGrade[CardStat] = 2
 global.CardInClan[CardStat] = 11
 }
@@ -469,7 +469,7 @@ CardStat = x
 global.CardName[CardStat] = 'King of Masks, Dantarian'
 global.CardText[CardStat] = 'Dark Irregulars/Human/Dark Zone
 
-AUTO: Limit Break 4 (This ability is active if you have four or more damage): When a ï¿½Dark Irregularsï¿½ rides this unit, choose one of your Vanguards, that unit gets power +10000 until end of turn, choose up to three of your ï¿½Dark Irregularsï¿½ Rear-guards, and those units get "CONT [R]: This unit gets power +1000 for each ï¿½Dark Irregularsï¿½ in your soul" until end of turn.
+AUTO: Limit Break 4 (This ability is active if you have four or more damage): When a «Dark Irregulars» rides this unit, choose one of your Vanguards, that unit gets power +10000 until end of turn, choose up to three of your «Dark Irregulars» Rear-guards, and those units get "CONT [R]: This unit gets power +1000 for each «Dark Irregulars» in your soul" until end of turn.
 
 AUTO [V]: When this unit attacks a Vanguard, Soul Charge 1, and this unit gets power +1000 until end of that battle.
 
@@ -517,7 +517,7 @@ global.CardText[CardStat] = 'Dark Irregulars/Elf/Dark Zone
 
 AUTO: Forerunner (When another unit of the same clan rides this unit, you may call it to Rear-guard circle.)
 
-CONT [R]: If the number of ï¿½Dark Irregularsï¿½ in your soul is six or more, this unit gets "AUTO [R]: [Put this unit into your soul] At the end of the battle that this unit boosted a ï¿½Dark Irregularsï¿½, you may pay the cost. If you do, draw a card".'
+CONT [R]: If the number of «Dark Irregulars» in your soul is six or more, this unit gets "AUTO [R]: [Put this unit into your soul] At the end of the battle that this unit boosted a «Dark Irregulars», you may pay the cost. If you do, draw a card".'
 global.UnitGrade[CardStat] = 0
 global.CardInClan[CardStat] = 11
 }
@@ -577,7 +577,7 @@ global.CardText[CardStat] = 'Dark Irregulars/Vampire/Dark Zone
 
 CONT: Sentinel (You may only have up to four cards with "Sentinel" in a deck.)
 
-AUTO: [Choose a ï¿½Dark Irregularsï¿½ from your hand, and discard it] When this unit is placed on Guardian circle, you may pay the cost. If you do, choose one of your ï¿½Dark Irregularsï¿½, and that unit cannot be hit until end of that battle.'
+AUTO: [Choose a «Dark Irregulars» from your hand, and discard it] When this unit is placed on Guardian circle, you may pay the cost. If you do, choose one of your «Dark Irregulars», and that unit cannot be hit until end of that battle.'
 global.UnitGrade[CardStat] = 1
 global.CardInClan[CardStat] = 11
 }
@@ -587,7 +587,7 @@ CardStat = x+1
 global.CardName[CardStat] = 'Master of Fifth Element'
 global.CardText[CardStat] = 'Dark Irregulars/Vampire/Dark Zone
 
-CONT [V]: Limit Break 4 (This ability is active if you have four or more damage): During your turn, if the number of ï¿½Dark Irregularsï¿½ in your soul is ten or more, all of your ï¿½Dark Irregularsï¿½ get power +3000.
+CONT [V]: Limit Break 4 (This ability is active if you have four or more damage): During your turn, if the number of «Dark Irregulars» in your soul is ten or more, all of your «Dark Irregulars» get power +3000.
 
 AUTO [V]: [Counter Blast 1] When this units attack hits a Vanguard, you may pay the cost. If you do, Soul Charge 3.'
 global.UnitGrade[CardStat] = 3
@@ -603,7 +603,7 @@ CardStat = x
 global.CardName[CardStat] = 'Indifferent Succubus'
 global.CardText[CardStat] = 'Dark Irregulars/Succubus/Dark Zone
 
-CONT [V/R]: If the number of ï¿½Dark Irregularsï¿½ in your soul is ten or more, this unit gets power +4000.'
+CONT [V/R]: If the number of «Dark Irregulars» in your soul is ten or more, this unit gets power +4000.'
 global.UnitGrade[CardStat] = 2
 global.CardInClan[CardStat] = 11
 }
@@ -614,10 +614,10 @@ x = 1517
 
 CardStat = x
 {
-global.CardName[CardStat] = 'Demon Marquis, Amon "ï¿½everse"'
+global.CardName[CardStat] = 'Demon Marquis, Amon "ßeverse"'
 global.CardText[CardStat] = 'Dark Irregulars/Demon/Dark Zone
 
-ACT [V]: Limit Break 4 (This ability is active if you have four or more damage): [Choose one of your ï¿½Dark Irregularsï¿½ Rear-guards and lock it] This unit gets power +1000 for each ï¿½Dark Irregularsï¿½ in your soul until end of turn. If the number of ï¿½Dark Irregularsï¿½ in your soul is six or more, this unit gets critical +1 until end of turn. This ability cannot be used for the rest of that turn. (Locked cards are turned face-down, and cannot do anything. Turn them face-up at the end of its owners turn.)
+ACT [V]: Limit Break 4 (This ability is active if you have four or more damage): [Choose one of your «Dark Irregulars» Rear-guards and lock it] This unit gets power +1000 for each «Dark Irregulars» in your soul until end of turn. If the number of «Dark Irregulars» in your soul is six or more, this unit gets critical +1 until end of turn. This ability cannot be used for the rest of that turn. (Locked cards are turned face-down, and cannot do anything. Turn them face-up at the end of its owners turn.)
 
 CONT [V]: If you have a card named "Demon World Marquis, Amon" in your soul, this unit gets power +2000.
 
@@ -633,7 +633,7 @@ global.CardText[CardStat] = 'Dark Irregulars/Warbeast/Dark Zone
 
 AUTO [V]: Limit Break 4 (This ability is active if you have four or more damage): When this unit attacks a Vanguard, this unit gets power +5000 until end of that battle.
 
-AUTO [R]: When this unit attacks a Vanguard, if you have a ï¿½Dark Irregularsï¿½ Vanguard, this unit gets power +2000 until end of that battle.'
+AUTO [R]: When this unit attacks a Vanguard, if you have a «Dark Irregulars» Vanguard, this unit gets power +2000 until end of that battle.'
 global.UnitGrade[CardStat] = 3
 global.CardInClan[CardStat] = 11
 }
@@ -643,7 +643,7 @@ CardStat = x+2
 global.CardName[CardStat] = 'Number of Terror'
 global.CardText[CardStat] = 'Dark Irregulars/Human/Dark Zone
 
-AUTO [V/R]: When another grade 3 ï¿½Dark Irregularsï¿½ is placed on Rear-guard circle, this unit gets power +3000 until end of turn.'
+AUTO [V/R]: When another grade 3 «Dark Irregulars» is placed on Rear-guard circle, this unit gets power +3000 until end of turn.'
 global.UnitGrade[CardStat] = 3
 global.CardInClan[CardStat] = 11
 }
@@ -653,7 +653,7 @@ CardStat = x+3
 global.CardName[CardStat] = 'House of Amon, Psycho Glaive'
 global.CardText[CardStat] = 'Dark Irregulars/Elf/Dark Zone
 
-AUTO: [Counter Blast 1] When this unit is placed on Vanguard or Rear-guard circle, if the number of ï¿½Dark Irregularsï¿½ in your soul is six or more, you can pay the cost. If you do, Soul Charge 1, and this unit gains power +5000 until end of the turn.'
+AUTO: [Counter Blast 1] When this unit is placed on Vanguard or Rear-guard circle, if the number of «Dark Irregulars» in your soul is six or more, you can pay the cost. If you do, Soul Charge 1, and this unit gains power +5000 until end of the turn.'
 global.UnitGrade[CardStat] = 2
 global.CardInClan[CardStat] = 11
 }
@@ -663,7 +663,7 @@ CardStat = x+4
 global.CardName[CardStat] = 'Flog Knight'
 global.CardText[CardStat] = 'Dark Irregulars/Human/Dark Zone
 
-AUTO [V/R]: [Counter Blast 1 ï¿½Dark Irregularsï¿½] When this unit attacks, if you have a ï¿½Dark Irregularsï¿½ Vanguard, you may pay the cost. If you do, this unit gets power +4000 until end of that battle.'
+AUTO [V/R]: [Counter Blast 1 «Dark Irregulars»] When this unit attacks, if you have a «Dark Irregulars» Vanguard, you may pay the cost. If you do, this unit gets power +4000 until end of that battle.'
 global.UnitGrade[CardStat] = 2
 global.CardInClan[CardStat] = 11
 }
@@ -673,7 +673,7 @@ CardStat = x+5
 global.CardName[CardStat] = 'Werleopard Soldat'
 global.CardText[CardStat] = 'Dark Irregulars/Warbeast/Dark Zone
 
-AUTO [V/R]: When this unit attacks, if you have a ï¿½Dark Irregularsï¿½ Vanguard or Rear-Guard that has Limit Break 4, this unit gets power +3000 until end of that battle.'
+AUTO [V/R]: When this unit attacks, if you have a «Dark Irregulars» Vanguard or Rear-Guard that has Limit Break 4, this unit gets power +3000 until end of that battle.'
 global.UnitGrade[CardStat] = 2
 global.CardInClan[CardStat] = 11
 }
@@ -683,7 +683,7 @@ CardStat = x+6
 global.CardName[CardStat] = 'House of Amon, Fools Palm'
 global.CardText[CardStat] = 'Dark Irregulars/Elf/Dark Zone
 
-AUTO: [Choose a card from your hand, and discard it] When this unit is placed on Rear-guard circle, if the number of ï¿½Dark Irregularsï¿½ in your soul is six or more, you may pay the cost. If you do, draw a card.'
+AUTO: [Choose a card from your hand, and discard it] When this unit is placed on Rear-guard circle, if the number of «Dark Irregulars» in your soul is six or more, you may pay the cost. If you do, draw a card.'
 global.UnitGrade[CardStat] = 1
 global.CardInClan[CardStat] = 11
 }
@@ -693,7 +693,7 @@ CardStat = x+7
 global.CardName[CardStat] = 'Werhase Bandit'
 global.CardText[CardStat] = 'Dark Irregulars/Warbeast/Dark Zone
 
-AUTO [R]: [Counter Blast 1] When this unit boosts a ï¿½Dark Irregularsï¿½, if the boosted unit has Limit Break 4, you may pay the cost. If you do, the boosted unit gets power +3000 until end of that battle.'
+AUTO [R]: [Counter Blast 1] When this unit boosts a «Dark Irregulars», if the boosted unit has Limit Break 4, you may pay the cost. If you do, the boosted unit gets power +3000 until end of that battle.'
 global.UnitGrade[CardStat] = 1
 global.CardInClan[CardStat] = 11
 }
@@ -703,7 +703,7 @@ CardStat = x+8
 global.CardName[CardStat] = 'Dimension Creeper'
 global.CardText[CardStat] = 'Dark Irregulars/Demon/Dark Zone
 
-ACT [Soul]: [Put this card into your drop zone] If you have a ï¿½Dark Irregularsï¿½ vanguard, Soul Charge 2.'
+ACT [Soul]: [Put this card into your drop zone] If you have a «Dark Irregulars» vanguard, Soul Charge 2.'
 global.UnitGrade[CardStat] = 1
 global.CardInClan[CardStat] = 11
 }
@@ -715,7 +715,7 @@ global.CardText[CardStat] = 'Dark Irregulars/Warbeast/Dark Zone
 
 AUTO: Forerunner (When a unit of the same clan rides this unit, you may call this unit to Rear-guard circle.)
 
-AUTO [R]: [Put this unit into your soul] When an attack hits a Vanguard during the battle that this unit boosted a ï¿½Dark Irregularsï¿½ with Limit Break 4, you may pay the cost. If you do, draw a card.'
+AUTO [R]: [Put this unit into your soul] When an attack hits a Vanguard during the battle that this unit boosted a «Dark Irregulars» with Limit Break 4, you may pay the cost. If you do, draw a card.'
 global.UnitGrade[CardStat] = 0
 global.CardInClan[CardStat] = 11
 }
@@ -806,7 +806,7 @@ x = 2798
 
 CardStat = x
 {
-global.CardName[CardStat] = 'Amonï¿½s Claw, Marchocias'
+global.CardName[CardStat] = 'Amon’s Claw, Marchocias'
 global.CardText[CardStat] = 'Dark Irregulars/Demon/Dark Zone/G-Unit
 
 Stride [Choose one or more cards with the sum of their grades being 3 or greater from your hand, and discard them] Stride this card on your V from face down.
@@ -4106,43 +4106,58 @@ global.CardInClan[CardStat] = 11
 }
 global.PowerStat[CardStat] = 9000
 
-CardStat = 8173
+CardStat = 8174
 {
-global.CardName[CardStat] = 'Evil God Bishop, Gastille'
+global.CardName[CardStat] = 'Werwolf Ketzer'
+global.CardText[CardStat] = 'Dark Irregulars/Warbeast
+
+AUTO: When retired from GC, you may put this card in your soul.
+
+ACT [Soul]: COST [Bind this card], and Soul Charge 2.'
+global.UnitGrade[CardStat] = 1
+global.CardInClan[CardStat] = 11
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 10000
+
+CardStat = 8178
+{
+global.CardName[CardStat] = 'Evil God Bishop, Gastille '
 global.CardText[CardStat] = 'Dark Irregulars/Demon
 
-[AUTO](VC):At the beginning of your battle phase, COST [Counter Blast (1)], draw a card, and your opponent chooses one of the following effects for every five cards in your soul. You perform the chosen effects in any order. (Each effect can only be chosen once)
-
-- All of your front row units get [Critical]+1 until end of turn.
-- Your opponents vanguards [Power] increases or decreases to 1 until end of turn.
-- All of your opponents [AUTO] abilities do not activate until end of turn.
-- Your opponent chooses a card from his or her hand, and puts it into his or her damage zone face down.'
+AUTO [V]: At the beginning of your battle phase, COST [Counter Blast 1], draw a card, and your opponent chooses one of the following effects for every five cards in your soul. You perform the chosen effects in any order. (Each effect can only be chosen once.)
+• All of your front row units get critical +1 until end of turn.
+• Your opponents vanguards power increases or decreases to 1 until end of turn.
+• All of your opponents AUTO abilities do not activate until end of turn.
+• Your opponent chooses a card from his or her hand, and puts it into his or her damage zone face down.'
 global.UnitGrade[CardStat] = 3
 global.CardInClan[CardStat] = 11
 }
 global.PowerStat[CardStat] = 12000
 global.DefensePowerStat[CardStat] = 0
 
-CardStat = 8174
+
+CardStat = 8179
 {
 global.CardName[CardStat] = 'Poisonic Abductor'
 global.CardText[CardStat] = 'Dark Irregulars/Human
 
-[AUTO](VC/RC):When placed, COST [Counter Blast (1) & discard a card from your hand], search your deck for up to three grade 2 or less normal units with the same card name, put two cards from among them into your soul, call the rest to (RC), and shuffle your deck.'
+AUTO [V/R]: When placed, COST [Counter Blast 1 & discard a card from your hand], search your deck for up to three grade 2 or less normal units with the same card name, put two cards from among them into your soul, call the rest to R, and shuffle your deck.'
 global.UnitGrade[CardStat] = 2
 global.CardInClan[CardStat] = 11
 }
 global.PowerStat[CardStat] = 9000
 global.DefensePowerStat[CardStat] = 5000
 
-CardStat = 8175
+
+CardStat = 8180
 {
 global.CardName[CardStat] = 'Ironheart Assassin'
 global.CardText[CardStat] = 'Dark Irregulars/Human
 
-[AUTO](RC):When it attacks or boosts, you may Soul-Charge 1. If you Soul-Charge , and have three "Ironheart Assassin" in your soul, Counter-Charge 1.
+AUTO [R]: When it attacks or boosts, you may Soul Charge 1. If you Soul Charge, and your soul has three "Ironheart Assassin", Counter Charge 1.
 
-[AUTO]:When rode upon, you may call this card to (RC).'
+AUTO: When rode upon, you may call this card to R.'
 global.UnitGrade[CardStat] = 1
 global.CardInClan[CardStat] = 11
 }

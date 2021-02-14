@@ -3337,3 +3337,72 @@ global.CardInClan[CardStat] = 23
 }
 global.PowerStat[CardStat] = 8000
 global.DefensePowerStat[CardStat] = 10000
+
+CardStat = 8191
+{
+global.CardName[CardStat] = 'Stealth Rogue of Invasions, Rui'
+global.CardText[CardStat] = 'Nubatama/Demon
+
+AUTO [R]: When placed, COST [Soul Blast 1], your opponent chooses a card from his or her hand, and discards it. If your opponents hand has five or less cards, your opponent draws a card.
+
+AUTO: When rode upon, COST [Soul Blast 1], if your opponents vanguard is grade 2 or greater, your opponent chooses a card from his or her hand, and discards it. If it is grade 1 or less, you draw a card.'
+global.UnitGrade[CardStat] = 1
+global.CardInClan[CardStat] = 23
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 10000
+
+CardStat = 8205
+{
+global.CardName[CardStat] = 'Evil Stealth Dragon Tasogare, Hanzo'
+global.CardText[CardStat] = 'Nubatama/Abyss Dragon
+
+AUTO [Hand]: At the beginning of your opponents turn, if your vanguard is "Evil Stealth Dragon Akatsuki, Hanzo", COST [discard two cards from your hand], ride this card as rest, and all of your rear-guards get shield +5000 until end of turn. At the end of that turn, ride a "Evil Stealth Dragon Akatsuki, Hanzo" from your soul as rest.
+
+AUTO [Soul]: When your vanguard with "Hanzo" in its card name attacks, COST [retire a grade 0], call this card to R, and until end of turn, this unit gets power +20000 and can attack from the back row. At the end of that turn, put this unit into your soul. If you put it into your soul, call an Evil Decoy token to R.
+
+(Shift + click to call Evil Decoy Token.)'
+global.UnitGrade[CardStat] = 3
+global.CardInClan[CardStat] = 23
+}
+global.GreenTokenAdd[CardStat] = 1
+global.PowerStat[CardStat] = 12000
+global.DefensePowerStat[CardStat] = 0
+global.TokenSummoner[CardStat] = 7069
+global.TokenSummonerPosition[CardStat] = 'SHIFT'
+
+
+CardStat = 8206
+{
+global.CardName[CardStat] = 'Evil Stealth Dragon, Yamishibuki'
+global.CardText[CardStat] = 'Nubatama/Abyss Dragon
+
+CONT [R]: During your turn, this unit gets power +5000 for each of your grade 0 rear-guards.
+
+AUTO [V/R]: When it attacks, COST [Counter Blast 1 & return another rear-guard to your hand], and call up to two Evil Decoy tokens to R.
+
+(Shift + click to call Evil Decoy Tokens.)'
+global.UnitGrade[CardStat] = 2
+global.CardInClan[CardStat] = 23
+}
+global.PowerStat[CardStat] = 9000
+global.DefensePowerStat[CardStat] = 5000
+global.TokenSummoner[CardStat] = 7069
+global.TokenSummonerPosition[CardStat] = 'SHIFT'
+
+
+CardStat = 8207
+{
+global.CardName[CardStat] = 'Evil Stealth Dragon, Kagesarashi'
+global.CardText[CardStat] = 'Nubatama/Abyss Dragon
+
+ACT [R]: COST [Retire this unit], call up to two Evil Decoy tokens to R, then if you have a vanguard with "Hanzo" in its card name, COST [put a card from your hand into your soul], search your deck for up to one card with "Hanzo" in its card name, reveal it and put it into your hand, and shuffle your deck. This ability may only be used by a card with the same card name once a turn.
+
+(Shift + click to call Evil Decoy Tokens.)'
+global.UnitGrade[CardStat] = 1
+global.CardInClan[CardStat] = 23
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 10000
+global.TokenSummoner[CardStat] = 7069
+global.TokenSummonerPosition[CardStat] = 'SHIFT'

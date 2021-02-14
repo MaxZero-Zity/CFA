@@ -73,7 +73,7 @@ CardStat = x
 global.CardName[CardStat] = 'Rain Elemental, Tear'
 global.CardText[CardStat] = 'Cray Elemental/Elemental
 
-AUTO: [Soul Blast 2] When this card is placed on R, you may pay the cost. If you do, choose a card from your damage zone for each face up ï¿½Cray Elementalï¿½ in your G zone, and turn it face up.
+AUTO: [Soul Blast 2] When this card is placed on R, you may pay the cost. If you do, choose a card from your damage zone for each face up «Cray Elemental» in your G zone, and turn it face up.
 
 CONT: This card is from all clans and nations.'
 global.UnitGrade[CardStat] = 1
@@ -119,7 +119,7 @@ CardStat = x
 global.CardName[CardStat] = 'Earth Elemental, Pokkle'
 global.CardText[CardStat] = 'Cray Elemental/Elemental
 
-AUTO: [Soul Blast 1] When this unit is placed on R, if you have a face up ï¿½Cray Elementalï¿½ in your G zone, you may pay the cost. If you do, choose one of your locked cards, and unlock it.
+AUTO: [Soul Blast 1] When this unit is placed on R, if you have a face up «Cray Elemental» in your G zone, you may pay the cost. If you do, choose one of your locked cards, and unlock it.
 
 CONT: This card is from all clans and nations.'
 global.UnitGrade[CardStat] = 2
@@ -131,7 +131,7 @@ CardStat = x+1
 global.CardName[CardStat] = 'Air Elemental, Fuwaloon'
 global.CardText[CardStat] = 'Cray Elemental/Elemental
 
-CONT [R]: During your turn, for each face-up ï¿½Cray Elementalï¿½ on your G Zone, this unit gets power +1000.
+CONT [R]: During your turn, for each face-up «Cray Elemental» on your G Zone, this unit gets power +1000.
 
 CONT: This card is from all clans and nations.'
 global.UnitGrade[CardStat] = 1
@@ -693,7 +693,7 @@ global.CardText[CardStat] = 'Cray Elemental/Astral Deity
 
 CONT: This unit cannot be ridden.
 
-AUTO: When it is on a circle other than an Astral Plane, retire this unit.
+AUTO: When on a non-Astral Plane circle, retire this unit. If it could not be retired, remove this unit.
 
 AUTO [R]: When placed from hand, look at five cards from the top of your deck, put a card among them into your drop zone, and this units drive becomes equal to the grade of the card put into the drop zone until end of turn. Shuffle your deck.'
 global.UnitGrade[CardStat] = 5
@@ -812,18 +812,3 @@ global.UnitGrade[CardStat] = 1
 global.CardInClan[CardStat] = 25
 }
 global.PowerStat[CardStat] = 7000
-
-CardStat = 8179
-{
-global.CardName[CardStat] = 'Spiritual King of Determination, Olbaria'
-global.CardText[CardStat] = 'Elemental/Over Trigger
-
-(You may only have one [Over] trigger in a deck. When revealed as a trigger, remove that card, draw a card, choose one of your units, and it gets [Power]+100 Million until end of turn! If revealed during drive check, activate its additional effect!)
-
-Additional effect - Choose one of your units, and it gets [Power]+100 Million until end of turn!'
-global.UnitGrade[CardStat] = 0
-global.CardInClan[CardStat] = 25
-}
-global.TriggerUnit[CardStat] = 2
-global.PowerStat[CardStat] = 5000
-global.DefensePowerStat[CardStat] = 50000

@@ -4,7 +4,7 @@ CardStat = x+1
 global.CardName[CardStat] = 'Battleraizer'
 global.CardText[CardStat] = 'Nova Grappler/Battleroid/Star Gate/Stand Trigger
 
-AUTO: When another ï¿½Nova Grapplerï¿½ rides this unit, you may call this card to Rear-guard ï¿½ircle. 
+AUTO: When another «Nova Grappler» rides this unit, you may call this card to Rear-guard ñircle. 
 
 AUTO [R]: When this unit boosts, the boosted unit gets power +3000 until end of that battle, and at the beginning of the end phase of that turn, return this unit to your deck, and shuffle your deck.'
 }
@@ -14,9 +14,9 @@ CardStat = x+2
 global.CardName[CardStat] = 'Beast Deity, White Tiger'
 global.CardText[CardStat] = 'Nova Grappler/Battleroid/Star Gate
 
-AUTO: When another ï¿½Nova Grapplerï¿½ rides this unit, you may call this card to Rear-guard circle. 
+AUTO: When another «Nova Grappler» rides this unit, you may call this card to Rear-guard circle. 
 
-AUTO [R]: [Counter Blast 1 & Put this unit into your soul] When an attack hits a Vanguard during the battle that this unit boosted a ï¿½Nova Grapplerï¿½, you may pay the cost. If you do, choose one of your ï¿½Nova Grapplerï¿½ Rear-guards with "Beast Deity" in its card name and stand it.'
+AUTO [R]: [Counter Blast 1 & Put this unit into your soul] When an attack hits a Vanguard during the battle that this unit boosted a «Nova Grappler», you may pay the cost. If you do, choose one of your «Nova Grappler» Rear-guards with "Beast Deity" in its card name and stand it.'
 }
 
 CardStat = x+3
@@ -38,7 +38,7 @@ CardStat = x+5
 global.CardName[CardStat] = 'Cat Butler'
 global.CardText[CardStat] = 'Nova Grappler/Warbeast/Star Gate
 
-AUTO [R]: [Retire this unit] At the beginning of the close step of the battle your Vanguard attacked in, if the attack didnt hit, you may pay the cost. If you do, choose one of your grade 2 or less ï¿½Nova Grapplerï¿½ Vanguard and stand it.'
+AUTO [R]: [Retire this unit] At the beginning of the close step of the battle your Vanguard attacked in, if the attack didnt hit, you may pay the cost. If you do, choose one of your grade 2 or less «Nova Grappler» Vanguard and stand it.'
 }
 
 CardStat = x+6
@@ -52,7 +52,7 @@ CardStat = x+7
 global.CardName[CardStat] = 'Grapple Mania'
 global.CardText[CardStat] = 'Nova Grappler/Workeroid/Star Gate/Stand Trigger
 
-AUTO [R]: When this unit boosts a ï¿½Nova Grapplerï¿½ and that attack hits a Vanguard, choose 1 card in your damage zone and unflip it. If you did, then during this turns end phase, return this unit to your deck, then shuffle your deck.'
+AUTO [R]: When this unit boosts a «Nova Grappler» and that attack hits a Vanguard, choose 1 card in your damage zone and unflip it. If you did, then during this turns end phase, return this unit to your deck, then shuffle your deck.'
 }
 
 
@@ -81,7 +81,7 @@ CardStat = x+3
 global.CardName[CardStat] = 'Red Lightning'
 global.CardText[CardStat] = 'Nova Grappler/Alien/Star Gate/Critical Trigger
 
-ACT [R]: [Move this unit to soul] If you have a ï¿½Nova Grapplerï¿½ Vanguard, unflip 1 card in your damage zone.'
+ACT [R]: [Move this unit to soul] If you have a «Nova Grappler» Vanguard, unflip 1 card in your damage zone.'
 }
 
 CardStat = x+4
@@ -113,7 +113,7 @@ CardStat = x+8
 global.CardName[CardStat] = 'Turboraizer'
 global.CardText[CardStat] = 'Nova Grappler/Battleroid/Star Gate/Stand Trigger
 
-AUTO: When another ï¿½Nova Grapplerï¿½ rides this unit, you may call this card to Rear-guard circle. 
+AUTO: When another «Nova Grappler» rides this unit, you may call this card to Rear-guard circle. 
 
 AUTO [R]: When this unit boosts, the boosted unit gets power +3000 until end of that battle and at the beginning of the end phase of that turn, return this unit to your deck and shuffle your deck.'
 }
@@ -129,7 +129,7 @@ CardStat = x+10
 global.CardName[CardStat] = 'Almighty Reporter'
 global.CardText[CardStat] = 'Nova Grappler/Workeroid/Star Gate
 
-AUTO [R]: When an attack hits a Vanguard during the battle that this unit boosted a ï¿½Nova Grapplerï¿½, you may return this unit to your hand.'
+AUTO [R]: When an attack hits a Vanguard during the battle that this unit boosted a «Nova Grappler», you may return this unit to your hand.'
 }
 
 CardStat = x+11
@@ -145,7 +145,7 @@ CardStat = x+12
 global.CardName[CardStat] = 'Beast Deity, Scarlet Bird'
 global.CardText[CardStat] = 'Nova Grappler/Battleroid/Star Gate
 
-AUTO [V/R]: When this units attack hits a Vanguard, if you have a ï¿½Nova Grapplerï¿½ Vanguard, look at up to five cards from the top of your deck, search for up to one card named "Beast Deity, Azure Dragon" from among them, reveal it to your opponent, put it into your hand and put the rest the bottom of your deck in any order.'
+AUTO [V/R]: When this units attack hits a Vanguard, if you have a «Nova Grappler» Vanguard, look at up to five cards from the top of your deck, search for up to one card named "Beast Deity, Azure Dragon" from among them, reveal it to your opponent, put it into your hand and put the rest the bottom of your deck in any order.'
 }
 
 CardStat = x+13
@@ -155,7 +155,7 @@ global.CardText[CardStat] = 'Nova Grappler/Battleroid/Star Gate
 
 CONT [V]: When you have "Blaujunger" in your soul, this unit gains +2000 power. 
 
-AUTO: [Choose 1 grade 3 ï¿½Nova Grapplerï¿½ card from your hand and discard it] When this unit is called to a Rear-guard Circle, you may pay the cost. If you did, search your deck for 1 "Stern Blaukluger" and add it to your hand. Shuffle your deck.'
+AUTO: [Choose 1 grade 3 «Nova Grappler» card from your hand and discard it] When this unit is called to a Rear-guard Circle, you may pay the cost. If you did, search your deck for 1 "Stern Blaukluger" and add it to your hand. Shuffle your deck.'
 }
 
 CardStat = x+14
@@ -163,7 +163,7 @@ CardStat = x+14
 global.CardName[CardStat] = 'Clay-doll Mechanic'
 global.CardText[CardStat] = 'Nova Grappler/Alien/Star Gate
 
-AUTO: When this unit is placed on Rear-guard circle, if you have a ï¿½Nova Grapplerï¿½ Vanguard, choose a card from your damage zone and turn it face-up.'
+AUTO: When this unit is placed on Rear-guard circle, if you have a «Nova Grappler» Vanguard, choose a card from your damage zone and turn it face-up.'
 }
 
 CardStat = x+15
@@ -171,7 +171,7 @@ CardStat = x+15
 global.CardName[CardStat] = 'Cray Soldier'
 global.CardText[CardStat] = 'Nova Grappler/Alien/Star Gate
 
-AUTO [R]: When an attack hits during the battle that this unit boosted ï¿½Nova Grapplerï¿½, stand this unit.'
+AUTO [R]: When an attack hits during the battle that this unit boosted «Nova Grappler», stand this unit.'
 }
 
 CardStat = x+16
@@ -187,7 +187,7 @@ CardStat = x+17
 global.CardName[CardStat] = 'Death Army Guy'
 global.CardText[CardStat] = 'Nova Grappler/Battleroid/Star Gate
 
-AUTO [R]: When your Vanguard drive check reveals a grade 3 ï¿½Nova Grapplerï¿½, stand this unit.'
+AUTO [R]: When your Vanguard drive check reveals a grade 3 «Nova Grappler», stand this unit.'
 }
 
 CardStat = x+18
@@ -195,7 +195,7 @@ CardStat = x+18
 global.CardName[CardStat] = 'Meshrad Roid'
 global.CardText[CardStat] = 'Nova Grappler/Battleroid/Star Gate
 
-ACT [R]: [Counter Blast 1] If you have a ï¿½Nova Grapplerï¿½ Vanguard, stand this unit.'
+ACT [R]: [Counter Blast 1] If you have a «Nova Grappler» Vanguard, stand this unit.'
 }
 
 CardStat = x+19
@@ -227,7 +227,7 @@ CardStat = x+22
 global.CardName[CardStat] = 'Rocket Hammer Man'
 global.CardText[CardStat] = 'Nova Grappler/Human/Star Gate
 
-ACT [R]: [Rest this unit] Choose 1 of your other ï¿½Nova Grapplerï¿½, it gains +2000 power for that turn.'
+ACT [R]: [Rest this unit] Choose 1 of your other «Nova Grappler», it gains +2000 power for that turn.'
 }
 
 CardStat = x+23
@@ -243,7 +243,7 @@ CardStat = x+24
 global.CardName[CardStat] = 'Toolkit Boy'
 global.CardText[CardStat] = 'Nova Grappler/Workeroid/Star Gate
 
-AUTO [R]: When this boosts a ï¿½Nova Grapplerï¿½ Vanguard and the attack hits a Vanguard, choose 1 card in your damage zone and turn it face-up.'
+AUTO [R]: When this boosts a «Nova Grappler» Vanguard and the attack hits a Vanguard, choose 1 card in your damage zone and turn it face-up.'
 }
 
 CardStat = x+25
@@ -257,7 +257,7 @@ CardStat = x+26
 global.CardName[CardStat] = 'Twin Blader'
 global.CardText[CardStat] = 'Nova Grappler/Battleroid/Star Gate
 
-AUTO: [Choose a ï¿½Nova Grapplerï¿½ from your hand and discard it] When this unit is placed on Guardian ï¿½ircle, you may pay the cost. If you do, choose one of your ï¿½Nova Grapplerï¿½, and that unit cannot be hit until end of that battle.'
+AUTO: [Choose a «Nova Grappler» from your hand and discard it] When this unit is placed on Guardian ñircle, you may pay the cost. If you do, choose one of your «Nova Grappler», and that unit cannot be hit until end of that battle.'
 }
 
 CardStat = x+27
@@ -265,7 +265,7 @@ CardStat = x+27
 global.CardName[CardStat] = 'Beast Deity, Black Tortoise'
 global.CardText[CardStat] = 'Nova Grappler/Battleroid/Star Gate
 
-AUTO [V/R]: When this units attack hits a Vanguard, if you have a ï¿½Nova Grapplerï¿½ Vanguard, look at up to five cards from the top of your deck, search for up to one card named "Beast Deity, Azure Dragon" from among them, reveal it to your opponent, put it into your hand and put the rest the bottom of your deck in any order.'
+AUTO [V/R]: When this units attack hits a Vanguard, if you have a «Nova Grappler» Vanguard, look at up to five cards from the top of your deck, search for up to one card named "Beast Deity, Azure Dragon" from among them, reveal it to your opponent, put it into your hand and put the rest the bottom of your deck in any order.'
 }
 
 CardStat = x+28
@@ -283,7 +283,7 @@ CardStat = x+29
 global.CardName[CardStat] = 'Boomerang Thrower'
 global.CardText[CardStat] = 'Nova Grappler/Human/Star Gate
 
-AUTO: When you ride this unit on a ï¿½Nova Grapplerï¿½, this unit gains "CONT [V]: This unit can attack your opponents back row units" for the turn.'
+AUTO: When you ride this unit on a «Nova Grappler», this unit gains "CONT [V]: This unit can attack your opponents back row units" for the turn.'
 }
 
 CardStat = x+30
@@ -295,7 +295,7 @@ CONT [V/R]: Restraint (This unit cannot attack.)
 
 ACT [V/R]: [Counter Blast 1] Until end of turn, this unit loses "Restraint". 
 
-AUTO [V]: When this unit is boosted by a ï¿½Nova Grapplerï¿½, this unit gets power +5000 until end of that battle.'
+AUTO [V]: When this unit is boosted by a «Nova Grappler», this unit gets power +5000 until end of that battle.'
 }
 
 CardStat = x+31
@@ -303,7 +303,7 @@ CardStat = x+31
 global.CardName[CardStat] = 'Cup Bowler'
 global.CardText[CardStat] = 'Nova Grappler/Human/Star Gate
 
-AUTO [V]: When your ï¿½Nova Grapplerï¿½ Rear-guard becomes rested, this unit gets power +1000 until end of turn.'
+AUTO [V]: When your «Nova Grappler» Rear-guard becomes rested, this unit gets power +1000 until end of turn.'
 }
 
 CardStat = x+32
@@ -311,7 +311,7 @@ CardStat = x+32
 global.CardName[CardStat] = 'Death Army Lady'
 global.CardText[CardStat] = 'Nova Grappler/Battleroid/Star Gate
 
-AUTO [R]: When your Vanguard drive check reveals a grade 3 ï¿½Nova Grapplerï¿½, stand this unit.'
+AUTO [R]: When your Vanguard drive check reveals a grade 3 «Nova Grappler», stand this unit.'
 }
 
 CardStat = x+33
@@ -337,7 +337,7 @@ CardStat = x+35
 global.CardName[CardStat] = 'Hungry Dumpty'
 global.CardText[CardStat] = 'Nova Grappler/Alien/Star Gate
 
-AUTO: When this unit is placed on Rear-guard circle, if you have a ï¿½Nova Grapplerï¿½ Vanguard, choose a card from your damage zone and turn it face-up.'
+AUTO: When this unit is placed on Rear-guard circle, if you have a «Nova Grappler» Vanguard, choose a card from your damage zone and turn it face-up.'
 }
 
 CardStat = x+36
@@ -359,7 +359,7 @@ CardStat = x+38
 global.CardName[CardStat] = 'Magician Girl, Kirara'
 global.CardText[CardStat] = 'Nova Grappler/Workeroid/Star Gate
 
-AUTO [V/R]: [Counter Blast 2] When this units attack hits, and you have a ï¿½Nova Grapplerï¿½ Vanguard, you may pay the cost. If so, draw 1 card.'
+AUTO [V/R]: [Counter Blast 2] When this units attack hits, and you have a «Nova Grappler» Vanguard, you may pay the cost. If so, draw 1 card.'
 }
 
 CardStat = x+39
@@ -367,7 +367,7 @@ CardStat = x+39
 global.CardName[CardStat] = 'Marvelous Hani'
 global.CardText[CardStat] = 'Nova Grappler/Alien/Star Gate
 
-AUTO [V/R]: When this units attack hits a Vanguard, if you have four or more other ï¿½Nova Grapplerï¿½ Rear-guards, draw a card.'
+AUTO [V/R]: When this units attack hits a Vanguard, if you have four or more other «Nova Grappler» Rear-guards, draw a card.'
 }
 
 CardStat = x+40
@@ -375,7 +375,7 @@ CardStat = x+40
 global.CardName[CardStat] = 'NGM Prototype'
 global.CardText[CardStat] = 'Nova Grappler/Battleroid/Star Gate
 
-AUTO: When this unit intercepts, and you have a ï¿½Nova Grapplerï¿½ Vanguard, during that battle, this units shield gains +5000.'
+AUTO: When this unit intercepts, and you have a «Nova Grappler» Vanguard, during that battle, this units shield gains +5000.'
 }
 
 CardStat = x+41
@@ -383,7 +383,7 @@ CardStat = x+41
 global.CardName[CardStat] = 'Street Bouncer'
 global.CardText[CardStat] = 'Nova Grappler/Alien/Star Gate
 
-AUTO: [Rest this unit & choose one of your ï¿½Nova Grapplerï¿½ Rear-guards on the same column as this unit and rest it] When this unit is placed on Rear-guard circle, if you have a ï¿½Nova Grapplerï¿½ Vanguard, you may pay the cost. If you do, draw a card.'
+AUTO: [Rest this unit & choose one of your «Nova Grappler» Rear-guards on the same column as this unit and rest it] When this unit is placed on Rear-guard circle, if you have a «Nova Grappler» Vanguard, you may pay the cost. If you do, draw a card.'
 }
 
 CardStat = x+42
@@ -391,7 +391,7 @@ CardStat = x+42
 global.CardName[CardStat] = 'Super Electromagnetic Lifeform, Storm'
 global.CardText[CardStat] = 'Nova Grappler/Alien/Star Gate
 
-AUTO [V/R]: When this units attack hits a Vanguard, and you have a ï¿½Nova Grapplerï¿½ Vanguard, unflip 1 card in your damage zone.'
+AUTO [V/R]: When this units attack hits a Vanguard, and you have a «Nova Grappler» Vanguard, unflip 1 card in your damage zone.'
 }
 
 CardStat = x+43
@@ -399,9 +399,9 @@ CardStat = x+43
 global.CardName[CardStat] = 'Armoured Fairy, Sphira'
 global.CardText[CardStat] = 'Nova Grappler/Battleroid/Star Gate
 
-AUTO [V/R]: [Soul Blast 3] When this units attack hits and you have a ï¿½Nova Grapplerï¿½ Vanguard, you may pay the cost. If you did, draw 1 card. 
+AUTO [V/R]: [Soul Blast 3] When this units attack hits and you have a «Nova Grappler» Vanguard, you may pay the cost. If you did, draw 1 card. 
 
-AUTO[V]: When this unit is boosted by a ï¿½Nova Grapplerï¿½, for that battle, this unit gains +3000 power.'
+AUTO[V]: When this unit is boosted by a «Nova Grappler», for that battle, this unit gains +3000 power.'
 }
 
 CardStat = x+44
@@ -409,9 +409,9 @@ CardStat = x+44
 global.CardName[CardStat] = 'Asura Kaiser'
 global.CardText[CardStat] = 'Nova Grappler/Battleroid/Star Gate
 
-CONT [V/R]: If you do not have another ï¿½Nova Grapplerï¿½ Vanguard or Rear-guard circle, this unit gets power -2000. 
+CONT [V/R]: If you do not have another «Nova Grappler» Vanguard or Rear-guard circle, this unit gets power -2000. 
 
-AUTO [V]: When this units drive check reveals a grade 3 ï¿½Nova Grapplerï¿½, choose one of your Rear-guards and stand it.'
+AUTO [V]: When this units drive check reveals a grade 3 «Nova Grappler», choose one of your Rear-guards and stand it.'
 }
 
 CardStat = x+45
@@ -419,7 +419,7 @@ CardStat = x+45
 global.CardName[CardStat] = 'Beast Deity, Azure Dragon'
 global.CardText[CardStat] = 'Nova Grappler/Battleroid/Star Gate
 
-CONT [V/R]: If you have a non-ï¿½Nova Grapplerï¿½ Vanguard or Rear-guard, this unit gets power -2000. 
+CONT [V/R]: If you have a non-«Nova Grappler» Vanguard or Rear-guard, this unit gets power -2000. 
 
 AUTO [V]: [Choose a card named "Beast Deity, Azure Dragon" from your hand and discard it] When this units attack hits a Vanguard, you may pay the cost. If you do, choose up to two of your Rear-guards and stand them.'
 }
@@ -447,7 +447,7 @@ global.CardText[CardStat] = 'Nova Grappler/Battleroid/Star Gate
 
 AUTO [V]: When your Rear-guards attack hits a Vanguard, choose 1 card from your damage zone and unflip it. 
 
-AUTO [V]: [Counter Blast 2] When this units attack hits a Vanguard, you may pay the cost. If paid, choose 1 of your ï¿½Nova Grapplerï¿½ Rear-guards and stand it.'
+AUTO [V]: [Counter Blast 2] When this units attack hits a Vanguard, you may pay the cost. If paid, choose 1 of your «Nova Grappler» Rear-guards and stand it.'
 }
 
 CardStat = x+49
@@ -455,9 +455,9 @@ CardStat = x+49
 global.CardName[CardStat] = 'Lion Heat'
 global.CardText[CardStat] = 'Nova Grappler/Warbeast/Star Gate
 
-AUTO [V]: [Counter Blast 2] When this units attack hits a Vanguard, you may pay the cost. If paid, choose 1 of your ï¿½Nova Grapplerï¿½ Rear-guards and stand it. 
+AUTO [V]: [Counter Blast 2] When this units attack hits a Vanguard, you may pay the cost. If paid, choose 1 of your «Nova Grappler» Rear-guards and stand it. 
 
-AUTO [R]: [Counter Blast 2 ] When this units attack hits a Vanguard, you may pay the cost. If paid, choose 1 of your grade 1 or lower ï¿½Nova Grapplerï¿½ Rear-guards and stand it.'
+AUTO [R]: [Counter Blast 2 ] When this units attack hits a Vanguard, you may pay the cost. If paid, choose 1 of your grade 1 or lower «Nova Grappler» Rear-guards and stand it.'
 }
 
 CardStat = x+50
@@ -473,7 +473,7 @@ CardStat = x+51
 global.CardName[CardStat] = 'Moai the Great'
 global.CardText[CardStat] = 'Nova Grappler/Alien/Star Gate
 
-AUTO [V/R]: When this unit is boosted by a ï¿½Nova Grapplerï¿½, this unit gets power +2000 until end of that battle.'
+AUTO [V/R]: When this unit is boosted by a «Nova Grappler», this unit gets power +2000 until end of that battle.'
 }
 
 CardStat = x+52
@@ -491,7 +491,7 @@ CardStat = x+53
 global.CardName[CardStat] = 'Muscle Hercules'
 global.CardText[CardStat] = 'Nova Grappler/Alien/Star Gate
 
-AUTO: When this unit is placed on Vanguard or Rear-guard circle, if you have a ï¿½Nova Grapplerï¿½ Vanguard, choose a card from your damage zone and turn it face-up.'
+AUTO: When this unit is placed on Vanguard or Rear-guard circle, if you have a «Nova Grappler» Vanguard, choose a card from your damage zone and turn it face-up.'
 }
 
 CardStat = x+54
@@ -515,7 +515,7 @@ global.CardText[CardStat] = 'Nova Grappler/Battleroid/Star Gate
 
 CONT [V]: If you have "Blaukluger" in your soul, this units power is +1000. 
 
-AUTO [V]: [Counter Blast 2 & discard 2 ï¿½Nova Grapplerï¿½ units from your hand] When this units attack hits a Vanguard, you may pay the cost. If paid, stand all of your units on the same column as this unit and during that turn this unit loses its "Twin Drive!!" skill.'
+AUTO [V]: [Counter Blast 2 & discard 2 «Nova Grappler» units from your hand] When this units attack hits a Vanguard, you may pay the cost. If paid, stand all of your units on the same column as this unit and during that turn this unit loses its "Twin Drive!!" skill.'
 }
 
 CardStat = x+56
@@ -523,7 +523,7 @@ CardStat = x+56
 global.CardName[CardStat] = 'Top Gun'
 global.CardText[CardStat] = 'Nova Grappler/Battleroid/Star Gate
 
-AUTO [V]: Whenever your ï¿½Nova Grapplerï¿½ Rear-guards is rested, this unit gets power +1000 until end of that turn.'
+AUTO [V]: Whenever your «Nova Grappler» Rear-guards is rested, this unit gets power +1000 until end of that turn.'
 }
 
 CardStat = x+57
@@ -531,7 +531,7 @@ CardStat = x+57
 global.CardName[CardStat] = 'Ultimate Lifeform, Cosmo Lord'
 global.CardText[CardStat] = 'Nova Grappler/Alien/Star Gate
 
-ACT [V]: [Choose one of your ï¿½Nova Grapplerï¿½ Rear-guards and rest it] This unit gets power +3000 until end of turn.'
+ACT [V]: [Choose one of your «Nova Grappler» Rear-guards and rest it] This unit gets power +3000 until end of turn.'
 }
 
 
@@ -545,9 +545,9 @@ CardStat = x
 global.CardName[CardStat] = 'Death Army Pawn'
 global.CardText[CardStat] = 'Nova Grappler/Battleroid/Star Gate
 
-AUTO: When another ï¿½Nova Grapplerï¿½ rides this unit, you may call this card to Rear-guard circle. 
+AUTO: When another «Nova Grappler» rides this unit, you may call this card to Rear-guard circle. 
  
-ACT [R]: [Choose another of your ï¿½Nova Grapplerï¿½ Rear-guards with "Death Army" in its name and rest it] If you have a ï¿½Nova Grapplerï¿½ Vanguard, this unit gets power +2000 until end of turn.'
+ACT [R]: [Choose another of your «Nova Grappler» Rear-guards with "Death Army" in its name and rest it] If you have a «Nova Grappler» Vanguard, this unit gets power +2000 until end of turn.'
 }
 
 CardStat = x+1
@@ -557,7 +557,7 @@ global.CardText[CardStat] = 'Nova Grappler/Battleroid/Star Gate
 
 AUTO: Pioneer (When another unit from the same clan rides this unit, you may call this card to Rear0guard circle).
 
-ACT [R]: [Counter Blast 1 & put this unit into your soul] Look at up to five cards from the top of your deck, search for up to one grade 3 or greater ï¿½Nova Grapplerï¿½ from among them, reveal it to your opponent, put it into your hand and shuffle your deck.'
+ACT [R]: [Counter Blast 1 & put this unit into your soul] Look at up to five cards from the top of your deck, search for up to one grade 3 or greater «Nova Grappler» from among them, reveal it to your opponent, put it into your hand and shuffle your deck.'
 }
 
 CardStat = x+2
@@ -567,7 +567,7 @@ global.CardText[CardStat] = 'Nova Grappler/Warbeast/Star Gate
 
 AUTO: Pioneer (When another unit from the same clan rides this unit, you may call this card to Rear-guard circle).
 
-ACT [R]: [Put this unit into your soul] Choose up to one of your ï¿½Nova Grapplerï¿½ and that unit gets power +3000 until end of turn.'
+ACT [R]: [Put this unit into your soul] Choose up to one of your «Nova Grappler» and that unit gets power +3000 until end of turn.'
 }
 
 CardStat = x+3
@@ -581,7 +581,7 @@ CardStat = x+4
 global.CardName[CardStat] = 'Beast Deity, Blank Marsh'
 global.CardText[CardStat] = 'Nova Grappler/Battleroid/Star Gate
 
-AUTO [R]: [Counter Blast 1 & Put this unit into your soul] When an attack hits a Vanguard during the battle that this unit boosted a ï¿½Nova Grapplerï¿½, you may pay the cost. If you do, choose one of your Rear-guards with "Beast Deity" in its card name, and stand it.'
+AUTO [R]: [Counter Blast 1 & Put this unit into your soul] When an attack hits a Vanguard during the battle that this unit boosted a «Nova Grappler», you may pay the cost. If you do, choose one of your Rear-guards with "Beast Deity" in its card name, and stand it.'
 }
 
 CardStat = x+5
@@ -597,7 +597,7 @@ CardStat = x+6
 global.CardName[CardStat] = 'Death Army Bishop'
 global.CardText[CardStat] = 'Nova Grappler/Battleroid/Star Gate
 
-ACT [R]:[Counter Blast 1] If you have a ï¿½Nova Grapplerï¿½ Vanguard, choose up to two of your rear-guards with "Death Army" in their name and stand them. This skill can only be used once per turn.'
+ACT [R]:[Counter Blast 1] If you have a «Nova Grappler» Vanguard, choose up to two of your rear-guards with "Death Army" in their name and stand them. This skill can only be used once per turn.'
 }
 
 CardStat = x+7
@@ -605,7 +605,7 @@ CardStat = x+7
 global.CardName[CardStat] = 'Stoic Hani'
 global.CardText[CardStat] = 'Nova Grappler/Battleroid/Star Gate
 
-AUTO: [Counter Blast 1] When this unit is placed on Vanguard or Rear-guard circle, if you have a ï¿½Nova Grapplerï¿½ Vanguard, you may pay the cost. If you do, put the top card of your deck into your damage zone and at the beginning of your end phase, choose a card from your damage zone, return it to your deck and shuffle your deck.'
+AUTO: [Counter Blast 1] When this unit is placed on Vanguard or Rear-guard circle, if you have a «Nova Grappler» Vanguard, you may pay the cost. If you do, put the top card of your deck into your damage zone and at the beginning of your end phase, choose a card from your damage zone, return it to your deck and shuffle your deck.'
 }
 
 CardStat = x+8
@@ -621,7 +621,7 @@ CardStat = x+9
 global.CardName[CardStat] = 'Death Army Knight'
 global.CardText[CardStat] = 'Nova Grappler/Battleroid/Star Gate
 
-AUTO: During your main phase, when this unit is placed on Rear-guard circle, if you have a ï¿½Nova Grapplerï¿½ Vanguard, choose up to two of your Rear-guards with "Death Army" in their card name and stand them.'
+AUTO: During your main phase, when this unit is placed on Rear-guard circle, if you have a «Nova Grappler» Vanguard, choose up to two of your Rear-guards with "Death Army" in their card name and stand them.'
 }
 
 CardStat = x+10
@@ -635,7 +635,7 @@ CardStat = x+11
 global.CardName[CardStat] = 'Heroic Hani'
 global.CardText[CardStat] = 'Nova Grappler/Battleroid/Star Gate
 
-AUTO: [Counter Blast 1] When this unit is placed on Vanguard or Rear-guard circle, if you have a ï¿½Nova Grapplerï¿½ Vanguard, you may pay the cost. If you do, put the top card of your deck into your damage zone and at the beginning of your end phase, choose a card from your damage zone, return it to your deck and shuffle your deck.'
+AUTO: [Counter Blast 1] When this unit is placed on Vanguard or Rear-guard circle, if you have a «Nova Grappler» Vanguard, you may pay the cost. If you do, put the top card of your deck into your damage zone and at the beginning of your end phase, choose a card from your damage zone, return it to your deck and shuffle your deck.'
 }
 
 CardStat = x+12
@@ -643,7 +643,7 @@ CardStat = x+12
 global.CardName[CardStat] = 'Transraizer'
 global.CardText[CardStat] = 'Nova Grappler/Battleroid/Star Gate
 
-AUTO: When this unit is placed on Vanguard or Rear-guard circle, reveal the top card of your deck. If the revealed card is a grade 1 or 2 ï¿½Nova Grapplerï¿½, call that card to Rear-guard circle and if it is not, shuffle your deck.'
+AUTO: When this unit is placed on Vanguard or Rear-guard circle, reveal the top card of your deck. If the revealed card is a grade 1 or 2 «Nova Grappler», call that card to Rear-guard circle and if it is not, shuffle your deck.'
 }
 
 CardStat = x+13
@@ -659,7 +659,7 @@ CardStat = x+14
 global.CardName[CardStat] = 'Hollow Nomad'
 global.CardText[CardStat] = 'Nova Grappler/Alien/Star Gate
 
-AUTO [V/R]: When this unit attacks a Vanguard, if you have a ï¿½Nova Grapplerï¿½ Vanguard, this unit gets power +2000 until end of that battle.'
+AUTO [V/R]: When this unit attacks a Vanguard, if you have a «Nova Grappler» Vanguard, this unit gets power +2000 until end of that battle.'
 }
 
 CardStat = x+15
@@ -667,7 +667,7 @@ CardStat = x+15
 global.CardName[CardStat] = 'Infinite Phantom Invader, Death Army Cosmo Lord'
 global.CardText[CardStat] = 'Nova Grappler/Alien/Star Gate
 
-ACT [V]: Limit Break 4 (This ability is active while you have four or more damage): [Counter Blast 2] Stand all your ï¿½Nova Grapplerï¿½ Rear-guards. If four or more units stand with this effect, this unit gets critical +1 until end of turn. This skill can only be used once per turn.
+ACT [V]: Limit Break 4 (This ability is active while you have four or more damage): [Counter Blast 2] Stand all your «Nova Grappler» Rear-guards. If four or more units stand with this effect, this unit gets critical +1 until end of turn. This skill can only be used once per turn.
 
 ACT [V]: [Choose two of your Rear-guards with "Death Army" in their name and rest them] This unit gets power +5000 until end of turn.'
 }
@@ -695,7 +695,7 @@ global.CardText[CardStat] = 'Nova Grappler/Battleroid/Star Gate
 
 AUTO [V]: Limit Break 4 (This ability is active if you have 4 or more damage): When this unit attacks a Vanguard, this unit gets power +5000 until end of that battle.
 
-AUTO [R]: When this unit attacks a Vanguard, if you have a ï¿½Nova Grapplerï¿½ Vanguard, this unit gets power +2000 until end of the battle.'
+AUTO [R]: When this unit attacks a Vanguard, if you have a «Nova Grappler» Vanguard, this unit gets power +2000 until end of the battle.'
 global.UnitGrade[CardStat] = 3
 global.CardInClan[CardStat] = 4
 }
@@ -741,9 +741,9 @@ CardStat = x
 global.CardName[CardStat] = 'Beast Deity, Ethics Buster'
 global.CardText[CardStat] = 'Nova Grappler/Battleroid/Star Gate
 
-AUTO: Limit Break 4 (This ability is active if you have four or more damage): When a ï¿½Nova Grapplerï¿½ rides this unit, you may choose one of your Vanguards, and that unit gets power +10000, and gets "AUTO [V]: When this unit attacks a Vanguard, stand all your ï¿½Nova Grapplerï¿½ Rear-guards in your front row" until end of turn.
+AUTO: Limit Break 4 (This ability is active if you have four or more damage): When a «Nova Grappler» rides this unit, you may choose one of your Vanguards, and that unit gets power +10000, and gets "AUTO [V]: When this unit attacks a Vanguard, stand all your «Nova Grappler» Rear-guards in your front row" until end of turn.
 
-AUTO [V]: When this unit is boosted by a ï¿½Nova Grapplerï¿½, this unit gets power +2000 until end of that battle.
+AUTO [V]: When this unit is boosted by a «Nova Grappler», this unit gets power +2000 until end of that battle.
 
 CONT [V/R]: Lord (If you have a unit that doesnt belong to the same clan as this unit, this unit cannot attack.)'
 global.UnitGrade[CardStat] = 3
@@ -759,7 +759,7 @@ CardStat = x
 global.CardName[CardStat] = 'Bloody Rain'
 global.CardText[CardStat] = 'Nova Grappler/Vampire/Star Gate
 
-AUTO [V/R]: When this unit attacks, if you have a ï¿½Nova Grapplerï¿½ Vanguard or Rear-guard with Limit Break 4, this unit gets power +3000 until end of that battle.'
+AUTO [V/R]: When this unit attacks, if you have a «Nova Grappler» Vanguard or Rear-guard with Limit Break 4, this unit gets power +3000 until end of that battle.'
 global.UnitGrade[CardStat] = 2
 global.CardInClan[CardStat] = 4
 }
@@ -769,7 +769,7 @@ CardStat = x+1
 global.CardName[CardStat] = 'Machinery Angel'
 global.CardText[CardStat] = 'Nova Grappler/Angel/Star Gate
 
-AUTO [R]: [Counter Blast 1] When this unit boosts a ï¿½Nova Grapplerï¿½ with Limit Break 4, you may pay the cost. If you do, the boosted unit gets power +3000 until end of that battle.'
+AUTO [R]: [Counter Blast 1] When this unit boosts a «Nova Grappler» with Limit Break 4, you may pay the cost. If you do, the boosted unit gets power +3000 until end of that battle.'
 global.UnitGrade[CardStat] = 1
 global.CardInClan[CardStat] = 4
 }
@@ -781,7 +781,7 @@ global.CardText[CardStat] = 'Nova Grappler/Elf/Star Gate
 
 AUTO: Pioneer (When another unit from the same clan rides this unit, you may call this card to Rear-guard circle.)
 
-AUTO [R]: [Put this unit into your soul] When an attack hits a Vanguard during the battle that this unit boosted a ï¿½Nova Grapplerï¿½ that has Limit Break 4, you may pay the cost. If you do, draw a card.'
+AUTO [R]: [Put this unit into your soul] When an attack hits a Vanguard during the battle that this unit boosted a «Nova Grappler» that has Limit Break 4, you may pay the cost. If you do, draw a card.'
 global.UnitGrade[CardStat] = 0
 global.CardInClan[CardStat] = 4
 }
@@ -795,7 +795,7 @@ CardStat = x
 global.CardName[CardStat] = 'Strongest Beast Deity, Ethics Buster Extreme'
 global.CardText[CardStat] = 'Nova Grappler/Battleroid/Star Gate
 
-AUTO [V]: Limit Break 4 (This ability is active if you have four or more damage): When this units drive check reveals a grade 1 or greater card with "Beast Deity" in its card name, choose one of your ï¿½Nova Grapplerï¿½ Rear-guards, and stand it.
+AUTO [V]: Limit Break 4 (This ability is active if you have four or more damage): When this units drive check reveals a grade 1 or greater card with "Beast Deity" in its card name, choose one of your «Nova Grappler» Rear-guards, and stand it.
 
 CONT [V]: If you have a card named "Beast Deity, Ethics Buster" in your soul, this unit gets power +2000.
 
@@ -813,7 +813,7 @@ CardStat = x
 global.CardName[CardStat] = 'Death Army Commander'
 global.CardText[CardStat] = 'Nova Grappler/Battleroid/Star Gate
 
-AUTO [R]: When your Vanguards drive check reveals a grade 3 ï¿½Nova Grapplerï¿½, stand this unit.'
+AUTO [R]: When your Vanguards drive check reveals a grade 3 «Nova Grappler», stand this unit.'
 global.UnitGrade[CardStat] = 3
 global.CardInClan[CardStat] = 4
 }
@@ -823,7 +823,7 @@ CardStat = x+1
 global.CardName[CardStat] = 'Beast Deity, Brainie Babio'
 global.CardText[CardStat] = 'Nova Grappler/Battleroid/Star Gate
 
-AUTO [V/R]: [Counter Blast 1 "Beast Deity"] When this units attack hits a Vanguard, if you have a ï¿½Nova Grapplerï¿½ Vanguard, you may pay the cost. If you do, choose another of your ï¿½Nova Grapplerï¿½ Rear-guards, and stand it.'
+AUTO [V/R]: [Counter Blast 1 "Beast Deity"] When this units attack hits a Vanguard, if you have a «Nova Grappler» Vanguard, you may pay the cost. If you do, choose another of your «Nova Grappler» Rear-guards, and stand it.'
 global.UnitGrade[CardStat] = 2
 global.CardInClan[CardStat] = 4
 }
@@ -833,7 +833,7 @@ CardStat = x+2
 global.CardName[CardStat] = 'Gatling Raizer'
 global.CardText[CardStat] = 'Nova Grappler/Battleroid/Star Gate
 
-AUTO [V/R]: [Counter Blast 1 ï¿½Nova Grapplerï¿½] When this unit attacks, if you have a ï¿½Nova Grapplerï¿½ Vanguard, you may pay the cost. If you do, this unit gets power +4000 until end of that battle.'
+AUTO [V/R]: [Counter Blast 1 «Nova Grappler»] When this unit attacks, if you have a «Nova Grappler» Vanguard, you may pay the cost. If you do, this unit gets power +4000 until end of that battle.'
 global.UnitGrade[CardStat] = 2
 global.CardInClan[CardStat] = 4
 }
@@ -845,7 +845,7 @@ global.CardText[CardStat] = 'Nova Grappler/Battleroid/Star Gate
 
 CONT: Sentinel (You may only have up to four cards with "Sentinel" in a deck.)
 
-AUTO: [Choose a ï¿½Nova Grapplerï¿½ from your hand, and discard it] When this unit is placed on Guardian circle, you may pay the cost. If you do, choose one of your ï¿½Nova Grapplerï¿½ that is being attacked, and that unit cannot be hit until end of that battle.'
+AUTO: [Choose a «Nova Grappler» from your hand, and discard it] When this unit is placed on Guardian circle, you may pay the cost. If you do, choose one of your «Nova Grappler» that is being attacked, and that unit cannot be hit until end of that battle.'
 global.UnitGrade[CardStat] = 1
 global.CardInClan[CardStat] = 4
 }
@@ -855,7 +855,7 @@ CardStat = x+4
 global.CardName[CardStat] = 'Beast Deity, Max Beat'
 global.CardText[CardStat] = 'Nova Grappler/Battleroid/Star Gate
 
-AUTO [R]: [Counter Blast 1 "Beast Deity"] During your battle phase, when this unit becomes stand, if you have a ï¿½Nova Grapplerï¿½ Vanguard you may pay the cost. If you do, choose another of your ï¿½Nova Grapplerï¿½ Rear-guards, and stand it.'
+AUTO [R]: [Counter Blast 1 "Beast Deity"] During your battle phase, when this unit becomes stand, if you have a «Nova Grappler» Vanguard you may pay the cost. If you do, choose another of your «Nova Grappler» Rear-guards, and stand it.'
 global.UnitGrade[CardStat] = 1
 global.CardInClan[CardStat] = 4
 }
@@ -865,7 +865,7 @@ CardStat = x+5
 global.CardName[CardStat] = 'Energy Charger'
 global.CardText[CardStat] = 'Nova Grappler/Workeroid/Star Gate
 
-AUTO: [Soul Blast 2] When this unit is placed on Rear-guard circle, if you have a ï¿½Nova Grapplerï¿½ Vanguard, you may pay the cost. If you do, draw a card.'
+AUTO: [Soul Blast 2] When this unit is placed on Rear-guard circle, if you have a «Nova Grappler» Vanguard, you may pay the cost. If you do, draw a card.'
 global.UnitGrade[CardStat] = 1
 global.CardInClan[CardStat] = 4
 }
@@ -888,10 +888,10 @@ x = 1635
 
 CardStat = x
 {
-global.CardName[CardStat] = 'Deadliest Beast Deity, Ethics Buster ï¿½ï¿½everseï¿½'
+global.CardName[CardStat] = 'Deadliest Beast Deity, Ethics Buster «ßeverse»'
 global.CardText[CardStat] = 'Nova Grappler/Battleroid/Star Gate
 
-ACT [V]: Limit Break 4 (This ability is active if you have four or more damage): [Counter Blast 2 & Choose two cards with "Beast Deity" in its card name from your hand, and discard them & Choose two of your ï¿½Nova Grapplerï¿½ Rear-guards, and lock them] This unit gets "AUTO [V]: At the end of the battle that this unit attacked a Vanguard, stand this unit. This ability cannot be used for the rest of that turn" until end of turn. (Locked cards are turned face-down, and cannot do anything. Turn them face-up at the end of its owners turn.)
+ACT [V]: Limit Break 4 (This ability is active if you have four or more damage): [Counter Blast 2 & Choose two cards with "Beast Deity" in its card name from your hand, and discard them & Choose two of your «Nova Grappler» Rear-guards, and lock them] This unit gets "AUTO [V]: At the end of the battle that this unit attacked a Vanguard, stand this unit. This ability cannot be used for the rest of that turn" until end of turn. (Locked cards are turned face-down, and cannot do anything. Turn them face-up at the end of its owners turn.)
 
 CONT [V]: If you have a card named "Beast Deity, Ethics Buster" in your soul, this unit gets power +2000.
 
@@ -961,7 +961,7 @@ CardStat = x
 global.CardName[CardStat] = 'Jetraizer'
 global.CardText[CardStat] = 'Nova Grappler/Battleroid/Star Gate
 
-AUTO [R]: [Counter Blast 1 & Put this unit into your soul] When an attack hits a Vanguard during the battle that this unit boosted a ï¿½Nova Grapplerï¿½, you may pay the cost. If you do, choose one of your Rear-guards with "Raizer" in its card name, and stand it.'
+AUTO [R]: [Counter Blast 1 & Put this unit into your soul] When an attack hits a Vanguard during the battle that this unit boosted a «Nova Grappler», you may pay the cost. If you do, choose one of your Rear-guards with "Raizer" in its card name, and stand it.'
 global.UnitGrade[CardStat] = 1
 global.CardInClan[CardStat] = 4
 }
@@ -977,7 +977,7 @@ global.CardText[CardStat] = 'Nova Grappler/Battleroid/Star Gate
 
 CONT: Sentinel (You may only have up to four cards with "Sentinel" in a deck.)
 
-AUTO: [Choose a ï¿½Nova Grapplerï¿½ from your hand, and discard it] When this unit is placed on Guardian circle, you may pay the cost. If you do, choose one of your ï¿½Nova Grapplerï¿½, and that unit cannot be hit until end of that battle.'
+AUTO: [Choose a «Nova Grappler» from your hand, and discard it] When this unit is placed on Guardian circle, you may pay the cost. If you do, choose one of your «Nova Grappler», and that unit cannot be hit until end of that battle.'
 global.UnitGrade[CardStat] = 1
 global.CardInClan[CardStat] = 4
 }
@@ -991,7 +991,7 @@ CardStat = x
 global.CardName[CardStat] = 'Galaxy Blaukluger'
 global.CardText[CardStat] = 'Nova Grappler/Battleroid/Star Gate
 
-AUTO [V] Limit Break 4 (This ability is active if you have four or more damage): [Counter Blast 2 & Choose two ï¿½Nova Grapplerï¿½ from your hand, and discard them] When your vanguard or Rear-guard with "Blau" in its card names attack hits a Vanguard, you may pay the cost. If you do, stand all of your units in the same column as this unit. This ability cannot be used for the rest of that turn. (Even if you do not pay the cost, this ability cannot be used for the rest of that turn.)
+AUTO [V] Limit Break 4 (This ability is active if you have four or more damage): [Counter Blast 2 & Choose two «Nova Grappler» from your hand, and discard them] When your vanguard or Rear-guard with "Blau" in its card names attack hits a Vanguard, you may pay the cost. If you do, stand all of your units in the same column as this unit. This ability cannot be used for the rest of that turn. (Even if you do not pay the cost, this ability cannot be used for the rest of that turn.)
 
 CONT [V]: If you have a card named "Stern Blaukluger" in your soul, this unit gets power +2000.
 
@@ -1005,9 +1005,9 @@ CardStat = x+1
 global.CardName[CardStat] = 'Mont Blaukluger'
 global.CardText[CardStat] = 'Nova Grappler/Battleroid/Star Gate
 
-AUTO: Limit Break 4 (This ability is active if you have four or more damage): When a ï¿½Nova Grapplerï¿½ rides this unit, choose your Vanguard, and until end of turn, that unit gets power +10000 and "AUTO [V]: [Counter Blast 1] When this unit attacks a Vanguard, you may pay the cost. If you do, stand all of your ï¿½Nova Grapplerï¿½ Rear-guards".
+AUTO: Limit Break 4 (This ability is active if you have four or more damage): When a «Nova Grappler» rides this unit, choose your Vanguard, and until end of turn, that unit gets power +10000 and "AUTO [V]: [Counter Blast 1] When this unit attacks a Vanguard, you may pay the cost. If you do, stand all of your «Nova Grappler» Rear-guards".
 
-AUTO [V]: When this unit is boosted by a ï¿½Nova Grapplerï¿½, this unit gets power +2000 until end of that battle.
+AUTO [V]: When this unit is boosted by a «Nova Grappler», this unit gets power +2000 until end of that battle.
 
 CONT [V/R]: Lord (If you have a unit without a same clan as this unit, this unit cannot attack.)'
 global.UnitGrade[CardStat] = 3
@@ -1021,7 +1021,7 @@ global.CardText[CardStat] = 'Nova Grappler/Battleroid/Star Gate
 
 AUTO [V]: Limit Break 4 (This ability is active if you have four or more damage): When this unit attacks a vanguard, this unit gets power +5000 until end of that battle.
 
-AUTO [V]: [Counter Blast 3] When this units attack hits a Vanguard, you may pay the cost. If you do, choose up to two of your ï¿½Nova Grapplerï¿½ Rear-guards, and stand them.'
+AUTO [V]: [Counter Blast 3] When this units attack hits a Vanguard, you may pay the cost. If you do, choose up to two of your «Nova Grappler» Rear-guards, and stand them.'
 global.UnitGrade[CardStat] = 3
 global.CardInClan[CardStat] = 4
 }
@@ -1141,7 +1141,7 @@ CardStat = x
 global.CardName[CardStat] = 'Immortal Asura Kaiser'
 global.CardText[CardStat] = 'Nova Grappler/Battleroid/Star Gate
 
-AUTO [V]: Limit Break 4 (This ability is active if you have four or more damage): When this units drive check reveals a grade 3 ï¿½Nova Grapplerï¿½, until end of that battle, this unit gets "AUTO [V]: [Counter Blast 2 & Choose two ï¿½Nova Grapplerï¿½ from your hand, and discard them] At the end of the battle that this unit attacked a vanguard, you may pay the cost. If you do, choose your vanguard and one of your rear-guards, stand them, and this unit gets power +10000 until end of turn". This ability cannot be used for the rest of that turn.
+AUTO [V]: Limit Break 4 (This ability is active if you have four or more damage): When this units drive check reveals a grade 3 «Nova Grappler», until end of that battle, this unit gets "AUTO [V]: [Counter Blast 2 & Choose two «Nova Grappler» from your hand, and discard them] At the end of the battle that this unit attacked a vanguard, you may pay the cost. If you do, choose your vanguard and one of your rear-guards, stand them, and this unit gets power +10000 until end of turn". This ability cannot be used for the rest of that turn.
 
 CONT [V]: If you have a card named "Asura Kaiser" in your soul, this unit gets power +2000.
 
@@ -1155,7 +1155,7 @@ CardStat = x+1
 global.CardName[CardStat] = 'Bear Down Samurai'
 global.CardText[CardStat] = 'Nova Grappler/Battleroid/Star Gate
 
-AUTO [R]: During your battle phase, when your ï¿½Nova Grapplerï¿½ becomes stand, if you have a Vanguard with "Asura" in its card name, this unit gets power +3000 until end of turn.'
+AUTO [R]: During your battle phase, when your «Nova Grappler» becomes stand, if you have a Vanguard with "Asura" in its card name, this unit gets power +3000 until end of turn.'
 global.UnitGrade[CardStat] = 1
 global.CardInClan[CardStat] = 4
 }
@@ -1177,7 +1177,7 @@ CardStat = x+1
 global.CardName[CardStat] = 'Daredevil Samurai'
 global.CardText[CardStat] = 'Nova Grappler/Battleroid/Star Gate
 
-AUTO [R]: During your battle phase, when your ï¿½Nova Grapplerï¿½ becomes stand, if you have a Vanguard with "Asura" in its card name, this unit gets power +3000 until end of turn.'
+AUTO [R]: During your battle phase, when your «Nova Grappler» becomes stand, if you have a Vanguard with "Asura" in its card name, this unit gets power +3000 until end of turn.'
 global.UnitGrade[CardStat] = 2
 global.CardInClan[CardStat] = 4
 }
@@ -4981,9 +4981,9 @@ global.CardName[CardStat] = 'Extreme Battler, Dosledge'
 global.CardText[CardStat] = 'Nova Grappler/Battleroid
 
 AUTO [R]: When stand by a cards ability, perform the effects below depending on the number of times this unit stand by a cards ability this turn.
-ï¿½ 1 time - This unit gets power +10000 until end of turn.
-ï¿½ 2 times - Soul Charge 1.
-ï¿½ 3 times - Until end of turn, this unit gets power +10000, and your opponent cannot call sentinels to GC during the battle this unit attacked.'
+• 1 time - This unit gets power +10000 until end of turn.
+• 2 times - Soul Charge 1.
+• 3 times - Until end of turn, this unit gets power +10000, and your opponent cannot call sentinels to GC during the battle this unit attacked.'
 global.UnitGrade[CardStat] = 2
 global.CardInClan[CardStat] = 4
 }
@@ -5131,41 +5131,43 @@ global.CardInClan[CardStat] = 4
 global.PowerStat[CardStat] = 9000
 global.DefensePowerStat[CardStat] = 5000
 
-CardStat = 8183
+CardStat = 8197
 {
-global.CardName[CardStat] = 'Beast Deity, Ethics Buster'
+global.CardName[CardStat] = 'Beast Deity, Ethics Buster '
 global.CardText[CardStat] = 'Nova Grappler/Battleroid
 
-[AUTO](VC):When placed or rode upon, COST [discard two cards from your hand], [Stand] one of your units with "Beast Deity" in its card name, and attack your opponents vanguard with that unit. At the end of that battle, if that attack did not hit, [Stand] that unit, and if that attack hit, that unit gets drive -1 until end of turn.
+AUTO [V]: When placed or rode upon, COST [discard two cards from your hand], stand one of your units with "Beast Deity" in its card name, and attack your opponents vanguard with that unit. At the end of that battle, if that attack did not hit, stand that unit, and if that attack hit, that unit gets drive -1 until end of turn.
 
-[AUTO](VC):When your unit with "Beast Deity" in its card name attacks, COST [Counter Blast (1)], and that unit gets [Power]+5000 until end of turn.'
+AUTO [V]: When your unit with "Beast Deity" in its card name attacks, COST [Counter Blast 1], and that unit gets power +5000 until end of turn.'
 global.UnitGrade[CardStat] = 3
 global.CardInClan[CardStat] = 4
 }
 global.OrangeTokenAdd[CardStat] = 1
 global.PowerStat[CardStat] = 12000
-global.DefensePowerStat[CardStat] = 5000
+global.DefensePowerStat[CardStat] = 0
 
-CardStat = 8184
+
+CardStat = 8198
 {
 global.CardName[CardStat] = 'Beast Deity, Typhoon Bird'
 global.CardText[CardStat] = 'Nova Grappler/Battleroid
 
-[ACT](VC/RC)1/Turn:If you have a vanguard with "Beast Deity" in its card name, COST [Counter Blast (1)], look at five cards from the top of your deck, call up to one card with "Beast Deity" in its card name other than grade 2 from among them to (RC) as [Rest], and shuffle your deck.'
+ACT [V/R] 1/Turn: If you have a vanguard with "Beast Deity" in its card name, COST [Counter Blast 1], look at five cards from the top of your deck, call up to one card with "Beast Deity" in its card name other than grade 2 from among them to R as rest, and shuffle your deck.'
 global.UnitGrade[CardStat] = 2
 global.CardInClan[CardStat] = 4
 }
 global.PowerStat[CardStat] = 9000
 global.DefensePowerStat[CardStat] = 5000
 
-CardStat = 8185
+
+CardStat = 8199
 {
 global.CardName[CardStat] = 'Beast Deity, Lift Tauros'
 global.CardText[CardStat] = 'Nova Grappler/Battleroid
 
-[AUTO](RC):When placed during your main phase, you may [Stand] one of your units with "Beast Deity" in its card name.
+AUTO [R]: When placed during your main phase, you may stand one of your units with "Beast Deity" in its card name.
 
-[AUTO](VC/RC):When your vanguards attack hits, look at five cards from the top of your deck, reveal up to one grade 3 card with "Beast Deity" in its card name from among them and put it into your hand, and shuffle your deck. If you put a card into your hand, and this unit is on (RC), put this unit into your soul.'
+AUTO [V/R]: When your vanguards attack hits, look at five cards from the top of your deck, reveal up to one grade 3 card with "Beast Deity" in its card name from among them and put it into your hand, and shuffle your deck. If you put a card into your hand, and this unit is on R, put this unit into your soul.'
 global.UnitGrade[CardStat] = 1
 global.CardInClan[CardStat] = 4
 }

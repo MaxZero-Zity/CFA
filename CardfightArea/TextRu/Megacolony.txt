@@ -3148,3 +3148,62 @@ global.UnitGrade[CardStat] = 1
 global.CardInClan[CardStat] = 2
 }
 global.PowerStat[CardStat] = 8000
+
+CardStat = 8147
+{
+global.CardName[CardStat] = 'Worm Toxin Mutant, Venom Stinger'
+global.CardText[CardStat] = 'Megacolony/насекомое/Зоо/дар воображения: Щит
+
+АВТО [Авангард]: во время Вашего хода, когда карта помещается в зону урона оппонента, до конца хода сила этого воина увеличивается на 10,000.
+
+АВТО [Авангард]: когда этот воин атакует, заплатите цену [Встречный взрыв 1 & поместите одного своего арьергарда к себе в душу] и до конца боя, даже если во время проверки урона оппонента раскрывается триггер-воин, его триггер-эффект не активируется, а Вы выполняете такой же триггер-эффект, как у того раскрытого триггер-воина. Затем, заплатите цену [Взрыв души 1 картой 3го ранга], выберите у оппонента в зоне урона до двух карт, поместите их на кладбище оппонента, после чего нанесите авангарду оппонента по одному урону за каждую карту, помещённую на кладбище.'
+global.UnitGrade[CardStat] = 3
+global.CardInClan[CardStat] = 2
+}
+global.GreenTokenAdd[CardStat] = 1
+global.PowerStat[CardStat] = 12000
+global.DefensePowerStat[CardStat] = 0
+
+
+CardStat = 8148
+{
+global.CardName[CardStat] = 'Pincer Attack Mutant, Intrude Scissors'
+global.CardText[CardStat] = 'Megacolony/насекомое/Зоо/дар воображения: Щит
+
+АВТО [Кладбище]: в конце битвы, в которой атаковал Ваш авангард 3го или выше ранга, если во время этого хода в зону урона оппонента была помещена новая карта, заплатите цену [Встречный взрыв 1] и призовите эту карту в арьергард.
+
+АВТО [Арьергард]: при помещении, заплатите цену [Взрыв души 1], выберите одного своего арьергарда, поднимите его, и до конца хода сила этого воина увеличивается на 10,000.'
+global.UnitGrade[CardStat] = 3
+global.CardInClan[CardStat] = 2
+}
+global.GreenTokenAdd[CardStat] = 1
+global.PowerStat[CardStat] = 12000
+global.DefensePowerStat[CardStat] = 0
+
+
+CardStat = 8149
+{
+global.CardName[CardStat] = 'Mutant Gentleman, High Class Moth'
+global.CardText[CardStat] = 'Megacolony/насекомое/Зоо
+
+ПРОДОЛЖИТЕЛЬНЫЙ [Колода/душа]: эта карта считается за карту 3го ранга.
+
+АКТ [Арьергард]: заплатите цену [отправьте этого воина на отдых & поместите одного обычного воина у себя с кладбища в низ своей колоды], активируйте Заряд счётчика 1, выберите одного арьергарда оппонента и до конца хода выбранный Вами воин не может перехватывать. Эта способность может быть использована картой с таким именем лишь раз за ход.'
+global.UnitGrade[CardStat] = 1
+global.CardInClan[CardStat] = 2
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 10000
+
+CardStat = 8193
+{
+global.CardName[CardStat] = 'Machining Black Saturn'
+global.CardText[CardStat] = 'Megacolony/насекомое/Зоо/дар воображения: Щит
+
+АКТ [Авангард] [Один раз за ход]: заплатите цену [Встречный взрыв 1 & Взрыв души 1], выберите пять своих арьергардов, поднимите их, до конца хода их сила увеличивается на 5,000, а проверка эффектов этого воина увеличивается на одну. Выберите одного авангарда оппонента и до конца следующего хода оппонента проверка эффектов выбранного Вами воина снижается на одну.'
+global.UnitGrade[CardStat] = 3
+global.CardInClan[CardStat] = 2
+}
+global.GreenTokenAdd[CardStat] = 1
+global.PowerStat[CardStat] = 12000
+global.DefensePowerStat[CardStat] = 0

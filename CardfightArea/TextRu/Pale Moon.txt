@@ -4117,3 +4117,74 @@ global.CardInClan[CardStat] = 18
 }
 global.PowerStat[CardStat] = 8000
 global.DefensePowerStat[CardStat] = 10000
+
+CardStat = 8192
+{
+global.CardName[CardStat] = 'Astatic Baton Twirler'
+global.CardText[CardStat] = 'Pale Moon/боевой зверь/Зона тьмы
+
+ПРОДОЛЖИТЕЛЬНЫЙ [Авангард/арьергард]: во время Вашего хода, если во время этого хода Вы призвали как минимум одну карту у себя из души, сила этого воина увеличивается на 5,000.
+
+АВТО [Авангард/арьергард]: при помещении из руки, возьмите одну карту из колоды и поместите одну карту из своей руки в свою душу.'
+global.UnitGrade[CardStat] = 2
+global.CardInClan[CardStat] = 18
+}
+global.PowerStat[CardStat] = 9000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 8211
+{
+global.CardName[CardStat] = 'Nightmare Doll, Chelsea '
+global.CardText[CardStat] = 'Pale Moon/рабочий робот/Зона тьмы/дар воображения: Ускорение
+
+АВТО [Авангард]: в конце битвы, в которой этот воин атаковал, заплатите цену [Встречный взрыв 1] и призовите до двух рабочих роботов у себя из души в арьергард. Если у авангарда оппонента как минимум 3ий ранг, до конца хода сила тех призванных воинов увеличивается на 10,000.
+
+АВТО [Арьергард]: в конце битвы, в которой этот воин атаковал, если у Вас в авангарде находится рабочий робот, заплатите цену [поместите этого воина к себе в душу], выберите до одного арьергарда оппонента и оппонент помещает его к себе в душу.'
+global.UnitGrade[CardStat] = 3
+global.CardInClan[CardStat] = 18
+}
+global.OrangeTokenAdd[CardStat] = 1
+global.PowerStat[CardStat] = 12000
+global.DefensePowerStat[CardStat] = 0
+
+
+CardStat = 8212
+{
+global.CardName[CardStat] = 'Nightmare Doll, Marissa'
+global.CardText[CardStat] = 'Pale Moon/рабочий робот/Зона тьмы
+
+АВТО [Авангард/арьергард]: при помещении из руки, заплатите цену [поместите одну карту из своей руки в свою душу], посмотрите на семь верхних карт своей колоды, раскройте среди них до двух обычных воинов с расой рабочий робот не 2го ранга, возьмите их в руку и перемешайте свою колоду.'
+global.UnitGrade[CardStat] = 2
+global.CardInClan[CardStat] = 18
+}
+global.PowerStat[CardStat] = 9000
+global.DefensePowerStat[CardStat] = 5000
+
+
+CardStat = 8213
+{
+global.CardName[CardStat] = 'Nightmare Doll, Abigail'
+global.CardText[CardStat] = 'Pale Moon/рабочий робот/Зона тьмы
+
+АВТО [Авангард]: при помещении, активируйте Заряд души 1.
+
+АВТО [Арьергард]: в конце Вашего хода, заплатите цену [уберите этого воина с поля] и верните у себя из души в руку одну карту 3го ранга с расой рабочий робот. Если у Вас в авангарде находится рабочий робот, активируйте Заряд счётчика 1.'
+global.UnitGrade[CardStat] = 1
+global.CardInClan[CardStat] = 18
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 10000
+
+CardStat = 8201
+{
+global.CardName[CardStat] = 'Jester Demonic Dragon, Protrude Dragon'
+global.CardText[CardStat] = 'Pale Moon/крылатый дракон/Зона тьмы
+
+ПРОДОЛЖИТЕЛЬНЫЙ: Вы не можете сделать смену на эту карту.
+
+АВТО [Арьергард]: при помещении способностью Вашей карты, до конца хода сила этого воина увеличивается на изначальную силу всех Ваших авангардов.'
+global.UnitGrade[CardStat] = 4
+global.CardInClan[CardStat] = 18
+}
+global.PowerStat[CardStat] = 15000
+global.DefensePowerStat[CardStat] = 0

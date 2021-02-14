@@ -5122,3 +5122,46 @@ global.CardInClan[CardStat] = 4
 }
 global.PowerStat[CardStat] = 9000
 global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 8197
+{
+global.CardName[CardStat] = 'Beast Deity, Ethics Buster '
+global.CardText[CardStat] = 'Nova Grappler/боевой робот/Звёздные врата/дар воображения: Ускорение
+
+АВТО [Авангард]: при помещении, или когда поверх этого воина делается смена, заплатите цену [скиньте две карты из своей руки], поднимите одного своего воина, в имени которого содержится «Beast Deity», и атакуйте им авангард оппонента. В конце боя, если атака не прошла, поднимите того воина, а если атака прошла, до конца хода проверка эффектов того воина снижается на одну.
+
+АВТО [Авангард]: когда атакует Ваш воин, в имени которого содержится «Beast Deity», заплатите цену [Встречный взрыв 1] и до конца хода сила того воина увеличивается на 5,000.'
+global.UnitGrade[CardStat] = 3
+global.CardInClan[CardStat] = 4
+}
+global.OrangeTokenAdd[CardStat] = 1
+global.PowerStat[CardStat] = 12000
+global.DefensePowerStat[CardStat] = 0
+
+
+CardStat = 8198
+{
+global.CardName[CardStat] = 'Beast Deity, Typhoon Bird'
+global.CardText[CardStat] = 'Nova Grappler/боевой робот/Звёздные врата
+
+АКТ [Авангард/арьергард] [Один раз за ход]: если у Вашего авангарда в имени содержится «Beast Deity», заплатите цену [Встречный взрыв 1], посмотрите на пять верхних карт своей колоды, выберите из них до одной карты не 2го ранга, в имени которой содержится «Beast Deity», и призовите её в арьергард в спящем положении, после чего перемешайте свою колоду.'
+global.UnitGrade[CardStat] = 2
+global.CardInClan[CardStat] = 4
+}
+global.PowerStat[CardStat] = 9000
+global.DefensePowerStat[CardStat] = 5000
+
+
+CardStat = 8199
+{
+global.CardName[CardStat] = 'Beast Deity, Lift Tauros'
+global.CardText[CardStat] = 'Nova Grappler/боевой робот/Звёздные врата
+
+АВТО [Арьергард]: при помещении во время Вашей основной фазы, Вы можете поднять одного своего воина, в имени которого содержится «Beast Deity».
+
+АВТО [Авангард/арьергард]: когда атака Вашего авангарда достигает цели, посмотрите на пять верхних карт своей колоды, раскройте среди них до одной карты 3го ранга, в имени которой содержится «Beast Deity», возьмите её в руку и перемешайте свою колоду. Если Вы взяли карту в руку и этот воин находится в арьергарде, поместите этого воина к себе в душу.'
+global.UnitGrade[CardStat] = 1
+global.CardInClan[CardStat] = 4
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 10000

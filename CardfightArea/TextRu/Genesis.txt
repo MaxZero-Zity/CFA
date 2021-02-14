@@ -4230,3 +4230,62 @@ global.CardInClan[CardStat] = 21
 }
 global.PowerStat[CardStat] = 10000
 global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 8186
+{
+global.CardName[CardStat] = 'Witch of Enlightenment White, Foetida'
+global.CardText[CardStat] = 'Genesis/человек/Единое святилище
+
+АВТО [Арьергард]: когда Ваш авангард атакует, заплатите цену [отправьте этого воина на отдых], посмотрите на верхнюю карту своей колоды и поместите её на верх своей колоды или же в свою душу. Если Вы поместили карту в свою душу, до конца хода сила одного Вашего воина увеличивается на 5,000.'
+global.UnitGrade[CardStat] = 1
+global.CardInClan[CardStat] = 21
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 10000
+
+CardStat = 8214
+{
+global.CardName[CardStat] = 'Regalia of Wisdom, Angelica  '
+global.CardText[CardStat] = 'Genesis/аристократ/Единое святилище/дар воображения: Мощь
+
+ПРОДОЛЖИТЕЛЬНЫЙ [Авангард]: все Ваши арьергарды, на которых находится святой снаряд, не могут быть выбраны способностями карт оппонента, и их сила увеличивается на 5,000.
+
+АВТО [Авангард]: когда этот воин атакует, выберите до двух своих арьергардов и Вы можете поместить до одной карты из своей души под каждого из выбранных воинов в качестве святого снаряда в закрытом положении.
+
+АВТО [Авангард]: в конце хода оппонента, заплатите цену [скиньте пять святых снарядов] и исцелите одну карту из своей зоны урона.'
+global.UnitGrade[CardStat] = 3
+global.CardInClan[CardStat] = 21
+}
+global.BlueTokenAdd[CardStat] = 1
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+
+
+CardStat = 8215
+{
+global.CardName[CardStat] = 'Demon Exorcism Regalia, Thrud'
+global.CardText[CardStat] = 'Genesis/аристократ/Единое святилище
+
+АВТО [Арьергард]: при помещении, Вы можете поместить одну карту из своей души под этого воина в качестве святого снаряда в закрытом положении.
+
+АВТО [Арьергард]: в конце битвы, в которой этот воин атаковал или поддерживал, заплатите цену [под этим воином есть как минимум один святой снаряд, переместите все святые снаряды с этого воина на другого арьергарда], поместите этого воина в свою душу и возьмите одну карту из колоды.'
+global.UnitGrade[CardStat] = 2
+global.CardInClan[CardStat] = 21
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+
+CardStat = 8216
+{
+global.CardName[CardStat] = 'Oblation Regalia, Var'
+global.CardText[CardStat] = 'Genesis/аристократ/Единое святилище
+
+АВТО [Арьергард]: когда этот воин атакует или поддерживает, Вы можете поместить одну карту из своей души под этого воина в качестве святого снаряда в закрытом положении.
+
+АКТ [Арьергард] [Один раз за ход]: заплатите цену [скиньте один святой снаряд с этого воина], активируйте Заряд души 3, затем, если у Вашего авангарда в имени содержится «Regalia», заплатите цену [уберите этого воина с поля] и активируйте Заряд счётчика 1.'
+global.UnitGrade[CardStat] = 1
+global.CardInClan[CardStat] = 21
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 10000

@@ -5872,40 +5872,42 @@ global.CardInClan[CardStat] = 26
 global.PowerStat[CardStat] = 5000
 global.DefensePowerStat[CardStat] = 10000
 
-CardStat = 8141
+CardStat = 8138
 {
-global.CardName[CardStat] = 'Interdimensional Dragon, Time Leaper Dragon '
+global.CardName[CardStat] = 'Interdimensional Dragon, Time Leaper Dragon'
 global.CardText[CardStat] = 'Gear Chronicle/Gear Dragon
 
-[AUTO](VC):When it attacks a vanguard, COST [put a rear-guard on the bottom of your deck], search your deck for up to one card with grade equal to the card put on the bottom of your deck for this costs grade +1, call it to (RC), shuffle your deck, and that unit gets [Power]+10000 until end of turn.'
+AUTO [V]: When it attacks a vanguard, COST [put a rear-guard on the bottom of your deck], search your deck for up to one card with grade equal to the card put on the bottom of your deck for this costs grade +1, call it to R, shuffle your deck, and that unit gets power +10000 until end of turn.'
 global.UnitGrade[CardStat] = 4
 global.CardInClan[CardStat] = 26
 }
 global.PowerStat[CardStat] = 15000
+global.DefensePowerStat[CardStat] = 0
 
-CardStat = 8142
+
+CardStat = 8139
 {
 global.CardName[CardStat] = 'Steam Gunner, Zayd'
 global.CardText[CardStat] = 'Gear Chronicle/Gearoid
 
-CONT [Bind Zone]: This card gets grade +4.
-[AUTO](VC/RC):When placed, COST [Soul Blast (1) & discard a card from your hand], draw a card, choose one of your opponents rear-guards with grade less than or equal to the card discarded from your hand for this cost, and retire it.
+AUTO [V/R]: When placed, COST [Soul Blast 1 & discard a card from your hand], draw a card, choose one of your opponents rear-guards with grade less than or equal to the card discarded from your hand for this cost, and retire it.
 
-[AUTO](RC):When it attacks, if you rode a grade 4 unit this turn, Soul Charge (1).'
+AUTO [R]: When it attacks, if you rode a grade 4 unit this turn, Soul Charge 1.'
 global.UnitGrade[CardStat] = 2
 global.CardInClan[CardStat] = 26
 }
 global.PowerStat[CardStat] = 10000
 global.DefensePowerStat[CardStat] = 5000
 
-CardStat = 8143
+
+CardStat = 8140
 {
 global.CardName[CardStat] = 'Lost Gear Dog, Eight'
 global.CardText[CardStat] = 'Gear Chronicle/Gear Beast
 
-[AUTO](VC/RC):When placed from hand, COST [reveal a grade 3 or greater card from your hand], search your deck for up to one grade 3 card, reveal it and put it into your hand, shuffle your deck, and if you put a card into your hand, choose one or more cards with the sum of their grades being 3 or greater from your hand, and discard them.
+AUTO [V/R]: When placed from hand, COST [reveal a grade 3 or greater card from your hand], search your deck for up to one grade 3 card, reveal it and put it into your hand, shuffle your deck, and if you put a card into your hand, choose one or more cards with the sum of their grades being 3 or greater from your hand, and discard them.
 
-[CONT](Hand):When this card would be discarded, it may be discarded as a grade 3.'
+CONT [Hand]: When this card would be discarded, it may be discarded as a grade 3.'
 global.UnitGrade[CardStat] = 1
 global.CardInClan[CardStat] = 26
 }

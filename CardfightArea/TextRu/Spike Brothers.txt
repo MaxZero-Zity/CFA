@@ -3054,3 +3054,48 @@ global.CardInClan[CardStat] = 14
 }
 global.PowerStat[CardStat] = 10000
 global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 8202
+{
+global.CardName[CardStat] = 'Demonic Lord, Dudley Lucifer '
+global.CardText[CardStat] = 'Spike Brothers/огр/Зона тьмы/дар воображения: Мощь
+
+АВТО [Арьергард]: при помещении способностью карты, заплатите цену [Взрыв души 1] и активируйте Заряд счётчика 1.
+
+АВТО [Авангард]: когда этот воин атакует, заплатите цену [Встречный взрыв 1 & поместите одного своего арьергарда в свою душу], возьмите одну карту из колоды, призовите у себя из руки в арьергард до одной карты, в имени которой содержится «Dudley» и, если у авангарда оппонента как минимум 3ий ранг, до конца хода сила того призванного воина увеличивается на 10,000.'
+global.UnitGrade[CardStat] = 3
+global.CardInClan[CardStat] = 14
+}
+global.BlueTokenAdd[CardStat] = 1
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+
+
+CardStat = 8203
+{
+global.CardName[CardStat] = 'Dudley Davie'
+global.CardText[CardStat] = 'Spike Brothers/демон/Зона тьмы
+
+АВТО [Авангард/арьергард]: при помещении, заплатите цену [Встречный взрыв 1], найдите у себя в колоде до одной карты не 2го ранга, в имени которой содержится «Dudley», призовите её в арьергард и перемешайте свою колоду.
+
+АВТО [Арьергард] [Один раз за ход]: когда маркер Мощи помещается в круг этого воина, Вы можете активировать Заряд души 1. (Перемещение маркера тоже считается.)'
+global.UnitGrade[CardStat] = 2
+global.CardInClan[CardStat] = 14
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+
+CardStat = 8204
+{
+global.CardName[CardStat] = 'Dudley William'
+global.CardText[CardStat] = 'Spike Brothers/демон/Зона тьмы
+
+АВТО [Арьергард]: в конце битвы, в которой этот воин поддерживал, заплатите цену [поместите этого воина в свою душу], выберите одного своего воина и переместите все маркеры Мощи со своих кругов в круг выбранного Вами воина.
+
+АВТО: когда поверх этого воина делается смена, Вы можете призвать эту карту в арьергард.'
+global.UnitGrade[CardStat] = 1
+global.CardInClan[CardStat] = 14
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 10000

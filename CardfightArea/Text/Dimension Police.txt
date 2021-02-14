@@ -4343,3 +4343,46 @@ global.CardInClan[CardStat] = 6
 }
 global.BlueTokenAdd[CardStat] = 1
 global.PowerStat[CardStat] = 13000
+
+CardStat = 8217
+{
+global.CardName[CardStat] = 'Galactic Beast, Zeal '
+global.CardText[CardStat] = 'Dimension Police/Alien
+
+AUTO [V/R]: When placed from hand, look at the top card of your deck, and call it to R. If this unit is on V, choose one of your opponents vanguards, and it gets power -5000 until end of turn for each marker on your opponents circles.
+
+ACT [V] 1/Turn: COST [Counter Blast 1 & Put one or more rear-guards into your soul], choose one of your opponents vanguards, until end of turn, it gets power -10000, if your opponents vanguard is grade 3 or greater, and "Devourer of Planets, Zeal" is in your soul, this unit gets drive +1 for every two cards put into your soul for this cost.'
+global.UnitGrade[CardStat] = 3
+global.CardInClan[CardStat] = 6
+}
+global.BlueTokenAdd[CardStat] = 1
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+
+
+CardStat = 8218
+{
+global.CardName[CardStat] = 'Devourer of Planets, Zeal '
+global.CardText[CardStat] = 'Dimension Police/Alien
+
+ACT [V/R] 1/Turn: COST [Counter Blast 1 & rest two rear-guards], choose one of your opponents vanguards, and it gets power -5000 until end of turn. If you have "Eye of Destruction, Zeal" in your soul, draw a card.
+
+AUTO: When rode upon by a grade 3, choose one of your opponents vanguards, and it gets power -5000 until end of turn.'
+global.UnitGrade[CardStat] = 2
+global.CardInClan[CardStat] = 6
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+
+CardStat = 8219
+{
+global.CardName[CardStat] = 'Eye of Destruction, Zeal '
+global.CardText[CardStat] = 'Dimension Police/Alien
+
+AUTO [V/R]: When placed, look at seven cards from the top of your deck, reveal up to one grade 2 or greater card with "Zeal" in its card name from among them and put it into your hand, and shuffle your deck. This ability may only be used by a card with the same card name once a turn.'
+global.UnitGrade[CardStat] = 1
+global.CardInClan[CardStat] = 6
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 10000

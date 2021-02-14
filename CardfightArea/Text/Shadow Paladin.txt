@@ -913,7 +913,7 @@ x = 2104
 
 CardStat = x
 {
-global.CardName[CardStat] = 'Reality Witch, Famm'
+global.CardName[CardStat] = 'Witch of Reality, Femme'
 global.CardText[CardStat] = 'Shadow Paladin/Elf/United Sanctuary
 
 AUTO [R]: When this unit attacks, if you have a Vanguard with "Witch" in its card name, this unit gets power +3000 until end of that battle.'
@@ -923,10 +923,10 @@ global.CardInClan[CardStat] = 1
 
 CardStat = x+1
 {
-global.CardName[CardStat] = 'Dazzling Witch, Fiana'
+global.CardName[CardStat] = 'Mesmerizing Witch, Fianna'
 global.CardText[CardStat] = 'Shadow Paladin/Elf/United Sanctuary
 
-ACT [V]: Legion 20000 "Reality Witch, Famm".
+ACT [V]: Legion 20000 "Witch of Reality, Femme".
 
 ACT [V]: [Counter Blast 2] If this unit is in Legion, choose up to two of your opponents occupied Rear-guard circles, and reveal the top ten cards from your opponents deck, he/she then chooses one grade 0 among them for each of that Rear-guard circle, call it to that Rear-guard circle, and shuffle the deck.
  
@@ -5907,14 +5907,14 @@ global.CardInClan[CardStat] = 1
 }
 global.PowerStat[CardStat] = 5000
 
-CardStat = 8150
+CardStat = 8151
 {
 global.CardName[CardStat] = 'Mesmerizing Witch, Fianna '
 global.CardText[CardStat] = 'Shadow Paladin/Elf
 
-[ACT](VC)1/Turn:COST [Counter Blast (1) & Retire two rear-guards], search your hand or deck for up to one "Witch of Reality, Femme", call it to a front row (RC), and if you searched your deck, shuffle your deck. The circle that called unit is on becomes a (VC) until end of turn.
+ACT [V] 1/Turn: COST [Counter Blast 1 & Retire two rear-guards], search your hand or deck for up to one "Witch of Reality, Femme", call it to a front row R, and if you searched your deck, shuffle your deck. The circle that called unit is on becomes a V until end of turn.
 
-[CONT](VC):During your turn, all of your vanguards get [Power]+5000 for each of your opponents grade 0 rear-guards.'
+CONT [V]: During your turn, all of your vanguards get power +5000 for each of your opponents grade 0 rear-guards.'
 global.UnitGrade[CardStat] = 3
 global.CardInClan[CardStat] = 1
 }
@@ -5922,26 +5922,56 @@ global.BlueTokenAdd[CardStat] = 1
 global.PowerStat[CardStat] = 13000
 global.DefensePowerStat[CardStat] = 0
 
-CardStat = 8151
+
+CardStat = 8152
 {
 global.CardName[CardStat] = 'Witch of Reality, Femme '
 global.CardText[CardStat] = 'Shadow Paladin/Elf
 
-[ACT](VC)1/Turn:COST [Soul Blast (1)], your opponent chooses two grade 0 unit cards from his or her drop zone, and calls them to his or her (RC) with grade 1 or greater units. If no cards were called, this unit gets drive +1 until end of turn.'
+ACT [V] 1/Turn: COST [Soul Blast 1], your opponent chooses two grade 0 unit cards from his or her drop zone, and calls them to his or her R with grade 1 or greater units. If no cards were called, this unit gets drive +1 until end of turn.'
 global.UnitGrade[CardStat] = 2
 global.CardInClan[CardStat] = 1
 }
 global.PowerStat[CardStat] = 10000
 global.DefensePowerStat[CardStat] = 5000
 
-CardStat = 8152
+
+CardStat = 8153
 {
-global.CardName[CardStat] = 'Cold-blooded Witch, Lurba '
+global.CardName[CardStat] = 'Cold-blooded Witch, Lurba'
 global.CardText[CardStat] = 'Shadow Paladin/Elf
 
-[AUTO](RC):This abilitys cost is reduced by Counter Blast (1) for each of your opponents grade 0 rear-guards. When placed, COST [Counter Blast (2) & put a grade 2 or greater normal unit from your drop zone on the bottom of your deck], and draw a card.'
+AUTO [R]: This abilitys cost is reduced by Counter Blast 1 for each of your opponents grade 0 rear-guards. When placed, COST [Counter Blast 2 & put a grade 2 or greater normal unit from your drop zone on the bottom of your deck], and draw a card.'
 global.UnitGrade[CardStat] = 1
 global.CardInClan[CardStat] = 1
 }
 global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 10000
+
+CardStat = 8173
+{
+global.CardName[CardStat] = 'Triple Dark Armor '
+global.CardText[CardStat] = 'Shadow Paladin/Human
+
+CONT [V]: During your turn, all of your front row "Triple Dark Armor" get power +5000.
+
+ACT [V/R]: COST [Soul Blast 1 & Retire a rear-guard not named "Triple Dark Armor"], search your deck for up to one "Triple Dark Armor", call it to R, and shuffle your deck.'
+global.UnitGrade[CardStat] = 2
+global.CardInClan[CardStat] = 1
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 8190
+{
+global.CardName[CardStat] = 'Knight of Blinking Slash, Grite'
+global.CardText[CardStat] = 'Shadow Paladin/Human
+
+AUTO [R]: When your rear-guard is retired during your battle phase, this unit gets power +5000 until end of turn.
+
+AUTO [R]: At the end of the battle it boosted a vanguard with "Blaster" in its card name, if your opponent called a sentinel to GC during that battle, COST [Counter Blast 1], and deal one damage to your opponents vanguard.'
+global.UnitGrade[CardStat] = 1
+global.CardInClan[CardStat] = 1
+}
+global.PowerStat[CardStat] = 5000
 global.DefensePowerStat[CardStat] = 10000

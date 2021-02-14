@@ -5797,28 +5797,29 @@ global.BlueTokenAdd[CardStat] = 1
 global.PowerStat[CardStat] = 13000
 global.DefensePowerStat[CardStat] = 0
 
-CardStat = 8170
+CardStat = 8167
 {
 global.CardName[CardStat] = 'Break Breath Dragon'
 global.CardText[CardStat] = 'Kagero/Flame Dragon
 
-[AUTO](RC):At the end of the battle it attacked, if your opponents rear-guard was retired during this turn, COST [retire this unit], and draw a card.
+AUTO [R]: At the end of the battle it attacked, if your opponents rear-guard was retired during this turn, COST [retire this unit], and draw a card.
 
-[AUTO]:When rode upon, choose one of your opponents rear-guards, retire it. If you did not retire, draw a card.'
+AUTO: When rode upon, choose one of your opponents rear-guards, retire it. If you did not retire, draw a card.'
 global.UnitGrade[CardStat] = 2
 global.CardInClan[CardStat] = 12
 }
 global.PowerStat[CardStat] = 10000
 global.DefensePowerStat[CardStat] = 5000
 
-CardStat = 8171
+
+CardStat = 8168
 {
 global.CardName[CardStat] = 'Dragon Knight, Heashut'
 global.CardText[CardStat] = 'Kagero/Human
 
-[AUTO](RC):When placed, COST [Counter Blast (1) & Soul Blast (1)], draw a card, choose one of your opponents back row rear-guards, and retire it.
+AUTO [R]: When placed, COST [Counter Blast 1 & Soul Blast 1], draw a card, choose one of your opponents back row rear-guards, and retire it.
 
-[AUTO]:When rode upon, look at five cards from the top of your deck, reveal up to one grade 3 or greater card from among them and put it into your hand, and shuffle your deck.'
+AUTO: When rode upon, look at five cards from the top of your deck, reveal up to one grade 3 or greater card from among them and put it into your hand, and shuffle your deck.'
 global.UnitGrade[CardStat] = 1
 global.CardInClan[CardStat] = 12
 }

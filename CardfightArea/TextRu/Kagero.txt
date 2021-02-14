@@ -5852,3 +5852,32 @@ global.CardInClan[CardStat] = 12
 global.BlueTokenAdd[CardStat] = 1
 global.PowerStat[CardStat] = 13000
 global.DefensePowerStat[CardStat] = 0
+
+CardStat = 8167
+{
+global.CardName[CardStat] = 'Break Breath Dragon'
+global.CardText[CardStat] = 'Kagero/огненный дракон/Империя драконов
+
+АВТО [Арьергард]: в конце битвы, в которой этот воин атаковал, если во время этого хода арьергард оппонента был убран с поля, заплатите цену [уберите этого воина с поля] и возьмите одну карту из колоды.
+
+АВТО: когда поверх этого воина делается смена, выберите одного арьергарда оппонента и уберите его с поля. Если Вы не смогли никого убрать, возьмите одну карту из колоды.'
+global.UnitGrade[CardStat] = 2
+global.CardInClan[CardStat] = 12
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+
+CardStat = 8168
+{
+global.CardName[CardStat] = 'Dragon Knight, Heashut'
+global.CardText[CardStat] = 'Kagero/человек/Империя драконов
+
+АВТО [Арьергард]: при помещении, заплатите цену [Встречный взрыв 1 & Взрыв души 1], возьмите одну карту из колоды, выберите одного арьергарда в заднем ряду оппонента и уберите его с поля.
+
+АВТО: когда поверх этого воина делается смена, посмотрите на пять верхних карт своей колоды, раскройте среди них до одной карты 3го или выше ранга, возьмите её в руку и перемешайте свою колоду.'
+global.UnitGrade[CardStat] = 1
+global.CardInClan[CardStat] = 12
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 10000

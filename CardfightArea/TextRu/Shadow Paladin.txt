@@ -910,7 +910,7 @@ x = 2104
 
 CardStat = x
 {
-global.CardName[CardStat] = 'Reality Witch, Famm'
+global.CardName[CardStat] = 'Witch of Reality, Femme'
 global.CardText[CardStat] = 'Shadow Paladin/эльф/Единое святилище
 
 АВТО [Арьергард]: когда этот воин атакует, если у Вас в авангарде находится воин, в имени которого содержится "Witch", до конца битвы сила данного воина увеличивается на 3,000.'
@@ -920,10 +920,10 @@ global.CardInClan[CardStat] = 1
 
 CardStat = x+1
 {
-global.CardName[CardStat] = 'Dazzling Witch, Fiana'
+global.CardName[CardStat] = 'Mesmerizing Witch, Fianna'
 global.CardText[CardStat] = 'Shadow Paladin/эльф/Единое святилище
 
-АКТ [Авангард]: Легион 20,000 Reality Witch, Famm.°
+АКТ [Авангард]: Легион 20,000 Witch of Reality, Femme.
 АКТ [Авангард]: [Встречный взрыв 2] Если этот воин стоит в легионе, выберите до двух занятых кругов арьергарда оппонента, затем оппонент открывает десять верхних карт своей колоды, выбирает среди них за каждый выбранный круг по одному воину 0го ранга и призывает их в ранее выбранные Вами круги. Остальные карты возвращаются в колоду оппонента и перемешиваются. 
 АКТ [Авангард]: [Уберите у себя из арьергарда воина с тем же именем, что и у Вашего авангарда] Если у оппонента в арьергарде находятся как минимум два воина 0го ранга, возьмите две карты из колоды. Данная способность не может быть активирована в ходу повторно.'
 global.UnitGrade[CardStat] = 3
@@ -5940,3 +5940,73 @@ global.UnitGrade[CardStat] = 1
 global.CardInClan[CardStat] = 1
 }
 global.PowerStat[CardStat] = 5000
+
+CardStat = 8151
+{
+global.CardName[CardStat] = 'Mesmerizing Witch, Fianna '
+global.CardText[CardStat] = 'Shadow Paladin/эльф/Единое святилище/дар воображения: Мощь
+
+АКТ [Авангард] [Один раз за ход]: заплатите цену [Встречный взрыв 1 & уберите с поля двух своих арьергардов], найдите у себя в руке или в колоде до одной Witch of Reality, Femme, призовите её в передний круг арьергарда и, если Вы искали в колоде, перемешайте свою колоду. До конца хода круг, в котором находится призванный воин, становится кругом авангарда.
+
+ПРОДОЛЖИТЕЛЬНЫЙ [Авангард]: во время Вашего хода, сила всех Ваших авангардов увеличивается на 5,000 за каждого арьергарда оппонента 0го ранга.
+'
+global.UnitGrade[CardStat] = 3
+global.CardInClan[CardStat] = 1
+}
+global.BlueTokenAdd[CardStat] = 1
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+
+
+CardStat = 8152
+{
+global.CardName[CardStat] = 'Witch of Reality, Femme '
+global.CardText[CardStat] = 'Shadow Paladin/эльф/Единое святилище
+
+АКТ [Авангард] [Один раз за ход]: заплатите цену [Взрыв души 1], оппонент выбирает у себя на кладбище две карты воинов 0го ранга и призывает их в свои круги арьергарда, в которых находятся воины 1го или выше ранга. Если карты не были призваны, до конца хода проверка эффектов этого воина увеличивается на одну.'
+global.UnitGrade[CardStat] = 2
+global.CardInClan[CardStat] = 1
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+
+CardStat = 8153
+{
+global.CardName[CardStat] = 'Cold-blooded Witch, Lurba'
+global.CardText[CardStat] = 'Shadow Paladin/эльф/Единое святилище
+
+АВТО [Арьергард]: цена за способность этого воина снижается на Встречный взрыв 1 за каждого арьергарда оппонента 0го ранга. При помещении, заплатите цену [Встречный взрыв 2 & поместите у себя с кладбища в низ своей колоды одного обычного воина 2го или выше ранга] и возьмите одну карту из колоды.'
+global.UnitGrade[CardStat] = 1
+global.CardInClan[CardStat] = 1
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 10000
+
+CardStat = 8173
+{
+global.CardName[CardStat] = 'Triple Dark Armor '
+global.CardText[CardStat] = 'Shadow Paladin/человек/Единое святилище
+
+ПРОДОЛЖИТЕЛЬНЫЙ [Авангард]: во время Вашего хода, сила всех Ваших Triple Dark Armor, находящихся в переднем ряду, увеличивается на 5,000.
+
+АКТ [Авангард/арьергард]: заплатите цену [Взрыв души 1 & уберите у себя с поля одного арьергарда, за исключением Triple Dark Armor], найдите у себя в колоде до одного Triple Dark Armor, призовите его в арьергард и перемешайте свою колоду.'
+global.UnitGrade[CardStat] = 2
+global.CardInClan[CardStat] = 1
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 8190
+{
+global.CardName[CardStat] = 'Knight of Blinking Slash, Grite'
+global.CardText[CardStat] = 'Shadow Paladin/человек/Единое святилище
+
+АВТО [Арьергард]: когда Ваш арьергард убирается с поля во время Вашей боевой фазы, до конца хода сила этого воина увеличивается на 5,000.
+
+АВТО [Арьергард]: в конце битвы, в которой этот воин поддерживал авангард, в имени которого содержится «Blaster», если оппонент призвал стража в круг защиты во время той битвы, заплатите цену [Встречный взрыв 1] и нанесите авангарду оппонента одно очко урона.'
+global.UnitGrade[CardStat] = 1
+global.CardInClan[CardStat] = 1
+}
+global.PowerStat[CardStat] = 5000
+global.DefensePowerStat[CardStat] = 10000

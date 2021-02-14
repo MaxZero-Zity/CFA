@@ -5493,3 +5493,82 @@ global.UnitGrade[CardStat] = 2
 global.CardInClan[CardStat] = 9
 }
 global.PowerStat[CardStat] = 10000
+
+CardStat = 8155
+{
+global.CardName[CardStat] = 'Maiden of Stand Peony'
+global.CardText[CardStat] = 'Neo Nectar/био-робот/Зоо/дар воображения: Мощь
+
+АВТО [Авангард/арьергард]: при помещении, призовите до одного травяного токена в арьергард. Если этот воин находится в авангарде, призовите до двух травяных токенов вместо одного.
+
+АВТО [Авангард]: когда этот воин атакует, заплатите цену [Встречный взрыв 1 & уберите у себя с поля четырёх арьергардов], призовите четырёх травяных токена в арьергард, если у авангарда оппонента как минимум 3ий ранг, до конца хода сила этого воина, а также всех Ваших травяных токенов, увеличивается на 10,000.
+
+(SHIFT + клик по этому воину, чтобы призвать токенов.)'
+global.UnitGrade[CardStat] = 3
+global.CardInClan[CardStat] = 9
+}
+global.BlueTokenAdd[CardStat] = 1
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+global.TokenSummoner[CardStat] = 6130
+global.TokenSummonerPosition[CardStat] = 'SHIFT'
+global.TokenSummoner2[CardStat] = 7202
+global.TokenSummoner2Text[CardStat] = "Which token do you want to call?"
+global.TokenSummoner2Button1[CardStat] = "5000"
+global.TokenSummoner2Button2[CardStat] = "10000"
+
+
+CardStat = 8156
+{
+global.CardName[CardStat] = 'Maiden of Fall Vine'
+global.CardText[CardStat] = 'Neo Nectar/био-робот/Зоо
+
+АВТО [Арьергард]: при помещении из руки в круг арьергарда, в котором находится травяной токен, возьмите одну карту из колоды и до конца хода сила этого воина увеличивается на 5,000.'
+global.UnitGrade[CardStat] = 2
+global.CardInClan[CardStat] = 9
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+
+CardStat = 8157
+{
+global.CardName[CardStat] = 'Maiden of Flower Carpet'
+global.CardText[CardStat] = 'Neo Nectar/био-робот/Зоо
+
+АВТО [Авангард/арьергард]: при помещении, Вы можете призвать один травяной токен в арьергард.
+
+АВТО [Кладбище]: в конце Вашего хода, заплатите цену [уберите у себя с поля двух травяных токенов] и верните этого воина себе в руку. Эта способность может быть использована картой с таким именем лишь раз за ход.'
+global.UnitGrade[CardStat] = 1
+global.CardInClan[CardStat] = 9
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 10000
+global.TokenSummoner[CardStat] = 6130
+global.TokenSummonerPosition[CardStat] = 'VR'
+global.TokenSummoner2[CardStat] = 7202
+global.TokenSummoner2Text[CardStat] = "Which token do you want to call?"
+global.TokenSummoner2Button1[CardStat] = "5000"
+global.TokenSummoner2Button2[CardStat] = "10000"
+
+CardStat = 8189
+{
+global.CardName[CardStat] = 'Maiden of Irradiate'
+global.CardText[CardStat] = 'Neo Nectar/био-робот/Зоо
+
+АВТО [Арьергард]: Ваш токен, находящийся с этим воином в одной колонке, не может быть выбран способностями карт оппонента.
+
+АКТ [Арьергард]: заплатите цену [Встречный взрыв 1 & отправьте этого воина на отдых], призовите до двух травяных токенов в арьергард и, если у авангарда оппонента как минимум 3ий ранг, до конца хода сила одного Вашего авангарда увеличивается на 10,000.
+
+(SHIFT + клик для призыва токенов. )'
+global.UnitGrade[CardStat] = 1
+global.CardInClan[CardStat] = 9
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 10000
+global.TokenSummoner[CardStat] = 6130
+global.TokenSummonerPosition[CardStat] = 'SHIFT'
+global.TokenSummoner2[CardStat] = 7202
+global.TokenSummoner2Text[CardStat] = "Which token do you want to call?"
+global.TokenSummoner2Button1[CardStat] = "5000"
+global.TokenSummoner2Button2[CardStat] = "10000"

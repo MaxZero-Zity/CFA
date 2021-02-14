@@ -5909,47 +5909,49 @@ global.CardInClan[CardStat] = 24
 global.PowerStat[CardStat] = 8000
 global.DefensePowerStat[CardStat] = 10000
 
-CardStat = 8156
+CardStat = 8158
 {
-global.CardName[CardStat] = 'Star-vader, Chaos Breaker Dragon'
+global.CardName[CardStat] = 'Star-vader, Chaos Breaker Dragon '
 global.CardText[CardStat] = 'Link Joker/Cyber Dragon
 
-[CONT](VC/RC):During your turn, if your opponent has a locked card, this unit gets [Power]+10000.
+CONT [V/R]: During your turn, if your opponent has a locked card, this unit gets power +10000.
 
-[ACT](VC)1/Turn:COST [Counter Blast (1)], your opponent gets an Imaginary Gift:Force, you choose one of your opponents rear-guards, and lock it.
+ACT [V] 1/Turn: COST [Counter Blast 1], your opponent gets an Imaginary Gift: Force, you choose one of your opponents rear-guards, and lock it.
 
-[AUTO](VC):When your opponents locked card is unlocked, COST [Soul Blast (1)], retire one of those unlocked units, you draw a card, your opponent removes a total of two markers from his or her circles or Protect from his or her hand, and you get an Imaginary Gift:Force for each marker or Protect removed.
+AUTO [V]: When your opponents locked card is unlocked, COST [Soul Blast 1], retire one of those unlocked units, you draw a card, your opponent removes a total of two markers from his or her circles or Protect from his or her hand, and you get an Imaginary Gift: Force for each marker or Protect removed.
 
-(SHIFT + left mouse button to create Force gifts.)'
+(Opponent has to SHIFT + click your vg.)'
 global.UnitGrade[CardStat] = 3
 global.CardInClan[CardStat] = 24
 }
 global.PowerStat[CardStat] = 13000
-global.ForceAdd[CardStat] = 1
 global.DefensePowerStat[CardStat] = 0
+global.ForceAdd[CardStat] = 1
 
-CardStat = 8157
+
+CardStat = 8159
 {
 global.CardName[CardStat] = 'Bisection Star-vader, Zirconium'
 global.CardText[CardStat] = 'Link Joker/Cyberoid
 
-[AUTO](VC/RC):When placed, if you have a vanguard with "Star-vader" in its card name, COST [Counter Blast (1)], your opponent looks at the top card of his or her deck, and puts it on an open (RC) as a locked card. If that locked card was put in the back row, you draw a card, and this unit gets [Power]+10000 until end of turn.
+AUTO [V/R]: When placed, if you have a vanguard with "Star-vader" in its card name, COST [Counter Blast 1], your opponent looks at the top card of his or her deck, and puts it on an open R as a locked card. If that locked card was put in the back row, you draw a card, and this unit gets power +10000 until end of turn.
 
-[CONT](RC):If your opponents vanguard is grade 3 or greater, and your opponent has a locked card, the original [Critical] of all of your vanguards becomes 2.'
+CONT [R]: If your opponents vanguard is grade 3 or greater, and your opponent has a locked card, the original critical of all of your vanguards becomes 2.'
 global.UnitGrade[CardStat] = 2
 global.CardInClan[CardStat] = 24
 }
 global.PowerStat[CardStat] = 10000
 global.DefensePowerStat[CardStat] = 5000
 
-CardStat = 8158
+
+CardStat = 8160
 {
 global.CardName[CardStat] = 'Star-vader, Craving Claw'
 global.CardText[CardStat] = 'Link Joker/Cyber Beast
 
-[AUTO](VC/RC):When its attack or the attack it boosted hits a vanguard, look at five cards from the top of your deck, reveal up to one card with "Star-vader" in its card name from among them and put it into your hand, and shuffle your deck.
+AUTO [V/R]: When its attack or the attack it boosted hits a vanguard, look at five cards from the top of your deck, reveal up to one card with "Star-vader" in its card name from among them and put it into your hand, and shuffle your deck.
 
-[ACT](RC):If your opponents vanguard is grade 3 or greater, COST [put this unit into your soul], choose up to one of your opponents locked cards, and unlock it. If you unlocked a card, choose one of your opponents rear-guards other than the unlocked unit, and lock it.'
+ACT [R]: If your opponents vanguard is grade 3 or greater, COST [put this unit into your soul], choose up to one of your opponents locked cards, and unlock it. If you unlocked a card, choose one of your opponents rear-guards other than the unlocked unit, and lock it.'
 global.UnitGrade[CardStat] = 1
 global.CardInClan[CardStat] = 24
 }

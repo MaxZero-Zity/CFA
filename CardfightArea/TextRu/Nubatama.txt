@@ -3308,3 +3308,72 @@ global.CardInClan[CardStat] = 23
 }
 global.PowerStat[CardStat] = 8000
 global.DefensePowerStat[CardStat] = 10000
+
+CardStat = 8191
+{
+global.CardName[CardStat] = 'Stealth Rogue of Invasions, Rui'
+global.CardText[CardStat] = 'Nubatama/демон/Империя драконов
+
+АВТО [Арьергард]: при помещении, заплатите цену [Взрыв души 1], оппонент выбирает одну карту у себя в руке и скидывает её. Если у оппонента в руке как максимум пять карт, оппонент берёт одну карту из колоды.
+
+АВТО: когда поверх этого воина делается смена, заплатите цену [Взрыв души 1], если у авангарда оппонента как минимум 2ой ранг, оппонент выбирает одну карту у себя в руке и скидывает её. Если же у авангарда оппонента как максимум 1ый ранг, Вы берёте одну карту из колоды.'
+global.UnitGrade[CardStat] = 1
+global.CardInClan[CardStat] = 23
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 10000
+
+CardStat = 8205
+{
+global.CardName[CardStat] = 'Evil Stealth Dragon Tasogare, Hanzo'
+global.CardText[CardStat] = 'Nubatama/дракон бездны/Империя драконов/Nubatama/Щит
+
+АВТО [Рука]: в начале хода оппонента, если у Вас в авангарде находится Evil Stealth Dragon Akatsuki, Hanzo, заплатите цену [скиньте две карты из руки], сделайте смену на эту карту в спящем положении и до конца хода защита всех Ваших арьергардов увеличивается на 5,000. В конце хода, сделайте смену на Evil Stealth Dragon Akatsuki, Hanzo из своей души в спящем положении.
+
+АВТО [Душа]: когда атакует Ваш авангард с именем «Hanzo», заплатите цену [уберите с поля арьергарда 0го ранга], призовите эту карту в арьергард и до конца хода сила этого воина увеличивается на 20,000 и он может атаковать из заднего ряда. В конце хода, поместите этого воина в свою душу. Если поместили, призовите одного злого токена-приманку в арьергард.
+
+(SHIFT + клик.)'
+global.UnitGrade[CardStat] = 3
+global.CardInClan[CardStat] = 23
+}
+global.GreenTokenAdd[CardStat] = 1
+global.PowerStat[CardStat] = 12000
+global.DefensePowerStat[CardStat] = 0
+global.TokenSummoner[CardStat] = 7069
+global.TokenSummonerPosition[CardStat] = 'SHIFT'
+
+
+CardStat = 8206
+{
+global.CardName[CardStat] = 'Evil Stealth Dragon, Yamishibuki'
+global.CardText[CardStat] = 'Nubatama/дракон бездны/Империя драконов
+
+ПРОДОЛЖИТЕЛЬНЫЙ [Арьергард]: во время Вашего хода, сила этого воина увеличивается на 5,000 за каждого Вашего арьергарда 0го ранга.
+
+АВТО [Авангард/арьергард]: когда этот воин атакует, заплатите цену [Встречный взрыв 1 & верните одного другого своего арьергарда себе в руку] и призовите до двух злых токенов-приманок к себе в арьергард.
+
+(SHIFT + клик.)'
+global.UnitGrade[CardStat] = 2
+global.CardInClan[CardStat] = 23
+}
+global.PowerStat[CardStat] = 9000
+global.DefensePowerStat[CardStat] = 5000
+global.TokenSummoner[CardStat] = 7069
+global.TokenSummonerPosition[CardStat] = 'SHIFT'
+
+
+CardStat = 8207
+{
+global.CardName[CardStat] = 'Evil Stealth Dragon, Kagesarashi'
+global.CardText[CardStat] = 'Nubatama/дракон бездны/Империя драконов
+
+АКТ [Арьергард]: заплатите цену [уберите этого воина со своего поля], призовите до двух злых токенов-приманок к себе в арьергард, затем, если у Вашего авангарда в имени содержится «Hanzo», заплатите цену [поместите одну карту из своей руки в свою душу], найдите у себя в колоде до одной карты, в имени которой содержится «Hanzo», раскройте её, возьмите её в свою руку и перемешайте свою колоду. Эта способность может быть использована картой с таким именем лишь раз за ход.
+
+(SHIFT + клик.)'
+global.UnitGrade[CardStat] = 1
+global.CardInClan[CardStat] = 23
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 10000
+global.TokenSummoner[CardStat] = 7069
+global.TokenSummonerPosition[CardStat] = 'SHIFT'

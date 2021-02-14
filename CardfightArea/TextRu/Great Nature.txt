@@ -3808,3 +3808,47 @@ global.CardInClan[CardStat] = 7
 }
 global.PowerStat[CardStat] = 8000
 global.DefensePowerStat[CardStat] = 10000
+
+CardStat = 8184
+{
+global.CardName[CardStat] = 'Hammsukes Rival, Jumbo Crayon Hammyan'
+global.CardText[CardStat] = 'Great Nature/высший зверь/Зоо/дар воображения: Ускорение
+
+АКТ [Авангард] [Один раз за ход]: заплатите цену [Встречный взрыв 2 & скиньте одну карту из своей руки], найдите у себя в колоде любое количество карт, в разных именах которых содержится «Hammsuke», призовите их в передний ряд арьергарда и перемешайте свою колоду.
+
+АВТО [Авангард]: в конце битвы, в которой этот воин атаковал, если у авангарда оппонента как минимум 3ий ранг, заплатите цену [скиньте две карты у себя из руки], раскройте нижнюю карту своей колоды и, если раскрытой картой окажется Pencil Hero, Hammsuke, сделайте на него смену в стоячем положении и до конца хода его проверка эффектов снижается на одну.'
+global.UnitGrade[CardStat] = 3
+global.CardInClan[CardStat] = 7
+}
+global.OrangeTokenAdd[CardStat] = 1
+global.PowerStat[CardStat] = 12000
+global.DefensePowerStat[CardStat] = 0
+
+
+CardStat = 8185
+{
+global.CardName[CardStat] = 'Hammsukes Teacher, Dip Pencil Hammyuki'
+global.CardText[CardStat] = 'Great Nature/высший зверь/Зоо
+
+АВТО [Авангард]: при помещении, заплатите цену [скиньте одну карту у себя из руки], найдите у себя в колоде до одного Pencil Squire, Hammsuke, призовите его в арьергард и перемешайте свою колоду.
+
+АКТ [Арьергард] [Один раз за ход]: если у Вашего авангарда в имени содержится «Hammsuke», заплатите цену [поместите у себя с кладбища в низ своей колоды, в любом порядке, две карты, в именах которых содержится «Hammsuke»] и активируйте Заряд счётчика 1.'
+global.UnitGrade[CardStat] = 1
+global.CardInClan[CardStat] = 7
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 10000
+
+CardStat = 8200
+{
+global.CardName[CardStat] = 'Hammsukes Rival, Nail Pencil Hammgoro'
+global.CardText[CardStat] = 'Great Nature/высший зверь/Зоо
+
+АВТО [Авангард/арьергард]: при помещении из руки, заплатите цену [Встречный взрыв 1], посмотрите на три верхние карты своей колоды, выберите среди них одну карту, в имени которой содержится «Hammsuke», возьмите её в руку, а остаток поместите в низ своей колоды в любом порядке.
+
+АКТ [Арьергард] [Один раз за ход]: если у Вашего авангарда в имени содержится «Hammsuke», заплатите цену [поместите у себя с кладбища в низ своей колоды, в любом порядке, две карты, в именах которых содержится «Hammsuke»] и до конца хода сила этого воина увеличивается на 3,000.'
+global.UnitGrade[CardStat] = 2
+global.CardInClan[CardStat] = 7
+}
+global.PowerStat[CardStat] = 9000
+global.DefensePowerStat[CardStat] = 5000

@@ -4238,3 +4238,46 @@ global.CardInClan[CardStat] = 10
 global.GreenTokenAdd[CardStat] = 1
 global.PowerStat[CardStat] = 12000
 global.DefensePowerStat[CardStat] = 0
+
+CardStat = 8150
+{
+global.CardName[CardStat] = 'Battle Sister, Torrijas'
+global.CardText[CardStat] = 'Oracle Think Tank/эльф/Единое святилище
+
+АВТО [Авангард/арьергард]: при помещении, раскройте верхнюю карту своей колоды и, если у раскрытой карты в имени содержится «Battle Sister», Вы можете взять её в руку. Эта способность может быть использована картой с таким именем лишь раз за ход.
+
+АВТО [Арьергард] [Один раз за ход]: во время Вашего хода, если Вы смотрели свою колоду способностью карты, до конца хода Вы можете увеличить силу этого воина на 5,000.'
+global.UnitGrade[CardStat] = 1
+global.CardInClan[CardStat] = 10
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 10000
+
+CardStat = 8154
+{
+global.CardName[CardStat] = 'Battle Sister, Trifle'
+global.CardText[CardStat] = 'Oracle Think Tank/эльф/Единое святилище
+
+АВТО [Авангард/арьергард]: при помещении из руки, заплатите цену [Встречный взрыв 1], посмотрите на три верхние карты своей колоды, призовите среди них в арьергард до одной карты, в имени которой содержится «Battle Sister», а остальные карты поместите в низ своей колоды в любом порядке.
+
+АВТО [Арьергард]: когда этот воин атакует, если в этом ходу Вы смотрели свою колоду способностью карты, до конца битвы сила этого воина увеличивается на 5,000, затем, заплатите цену [Взрыв души 1 картой 3го ранга] и оппонент не может призывать стражей из руки в круг защиты.'
+global.UnitGrade[CardStat] = 2
+global.CardInClan[CardStat] = 10
+}
+global.PowerStat[CardStat] = 9000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 8187
+{
+global.CardName[CardStat] = 'Cobalt Witch, PuPu'
+global.CardText[CardStat] = 'Oracle Think Tank/человек/Единое святилище
+
+АВТО [Авангард]: когда Вы делаете смену на этого воина поверх воина 1го ранга, заплатите цену [скиньте одну карту у себя из руки] и получите один дар воображения: Щит.
+
+АВТО [Арьергард]: когда этот воин атакует, заплатите цену [у Вас в руке есть как минимум один страж, раскройте любое их число] и до конца боя сила этого воина увеличивается на 5,000 за каждую карту, раскрытую в качестве платы за эту способность.'
+global.UnitGrade[CardStat] = 2
+global.CardInClan[CardStat] = 10
+}
+global.PowerStat[CardStat] = 9000
+global.DefensePowerStat[CardStat] = 5000
+global.GreenTokenAdd[CardStat] = 1

@@ -3239,3 +3239,46 @@ global.CardInClan[CardStat] = 17
 }
 global.PowerStat[CardStat] = 8000
 global.DefensePowerStat[CardStat] = 10000
+
+CardStat = 8175
+{
+global.CardName[CardStat] = 'Light Battle Dragon, Gigannoblazer'
+global.CardText[CardStat] = 'Tachikaze/Dinodragon
+
+CONT [V]: During your turn, if three or more new equip gauges were put for your units this turn, all of your front row units get power +5000.
+
+ACT [V] 1/Turn: COST [Counter Blast 1 & Soul Blast 1], draw two cards, and call two cards from your hand to R. Put up to one card from the top of your deck face down as an equip gauge for each of those units. (Put without looking at the front of those cards.)'
+global.UnitGrade[CardStat] = 3
+global.CardInClan[CardStat] = 17
+}
+global.OrangeTokenAdd[CardStat] = 1
+global.PowerStat[CardStat] = 12000
+global.DefensePowerStat[CardStat] = 0
+
+
+CardStat = 8176
+{
+global.CardName[CardStat] = 'Blackmail Dragon, Spinoextort'
+global.CardText[CardStat] = 'Tachikaze/Dinodragon
+
+AUTO [V/R]: When it attacks a vanguard, COST [Counter Blast 1 & retire another rear-guard], draw a card, and call up to one of the equip gauges from the unit retired for this cost to R. Put the top card of your deck face down as an equip gauge for the called unit.'
+global.UnitGrade[CardStat] = 2
+global.CardInClan[CardStat] = 17
+}
+global.PowerStat[CardStat] = 9000
+global.DefensePowerStat[CardStat] = 5000
+
+
+CardStat = 8177
+{
+global.CardName[CardStat] = 'Savage Shooter'
+global.CardText[CardStat] = 'Tachikaze/Human
+
+AUTO [V]: When placed, COST [Soul Blast 1], draw a card, and call a card from your hand to R. Put the top card of your deck face down as an equip gauge for the called unit.
+
+ACT [R]: COST [Rest this unit], and put a card from your drop zone face down as an equip gauge for one of your rear-guards without any equip gauges.'
+global.UnitGrade[CardStat] = 1
+global.CardInClan[CardStat] = 17
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 10000

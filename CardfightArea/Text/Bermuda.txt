@@ -5,7 +5,7 @@ CardStat = x
 global.CardName[CardStat] = 'Bermuda Triangle Cadet, Caravel'
 global.CardText[CardStat] = 'Bermuda Triangle/Mermaid/Magallanica
 
-AUTO: [Soul Blast 2] When this unit is called to the Rear-guard circle, and you have a ï¿½Bermuda Triangleï¿½ Vanguard, you may pay the cost. If paid, draw 1 card.'
+AUTO: [Soul Blast 2] When this unit is called to the Rear-guard circle, and you have a «Bermuda Triangle» Vanguard, you may pay the cost. If paid, draw 1 card.'
 }
 
 CardStat = x+1
@@ -15,7 +15,7 @@ global.CardText[CardStat] = 'Bermuda Triangle/Mermaid/Magallanica
 
 AUTO: When you ride "Mermaid Idol, Riviere" on this unit, you can look at the top 7 cards of you deck and select up to one "Super Idol, Riviere" or "Top Idol, Riviere" to add to your hand. After that, place the remaining cards to the top of your deck and shuffle.
 
-AUTO: When you ride a ï¿½Bermuda Triangleï¿½ unit other than "Mermaid Idol, Riviere", you may move this unit to a Rear-guard ï¿½ircle.'
+AUTO: When you ride a «Bermuda Triangle» unit other than "Mermaid Idol, Riviere", you may move this unit to a Rear-guard ñircle.'
 }
 
 CardStat = x+2
@@ -25,7 +25,7 @@ global.CardText[CardStat] = 'Bermuda Triangle/Mermaid/Magallanica
 
 AUTO: Pioneer (When another unit from the same clan rides this unit, you may call this card to Rear-guard circle.)
 
-ACT [R]: [Counter Blast 1 & move this unit to soul] Look at the top 5 cards of your deck, search up to 1 grade 3 ï¿½Bermuda Triangleï¿½, show it to your opponent and add it to your hand. Shuffle your deck.'
+ACT [R]: [Counter Blast 1 & move this unit to soul] Look at the top 5 cards of your deck, search up to 1 grade 3 «Bermuda Triangle», show it to your opponent and add it to your hand. Shuffle your deck.'
 }
 
 CardStat = x+3
@@ -35,7 +35,7 @@ global.CardText[CardStat] = 'Bermuda Triangle/Mermaid/Magallanica
 
 AUTO: Pioneer (When another unit from the same clan rides this unit, you may call this card to Rear-guard circle.)
 
-ACT [R]: [Move this unit to soul] If you have a ï¿½Bermuda Triangleï¿½ Vanguard, you can select 1 of your ï¿½Bermuda Triangleï¿½ Rear-guards, and return it to your hand.'
+ACT [R]: [Move this unit to soul] If you have a «Bermuda Triangle» Vanguard, you can select 1 of your «Bermuda Triangle» Rear-guards, and return it to your hand.'
 }
 
 CardStat = x+4
@@ -95,7 +95,7 @@ CardStat = x+11
 global.CardName[CardStat] = 'Blazer Idols'
 global.CardText[CardStat] = 'Bermuda Triangle/Mermaid/Magallanica
 
-AUTO: When this unit is called to the Rear-guard circle, choose 1 other of your own ï¿½Bermuda Triangleï¿½, during that turn, it gains +2000 power.'
+AUTO: When this unit is called to the Rear-guard circle, choose 1 other of your own «Bermuda Triangle», during that turn, it gains +2000 power.'
 }
 
 CardStat = x+12
@@ -103,7 +103,7 @@ CardStat = x+12
 global.CardName[CardStat] = 'Mermaid Idol, Elly'
 global.CardText[CardStat] = 'Bermuda Triangle/Mermaid/Magallanica
 
-[AUTO]: [Choose 1 ï¿½Bermuda Triangleï¿½ from your hand, and discard it] When this unit is placed on Guardian circle, you may pay the cost. If you do, choose one of your ï¿½Bermuda Triangleï¿½, that unit cannot be hit until end of that battle.'
+[AUTO]: [Choose 1 «Bermuda Triangle» from your hand, and discard it] When this unit is placed on Guardian circle, you may pay the cost. If you do, choose one of your «Bermuda Triangle», that unit cannot be hit until end of that battle.'
 }
 
 CardStat = x+13
@@ -111,7 +111,7 @@ CardStat = x+13
 global.CardName[CardStat] = 'Mermaid Idol, Felucca'
 global.CardText[CardStat] = 'Bermuda Triangle/Mermaid/Magallanica
 
-AUTO: When this unit is placed on Vanguard or Rear-guard ï¿½ircle, if you have a ï¿½Bermuda Triangleï¿½ Vanguard, you may Soul Charge 1.'
+AUTO: When this unit is placed on Vanguard or Rear-guard ñircle, if you have a «Bermuda Triangle» Vanguard, you may Soul Charge 1.'
 }
 
 CardStat = x+14
@@ -143,7 +143,7 @@ CardStat = x+17
 global.CardName[CardStat] = 'Pearl Sister, Perle'
 global.CardText[CardStat] = 'Bermuda Triangle/Mermaid/Magallanica
 
-AUTO: When this unit is placed on Rear-guard circle, if you have a ï¿½Bermuda Triangleï¿½ Vanguard, choose one of your units named "Pearl Sisters, Perla", and that unit gets "AUTO [V/R]: When this units attack hits a Vanguard, Soul Charge 1, and draw a card." until end of turn.'
+AUTO: When this unit is placed on Rear-guard circle, if you have a «Bermuda Triangle» Vanguard, choose one of your units named "Pearl Sisters, Perla", and that unit gets "AUTO [V/R]: When this units attack hits a Vanguard, Soul Charge 1, and draw a card." until end of turn.'
 }
 
 CardStat = x+18
@@ -151,7 +151,7 @@ CardStat = x+18
 global.CardName[CardStat] = 'Prism of the Waters Surface, Miltoa'
 global.CardText[CardStat] = 'Bermuda Triangle/Mermaid/Magallanica
 
-AUTO: When this unit appears in a Vanguard or Rear-guard circle, if you have a ï¿½Bermuda Triangleï¿½ Vanguard, all players may draw 1 card.'
+AUTO: When this unit appears in a Vanguard or Rear-guard circle, if you have a «Bermuda Triangle» Vanguard, all players may draw 1 card.'
 }
 
 CardStat = x+19
@@ -159,7 +159,7 @@ CardStat = x+19
 global.CardName[CardStat] = 'Turquoise Blue, Tyrrhenia'
 global.CardText[CardStat] = 'Bermuda Triangle/Mermaid/Magallanica
 
-AUTO [R]: [Soul Blast 2] When an attack hits a Vanguard during the battle that this unit boosts a ï¿½Bermuda Triangleï¿½, you may pay the cost. If you do, choose another of your ï¿½Bermuda Triangleï¿½ Rear-guards, and return it to your hand.'
+AUTO [R]: [Soul Blast 2] When an attack hits a Vanguard during the battle that this unit boosts a «Bermuda Triangle», you may pay the cost. If you do, choose another of your «Bermuda Triangle» Rear-guards, and return it to your hand.'
 }
 
 CardStat = x+20
@@ -167,7 +167,7 @@ CardStat = x+20
 global.CardName[CardStat] = 'Diva of the Clear Seas, Izumi'
 global.CardText[CardStat] = 'Bermuda Triangle/Mermaid/Magallanica
 
-AUTO: When this unit intercepts and you have a ï¿½Bermuda Triangleï¿½ Vanguard, this unit gets shield +5000 for that turn.'
+AUTO: When this unit intercepts and you have a «Bermuda Triangle» Vanguard, this unit gets shield +5000 for that turn.'
 }
 
 CardStat = x+21
@@ -175,7 +175,7 @@ CardStat = x+21
 global.CardName[CardStat] = 'Girls Rock, Rio'
 global.CardText[CardStat] = 'Bermuda Triangle/Mermaid/Magallanica
 
-AUTO: [Counter Blast 1] When this unit is returned to your hand from a Rear-guard circle and you have a ï¿½Bermuda Triangleï¿½ Vanguard, you may pay the cost. If you do, Soul Charge 1 and draw 1 card.'
+AUTO: [Counter Blast 1] When this unit is returned to your hand from a Rear-guard circle and you have a «Bermuda Triangle» Vanguard, you may pay the cost. If you do, Soul Charge 1 and draw 1 card.'
 }
 
 CardStat = x+22
@@ -183,7 +183,7 @@ CardStat = x+22
 global.CardName[CardStat] = 'Inteli Idol, Mervill'
 global.CardText[CardStat] = 'Bermuda Triangle/Mermaid/Magallanica
 
-AUTO [V]: [Select 1 of your ï¿½Bermuda Triangleï¿½ Rear-guards, and return it to your hand.] When this unit drive checks and reveals a grade 3 ï¿½Bermuda Triangleï¿½, you can pay the cost. If you do, select up to 1 ï¿½Bermuda Triangleï¿½ in your hand, and call that to one of your empty Rear-guard circles.'
+AUTO [V]: [Select 1 of your «Bermuda Triangle» Rear-guards, and return it to your hand.] When this unit drive checks and reveals a grade 3 «Bermuda Triangle», you can pay the cost. If you do, select up to 1 «Bermuda Triangle» in your hand, and call that to one of your empty Rear-guard circles.'
 }
 
 CardStat = x+23
@@ -191,7 +191,7 @@ CardStat = x+23
 global.CardName[CardStat] = 'Mermaid Idol, Flute'
 global.CardText[CardStat] = 'Bermuda Triangle/Mermaid/Magallanica
 
-CONT [V/R]: During your turn, if you have four or more ï¿½Bermuda Triangleï¿½ Rear-guards, this unit gets power +3000.'
+CONT [V/R]: During your turn, if you have four or more «Bermuda Triangle» Rear-guards, this unit gets power +3000.'
 }
 
 CardStat = x+24
@@ -199,7 +199,7 @@ CardStat = x+24
 global.CardName[CardStat] = 'Pearl Sisters, Perla'
 global.CardText[CardStat] = 'Bermuda Triangle/Mermaid/Magallanica
 
-AUTO [V/R]: [Soul Blast 1] When this units attack hits the Vanguard, you may pay the cost. If so, select 1 ï¿½Bermuda Triangleï¿½ Rear-guard and return it to your hand.'
+AUTO [V/R]: [Soul Blast 1] When this units attack hits the Vanguard, you may pay the cost. If so, select 1 «Bermuda Triangle» Rear-guard and return it to your hand.'
 }
 
 CardStat = x+25
@@ -207,7 +207,7 @@ CardStat = x+25
 global.CardName[CardStat] = 'Snow White of the Corals, Claire'
 global.CardText[CardStat] = 'Bermuda Triangle/Mermaid/Magallanica
 
-AUTO: When this card is placed on Rear-guard circle, choose another of your ï¿½Bermuda Triangleï¿½ unit, and that unit gets power +2000 until end of turn.'
+AUTO: When this card is placed on Rear-guard circle, choose another of your «Bermuda Triangle» unit, and that unit gets power +2000 until end of turn.'
 }
 
 CardStat = x+26
@@ -231,9 +231,9 @@ CardStat = x+28
 global.CardName[CardStat] = 'Bermuda Princess, Lena'
 global.CardText[CardStat] = 'Bermuda Triangle/Mermaid/Magallanica
 
-CONT [V]: During your turn, if you have 4 or more ï¿½Bermuda Triangleï¿½ Rear-guards, this unit gains +3000 power.
+CONT [V]: During your turn, if you have 4 or more «Bermuda Triangle» Rear-guards, this unit gains +3000 power.
 
-AUTO: When this unit is called to the Vanguard circle, send all of your ï¿½Bermuda Triangleï¿½ Rear-guards back to your hand.'
+AUTO: When this unit is called to the Vanguard circle, send all of your «Bermuda Triangle» Rear-guards back to your hand.'
 }
 
 
@@ -242,7 +242,7 @@ CardStat = x+29
 global.CardName[CardStat] = 'Rainbow Light, Carine'
 global.CardText[CardStat] = 'Bermuda Triangle/Mermaid/Magallanica
 
-AUTO: [Counter Blast 1] When this unit is returned to your hand from Rear-guard circle, if you have a ï¿½Bermuda Triangleï¿½ Vanguard, you may pay the cost. If you do, Soul Charge 1, and draw a card.'
+AUTO: [Counter Blast 1] When this unit is returned to your hand from Rear-guard circle, if you have a «Bermuda Triangle» Vanguard, you may pay the cost. If you do, Soul Charge 1, and draw a card.'
 }
 
 CardStat = x+30
@@ -258,7 +258,7 @@ CardStat = x+31
 global.CardName[CardStat] = 'Top Idol, Flores'
 global.CardText[CardStat] = 'Bermuda Triangle/Mermaid/Magallanica
 
-AUTO [V/R]: [Soul Blast 2] When this units attack hits, you may pay the cost. If paid, choose 1 of your ï¿½Bermuda Triangleï¿½ Rear-guards and return it back to hand.'
+AUTO [V/R]: [Soul Blast 2] When this units attack hits, you may pay the cost. If paid, choose 1 of your «Bermuda Triangle» Rear-guards and return it back to hand.'
 }
 
 CardStat = x+32
@@ -266,11 +266,11 @@ CardStat = x+32
 global.CardName[CardStat] = 'Top Idol, Pacifica' 
 global.CardText[CardStat] = 'Bermuda Triangle/Mermaid/Magallanica
 
-CONT [V]: During your turn, if the number of ï¿½Bermuda Triangleï¿½ Rear-guards you have is four or more, this unit gets power +3000.
+CONT [V]: During your turn, if the number of «Bermuda Triangle» Rear-guards you have is four or more, this unit gets power +3000.
 
 AUTO [V]: At the beginning of your main phase, Soul Charge 1, draw a card, choose a card from your hand, and put it on the bottom of your deck.
 
-AUTO [V/R]: [Soul Blast 8 & Counter Blast 5] When this units attack hits a Vanguard, you may pay the cost. If you do, search your deck up to three ï¿½Bermuda Triangleï¿½, call them to separate Rear-guard circles, and shuffle your deck.'
+AUTO [V/R]: [Soul Blast 8 & Counter Blast 5] When this units attack hits a Vanguard, you may pay the cost. If you do, search your deck up to three «Bermuda Triangle», call them to separate Rear-guard circles, and shuffle your deck.'
 }
 
 CardStat = x+33
@@ -280,7 +280,7 @@ global.CardText[CardStat] = 'Bermuda Triangle/Mermaid/Magallanica
 
 CONT [V]: If you have a card named "Super Idol, Riviere" in your soul, this unit gets power +1000.
 
-AUTO [V]: [Counter Blast 2 & Choose a card named "Top Idol, Riviere" from your hand, and discard it] When this units attack hits a Vanguard, you may pay the cost. if you do, choose up to three of your ï¿½Bermuda Triangleï¿½ Rear-guards, and those units get power +5000 until end of turn.'
+AUTO [V]: [Counter Blast 2 & Choose a card named "Top Idol, Riviere" from your hand, and discard it] When this units attack hits a Vanguard, you may pay the cost. if you do, choose up to three of your «Bermuda Triangle» Rear-guards, and those units get power +5000 until end of turn.'
 }
 
 CardStat = x+34
@@ -288,7 +288,7 @@ CardStat = x+34
 global.CardName[CardStat] = 'Velvet Voice, Raindear'
 global.CardText[CardStat] = 'Bermuda Triangle/Mermaid/Magallanica
 
-AUTO [V]: [Choose one of your ï¿½Bermuda Triangleï¿½ Rear-guards, and return it to your hand] When this units drive check reveals a grade 3 ï¿½Bermuda Triangleï¿½, you may pay the cost. If you do, choose up to one ï¿½Bermuda Triangleï¿½ from your hand, and call it to an open Rear-guard circle.'
+AUTO [V]: [Choose one of your «Bermuda Triangle» Rear-guards, and return it to your hand] When this units drive check reveals a grade 3 «Bermuda Triangle», you may pay the cost. If you do, choose up to one «Bermuda Triangle» from your hand, and call it to an open Rear-guard circle.'
 }
 
 // B Add
@@ -300,7 +300,7 @@ CardStat = x
 global.CardName[CardStat] = 'Eternal Idol, Pacifica'
 global.CardText[CardStat] = 'Bermuda Triangle/Mermaid/Magallanica
 
-AUTO [V]: Limit Break 4 (This ability is active if you have four or more damage): [Counter Blast 3] When this unit attacks, you may pay the cost. If you do, choose up to two of your ï¿½Bermuda Triangleï¿½ Rear-guards, return those units to your hand, search your deck for up to one ï¿½Bermuda Triangleï¿½, call it to Rear-guard circle, and shuffle your deck.
+AUTO [V]: Limit Break 4 (This ability is active if you have four or more damage): [Counter Blast 3] When this unit attacks, you may pay the cost. If you do, choose up to two of your «Bermuda Triangle» Rear-guards, return those units to your hand, search your deck for up to one «Bermuda Triangle», call it to Rear-guard circle, and shuffle your deck.
 
 CONT [V]: If you have a card named "Top Idol Pacifica" in your soul, this unit gets power +2000.
 
@@ -328,9 +328,9 @@ CardStat = x+2
 global.CardName[CardStat] = 'PR<3ISM-Image, Vert'
 global.CardText[CardStat] = 'Bermuda Triangle/Mermaid/Magallanica
 
-AUTO: Limit Break 4 (This ability is active if you have four or more damage): When a ï¿½Bermuda Triangleï¿½ rides this unit, draw a card, choose up to two of your ï¿½Bermuda Triangleï¿½ Rear-guards, return them to your hand, choose your Vanguard, and that unit gets power +10000 until end of turn.
+AUTO: Limit Break 4 (This ability is active if you have four or more damage): When a «Bermuda Triangle» rides this unit, draw a card, choose up to two of your «Bermuda Triangle» Rear-guards, return them to your hand, choose your Vanguard, and that unit gets power +10000 until end of turn.
 
-CONT [V]: During your turn, if the number of ï¿½Bermuda Triangleï¿½ Rear-guards you have is four or more, this unit gets power +2000.
+CONT [V]: During your turn, if the number of «Bermuda Triangle» Rear-guards you have is four or more, this unit gets power +2000.
 
 CONT [V/R]: Lord (If you have a unit without a same clan as this unit, this unit cannot attack.)'
 global.UnitGrade[CardStat] = 3
@@ -342,7 +342,7 @@ CardStat = x+3
 global.CardName[CardStat] = 'Pr<3ism-Romance, Etoile'
 global.CardText[CardStat] = 'Bermuda Triangle/Mermaid/Magallanica
 
-AUTO [V/R]: When this unit is boosted by a ï¿½Bermuda Triangleï¿½, this unit gets power +2000 until end of that battle.'
+AUTO [V/R]: When this unit is boosted by a «Bermuda Triangle», this unit gets power +2000 until end of that battle.'
 global.UnitGrade[CardStat] = 3
 global.CardInClan[CardStat] = 13
 }
@@ -352,7 +352,7 @@ CardStat = x+4
 global.CardName[CardStat] = 'Pr<3ism-Smile, Scotia'
 global.CardText[CardStat] = 'Bermuda Triangle/Mermaid/Magallanica
 
-AUTO [V/R]: [Counter Blast 1 ï¿½Bermuda Triangleï¿½] When this unit attacks, if you have a ï¿½Bermuda Triangleï¿½ Vanguard, you may pay the cost. If you do, this unit gets power +4000 until end of that battle.'
+AUTO [V/R]: [Counter Blast 1 «Bermuda Triangle»] When this unit attacks, if you have a «Bermuda Triangle» Vanguard, you may pay the cost. If you do, this unit gets power +4000 until end of that battle.'
 global.UnitGrade[CardStat] = 2
 global.CardInClan[CardStat] = 13
 }
@@ -372,7 +372,7 @@ CardStat = x+6
 global.CardName[CardStat] = 'Pr<3ism-Promise, Celtic'
 global.CardText[CardStat] = 'Bermuda Triangle/Mermaid/Magallanica
 
-AUTO: [Soul Blast 1] When this unit is returned from a Rear-guard circle to your hand, you may pay the cost. If you do, choose one of your ï¿½Bermuda Triangleï¿½, that unit gets power +4000 until end of the turn.'
+AUTO: [Soul Blast 1] When this unit is returned from a Rear-guard circle to your hand, you may pay the cost. If you do, choose one of your «Bermuda Triangle», that unit gets power +4000 until end of the turn.'
 global.UnitGrade[CardStat] = 2
 global.CardInClan[CardStat] = 13
 }
@@ -412,7 +412,7 @@ global.CardText[CardStat] = 'Bermuda Triangle/Mermaid/Magallanica
 
 AUTO: Pioneer (When another unit from the same clan rides this unit, you may call it to Rear-guard circle.)
 
-AUTO [R]: [Put this unit into your soul] When an attack hits a Vanguard during the battle that this unit boosted a ï¿½Bermuda Triangleï¿½ that has Limit Break 4, you may pay the cost. If you do, draw a card.'
+AUTO [R]: [Put this unit into your soul] When an attack hits a Vanguard during the battle that this unit boosted a «Bermuda Triangle» that has Limit Break 4, you may pay the cost. If you do, draw a card.'
 global.UnitGrade[CardStat] = 0
 global.CardInClan[CardStat] = 13
 }
@@ -424,7 +424,7 @@ global.CardText[CardStat] = 'Bermuda Triangle/Mermaid/Magallanica
 
 AUTO: Pioneer (When another unit from the same clan rides this unit, you may call it to Rear-guard circle.)
 
-AUTO [R]: When your ï¿½Bermuda Triangleï¿½ Rear-guard is returned to your hand from Rear-guard circle, you may return this card to your hand.'
+AUTO [R]: When your «Bermuda Triangle» Rear-guard is returned to your hand from Rear-guard circle, you may return this card to your hand.'
 global.UnitGrade[CardStat] = 0
 global.CardInClan[CardStat] = 13
 }
@@ -460,7 +460,7 @@ CardStat = x+15
 global.CardName[CardStat] = 'PR<3ISM-M Irish'
 global.CardText[CardStat] = 'Bermuda Triangle/Mermaid/Magallanica/Stand Trigger
 
-AUTO: [Soul Blast 1] When this unit is returned to your hand from Rear-guard circle, you may pay the cost. If you do, choose another of your ï¿½Bermuda Triangleï¿½, and that unit gets power +4000 until end of turn.'
+AUTO: [Soul Blast 1] When this unit is returned to your hand from Rear-guard circle, you may pay the cost. If you do, choose another of your «Bermuda Triangle», and that unit gets power +4000 until end of turn.'
 global.UnitGrade[CardStat] = 0
 global.CardInClan[CardStat] = 13
 }
@@ -474,7 +474,7 @@ CardStat = x
 global.CardName[CardStat] = 'PR<3ISM-Image, Rosa'
 global.CardText[CardStat] = 'Bermuda Triangle/Mermaid/Magallanica
 
-AUTO [V/R]: When this unit attacks, if you have a ï¿½Bermuda Triangleï¿½ Vanguard or Rear-guard that has Limit Break 4, this unit gets power +3000 until end of that battle.'
+AUTO [V/R]: When this unit attacks, if you have a «Bermuda Triangle» Vanguard or Rear-guard that has Limit Break 4, this unit gets power +3000 until end of that battle.'
 global.UnitGrade[CardStat] = 2
 global.CardInClan[CardStat] = 13
 }
@@ -485,7 +485,7 @@ CardStat = x+1
 global.CardName[CardStat] = 'PR<3ISM-Image, Clear'
 global.CardText[CardStat] = 'Bermuda Triangle/Mermaid/Magallanica
 
-AUTO: [Soul Blast 1] When this unit is returned to your hand from Rear-guard circle, you may pay the cost. If you do, choose another of your ï¿½Bermuda Triangleï¿½, and that unit gets power +4000 until end of turn.'
+AUTO: [Soul Blast 1] When this unit is returned to your hand from Rear-guard circle, you may pay the cost. If you do, choose another of your «Bermuda Triangle», and that unit gets power +4000 until end of turn.'
 global.UnitGrade[CardStat] = 1
 global.CardInClan[CardStat] = 13
 }
@@ -501,7 +501,7 @@ global.CardText[CardStat] = 'Bermuda Triangle/Mermaid/Magallanica
 
 AUTO: When a card named "Fresh Star, Coral" rides this unit, look at up to seven cards from the top of your deck, search for up to one card named "Shiny Star, Coral" or "Aurora Star, Coral" from among them, reveal it to your opponent, put it into your hand, and shuffle your deck.
 
-AUTO: When a ï¿½Bermuda Triangleï¿½ other than a card named "Fresh Star, Coral" rides this unit, you may call this unit to Rear-guard circle.'
+AUTO: When a «Bermuda Triangle» other than a card named "Fresh Star, Coral" rides this unit, you may call this unit to Rear-guard circle.'
 global.UnitGrade[CardStat] = 0
 global.CardInClan[CardStat] = 13
 }
@@ -513,7 +513,7 @@ global.CardText[CardStat] = 'Bermuda Triangle/Mermaid/Magallanica
 
 CONT [V]: If you have a card named "Angelic Star, Coral" in your soul, this unit gets power +1000.
 
-AUTO: When a grade 2 ï¿½Bermuda Triangleï¿½ other than a card named "Shiny Star, Coral" rides this unit, if you have a card named "Angelic Star, Coral" in your soul, look at up to seven cards from the top of your deck, search for up to one card named "Shiny Star, Coral" from among them, ride it, and shuffle your deck.'
+AUTO: When a grade 2 «Bermuda Triangle» other than a card named "Shiny Star, Coral" rides this unit, if you have a card named "Angelic Star, Coral" in your soul, look at up to seven cards from the top of your deck, search for up to one card named "Shiny Star, Coral" from among them, ride it, and shuffle your deck.'
 global.UnitGrade[CardStat] = 1
 global.CardInClan[CardStat] = 13
 }
@@ -525,7 +525,7 @@ global.CardText[CardStat] = 'Bermuda Triangle/Mermaid/Magallanica
 
 CONT [V]: If you have a card named "Fresh Star, Coral" in your soul, this unit gets power +1000.
 
-AUTO [V]: When this units attack hits a Vanguard, choose up to one of your ï¿½Bermuda Triangleï¿½ Rear-guards in your front row, return it to your hand, and if you have a card named "Fresh Star, Coral" in your soul, choose up to one of your ï¿½Bermuda Triangleï¿½ Rear-guards in your back row, and return it to your hand.'
+AUTO [V]: When this units attack hits a Vanguard, choose up to one of your «Bermuda Triangle» Rear-guards in your front row, return it to your hand, and if you have a card named "Fresh Star, Coral" in your soul, choose up to one of your «Bermuda Triangle» Rear-guards in your back row, and return it to your hand.'
 global.UnitGrade[CardStat] = 2
 global.CardInClan[CardStat] = 13
 }
@@ -535,7 +535,7 @@ CardStat = x+3
 global.CardName[CardStat] = 'Aurora Star, Coral'
 global.CardText[CardStat] = 'Bermuda Triangle/Mermaid/Magallanica
 
-AUTO [V]: Limit Break 4 (This ability is active if you have four or more damage): [Counter Blast 2] When this attacks a Vanguard, you may pay the cost. If you do, Soul Charge 1, choose up to one of your ï¿½Bermuda Triangleï¿½ Rear-guards, return it to your hand, and this unit gets power +5000 until end of that battle.
+AUTO [V]: Limit Break 4 (This ability is active if you have four or more damage): [Counter Blast 2] When this attacks a Vanguard, you may pay the cost. If you do, Soul Charge 1, choose up to one of your «Bermuda Triangle» Rear-guards, return it to your hand, and this unit gets power +5000 until end of that battle.
 
 CONT [V]: If you have a card named "Shiny Star, Coral" in your soul, this unit gets power +1000.'
 global.UnitGrade[CardStat] = 3
@@ -547,7 +547,7 @@ CardStat = x+4
 global.CardName[CardStat] = 'Mirror Diva, Biscay'
 global.CardText[CardStat] = 'Bermuda Triangle/Mermaid/Magallanica
 
-AUTO: [Soul Blast 1] When this unit is placed on Rear-guard circle, if you have a ï¿½Bermuda Triangleï¿½ Vanguard, you may pay the cost. If you do, look at up to seven cards from the top of your deck, search for up to one card named "Mirror Diva, Biscay" from among them, reveal it to your opponent, put it into your hand, and shuffle your deck.'
+AUTO: [Soul Blast 1] When this unit is placed on Rear-guard circle, if you have a «Bermuda Triangle» Vanguard, you may pay the cost. If you do, look at up to seven cards from the top of your deck, search for up to one card named "Mirror Diva, Biscay" from among them, reveal it to your opponent, put it into your hand, and shuffle your deck.'
 global.UnitGrade[CardStat] = 1
 global.CardInClan[CardStat] = 13
 }
@@ -559,7 +559,7 @@ global.CardText[CardStat] = 'Bermuda Triangle/Mermaid/Magallanica
 
 AUTO [V]: Limit Break 4 (This ability is active if you have four or more damage): When this unit attacks a Vanguard, this unit gets power +5000 until end of that battle.
 
-AUTO [R]: When this unit attacks a Vanguard, if you have a ï¿½Bermuda Triangleï¿½ Vanguard, this unit gets power +2000 until end of that battle.'
+AUTO [R]: When this unit attacks a Vanguard, if you have a «Bermuda Triangle» Vanguard, this unit gets power +2000 until end of that battle.'
 global.UnitGrade[CardStat] = 3
 global.CardInClan[CardStat] = 13
 }
@@ -569,7 +569,7 @@ CardStat = x+6
 global.CardName[CardStat] = 'Mirror Diva, Minato'
 global.CardText[CardStat] = 'Bermuda Triangle/Mermaid/Magallanica
 
-AUTO [R]: When your grade 3 ï¿½Bermuda Triangleï¿½ is placed on Vanguard circle, this unit gets power +10000 until the end of turn.'
+AUTO [R]: When your grade 3 «Bermuda Triangle» is placed on Vanguard circle, this unit gets power +10000 until the end of turn.'
 global.UnitGrade[CardStat] = 3
 global.CardInClan[CardStat] = 13
 }
@@ -579,7 +579,7 @@ CardStat = x+7
 global.CardName[CardStat] = 'Mascot Lady, Oria'
 global.CardText[CardStat] = 'Bermuda Triangle/Mermaid/Magallanica
 
-AUTO [R]: [Counter Blast 1] When this unit boosts a ï¿½Bermuda Triangleï¿½ that has Limit Break 4, you may pay the cost. If you do, the boosted unit gets power +3000 until end of that battle.'
+AUTO [R]: [Counter Blast 1] When this unit boosts a «Bermuda Triangle» that has Limit Break 4, you may pay the cost. If you do, the boosted unit gets power +3000 until end of that battle.'
 global.UnitGrade[CardStat] = 1
 global.CardInClan[CardStat] = 13
 }
@@ -593,7 +593,7 @@ CardStat = x
 global.CardName[CardStat] = 'Intelli-beauty, Loire'
 global.CardText[CardStat] = 'Bermuda Triangle/Mermaid/Magallanica
 
-AUTO: [Counter Blast 1] When this unit is placed on Vanguard or Rear-guard circle, if you have a ï¿½Bermuda Triangleï¿½ Vanguard, you may pay the cost. If you do, put the top card of your deck into your damage zone, and at the beginning of your end phase, choose a card from your damage zone, return it to your deck, and shuffle your deck.'
+AUTO: [Counter Blast 1] When this unit is placed on Vanguard or Rear-guard circle, if you have a «Bermuda Triangle» Vanguard, you may pay the cost. If you do, put the top card of your deck into your damage zone, and at the beginning of your end phase, choose a card from your damage zone, return it to your deck, and shuffle your deck.'
 global.UnitGrade[CardStat] = 2
 global.CardInClan[CardStat] = 13
 }
@@ -603,7 +603,7 @@ CardStat = x+1
 global.CardName[CardStat] = 'Library Madonna, Rion'
 global.CardText[CardStat] = 'Bermuda Triangle/Mermaid/Magallanica
 
-AUTO: [Counter Blast 1] When this unit is placed on Vanguard or Rear-guard circle, if you have a ï¿½Bermuda Triangleï¿½ Vanguard, you may pay the cost. If you do, put the top card of your deck into your damage zone, and at the beginning of your end phase, choose a card from your damage zone, return it to your deck, and shuffle your deck.'
+AUTO: [Counter Blast 1] When this unit is placed on Vanguard or Rear-guard circle, if you have a «Bermuda Triangle» Vanguard, you may pay the cost. If you do, put the top card of your deck into your damage zone, and at the beginning of your end phase, choose a card from your damage zone, return it to your deck, and shuffle your deck.'
 global.UnitGrade[CardStat] = 1
 global.CardInClan[CardStat] = 13
 }
@@ -613,7 +613,7 @@ CardStat = x+2
 global.CardName[CardStat] = 'Sweets Harmony, Mona'
 global.CardText[CardStat] = 'Bermuda Triangle/Mermaid/Magallanica
 
-AUTO: [Counter Blast 1] When this unit is placed on Rear-guard circle, if you have a ï¿½Bermuda Triangleï¿½ Vanguard, you may pay the cost. If you do, choose another of your ï¿½Bermuda Triangleï¿½ Rear-guards, and return it to your hand.'
+AUTO: [Counter Blast 1] When this unit is placed on Rear-guard circle, if you have a «Bermuda Triangle» Vanguard, you may pay the cost. If you do, choose another of your «Bermuda Triangle» Rear-guards, and return it to your hand.'
 global.UnitGrade[CardStat] = 1
 global.CardInClan[CardStat] = 13
 }
@@ -641,7 +641,7 @@ CardStat = x+5
 global.CardName[CardStat] = 'Heartful Yale, Fundy'
 global.CardText[CardStat] = 'Bermuda Triangle/Mermaid/Magallanica/Draw Trigger
 
-ACT [R]: [Put this unit into your soul] Choose up to one of your ï¿½Bermuda Triangleï¿½, and that unit gets power +3000 until end of turn.'
+ACT [R]: [Put this unit into your soul] Choose up to one of your «Bermuda Triangle», and that unit gets power +3000 until end of turn.'
 global.UnitGrade[CardStat] = 0
 global.CardInClan[CardStat] = 13
 }
@@ -663,7 +663,7 @@ CardStat = x
 global.CardName[CardStat] = 'Pretty Celeb, Charlotte'
 global.CardText[CardStat] = 'Bermuda Triangle/Mermaid/Magallanica
 
-AUTO [R]: [Counter Blast 1] When this units attack hits a Vanguard, if you have a ï¿½Bermuda Triangleï¿½ Vanguard, you may pay the cost. If you do, return this unit to your hand, choose up to one ï¿½Bermuda Triangleï¿½ from your hand other than a card named "Pretty Celeb, Charlotte", and call it to an open Rear-guard circle.'
+AUTO [R]: [Counter Blast 1] When this units attack hits a Vanguard, if you have a «Bermuda Triangle» Vanguard, you may pay the cost. If you do, return this unit to your hand, choose up to one «Bermuda Triangle» from your hand other than a card named "Pretty Celeb, Charlotte", and call it to an open Rear-guard circle.'
 global.UnitGrade[CardStat] = 2
 global.CardInClan[CardStat] = 13
 }
@@ -677,7 +677,7 @@ CardStat = x
 global.CardName[CardStat] = 'Apprentice Idol, Karen'
 global.CardText[CardStat] = 'Bermuda Triangle/Mermaid/Magallanica
 
-AUTO: [Counter Blast 1 & Soul Blast 1] When this unit is returned to your hand from Rear-guard circle, if you have a ï¿½Bermuda Triangleï¿½ Vanguard, you may pay the cost. If you do, draw 1 card.'
+AUTO: [Counter Blast 1 & Soul Blast 1] When this unit is returned to your hand from Rear-guard circle, if you have a «Bermuda Triangle» Vanguard, you may pay the cost. If you do, draw 1 card.'
 global.UnitGrade[CardStat] = 1
 global.CardInClan[CardStat] = 13
 }
@@ -705,9 +705,9 @@ CardStat = x+1
 global.CardName[CardStat] = 'Duo True Sister, Meer'
 global.CardText[CardStat] = 'Bermuda Triangle/Mermaid/Magallanica
 
-AUTO [V] Limit Break 4 (This ability is active if you have four or more damage): When a ï¿½Bermuda Triangleï¿½ rides this unit, choose your Vanguard, and until end of turn, that unit gets power +10000 and "AUTO [V]: [Counter Blast 1] When this unit attacks a Vanguard, you may pay the cost. If you do, return all of your ï¿½Bermuda Triangleï¿½ Rear-guards to your hand, then choose up to two ï¿½Bermuda Triangleï¿½ from your hand, and call them to separate Rear-guard circles".
+AUTO [V] Limit Break 4 (This ability is active if you have four or more damage): When a «Bermuda Triangle» rides this unit, choose your Vanguard, and until end of turn, that unit gets power +10000 and "AUTO [V]: [Counter Blast 1] When this unit attacks a Vanguard, you may pay the cost. If you do, return all of your «Bermuda Triangle» Rear-guards to your hand, then choose up to two «Bermuda Triangle» from your hand, and call them to separate Rear-guard circles".
 
-CONT [V]: During your turn, if the number of ï¿½Bermuda Triangleï¿½ Rear-guards you have is four or more, this unit gets power +2000.
+CONT [V]: During your turn, if the number of «Bermuda Triangle» Rear-guards you have is four or more, this unit gets power +2000.
 
 CONT [V/R]: Lord (If you have a unit without a same clan as this unit, this unit cannot attack.)'
 global.UnitGrade[CardStat] = 3
@@ -719,7 +719,7 @@ CardStat = x+2
 global.CardName[CardStat] = 'Duo Stage Storm, Iori'
 global.CardText[CardStat] = 'Bermuda Triangle/Mermaid/Magallanica
 
-ACT [V] Limit Break 4 (This ability is active if you have four or more damage): [Soul Blast 1 & Choose a card named "Duo Stage Storm, Iori" from your hand, and discard it] Choose one of your ï¿½Bermuda Triangleï¿½ Rear-guards, return it to your hand, search your deck for up to two cards with the same name as that unit, reveal it to your opponent, put it into your hand, and shuffle your deck.
+ACT [V] Limit Break 4 (This ability is active if you have four or more damage): [Soul Blast 1 & Choose a card named "Duo Stage Storm, Iori" from your hand, and discard it] Choose one of your «Bermuda Triangle» Rear-guards, return it to your hand, search your deck for up to two cards with the same name as that unit, reveal it to your opponent, put it into your hand, and shuffle your deck.
 
 ACT [V]: [Counter Blast 2 "Duo"] This unit gets power +5000 until end of turn.
 
@@ -733,7 +733,7 @@ CardStat = x+3
 global.CardName[CardStat] = 'Duo Mini Hat, Rhone'
 global.CardText[CardStat] = 'Bermuda Triangle/Mermaid/Magallanica
 
-AUTO [V/R]: [Counter Blast 1 "Duo"] When this units attack hits a Vanguard, if you have a ï¿½Bermuda Triangleï¿½ Vanguard, you may pay the cost. If you do, choose another of your ï¿½Bermuda Triangleï¿½ Rear-guards, return it to your hand, and search your deck for up to one card with the same name as that unit, reveal it to your opponent, put it into your hand, and shuffle your deck.'
+AUTO [V/R]: [Counter Blast 1 "Duo"] When this units attack hits a Vanguard, if you have a «Bermuda Triangle» Vanguard, you may pay the cost. If you do, choose another of your «Bermuda Triangle» Rear-guards, return it to your hand, and search your deck for up to one card with the same name as that unit, reveal it to your opponent, put it into your hand, and shuffle your deck.'
 global.UnitGrade[CardStat] = 2
 global.CardInClan[CardStat] = 13
 }
@@ -775,7 +775,7 @@ global.CardText[CardStat] = 'Bermuda Triangle/Mermaid/Magallanica
 
 CONT: Sentinel (You may only have up to four cards with "Sentinel" in a deck.)
 
-AUTO: [Choose a ï¿½Bermuda Triangleï¿½ from your hand, and discard it] When this unit is placed on Guardian circle, you may pay the cost. If you do, choose one of your ï¿½Bermuda Triangleï¿½ that is being attacked, and that unit cannot be hit until end of that battle.'
+AUTO: [Choose a «Bermuda Triangle» from your hand, and discard it] When this unit is placed on Guardian circle, you may pay the cost. If you do, choose one of your «Bermuda Triangle» that is being attacked, and that unit cannot be hit until end of that battle.'
 global.UnitGrade[CardStat] = 1
 global.CardInClan[CardStat] = 13
 }
@@ -785,7 +785,7 @@ CardStat = x+8
 global.CardName[CardStat] = 'Shangri-La Star, Coral'
 global.CardText[CardStat] = 'Bermuda Triangle/Mermaid/Magallanica
 
-ACT [V] Limit Break 4 (This ability is active if you have four or more damage): [Counter Blast 1 & Soul Blast 1] Choose one of your ï¿½Bermuda Triangleï¿½ Rear-guards, return it to your hand, and this unit gets power +3000 until end of turn. You may choose up to one card with "Coral" in its card name from your hand, and put it into your soul. If you do, draw two cards. This ability cannot be used for the rest of that turn.
+ACT [V] Limit Break 4 (This ability is active if you have four or more damage): [Counter Blast 1 & Soul Blast 1] Choose one of your «Bermuda Triangle» Rear-guards, return it to your hand, and this unit gets power +3000 until end of turn. You may choose up to one card with "Coral" in its card name from your hand, and put it into your soul. If you do, draw two cards. This ability cannot be used for the rest of that turn.
 
 CONT [V]: If you have a card named "Aurora Star, Coral" in your soul, this unit gets power +2000.
 
@@ -799,9 +799,9 @@ CardStat = x+9
 global.CardName[CardStat] = 'Costume Idol, Alk'
 global.CardText[CardStat] = 'Bermuda Triangle/Mermaid/Magallanica
 
-AUTO [V] Limit Break 4 (This ability is active if you have four or more damage): At the end of the battle that this unit attacked a Vanguard, choose a grade 3 ï¿½Bermuda Triangleï¿½ from your hand, and you may ride it as rest. If you do, choose a card named "Costume Idol, Alk" from your soul, put it into your hand, and draw a card.
+AUTO [V] Limit Break 4 (This ability is active if you have four or more damage): At the end of the battle that this unit attacked a Vanguard, choose a grade 3 «Bermuda Triangle» from your hand, and you may ride it as rest. If you do, choose a card named "Costume Idol, Alk" from your soul, put it into your hand, and draw a card.
 
-AUTO: [Soul Blast 1] When this unit is placed on Vanguard circle, you may pay the cost. If you do, choose up to one of your ï¿½Bermuda Triangleï¿½ Rear-guards, return it to your hand, and this unit gets power +5000 until end of turn.
+AUTO: [Soul Blast 1] When this unit is placed on Vanguard circle, you may pay the cost. If you do, choose up to one of your «Bermuda Triangle» Rear-guards, return it to your hand, and this unit gets power +5000 until end of turn.
 
 CONT [V/R]: Lord (If you have a unit without a same clan as this unit, this unit cannot attack.)'
 global.UnitGrade[CardStat] = 3
@@ -813,9 +813,9 @@ CardStat = x+10
 global.CardName[CardStat] = 'Planet Idol, Pacifica'
 global.CardText[CardStat] = 'Bermuda Triangle/Mermaid/Magallanica
 
-AUTO [V] Limit Break 4 (This ability is active if you have four or more damage): When a ï¿½Bermuda Triangleï¿½ rides this unit, choose your Vanguard, and until end of turn, that unit gets power +10000 and "AUTO [V]: When your ï¿½Bermuda Triangleï¿½ is returned to your hand from Rear-guard circle, search your deck for up to one ï¿½Bermuda Triangleï¿½, call it to Rear-guard circle, and shuffle your deck. This ability cannot be used for the rest of that turn".
+AUTO [V] Limit Break 4 (This ability is active if you have four or more damage): When a «Bermuda Triangle» rides this unit, choose your Vanguard, and until end of turn, that unit gets power +10000 and "AUTO [V]: When your «Bermuda Triangle» is returned to your hand from Rear-guard circle, search your deck for up to one «Bermuda Triangle», call it to Rear-guard circle, and shuffle your deck. This ability cannot be used for the rest of that turn".
 
-ACT [Soul]: [Counter Blast 1 & Choose a unit named "Top Idol, Pacifica" from your Rear-guard circle, and put it into your soul] Put this card into your hand, choose up to one of your ï¿½Bermuda Triangleï¿½ Rear-guards, and return it to your hand.
+ACT [Soul]: [Counter Blast 1 & Choose a unit named "Top Idol, Pacifica" from your Rear-guard circle, and put it into your soul] Put this card into your hand, choose up to one of your «Bermuda Triangle» Rear-guards, and return it to your hand.
 
 CONT [V/R]: Lord (If you have a unit without a same clan as this unit, this unit cannot attack.)'
 global.UnitGrade[CardStat] = 3
@@ -847,7 +847,7 @@ global.CardText[CardStat] = 'Bermuda Triangle/Mermaid/Magallanica
 
 AUTO [V] Limit Break 4 (This ability is active if you have four or more damage): When this unit attacks a Vanguard, this unit gets power +5000 until end of that battle.
 
-AUTO: [Counter Blast 2] When this unit is placed on Vanguard circle, you may pay the cost. If you do, draw 1 card, choose up to one of your ï¿½Bermuda Triangleï¿½ Rear-guards, and return it to your hand.'
+AUTO: [Counter Blast 2] When this unit is placed on Vanguard circle, you may pay the cost. If you do, draw 1 card, choose up to one of your «Bermuda Triangle» Rear-guards, and return it to your hand.'
 global.UnitGrade[CardStat] = 3
 global.CardInClan[CardStat] = 13
 }
@@ -857,7 +857,7 @@ CardStat = x+2
 global.CardName[CardStat] = 'Duo Lady Canocie, Salinas'
 global.CardText[CardStat] = 'Bermuda Triangle/Mermaid/Magallanica
 
-AUTO [V/R]: [Choose a ï¿½Bermuda Triangleï¿½ from your hand, and discard it] When this unit attacks, you may pay the cost. If you do, this unit gets power +5000 until end of that battle.'
+AUTO [V/R]: [Choose a «Bermuda Triangle» from your hand, and discard it] When this unit attacks, you may pay the cost. If you do, this unit gets power +5000 until end of that battle.'
 global.UnitGrade[CardStat] = 3
 global.CardInClan[CardStat] = 13
 }
@@ -877,7 +877,7 @@ CardStat = x+4
 global.CardName[CardStat] = 'Duo White Crystal, Ricca'
 global.CardText[CardStat] = 'Bermuda Triangle/Mermaid/Magallanica
 
-AUTO: When this unit is returned to your hand from Rear-guard circle, if you have a ï¿½Bermuda Triangleï¿½ Vanguard, Soul Charge 1, choose a card from your damage zone, and turn it face-up.'
+AUTO: When this unit is returned to your hand from Rear-guard circle, if you have a «Bermuda Triangle» Vanguard, Soul Charge 1, choose a card from your damage zone, and turn it face-up.'
 global.UnitGrade[CardStat] = 2
 global.CardInClan[CardStat] = 13
 }
@@ -887,7 +887,7 @@ CardStat = x+5
 global.CardName[CardStat] = 'PR<3ISM-Duo, Slaney'
 global.CardText[CardStat] = 'Bermuda Triangle/Mermaid/Magallanica
 
-AUTO: [Counter Blast 1] When this unit is placed on Rear-guard circle, if you have a ï¿½Bermuda Triangleï¿½ Vanguard, you may pay the cost. If you do, choose another of your ï¿½Bermuda Triangleï¿½ Rear-guards, and return it to your hand.'
+AUTO: [Counter Blast 1] When this unit is placed on Rear-guard circle, if you have a «Bermuda Triangle» Vanguard, you may pay the cost. If you do, choose another of your «Bermuda Triangle» Rear-guards, and return it to your hand.'
 global.UnitGrade[CardStat] = 2
 global.CardInClan[CardStat] = 13
 }
@@ -897,7 +897,7 @@ CardStat = x+6
 global.CardName[CardStat] = 'Duo Magical Mic, Sharlene'
 global.CardText[CardStat] = 'Bermuda Triangle/Mermaid/Magallanica
 
-AUTO [V/R]: [Counter Blast 2] When this units attack hits, if you have a ï¿½Bermuda Triangleï¿½ Vanguard, you may pay the cost. If you do, draw a card.'
+AUTO [V/R]: [Counter Blast 2] When this units attack hits, if you have a «Bermuda Triangle» Vanguard, you may pay the cost. If you do, draw a card.'
 global.UnitGrade[CardStat] = 2
 global.CardInClan[CardStat] = 13
 }
@@ -907,7 +907,7 @@ CardStat = x+7
 global.CardName[CardStat] = 'PR<3ISM-Duo, Avon'
 global.CardText[CardStat] = 'Bermuda Triangle/Mermaid/Magallanica
 
-AUTO [R]: When another ï¿½Bermuda Triangleï¿½ you have is returned to hand from Rear-guard circle, this unit gets power +3000 until the end of turn.'
+AUTO [R]: When another «Bermuda Triangle» you have is returned to hand from Rear-guard circle, this unit gets power +3000 until the end of turn.'
 global.UnitGrade[CardStat] = 2
 global.CardInClan[CardStat] = 13
 }
@@ -919,7 +919,7 @@ global.CardText[CardStat] = 'Bermuda Triangle/Mermaid/Magallanica
 
 CONT: Sentinel (You may only have up to four cards with "Sentinel" in a deck.)
 
-AUTO: [Counter Blast 1] When this is placed on Guardian circle from your hand, if you have a ï¿½Bermuda Triangleï¿½ Vanguard, you may pay the cost. If you do, reveal the five cards from the top of your deck, call all ï¿½Bermuda Triangleï¿½ from among them to Guardian circle as rest, and put the rest into the drop zone.'
+AUTO: [Counter Blast 1] When this is placed on Guardian circle from your hand, if you have a «Bermuda Triangle» Vanguard, you may pay the cost. If you do, reveal the five cards from the top of your deck, call all «Bermuda Triangle» from among them to Guardian circle as rest, and put the rest into the drop zone.'
 global.UnitGrade[CardStat] = 1
 global.CardInClan[CardStat] = 13
 }
@@ -929,7 +929,7 @@ CardStat = x+9
 global.CardName[CardStat] = 'PR<3ISM-Duo, Yarmurk'
 global.CardText[CardStat] = 'Bermuda Triangle/Mermaid/Magallanica
 
-AUTO [R]: When another ï¿½Bermuda Triangleï¿½ you have is returned to hand from Rear-guard circle, this unit gets power +3000 until the end of turn.'
+AUTO [R]: When another «Bermuda Triangle» you have is returned to hand from Rear-guard circle, this unit gets power +3000 until the end of turn.'
 global.UnitGrade[CardStat] = 1
 global.CardInClan[CardStat] = 13
 }
@@ -939,7 +939,7 @@ CardStat = x+10
 global.CardName[CardStat] = 'Duo Clear Parasol, Kura'
 global.CardText[CardStat] = 'Bermuda Triangle/Mermaid/Magallanica
 
-AUTO: [Soul Blast 2] When this unit is placed on Rear-guard circle, if you have an ï¿½Bermuda Triangleï¿½ Vanguard, you may pay the cost. If you do, choose up to two cards from your damage zone, and turn them face-up.'
+AUTO: [Soul Blast 2] When this unit is placed on Rear-guard circle, if you have an «Bermuda Triangle» Vanguard, you may pay the cost. If you do, choose up to two cards from your damage zone, and turn them face-up.'
 global.UnitGrade[CardStat] = 1
 global.CardInClan[CardStat] = 13
 }
@@ -959,7 +959,7 @@ CardStat = x+12
 global.CardName[CardStat] = 'Duo Shiny Tone, Chicora'
 global.CardText[CardStat] = 'Bermuda Triangle/Mermaid/Magallanica
 
-AUTO: [Counter Blast 1] When this unit is returned to your hand from Rear-guard circle, if you have a Vanguard with "Duo" in its card name, you may pay the cost. If you do, choose another of your ï¿½Bermuda Triangleï¿½, and that unit gets power +4000 until end of turn, choose up to three cards named "Duo Shiny Tone, Chicora" from your hand, and you may reveal them. If you revealed three cards, choose a card from your damage zone, and turn it face-up.'
+AUTO: [Counter Blast 1] When this unit is returned to your hand from Rear-guard circle, if you have a Vanguard with "Duo" in its card name, you may pay the cost. If you do, choose another of your «Bermuda Triangle», and that unit gets power +4000 until end of turn, choose up to three cards named "Duo Shiny Tone, Chicora" from your hand, and you may reveal them. If you revealed three cards, choose a card from your damage zone, and turn it face-up.'
 global.UnitGrade[CardStat] = 1
 global.CardInClan[CardStat] = 13
 }
@@ -979,7 +979,7 @@ CardStat = x+14
 global.CardName[CardStat] = 'Duo Pretty Horn, Ural'
 global.CardText[CardStat] = 'Bermuda Triangle/Mermaid/Magallanica
 
-AUTO: [Soul Blast 2] When this unit is placed on Rear-guard circle, if you have a ï¿½Bermuda Triangleï¿½ Vanguard, you may pay the cost. If you do, draw a card.'
+AUTO: [Soul Blast 2] When this unit is placed on Rear-guard circle, if you have a «Bermuda Triangle» Vanguard, you may pay the cost. If you do, draw a card.'
 global.UnitGrade[CardStat] = 1
 global.CardInClan[CardStat] = 13
 }
@@ -1011,7 +1011,7 @@ global.CardText[CardStat] = 'Bermuda Triangle/Mermaid/Magallanica
 
 AUTO: Forerunner (When a unit of the same clan rides this unit, you may call this unit to Rear-guard circle).
 
-ACT [R]: [Put this unit into your soul] Choose up to one of your ï¿½Bermuda Triangleï¿½, and that unit gets power +3000 until end of turn.'
+ACT [R]: [Put this unit into your soul] Choose up to one of your «Bermuda Triangle», and that unit gets power +3000 until end of turn.'
 global.UnitGrade[CardStat] = 0
 global.CardInClan[CardStat] = 13
 }
@@ -1035,7 +1035,7 @@ global.CardText[CardStat] = 'Bermuda Triangle/Mermaid/Magallanica
 
 AUTO: Forerunner (When a unit of the same clan rides this unit, you may call this unit to Rear-guard circle).
 
-ACT [R]: [Put this unit to soul] If you have a ï¿½Bermuda Triangleï¿½ Vanguard, choose one of your units with "Duo" in its card name, and return all of your Rear-guards with the same card name as that unit to your hand.'
+ACT [R]: [Put this unit to soul] If you have a «Bermuda Triangle» Vanguard, choose one of your units with "Duo" in its card name, and return all of your Rear-guards with the same card name as that unit to your hand.'
 global.UnitGrade[CardStat] = 0
 global.CardInClan[CardStat] = 13
 }
@@ -1045,7 +1045,7 @@ CardStat = x+20
 global.CardName[CardStat] = 'Duo Night Wing, Dungrilo'
 global.CardText[CardStat] = 'Bermuda Triangle/Mermaid/Magallanica/Stand Trigger
 
-AUTO: [Counter Blast 1] When this unit is returned to your hand from Rear-guard circle, if you have a Vanguard with "Duo" in its card name, you may pay the cost. If you do, choose another of your ï¿½Bermuda Triangleï¿½, and that unit gets power +4000 until end of turn, and choose up to three cards named "Duo Night Wing, Dungrilo" from your hand, and you may reveal them. If you revealed three cards, choose a card from your damage zone, and turn it face-up.'
+AUTO: [Counter Blast 1] When this unit is returned to your hand from Rear-guard circle, if you have a Vanguard with "Duo" in its card name, you may pay the cost. If you do, choose another of your «Bermuda Triangle», and that unit gets power +4000 until end of turn, and choose up to three cards named "Duo Night Wing, Dungrilo" from your hand, and you may reveal them. If you revealed three cards, choose a card from your damage zone, and turn it face-up.'
 global.UnitGrade[CardStat] = 0
 global.CardInClan[CardStat] = 13
 }
@@ -7043,9 +7043,9 @@ global.CardName[CardStat] = 'Top Idol, Pacifica '
 global.CardText[CardStat] = 'Bermuda Triangle/Mermaid
 
 ACT [V] 1/Turn: COST [Soul Blast 1], and activate all of the effects below according to the number of your rear-guards with "Pacifica" in their card names.
-ï¿½ 1 or more - This unit gets power +10000/drive +1 until end of turn.
-ï¿½ 2 or more - You get two Imaginary Gift: Force.
-ï¿½ 3 or more - Until end of turn, when your opponent would call from his or her hand to GC, he or she must call three or more at the same time.
+• 1 or more - This unit gets power +10000/drive +1 until end of turn.
+• 2 or more - You get two Imaginary Gift: Force.
+• 3 or more - Until end of turn, when your opponent would call from his or her hand to GC, he or she must call three or more at the same time.
 
 (SHIFT + left mouse button to create Force gifts.)'
 global.UnitGrade[CardStat] = 3
@@ -7586,8 +7586,8 @@ global.CardName[CardStat] = 'Consent Select, Beata'
 global.CardText[CardStat] = 'Bermuda Triangle/Mermaid
 
 AUTO [R]: When it attacks, if you rode a grade 4 this turn, COST [Soul Blast 1], perform one of the effects below.
-ï¿½This unit gets power +15000 until end of turn.
-ï¿½This unit gets critical +1 until end of turn.'
+•This unit gets power +15000 until end of turn.
+•This unit gets critical +1 until end of turn.'
 global.UnitGrade[CardStat] = 3
 global.CardInClan[CardStat] = 13
 }
@@ -7830,9 +7830,9 @@ global.CardName[CardStat] = 'Perfect Performance, Ange '
 global.CardText[CardStat] = 'Bermuda Triangle/Mermaid
 
 AUTO [V]: When it attacks a vanguard, COST [Counter Blast 1], choose any number of normal units on any players R, and return them to hand. Activate all of the effects below according to the number of cards returned.
-ï¿½2 or more - This unit gets power +10000 until end of turn.
-ï¿½3 or more - Get an Imaginary Gift: Force.
-ï¿½4 or more - Search your deck for up to one unit card, call it to R, and shuffle your deck.
+•2 or more - This unit gets power +10000 until end of turn.
+•3 or more - Get an Imaginary Gift: Force.
+•4 or more - Search your deck for up to one unit card, call it to R, and shuffle your deck.
 
 (SHIFT + left mouse button to create Force gifts.)'
 global.UnitGrade[CardStat] = 3
@@ -8046,45 +8046,47 @@ global.UnitGrade[CardStat] = 1
 global.CardInClan[CardStat] = 13
 }
 global.PowerStat[CardStat] = 8000
-global.DefensePowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
 
-CardStat = 8186
+CardStat = 8194
 {
-global.CardName[CardStat] = 'Legendary PRâ™¥ISM-Duo, Nectaria'
+global.CardName[CardStat] = 'Legendary PR<3ISM-Duo, Nectaria '
 global.CardText[CardStat] = 'Bermuda Triangle/Mermaid
 
-[ACT](Hand):COST [Bind this card], search your deck for up to one normal unit, bind it, and shuffle your deck. This ability may only be used by a card with the same card name once a turn.
+ACT [Hand]: COST [Bind this card], search your deck for up to one normal unit, bind it, and shuffle your deck. This ability may only be used by a card with the same card name once a turn.
 
-[CONT](VC/RC):During your turn, if you have a card with the same card name as this unit in your bind zone, this unit gets [Power]+10000, and if this unit is on your (VC), it gets [Critical]+1/drive +1.'
+CONT [V/R]: During your turn, if you have a card with the same card name as this unit in your bind zone, this unit gets power +10000, and if this unit is on your V, it gets critical +1/drive +1.'
 global.UnitGrade[CardStat] = 4
 global.CardInClan[CardStat] = 13
 }
 global.BlueTokenAdd[CardStat] = 1
-global.PowerStat[CardStat] = 13000
+global.PowerStat[CardStat] = 14000
 global.DefensePowerStat[CardStat] = 0
 
-CardStat = 8187
+
+CardStat = 8195
 {
 global.CardName[CardStat] = 'Noir Fixer, Hilda'
 global.CardText[CardStat] = 'Bermuda Triangle/Mermaid
 
-[CONT](RC):If you have a grade 3 or greater vanguard, this unit gets "Boost".
+CONT [R]: If you have a grade 3 or greater vanguard, this unit gets "Boost".
 
-[AUTO](RC)1/Turn:When your grade 3 or greater unit is placed during your battle phase, if this unit is in your back row, you may [Stand] this unit.'
+AUTO [R] 1/Turn: When your grade 3 or greater unit is placed during your battle phase, if this unit is in your back row, you may stand this unit.'
 global.UnitGrade[CardStat] = 2
 global.CardInClan[CardStat] = 13
 }
 global.PowerStat[CardStat] = 10000
 global.DefensePowerStat[CardStat] = 5000
 
-CardStat = 8188
+
+CardStat = 8196
 {
 global.CardName[CardStat] = 'Innocence, Mernil'
 global.CardText[CardStat] = 'Bermuda Triangle/Mermaid
 
-[AUTO](VC/RC):When placed, COST [reveal a normal unit from your hand, and put it on the bottom of your deck], and draw a card.
+AUTO [V/R]: When placed, COST [reveal a normal unit from your hand, and put it on the bottom of your deck], and draw a card.
 
-[AUTO](RC)1/Turn:When your grade 3 or greater unit is placed during your battle phase, if this unit is in your back row, you may have one of your vanguards get [Power]+10000 until end of turn.'
+AUTO [R] 1/Turn: When your grade 3 or greater unit is placed during your battle phase, if this unit is in your back row, you may have one of your vanguards get power +10000 until end of turn.'
 global.UnitGrade[CardStat] = 1
 global.CardInClan[CardStat] = 13
 }

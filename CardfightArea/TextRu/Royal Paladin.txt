@@ -718,7 +718,7 @@ x = 1155
 
 CardStat = x
 {
-global.CardName[CardStat] = 'Pureheart Jewel Knight, Ashlei'
+global.CardName[CardStat] = 'Pure Heart Jewel Knight, Ashlei'
 global.CardText[CardStat] = 'Royal Paladin/Эльф/Единое святилище
 
 АВТО [Авангард]: [Разрыв Лимитов 4] Когда поверх этого воина помещается кто-либо из клана «Royal Paladin», до конца хода Вы можете увеличить силу своего авангарда на 10,000, а критический удар — на один.
@@ -7621,3 +7621,48 @@ global.CardInClan[CardStat] = 15
 global.PowerStat[CardStat] = 6000
 global.DefensePowerStat[CardStat] = 10000
 global.QuickShieldAdd[CardStat] = 1
+
+CardStat = 8164
+{
+global.CardName[CardStat] = 'Pure Heart Jewel Knight, Ashlei '
+global.CardText[CardStat] = 'Royal Paladin/эльф/Единое святилище/дар воображения: Мощь
+
+АВТО [Авангард/арьергард]: в конце битвы, в которой этот воин атаковал, заплатите цену [Взрыв души 2], найдите у себя в колоде до одной карты 2го или ниже ранга, в имени которой содержится «Jewel Knight», призовите её в арьергард и перемешайте свою колоду. Если этот воин находится в авангарде, призовите до двух карт вместо одной.
+
+АВТО [Авангард/арьергард]: когда другой Ваш воин помещается в круг этого воина, заплатите цену [Встречный взрыв 1] и до конца хода критический удар того призванного воина увеличивается на один.'
+global.UnitGrade[CardStat] = 3
+global.CardInClan[CardStat] = 15
+}
+global.BlueTokenAdd[CardStat] = 1
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+
+
+CardStat = 8165
+{
+global.CardName[CardStat] = 'Explode Jewel Knight, Laile'
+global.CardText[CardStat] = 'Royal Paladin/эльф/Единое святилище
+
+АВТО [Арьергард]: когда этот воин атакует, заплатите цену [поместите со своего кладбища, в низ своей колоды, двух обычных воинов, в любом порядке], активируйте Заряд души 1 и до конца боя сила этого воина увеличивается на 5,000.
+
+АВТО [Авангард/арьергард]: когда другой Ваш воин помещается в круг этого воина, до конца хода сила того призванного воина увеличивается на 10,000.'
+global.UnitGrade[CardStat] = 2
+global.CardInClan[CardStat] = 15
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+
+CardStat = 8166
+{
+global.CardName[CardStat] = 'Charging Jewel Knight, Morvidus'
+global.CardText[CardStat] = 'Royal Paladin/человек/Единое святилище
+
+АКТ [Арьергард]: заплатите цену [Встречный взрыв 1 & поместите у себя с кладбища в низ колоды одного обычного воина], активируйте Заряд души 1 и до конца хода сила одного Вашего воина, в имени которого содержится «Jewel Knight», увеличивается на 5,000.
+
+АВТО [Авангард/арьергард]: когда другой Ваш воин помещается в круг этого воина, возьмите одну карту из колоды.'
+global.UnitGrade[CardStat] = 1
+global.CardInClan[CardStat] = 15
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 10000

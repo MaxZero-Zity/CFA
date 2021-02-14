@@ -716,7 +716,7 @@ x = 1155
 
 CardStat = x
 {
-global.CardName[CardStat] = 'Pureheart Jewel Knight, Ashlei'
+global.CardName[CardStat] = 'Pure Heart Jewel Knight, Ashlei'
 global.CardText[CardStat] = 'Royal Paladin/Elf/United Sanctuary
 
 AUTO: Limit Break 4 (This ability is active if you have four or more damage): When a «Royal Paladin» rides this unit, you may choose one of your Vanguards, that unit gets power +10000/critical +1 until end of turn.
@@ -7680,15 +7680,14 @@ global.PowerStat[CardStat] = 6000
 global.DefensePowerStat[CardStat] = 10000
 global.QuickShieldAdd[CardStat] = 1
 
-CardStat = 8161
+CardStat = 8164
 {
 global.CardName[CardStat] = 'Pure Heart Jewel Knight, Ashlei '
 global.CardText[CardStat] = 'Royal Paladin/Elf
 
-[AUTO](VC/RC):At the end of the battle it attacked, COST [Soul Blast (2)], search your deck for up to one grade 2 or less card with "Jewel Knight" in its card name, call it to (RC), and shuffle your deck.
-If this unit is on (VC), call up to two cards instead of one.
+AUTO [V/R]: At the end of the battle it attacked, COST [Soul Blast 2], search your deck for up to one grade 2 or less card with "Jewel Knight" in its card name, call it to R, and shuffle your deck. If this unit is on V, call up to two cards instead of one.
 
-[AUTO](VC/RC):When your other unit is placed on this units circle, COST [Counter Blast (1)], and that placed unit gets [Critical]+1 until end of turn'
+AUTO [V/R]: When your other unit is placed on this units circle, COST [Counter Blast 1], and that placed unit gets critical +1 until end of turn.'
 global.UnitGrade[CardStat] = 3
 global.CardInClan[CardStat] = 15
 }
@@ -7697,14 +7696,14 @@ global.PowerStat[CardStat] = 13000
 global.DefensePowerStat[CardStat] = 0
 
 
-CardStat = 8162
+CardStat = 8165
 {
-global.CardName[CardStat] = 'Explode Jewel Knight, Laile '
+global.CardName[CardStat] = 'Explode Jewel Knight, Laile'
 global.CardText[CardStat] = 'Royal Paladin/Elf
 
-[AUTO](RC):When it attacks, COST [put two normal units from your drop zone on the bottom of your deck in any order], Soul Charge (1), and this unit gets [Power]+5000 until end of that battle.
+AUTO [R]: When it attacks, COST [put two normal units from your drop zone on the bottom of your deck in any order], Soul Charge 1, and this unit gets power +5000 until end of that battle.
 
-[AUTO](VC/RC):When your other unit is placed on this units circle, that placed unit gets [Power]+10000 until end of turn.'
+AUTO [V/R]: When your other unit is placed on this units circle, that placed unit gets power +10000 until end of turn.'
 global.UnitGrade[CardStat] = 2
 global.CardInClan[CardStat] = 15
 }
@@ -7712,14 +7711,14 @@ global.PowerStat[CardStat] = 10000
 global.DefensePowerStat[CardStat] = 5000
 
 
-CardStat = 8163
+CardStat = 8166
 {
-global.CardName[CardStat] = 'Charging Jewel Knight, Morvidus '
+global.CardName[CardStat] = 'Charging Jewel Knight, Morvidus'
 global.CardText[CardStat] = 'Royal Paladin/Human
 
-[ACT](RC):COST [Counter Blast (1) & Put a normal unit from your drop zone on the bottom of your deck], Soul Charge (1), and one of your units with "Jewel Knight" in its card name gets [Power]+5000 until end of turn.
+ACT [R]: COST [Counter Blast 1 & Put a normal unit from your drop zone on the bottom of your deck], Soul Charge 1, and one of your units with "Jewel Knight" in its card name gets power +5000 until end of turn.
 
-[AUTO](VC/RC):When your other unit is placed on this units circle, draw a card.'
+AUTO [V/R]: When your other unit is placed on this units circle, draw a card.'
 global.UnitGrade[CardStat] = 1
 global.CardInClan[CardStat] = 15
 }

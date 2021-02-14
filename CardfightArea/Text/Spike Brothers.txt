@@ -3092,3 +3092,48 @@ global.CardInClan[CardStat] = 14
 }
 global.PowerStat[CardStat] = 10000
 global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 8202
+{
+global.CardName[CardStat] = 'Demonic Lord, Dudley Lucifer '
+global.CardText[CardStat] = 'Spike Brothers/Ogre
+
+AUTO [R]: When placed by your cards ability, COST [Soul Blast 1], and Counter Charge 1.
+
+AUTO [V]: When it attacks, COST [Counter Blast 1 & put a rear-guard into your soul], draw a card, call up to one card with "Dudley" in its card name from your hand to R, and if your opponents vanguard is grade 3 or greater, that called unit gets power +10000 until end of turn.'
+global.UnitGrade[CardStat] = 3
+global.CardInClan[CardStat] = 14
+}
+global.BlueTokenAdd[CardStat] = 1
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+
+
+CardStat = 8203
+{
+global.CardName[CardStat] = 'Dudley Davie'
+global.CardText[CardStat] = 'Spike Brothers/Demon
+
+AUTO [V/R]: When placed, COST [Counter Blast 1], search your deck for up to one non-grade 2 card with "Dudley" in its card name, call it to R, and shuffle your deck.
+
+AUTO [R] 1/Turn: When a force marker is put on this units circle, you may Soul Charge 1. (Includes moving the marker too.)'
+global.UnitGrade[CardStat] = 2
+global.CardInClan[CardStat] = 14
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+
+CardStat = 8204
+{
+global.CardName[CardStat] = 'Dudley William'
+global.CardText[CardStat] = 'Spike Brothers/Demon
+
+AUTO [R]: At the end of the battle that it boosted, COST [put this unit into your soul], choose one of your units, and move all of the force marker on your circles to that units circle.
+
+AUTO: When rode upon, you may call this card to R.'
+global.UnitGrade[CardStat] = 1
+global.CardInClan[CardStat] = 14
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 10000

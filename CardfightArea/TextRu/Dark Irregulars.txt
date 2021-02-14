@@ -4075,3 +4075,61 @@ global.UnitGrade[CardStat] = 2
 global.CardInClan[CardStat] = 11
 }
 global.PowerStat[CardStat] = 9000
+
+CardStat = 8174
+{
+global.CardName[CardStat] = 'Werwolf Ketzer'
+global.CardText[CardStat] = 'Dark Irregulars/боевой зверь/Зона тьмы
+
+АВТО: когда эта карта убирается с круга защиты, Вы можете поместить её в свою душу.
+
+АКТ [Душа]: заплатите цену [ограничьте эту карту] и активируйте Заряд души 2.'
+global.UnitGrade[CardStat] = 1
+global.CardInClan[CardStat] = 11
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 10000
+
+CardStat = 8178
+{
+global.CardName[CardStat] = 'Evil God Bishop, Gastille '
+global.CardText[CardStat] = 'Dark Irregulars/демон/Зона тьмы
+
+АВТО [Авангард]: в начале Вашей фазы боя, заплатите цену [Встречный взрыв 1], возьмите одну карту из своей колоды и Ваш оппонент выбирает по одной из нижестоящих способностей за каждые пять карт у Вас в душе. Вы выполняете выбранные способности в любом порядке. (Каждая способность может быть выбрана лишь один раз.)
+• До конца хода критический удар всех Ваших воинов в переднем ряду увеличивается на один.
+• До конца хода сила авангарда оппонента снижается или увеличивается до 1.
+• До конца хода все АВТО-способности оппонента не могут быть активированы.
+• Оппонент выбирает одну карту у себя в руке и помещает её в свою зону урона в закрытом положении.'
+global.UnitGrade[CardStat] = 3
+global.CardInClan[CardStat] = 11
+}
+global.PowerStat[CardStat] = 12000
+global.DefensePowerStat[CardStat] = 0
+
+
+CardStat = 8179
+{
+global.CardName[CardStat] = 'Poisonic Abductor'
+global.CardText[CardStat] = 'Dark Irregulars/человек/Зона тьмы
+
+АВТО [Авангард/арьергард]: при помещении, заплатите цену [Встречный взрыв 1 & скиньте одну карту у себя из руки], найдите у себя в колоде до трёх обычных воинов 2го или ниже ранга, имеющих одинаковое имя, поместите две из тех карт в свою душу, остаток призовите в арьергард и перемешайте свою колоду.'
+global.UnitGrade[CardStat] = 2
+global.CardInClan[CardStat] = 11
+}
+global.PowerStat[CardStat] = 9000
+global.DefensePowerStat[CardStat] = 5000
+
+
+CardStat = 8180
+{
+global.CardName[CardStat] = 'Ironheart Assassin'
+global.CardText[CardStat] = 'Dark Irregulars/человек/Зона тьмы
+
+АВТО [Арьергард]: когда этот воин атакует или поддерживает, Вы можете активировать Заряд души 1. Если Вы активировали Заряд души и у Вас в душе находятся три копии карты Ironheart Assassin, активируйте Заряд счётчика 1.
+
+АВТО: когда Вы делаете смену поверх этого воина, Вы можете призвать эту карту в арьергард.'
+global.UnitGrade[CardStat] = 1
+global.CardInClan[CardStat] = 11
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 10000
