@@ -516,3 +516,59 @@ global.DCards[CardStat] = 3
 global.TriggerUnit[CardStat] = 5
 global.PowerStat[CardStat] = 5000
 global.DefensePowerStat[CardStat] = 15000
+
+CardStat = 8426
+{
+global.CardName[CardStat] = 'Harp Bow of Heavenly Music, Alfion'
+global.CardText[CardStat] = 'Elf/Keter Sanctuary
+
+[ACT](RC)1/Turn:If you have three or more grade 3 units, COST [Counter Blast (1)], this unit gets [Power]+5000 until end of turn, and if you persona rode this turn, draw a card.'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 3
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 8427
+{
+global.CardName[CardStat] = 'Line Up, Chosen Knights '
+global.CardText[CardStat] = 'Normal Order/Keter Sanctuary
+
+Play this with COST [Counter Blast (1) & Soul Blast (1)]!
+Perform all of the effects below according to the number of your grade 3 units.
+
+-2 or more - Choose one of your units, and it gets [Power]+5000 until end of turn.
+-3 or more - Draw a card.
+-4 or more - Choose one of your vanguards, and it gets drive +1 until end of turn. !'
+global.UnitGrade[CardStat] = 3
+global.CardInClan[CardStat] = 30
+global.DCards[CardStat] = 3
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 8428
+{
+global.CardName[CardStat] = 'Heavenly Staff of Kind Intention, Cortese'
+global.CardText[CardStat] = 'Human/Keter Sanctuary
+
+[AUTO]:When your drive check reveals this card, you may call this card to an open (RC). If you do, this unit gets "Boost" until end of turn. '
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 3
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 8435
+{
+global.CardName[CardStat] = 'Goldgaon'
+global.CardText[CardStat] = 'High Beast/Keter Sanctuary
+
+[AUTO]:When this unit is placed on (RC), COST [Soul Blast (1) & call a grade 1 from your hand to (RC)], 
+and the unit called for this cost gets [Power]+5000 until end of turn. '
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 3
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+

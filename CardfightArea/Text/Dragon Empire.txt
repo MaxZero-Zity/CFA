@@ -532,3 +532,77 @@ global.DCards[CardStat] = 1
 }
 global.PowerStat[CardStat] = 10000
 global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 8429
+{
+global.CardName[CardStat] = 'Dragonic Overlord'
+global.CardText[CardStat] = 'Flame Dragon/Dragon Empire
+
+ '
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 1
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 8430
+{
+global.CardName[CardStat] = 'Blaze Maiden, Tanya '
+global.CardText[CardStat] = 'Human/Dragon Empire
+
+[AUTO]:When this unit is placed on (RC), COST [Counter Blast (1)], choose a grade 0 card from your drop, and call it to (RC).
+
+[AUTO](RC):When this unit attacks, COST [Soul Blast (1)], choose one of your grade 0 units, and it gets [Power]+5000 until end of turn. '
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 1
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 8431
+{
+global.CardName[CardStat] = 'Blaze Maiden, Zara'
+global.CardText[CardStat] = 'Human/Dragon Empire
+
+[CONT](RC):During your turn, if "Blaze Maiden, Reiyu" or "Blaze Maiden, Rino" is on your (VC) or (RC), this unit gets [Power]+5000.'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 1
+}
+global.PowerStat[CardStat] = 6000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 8432
+{
+global.CardName[CardStat] = 'Dragon Knight, Nehalem'
+global.CardText[CardStat] = 'Human/Dragon Empire
+
+ '
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 1
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 8433
+{
+global.CardName[CardStat] = 'Rough Eating Dragon, Hungersaurus'
+global.CardText[CardStat] = 'Dinodragon/Dragon Empire
+
+[CONT](RC):During your turn, this unit gets [Power]+5000, and if your opponent has a front row rear-guard, this unit cannot attack the vanguard. '
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 1
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 8434
+{
+global.CardName[CardStat] = 'Blaze Maiden, Mirin'
+global.CardText[CardStat] = 'Human/Dragon Empire
+
+[AUTO](RC):When your unit with the [overDress] ability attacks, COST [put this unit into your soul], choose one of your units with the [overDress] ability, and it gets [Power]+5000 until end of turn. '
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 1
+}
+global.PowerStat[CardStat] = 6000
+global.DefensePowerStat[CardStat] = 5000
