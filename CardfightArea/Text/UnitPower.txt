@@ -11495,5 +11495,3 @@ global.DefensePowerStat[4953] = 0
 global.DefensePowerStat[1232] = 0
 global.DefensePowerStat[1231] = 0
 global.DefensePowerStat[1233] = 0
-global.DefensePowerStat[8220] = 0
-global.PowerStat[8220] = 0

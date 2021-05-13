@@ -1,0 +1,536 @@
+CardStat = 8230
+{
+global.CardName[CardStat] = 'Chakrabarthi Divine Dragon, Nirvana'
+global.CardText[CardStat] = 'Огненный дракон/Империя драконов/персональная смена
+
+АКТ [Авангард] [Один раз за ход]: заплатите цену [скиньте одну карту у себя из руки], выберите у себя на кладбище одну карту 0го ранга и призовите её в арьергард.
+
+АВТО [Авангард]: когда этот воин атакует, заплатите цену [Встречный взрыв 1] и до конца хода сила этого воина, а также всех Ваших воинов со способностью перевоплощения, увеличивается на 10,000.'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 1
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+
+
+CardStat = 8231
+{
+global.CardName[CardStat] = 'Vairina'
+global.CardText[CardStat] = 'Талисман/Империя драконов
+
+[Перевоплощение] «Trickstar» (Вы можете призвать эту карту на поле, поместив её поверх ранее указанного воина, вместо того, чтобы делать её обычный призыв в арьергард).
+
+АВТО [Арьергард]: когда этот воин, находящийся в перевоплощённом облике, атакует авангард, до конца боя сила этого воина увеличивается на 10,000. Затем, заплатите цену [Взрыв души 2], выберите одного арьергарда оппонента и уберите его с поля.'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 1
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+
+CardStat = 8232
+{
+global.CardName[CardStat] = 'Trickstar'
+global.CardText[CardStat] = 'Талисман/Империя драконов
+
+ПРОДОЛЖИТЕЛЬНЫЙ [Арьергард]: этот воин не может быть выбран способностями карт оппонента.'
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 1
+}
+global.PowerStat[CardStat] = 5000
+global.DefensePowerStat[CardStat] = 5000
+
+
+CardStat = 8233
+{
+global.CardName[CardStat] = 'Blaze Maiden, Rino'
+global.CardText[CardStat] = 'Человек/Империя драконов
+
+АВТО: когда поверх этого воина сменяется Blaze Maiden, Reiyu, найдите у себя в колоде до одного Trickstar, призовите его к себе в арьергард и перемешайте свою колоду.
+
+ПРОДОЛЖИТЕЛЬНЫЙ [Авангард/арьергард]: на время битвы, в которой этот воин атакует, его сила увеличивается на 2,000.'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 1
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+
+CardStat = 8234
+{
+global.CardName[CardStat] = 'Escort Stealth Dragon, Hayashi Kaze'
+global.CardText[CardStat] = 'Дракон бездны/Империя драконов
+
+ПРОДОЛЖИТЕЛЬНЫЙ: страж.
+
+АВТО: когда этот воин помещается в круг защиты, заплатите цену [скиньте одну карту у себя из руки], выберите одного своего воина и до конца этого боя атаки по нему не проходят.'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 1
+}
+global.PowerStat[CardStat] = 7000
+global.DefensePowerStat[CardStat] = 0
+
+
+CardStat = 8235
+{
+global.CardName[CardStat] = 'Fire Slash Dragon, Inferno Sword'
+global.CardText[CardStat] = 'Огненный дракон/Империя драконов/персональная смена
+
+ПРОДОЛЖИТЕЛЬНЫЙ [Арьергард]: во время битвы, в которой этот воин атакует, его сила увеличивается на 2,000.'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 1
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+
+
+CardStat = 8236
+{
+global.CardName[CardStat] = 'Iron Ball Dragon, Ankybowler'
+global.CardText[CardStat] = 'Дино-дракон/Империя драконов'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 1
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+
+CardStat = 8237
+{
+global.CardName[CardStat] = 'Blaze Maiden, Reiyu'
+global.CardText[CardStat] = 'Человек/Империя драконов
+
+АВТО: когда поверх этого воина сменяется Chakrabarthi Divine Dragon, Nirvana, заплатите цену [Взрыв души 1], найдите у себя в колоде до одного Vairina, раскройте его и возьмите его в руку, после чего перемешайте свою колоду.
+
+ПРОДЛОЖИТЕЛЬНЫЙ [Авангард/арьергард]: во время битвы, в которой этот воин атакует, его сила увеличивается на 2,000.'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 1
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 8238
+{
+global.CardName[CardStat] = 'Dragon Deity King of Resurgence, Dragveda'
+global.CardText[CardStat] = 'Плазменный дракон/Империя драконов/сверхтриггер
+
+У Вас в колоде может находиться только один сверхтриггер. Когда эта карта раскрывается в качестве триггера, уберите её из игры, возьмите одну карту из колоды, выберите одного своего воина и до конца хода его сила увеличивается на 100 миллионов! Если эта карта раскрывается во время проверка эффектов, активируйте дополнительную способность!
+Дополнительная способность — выберите одного воина у себя в авангарде и поднимите его!'
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 1
+}
+global.TriggerUnit[CardStat] = 6
+global.PowerStat[CardStat] = 5000
+global.DefensePowerStat[CardStat] = 50000
+
+CardStat = 8244
+{
+global.CardName[CardStat] = 'Sunburst Evolution'
+global.CardText[CardStat] = 'Обычный приказ/Империя драконов
+
+Заплатите цену [Встречный взрыв 1], чтобы активировать эту карту!
+Выберите одного своего воина и до конца хода его сила увеличивается на 5,000. Выберите у себя на кладбище одну копию карты Vairina и верните её себе в руку.'
+global.UnitGrade[CardStat] = 2
+global.CardInClan[CardStat] = 30
+global.DCards[CardStat] = 1
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 8254
+{
+global.CardName[CardStat] = 'Twin Buckler Dragon'
+global.CardText[CardStat] = 'Плазменный дракон/Империя драконов
+
+ПРОДОЛЖИТЕЛЬНЫЙ: страж.
+
+АВТО: когда эта карта помещается в круг защиты, выберите одного своего воина и до конца битвы атаки по нему не проходят. Если у Вас в руке как минимум две карты, выберите одну карту у себя в руке и скиньте её.'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 1
+}
+global.PowerStat[CardStat] = 6000
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 8276
+{
+global.CardName[CardStat] = 'Sunlight Punishment'
+global.CardText[CardStat] = 'Обычный приказ/Империя драконов
+
+Для активации этой карты, заплатите цену [если у Вас в зоне урона есть как минимум одна карта, активируйте Встречный взрыв любого количества карт]!
+За каждый Встречный взрыв 1, заплаченный в качестве цены этой карты, выберите одного арьергарда оппонента и уберите его с поля.'
+global.UnitGrade[CardStat] = 3
+global.CardInClan[CardStat] = 30
+global.DCards[CardStat] = 1
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+
+
+CardStat = 8277
+{
+global.CardName[CardStat] = 'Dragritter, Arvalis'
+global.CardText[CardStat] = 'Человек/Империя драконов
+
+АВТО: когда этот воин помещается в круг арьергарда, заплатите цену [Встречный взрыв 1 & Взрыв души 1], выберите одного арьергарда оппонента 2го или выше ранга и уберите его с поля.'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 1
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+
+CardStat = 8278
+{
+global.CardName[CardStat] = 'Dragritter, Zafar'
+global.CardText[CardStat] = 'Человек/Империя драконов
+
+АВТО: когда этот воин перехватывает, заплатите цену [Взрыв души 1] и до конца боя защита этого воина увеличивается на 5,000.'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 1
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+
+CardStat = 8279
+{
+global.CardName[CardStat] = 'Stealth Rogue of Strife, Fudomaru'
+global.CardText[CardStat] = 'Демон/Империя драконов
+
+АВТО [Арьергард]: когда атака этого воина достигает цели, заплатите цену [скиньте одну карту из своей руки] и возьмите одну карту из колоды.'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 1
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 8275
+{
+global.CardName[CardStat] = 'Blazing Spear Dragon'
+global.CardText[CardStat] = 'Огненный дракон/Империя драконов
+
+АВТО: когда этот воин помещается в круг арьергарда, если у оппонента нет воинов в одной колонке с этим воином, заплатите цену [Встречный взрыв 1] и до конца хода сила этого воина увеличивается на 10,000.'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 1
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 8300
+{
+global.CardName[CardStat] = 'Double Gun of Dust Storm, Bart'
+global.CardText[CardStat] = 'Человек/Империя драконов
+
+АВТО: когда Вы делаете смену поверх этого воина, если Вы ходите вторым, возьмите одну карту из колоды.'
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 1
+}
+global.PowerStat[CardStat] = 6000
+global.DefensePowerStat[CardStat] = 5000
+
+
+CardStat = 8301
+{
+global.CardName[CardStat] = 'Gunning of Dust Storm, Nigel'
+global.CardText[CardStat] = 'Человек/Империя драконов
+
+АВТО: когда поверх этого воина сменяется Cataclysmic Bullet of Dust Storm, Randor, активируйте Заряд души 1.
+
+АВТО [Арьергард]: когда арьергард оппонента убирается с поля во время Вашей основной фазы, заплатите цену [Встречный взрыв 1 & уберите этого воина с поля], выберите одного арьергарда оппонента и уберите его с поля.'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 1
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+
+CardStat = 8302
+{
+global.CardName[CardStat] = 'Cataclysmic Bullet of Dust Storm, Randor'
+global.CardText[CardStat] = 'Человек/Империя драконов
+
+АВТО: когда поверх этого воина сменяется Heavy Artillery of Dust Storm, Eugene, возьмите одну карту из колоды, выберите до одной карты у себя на кладбище и поместите её в свою душу.
+
+АВТО [Авангард/арьергард]: когда этот воин атакует, если у оппонента на поле как максимум два арьергарда, заплатите цену [Встречный взрыв 1], активируйте Заряд души 1 и до конца боя сила этого воина увеличивается на 5,000.'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 1
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+
+CardStat = 8303
+{
+global.CardName[CardStat] = 'Heavy Artillery of Dust Storm, Eugene'
+global.CardText[CardStat] = 'Человек/Империя драконов/персональная смена
+
+АКТ [Авангард] [Один раз за ход]: заплатите цену [отправьте двух арьергардов на отдых], выберите одного арьергарда оппонента, уберите его с поля и до конца хода сила этого воина увеличивается на 10,000.
+
+АКТ [Авангард] [Один раз за ход]: если во время этого хода арьергард оппонента был убран с поля, заплатите цену [Взрыв души 5], посмотрите на столько верхних карт своей колоды, сколько у оппонента открытых кругов арьергарда, выберите среди них любое количество карт воинов, призовите их в арьергард, а остаток поместите к себе в душу.'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 1
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+
+
+CardStat = 8304
+{
+global.CardName[CardStat] = 'Vairina Arcus'
+global.CardText[CardStat] = 'Талисман/Империя драконов
+
+[Перевоплощение] «Trickstar» (Вы можете призвать эту карту на поле, поместив её поверх ранее указанного воина, вместо того, чтобы делать её обычный призыв в арьергард).
+
+АВТО: когда этот воин помещается в круг арьергарда, если он находится в перевоплощённом облике, заплатите цену [Встречный взрыв 1], возьмите две карты из колоды и до конца хода сила этого воина увеличивается на 5,000.'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 1
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+
+CardStat = 8305
+{
+global.CardName[CardStat] = 'Burn Bright, Pure Prayers'
+global.CardText[CardStat] = 'Быстрый приказ/Империя драконов
+
+Если у Вас в зоне урона как минимум три карты, выберите одного своего воина и до конца боя его сила увеличивается на 15,000.'
+global.UnitGrade[CardStat] = 2
+global.CardInClan[CardStat] = 30
+global.DCards[CardStat] = 1
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+
+
+CardStat = 8306
+{
+global.CardName[CardStat] = 'Stealth Dragon, Hadoshugen'
+global.CardText[CardStat] = 'Дракон бездны/Империя драконов/персональная смена
+
+АВТО: когда этот воин помещается в круг арьергарда, если у Вас на поле находится воин в перевоплощённом облике, заплатите цену [Встречный взрыв 1], выберите одного арьергарда оппонента и уберите его с поля.'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 1
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 8324
+{
+global.CardName[CardStat] = 'Sunrise Egg'
+global.CardText[CardStat] = 'Огненный дракон/Империя драконов
+
+АВТО: когда Вы делаете смену поверх этого воина, если Вы ходите вторым, возьмите одну карту из колоды.'
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 1
+}
+global.PowerStat[CardStat] = 6000
+global.DefensePowerStat[CardStat] = 5000
+
+
+CardStat = 8325
+{
+global.CardName[CardStat] = 'Blaze Maiden, Zonne'
+global.CardText[CardStat] = 'Человек/Империя драконов/критический триггер-эффект'
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 1
+}
+global.TriggerUnit[CardStat] = 2
+global.PowerStat[CardStat] = 5000
+global.DefensePowerStat[CardStat] = 15000
+
+
+CardStat = 8326
+{
+global.CardName[CardStat] = 'Blaze Staff Monk, Cho kuu sha'
+global.CardText[CardStat] = 'Человек/Империя драконов/дающий карту триггер-эффект'
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 1
+}
+global.TriggerUnit[CardStat] = 1
+global.PowerStat[CardStat] = 5000
+global.DefensePowerStat[CardStat] = 5000
+
+
+CardStat = 8327
+{
+global.CardName[CardStat] = 'Blaze Maiden, Rona'
+global.CardText[CardStat] = 'Человек/Империя драконов/исцеляющий триггер-эффект
+
+В колоде не может быть больше четырёх исцеляющих триггер-эффектов.'
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 1
+}
+global.TriggerUnit[CardStat] = 4
+global.PowerStat[CardStat] = 5000
+global.DefensePowerStat[CardStat] = 15000
+
+
+CardStat = 8328
+{
+global.CardName[CardStat] = 'Blaze Fist Monk, Nikko'
+global.CardText[CardStat] = 'Человек/Империя драконов/передовой триггер-эффект'
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 1
+}
+global.TriggerUnit[CardStat] = 5
+global.PowerStat[CardStat] = 5000
+global.DefensePowerStat[CardStat] = 15000
+
+
+CardStat = 8329
+{
+global.CardName[CardStat] = 'Dragritter, Hardy'
+global.CardText[CardStat] = 'Человек/Империя драконов
+
+АВТО: когда этот воин помещается в круг арьергарда, заплатите цену [Встречный взрыв 1], выберите одного арьергарда в заднем ряду оппонента и уберите его с поля.'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 1
+}
+global.PowerStat[CardStat] = 6000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 8365
+{
+global.CardName[CardStat] = 'Stealth Fiend, Shigamanago'
+global.CardText[CardStat] = 'Призрак/Империя драконов
+
+АВТО [Арьергард]: когда арьергард оппонента убирается с поля во время Вашей основной фазы, заплатите цену [уберите этого воина с поля], посмотрите на верхнюю карту своей колоды и, если это карта воина, Вы можете призвать её в арьергард. Если не призвали, поместите ту карту в свою душу.'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 1
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 8373
+{
+global.CardName[CardStat] = 'Vairina Valiente'
+global.CardText[CardStat] = 'Талисман/Империя драконов/персональная смена
+
+[Перевоплощение] «Trickstar» или воин 3го или ниже ранга, находящийся в перевоплощённом облике (Вы можете призвать эту карту на поле, поместив её поверх ранее указанного воина, вместо того, чтобы делать её обычный призыв в арьергард).
+
+ПРОДОЛЖИТЕЛЬНЫЙ [Арьергард]: сила этого воина увеличивается на 5,000 за каждую его карту исходного состояния.
+
+АВТО [Арьергард] [Один раз за ход]: когда атака этого воина достигает цели, если он находится в перевоплощённом облике, заплатите цену [Встречный взрыв 1 & скиньте одну карту у себя из руки] и поднимите этого воина.'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 1
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+
+
+CardStat = 8374
+{
+global.CardName[CardStat] = 'Charging Dragon, Tribash'
+global.CardText[CardStat] = 'Дино-дракон/Империя драконов/персональная смена
+
+АВТО [Арьергард]: когда Ваш авангард атакует, если у оппонента на поле находятся как максимум два арьергарда, заплатите цену [поместите этого воина в свою душу], выберите одного своего авангарда и до конца боя его критический удар увеличивается на один.'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 1
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+
+
+CardStat = 8376
+{
+global.CardName[CardStat] = 'Stealth Dragon, Tensha Stead'
+global.CardText[CardStat] = 'Дракон бездны/Империя драконов
+
+АВТО [Арьергард]: когда этот воин поддерживает, если атака достигает цели, заплатите цену [Встречный взрыв 1 & уберите этого воина с поля], выберите одного своего авангарда, найдите у себя в колоде до одной карты с таким же именем, раскройте её, возьмите её в руку и перемешайте свою колоду.'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 1
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+
+CardStat = 8377
+{
+global.CardName[CardStat] = 'Stealth Rogue of Iron Blade, Oshikuni'
+global.CardText[CardStat] = 'Демон/Империя драконов
+
+АВТО [Арьергард]: когда этот воин атакует, если у оппонента на поле как максимум два арьергарда, до конца боя сила этого воина увеличивается на 5,000.'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 1
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+
+CardStat = 8378
+{
+global.CardName[CardStat] = 'Extreme Dragon, Velocihazard'
+global.CardText[CardStat] = 'Дино-дракон/Империя драконов
+
+АВТО [Арьергард]: когда этот воин поддерживает, до конца хода его сила увеличивается на 2,000.'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 1
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+
+CardStat = 8379
+{
+global.CardName[CardStat] = 'Contact Spark Dragon'
+global.CardText[CardStat] = 'Грозовой дракон/Империя драконов/критический триггер-эффект
+'
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 1
+}
+global.TriggerUnit[CardStat] = 2
+global.PowerStat[CardStat] = 5000
+global.DefensePowerStat[CardStat] = 15000
+
+
+CardStat = 8380
+{
+global.CardName[CardStat] = 'Express Dragon, Steeldilopho'
+global.CardText[CardStat] = 'Дино-дракон/Империя драконов/дающий карту триггер-эффект
+'
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 1
+}
+global.TriggerUnit[CardStat] = 1
+global.PowerStat[CardStat] = 5000
+global.DefensePowerStat[CardStat] = 5000
+
+
+CardStat = 8381
+{
+global.CardName[CardStat] = 'Stealth Dragon, Jaengoku'
+global.CardText[CardStat] = 'Дракон бездны/Империя драконов/передовой триггер-эффект
+'
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 1
+}
+global.TriggerUnit[CardStat] = 5
+global.PowerStat[CardStat] = 5000
+global.DefensePowerStat[CardStat] = 15000
+
+
+CardStat = 8382
+{
+global.CardName[CardStat] = 'White Light Dragon, Parasolas'
+global.CardText[CardStat] = 'Дино-дракон/Империя драконов/исцеляющий триггер-эффект
+
+В колоде не может быть больше четырёх исцеляющих триггер-эффектов.'
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 1
+}
+global.TriggerUnit[CardStat] = 4
+global.PowerStat[CardStat] = 5000
+global.DefensePowerStat[CardStat] = 15000
+
+CardStat = 8375
+{
+global.CardName[CardStat] = 'Dragritter, Dabbaax'
+global.CardText[CardStat] = 'Человек/Империя драконов
+
+АВТО: когда этот воин помещается в арьергард, заплатите цену [Встречный взрыв 2], активируйте Заряд души 1, выберите одного арьергарда оппонента и уберите его с поля.'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 1
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000

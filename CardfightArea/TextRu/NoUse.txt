@@ -1,7 +1,7 @@
 n = x
 
-global.AllCard = 8219
-global.Versia = 331
+global.AllCard = 8425
+global.Versia = 400
 
 CardStat = 1
 {
@@ -259,5 +259,22 @@ global.CardText[8096] = 'Эта карта является подарком Мир и она не может быть пом
 global.CardInClan[8096] = 29
 
 global.PowerStat[8096] = 0
+
+}
+
+CardStat = 8425
+
+{
+
+global.CardName[8425] = 'Токен теневой армии'
+
+global.CardText[8425] = 'Теневая армия/Врата Брандта
+
+Это карта токена теневой армии, которая не может быть помещена в основную колоду. 
+'
+
+global.CardInClan[8425] = 29
+
+global.PowerStat[8425] = 15000
 
 }

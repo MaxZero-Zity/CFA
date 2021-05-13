@@ -5913,3 +5913,15 @@ global.CardInClan[CardStat] = 26
 }
 global.PowerStat[CardStat] = 8000
 global.DefensePowerStat[CardStat] = 10000
+
+CardStat = 8221
+{
+global.CardName[CardStat] = 'Steam Scara, Kulunta'
+global.CardText[CardStat] = 'Gear Chronicle/Gearoid
+
+AUTO [R]: When placed, COST [Counter Blast 1 & Soul Blast 1], choose one of any players rear-guards, put it on the bottom of its fighters deck, search your deck for up to one card with the same grade as the card put on the bottom of the deck +1, call it to R, and shuffle your deck.'
+global.UnitGrade[CardStat] = 2
+global.CardInClan[CardStat] = 26
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000

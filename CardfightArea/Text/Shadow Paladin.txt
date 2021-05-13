@@ -5975,3 +5975,15 @@ global.CardInClan[CardStat] = 1
 }
 global.PowerStat[CardStat] = 5000
 global.DefensePowerStat[CardStat] = 10000
+
+CardStat = 8222
+{
+global.CardName[CardStat] = 'Abstruse Knight, Golmarc'
+global.CardText[CardStat] = 'Shadow Paladin/Human
+
+AUTO [R]: At the end of the battle it attacked, if you have a vanguard with "Phantom" in its card name, COST [Counter Blast 1 & retire this unit], and call a "Blaster Dark" from your drop zone to R.'
+global.UnitGrade[CardStat] = 2
+global.CardInClan[CardStat] = 1
+}
+global.PowerStat[CardStat] = 5000
+global.DefensePowerStat[CardStat] = 5000

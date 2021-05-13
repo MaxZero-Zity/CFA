@@ -1,0 +1,518 @@
+CardStat = 8227
+{
+global.CardName[CardStat] = 'Apex Ruler, Bastion'
+global.CardText[CardStat] = 'Human/Keter Sanctuary
+
+CONT [V]: During your turn, all of your grade 3 units get power +2000.
+
+AUTO [V] 1/Turn: At the end of the battle that your drive check revealed a grade 3, COST [discard a card from your hand], choose one of your rear-guards, stand it, and it gets power +10000 until end of turn.'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 3
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+
+
+CardStat = 8228
+{
+global.CardName[CardStat] = 'Knight of Heavenly Spear, Rooks'
+global.CardText[CardStat] = 'Elf/Keter Sanctuary
+
+AUTO: When this unit is rode upon by "Apex Ruler, Bastion", COST [reveal three grade 3 cards from your hand], and draw a card.
+
+CONT [R]: During your turn, if you have three or more grade 3 units, this unit gets "Boost", and power +5000.'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 3
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+
+CardStat = 8229
+{
+global.CardName[CardStat] = 'Knight of Heavenly Sword, Fort'
+global.CardText[CardStat] = 'Human/Keter Sanctuary
+
+AUTO: When this unit is rode upon by "Knight of Heavenly Spear, Rooks", COST [reveal two grade 3 cards from your hand], reveal the top card of your deck, call it to R if it is a unit card, and put it into your drop if it isnt.
+
+ACT [R] 1/Turn: COST [Counter Blast 1], choose one of your grade 3 vanguards, and it gets power +5000 until end of turn.'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 3
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 8246
+{
+global.CardName[CardStat] = 'Vehement Witch, Ramana'
+global.CardText[CardStat] = 'Elf/Keter Sanctuary
+
+AUTO [R]: When this unit attacks, COST [Counter Blast 1], and this unit gets power +5000 until end of that battle.'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 3
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+
+
+CardStat = 8247
+{
+global.CardName[CardStat] = 'Knight of Broadaxe, Rafluke'
+global.CardText[CardStat] = 'Human/Keter Sanctuary
+
+ACT [R]: COST [Put this unit into your soul], choose one of your grade 3 rear-guards, and it gets power +10000 until end of turn.'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 3
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 8256
+{
+global.CardName[CardStat] = 'Platinum Wolf'
+global.CardText[CardStat] = 'High Beast/Keter Sanctuary
+
+ACT [R]: COST [Soul Blast 2], and this unit gets power +5000 until end of turn.'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 3
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+
+CardStat = 8257
+{
+global.CardName[CardStat] = 'The Hour of Holy Judgement Cometh'
+global.CardText[CardStat] = 'Normal Order/Keter Sanctuary
+
+Play this with COST [Counter Blast 2]!
+Draw two cards, choose one of your units, and it gets power +5000 until end of turn!'
+global.UnitGrade[CardStat] = 3
+global.CardInClan[CardStat] = 30
+global.DCards[CardStat] = 3
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 8281
+{
+global.CardName[CardStat] = 'Heavenly Sword of Gorgeousness, Alden'
+global.CardText[CardStat] = 'Human/Keter Sanctuary
+
+AUTO: When this unit is placed on R, COST [Counter Blast 2 & Soul Blast 1], choose a card from your hand, and call it to R. If you called a grade 3, draw two cards.
+
+AUTO [R]: When this unit attacks, if you have three or more grade 3 units, this unit gets power +5000 until end of turn.'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 3
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+
+
+CardStat = 8282
+{
+global.CardName[CardStat] = 'Dark Strain Dragon'
+global.CardText[CardStat] = 'Abyss Dragon/Keter Sanctuary
+
+ACT [R]: If you have three or more grade 3 units, COST [Soul Blast 2], and all of your grade 3 units get "Boost" until end of turn.'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 3
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+
+
+CardStat = 8283
+{
+global.CardName[CardStat] = 'Swinging Sword of Judgement'
+global.CardText[CardStat] = 'Normal Order/Keter Sanctuary
+
+Play this with COST [Soul Blast 1 grade 3]!
+Choose one of your opponents rear-guards. Your opponent puts all of their rear-guards in the same column as that rear-guard on the bottom of their deck in any order.'
+global.UnitGrade[CardStat] = 3
+global.CardInClan[CardStat] = 30
+global.DCards[CardStat] = 3
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+
+
+CardStat = 8284
+{
+global.CardName[CardStat] = 'Hexaorb Sorceress'
+global.CardText[CardStat] = 'Human/Keter Sanctuary
+
+AUTO [V]: When your drive check reveals a trigger unit, choose one of your rear-guards, and it gets power +10000 until end of turn.
+
+ACT [V] 1/Turn: If you persona rode this turn, COST [Counter Blast 1 & Soul Blast 1], reveal up to one critical trigger or front trigger from your hand and put it on the top of your deck, and this unit gets drive +1 until end of turn.'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 3
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+
+
+CardStat = 8285
+{
+global.CardName[CardStat] = 'Pentagleam Sorceress'
+global.CardText[CardStat] = 'Human/Keter Sanctuary
+
+AUTO: When this unit is rode upon by "Hexaorb Sorceress", look at three cards from the top of your deck, and put them on the top of your deck in any order.
+
+AUTO: When this unit is placed on R, look at the top card of your deck, and put it on the top or bottom of your deck. If you put it on the bottom of your deck, this unit gets power +2000 until end of turn.'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 3
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+
+CardStat = 8286
+{
+global.CardName[CardStat] = 'Tier Square Sorceress'
+global.CardText[CardStat] = 'Human/Keter Sanctuary
+
+AUTO: When this unit is rode upon by "Pentagleam Sorceress", COST [Counter Blast 1], and draw a card.
+
+AUTO [R] 1/Turn: When your drive check reveals a trigger unit, COST [Counter Blast 1], choose one of your opponents front row rear-guards, and put it on the bottom of their deck.'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 3
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+
+CardStat = 8287
+{
+global.CardName[CardStat] = 'Tri Connect Sorceress'
+global.CardText[CardStat] = 'Human/Keter Sanctuary
+
+AUTO: When this unit is rode upon, if you went second, draw a card.'
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 3
+}
+global.PowerStat[CardStat] = 6000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 8280
+{
+global.CardName[CardStat] = 'Prescription Angel'
+global.CardText[CardStat] = 'Angel/Keter Sanctuary
+
+AUTO [R]: When your vanguard is attacked, COST [Counter Blast 1 & retire this unit], choose a face up card in your damage zone, call it to GC, and put the top card of your deck into your damage zone face up.'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 3
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 8307
+{
+global.CardName[CardStat] = 'Divine Sister, Pastelito'
+global.CardText[CardStat] = 'Elf/Keter Sanctuary
+
+AUTO [R] 1/Turn: When your drive check reveals a trigger unit, COST [Soul Blast 1], and this unit gets power +5000 until end of turn.'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 3
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+
+CardStat = 8308
+{
+global.CardName[CardStat] = 'Divine Sister, Tartine'
+global.CardText[CardStat] = 'Elf/Keter Sanctuary
+
+AUTO: When this unit is placed on R, COST [Soul Blast 1 & rest this unit], look at two cards from the top of your deck, choose a card from among them, put it on the top of your deck, and put the rest on the bottom of your deck.'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 3
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 8337
+{
+global.CardName[CardStat] = 'Knight of Heavenly Bows, Base'
+global.CardText[CardStat] = 'Angel/Keter Sanctuary
+
+AUTO: When this unit is rode upon, if you went second, draw a card.'
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 3
+}
+global.PowerStat[CardStat] = 6000
+global.DefensePowerStat[CardStat] = 5000
+
+
+CardStat = 8338
+{
+global.CardName[CardStat] = 'Healer of Heavenly Staff, Arshes'
+global.CardText[CardStat] = 'Elf/Heal Trigger/Keter Sanctuary'
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 3
+}
+global.TriggerUnit[CardStat] = 4
+global.PowerStat[CardStat] = 5000
+global.DefensePowerStat[CardStat] = 15000
+
+
+CardStat = 8339
+{
+global.CardName[CardStat] = 'Knight of Heavenly Rend, Lif'
+global.CardText[CardStat] = 'Elf/Front Trigger/Keter Sanctuary'
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 3
+}
+global.TriggerUnit[CardStat] = 5
+global.PowerStat[CardStat] = 5000
+global.DefensePowerStat[CardStat] = 15000
+
+
+CardStat = 8340
+{
+global.CardName[CardStat] = 'Knight of Heavenly Pierce, Gallus'
+global.CardText[CardStat] = 'Human/Draw Trigger/Keter Sanctuary'
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 3
+}
+global.TriggerUnit[CardStat] = 1
+global.PowerStat[CardStat] = 5000
+global.DefensePowerStat[CardStat] = 5000
+
+
+CardStat = 8341
+{
+global.CardName[CardStat] = 'Knight of Heavenly Hammer, Gurgant'
+global.CardText[CardStat] = 'Human/Critical Trigger/Keter Sanctuary'
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 3
+}
+global.TriggerUnit[CardStat] = 2
+global.PowerStat[CardStat] = 5000
+global.DefensePowerStat[CardStat] = 15000
+
+
+CardStat = 8342
+{
+global.CardName[CardStat] = 'Lifesaving Angel, Kurabiel'
+global.CardText[CardStat] = 'Angel/Keter Sanctuary
+
+CONT: Sentinel.
+
+AUTO: When this unit is put on GC, COST [discard a card from your hand], choose one of your units, and it cannot be hit until end of that battle.'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 3
+}
+global.PowerStat[CardStat] = 7000
+global.DefensePowerStat[CardStat] = 0
+
+
+CardStat = 8343
+{
+global.CardName[CardStat] = 'Shadow Bow Archer, Lisana'
+global.CardText[CardStat] = 'Human/Keter Sanctuary'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 3
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 8366
+{
+global.CardName[CardStat] = 'Great Snake Witch, Solaria'
+global.CardText[CardStat] = 'Human/Keter Sanctuary
+
+AUTO: When this card is discarded from hand during your turn, COST [Counter Blast 1 & Soul Blast 1], and draw a card.'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 3
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+
+
+CardStat = 8367
+{
+global.CardName[CardStat] = 'Painkiller Angel'
+global.CardText[CardStat] = 'Angel/Keter Sanctuary
+
+AUTO [R]: At the end of the battle this unit boosted, COST [Soul Blast 1 & retire this unit], and draw a card.'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 3
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+
+CardStat = 8368
+{
+global.CardName[CardStat] = 'Mystic Amethyst, Kokabiel'
+global.CardText[CardStat] = 'Angel/Keter Sanctuary
+
+CONT [GC]: If your vanguard is "Apex Ruler, Bastion", this unit gets shield +5000 for every two of your grade 3 units. (Includes this unit.)'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 3
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+
+
+CardStat = 8369
+{
+global.CardName[CardStat] = 'Light Dragon Deity of Honors, Amartinoa'
+global.CardText[CardStat] = 'Cosmo Dragon/Over Trigger/Keter Sanctuary
+
+You may only have one over trigger in a deck. When revealed as a trigger, remove that card, draw a card, choose one of your units, and it gets power +100 Million until end of turn! If revealed during drive check, activate its additional effect!
+Additional Effect - Until end of turn, you also perform drive checks for the battles your rear-guards attack!'
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 3
+}
+global.TriggerUnit[CardStat] = 6
+global.PowerStat[CardStat] = 5000
+global.DefensePowerStat[CardStat] = 50000
+
+
+CardStat = 8370
+{
+global.CardName[CardStat] = 'Aegismare Dragon'
+global.CardText[CardStat] = 'Cosmo Dragon/Keter Sanctuary
+
+CONT: Sentinel.
+
+AUTO: When this unit is put on GC, choose one of your units, and it cannot be hit until end of that battle. If your hand has two or more cards, choose a card from your hand, and discard it.'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 3
+}
+global.PowerStat[CardStat] = 6000
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 8414
+{
+global.CardName[CardStat] = 'Knight of War Damage, Fossad'
+global.CardText[CardStat] = 'Elf/Keter Sanctuary
+
+CONT [R]: This unit cannot be chosen by your opponents card effects.
+
+AUTO [R]: When this units attack hits, Counter Charge 1/Soul Charge 1.'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 3
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+
+
+CardStat = 8415
+{
+global.CardName[CardStat] = 'Divine Sister, Lepisto'
+global.CardText[CardStat] = 'Elf/Keter Sanctuary
+
+AUTO [R]: When your drive check reveals a trigger unit, COST [Counter Blast 2], stand this unit, and it gets power +5000 until end of turn.'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 3
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+
+
+CardStat = 8416
+{
+global.CardName[CardStat] = 'Divine Sister, Faciata'
+global.CardText[CardStat] = 'Elf/Keter Sanctuary
+
+AUTO [R] 1/Turn: When your drive check reveals a trigger unit, COST [Soul Blast 2], and Counter Charge 1.'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 3
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+
+CardStat = 8417
+{
+global.CardName[CardStat] = 'Remission Sword, Fanuel'
+global.CardText[CardStat] = 'Angel/Keter Sanctuary
+
+AUTO [R]: When this unit attacks, if you have three or more grade 3 units, COST [Counter Blast 2], and this unit gets critical +1 until end of that battle.'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 3
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+
+
+CardStat = 8418
+{
+global.CardName[CardStat] = 'Swordsman of Heavenly Winds, Wechel'
+global.CardText[CardStat] = 'Elf/Keter Sanctuary
+
+AUTO [R]: When this unit boosts, this unit gets power +2000 until end of turn.'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 3
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+
+CardStat = 8419
+{
+global.CardName[CardStat] = 'White Fang Witch, Disma'
+global.CardText[CardStat] = 'Human/Critical Trigger/Keter Sanctuary
+'
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 3
+}
+global.TriggerUnit[CardStat] = 2
+global.PowerStat[CardStat] = 5000
+global.DefensePowerStat[CardStat] = 15000
+
+
+CardStat = 8420
+{
+global.CardName[CardStat] = 'Knight of Raise, Airfredo'
+global.CardText[CardStat] = 'Human/Draw Trigger/Keter Sanctuary
+'
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 3
+}
+global.TriggerUnit[CardStat] = 1
+global.PowerStat[CardStat] = 5000
+global.DefensePowerStat[CardStat] = 5000
+
+
+CardStat = 8422
+{
+global.CardName[CardStat] = 'Cycle Ring Sorceress'
+global.CardText[CardStat] = 'Human/Heal Trigger/Keter Sanctuary
+
+You may only have up to four cards with "HEAL" in a deck.'
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 3
+}
+global.TriggerUnit[CardStat] = 4
+global.PowerStat[CardStat] = 5000
+global.DefensePowerStat[CardStat] = 15000
+
+
+CardStat = 8423
+{
+global.CardName[CardStat] = 'Hopeful Testudo'
+global.CardText[CardStat] = 'Blitz Order/Keter Sanctuary
+
+If you have three or more units, choose one of your units, and it gets power +15000 until end of that battle.'
+global.UnitGrade[CardStat] = 3
+global.CardInClan[CardStat] = 30
+global.DCards[CardStat] = 3
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 8421
+{
+global.CardName[CardStat] = 'White Raven Sorcerer, Taxus'
+global.CardText[CardStat] = 'Human/Front Trigger/Keter Sanctuary
+'
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 3
+}
+global.TriggerUnit[CardStat] = 5
+global.PowerStat[CardStat] = 5000
+global.DefensePowerStat[CardStat] = 15000

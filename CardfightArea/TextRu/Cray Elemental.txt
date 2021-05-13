@@ -800,3 +800,17 @@ global.UnitGrade[CardStat] = 1
 global.CardInClan[CardStat] = 25
 }
 global.PowerStat[CardStat] = 7000
+
+CardStat = 8354
+{
+global.CardName[CardStat] = 'Spiritual King of Determination, Olbaria'
+global.CardText[CardStat] = 'элементаль/сверхтриггер
+
+У Вас в колоде может находиться только один сверхтриггер. Когда эта карта раскрывается в качестве триггера, уберите её из игры, возьмите одну карту из колоды, выберите одного своего воина и до конца хода его сила увеличивается на 100 миллионов! Если эта карта раскрывается во время проверка эффектов, активируйте дополнительную способность!
+Дополнительная способность — выберите одного своего воина и до конца хода его сила увеличивается на 100 миллионов!'
+global.UnitGrade[CardStat] = 0
+global.CardInClan[CardStat] = 25
+}
+global.TriggerUnit[CardStat] = 6
+global.PowerStat[CardStat] = 5000
+global.DefensePowerStat[CardStat] = 50000

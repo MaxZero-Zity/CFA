@@ -5882,3 +5882,15 @@ global.CardInClan[CardStat] = 26
 }
 global.PowerStat[CardStat] = 8000
 global.DefensePowerStat[CardStat] = 10000
+
+CardStat = 8221
+{
+global.CardName[CardStat] = 'Steam Scara, Kulunta'
+global.CardText[CardStat] = 'Gear Chronicle/механический робот/Зона тьмы
+
+АВТО [Арьергард]: при помещении, заплатите цену [Встречный взрыв 1 & Взрыв души 1], выберите одного арьергарда любого игрока, поместите его в низ колоды владельца, найдите у себя в колоде до одной карты, чей ранг равен рангу карты, помещённой в низ колоды +1, призовите выбранную карту в арьергард и перемешайте свою колоду.'
+global.UnitGrade[CardStat] = 2
+global.CardInClan[CardStat] = 26
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000

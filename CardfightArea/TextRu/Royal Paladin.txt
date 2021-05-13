@@ -7666,3 +7666,17 @@ global.CardInClan[CardStat] = 15
 }
 global.PowerStat[CardStat] = 8000
 global.DefensePowerStat[CardStat] = 10000
+
+CardStat = 8296
+{
+global.CardName[CardStat] = 'Knight of Chivalry, Rabol'
+global.CardText[CardStat] = 'Royal Paladin/человек/Единое святилище
+
+ПРОДОЛЖИТЕЛЬНЫЙ [Передний круг арьергарда]: все Ваши арьергарды в заднем ряду не могут быть убраны с поля способностями карт оппонента.
+
+АВТО: когда этот воин помещается в круг арьергарда во время Вашей основной фазы, заплатите цену [Встречный взрыв 1 & поместите в низ своей колоды одного своего арьергарда не 2го ранга], возьмите две карты из колоды, выберите одну карту у себя в руке и призовите её в арьергард.'
+global.UnitGrade[CardStat] = 2
+global.CardInClan[CardStat] = 15
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000

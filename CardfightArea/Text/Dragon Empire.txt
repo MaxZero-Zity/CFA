@@ -1,0 +1,534 @@
+CardStat = 8230
+{
+global.CardName[CardStat] = 'Chakrabarthi Divine Dragon, Nirvana'
+global.CardText[CardStat] = 'Flame Dragon/Dragon Empire
+
+ACT [V] 1/Turn: COST [Discard a card from your hand], choose a grade 0 card from your drop, and call it to R. 
+
+AUTO [V]: When this unit attacks, COST [Counter Blast 1], and this unit and all of your units with the overDress ability get power +10000 until end of turn.'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 1
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+
+
+CardStat = 8231
+{
+global.CardName[CardStat] = 'Vairina'
+global.CardText[CardStat] = 'Talisman/Dragon Empire
+
+overDress - "Trickstar" (You may place it by stacking it on the specified unit instead of normal calling it to R).
+
+AUTO [R]: When this unit in the overDress state attacks a vanguard, this unit gets power +10000 until end of that battle. Then, COST [Soul Blast 2], choose one of your opponents rear-guards, and retire it.'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 1
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+
+CardStat = 8232
+{
+global.CardName[CardStat] = 'Trickstar'
+global.CardText[CardStat] = 'Talisman/Dragon Empire
+
+CONT [R]: This unit cannot be chosen by your opponents card effects.'
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 1
+}
+global.PowerStat[CardStat] = 5000
+global.DefensePowerStat[CardStat] = 5000
+
+
+CardStat = 8233
+{
+global.CardName[CardStat] = 'Blaze Maiden, Rino'
+global.CardText[CardStat] = 'Human/Dragon Empire
+
+AUTO: When this unit is rode upon by "Blaze Maiden, Reiyu", search your deck for up to one "Trickstar", call it to R, and shuffle your deck.
+
+CONT [V/R]: During the battle this unit attacked, this unit gets power +2000.'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 1
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+
+CardStat = 8234
+{
+global.CardName[CardStat] = 'Escort Stealth Dragon, Hayashi Kaze'
+global.CardText[CardStat] = 'Abyss Dragon/Dragon Empire
+
+CONT: Sentinel.
+
+AUTO: When this unit is put into your GC, COST [discard a card from your hand], choose one of your units, and it cannot be hit until end of that battle.'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 1
+}
+global.PowerStat[CardStat] = 7000
+global.DefensePowerStat[CardStat] = 0
+
+
+CardStat = 8235
+{
+global.CardName[CardStat] = 'Fire Slash Dragon, Inferno Sword'
+global.CardText[CardStat] = 'Flame Dragon/Dragon Empire
+
+CONT [R]: During the battle this unit attacked, this unit gets power +2000.'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 1
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+
+
+CardStat = 8236
+{
+global.CardName[CardStat] = 'Iron Ball Dragon, Ankybowler'
+global.CardText[CardStat] = 'Dinodragon/Dragon Empire'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 1
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+
+CardStat = 8237
+{
+global.CardName[CardStat] = 'Blaze Maiden, Reiyu'
+global.CardText[CardStat] = 'Human/Dragon Empire
+
+AUTO: When this unit is rode upon by "Chakrabarthi Divine Dragon, Nirvana", COST [Soul Blast 1], search your deck for up to one "Vairina", reveal it and put it into your hand, and shuffle your deck.
+
+CONT [V/R]: During the battle this unit attacked, this unit gets power +2000.'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 1
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 8238
+{
+global.CardName[CardStat] = 'Dragon Deity King of Resurgence, Dragveda'
+global.CardText[CardStat] = 'Plasma Dragon/Over Trigger/Dragon Empire
+
+(You may only have one Over trigger in a deck. When revealed as a trigger, remove that card, draw a card, choose one of your units, and it gets power +100 Million until end of turn! If revealed during drive check, activate its additional effect!)
+Additional Effect - Choose one of your vanguards, and stand it!'
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 1
+}
+global.TriggerUnit[CardStat] = 6
+global.PowerStat[CardStat] = 5000
+global.DefensePowerStat[CardStat] = 50000
+
+CardStat = 8244
+{
+global.CardName[CardStat] = 'Sunburst Evolution'
+global.CardText[CardStat] = 'Normal Order/Dragon Empire
+
+COST [Counter Blast 1] to play this card!
+Choose one of your units, and it gets power +5000 until end of turn. Choose a "Vairina" from your drop, and return it to to your hand.'
+global.UnitGrade[CardStat] = 2
+global.CardInClan[CardStat] = 30
+global.DCards[CardStat] = 1
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 8254
+{
+global.CardName[CardStat] = 'Twin Buckler Dragon'
+global.CardText[CardStat] = 'Plasma Dragon/Dragon Empire
+
+CONT: Sentinel.
+
+AUTO: When this unit is put on GC, choose one of your units, and it cannot be hit until end of that battle. If your hand has two or more cards, choose a card from your hand, and discard it.'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 1
+}
+global.PowerStat[CardStat] = 6000
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 8276
+{
+global.CardName[CardStat] = 'Sunlight Punishment'
+global.CardText[CardStat] = 'Normal Order/Dragon Empire
+
+Play this with COST [If you have one or more cards, Counter Blast any number of those cards]!
+Choose one of your opponents rear-guards for each Counter Blast 1 paid for this cost, and retire it.'
+global.UnitGrade[CardStat] = 3
+global.CardInClan[CardStat] = 30
+global.DCards[CardStat] = 1
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+
+
+CardStat = 8277
+{
+global.CardName[CardStat] = 'Dragritter, Arvalis'
+global.CardText[CardStat] = 'Human/Dragon Empire
+
+AUTO: When this unit is placed on R, COST [Counter Blast 1 & Soul Blast 1], choose one of your opponents grade 2 or greater rear-guards, and retire it.'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 1
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+
+CardStat = 8278
+{
+global.CardName[CardStat] = 'Dragritter, Zafar'
+global.CardText[CardStat] = 'Human/Dragon Empire
+
+AUTO: When this unit intercepts, COST [Soul Blast 1], and this unit gets shield +5000 until end of that battle.'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 1
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+
+CardStat = 8279
+{
+global.CardName[CardStat] = 'Stealth Rogue of Strife, Fudomaru'
+global.CardText[CardStat] = 'Demon/Dragon Empire
+
+AUTO [R]: When this units attack hits, COST [discard a card from your hand], and draw a card.'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 1
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 8275
+{
+global.CardName[CardStat] = 'Blazing Spear Dragon'
+global.CardText[CardStat] = 'Flame Dragon/Dragon Empire
+
+AUTO: When this unit is placed on R, if your opponent has no units in the same column as this unit, COST [Counter Blast 1], and this unit gets power +10000 until end of turn.'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 1
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 8300
+{
+global.CardName[CardStat] = 'Double Gun of Dust Storm, Bart'
+global.CardText[CardStat] = 'Human/Dragon Empire
+
+AUTO: When this unit is rode upon, if you went second, draw a card.'
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 1
+}
+global.PowerStat[CardStat] = 6000
+global.DefensePowerStat[CardStat] = 5000
+
+
+CardStat = 8301
+{
+global.CardName[CardStat] = 'Gunning of Dust Storm, Nigel'
+global.CardText[CardStat] = 'Human/Dragon Empire
+
+AUTO: When this unit is rode upon by "Cataclysmic Bullet of Dust Storm, Randor", Soul Charge 1.
+
+AUTO [R]: When your opponents rear-guard is retired during your main phase, COST [Counter Blast 1 & retire this unit], choose one of your opponents rear-guards, and retire it.'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 1
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+
+CardStat = 8302
+{
+global.CardName[CardStat] = 'Cataclysmic Bullet of Dust Storm, Randor'
+global.CardText[CardStat] = 'Human/Dragon Empire
+
+AUTO: When this unit is rode upon by "Heavy Artillery of Dust Storm, Eugene", draw a card, choose up to one card from your drop, and put it into your soul.
+
+AUTO [V/R]: When this unit attacks, if your opponent has two or less rear-guards, COST [Counter Blast 1], Soul Charge 1, and this unit gets power +5000 until end of that battle.'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 1
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+
+CardStat = 8303
+{
+global.CardName[CardStat] = 'Heavy Artillery of Dust Storm, Eugene'
+global.CardText[CardStat] = 'Human/Dragon Empire
+
+ACT [V] 1/Turn: COST [Rest two rear-guards], choose one of your opponents rear-guards, retire it, and this unit gets power +10000 until end of turn.
+
+ACT [V] 1/Turn: If your opponents rear-guard was retired this turn, COST [Soul Blast 5], look at the same number of cards from the top of your deck as the number of your opponents open R, choose any number of unit cards from among them, call them to R, and put the rest into your soul.'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 1
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+
+
+CardStat = 8304
+{
+global.CardName[CardStat] = 'Vairina Arcus'
+global.CardText[CardStat] = 'Talisman/Dragon Empire
+
+[overDress]- "Trickstar" (You may place it by stacking it on the specified unit instead of normal calling it to R).
+
+AUTO: When this unit is placed on R, if it is in the [overDress] state, COST [Counter Blast 1], draw two cards, and this unit gets power +5000 until end of turn.'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 1
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+
+CardStat = 8305
+{
+global.CardName[CardStat] = 'Burn Bright, Pure Prayers'
+global.CardText[CardStat] = 'Blitz Order/Dragon Empire
+
+If your damage zone has three or more cards, choose one of your units, and it gets power +15000 until end of that battle.'
+global.UnitGrade[CardStat] = 2
+global.CardInClan[CardStat] = 30
+global.DCards[CardStat] = 1
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+
+
+CardStat = 8306
+{
+global.CardName[CardStat] = 'Stealth Dragon, Hadoshugen'
+global.CardText[CardStat] = 'Abyss Dragon/Dragon Empire
+
+AUTO: When this unit is placed on R, if you have a unit in the [overDress] state, COST [Counter Blast 1], choose one of your opponents rear-guards, and retire it.'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 1
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 8324
+{
+global.CardName[CardStat] = 'Sunrise Egg'
+global.CardText[CardStat] = 'Flame Dragon/Dragon Empire
+
+AUTO: When this unit is rode upon, if you went second, draw a card.'
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 1
+}
+global.PowerStat[CardStat] = 6000
+global.DefensePowerStat[CardStat] = 5000
+
+
+CardStat = 8325
+{
+global.CardName[CardStat] = 'Blaze Maiden, Zonne'
+global.CardText[CardStat] = 'Human/Critical Trigger/Dragon Empire'
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 1
+}
+global.TriggerUnit[CardStat] = 2
+global.PowerStat[CardStat] = 5000
+global.DefensePowerStat[CardStat] = 15000
+
+
+CardStat = 8326
+{
+global.CardName[CardStat] = 'Blaze Staff Monk, Cho kuu sha'
+global.CardText[CardStat] = 'Human/Draw Trigger/Dragon Empire'
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 1
+}
+global.TriggerUnit[CardStat] = 1
+global.PowerStat[CardStat] = 5000
+global.DefensePowerStat[CardStat] = 5000
+
+
+CardStat = 8327
+{
+global.CardName[CardStat] = 'Blaze Maiden, Rona'
+global.CardText[CardStat] = 'Human/Heal Trigger/Dragon Empire'
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 1
+}
+global.TriggerUnit[CardStat] = 4
+global.PowerStat[CardStat] = 5000
+global.DefensePowerStat[CardStat] = 15000
+
+
+CardStat = 8328
+{
+global.CardName[CardStat] = 'Blaze Fist Monk, Nikko'
+global.CardText[CardStat] = 'Human/Front Trigger/Dragon Empire'
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 1
+}
+global.TriggerUnit[CardStat] = 5
+global.PowerStat[CardStat] = 5000
+global.DefensePowerStat[CardStat] = 15000
+
+
+CardStat = 8329
+{
+global.CardName[CardStat] = 'Dragritter, Hardy'
+global.CardText[CardStat] = 'Human/Dragon Empire
+
+AUTO: When this unit is placed on R, COST [Counter Blast 1], choose one of your opponents back row rear-guards, and retire it.'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 1
+}
+global.PowerStat[CardStat] = 6000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 8365
+{
+global.CardName[CardStat] = 'Stealth Fiend, Shigamanago'
+global.CardText[CardStat] = 'Ghost/Dragon Empire
+
+AUTO [R]: When your opponents rear-guard is retired during your main phase, COST [retire this unit], look at the top card of your deck, and you may call a unit card from among them to R. If you do not, put the rest into your soul.'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 1
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 8373
+{
+global.CardName[CardStat] = 'Vairina Valiente'
+global.CardText[CardStat] = 'Talisman/Dragon Empire
+
+[overDress] - "Trickstar", or a grade 3 or less unit in the overDress state (You may place it by stacking it on the specified unit instead of normal calling it to R).
+
+CONT [R]: This unit gets power +5000 for each of this units originalDress.
+
+[AUTO [R] 1/Turn: When the attack of this unit in the overDress state hits, COST [Counter Blast 1 & discard a card from your hand], and stand this unit.'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 1
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+
+
+CardStat = 8374
+{
+global.CardName[CardStat] = 'Charging Dragon, Tribash'
+global.CardText[CardStat] = 'Dinodragon/Dragon Empire
+
+AUTO [R]: When your vanguard attacks, if your opponent has two or less rear-guards, COST [put this unit into your soul], choose one of your vanguards, and it gets critical +1 until end of that battle.'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 1
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+
+
+CardStat = 8376
+{
+global.CardName[CardStat] = 'Stealth Dragon, Tensha Stead'
+global.CardText[CardStat] = 'Abyss Dragon/Dragon Empire
+
+AUTO [R]: When the attack this unit boosted hits, COST [Counter Blast 1 & retire this unit], choose one of your vanguards, search your deck for up to one card with the same card name as that unit, reveal it and put it into your hand, and shuffle your deck.'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 1
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+
+CardStat = 8377
+{
+global.CardName[CardStat] = 'Stealth Rogue of Iron Blade, Oshikuni'
+global.CardText[CardStat] = 'Demon/Dragon Empire
+
+AUTO [R]: When this unit attacks, if your opponent has two or less rear-guards, this unit gets power +5000 until end of that battle.'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 1
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+
+CardStat = 8378
+{
+global.CardName[CardStat] = 'Extreme Dragon, Velocihazard'
+global.CardText[CardStat] = 'Dinodragon/Dragon Empire
+
+AUTO [R]: When this unit boosts, this unit gets power +2000 until end of turn.'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 1
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+
+CardStat = 8379
+{
+global.CardName[CardStat] = 'Contact Spark Dragon'
+global.CardText[CardStat] = 'Thunder Dragon/Critical Trigger/Dragon Empire
+'
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 1
+}
+global.TriggerUnit[CardStat] = 2
+global.PowerStat[CardStat] = 5000
+global.DefensePowerStat[CardStat] = 15000
+
+
+CardStat = 8380
+{
+global.CardName[CardStat] = 'Express Dragon, Steeldilopho'
+global.CardText[CardStat] = 'Dinodragon/Draw Trigger/Dragon Empire
+'
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 1
+}
+global.TriggerUnit[CardStat] = 1
+global.PowerStat[CardStat] = 5000
+global.DefensePowerStat[CardStat] = 5000
+
+
+CardStat = 8381
+{
+global.CardName[CardStat] = 'Stealth Dragon, Jaengoku'
+global.CardText[CardStat] = 'Abyss Dragon/Front Trigger/Dragon Empire
+'
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 1
+}
+global.TriggerUnit[CardStat] = 5
+global.PowerStat[CardStat] = 5000
+global.DefensePowerStat[CardStat] = 15000
+
+
+CardStat = 8382
+{
+global.CardName[CardStat] = 'White Light Dragon, Parasolas'
+global.CardText[CardStat] = 'Dinodragon/Heal Trigger/Dragon Empire
+
+You may only have up to four cards with "HEAL" in a deck.'
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 1
+}
+global.TriggerUnit[CardStat] = 4
+global.PowerStat[CardStat] = 5000
+global.DefensePowerStat[CardStat] = 15000
+
+CardStat = 8375
+{
+global.CardName[CardStat] = 'Dragritter, Dabbaax'
+global.CardText[CardStat] = 'Human/Dragon Empire
+
+AUTO: When this unit is placed on R, COST [Counter Blast 2], Soul Charge 1, choose one of your opponents rear-guards, and retire it.'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 1
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000

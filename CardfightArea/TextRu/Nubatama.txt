@@ -3377,3 +3377,15 @@ global.PowerStat[CardStat] = 8000
 global.DefensePowerStat[CardStat] = 10000
 global.TokenSummoner[CardStat] = 7069
 global.TokenSummonerPosition[CardStat] = 'SHIFT'
+
+CardStat = 8220
+{
+global.CardName[CardStat] = 'Stealth Beast, Shishi Resso'
+global.CardText[CardStat] = 'Nubatama/боевой зверь/»мпери€ драконов
+
+ѕ–ќƒќЋ∆»“≈Ћ№Ќџ… [јрьергард/круг защиты]: если во врем€ этого хода были призваны как минимум три арьергарда любого игрока, защита этого воина увеличиваетс€ на 5,000 и, если у ¬ашего авангарда как минимум 3ий ранг, сила этого воина увеличиваетс€ на 10,000. '
+global.UnitGrade[CardStat] = 2
+global.CardInClan[CardStat] = 23
+}
+global.PowerStat[CardStat] = 9000
+global.DefensePowerStat[CardStat] = 5000

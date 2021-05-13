@@ -7724,3 +7724,17 @@ global.CardInClan[CardStat] = 15
 }
 global.PowerStat[CardStat] = 8000
 global.DefensePowerStat[CardStat] = 10000
+
+CardStat = 8296
+{
+global.CardName[CardStat] = 'Knight of Chivalry, Rabol'
+global.CardText[CardStat] = 'Royal Paladin/Human
+
+CONT [Front Row R]: All of your back row rear-guards cannot be retired by your opponents card effects.
+
+AUTO: When this unit is placed on R during your main phase, COST [Counter Blast 1 & put a non-grade 2 rear-guard on the bottom of your deck], draw two cards, choose a card from your hand, and call it to R.'
+global.UnitGrade[CardStat] = 2
+global.CardInClan[CardStat] = 15
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000

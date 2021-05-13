@@ -6010,3 +6010,15 @@ global.CardInClan[CardStat] = 1
 }
 global.PowerStat[CardStat] = 5000
 global.DefensePowerStat[CardStat] = 10000
+
+CardStat = 8222
+{
+global.CardName[CardStat] = 'Abstruse Knight, Golmarc'
+global.CardText[CardStat] = 'Shadow Paladin/человек/Единое святилище
+
+АВТО [Арьергард]: в конце битвы, в которой этот воин атаковал, если у Вашего авангарда в имени содержится «Phantom», заплатите цену [Встречный взрыв 1 & уберите этого воина с поля] и призовите одного Blaster Dark со своего кладбища в арьергард. '
+global.UnitGrade[CardStat] = 2
+global.CardInClan[CardStat] = 1
+}
+global.PowerStat[CardStat] = 5000
+global.DefensePowerStat[CardStat] = 5000

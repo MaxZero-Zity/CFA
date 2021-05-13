@@ -1,0 +1,536 @@
+CardStat = 8239
+{
+global.CardName[CardStat] = 'Diabolos, "Violence" Bruce'
+global.CardText[CardStat] = 'Demon/Dark States
+
+AUTO [V]: At the start of your Ride Phase, you "Final Rush". (Specific units get a power up when you are in "Final Rush"!)
+
+AUTO [V]: When this unit attacks, if you are in "Final Rush", COST [Soul Blast 5], and stand all of your front row rear-guards.'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 2
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+
+
+CardStat = 8240
+{
+global.CardName[CardStat] = 'Diabolos, "Anger" Richard'
+global.CardText[CardStat] = 'Demon/Dark States
+
+AUTO: When this unit is placed on V, COST [put a rear-guard into your soul], and draw a card.
+
+CONT [R]: If you are in "Final Rush", this unit gets power +5000.'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 2
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+
+CardStat = 8241
+{
+global.CardName[CardStat] = 'Diabolos, "Bad" Steve'
+global.CardText[CardStat] = 'Demon/Dark States
+
+AUTO: When this unit is placed on V, choose a card from your soul, call it to your back row center R, and Soul Charge 1.
+
+CONT [R]: If you are in "Final Rush", this unit gets power +5000.'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 2
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+
+CardStat = 8242
+{
+global.CardName[CardStat] = 'Acrobat Presenter'
+global.CardText[CardStat] = 'Demon/Dark States
+
+AUTO [R]: When this unit attacks or boosts, if your vanguard is "Diabolos, "Violence" Bruce", Soul Charge 1, and if you are in "Final Rush", Soul Charge 1.'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 2
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+
+CardStat = 8243
+{
+global.CardName[CardStat] = 'Brothers Soul'
+global.CardText[CardStat] = 'Normal Order/Dark States
+
+Soul Charge 2.'
+global.UnitGrade[CardStat] = 1
+global.CardInClan[CardStat] = 30
+global.DCards[CardStat] = 2
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 8245
+{
+global.CardName[CardStat] = 'Time-fissuring Fist Colossus'
+global.CardText[CardStat] = 'Gear Colossus/Dark States
+
+AUTO: When this unit is placed on R, Soul Charge 1. Then, if you are in "Final Rush", COST [Counter Blast 1], and this unit gets power +15000 until end of turn.'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 2
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 8255
+{
+global.CardName[CardStat] = 'Steam Gunner, Brody'
+global.CardText[CardStat] = 'Gearoid/Dark States
+
+AUTO: When this unit is put into your GC, COST [Counter Blast 1], and this unit gets shield +5000 until end of that battle.'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 2
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 8289
+{
+global.CardName[CardStat] = 'Direful Doll, Simone'
+global.CardText[CardStat] = 'Workeroid/Dark States
+
+AUTO [R]: When this unit boosts, if your soul has five or more cards, COST [Counter Blast 1], and until end of that battle, when your opponent would call cards from their hand, they must call two or more at the same time.'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 2
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+
+CardStat = 8290
+{
+global.CardName[CardStat] = 'Crawl, you "Insects"!'
+global.CardText[CardStat] = 'Normal Order/Dark States
+
+Play this with COST [Counter Blast 1]!
+Soul Charge 1. Then, choose one of your units, and it gets power +10000 until end of turn for every five cards in your soul. If your soul has ten or more cards, draw a card.'
+global.UnitGrade[CardStat] = 3
+global.CardInClan[CardStat] = 30
+global.DCards[CardStat] = 2
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+
+
+CardStat = 8291
+{
+global.CardName[CardStat] = 'Master of Gravity, Baromagnes'
+global.CardText[CardStat] = 'Human/Dark States
+
+AUTO [V]: When this unit attacks, COST [Counter Blast 1], and perform all of the following according to the number of cards in your soul.
+•5 or more ‐ Draw a card.
+•10 or more ‐ This unit gets power +10000/critical +1 until end of that battle.
+•15 or more ‐ Both you and your opponent put all of your own rear-guards into your souls. Choose up to two cards from your soul, call them to R, and those units get power +10000 until end of turn.'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 2
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+
+
+CardStat = 8292
+{
+global.CardName[CardStat] = 'Electro Spartan'
+global.CardText[CardStat] = 'Human/Dark States
+
+AUTO: When this unit is rode upon by "Master of Gravity, Baromagnes", COST [put a card from your hand into your soul], draw a card, and Soul Charge 1.
+
+AUTO: When this unit is placed on R, COST [Counter Blast 1], and Soul Charge 2.'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 2
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+
+CardStat = 8293
+{
+global.CardName[CardStat] = 'Deep Soniker'
+global.CardText[CardStat] = 'Human/Dark States
+
+AUTO: When this unit is placed on V, Soul Charge 1.
+
+CONT [R]: During your turn, if your soul has ten or more cards, this unit gets power +10000.'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 2
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+
+CardStat = 8294
+{
+global.CardName[CardStat] = 'Uncanny Burning'
+global.CardText[CardStat] = 'Human/Dark States
+
+AUTO: When this unit is rode upon, if you went second, draw a card.'
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 2
+}
+global.PowerStat[CardStat] = 6000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 8288
+{
+global.CardName[CardStat] = 'Direful Doll, Violetta'
+global.CardText[CardStat] = 'Workeroid/Dark States
+
+ACT [Soul]: If your soul has ten or more cards, COST [Counter Blast 1], and call this card to R.'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 2
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 8317
+{
+global.CardName[CardStat] = 'Steam Detective, Uvaritt'
+global.CardText[CardStat] = 'Gearoid/Dark States
+
+AUTO: When this unit is placed on R, choose one of your other units in the same column as this unit, and it gets power +2000 until end of turn. If you are in "Final Rush", it gets power +5000 instead of +2000.'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 2
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+
+CardStat = 8318
+{
+global.CardName[CardStat] = 'Protobulb Dragon'
+global.CardText[CardStat] = 'Gear Dragon/Dark States
+
+AUTO [R]: When this unit attacks or boosts, if you are in "Final Rush", COST [Counter Blast 1 & put another rear-guard into your soul], choose a card from your soul, and put it into your hand.'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 2
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+
+CardStat = 8319
+{
+global.CardName[CardStat] = 'Steam Artist, Pithana'
+global.CardText[CardStat] = 'Gearoid/Dark States
+
+ACT [R]: COST [Put this unit into your soul], choose one of your units, and it gets power +2000 until end of turn.'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 2
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+
+CardStat = 8320
+{
+global.CardName[CardStat] = 'Diabolos Boys, Eden'
+global.CardText[CardStat] = 'Demon/Dark States
+
+CONT [R]: If you are in "Final Rush", this unit gets power +5000, and if this unit stand this turn by a card effect, critical +1.
+
+AUTO [R]: When this units attack hits, COST [Counter Blast 1], choose one of your opponents rear-guards, and retire it.'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 2
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+
+CardStat = 8321
+{
+global.CardName[CardStat] = 'Soulful Wild Master, Megan'
+global.CardText[CardStat] = 'Elf/Dark States
+
+CONT [R]: If you Soul Charge this turn, this unit gets power +2000.'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 2
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+
+CardStat = 8322
+{
+global.CardName[CardStat] = 'Upward Acrobat, Marjorie'
+global.CardText[CardStat] = 'Succubus/Dark States
+
+AUTO [R] 1/Turn: When this unit attacks, if you are in "Final Rush", COST [put one of your other rear-guards into your soul], draw a card, Soul Charge 1, and this unit gets power +10000 until end of turn.'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 2
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+
+
+CardStat = 8323
+{
+global.CardName[CardStat] = 'Hades Dragon Deity of Resentment, Gallmageheld'
+global.CardText[CardStat] = 'Abyss Dragon/Over Trigger/Dark States
+
+(You may only have one over trigger in a deck. When revealed as a trigger, remove that card, draw a card, choose one of your units, and it gets power +100 Million until end of turn! If revealed during drive check, activate its additional effect!)
+
+Additional Effect - You get "During your turn, all of your vanguards get power +10000/critical +1" until end of this fight!'
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 2
+}
+global.TriggerUnit[CardStat] = 6
+global.PowerStat[CardStat] = 5000
+global.DefensePowerStat[CardStat] = 50000
+
+CardStat = 8330
+{
+global.CardName[CardStat] = 'Diabolos, "Innocent" Matt'
+global.CardText[CardStat] = 'Demon/Dark States
+
+AUTO: When this unit is rode upon, if you went second, draw a card.'
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 2
+}
+global.PowerStat[CardStat] = 6000
+global.DefensePowerStat[CardStat] = 5000
+
+
+CardStat = 8331
+{
+global.CardName[CardStat] = 'Diabolos Girls, Arianna'
+global.CardText[CardStat] = 'Succubus/Heal Trigger/Dark States'
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 2
+}
+global.TriggerUnit[CardStat] = 4
+global.PowerStat[CardStat] = 5000
+global.DefensePowerStat[CardStat] = 15000
+
+
+CardStat = 8332
+{
+global.CardName[CardStat] = 'Diabolos Officer, Gillian'
+global.CardText[CardStat] = 'Succubus/Front Trigger/Dark States'
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 2
+}
+global.TriggerUnit[CardStat] = 5
+global.PowerStat[CardStat] = 5000
+global.DefensePowerStat[CardStat] = 15000
+
+
+CardStat = 8333
+{
+global.CardName[CardStat] = 'Diabolos Boys, Jake'
+global.CardText[CardStat] = 'Demon/Draw Trigger/Dark States'
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 2
+}
+global.TriggerUnit[CardStat] = 1
+global.PowerStat[CardStat] = 5000
+global.DefensePowerStat[CardStat] = 5000
+
+
+CardStat = 8334
+{
+global.CardName[CardStat] = 'Diabolos Girls, Maimai'
+global.CardText[CardStat] = 'Succubus/Critical Trigger/Dark States'
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 2
+}
+global.TriggerUnit[CardStat] = 2
+global.PowerStat[CardStat] = 5000
+global.DefensePowerStat[CardStat] = 15000
+
+
+CardStat = 8335
+{
+global.CardName[CardStat] = 'Psychic Prima, Miranda'
+global.CardText[CardStat] = 'Human/Dark States
+
+CONT: Sentinel.
+
+AUTO: When this unit is put on GC, COST [discard a card from your hand], choose one of your units, and it cannot be hit until end of that battle.'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 2
+}
+global.PowerStat[CardStat] = 7000
+global.DefensePowerStat[CardStat] = 0
+
+
+CardStat = 8336
+{
+global.CardName[CardStat] = 'Icicle Ein, Aizer'
+global.CardText[CardStat] = 'Human/Dark States'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 2
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 8371
+{
+global.CardName[CardStat] = 'Steam Gunner, Rimush'
+global.CardText[CardStat] = 'Gearoid/Dark States
+
+CONT [R]: During the battle this unit boosted, if your soul has five or more cards, this unit gets power +2000, and your opponent cannot intercept.'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 2
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+
+CardStat = 8372
+{
+global.CardName[CardStat] = 'Recusal Hate Dragon'
+global.CardText[CardStat] = 'Abyss Dragon/Dark States
+
+CONT: Sentinel.
+
+AUTO: When this unit is put on GC, choose one of your units, and it cannot be hit until end of that battle. If your hand has two or more cards, choose a card from your hand, and discard it.'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 2
+}
+global.PowerStat[CardStat] = 6000
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 8404
+{
+global.CardName[CardStat] = 'Selfish Engraver'
+global.CardText[CardStat] = 'Human/Dark States
+
+AUTO [R]: When this units attack hits, Soul Charge 1.
+
+AUTO [R]: At the end of the battle this unit attacked, if your soul has ten or more cards, COST [put this unit into your soul], and Counter Charge 1.'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 2
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+
+CardStat = 8405
+{
+global.CardName[CardStat] = 'Steam Battler, Gungunuram'
+global.CardText[CardStat] = 'Gearoid/Dark States
+
+AUTO: When this unit is placed on R, Soul Charge 1.
+
+ACT [R] 1/Turn: COST [Soul Blast 3], and draw a card.'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 2
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+
+CardStat = 8406
+{
+global.CardName[CardStat] = 'Eminence Jarboberos'
+global.CardText[CardStat] = 'Chimera/Dark States
+
+AUTO [R]: When this unit boosts, this unit gets power +2000 until end of turn.'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 2
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+
+CardStat = 8408
+{
+global.CardName[CardStat] = 'Phantasma Magician, Curtis'
+global.CardText[CardStat] = 'Elf/Dark States
+
+AUTO: When this unit is placed on R, if your vanguard is "Master of Gravity, Baromagnes", Soul Charge 2.
+
+ACT [R]: If your soul has ten or more cards, COST [Counter Blast 2], and all of your front row units get power +5000 until end of turn.'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 2
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+
+
+CardStat = 8409
+{
+global.CardName[CardStat] = 'Shadow Leak Magician'
+global.CardText[CardStat] = 'Elf/Dark States
+
+CONT [R]: This unit cannot be chosen by your opponents card effects.'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 2
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+
+CardStat = 8410
+{
+global.CardName[CardStat] = 'Flinty Slasher'
+global.CardText[CardStat] = 'Human/Critical Trigger/Dark States
+'
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 2
+}
+global.TriggerUnit[CardStat] = 2
+global.PowerStat[CardStat] = 5000
+global.DefensePowerStat[CardStat] = 15000
+
+
+CardStat = 8411
+{
+global.CardName[CardStat] = 'Vital Reaver'
+global.CardText[CardStat] = 'Human/Draw Trigger/Dark States
+'
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 2
+}
+global.TriggerUnit[CardStat] = 1
+global.PowerStat[CardStat] = 5000
+global.DefensePowerStat[CardStat] = 5000
+
+
+CardStat = 8412
+{
+global.CardName[CardStat] = 'Hackle Hustle'
+global.CardText[CardStat] = 'Human/Front Trigger/Dark States
+'
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 2
+}
+global.TriggerUnit[CardStat] = 5
+global.PowerStat[CardStat] = 5000
+global.DefensePowerStat[CardStat] = 15000
+
+
+CardStat = 8413
+{
+global.CardName[CardStat] = 'Steam Scara, Malnigal'
+global.CardText[CardStat] = 'Gearoid/Heal Trigger/Dark States
+
+You may only have up to four cards with "HEAL" in a deck.'
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 2
+}
+global.TriggerUnit[CardStat] = 4
+global.PowerStat[CardStat] = 5000
+global.DefensePowerStat[CardStat] = 15000
+
+CardStat = 8407
+{
+global.CardName[CardStat] = 'Tartarus Beatscram'
+global.CardText[CardStat] = 'Blitz Order/Dark States
+
+If your soul has five or more cards, choose one of your units, and it gets power +15000 until end of that battle.'
+global.UnitGrade[CardStat] = 1
+global.CardInClan[CardStat] = 30
+global.DCards[CardStat] = 2
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0

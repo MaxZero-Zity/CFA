@@ -1,0 +1,547 @@
+CardStat = 8249
+{
+global.CardName[CardStat] = 'Aurora Battle Princess, Seraph Snow'
+global.CardText[CardStat] = 'Human/Brandt Gate
+
+CONT [V]: During your turn, if one or more of your opponents cards are imprisoned in your Prison, this unit gets power +10000, and if three or more cards are imprisoned, this unit gets drive +1.
+
+ACT [V/R] 1/Turn: COST [Counter Blast 1], choose two of your opponents rear-guards, and imprison them in your Prison. (Put them into your Order Zone that has a Prison.)'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 5
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+
+
+CardStat = 8250
+{
+global.CardName[CardStat] = 'Alert Guard Gunner'
+global.CardText[CardStat] = 'Battleroid/Brandt Gate
+
+AUTO [R]: When this units attack hits a vanguard, choose up to two of your opponents rear-guards, and imprison them in your Prison. (Put them into your Order Zone that has a Prison.)'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 5
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+
+
+CardStat = 8251
+{
+global.CardName[CardStat] = 'Aurora Battle Princess, Risatt Pink'
+global.CardText[CardStat] = 'Human/Brandt Gate
+
+AUTO: When this unit is placed on V, your opponent chooses a card from their hand, and imprisons it in your Prison. (Put it into your Order Zone that has a Prison.)
+
+CONT [R]: If one or more of your opponents cards are imprisoned in your Prison, this unit gets power +2000.'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 5
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+
+CardStat = 8252
+{
+global.CardName[CardStat] = 'Aurora Battle Princess, Kyanite Blue'
+global.CardText[CardStat] = 'Human/Brandt Gate
+
+AUTO: When this unit is placed on V, search your deck for up to one Prison card, reveal it and put it into your hand, and shuffle your deck.
+
+AUTO: When this unit is placed on R, if one or more of your opponents cards are imprisoned in your Prison, COST [Counter Blast 1 & Soul Blast 1], and draw a card.'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 5
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+
+CardStat = 8253
+{
+global.CardName[CardStat] = 'Galaxy Central Prison, Galactolus'
+global.CardText[CardStat] = 'Set Order/Brandt Gate
+
+COST [Rest one of your units] to play this card!
+
+AUTO: When this card is put into the Order Zone, Soul Charge 3.
+
+CONT [Order Zone]: When your opponent can normal call a rear-guard, they can perform the following:
+• Soul Blast 1. If they do so, they choose one of their imprisoned cards, and call it to R.
+• Counter Blast 1. If they do so, they choose two of their imprisoned cards, and call them to R.'
+global.UnitGrade[CardStat] = 1
+global.CardInClan[CardStat] = 30
+global.DCards[CardStat] = 5
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 8265
+{
+global.CardName[CardStat] = 'Autonomic Caution'
+global.CardText[CardStat] = 'Workeroid/Brandt Gate
+
+CONT [R/GC]: If one or more of your opponents cards are imprisoned in your Prison, this unit gets power +2000/shield +5000.'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 5
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 8271
+{
+global.CardName[CardStat] = 'Causality Goes Crazy as I Will It'
+global.CardText[CardStat] = 'Normal Order/Brandt Gate
+
+Play with this COST [Soul Blast 1]!
+Choose one of your vanguards, and it gets power +10000 until end of turn.'
+global.UnitGrade[CardStat] = 2
+global.CardInClan[CardStat] = 30
+global.DCards[CardStat] = 5
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+
+
+CardStat = 8272
+{
+global.CardName[CardStat] = 'Grapple External'
+global.CardText[CardStat] = 'Alien/Brandt Gate
+
+CONT [R]: During the battle this unit attacks, if an opponents card is imprisoned in your Prison, this unit gets power +5000.'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 5
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+
+CardStat = 8273
+{
+global.CardName[CardStat] = 'Granaroad Fairtigar'
+global.CardText[CardStat] = 'Battleroid/Brandt Gate
+
+ACT [R] 1/Turn: COST [Soul Blast 1], and this unit gets power +2000 until end of turn. Choose one of your opponents front row rear-guards, and imprison it in your Prison. (Put them into your Order Zone that has a Prison.)'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 5
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+
+
+CardStat = 8274
+{
+global.CardName[CardStat] = 'Security Patroller'
+global.CardText[CardStat] = 'Battleroid/Brandt Gate
+
+AUTO: When this unit is placed on R, COST [Soul Blast 1], choose one of your opponents rear-guards, and imprison it in your Prison. (Put them into your Order Zone that has a Prison.)'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 5
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 8270
+{
+global.CardName[CardStat] = 'Rapid Charger'
+global.CardText[CardStat] = 'Workeroid/Brandt Gate
+
+AUTO [R]: When the attack this unit boosted hits, Soul Charge 1.'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 5
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 8309
+{
+global.CardName[CardStat] = 'Fighting Dragon, Gordog Dragon'
+global.CardText[CardStat] = 'Space Dragon/Brandt Gate
+
+AUTO: When this card is discarded from hand during your turn, if a Set Order is in your Order Zone, COST [Counter Blast 1], and call this card to R.'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 5
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+
+CardStat = 8310
+{
+global.CardName[CardStat] = 'Super Speed Robo, Chevalstud'
+global.CardText[CardStat] = 'Battleroid/Brandt Gate
+
+ACT [R] 1/Turn: COST [Counter Blast 1 & Soul Blast 1], choose one of your opponents rear-guards, and imprison it in your Prison. Then, if three or more of your opponents cards are imprisoned in your Prison, you draw a card.'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 5
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+
+CardStat = 8311
+{
+global.CardName[CardStat] = 'Cardinal Fang, Phovi'
+global.CardText[CardStat] = 'Cyber Beast/Brandt Gate
+
+AUTO: When this unit is rode upon, if you went second, draw a card.'
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 5
+}
+global.PowerStat[CardStat] = 6000
+global.DefensePowerStat[CardStat] = 5000
+
+
+CardStat = 8312
+{
+global.CardName[CardStat] = 'Cardinal Noid, Routis'
+global.CardText[CardStat] = 'Cyberoid/Brandt Gate
+
+AUTO: When this unit is placed on V, search your deck for up to one World card, reveal it and put it into your hand, and shuffle your deck.
+
+CONT [R]: During the battle this unit attacked or boosted, if your World is Dark Night or Abyssal Dark Night, this unit gets power +2000.'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 5
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+
+CardStat = 8313
+{
+global.CardName[CardStat] = 'Cardinal Noid, Cubisia'
+global.CardText[CardStat] = 'Cyberoid/Brandt Gate
+
+AUTO [V]: When a World is put into your order zone, choose one of your units, and it gets power +5000 until end of turn.
+
+CONT [R]: During your turn, if your World is Abyssal Dark Night, this unit gets power +5000.'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 5
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+
+CardStat = 8314
+{
+global.CardName[CardStat] = 'Cardinal Deus, Orfist'
+global.CardText[CardStat] = 'Cyber Golem/Brandt Gate
+
+CONT [V/R]: During your turn, if your World is Dark Night or Abyssal Dark Night, this unit gets power +5000.
+
+ACT [V]: If your World is Abyssal Dark Night, COST [Counter Blast 2], and call up to three Shadow Army tokens to R. (Your World changes when you play a specific order. Shadow Army has power 15000 and Boost.)
+
+(Shift + click to call tokens.)'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 5
+global.TokenSummoner[CardStat] = 8425
+global.TokenSummonerPosition[CardStat] = 'SHIFT'
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+
+
+CardStat = 8315
+{
+global.CardName[CardStat] = 'Hollowing Moonlit Night'
+global.CardText[CardStat] = 'Set Order/Brandt Gate
+
+Play this with COST [Soul Blast 1]!
+
+AUTO: When this card is put into order zone, draw a card.
+
+CONT [Order Zone]: If your order zone only has World cards, the following effects are active according to the number of cards in your order zone.
+•1 card ‐ Your World becomes Dark Night.
+•2 or more cards ‐ Your World becomes Abyssal Dark Night.'
+global.UnitGrade[CardStat] = 2
+global.CardInClan[CardStat] = 30
+global.DCards[CardStat] = 5
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+
+
+CardStat = 8316
+{
+global.CardName[CardStat] = 'In the Darkness Nobody Knows'
+global.CardText[CardStat] = 'Set Order/Brandt Gate
+
+Play this with COST [Soul Blast 1]!
+
+AUTO: When this card is put in the order zone, choose one of your opponents front row rear-guards, and retire it.
+
+CONT [Order Zone]: If your order zone only has World cards, the following effects are active according to the number of cards in your order zone.
+•1 card ‐ Your World becomes Dark Night.
+•2 or more cards ‐ Your World becomes Abyssal Dark Night.'
+global.UnitGrade[CardStat] = 3
+global.CardInClan[CardStat] = 30
+global.DCards[CardStat] = 5
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 8348
+{
+global.CardName[CardStat] = 'Aurora Battle Princess, Ruby Red'
+global.CardText[CardStat] = 'Human/Brandt Gate
+
+AUTO: When this unit is rode upon, if you went second, draw a card.'
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 5
+}
+global.PowerStat[CardStat] = 6000
+global.DefensePowerStat[CardStat] = 5000
+
+
+CardStat = 8349
+{
+global.CardName[CardStat] = 'Aurora Battle Princess, Treuse Green'
+global.CardText[CardStat] = 'Human/Heal Trigger/Brandt Gate'
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 5
+}
+global.TriggerUnit[CardStat] = 4
+global.PowerStat[CardStat] = 5000
+global.DefensePowerStat[CardStat] = 15000
+
+
+CardStat = 8350
+{
+global.CardName[CardStat] = 'Aurora Battle Princess, Amy Orange'
+global.CardText[CardStat] = 'Human/Draw Trigger/Brandt Gate
+'
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 5
+}
+global.TriggerUnit[CardStat] = 1
+global.PowerStat[CardStat] = 5000
+global.DefensePowerStat[CardStat] = 5000
+
+
+CardStat = 8351
+{
+global.CardName[CardStat] = 'Aurora Battle Princess, Lourus Yellow'
+global.CardText[CardStat] = 'Human/Critical Trigger/Brandt Gate
+'
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 5
+}
+global.TriggerUnit[CardStat] = 2
+global.PowerStat[CardStat] = 5000
+global.DefensePowerStat[CardStat] = 15000
+
+
+CardStat = 8352
+{
+global.CardName[CardStat] = 'Frigid Mutant, Drumler'
+global.CardText[CardStat] = 'Alien/Brandt Gate
+
+AUTO: When this unit is placed on R, if your World is Abyssal Dark Night, COST [Counter Blast 1 & Soul Blast 1], and draw a card.'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 5
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+
+CardStat = 8353
+{
+global.CardName[CardStat] = 'Detonation Mutant, Bobalmine'
+global.CardText[CardStat] = 'Alien/Brandt Gate
+
+AUTO [R]: At the end of the battle this unit boosted, if your Order Zone has a Set Order, COST [put this unit into your soul], and Counter Charge 1.'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 5
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 8360
+{
+global.CardName[CardStat] = 'Jeweled Combination, Jewelion'
+global.CardText[CardStat] = 'Battleroid/Brandt Gate
+'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 5
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+
+CardStat = 8361
+{
+global.CardName[CardStat] = 'Craggy Beast, Girgrand'
+global.CardText[CardStat] = 'Alien/Brandt Gate
+
+CONT: Sentinel.
+
+AUTO: When this unit is put on GC, COST [discard a card from your hand], choose one of your units, and it cannot be hit until end of that battle.'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 5
+}
+global.PowerStat[CardStat] = 7000
+global.DefensePowerStat[CardStat] = 0
+
+
+CardStat = 8362
+{
+global.CardName[CardStat] = 'Aurora Battle Princess, Fronte Rose'
+global.CardText[CardStat] = 'Human/Front Trigger/Brandt Gate
+'
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 5
+}
+global.TriggerUnit[CardStat] = 5
+global.PowerStat[CardStat] = 5000
+global.DefensePowerStat[CardStat] = 15000
+
+
+CardStat = 8363
+{
+global.CardName[CardStat] = 'Star Dragon Deity of Infinitude, Eldobreath'
+global.CardText[CardStat] = 'Space Dragon/Over Trigger/Brandt Gate
+
+You may only have one over trigger in a deck. When revealed as a trigger, remove that card, draw a card, choose one of your units, and it gets power +100 Million until end of turn! If revealed during drive check, activate its additional effect!
+Additional Effect - Double the power and critical of all of your front row units until end of turn! (Increase to double its power and critical when activated.)'
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 5
+}
+global.TriggerUnit[CardStat] = 6
+global.PowerStat[CardStat] = 5000
+global.DefensePowerStat[CardStat] = 50000
+
+
+CardStat = 8364
+{
+global.CardName[CardStat] = 'Violate Dragon'
+global.CardText[CardStat] = 'Space Dragon/Brandt Gate
+
+CONT: Sentinel.
+
+AUTO: When this unit is put on GC, choose one of your units, and it cannot be hit until end of that battle. If your hand has two or more cards, choose a card from your hand, and discard it.'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 5
+}
+global.PowerStat[CardStat] = 6000
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 8383
+{
+global.CardName[CardStat] = 'Aurora Battle Princess, Agarrar Rouge'
+global.CardText[CardStat] = 'Human/Brandt Gate
+
+CONT [R/GC]: If two or more of your opponents cards are imprisoned in your Prison, this unit gets power +5000/shield +10000.
+
+AUTO: When this unit is placed on R, COST [Soul Blast 1], choose one of your opponents front row rear-guards, and imprison it in your Prison. (Put it into your Order Zone that has a Prison.)'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 5
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+
+CardStat = 8384
+{
+global.CardName[CardStat] = 'Lightning Barrier, Emergency Deployment!'
+global.CardText[CardStat] = 'Blitz Order/Brandt Gate
+
+Play with this COST [Counter Blast 2]!
+
+Choose one of your vanguards, and it gets power +30000 until end of that battle.'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 5
+global.CardInClan[CardStat] = 30
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+
+
+CardStat = 8385
+{
+global.CardName[CardStat] = 'Electricity Plunder Monster, Jabatel'
+global.CardText[CardStat] = 'Alien/Brandt Gate
+
+CONT [R]: If your World is Abyssal Dark Night, when this unit would attack, it battles all of your opponents units in a column.'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 5
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+
+
+CardStat = 8386
+{
+global.CardName[CardStat] = 'Electrode Monster, Adapton'
+global.CardText[CardStat] = 'Alien/Brandt Gate
+
+AUTO [R]: When this unit boosts, this unit gets power +2000 until end of turn.'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 5
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+
+CardStat = 8387
+{
+global.CardName[CardStat] = 'Useful Recharger'
+global.CardText[CardStat] = 'Workeroid/Brandt Gate
+
+AUTO: When this unit is put on GC, COST [Counter Blast 1], and if your World is Dark Night, this unit gets shield +5000 until end of turn. If it is Abyssal Dark Night, this unit gets shield +10000 until end of turn.'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 5
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+
+CardStat = 8388
+{
+global.CardName[CardStat] = 'Cardinal Draco, Barbisonde'
+global.CardText[CardStat] = 'Cyber Dragon/Critical Trigger/Brandt Gate
+'
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 5
+}
+global.TriggerUnit[CardStat] = 2
+global.PowerStat[CardStat] = 5000
+global.DefensePowerStat[CardStat] = 15000
+
+
+CardStat = 8389
+{
+global.CardName[CardStat] = 'Cardinal Fang, Fulgurus'
+global.CardText[CardStat] = 'Cyber Beast/Draw Trigger/Brandt Gate
+'
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 5
+}
+global.TriggerUnit[CardStat] = 1
+global.PowerStat[CardStat] = 5000
+global.DefensePowerStat[CardStat] = 5000
+
+
+CardStat = 8390
+{
+global.CardName[CardStat] = 'Cardinal Draco, Abrard'
+global.CardText[CardStat] = 'Cyber Dragon/Front Trigger/Brandt Gate
+'
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 5
+}
+global.TriggerUnit[CardStat] = 5
+global.PowerStat[CardStat] = 5000
+global.DefensePowerStat[CardStat] = 15000
+
+
+CardStat = 8391
+{
+global.CardName[CardStat] = 'Cardinal Prima, Navirem'
+global.CardText[CardStat] = 'Cyber Fairy/Heal Trigger/Brandt Gate
+
+You may only have up to four cards with "HEAL" in a deck.'
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 5
+}
+global.TriggerUnit[CardStat] = 4
+global.PowerStat[CardStat] = 5000
+global.DefensePowerStat[CardStat] = 15000

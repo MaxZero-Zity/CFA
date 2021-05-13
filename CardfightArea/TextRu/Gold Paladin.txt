@@ -5536,3 +5536,20 @@ global.CardInClan[CardStat] = 5
 }
 global.PowerStat[CardStat] = 8000
 global.DefensePowerStat[CardStat] = 10000
+
+CardStat = 8266
+{
+global.CardName[CardStat] = 'Prominence Glare of the Bluish Flames'
+global.CardText[CardStat] = 'Gold Paladin/космический дракон/Единое святилище/дар воображения: Ускорение
+
+АВТО: при помещении в авангард, посмотрите на четыре верхние карты колоды, выберите до одной карты, призовите её в арьергард, а остаток поместите в низ колоды в любом порядке.
+
+АВТО [Авангард]: когда этот воин атакует, заплатите цену [Встречный взрыв 1 & скиньте карту из руки] и выполните все нижестоящие способности, в зависимости от количества призванных Вами в этом ходу арьергардов.
+• Минимум 3: до конца боя сила этого воина увеличивается на 15,000, а критический удар — на один.
+• Минимум 4: до конца боя оппонент не может призывать стражей из руки в круг защиты.'
+global.UnitGrade[CardStat] = 3
+global.CardInClan[CardStat] = 5
+}
+global.OrangeTokenAdd[CardStat] = 1
+global.PowerStat[CardStat] = 12000
+global.DefensePowerStat[CardStat] = 0

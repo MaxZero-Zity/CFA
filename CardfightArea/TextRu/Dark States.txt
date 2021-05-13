@@ -1,0 +1,537 @@
+CardStat = 8239
+{
+global.CardName[CardStat] = 'Diabolos, "Violence" Bruce'
+global.CardText[CardStat] = 'Демон/Тёмное королевство/персональная смена
+
+АВТО [Авангард]: в начале Вашей фазы смены, Вы совершаете последний рывок (когда Вы находитесь в состоянии последнего рывка, определённые воины получают дополнительную силу!)
+
+АВТО [Авангард]: когда этот воин атакует, если Вы находитесь в состоянии последнего рывка, заплатите цену [Взрыв души 5] и поднимите всех своих арьергардов в переднем ряду.'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 2
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+
+
+CardStat = 8240
+{
+global.CardName[CardStat] = 'Diabolos, "Anger" Richard'
+global.CardText[CardStat] = 'Демон/Тёмное королевство
+
+АВТО: когда этот воин помещается в круг авангарда, заплатите цену [поместите одного своего арьергарда к себе в душу] и возьмите одну карту из колоды.
+
+ПРОДОЛЖИТЕЛЬНЫЙ [Арьергард]: если Вы находитесь в состоянии последнего рывка, сила этого воина увеличивается на 5,000.'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 2
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+
+CardStat = 8241
+{
+global.CardName[CardStat] = 'Diabolos, "Bad" Steve'
+global.CardText[CardStat] = 'Демон/Тёмное королевство
+
+АВТО: когда этот воин помещается в круг авангарда, выберите одну карту у себя в душе, призовите её в свой центральный задний круг арьергарда и активируйте Заряд души 1.
+
+ПРОДОЛЖИТЕЛЬНЫЙ [Арьергард]: если Вы находитесь в состоянии последнего рывка, сила этого воина увеличивается на 5,000.'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 2
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+
+CardStat = 8242
+{
+global.CardName[CardStat] = 'Acrobat Presenter'
+global.CardText[CardStat] = 'Демон/Тёмное королевство
+
+АВТО [Арьергард]: когда этот воин атакует или поддерживает, если у Вас в авангарде находится Diabolos, "Violence" Bruce, активируйте Заряд души 1 и, если Вы находитесь в состоянии последнего рывка, активируйте Заряд души 1.'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 2
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+
+CardStat = 8243
+{
+global.CardName[CardStat] = 'Brothers Soul'
+global.CardText[CardStat] = 'Обычный приказ/Тёмное королевство
+
+Активируйте Заряд души 2.'
+global.UnitGrade[CardStat] = 1
+global.CardInClan[CardStat] = 30
+global.DCards[CardStat] = 2
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 8245
+{
+global.CardName[CardStat] = 'Time-fissuring Fist Colossus'
+global.CardText[CardStat] = 'Механический колосс/Тёмное королевство/персональная смена
+
+АВТО: когда этот воин помещается в арьергард, активируйте Заряд души 1. Затем, если Вы находитесь в состоянии последнего рывка, заплатите цену [Встречный взрыв 1] и до конца хода сила этого воина увеличивается на 15,000.'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 2
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 8255
+{
+global.CardName[CardStat] = 'Steam Gunner, Brody'
+global.CardText[CardStat] = 'Механический робот/Тёмное королевство
+
+АВТО: когда этот воин помещается в Ваш круг защиты, заплатите цену [Встречный взрыв 1] и до конца боя защита этого воина увеличивается на 5,000.'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 2
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 8289
+{
+global.CardName[CardStat] = 'Direful Doll, Simone'
+global.CardText[CardStat] = 'Рабочий робот/Тёмное королевство
+
+АВТО [Арьергард]: когда этот воин поддерживает, если у Вас в душе как минимум пять карт, заплатите цену [Встречный взрыв 1] и до конца боя, когда оппонент собирается призывать карты из руки, он должен призвать сразу как минимум две.'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 2
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+
+CardStat = 8290
+{
+global.CardName[CardStat] = 'Crawl, you "Insects"!'
+global.CardText[CardStat] = 'Обычный приказ/Тёмное королевство
+
+Для активации этой карты, заплатите цену [Встречный взрыв 1]!
+Активируйте Заряд души 1. Затем, выберите одного своего воина и до конца хода его сила увеличивается на 10,000 за каждые пять карт у Вас в душе. Если у Вас в душе как минимум десять карт, возьмите одну карту из колоды.'
+global.UnitGrade[CardStat] = 3
+global.CardInClan[CardStat] = 30
+global.DCards[CardStat] = 2
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+
+
+CardStat = 8291
+{
+global.CardName[CardStat] = 'Master of Gravity, Baromagnes'
+global.CardText[CardStat] = 'Человек/Тёмное королевство/персональная смена
+
+АВТО [Авангард]: когда этот воин атакует, заплатите цену [Встречный взрыв 1] и выполните все нижестоящие способности, в зависимости от количества карт у Вас в душе.
+• 5+: возьмите одну карту из колоды.
+• 10+: до конца боя сила этого воина увеличивается на 10,000, а критический удар — на один.
+• 15+: Вы и Ваш оппонент помещаете всех своих арьергардов в свои души. Выберите до двух карт у себя в душе, призовите их в арьергард, и до конца хода их сила увеличивается на 10,000.'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 2
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+
+
+CardStat = 8292
+{
+global.CardName[CardStat] = 'Electro Spartan'
+global.CardText[CardStat] = 'Человек/Тёмное королевство
+
+АВТО: когда поверх этой карты сменяется Master of Gravity, Baromagnes, заплатите цену [поместите одну карту из своей руки в свою душу], возьмите одну карту из колоды и активируйте Заряд души 1.
+
+АВТО: когда этот воин помещается в арьергард, заплатите цену [Встречный взрыв 1] и активируйте Заряд души 2.'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 2
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+
+CardStat = 8293
+{
+global.CardName[CardStat] = 'Deep Soniker'
+global.CardText[CardStat] = 'Человек/Тёмное королевство
+
+АВТО: когда этот воин помещается в круг авангарда, активируйте Заряд души 1.
+
+ПРОДОЛЖИТЕЛЬНЫЙ [Арьергард]: во время Вашего хода, если у Вас в душе как минимум десять карт, сила этого воина увеличивается на 10,000.'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 2
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+
+CardStat = 8294
+{
+global.CardName[CardStat] = 'Uncanny Burning'
+global.CardText[CardStat] = 'Человек/Тёмное королевство
+
+АВТО: когда Вы делаете смену поверх этого воина, если Вы ходите вторым, возьмите одну карту из колоды.'
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 2
+}
+global.PowerStat[CardStat] = 6000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 8288
+{
+global.CardName[CardStat] = 'Direful Doll, Violetta'
+global.CardText[CardStat] = 'Рабочий робот/Тёмное королевство
+
+АКТ [Душа]: если у Вас в душе как минимум десять карт, заплатите цену [Встречный взрыв 1] и призовите эту карту к себе в арьергард.'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 2
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 8317
+{
+global.CardName[CardStat] = 'Steam Detective, Uvaritt'
+global.CardText[CardStat] = 'Механический робот/Тёмное королевство
+
+АВТО: когда этот воин помещается в круг арьергарда, выберите одного другого своего воина, находящегося с данным воином в одной колонке, и до конца хода его сила увеличивается на 2,000. Если Вы находитесь в состоянии последнего рывка, сила выбранного Вами воина увеличивается на 5,000 вместо 2,000.'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 2
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+
+CardStat = 8318
+{
+global.CardName[CardStat] = 'Protobulb Dragon'
+global.CardText[CardStat] = 'Механический дракон/Тёмное королевство
+
+АВТО [Арьергард]: когда этот воин атакует или поддерживает, если Вы находитесь в состоянии последнего рывка, заплатите цену [Встречный взрыв 1 & поместите одного своего другого арьергарда себе в душу], выберите одну карту у себя в душе и возьмите её в руку.'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 2
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+
+CardStat = 8319
+{
+global.CardName[CardStat] = 'Steam Artist, Pithana'
+global.CardText[CardStat] = 'Механический робот/Тёмное королевство
+
+АКТ [Арьергард]: заплатите цену [поместите этого воина в свою душу], выберите одного своего воина и до конца хода его сила увеличивается на 2,000.'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 2
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+
+CardStat = 8320
+{
+global.CardName[CardStat] = 'Diabolos Boys, Eden'
+global.CardText[CardStat] = 'Демон/Тёмное королевство
+
+ПРОДОЛЖИТЕЛЬНЫЙ [Арьергард]: если Вы находитесь в состоянии последнего рывка, сила этого воина увеличивается на 5,000 и, если во время этого хода данный воин поднялся способностью карты, его критический удар увеличивается на один.
+
+АВТО [Арьергард]: когда атака этого воина достигает цели, заплатите цену [Встречный взрыв 1], выберите одного арьергарда оппонента и уберите его с поля.'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 2
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+
+CardStat = 8321
+{
+global.CardName[CardStat] = 'Soulful Wild Master, Megan'
+global.CardText[CardStat] = 'Эльф/Тёмное королевство
+
+ПРОДОЛЖИТЕЛЬНЫЙ [Арьергард]: если во время этого хода Вы активировали Заряд души, сила этого воина увеличивается на 2,000.'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 2
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+
+CardStat = 8322
+{
+global.CardName[CardStat] = 'Upward Acrobat, Marjorie'
+global.CardText[CardStat] = 'Суккуб/Тёмное королевство/персональная смена
+
+АВТО [Арьергард] [Один раз за ход]: когда этот воин атакует, если Вы находитесь в состоянии последнего рывка, заплатите цену [поместите одного своего другого арьергарда к себе в душу], возьмите одну карту из колоды, активируйте Заряд души 1 и до конца хода сила этого воина увеличивается на 10,000.'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 2
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+
+
+CardStat = 8323
+{
+global.CardName[CardStat] = 'Hades Dragon Deity of Resentment, Gallmageheld'
+global.CardText[CardStat] = 'Дракон бездны/Тёмное королевство/сверхтриггер
+
+У Вас в колоде может находиться только один сверхтриггер. Когда эта карта раскрывается в качестве триггера, уберите её из игры, возьмите одну карту из колоды, выберите одного своего воина и до конца хода его сила увеличивается на 100 миллионов! Если эта карта раскрывается во время проверка эффектов, активируйте дополнительную способность!
+Дополнительная способность — до конца этой игры Вы приобретаете следующую способность: «во время Вашего хода, сила всех Ваших авангардов увеличивается на 10,000, а критический удар — на один»!'
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 2
+}
+global.TriggerUnit[CardStat] = 6
+global.PowerStat[CardStat] = 5000
+global.DefensePowerStat[CardStat] = 50000
+
+CardStat = 8330
+{
+global.CardName[CardStat] = 'Diabolos, "Innocent" Matt'
+global.CardText[CardStat] = 'Демон/Тёмное королевство
+
+АВТО: когда Вы делаете смену поверх этого воина, если Вы ходите вторым, возьмите одну карту из колоды.'
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 2
+}
+global.PowerStat[CardStat] = 6000
+global.DefensePowerStat[CardStat] = 5000
+
+
+CardStat = 8331
+{
+global.CardName[CardStat] = 'Diabolos Girls, Arianna'
+global.CardText[CardStat] = 'Суккуб/Тёмное королевство/исцеляющий триггер-эффект
+
+В колоде не может быть больше четырёх исцеляющих триггер-эффектов.'
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 2
+}
+global.TriggerUnit[CardStat] = 4
+global.PowerStat[CardStat] = 5000
+global.DefensePowerStat[CardStat] = 15000
+
+
+CardStat = 8332
+{
+global.CardName[CardStat] = 'Diabolos Officer, Gillian'
+global.CardText[CardStat] = 'Суккуб/Тёмное королевство/передовой триггер-эффект'
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 2
+}
+global.TriggerUnit[CardStat] = 5
+global.PowerStat[CardStat] = 5000
+global.DefensePowerStat[CardStat] = 15000
+
+
+CardStat = 8333
+{
+global.CardName[CardStat] = 'Diabolos Boys, Jake'
+global.CardText[CardStat] = 'Демон/Тёмное королевство/дающий карту триггер-эффект'
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 2
+}
+global.TriggerUnit[CardStat] = 1
+global.PowerStat[CardStat] = 5000
+global.DefensePowerStat[CardStat] = 5000
+
+
+CardStat = 8334
+{
+global.CardName[CardStat] = 'Diabolos Girls, Maimai'
+global.CardText[CardStat] = 'Суккуб/Тёмное королевство/критический триггер-эффект'
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 2
+}
+global.TriggerUnit[CardStat] = 2
+global.PowerStat[CardStat] = 5000
+global.DefensePowerStat[CardStat] = 15000
+
+
+CardStat = 8335
+{
+global.CardName[CardStat] = 'Psychic Prima, Miranda'
+global.CardText[CardStat] = 'Человек/Тёмное королевство
+
+ПРОДОЛЖИТЕЛЬНЫЙ: страж.
+
+АВТО: когда этот воин помещается в круг защиты, заплатите цену [скиньте одну карту из своей руки], выберите одного своего воина и до конца боя атаки по нему не проходят.'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 2
+}
+global.PowerStat[CardStat] = 7000
+global.DefensePowerStat[CardStat] = 0
+
+
+CardStat = 8336
+{
+global.CardName[CardStat] = 'Icicle Ein, Aizer'
+global.CardText[CardStat] = 'Человек/Тёмное королевство'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 2
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 8371
+{
+global.CardName[CardStat] = 'Steam Gunner, Rimush'
+global.CardText[CardStat] = 'Механический робот/Тёмное королевство
+
+ПРОДОЛЖИТЕЛЬНЫЙ [Арьергард]: во время битвы, в которой этот воин поддерживает, если у Вас в душе как минимум пять карт, сила этого воина увеличивается на 2,000, а оппонент не может перехватывать. '
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 2
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+
+CardStat = 8372
+{
+global.CardName[CardStat] = 'Recusal Hate Dragon'
+global.CardText[CardStat] = 'Дракон бездны/Тёмное королевство
+
+ПРОДОЛЖИТЕЛЬНЫЙ: страж.
+
+АВТО: когда эта карта помещается в круг защиты, выберите одного своего воина и до конца битвы атаки по нему не проходят. Если у Вас в руке как минимум две карты, выберите одну карту у себя в руке и скиньте её.'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 2
+}
+global.PowerStat[CardStat] = 6000
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 8404
+{
+global.CardName[CardStat] = 'Selfish Engraver'
+global.CardText[CardStat] = 'Человек/Тёмное королевство
+
+АВТО [Арьергард]: когда атака этого воина достигает цели, активируйте Заряд души 1.
+
+АВТО [Арьергард]: в конце битвы, в которой этот воин атаковал, если у Вас в душе как минимум десять карт, заплатите цену [поместите этого воина в свою душу] и активируйте Заряд счётчика 1.'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 2
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+
+CardStat = 8405
+{
+global.CardName[CardStat] = 'Steam Battler, Gungunuram'
+global.CardText[CardStat] = 'Механический робот/Тёмное королевство
+
+АВТО: когда этот воин помещается в круг арьергарда, активируйте Заряд души 1.
+
+АКТ [Арьергард] [Один раз за ход]: заплатите цену [Взрыв души 3] и возьмите одну карту из колоды.'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 2
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+
+CardStat = 8406
+{
+global.CardName[CardStat] = 'Eminence Jarboberos'
+global.CardText[CardStat] = 'Химера/Тёмное королевство
+
+АВТО [Арьергард]: когда этот воин поддерживает, до конца хода его сила увеличивается на 2,000.'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 2
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+
+CardStat = 8408
+{
+global.CardName[CardStat] = 'Phantasma Magician, Curtis'
+global.CardText[CardStat] = 'Эльф/Тёмное королевство/персональная смена
+
+АВТО: когда этот воин помещается в круг арьергарда, если у Вас в авангарде находится Master of Gravity, Baromagnes, активируйте Заряд души 2.
+
+АКТ [Арьергард]: если у Вас в душе как минимум десять карт, заплатите цену [Встречный взрыв 2] и до конца хода сила всех Ваших воинов в переднем ряду увеличивается на 5,000.'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 2
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+
+
+CardStat = 8409
+{
+global.CardName[CardStat] = 'Shadow Leak Magician'
+global.CardText[CardStat] = 'Эльф/Тёмное королевство
+
+ПРОДОЛЖИТЕЛЬНЫЙ [Арьергард]: этот воин не может быть выбран способностями карт оппонента.'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 2
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+
+CardStat = 8410
+{
+global.CardName[CardStat] = 'Flinty Slasher'
+global.CardText[CardStat] = 'Человек/Тёмное королевство/критический триггер-эффект
+'
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 2
+}
+global.TriggerUnit[CardStat] = 2
+global.PowerStat[CardStat] = 5000
+global.DefensePowerStat[CardStat] = 15000
+
+
+CardStat = 8411
+{
+global.CardName[CardStat] = 'Vital Reaver'
+global.CardText[CardStat] = 'Человек/Тёмное королевство/дающий карту триггер-эффект
+'
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 2
+}
+global.TriggerUnit[CardStat] = 1
+global.PowerStat[CardStat] = 5000
+global.DefensePowerStat[CardStat] = 5000
+
+
+CardStat = 8412
+{
+global.CardName[CardStat] = 'Hackle Hustle'
+global.CardText[CardStat] = 'Человек/Тёмное королевство/передовой триггер-эффект
+'
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 2
+}
+global.TriggerUnit[CardStat] = 5
+global.PowerStat[CardStat] = 5000
+global.DefensePowerStat[CardStat] = 15000
+
+
+CardStat = 8413
+{
+global.CardName[CardStat] = 'Steam Scara, Malnigal'
+global.CardText[CardStat] = 'Механический робот/Тёмное королевство/исцеляющий триггер-эффект
+
+В колоде не может быть больше четырёх исцеляющих триггер-эффектов.'
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 2
+}
+global.TriggerUnit[CardStat] = 4
+global.PowerStat[CardStat] = 5000
+global.DefensePowerStat[CardStat] = 15000
+
+CardStat = 8407
+{
+global.CardName[CardStat] = 'Tartarus Beatscram'
+global.CardText[CardStat] = 'Быстрый приказ/Тёмное королевство
+
+Если у Вас в душе находятся как минимум пять карт, выберите одного своего воина и до конца боя его сила увеличивается на 15,000.'
+global.UnitGrade[CardStat] = 1
+global.CardInClan[CardStat] = 30
+global.DCards[CardStat] = 2
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0

@@ -4353,3 +4353,17 @@ global.CardInClan[CardStat] = 6
 }
 global.PowerStat[CardStat] = 8000
 global.DefensePowerStat[CardStat] = 10000
+
+CardStat = 8295
+{
+global.CardName[CardStat] = 'Toxic Monster, Gelsludge'
+global.CardText[CardStat] = 'Dimension Police/пришелец/Звёздные врата
+
+АВТО: когда этот воин помещается в круг авангарда или арьергарда, если у авангарда оппонента как минимум 2ой ранг, заплатите цену [Взрыв души 1] и выполните одну из нижестоящих способностей. Если у авангарда оппонента как минимум 3ий ранг, выполните все нижестоящие способности.
+• Оппонент может активировать Встречный взрыв 1. Если он этого не сделает, Вы берёте одну карту из колоды.
+• Оппонент может активировать Взрыв души 1. Если он этого не сделает, Вы выбираете одного авангарда оппонента и до конца хода его сила снижается на 5,000.'
+global.UnitGrade[CardStat] = 2
+global.CardInClan[CardStat] = 6
+}
+global.PowerStat[CardStat] = 9000
+global.DefensePowerStat[CardStat] = 5000

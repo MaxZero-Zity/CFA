@@ -5957,3 +5957,18 @@ global.CardInClan[CardStat] = 24
 }
 global.PowerStat[CardStat] = 8000
 global.DefensePowerStat[CardStat] = 10000
+
+CardStat = 8424
+{
+global.CardName[CardStat] = '"Perfectus" Messiah'
+global.CardText[CardStat] = 'Link Joker/Messiah
+
+(This card cannot be used in a deck.)
+
+ACT [V]: COST [Soul Blast 6 with "Messiah" in their card names], and deal six damage to your opponents vanguard!'
+global.UnitGrade[CardStat] = 3
+global.CardInClan[CardStat] = 24
+global.CardBanned[CardStat] = 1
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 0

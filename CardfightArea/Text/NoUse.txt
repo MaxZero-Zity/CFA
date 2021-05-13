@@ -1,7 +1,7 @@
 n = x
 
-global.AllCard = 8220
-global.Versia = 331
+global.AllCard = 8425
+global.Versia = 400
 
 CardStat = 1
 {
@@ -259,5 +259,22 @@ global.CardText[8096] = 'This represents Meers Present, and cannot be put in a d
 global.CardInClan[8096] = 29
 
 global.PowerStat[8096] = 0
+
+}
+
+CardStat = 8425
+
+{
+
+global.CardName[8425] = 'Shadow Army'
+
+global.CardText[8425] = 'Shadow Army/Brandt Gate
+
+This represents a Shadow Army token, and cannot be put in a deck.
+'
+
+global.CardInClan[8425] = 29
+
+global.PowerStat[8425] = 15000
 
 }

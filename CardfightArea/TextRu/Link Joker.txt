@@ -5896,3 +5896,18 @@ global.CardInClan[CardStat] = 24
 }
 global.PowerStat[CardStat] = 8000
 global.DefensePowerStat[CardStat] = 10000
+
+CardStat = 8424
+{
+global.CardName[CardStat] = '"Perfectus" Messiah'
+global.CardText[CardStat] = 'Link Joker/мессия
+
+(Эта карта не может быть использована в колоде.)
+
+АКТ [Авангард]: заплатите цену [Взрыв души 6 картами, в именах которых содержится «Messiah»] и нанесите авангарду оппонента шесть очков урона!'
+global.UnitGrade[CardStat] = 3
+global.CardInClan[CardStat] = 24
+global.CardBanned[CardStat] = 1
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 0
