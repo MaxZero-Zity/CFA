@@ -4,9 +4,9 @@ CardStat = x
 global.CardName[CardStat] = 'Captain Nightkid'
 global.CardText[CardStat] = 'Granblue/Vampire/Magallanica
 
-AUTO: Pioneer (When another unit from the same clan rides this unit, you may call this card to Rear-guard circle.)
+AUTO: Forerunner (When another unit from the same clan rides this unit, you may call this card to RC.)
 
-ACT [R]: [Counter Blast 1 & Put this unit into your soul] Look at up to ten cards from the top of your deck, search for up to one «Granblue» from among them, put it into your drop zone, and shuffle your deck.'
+ACT [RC]: [Counter Blast 1 & Put this unit into your soul] Look at up to ten cards from the top of your deck, search for up to one «Granblue» from among them, put it into your drop zone, and shuffle your deck.'
 }
 
 CardStat = x+1
@@ -14,7 +14,7 @@ CardStat = x+1
 global.CardName[CardStat] = 'Chappie the Ghostie'
 global.CardText[CardStat] = 'Granblue/Ghost/Magallanica
 
-AUTO: When this unit called to the Guardian circle, search for 1 «Granblue» from your deck, send it to the drop zone, and shuffle that deck.'
+AUTO: When this unit called to the GC, search for 1 «Granblue» from your deck, send it to the drop zone, and shuffle that deck.'
 }
 
 CardStat = x+2
@@ -36,9 +36,9 @@ CardStat = x+4
 global.CardName[CardStat] = 'Guiding Zombie'
 global.CardText[CardStat] = 'Granblue/Zombie/Magallanica
 
-AUTO: Pioneer (When another unit from the same clan rides this unit, you may call this card to Rear-guard circle.)
+AUTO: Forerunner (When another unit from the same clan rides this unit, you may call this card to RC.)
 
-ACT [R]: [Put this unit into your soul] Put three cards from the top of your deck into your drop zone.'
+ACT [RC]: [Put this unit into your soul] Put three cards from the top of your deck into your drop zone.'
 }
 
 CardStat = x+5
@@ -46,7 +46,7 @@ CardStat = x+5
 global.CardName[CardStat] = 'Hades Steersman'
 global.CardText[CardStat] = 'Granblue/Ghost/Magallanica/Stand Trigger
 
-AUTO [Drop zone]: When your grade 3 «Granblue» is placed on Vanguard ñircle, you may call this card to Rear-guard ñircle on the same column as that unit.'
+AUTO [Drop zone]: When your grade 3 «Granblue» is placed on VC ñircle, you may call this card to RC on the same column as that unit.'
 }
 
 CardStat = x+6
@@ -66,7 +66,7 @@ CardStat = x+8
 global.CardName[CardStat] = 'Rick the Ghostie'
 global.CardText[CardStat] = 'Granblue/Ghost/Magallanica/Heal Trigger
 
-You may only have up to four cards with "HEAL" in a deck.'
+(You may only have up to four cards with "HEAL" in a deck.)'
 }
 
 CardStat = x+9
@@ -74,7 +74,7 @@ CardStat = x+9
 global.CardName[CardStat] = 'Rough Seas Banshee'
 global.CardText[CardStat] = 'Granblue/Ghost/Magallanica/Critical Trigger
 
-ACT [R]: [Move this unit to soul] If you have a «Granblue» Vanguard, draw up to 1 card.'
+ACT [RC]: [Move this unit to soul] If you have a «Granblue» Vanguard, draw up to 1 card.'
 }
 
 CardStat = x+10
@@ -82,9 +82,9 @@ CardStat = x+10
 global.CardName[CardStat] = 'Skeleton Assault Troops Captain'
 global.CardText[CardStat] = 'Granblue/Skeleton/Magallanica
 
-AUTO: When another «Granblue» rides this unit, you may call this card to Rear-guard circle.
+AUTO: When another «Granblue» rides this unit, you may call this card to RC.
 
-ACT [R]: [Counter Blast 1 & Put this unit into your soul] Look at up to five cards from the top of your deck, search for up to one grade 3 or greater «Granblue» from among them, reveal it to your opponent, put it into your hand, and shuffle your deck.'
+ACT [RC]: [Counter Blast 1 & Put this unit into your soul] Look at up to five cards from the top of your deck, search for up to one grade 3 or greater «Granblue» from among them, reveal it to your opponent, put it into your hand, and shuffle your deck.'
 }
 
 CardStat = x+11
@@ -98,7 +98,7 @@ CardStat = x+12
 global.CardName[CardStat] = 'Child Frank'
 global.CardText[CardStat] = 'Granblue/Workeroid/Magallanica
 
-ACT [V/R]: [Counter Blast 1] This unit gets power +1000 until end of turn.'
+ACT [VC/RC]: [Counter Blast 1] This unit gets power +1000 until end of turn.'
 }
 
 CardStat = x+13
@@ -106,7 +106,7 @@ CardStat = x+13
 global.CardName[CardStat] = 'Dancing Cutlass'
 global.CardText[CardStat] = 'Granblue/Ghost/Magallanica
 
-AUTO: [Soul Blast 2] When this unit is called to the Rear-guard circle and you have a «Granblue» Vanguard, you may pay the cost. If paid, draw 1 card.'
+AUTO: [Soul Blast 2] When this unit is called to the RC and you have a «Granblue» Vanguard, you may pay the cost. If paid, draw 1 card.'
 }
 
 CardStat = x+14
@@ -120,7 +120,7 @@ CardStat = x+15
 global.CardName[CardStat] = 'Deadly Nightmare'
 global.CardText[CardStat] = 'Granblue/Ghost/Magallanica
 
-ACT [Drop zone]: [Soul Blast 2 & Choose one of your «Granblue» Rear-guards, and retire it] If you have a «Granblue» Vanguard, call this card to Rear-guard circle.'
+ACT [Drop zone]: [Soul Blast 2 & Choose one of your «Granblue» Rear-guards, and retire it] If you have a «Granblue» Vanguard, call this card to RC.'
 }
 
 CardStat = x+16
@@ -128,7 +128,7 @@ CardStat = x+16
 global.CardName[CardStat] = 'Dragon Spirit'
 global.CardText[CardStat] = 'Granblue/Ghost/Magallanica
 
-AUTO [R]: [Soul Blast 1] When this unit boosts a unit named "Ice Prison Necromancer, Cocytus", you may pay the cost. If you do, the boosted unit gets power +5000 until end of that battle.'
+AUTO [RC]: [Soul Blast 1] When this unit boosts a unit named "Ice Prison Necromancer, Cocytus", you may pay the cost. If you do, the boosted unit gets power +5000 until end of that battle.'
 }
 
 CardStat = x+17
@@ -136,7 +136,7 @@ CardStat = x+17
 global.CardName[CardStat] = 'Evil Shade'
 global.CardText[CardStat] = 'Granblue/Ghost/Magallanica
 
-AUTO [R]: [Send the top 2 cards from the top of your deck to the drop zone] When this unit boosts a «Granblue» Vanguard, you may pay the cost. If paid, the boosted unit gains +4000 power during that battle.'
+AUTO [RC]: [Send the top 2 cards from the top of your deck to the drop zone] When this unit boosts a «Granblue» Vanguard, you may pay the cost. If paid, the boosted unit gains power +4000 during that battle.'
 }
 
 CardStat = x+18
@@ -154,7 +154,7 @@ CardStat = x+19
 global.CardName[CardStat] = 'John the Ghostie'
 global.CardText[CardStat] = 'Granblue/Ghost/Magallanica
 
-AUTO [R]: When an attack hits a Vanguard during the battle that this unit boosted a «Granblue», you may return this unit to your hand.'
+AUTO [RC]: When an attack hits a Vanguard during the battle that this unit boosted a «Granblue», you may return this unit to your hand.'
 }
 
 CardStat = x+20
@@ -162,7 +162,7 @@ CardStat = x+20
 global.CardName[CardStat] = 'King Seahorse'
 global.CardText[CardStat] = 'Granblue/Kraken/Magallanica
 
-AUTO [R]: [Choose 1 card from your hand and discard it] During the battle this unit has boosted, when the attack hits, you may pay the cost. If paid, draw 1 card.'
+AUTO [RC]: [Choose 1 card from your hand and discard it] During the battle this unit has boosted, when the attack hits, you may pay the cost. If paid, draw 1 card.'
 }
 
 CardStat = x+21
@@ -170,7 +170,7 @@ CardStat = x+21
 global.CardName[CardStat] = 'Ripple Banshee'
 global.CardText[CardStat] = 'Granblue/Ghost/Magallanica
 
-AUTO: When this unit is placed on Rear-guard circle, choose another of your «Granblue», and that unit gets power +2000 until end of turn.'
+AUTO: When this unit is placed on RC, choose another of your «Granblue», and that unit gets power +2000 until end of turn.'
 }
 
 CardStat = x+22
@@ -178,7 +178,7 @@ CardStat = x+22
 global.CardName[CardStat] = 'Samurai Spirit'
 global.CardText[CardStat] = 'Granblue/Ghost/Magallanica
 
-ACT [Drop zone]: [Counter Blast 1 & choose 1 of your «Granblue» Rear-guards and retire it] If you have a «Granblue» Vanguard, call this card to a Rear-guard circle.'
+ACT [Drop zone]: [Counter Blast 1 & choose 1 of your «Granblue» Rear-guards and retire it] If you have a «Granblue» Vanguard, call this card to a RC.'
 }
 
 CardStat = x+23
@@ -186,7 +186,7 @@ CardStat = x+23
 global.CardName[CardStat] = 'Skeleton Colossus'
 global.CardText[CardStat] = 'Granblue/Skeleton/Magallanica
 
-AUTO [V]: [Choose a «Granblue» from your hand and discard it] At the beginning of your ride phase, if your opponent has a grade 2 or greater Vanguard, you may pay the cost. If you do, you may choose a card named "Skeleton Demon World Knight" from your drop zone and ride it. If you rode, you cannot normal ride during that ride phase.'
+AUTO [VC]: [Choose a «Granblue» from your hand and discard it] At the beginning of your ride phase, if your opponent has a grade 2 or greater Vanguard, you may pay the cost. If you do, you may choose a card named "Skeleton Demon World Knight Knight" from your drop zone and ride it. If you rode, you cannot normal ride during that ride phase.'
 }
 
 CardStat = x+24
@@ -194,7 +194,7 @@ CardStat = x+24
 global.CardName[CardStat] = 'Undead Pirate of the Cursed Riffle'
 global.CardText[CardStat] = 'Granblue/Ghost/Magallanica
 
-AUTO [V/R]: [Choose a card from your hand, and discard it] When this unit attacks, you may pay the cost. If you do, this unit gets power +4000 until end of that battle.'
+AUTO [VC/RC]: [Choose a card from your hand, and discard it] When this unit attacks, you may pay the cost. If you do, this unit gets power +4000 until end of that battle.'
 }
 
 CardStat = x+25
@@ -202,9 +202,9 @@ CardStat = x+25
 global.CardName[CardStat] = 'Captain Nightmist'
 global.CardText[CardStat] = 'Granblue/Vampire/Magallanica
 
-CONT [V]: During your turn, if "Captain Nightmist" is in your drop zone, this unit gains +3000 power.
+CONT [VC]: During your turn, if "Captain Nightmist" is in your drop zone, this unit gains power +3000.
 
-ACT [Drop zone]: [Counter Blast 1 & Choose one grade 1 or above «Granblue» Rear-guard and retire it]. When you have a «Granblue» Vanguard, call this card into a Rear-guard circle.'
+ACT [Drop zone]: [Counter Blast 1 & Choose one grade 1 or above «Granblue» Rear-guard and retire it]. When you have a «Granblue» Vanguard, call this card into a RC.'
 }
 
 CardStat = x+26
@@ -218,7 +218,7 @@ CardStat = x+27
 global.CardName[CardStat] = 'Deadly Spirit'
 global.CardText[CardStat] = 'Granblue/Ghost/Magallanica
 
-ACT [Drop zone]: [Soul Blast 2 & Choose one of your grade 1 or greater «Granblue» Rear-guards and retire it] If you have a «Granblue» Vanguard, call this card to Rear-guard circle.'
+ACT [Drop zone]: [Soul Blast 2 & Choose one of your grade 1 or greater «Granblue» Rear-guards and retire it] If you have a «Granblue» Vanguard, call this card to RC.'
 }
 
 CardStat = x+28
@@ -226,7 +226,7 @@ CardStat = x+28
 global.CardName[CardStat] = 'Greed Shade'
 global.CardText[CardStat] = 'Granblue/Ghost/Magallanica
 
-AUTO [V/R]: When this unit attacks, if the number of cards in your hand is greater than your opponents, this unit gets power +3000 until end of that battle.'
+AUTO [VC/RC]: When this unit attacks, if the number of cards in your hand is greater than your opponent’s, this unit gets power +3000 until end of that battle.'
 }
 
 CardStat = x+29
@@ -234,7 +234,7 @@ CardStat = x+29
 global.CardName[CardStat] = 'Ruin Shade'
 global.CardText[CardStat] = 'Granblue/Ghost/Magallanica
 
-AUTO [V/R]: [Put two cards from the top of your deck into your drop zone] When this unit attacks, if you have a «Granblue» Vanguard, you may pay the cost. If you do, this unit gets +2000 power until end of that battle.'
+AUTO [VC/RC]: [Put two cards from the top of your deck into your drop zone] When this unit attacks, if you have a «Granblue» Vanguard, you may pay the cost. If you do, this unit gets power +2000 until end of that battle.'
 }
 
 
@@ -243,15 +243,15 @@ CardStat = x+30
 global.CardName[CardStat] = 'Sea Navigator, Silver'
 global.CardText[CardStat] = 'Granblue/Vampire/Magallanica
 
-AUTO [V/R]: When this units attack hits a Vanguard, if you have four or more other «Granblue» Rear-guards, draw a card.'
+AUTO [VC/RC]: When this unit’s attack hits a Vanguard, if you have four or more other «Granblue» Rear-guards, draw a card.'
 }
 
 CardStat = x+31
 {
-global.CardName[CardStat] = 'Skeleton Demon World'
+global.CardName[CardStat] = 'Skeleton Demon World Knight'
 global.CardText[CardStat] = 'Granblue/Skeleton/Magallanica
 
-AUTO [V]: [Choose a «Granblue» from your hand and discard it] At the beginning of your ride phase, if your opponent has a grade 3 or greater Vanguard, you may pay the cost. If you do, you may choose a card named "Ice Prison Necromancer, Cocytus" from your drop zone, and ride it. If you rode, you cannot normal ride during that ride phase.'
+AUTO [VC]: [Choose a «Granblue» from your hand and discard it] At the beginning of your ride phase, if your opponent has a grade 3 or greater Vanguard, you may pay the cost. If you do, you may choose a card named "Ice Prison Necromancer, Cocytus" from your drop zone, and ride it. If you rode, you cannot normal ride during that ride phase.'
 }
 
 CardStat = x+32
@@ -259,7 +259,7 @@ CardStat = x+32
 global.CardName[CardStat] = 'Skeleton Swordsman'
 global.CardText[CardStat] = 'Granblue/Skeleton/Magallanica
 
-AUTO: When this unit intercepts, and you have a «Granblue» Vanguard, during that battle, this units shield gains +5000.'
+AUTO: When this unit intercepts, and you have a «Granblue» Vanguard, during that battle, this unit’s shield gains +5000.'
 }
 
 
@@ -270,19 +270,19 @@ CardStat = x+32
 global.CardName[CardStat] = 'Stormride Ghost Ship'
 global.CardText[CardStat] = 'Granblue/Ghost/Magallanica
 
-CONT [V/R]: Restraint (This unit cannot attack.)
+CONT [VC/RC]: Restraint (This unit cannot attack.)
 
-AUTO [V/R]: When your «Granblue» is placed on Rear-guard ñircle from the drop zone, this unit loses "Restraint" until end of turn.
+AUTO [VC/RC]: When your «Granblue» is placed on Rear-guard ñircle from the drop zone, this unit loses "Restraint" until end of turn.
 
-AUTO [V]: When this unit is boosted by a «Granblue», this unit gets power +5000 until end of that battle.'
+AUTO [VC]: When this unit is boosted by a «Granblue», this unit gets power +5000 until end of that battle.'
 }
 
 CardStat = x+33
 {
-global.CardName[CardStat] = 'Three Star Chief, Pietro' 
+global.CardName[CardStat] = 'Three Star Chef, Pietro' 
 global.CardText[CardStat] = 'Granblue/Skeleton/Magallanica
 
-AUTO [V/R]: When this unit attacks hits a Vanguard, if you have a «Granblue» Vanguard, choose a card from your damage zone and turn it face-up.'
+AUTO [VC/RC]: When this unit attacks hits a Vanguard, if you have a «Granblue» Vanguard, choose a card from your damage zone and turn it face-up.'
 }
 
 CardStat = x+34
@@ -290,7 +290,7 @@ CardStat = x+34
 global.CardName[CardStat] = 'Undead Pirate of the Frigid Night'
 global.CardText[CardStat] = 'Granblue/Zombie/Magallanica
 
-AUTO [V/R]: When this unit attacks, if the number of cards in your hand is less than your opponents, this unit gets power +3000 until end of that battle.'
+AUTO [VC/RC]: When this unit attacks, if the number of cards in your hand is less than your opponent’s, this unit gets power +3000 until end of that battle.'
 }
 
 CardStat = x+35
@@ -298,9 +298,9 @@ CardStat = x+35
 global.CardName[CardStat] = 'Deadly Swordmaster'
 global.CardText[CardStat] = 'Granblue/Ghost/Magallanica
 
-CONT [V/R]: If you have a non-«Granblue» Vanguard or Rear-guard, this unit gets power -2000.
+CONT [VC/RC]: If you have a non-«Granblue» Vanguard or Rear-guard, this unit gets power -2000.
 
-ACT [Drop zone]: [Choose a unit named "Deadly Spirit" and a unit named "Deadly Nightmare" from your Rear-guard circle, and retire them] If you have a grade 2 or greater «Granblue» Vanguard, ride this card.'
+ACT [Drop zone]: [Choose a unit named "Deadly Spirit" and a unit named "Deadly Nightmare" from your RC, and retire them] If you have a grade 2 or greater «Granblue» Vanguard, ride this card.'
 }
 
 CardStat = x+36
@@ -308,7 +308,7 @@ CardStat = x+36
 global.CardName[CardStat] = 'Death Seeker, Thanatos'
 global.CardText[CardStat] = 'Granblue/Noble/Magallanica
 
-AUTO [R]: [Counter Blast 1 & Retire this unit] When this units attack hits the Vanguard, if you have a «Granblue» Vanguard, you may pay the cost. If you do, choose a «Granblue» other than a card named "Death Seeker, Thanatos" from your drop zone, and call it to Rear-guard circle.'
+AUTO [RC]: [Counter Blast 1 & Retire this unit] When this unit’s attack hits the Vanguard, if you have a «Granblue» Vanguard, you may pay the cost. If you do, choose a «Granblue» other than a card named "Death Seeker, Thanatos" from your drop zone, and call it to RC.'
 }
 
 CardStat = x+37
@@ -316,9 +316,9 @@ CardStat = x+37
 global.CardName[CardStat] = 'Dragon Undead, Skull Dragon'
 global.CardText[CardStat] = 'Granblue/Skeleton/Magallanica
 
-AUTO [R]: When this unit attacks, if you have a «Granblue» Vanguard, this unit gets power +3000 until end of that battle, and at the beginning of the end phase of that turn, retire this unit.
+AUTO [RC]: When this unit attacks, if you have a «Granblue» Vanguard, this unit gets power +3000 until end of that battle, and at the beginning of the end phase of that turn, retire this unit.
 
-ACT [Drop zone]: [Counter Blast 1 & Choose one of your grade 2 or greater «Granblue» Rear-guards and retire it] If you have a «Granblue» Vanguard, call this card to Rear-guard circle.'
+ACT [Drop zone]: [Counter Blast 1 & Choose one of your grade 2 or greater «Granblue» Rear-guards and retire it] If you have a «Granblue» Vanguard, call this card to RC.'
 }
 
 CardStat = x+38
@@ -326,7 +326,7 @@ CardStat = x+38
 global.CardName[CardStat] = 'God-eating Zombie Shark'
 global.CardText[CardStat] = 'Granblue/Zombie/Magallanica
 
-AUTO [V/R]: When this unit is boosted by a «Granblue», this unit gets power +2000 until end of that battle.'
+AUTO [VC/RC]: When this unit is boosted by a «Granblue», this unit gets power +2000 until end of that battle.'
 }
 
 CardStat = x+39
@@ -334,9 +334,9 @@ CardStat = x+39
 global.CardName[CardStat] = 'Ice Prison Necromancer, Cocytus'
 global.CardText[CardStat] = 'Granblue/Skeleton/Magallanica
 
-AUTO [V]: Limit Break 4 (This ability is active if you have four or more damage): When this unit attacks a Vanguard, this unit gets power +5000 until end of that battle.
+AUTO [VC]: Limit Break 4 (This ability is active if you have four or more damage): When this unit attacks a Vanguard, this unit gets power +5000 until end of that battle.
 
-AUTO: [Counter Blast 2] When this unit is placed on Vanguard circle, you may pay the cost. If you do, choose a «Granblue» from your drop zone and call it to Rear-guard circle.'
+AUTO: [Counter Blast 2] When this unit is placed on VC, you may pay the cost. If you do, choose a «Granblue» from your drop zone and call it to RC.'
 }
 
 CardStat = x+40
@@ -344,9 +344,9 @@ CardStat = x+40
 global.CardName[CardStat] = 'King of Demonic Seas, Basskirk'
 global.CardText[CardStat] = 'Granblue/Gillman/Magallanica
 
-AUTO [V]: At the beginning of your main phase, Soul Charge 1, and this unit gets power +2000 until end of turn.
+AUTO [VC]: At the beginning of your main phase, Soul Charge 1, and this unit gets power +2000 until end of turn.
 
-ACT [V/R]: [Soul Blast 8 & Counter Blast 5] Choose up to five «Granblue» from your drop zone and call them to separate Rear-guard circles.'
+ACT [VC/RC]: [Soul Blast 8 & Counter Blast 5] Choose up to five «Granblue» from your drop zone and call them to separate RC.'
 }
 
 CardStat = x+41
@@ -354,7 +354,7 @@ CardStat = x+41
 global.CardName[CardStat] = 'Master Swordsman, Nightstorm'
 global.CardText[CardStat] = 'Granblue/Vampire/Magallanica
 
-AUTO [V/R]: When this unit attacks a Vanguard, if you have a «Granblue» Vanguard, this unit gets power +2000 until end of that battle.'
+AUTO [VC/RC]: When this unit attacks a Vanguard, if you have a «Granblue» Vanguard, this unit gets power +2000 until end of that battle.'
 }
 
 CardStat = x+42
@@ -370,7 +370,7 @@ CardStat = x+43
 global.CardName[CardStat] = 'Spirit Exceed'
 global.CardText[CardStat] = 'Granblue/Ghost/Magallanica
 
-ACT [Drop zone]: [Choose a unit named "Samurai Spirit" and a unit named "Knight Spirit" from your Rear-guard circle, and put them into your soul] If you have a grade 2 or greater Vanguard, ride this card.'
+ACT [Drop zone]: [Choose a unit named "Samurai Spirit" and a unit named "Knight Spirit" from your RC, and put them into your soul] If you have a grade 2 or greater Vanguard, ride this card.'
 }
 
 CardStat = x+44
@@ -378,7 +378,7 @@ CardStat = x+44
 global.CardName[CardStat] = 'Witch Doctor of the Abyss, Negromarl'
 global.CardText[CardStat] = 'Granblue/Demon/Magallanica
 
-AUTO: [Counter Blast 2] When this unit is called to the Vanguard or Rear-guard circle and you have a «Granblue» Vanguard, you may pay the cost. If paid, choose 1 unit from your drop zone and call it to a Rear-guard circle.'
+AUTO: [Counter Blast 2] When this unit is called to the Vanguard or RC and you have a «Granblue» Vanguard, you may pay the cost. If paid, choose 1 unit from your drop zone and call it to a RC.'
 }
 
 // G Add
@@ -390,9 +390,9 @@ CardStat = x
 global.CardName[CardStat] = 'Dragon Undead, Malefic Dragon'
 global.CardText[CardStat] = 'Granblue/Skeleton/Magallanica
 
-AUTO [V]: When this unit attacks a Vanguard, if your opponents power is 12000 or greater, this unit gets power +10000 until end of that battle.
+AUTO [VC]: When this unit attacks a Vanguard, if your opponent’s power is 12000 or greater, this unit gets power +10000 until end of that battle.
 
-AUTO R]: When this unit attacks a Vanguard, if you have a «Granblue» Vanguard, this unit gets power +2000 until end of that battle.'
+AUTO RC]: When this unit attacks a Vanguard, if you have a «Granblue» Vanguard, this unit gets power +2000 until end of that battle.'
 global.UnitGrade[CardStat] = 3
 global.CardInClan[CardStat] = 8
 }
@@ -403,14 +403,14 @@ x = 1587
 
 CardStat = x
 {
-global.CardName[CardStat] = 'Ice Prison Dark Lord, Cocytus «ßeverse»'
+global.CardName[CardStat] = 'Ice Prison Hades Emperor, Cocytus "ßeverse"'
 global.CardText[CardStat] = 'Granblue/Skeleton/Magallanica
 
-ACT [V]: Limit Break 4 (This ability is active if you have four or more damage): [Put three cards from the top of your deck into your drop zone & Choose one of your «Granblue» Rear-guards, and lock it] Choose one «Granblue» from your drop zone, call it to Rear-guard circle, and that unit gets power +3000 until end of turn. (Locked cards are turned face-down, and cannot do anything. Turn them face-up at the end of its owners turn.)
+ACT [VC]: Limit Break 4 (This ability is active if you have four or more damage): [Put three cards from the top of your deck into your drop zone & Choose one of your «Granblue» Rear-guards, and lock it] Choose one «Granblue» from your drop zone, call it to RC, and that unit gets power +3000 until end of turn. (Locked cards are turned face-down, and cannot do anything. Turn them face-up at the end of its owners turn.)
 
-CONT [V]: If you have a card named "Ice Prison Necromancer, Cocytus" in your soul, this unit gets power +2000.
+CONT [VC]: If you have a card named "Ice Prison Necromancer, Cocytus" in your soul, this unit gets power +2000.
 
-CONT [V/R]: Lord (If you have a unit without a same clan as this unit, this unit cannot attack.)'
+CONT [VC/RC]: Lord (If you have a unit without a same clan as this unit, this unit cannot attack)'
 global.UnitGrade[CardStat] = 3
 global.CardInClan[CardStat] = 8
 }
@@ -420,7 +420,7 @@ CardStat = x+1
 global.CardName[CardStat] = 'Sea Strolling Banshee'
 global.CardText[CardStat] = 'Granblue/Ghost/Magallanica
 
-AUTO: [Soul Blast 1] When this unit is placed on Rear-guard circle from your drop zone, if you have a «Granblue» Vanguard, you may pay the cost. If you do, draw a card.'
+AUTO: [Soul Blast 1] When this unit is placed on RC from your drop zone, if you have a «Granblue» Vanguard, you may pay the cost. If you do, draw a card.'
 global.UnitGrade[CardStat] = 1
 global.CardInClan[CardStat] = 8
 }
@@ -430,11 +430,11 @@ CardStat = x+2
 global.CardName[CardStat] = 'Lord of the Seven Seas, Nightmist'
 global.CardText[CardStat] = 'Granblue/Vampire/Magallanica
 
-AUTO: Limit Break 4 (This ability is active if you have four or more damage): When a «Granblue» rides this unit, choose one of your vanguards, that unit gets power +10000 until end of turn, and choose up to two «Granblue» from your drop zone, call them to Rear-guard circle, the units called with this effect get power +5000 until end of turn, and at the end of that turn, retire those units.
+AUTO: Limit Break 4 (This ability is active if you have four or more damage): When a «Granblue» rides this unit, choose one of your vanguards, that unit gets power +10000 until end of turn, and choose up to two «Granblue» from your drop zone, call them to RC, the units called with this effect get power +5000 until end of turn, and at the end of that turn, retire those units.
 
 CONT: During your turn, if the number of «Granblue» Rear-guards you have is four or more, this unit gets power +2000.
 
-CONT [V/R]: Lord (If you have a unit without a same clan as this unit, this unit cannot attack.)'
+CONT [VC/RC]: Lord (If you have a unit without a same clan as this unit, this unit cannot attack)'
 global.UnitGrade[CardStat] = 3
 global.CardInClan[CardStat] = 8
 }
@@ -445,10 +445,10 @@ x = 1611
 
 CardStat = x
 {
-global.CardName[CardStat] = 'Corrosion Dragon, Corrupt Dragon'
+global.CardName[CardStat] = 'Dragon Corrode, Corrupt Dragon'
 global.CardText[CardStat] = 'Granblue/Zombie/Magallanica
 
-AUTO: When this unit is placed on Rear-guard circle from your drop zone, if you have a «Granblue» Vanguard, this unit gets power +3000 until end of turn.'
+AUTO: When this unit is placed on RC from your drop zone, if you have a «Granblue» Vanguard, this unit gets power +3000 until end of turn.'
 global.UnitGrade[CardStat] = 2
 global.CardInClan[CardStat] = 8
 }
@@ -459,10 +459,10 @@ x = 1645
 
 CardStat = x
 {
-global.CardName[CardStat] = 'Demonic Seas Necromancer, Barbaros'
+global.CardName[CardStat] = 'Rotten Sea Necromancer, Barbaros'
 global.CardText[CardStat] = 'Granblue/Gillman/Magallanica
 
-AUTO [V]: [Choose one of your grade 3 or greater «Granblue» Rear-guards, and retire it] When this units drive check reveals a grade 3 «Granblue», you may pay the cost. If you do, choose one «Granblue» from your drop zone, and call it to an open Rear-guard circle.
+AUTO [VC]: [Choose one of your grade 3 or greater «Granblue» Rear-guards, and retire it] When this unit’s drive check reveals a grade 3 «Granblue», you may pay the cost. If you do, choose one «Granblue» from your drop zone, and call it to an open RC.
 
 CONT: During your turn, if the number of «Granblue» Rear-guards you have is four or more, this unit gets power +3000.'
 global.UnitGrade[CardStat] = 3
@@ -474,16 +474,16 @@ CardStat = x+1
 global.CardName[CardStat] = 'Peter the Ghostie'
 global.CardText[CardStat] = 'Granblue/Ghost/Magallanica
 
-AUTO: Forerunner (When a unit of the same clan rides this unit, you may call this unit to Rear-guard circle.) 
+AUTO: Forerunner (When a unit of the same clan rides this unit, you may call this unit to RC.) 
 
-ACT [R]: [Counter Blast 1 & Put two cards from the top of your deck into your drop zone & Put this unit into your soul] If you have a «Granblue» Vanguard, draw a card.'
+ACT [RC]: [Counter Blast 1 & Put two cards from the top of your deck into your drop zone & Put this unit into your soul] If you have a «Granblue» Vanguard, draw a card.'
 global.UnitGrade[CardStat] = 0
 global.CardInClan[CardStat] = 8
 }
 
 CardStat = x+2
 {
-global.CardName[CardStat] = 'Sorrowful Gunshot, Nightflare'
+global.CardName[CardStat] = 'Gunshot of Sorrow, Nightflare'
 global.CardText[CardStat] = 'Granblue/Vampire/Magallanica/Draw Trigger'
 global.UnitGrade[CardStat] = 0
 global.CardInClan[CardStat] = 8
@@ -495,10 +495,10 @@ x = 2009
 
 CardStat = x
 {
-global.CardName[CardStat] = 'Drift Ice Swordsman, Nightsnow'
+global.CardName[CardStat] = 'Ice Floe Swordsman, Nightsnow'
 global.CardText[CardStat] = 'Granblue/Vampire/Magallanica
 
-ACT [V] Limit Break 4 (This ability is active if you have four or more damage): [Counter Blast 1 & Choose one of your Rear-guard, and retire it] Choose one card from your drop zone, call it to Rear-guard circle, and that unit gets power +5000 until end of turn. This ability cannot be used for the rest of that turn.
+ACT [VC] Limit Break 4 (This ability is active if you have four or more damage): [Counter Blast 1 & Choose one of your Rear-guard, and retire it] Choose one card from your drop zone, call it to RC, and that unit gets power +5000 until end of turn. This ability cannot be used for the rest of that turn.
 
 ACT [Drop zone]: [Counter Blast 2 & Soul Blast 2] If you have a grade 3 or greater Vanguard, ride this card as stand.'
 global.UnitGrade[CardStat] = 3
@@ -511,24 +511,24 @@ x = 2239
 
 CardStat = x
 {
-global.CardName[CardStat] = 'Young Nobleman Pirate, Pinot Noir'
+global.CardName[CardStat] = 'Young Pirate Noble, Pinot Noir'
 global.CardText[CardStat] = 'Granblue/Vampire/Magallanica
 
-ACT [V]: Legion 20000 "Beauty Pirate, Pinot Blanc" (If your opponent has a grade 3 or greater Vanguard, only once, this unit may return four cards from your drop zone to your deck, and search your deck for the specified card, and perform Legion.)
+ACT [VC]: Legion 20000 "Pirate Belle, Pinot Blanc" (If your opponent’s vanguard is grade 3 or greater, this unit may return four cards from your drop zone into your deck once, search your deck for the specified card, and Legion)
 
-AUTO [V]: [Put three cards from the top of your deck into the drop zone] When this unit performs Legion, you may pay the cost. If you do, choose one card from your drop zone, and call it to Rear-guard circle.
+AUTO [VC]: [Put three cards from the top of your deck into the drop zone] When this unit performs Legion, you may pay the cost. If you do, choose one card from your drop zone, and call it to RC.
 
-AUTO [V]: [Choose one of your Rear-guards, and retire it] When this unit attacks a Vanguard, you may pay the cost. If you do, this unit gets power +5000 until end of that battle.'
+AUTO [VC]: [Choose one of your Rear-guards, and retire it] When this unit attacks a Vanguard, you may pay the cost. If you do, this unit gets power +5000 until end of that battle.'
 global.UnitGrade[CardStat] = 3
 global.CardInClan[CardStat] = 8
 }
 
 CardStat = x+1
 {
-global.CardName[CardStat] = 'Beauty Pirate, Pinot Blanc'
+global.CardName[CardStat] = 'Pirate Belle, Pinot Blanc'
 global.CardText[CardStat] = 'Granblue/Vampire/Magallanica
 
-AUTO [Drop zone]: [Counter Blast 1] When your Vanguard performs Legion, you may pay the cost. If you do, call this card to Rear-guard circle.'
+AUTO [Drop zone]: [Counter Blast 1] When your Vanguard performs Legion, you may pay the cost. If you do, call this card to RC.'
 global.UnitGrade[CardStat] = 2
 global.CardInClan[CardStat] = 8
 }
@@ -540,7 +540,7 @@ global.CardText[CardStat] = 'Granblue/Ghost/Magallanica
 
 CONT: Sentinel (You may only have up to four cards with "Sentinel" in a deck.)
 
-AUTO: [Counter Blast 1] When this is placed on Guardian circle from your hand, you may pay the cost. If you do, call five cards from the top of your deck to Guardian circle as rest.'
+AUTO: [Counter Blast 1] When this is placed on GC from your hand, you may pay the cost. If you do, call five cards from the top of your deck to GC as rest.'
 global.UnitGrade[CardStat] = 1
 global.CardInClan[CardStat] = 8
 }
@@ -554,7 +554,7 @@ CardStat = x
 global.CardName[CardStat] = 'Boatswain, Arman'
 global.CardText[CardStat] = 'Granblue/Vampire/Magallanica
 
-AUTO: When this unit is placed on Rear-guard circle from your drop zone, this unit gets power +3000 until end of turn.'
+AUTO: When this unit is placed on RC from your drop zone, this unit gets power +3000 until end of turn.'
 global.UnitGrade[CardStat] = 1
 global.CardInClan[CardStat] = 8
 }
@@ -568,21 +568,21 @@ CardStat = x
 global.CardName[CardStat] = 'Witch Doctor of the Dead Sea, Negrobolt'
 global.CardText[CardStat] = 'Granblue/Demon/Magallanica
 
-ACT [V]: Legion 20000 "Dragon Undead, Ghoul Dragon" (If your opponent has a grade 3 or greater Vanguard, only once, this unit may return four cards from your drop zone to your deck, and search your deck for the specified card, and perform Legion.)
+ACT [VC]: Legion 20000 "Dragon Undead, Ghoul Dragon" (If your opponent’s vanguard is grade 3 or greater, this unit may return four cards from your drop zone into your deck once, search your deck for the specified card, and Legion)
 
-AUTO [V]: [Counter Blast 1 & Choose one of your Rear-guards, and retire it] When this unit attacks a Vanguard, if this unit is in Legion, you may pay the cost. If you do, choose one card from your drop zone, and call it to Rear-guard circle.
+AUTO [VC]: [Counter Blast 1 & Choose one of your Rear-guards, and retire it] When this unit attacks a Vanguard, if this unit is in Legion, you may pay the cost. If you do, choose one card from your drop zone, and call it to RC.
 
-AUTO [V]: When this unit attacks a Vanguard, if you have another unit in the center column, this unit gets power +3000 until end of that battle.'
+AUTO [VC]: When this unit attacks a Vanguard, if you have another unit in the center column, this unit gets power +3000 until end of that battle.'
 global.UnitGrade[CardStat] = 3
 global.CardInClan[CardStat] = 8
 }
 
 CardStat = x+1
 {
-global.CardName[CardStat] = 'Undead Dragon, Ghoul Dragon'
+global.CardName[CardStat] = 'Dragon Undead, Ghoul Dragon'
 global.CardText[CardStat] = 'Granblue/Skeleton/Magallanica
 
-AUTO: When this unit is placed on Rear-guard circle from your drop zone, until end of turn, this unit gets "AUTO [R]: When this units attack hits a Vanguard, choose one of your opponents Rear-guards, and retire it".'
+AUTO: When this unit is placed on RC from your drop zone, until end of turn, this unit gets "AUTO [RC]: When this unit’s attack hits a Vanguard, choose one of your opponent’s Rear-guards, and retire it".'
 global.UnitGrade[CardStat] = 2
 global.CardInClan[CardStat] = 8
 }
@@ -592,7 +592,7 @@ CardStat = x+2
 global.CardName[CardStat] = 'Cleaving Shade'
 global.CardText[CardStat] = 'Granblue/Ghost/Magallanica
 
-AUTO [R]: When this unit boosts a Vanguard, if your Vanguard is in Legion, the boosted unit gets power +4000 until end of that battle.'
+AUTO [RC]: When this unit boosts a Vanguard, if your Vanguard is in Legion, the boosted unit gets power +4000 until end of that battle.'
 global.UnitGrade[CardStat] = 1
 global.CardInClan[CardStat] = 8
 }
@@ -602,7 +602,7 @@ CardStat = x+3
 global.CardName[CardStat] = 'Brutal Shade'
 global.CardText[CardStat] = 'Granblue/Ghost/Magallanica
 
-CONT [R]: Your Vanguards Limit Break 4 is also active if the number of cards in your damage zone is three or less.'
+CONT [RC]: Your vanguard’s "Limit Break 4" is also active if the number of cards in your damage zone is three or less.'
 global.UnitGrade[CardStat] = 1
 global.CardInClan[CardStat] = 8
 }
@@ -612,9 +612,9 @@ CardStat = x+4
 global.CardName[CardStat] = 'Fledglng Pirate, Pinot Gris'
 global.CardText[CardStat] = 'Granblue/Demon/Magallanica
 
-AUTO: Forerunner (When a unit of the same clan rides this unit, you may call this unit to Rear-guard circle.)
+AUTO: Forerunner (When a unit of the same clan rides this unit, you may call this unit to RC.)
 
-AUTO [R]: [Put this unit into your soul] When your Vanguard performs Legion, you may pay the cost. If you do, choose one card from your drop zone, and call it to Rear-guard circle.'
+AUTO [RC]: [Put this unit into your soul] When your Vanguard performs Legion, you may pay the cost. If you do, choose one card from your drop zone, and call it to RC.'
 global.UnitGrade[CardStat] = 0
 global.CardInClan[CardStat] = 8
 }
@@ -632,7 +632,7 @@ CardStat = x+6
 global.CardName[CardStat] = 'Performing Zombie'
 global.CardText[CardStat] = 'Granblue/Zombie/Magallanica/Stand Trigger
 
-AUTO: When this unit is placed on Rear-guard circle, look at up to ten cards from the top of your deck, search for up to one unit from among them, put it into your drop zone, and shuffle your deck.'
+AUTO: When this unit is placed on RC, look at up to ten cards from the top of your deck, search for up to one unit from among them, put it into your drop zone, and shuffle your deck.'
 global.UnitGrade[CardStat] = 0
 global.CardInClan[CardStat] = 8
 }
@@ -654,7 +654,7 @@ CardStat = x
 global.CardName[CardStat] = 'King Serpent'
 global.CardText[CardStat] = 'Granblue/Kraken/Magallanica
 
-AUTO: When this unit is placed on Rear-guard circle from your drop zone, Soul Charge 1, choose a card from your damage zone, and turn it face-up.'
+AUTO: When this unit is placed on RC from your drop zone, Soul Charge 1, choose a card from your damage zone, and turn it face-up.'
 global.UnitGrade[CardStat] = 2
 global.CardInClan[CardStat] = 8
 }
@@ -665,12 +665,12 @@ x = 2807
 
 CardStat = x
 {
-global.CardName[CardStat] = 'Ice Prison Underworld God, Cocytus Negative'
+global.CardName[CardStat] = 'Ice Prison Hades Deity, Cocytus Negative'
 global.CardText[CardStat] = 'Granblue/Skeleton/Magallanica/G-Unit
 
-Stride [Choose one or more cards with the sum of their grades being 3 or greater from your hand, and discard them] Stride this card on your V from face down.
+Stride [Choose one or more cards with the sum of their grades being 3 or greater from your hand, and discard them] Stride this card on your VC from face down.
 
-ACT [V] [1/Turn]: [Counter Blast 1 & Put three cards from the top of your deck into your drop zone] If you have a card in your heart with "Cocytus" in its card name, choose up to one card from your drop zone, call it to R. Then, if you call a unit with "Cocytus" in its card name, you may choose a grade 1 or less card from your drop zone, call it R, and until end of the turn, that unit get power +4000.'
+ACT [VC] 1/Turn: [Counter Blast 1 & Put three cards from the top of your deck into your drop zone] If you have a card in your heart with "Cocytus" in its card name, choose up to one card from your drop zone, call it to RC. Then, if you call a unit with "Cocytus" in its card name, you may choose a grade 1 or less card from your drop zone, call it to RC, and until end of the turn, that unit get power +4000.'
 global.UnitGrade[CardStat] = 4
 global.CardInClan[CardStat] = 8
 global.ExtraDeck[CardStat] = 1
@@ -681,9 +681,9 @@ CardStat = x+1
 global.CardName[CardStat] = 'Pirate King of Abyss, Blueheart'
 global.CardText[CardStat] = 'Granblue/Vampire/Magallanica/G-Unit
 
-Stride [Choose one or more cards with the sum of their grades being 3 or greater from your hand, and discard them] Stride this card on your V from face down.
+Stride [Choose one or more cards with the sum of their grades being 3 or greater from your hand, and discard them] Stride this card on your VC from face down.
 
-ACT [V] [1/Turn]: [Counter Blast 1] Choose up to two cards from your drop zone, call it to separate occupied R.'
+ACT [VC] 1/Turn: [Counter Blast 1] Choose up to two cards from your drop zone, call it to separate occupied RC.'
 global.UnitGrade[CardStat] = 4
 global.CardInClan[CardStat] = 8
 global.ExtraDeck[CardStat] = 1
@@ -695,12 +695,12 @@ x = 3288
 
 CardStat = x
 {
-global.CardName[CardStat] = 'One Who is Loved by the Seven Seas, Nightmist'
+global.CardName[CardStat] = 'Loved by the Seven Seas, Nightmist'
 global.CardText[CardStat] = 'Granblue/Vampire/Magallanica/G-Unit
 
-Stride [Choose one or more cards with the sum of their grades being 3 or greater from your hand, and discard them] Stride this card on your V from face down.
+Stride [Choose one or more cards with the sum of their grades being 3 or greater from your hand, and discard them] Stride this card on your VC from face down.
 
-ACT [V] 1/Turn: [Counter Blast 1] If you have a heart card with "Seven Seas" in its card name, choose up to two cards from your drop zone, call them to separate R, and at the end of that turn, retire the units called with this effect.'
+ACT [VC] 1/Turn: [Counter Blast 1] If you have a heart card with "Seven Seas" in its card name, choose up to two cards from your drop zone, call them to separate RC, and at the end of that turn, retire the units called with this effect.'
 global.UnitGrade[CardStat] = 4
 global.CardInClan[CardStat] = 8
 global.ExtraDeck[CardStat] = 1
@@ -715,9 +715,9 @@ CardStat = x
 global.CardName[CardStat] = 'Vampire Princess of Night Fog, Nightrose'
 global.CardText[CardStat] = 'Granblue/Vampire/Magallanica
 
-AUTO [V] [1/Turn] Generation Break 2 (This ability is active if you have two or more face up G units in total on your V or G zone): [Put three cards from the top of your deck into your drop zone] When your rear-guard is put into the drop zone, you may pay the cost. If you do, you may call that card to R.
+AUTO [VC] 1/Turn Generation Break 2 (This ability is active if you have two or more face up G units in total on your VC or G zone): [Put three cards from the top of your deck into your drop zone] When your rear-guard is put into the drop zone, you may pay the cost. If you do, you may call that card to RC.
 
-AUTO [V]: [Counter Blast 1] During your turn, when your G unit Stride, you may pay the cost. If you do, choose a card from your drop zone, call it to R, and that unit gets power +2000 until end of turn.'
+AUTO [VC]: [Counter Blast 1] During your turn, when your G unit Stride, you may pay the cost. If you do, choose a card from your drop zone, call it to RC, and that unit gets power +2000 until end of turn.'
 global.UnitGrade[CardStat] = 3
 global.CardInClan[CardStat] = 8
 }
@@ -727,7 +727,7 @@ CardStat = x+1
 global.CardName[CardStat] = 'Tommy the Ghostie Brothers'
 global.CardText[CardStat] = 'Granblue/Ghost/Magallanica
 
-AUTO: [Choose a grade 3 card from your hand, and reveal it] When this unit is placed on R from hand, you may pay the cost. If you do, search your deck for up to one grade 3 card with "Nightrose" in its card name, reveal it to your opponent, put into your hand, shuffle your deck, choose a card from your hand, and discard it.
+AUTO: [Choose a grade 3 card from your hand, and reveal it] When this unit is placed on RC from hand, you may pay the cost. If you do, search your deck for up to one grade 3 card with "Nightrose" in its card name, reveal it to your opponent, put into your hand, shuffle your deck, choose a card from your hand, and discard it.
 
 CONT [Hand]: While you are paying the cost for Stride, this card gets grade +2.'
 global.UnitGrade[CardStat] = 1
@@ -740,12 +740,12 @@ x = 3433
 
 CardStat = x
 {
-global.CardName[CardStat] = 'Seven Seas Sage, Purgeton'
+global.CardName[CardStat] = 'Seven Seas Sage, Plegeton'
 global.CardText[CardStat] = 'Granblue/Skeleton/Magallanica
 
 AUTO [Drop Zone]: [Counter Blast 2] At the beginning of your ride phase, if you have a grade 2 or greater vanguard with "Seven Seas" in its card name, you may pay the cost. If you do, ride this card as stand.
  
-AUTO: When this unit is placed on V, choose up to one card from your drop zone, call it to R, at the end of that turn, retire that unit.'
+AUTO: When this unit is placed on VC, choose up to one card from your drop zone, call it to RC, at the end of that turn, retire that unit.'
 global.UnitGrade[CardStat] = 3
 global.CardInClan[CardStat] = 8
 }
@@ -755,7 +755,7 @@ CardStat = x+1
 global.CardName[CardStat] = 'Seven Seas Master Swordsman, Slash Shade'
 global.CardText[CardStat] = 'Granblue/Ghost/Magallanica
 
-AUTO [Drop zone]: [Counter Blast 1 & Choose one of your grade 1 or greater rear-guards, and retire it] When your vanguard with "Seven Seas" in its card name attacks a vanguard, you may pay the cost. If you do, call this card to R, and this unit gets power +2000 until end of turn.'
+AUTO [Drop zone]: [Counter Blast 1 & Choose one of your grade 1 or greater rear-guards, and retire it] When your vanguard with "Seven Seas" in its card name attacks a vanguard, you may pay the cost. If you do, call this card to RC, and this unit gets power +2000 until end of turn.'
 global.UnitGrade[CardStat] = 2
 global.CardInClan[CardStat] = 8
 }
@@ -771,7 +771,7 @@ global.CardText[3551] = 'Granblue/Vampire
 
 (PREMIUM: Restricted to 1.)
 
-ACT [Drop Zone]: [Choose one of your rear-guards not named "Seven Seas Helmsman, Nightcrow", and retire it] If you have a vanguard with "Seven Seas" in its card name, call this card to R.
+ACT [Drop Zone]: [Choose one of your rear-guards not named "Seven Seas Helmsman, Nightcrow", and retire it] If you have a vanguard with "Seven Seas" in its card name, call this card to RC.
 '
 
 global.UnitGrade[3551] = 1
@@ -793,11 +793,11 @@ global.CardName[3552] = 'Mighty Rogue, Nightstorm'
 
 global.CardText[3552] = 'Granblue/Vampire
 
-AUTO: Hollow (When this unit is placed on R, you may have it become hollowed. If you do, retire it at the end of turn.)
+AUTO: Hollow (When this unit is placed on RC, you may have it become hollowed. If you do, retire it at the end of turn.)
 
-AUTO [R] Generation Break 1: [Counter Blast 1] At the end of the battle that this unit attacked a vanguard, if this unit is hollowed, you may pay the cost. If you do, choose up to one card not named "Mighty Rogue, Nightstorm" from your drop zone, and call it to a R this unit is not on.
+AUTO [RC] Generation Break 1: [Counter Blast 1] At the end of the battle that this unit attacked a vanguard, if this unit is hollowed, you may pay the cost. If you do, choose up to one card not named "Mighty Rogue, Nightstorm" from your drop zone, and call it to a RC this unit is not on.
 
-AUTO: [Counter Blast 1 & Soul Blast 1] When this unit is placed on V, you may pay the cost. If you do, look at five cards from the top of your deck, search for up to one card with the hollow ability from among them, reveal it to your opponent, put it into your hand, and shuffle your deck.
+AUTO: [Counter Blast 1 & Soul Blast 1] When this unit is placed on VC, you may pay the cost. If you do, look at five cards from the top of your deck, search for up to one card with the hollow ability from among them, reveal it to your opponent, put it into your hand, and shuffle your deck.
 '
 
 global.UnitGrade[3552] = 3
@@ -814,13 +814,13 @@ CardStat = 3553
 
 {
 
-global.CardName[3553] = 'Witch Doctor of the Corrosion Sea, Negrorook'
+global.CardName[3553] = 'Witch Doctor of the Rotten Sea, Negrorook'
 
 global.CardText[3553] = 'Granblue/Demon
 
-AUTO: Hollow (When this unit is placed on R, you may have it become hollowed. If you do, retire it at the end of turn.)
+AUTO: Hollow (When this unit is placed on RC, you may have it become hollowed. If you do, retire it at the end of turn.)
 
-AUTO [R] Generation Break 1 (This ability is active if you have one or more face up G units in total on your V or G zone): When this unit attacks, this unit gets power +2000 until end of that battle, and if this unit is hollowed, this unit gets power +5000 until end of that battle.
+AUTO [RC] Generation Break 1 (This ability is active if you have one or more face up G units in total on your VC or G zone): When this unit attacks, this unit gets power +2000 until end of that battle, and if this unit is hollowed, this unit gets power +5000 until end of that battle.
 '
 
 global.UnitGrade[3553] = 2
@@ -836,13 +836,13 @@ CardStat = 3554
 
 {
 
-global.CardName[3554] = 'Underling Pirate Skeleton'
+global.CardName[3554] = 'Skeleton Underling Pirate'
 
 global.CardText[3554] = 'Granblue/Skeleton
 
-AUTO: Hollow (When this unit is placed on R, you may have it become hollowed. If you do, retire it at the end of turn.)
+AUTO: Hollow (When this unit is placed on RC, you may have it become hollowed. If you do, retire it at the end of turn.)
 
-AUTO [R] Generation Break 1 (This ability is active if you have one or more face up G units in total on your V or G zone): When this unit attacks, this unit gets power +2000 until end of that battle, and if this unit is hollowed, this unit gets power +5000 until end of that battle.
+AUTO [RC] Generation Break 1 (This ability is active if you have one or more face up G units in total on your VC or G zone): When this unit attacks, this unit gets power +2000 until end of that battle, and if this unit is hollowed, this unit gets power +5000 until end of that battle.
 '
 
 global.UnitGrade[3554] = 1
@@ -862,7 +862,7 @@ global.CardName[3555] = 'Pirate Swordsman, Colombard'
 
 global.CardText[3555] = 'Granblue/Vampire
 
-AUTO [R] Generation Break 1 (This ability is active if you have one or more face up G units in total on your V or G zone): [Counter Blast 1] When this unit attacks a vanguard, if this unit is boosted, you may pay the cost. If you do, choose up to one card from your drop zone, and call it to R.
+AUTO [RC] Generation Break 1 (This ability is active if you have one or more face up G units in total on your VC or G zone): [Counter Blast 1] When this unit attacks a vanguard, if this unit is boosted, you may pay the cost. If you do, choose up to one card from your drop zone, and call it to RC.
 '
 
 global.UnitGrade[3555] = 2
@@ -878,15 +878,15 @@ CardStat = 3556
 
 {
 
-global.CardName[3556] = 'Rumbling Seas Banshee'
+global.CardName[3556] = 'Sea Rumble Banshee'
 
 global.CardText[3556] = 'Granblue/Ghost
 
-AUTO: Hollow (When this unit is placed on R, you may have it become hollowed. If you do, retire it at the end of turn.)
+AUTO: Hollow (When this unit is placed on RC, you may have it become hollowed. If you do, retire it at the end of turn.)
 
-ACT [Drop Zone] Generation Break 1 (This ability is active if you have one or more face up G units in total on your V or G zone): [Counter Blast 1 & Choose one of your rear-guards, and retire it] Call this card to R.
+ACT [Drop Zone] Generation Break 1 (This ability is active if you have one or more face up G units in total on your VC or G zone): [Counter Blast 1 & Choose one of your rear-guards, and retire it] Call this card to RC.
 
-AUTO: When this unit is placed on R due to an effect from "Rumbling Seas Banshee", if this unit is hollowed, until end of turn, this unit gets power +2000, and "AUTO: When this unit is put into the drop zone from R due to an effect from the hollow ability, Counter Charge 1".
+AUTO: When this unit is placed on RC due to an effect from "Sea Rumble Banshee", if this unit is hollowed, until end of turn, this unit gets power +2000, and "AUTO: When this unit is put into the drop zone from RC due to an effect from the hollow ability, Counter Charge 1".
 '
 
 global.UnitGrade[3556] = 1
@@ -902,13 +902,13 @@ CardStat = 3577
 
 {
 
-global.CardName[3577] = 'Ghostie Great King, Obadaia'
+global.CardName[3577] = 'Ghostie Great King, Obadiah'
 
 global.CardText[3577] = 'Granblue/Ghost
 
-Stride [Choose one or more cards with the sum of their grades being 3 or greater from your hand, and discard them] Stride this card on your V from face down.
+Stride [Choose one or more cards with the sum of their grades being 3 or greater from your hand, and discard them] Stride this card on your VC from face down.
 
-AUTO: When this unit is placed on V, search your deck for up to three cards, put them into your drop zone, shuffle your deck, and if two or more cards with the hollow ability were put into the drop zone with this effect, choose up to one normal unit with "Ghostie" in its card name from the drop zone, and call it to a R in the same column as this unit.
+AUTO: When this unit is placed on VC, search your deck for up to three cards, put them into your drop zone, shuffle your deck, and if two or more cards with the hollow ability were put into the drop zone with this effect, choose up to one normal unit with "Ghostie" in its card name from the drop zone, and call it to a RC in the same column as this unit.
 '
 
 global.UnitGrade[3577] = 4
@@ -930,9 +930,9 @@ global.CardName[3578] = 'Mist Phantasm Pirate King, Nightrose'
 
 global.CardText[3578] = 'Granblue/Vampire
 
-Stride [Choose one or more cards with the sum of their grades being 3 or greater from your hand, and discard them] Stride this card on your V from face down.
+Stride [Choose one or more cards with the sum of their grades being 3 or greater from your hand, and discard them] Stride this card on your VC from face down.
 
-AUTO [V] Generation Break 2: [Counter Blast 2 & Choose a face down card named "Mist Phantasm Pirate King, Nightrose" from your G zone, and turn it face up] When this unit attacks a vanguard, you may pay the cost. If you do, choose up to two cards from your drop zone, and call them to separate R in different rows.
+AUTO [VC] Generation Break 2: [Counter Blast 2 & Choose a face down card named "Mist Phantasm Pirate King, Nightrose" from your G zone, and turn it face up] When this unit attacks a vanguard, you may pay the cost. If you do, choose up to two cards from your drop zone, and call them to separate RC in different rows.
 '
 
 global.UnitGrade[3578] = 4
@@ -954,11 +954,11 @@ global.CardName[3579] = 'Ghoul Dragon, Gast Dragon'
 
 global.CardText[3579] = 'Granblue/Ghost
 
-AUTO: Hollow (When this unit is placed on R, you may have it become hollowed. If you do, retire it at the end of turn.)
+AUTO: Hollow (When this unit is placed on RC, you may have it become hollowed. If you do, retire it at the end of turn.)
 
-AUTO [R] Generation Break 1: [Put two cards from the top of your deck into your drop zone] When this unit attacks a vanguard, you may pay the cost. If you do, this unit gets power +3000 until end of that battle. Then if this unit is hollowed, this unit gets power +5000 until end of that battle.
+AUTO [RC] Generation Break 1: [Put two cards from the top of your deck into your drop zone] When this unit attacks a vanguard, you may pay the cost. If you do, this unit gets power +3000 until end of that battle. Then if this unit is hollowed, this unit gets power +5000 until end of that battle.
 
-ACT [Drop Zone]: [Counter Blast 1 & Choose one of your grade 2 or greater rear-guards, and retire it] Call this card to R.
+ACT [Drop Zone]: [Counter Blast 1 & Choose one of your grade 2 or greater rear-guards, and retire it] Call this card to RC.
 '
 
 global.UnitGrade[3579] = 3
@@ -978,7 +978,7 @@ global.CardName[3580] = 'Seven Seas Dragon Undead, Prisoner Dragon'
 
 global.CardText[3580] = 'Granblue/Skeleton
 
-AUTO [Drop zone]: [Counter Blast 1 & Choose one of your grade 2 or greater rear-guards, and retire it] When your vanguard with "Seven Seas" in its card name attacks a vanguard, you may pay the cost. If you do, call this card to R, and this unit gets power +2000 until end of turn.
+AUTO [Drop zone]: [Counter Blast 1 & Choose one of your grade 2 or greater rear-guards, and retire it] When your vanguard with "Seven Seas" in its card name attacks a vanguard, you may pay the cost. If you do, call this card to RC, and this unit gets power +2000 until end of turn.
 '
 
 global.UnitGrade[3580] = 3
@@ -994,13 +994,13 @@ CardStat = 3581
 
 {
 
-global.CardName[3581] = 'Sleepless Ships Captain, Blackgeek'
+global.CardName[3581] = 'Sleepless Skipper, Blackgick'
 
 global.CardText[3581] = 'Granblue/Vampire
 
-ACT [V] [1/Turn] Generation Break 1: [Counter Blast 1] Choose up to one card from your drop zone, call it to R, that unit gets power +5000 until end of turn, and at the end of that turn, retire the unit called with this effect.
+ACT [VC] 1/Turn Generation Break 1: [Counter Blast 1] Choose up to one card from your drop zone, call it to RC, that unit gets power +5000 until end of turn, and at the end of that turn, retire the unit called with this effect.
 
-AUTO: [Counter Blast 1 & Soul Blast 1] When this unit is placed on V, you may pay the cost. If you do, choose up to one grade 2 or less card from your drop zone, and call it to R.
+AUTO: [Counter Blast 1 & Soul Blast 1] When this unit is placed on VC, you may pay the cost. If you do, choose up to one grade 2 or less card from your drop zone, and call it to RC.
 '
 
 global.UnitGrade[3581] = 3
@@ -1016,11 +1016,11 @@ CardStat = 3582
 
 {
 
-global.CardName[3582] = 'Seven Seas Witch Doctor, Raceruler'
+global.CardName[3582] = 'Witch Doctor of the Seven Seas, Ralsruler'
 
 global.CardText[3582] = 'Granblue/Demon
 
-AUTO: [Counter Blast 1] When this unit is placed on R, if you have a vanguard with "Seven Seas" in its card name, you may pay the cost. If you do, choose up to one card from your drop zone, call it to R, that unit gets power +5000 until end of turn, and at the end of that turn, retire the unit called with this effect.
+AUTO: [Counter Blast 1] When this unit is placed on RC, if you have a vanguard with "Seven Seas" in its card name, you may pay the cost. If you do, choose up to one card from your drop zone, call it to RC, that unit gets power +5000 until end of turn, and at the end of that turn, retire the unit called with this effect.
 '
 
 global.UnitGrade[3582] = 2
@@ -1040,9 +1040,9 @@ global.CardName[3583] = 'Skeleton Cannoneer'
 
 global.CardText[3583] = 'Granblue/Skeleton
 
-AUTO: Hollow (When this unit is placed on R, you may have it become hollowed. If you do, retire it at the end of turn.)
+AUTO: Hollow (When this unit is placed on RC, you may have it become hollowed. If you do, retire it at the end of turn.)
 
-AUTO: Generation Break 1: [Counter Blast 1] When this unit is placed on R from your drop zone, you may pay the cost. If you do, choose up to one of your opponents rear-guards, retire it, and if this unit is hollowed, draw a card.
+AUTO: Generation Break 1: [Counter Blast 1] When this unit is placed on RC from your drop zone, you may pay the cost. If you do, choose up to one of your opponent’s rear-guards, retire it, and if this unit is hollowed, draw a card.
 '
 
 global.UnitGrade[3583] = 2
@@ -1062,9 +1062,9 @@ global.CardName[3584] = 'Witch Doctor of Languor, Negrolazy'
 
 global.CardText[3584] = 'Granblue/Demon
 
-AUTO: Hollow (When this unit is placed on R, you may have it become hollowed. If you do, retire it at the end of turn.)
+AUTO: Hollow (When this unit is placed on RC, you may have it become hollowed. If you do, retire it at the end of turn.)
 
-AUTO: Generation Break 1: [Counter Blast 1 & Soul Blast 1] When this unit is placed on R, if you have a vanguard with "Nightrose" in its card name, you may pay the cost. If you do, choose up to one grade 2 or less card from your drop zone not named "Witch Doctor of Languor, Negrolazy", call it to R, and until end of turn, this unit gets power +2000 and "AUTO: When this unit is put into the drop zone from R due to an effect of the hollow ability, Counter Charge 1/Soul Charge 1".
+AUTO: Generation Break 1: [Counter Blast 1 & Soul Blast 1] When this unit is placed on RC, if you have a vanguard with "Nightrose" in its card name, you may pay the cost. If you do, choose up to one grade 2 or less card from your drop zone not named "Witch Doctor of Languor, Negrolazy", call it to RC, and until end of turn, this unit gets power +2000 and "AUTO: When this unit is put into the drop zone from RC due to an effect of the hollow ability, Counter Charge 1 / Soul Charge 1".
 '
 
 global.UnitGrade[3584] = 2
@@ -1080,13 +1080,13 @@ CardStat = 3585
 
 {
 
-global.CardName[3585] = 'Tornado Jinn'
+global.CardName[3585] = 'Waterspout Djinn'
 
 global.CardText[3585] = 'Granblue/Demon
 
 CONT: Sentinel.
 
-AUTO: [Choose a card from your hand, and discard it] When this unit is placed on GC from hand, you may pay the cost. If you do, choose one of your vanguards that is being attacked, and that unit cannot be hit until end of that battle. Then, if you have a card named "Tornado Jinn" in your drop zone, Counter Charge 1.
+AUTO: [Choose a card from your hand, and discard it] When this unit is placed on GC from hand, you may pay the cost. If you do, choose one of your vanguards that is being attacked, and that unit cannot be hit until end of that battle. Then, if you have a card named "Waterspout Djinn" in your drop zone, Counter Charge 1.
 '
 
 global.UnitGrade[3585] = 1
@@ -1106,7 +1106,7 @@ global.CardName[3586] = 'Witch Doctor of Powdered Bone, Negrobone'
 
 global.CardText[3586] = 'Granblue/Demon
 
-AUTO [R] Generation Break 1: [Counter Blast 1] At the end of the battle that this unit boosted a rearguard, if you have a vanguard with "Nightrose" in its card name, you may pay the cost. If you do, retire the boosted unit, choose a card from your drop zone with a hollow ability, and call it to R.
+AUTO [RC] Generation Break 1: [Counter Blast 1] At the end of the battle that this unit boosted a rear-guard, if you have a vanguard with "Nightrose" in its card name, you may pay the cost. If you do, retire the boosted unit, choose a card from your drop zone with a hollow ability, and call it to RC.
 '
 
 global.UnitGrade[3586] = 1
@@ -1122,13 +1122,13 @@ CardStat = 3587
 
 {
 
-global.CardName[3587] = 'Disappear-running Zombie'
+global.CardName[3587] = 'Headstart Zombie'
 
 global.CardText[3587] = 'Granblue/Zombie
 
-AUTO: Hollow (When this unit is placed on R, you may have it become hollowed. If you do, retire it at the end of turn.)
+AUTO: Hollow (When this unit is placed on RC, you may have it become hollowed. If you do, retire it at the end of turn.)
 
-AUTO: Generation Break 1: When this unit is placed on R, if this unit is hollowed, search your deck for up to one card, put it into your drop zone, shuffle your deck, and if not, put the top card of your deck into your drop zone.
+AUTO: Generation Break 1: When this unit is placed on RC, if this unit is hollowed, search your deck for up to one card, put it into your drop zone, shuffle your deck, and if not, put the top card of your deck into your drop zone.
 '
 
 global.UnitGrade[3587] = 1
@@ -1150,7 +1150,7 @@ global.CardText[3588] = 'Granblue/Ghost
 
 AUTO: Forerunner.
 
-ACT [R]: Generation Break 1: [Counter Blast 1 & Put this unit into your soul] Look at ten cards from the top of your deck, search for up to three cards with the hollow ability from among them, put them into your drop zone, and shuffle your deck.
+ACT [RC]: Generation Break 1: [Counter Blast 1 & Put this unit into your soul] Look at ten cards from the top of your deck, search for up to three cards with the hollow ability from among them, put them into your drop zone, and shuffle your deck.
 '
 
 global.UnitGrade[3588] = 0
@@ -1174,7 +1174,7 @@ global.CardText[3589] = 'Granblue/Vampire
 
 AUTO: Forerunner.
 
-AUTO [Drop zone]: [Put four cards from the top of your deck into your drop zone] At the beginning of your main phase, if you have a vanguard with "Seven Seas" in its card name, you may pay the cost. If you do, call this card to R as rest, and at the end of that turn, retire this unit.
+AUTO [Drop zone]: [Put four cards from the top of your deck into your drop zone] At the beginning of your main phase, if you have a vanguard with "Seven Seas" in its card name, you may pay the cost. If you do, call this card to RC as rest, and at the end of that turn, retire this unit.
 '
 
 global.UnitGrade[3589] = 0
@@ -1212,13 +1212,13 @@ CardStat = 3591
 
 {
 
-global.CardName[3591] = 'Mick the Ghostie Family'
+global.CardName[3591] = 'Mick the Ghostie and Family'
 
 global.CardText[3591] = 'Granblue/Ghost/Magallanica/Stand Trigger
 
-AUTO: Hollow (When this unit is placed on R, you may have it become hollowed. If you do, retire it at the end of turn.)
+AUTO: Hollow (When this unit is placed on RC, you may have it become hollowed. If you do, retire it at the end of turn.)
 
-AUTO: Generation Break 1: When this unit is placed on R from your drop zone, if this unit is hollowed, choose one of your other units, that unit gets power +10000 until end of turn, and this unit get "AUTO: When this unit is put into your drop zone, return this unit to your deck, and shuffle your deck".
+AUTO: Generation Break 1: When this unit is placed on RC from your drop zone, if this unit is hollowed, choose one of your other units, that unit gets power +10000 until end of turn, and this unit get "AUTO: When this unit is put into your drop zone, return this unit to your deck, and shuffle your deck".
 '
 
 global.UnitGrade[3591] = 0
@@ -1236,7 +1236,7 @@ CardStat = 3592
 
 {
 
-global.CardName[3592] = 'Routing Cutlass'
+global.CardName[3592] = 'Looting Cutlass'
 
 global.CardText[3592] = 'Granblue/Ghost/Magallanica/Draw Trigger'
 
@@ -1259,9 +1259,9 @@ global.CardName[3648] = 'Pirate King of Secret Schemes, Bandit Rum'
 
 global.CardText[3648] = 'Granblue/Vampire
 
-Stride [Choose one or more cards with the sum of their grades being 3 or greater from your hand, and discard them] Stride this card on your V from face down.
+Stride [Choose one or more cards with the sum of their grades being 3 or greater from your hand, and discard them] Stride this card on your VC from face down.
 
-AUTO [V]: When this units attack hits a vanguard, choose up to one card from your drop zone, call it to R, and that unit gets power +2000 until end of turn.
+AUTO [VC]: When this unit’s attack hits a vanguard, choose up to one card from your drop zone, call it to RC, and that unit gets power +2000 until end of turn.
 '
 
 global.UnitGrade[3648] = 4
@@ -1279,13 +1279,13 @@ CardStat = 3649
 
 {
 
-global.CardName[3649] = 'Death Fog Knight of the Cursed Spear'
+global.CardName[3649] = 'Undead Knight of the Cursing Spear'
 
 global.CardText[3649] = 'Granblue/Ghost
 
-ACT [V] Generation Break: [Counter Blast 2] Choose up to one card from your drop zone, call it to R, that unit gets power +2000 until end of turn.
+ACT [VC] Generation Break: [Counter Blast 2] Choose up to one card from your drop zone, call it to RC, that unit gets power +2000 until end of turn.
 
-AUTO [V]: When this unit attacks a vanguard, this unit gets power +2000 until end of that battle.
+AUTO [VC]: When this unit attacks a vanguard, this unit gets power +2000 until end of that battle.
 '
 
 global.UnitGrade[3649] = 3
@@ -1305,7 +1305,7 @@ global.CardName[3650] = 'Dragon Undead, Bone Dragon'
 
 global.CardText[3650] = 'Granblue/Skeleton
 
-AUTO [V/R] Generation Break 1: [Counter Blast 1] When this unit attacks, you may pay the cost. If you do, this unit gets power +3000 until the end of that battle.
+AUTO [VC/RC] Generation Break 1: [Counter Blast 1] When this unit attacks, you may pay the cost. If you do, this unit gets power +3000 until the end of that battle.
 '
 
 global.UnitGrade[3650] = 3
@@ -1341,7 +1341,7 @@ CardStat = 3652
 
 {
 
-global.CardName[3652] = 'Death Fog Knight of the Tainted Sword'
+global.CardName[3652] = 'Undead Knight of the Corrupting Sword'
 
 global.CardText[3652] = 'Granblue/Ghost
 '
@@ -1385,7 +1385,7 @@ global.CardName[3654] = 'Greedy Mimic'
 
 global.CardText[3654] = 'Granblue/Ghost
 
-AUTO [R]: When this unit attacks a vanguard, this unit gets power +2000 until end of that battle.
+AUTO [RC]: When this unit attacks a vanguard, this unit gets power +2000 until end of that battle.
 '
 
 global.UnitGrade[3654] = 1
@@ -1401,11 +1401,11 @@ CardStat = 3655
 
 {
 
-global.CardName[3655] = 'Shadow of Lord, Sultana'
+global.CardName[3655] = 'Lord’s Shadow, Sultana'
 
 global.CardText[3655] = 'Granblue/Vampire
 
-AUTO [R] Generation Break 1: When this unit boosts a vanguard, the boosted unit gets power +4000 until end of that battle.
+AUTO [RC] Generation Break 1: When this unit boosts a vanguard, the boosted unit gets power +4000 until end of that battle.
 '
 
 global.UnitGrade[3655] = 1
@@ -1443,11 +1443,11 @@ global.CardName[3657] = 'Undying Departed, Grenache'
 
 global.CardText[3657] = 'Granblue/Ghost
 
-AUTO:Forerunner.
+AUTO: Forerunner.
 
-AUTO: Hollow (When this unit is placed on R, you may have it become hollowed. If you do, retire it at the end of turn.)
+AUTO: Hollow (When this unit is placed on RC, you may have it become hollowed. If you do, retire it at the end of turn.)
 
-AUTO: Generation Break 1: When this unit is put into the drop zone from R due to an effect from the hollow ability, Counter Charge 2.
+AUTO: Generation Break 1: When this unit is put into the drop zone from RC due to an effect from the hollow ability, Counter Charge 2.
 '
 
 global.UnitGrade[3657] = 0
@@ -1467,7 +1467,7 @@ global.CardName[3658] = 'Good Luck Charm Banshee'
 
 global.CardText[3658] = 'Granblue/Ghost/Magallanica/Heal Trigger
 
-You may only have up to four cards with "HEAL" in adeck.
+(You may only have up to four cards with "HEAL" in a deck.)
 '
 
 global.UnitGrade[3658] = 0
@@ -1489,7 +1489,7 @@ global.CardName[3659] = 'Graham the Ghostie'
 
 global.CardText[3659] = 'Granblue/Ghost/Magallanica/Stand Trigger
 
-ACT [R]: [Put this unit into your soul] Choose up to one of your units, and it gets power +3000 until end of turn.
+ACT [RC]: [Put this unit into your soul] Choose up to one of your units, and it gets power +3000 until end of turn.
 '
 
 global.UnitGrade[3659] = 0
@@ -1507,7 +1507,7 @@ CardStat = 3660
 
 {
 
-global.CardName[3660] = 'Raiding Zombie'
+global.CardName[3660] = 'Blitzing Zombie'
 
 global.CardText[3660] = 'Granblue/Zombie/Magallanica/Stand Trigger
 '
@@ -1547,13 +1547,13 @@ CardStat = 3679
 
 {
 
-global.CardName[3679] = 'Sword Master Mimic'
+global.CardName[3679] = 'Swordmaster Mimic'
 
 global.CardText[3679] = 'Granblue/Ghost
 
-AUTO: Hollow (When this unit is placed on R, you may have it become hollowed. If you do, retire it at the end of turn.)
+AUTO: Hollow (When this unit is placed on RC, you may have it become hollowed. If you do, retire it at the end of turn.)
 
-AUTO: Generation Break 1: When this unit is placed on R from your drop zone, this unit gets power +3000 until end of turn, and if this unit is hollowed, choose one of your other units, and it gets power +3000 until end of turn.
+AUTO: Generation Break 1: When this unit is placed on RC from your drop zone, this unit gets power +3000 until end of turn, and if this unit is hollowed, choose one of your other units, and it gets power +3000 until end of turn.
 '
 
 global.UnitGrade[3679] = 1
@@ -1573,9 +1573,9 @@ global.CardName[3731] = 'Demon Sea Queen, Maread'
 
 global.CardText[3731] = 'Granblue/Vampire
 
-Stride [Choose one or more cards with the sum of their grades being 3 or greater from your hand, and discard them] Stride this card on your V from face down.
+Stride [Choose one or more cards with the sum of their grades being 3 or greater from your hand, and discard them] Stride this card on your VC from face down.
 
-ACT [V] [1/Turn]: [Counter Blast 1 & Choose a face down card from your G zone, and turn it face up & Choose a card from your hand, and discard it] Choose up to the same number of normal units from your drop zone as the number of face up cards named "Demon Sea Queen, Maread" in your G zone with the sum of their grades being 4 or less, call them to separate R, and increase this units power by the sum of the original power of the units called with this effect until end of turn.
+ACT [VC] 1/Turn: [Counter Blast 1 & Choose a face down card from your G zone, and turn it face up & Choose a card from your hand, and discard it] Choose up to the same number of normal units from your drop zone as the number of face up cards named "Demon Sea Queen, Maread" in your G zone with the sum of their grades being 4 or less, call them to separate RC, and increase this unit’s power by the sum of the original power of the units called with this effect until end of turn.
 '
 
 global.UnitGrade[3731] = 4
@@ -1623,7 +1623,7 @@ global.CardText[3937] = 'Granblue/Ghost
 
 AUTO: Hollow.
 
-AUTO [R]: [Put two cards from the top of your deck into the drop zone] When this unit attacks a vanguard, you may pay the cost. If you do, this unit gets power +2000 until end of that battle.
+AUTO [RC]: [Put two cards from the top of your deck into the drop zone] When this unit attacks a vanguard, you may pay the cost. If you do, this unit gets power +2000 until end of that battle.
 
 AUTO: Generation Break 1: When this unit intercepts, if the number of cards with the hollow ability in your drop zone is four or more, this unit gets shield +5000 until end of that battle.
 '
@@ -1641,13 +1641,13 @@ CardStat = 4024
 
 {
 
-global.CardName[4024] = 'Storm-calling Pirate King, Gash'
+global.CardName[4024] = 'Tempest-calling Pirate King, Goauche'
 
 global.CardText[4024] = 'Granblue/Vampire
 
 Stride.
 
-AUTO: [Counter Blast 1 & Soul Blast 1 & Choose a face down card named "Storm-calling Pirate King, Gash" from your G zone, and turn it face up] When this unit is placed on V, you may pay the cost. If you do, choose up to five cards from your soul, put them into your drop zone, choose the same number of cards from your drop zone as the number of cards put into your drop zone with this effect, call them to separate R, and those units get power +1000 for each face up card in your G zone until end of turn.
+AUTO: [Counter Blast 1 & Soul Blast 1 & Choose a face down card named "Tempest-calling Pirate King, Goauche" from your G zone, and turn it face up] When this unit is placed on VC, you may pay the cost. If you do, choose up to five cards from your soul, put them into your drop zone, choose the same number of cards from your drop zone as the number of cards put into your drop zone with this effect, call them to separate RC, and those units get power +1000 for each face up card in your G zone until end of turn.
 '
 
 global.UnitGrade[4024] = 4
@@ -1671,7 +1671,7 @@ global.CardText[4025] = 'Granblue/Demon
 
 G guardian.
 
-AUTO: [Counter Blast 1 & Choose one of your rear-guards, and retire it] When this unit is placed on GC, you may pay the cost. If you do, choose up to one normal unit with "Ghostie" in its card name from your drop zone, call it to an open R, and this unit gets shield+10000 until end of that battle.
+AUTO: [Counter Blast 1 & Choose one of your rear-guards, and retire it] When this unit is placed on GC, you may pay the cost. If you do, choose up to one normal unit with "Ghostie" in its card name from your drop zone, call it to an open RC, and this unit gets shield+10000 until end of that battle.
 '
 
 global.UnitGrade[4025] = 4
@@ -1693,7 +1693,7 @@ global.CardName[4026] = 'Carl the Ghostie'
 
 global.CardText[4026] = 'Granblue/Ghost
 
-AUTO: [Counter Blast 1] When this card is put into the drop zone from your deck, you may pay the cost. If you do, call this card to an open R.
+AUTO: [Counter Blast 1] When this card is put into the drop zone from your deck, you may pay the cost. If you do, call this card to an open RC.
 '
 
 global.UnitGrade[4026] = 2
@@ -1709,13 +1709,13 @@ CardStat = 4027
 
 {
 
-global.CardName[4027] = 'Handsome Guy, Jean Mario'
+global.CardName[4027] = 'Handsomeness, Gianmario'
 
 global.CardText[4027] = 'Granblue/Zombie
 
 AUTO: Hollow.
 
-AUTO: Generation Break 1: When this unit is placed on R from your drop zone, until end of turn, this unit gets power +3000 and "AUTO [R]: When this units attack hits a vanguard, Counter Charge 1/Soul Charge 1". Then, if this unit is hollowed, until end of turn, this unit gets power +3000.
+AUTO: Generation Break 1: When this unit is placed on RC from your drop zone, until end of turn, this unit gets power +3000 and "AUTO [RC]: When this unit’s attack hits a vanguard, Counter Charge 1 / Soul Charge 1". Then, if this unit is hollowed, until end of turn, this unit gets power +3000.
 '
 
 global.UnitGrade[4027] = 2
@@ -1731,13 +1731,13 @@ CardStat = 4028
 
 {
 
-global.CardName[4028] = 'Skeleton Shock Troops'
+global.CardName[4028] = 'Skeleton Assault Soldier'
 
 global.CardText[4028] = 'Granblue/Skeleton
 
 AUTO: Hollow.
 
-CONT [R]: If this unit is hollowed, it gets "AUTO: When this unit is put into your drop zone from R, bind this card face-up".
+CONT [RC]: If this unit is hollowed, it gets "AUTO: When this unit is put into your drop zone from RC, bind this card face-up".
 
 AUTO [Bind zone]: At the beginning of the guard step that your unit is attacked, you may call this card to GC.
 '
@@ -1759,9 +1759,9 @@ global.CardName[4029] = 'Bale the Ghostie'
 
 global.CardText[4029] = 'Granblue/Ghost
 
-AUTO: Generation Break 1: When this unit is placed on R from your drop zone, this unit gets power +2000 until end of turn.
+AUTO: Generation Break 1: When this unit is placed on RC from your drop zone, this unit gets power +2000 until end of turn.
 
-AUTO: [Put this card from drop zone on the bottom of your deck] During each battle phase, when this unit is put into the drop zone from R, if you have a vanguard with "Nightrose" in its card name, you may pay the cost. If you do, Counter Charge 1.
+AUTO: [Put this card from drop zone on the bottom of your deck] During each battle phase, when this unit is put into the drop zone from RC, if you have a vanguard with "Nightrose" in its card name, you may pay the cost. If you do, Counter Charge 1.
 '
 
 global.UnitGrade[4029] = 1
@@ -1781,7 +1781,7 @@ global.CardName[4030] = 'Rampage Shade'
 
 global.CardText[4030] = 'Granblue/Ghost/Magallanica/Critical Trigger
 
-AUTO [R]: [Put this unit into your soul] When your vanguard attacks, if you have a grade 3 or greater vanguard with "Nightrose" in its card name, you may pay the cost. If you do, draw a card, choose one of your vanguards, and it gets power +5000 until end of that battle.
+AUTO [RC]: [Put this unit into your soul] When your vanguard attacks, if you have a grade 3 or greater vanguard with "Nightrose" in its card name, you may pay the cost. If you do, draw a card, choose one of your vanguards, and it gets power +5000 until end of that battle.
 '
 
 global.UnitGrade[4030] = 0
@@ -1803,7 +1803,7 @@ global.CardName[4031] = 'Cody the Ghostie'
 
 global.CardText[4031] = 'Granblue/Ghost/Magallanica/Critical Trigger
 
-AUTO [Drop Zone]: [Counter Blast 1] When your unit without "Ghostie" in its card name is put into the drop zone from R, you may pay the cost. If you do, call this card to an open R.
+AUTO [Drop Zone]: [Counter Blast 1] When your unit without "Ghostie" in its card name is put into the drop zone from RC, you may pay the cost. If you do, call this card to an open RC.
 '
 
 global.UnitGrade[4031] = 0
@@ -1827,9 +1827,9 @@ global.CardText[4070] = 'Granblue/Vampire
 
 AUTO: Hollow.
 
-CONT [R] Generation Break 1: If the number of cards with the hollow ability in your drop zone is four or more, this unit gets power +2000. Then, if this unit is hollowed, this unit gets power +2000.
+CONT [RC] Generation Break 1: If the number of cards with the hollow ability in your drop zone is four or more, this unit gets power +2000. Then, if this unit is hollowed, this unit gets power +2000.
 
-AUTO: [Put two cards from the top of your deck into the drop zone]  When this unit is placed on V or R, you may pay the cost. If you do, this unit gets power +2000 until end of turn.
+AUTO: [Put two cards from the top of your deck into the drop zone]  When this unit is placed on VC or RC, you may pay the cost. If you do, this unit gets power +2000 until end of turn.
 '
 
 global.UnitGrade[4070] = 3
@@ -1849,9 +1849,9 @@ global.CardName[4071] = 'Seven Seas Pillager, Nightspinel'
 
 global.CardText[4071] = 'Granblue/Vampire
 
-AUTO [R]: When your other unit with "Seven Seas" in its card name is placed on R from your drop zone, this unit gets power +2000 until end of turn.
+AUTO [RC]: When your other unit with "Seven Seas" in its card name is placed on RC from your drop zone, this unit gets power +2000 until end of turn.
 
-ACT [Drop Zone]: [Choose a card with "Seven Seas" in its card name from your hand, and discard it] Call this card to open R.
+ACT [Drop Zone]: [Choose a card with "Seven Seas" in its card name from your hand, and discard it] Call this card to open RC.
 '
 
 global.UnitGrade[4071] = 2
@@ -1867,13 +1867,13 @@ CardStat = 4072
 
 {
 
-global.CardName[4072] = 'Skeleton Shock Troops'
+global.CardName[4072] = 'Skeleton Assault Soldier'
 
 global.CardText[4072] = 'Granblue/Skeleton
 
 AUTO: Hollow.
 
-CONT [R]: If this unit is hollowed, it gets "AUTO: When this unit is put into your drop zone from R, bind this card face-up".
+CONT [RC]: If this unit is hollowed, it gets "AUTO: When this unit is put into your drop zone from RC, bind this card face-up".
 
 AUTO [Bind zone]: At the beginning of the guard step that your unit is attacked, you may call this card to GC.
 '
@@ -1895,7 +1895,7 @@ global.CardName[4073] = 'Witch Doctor of the Seven Seas, Raistutor'
 
 global.CardText[4073] = 'Granblue/Demon
 
-ACT [R]: [Rest this unit] Put the top card of your deck into the drop zone. If that card has "Seven Seas" in its card name, choose up to one other card in your drop zone with the same grade as that card, and call it to open R. At the end of the turn, retire the unit called with this effect.
+ACT [RC]: [Rest this unit] Put the top card of your deck into the drop zone. If that card has "Seven Seas" in its card name, choose up to one other card in your drop zone with the same grade as that card, and call it to open RC. At the end of the turn, retire the unit called with this effect.
 '
 
 global.UnitGrade[4073] = 1
@@ -1911,13 +1911,13 @@ CardStat = 4074
 
 {
 
-global.CardName[4074] = 'Novice Pirate, Geena'
+global.CardName[4074] = 'Rookie Pirate, Gina'
 
 global.CardText[4074] = 'Granblue/Vampire
 
 AUTO: Forerunner.
 
-ACT [R]: [Put this unit into your soul & Choose a normal unit from your hand, and discard it] Look at the top card of your deck, put it on the top or bottom of your deck, draw a card, and if the number of face up cards in your G zone is one or more, choose one of your units, and it gets power +5000 until end of turn.
+ACT [RC]: [Put this unit into your soul & Choose a normal unit from your hand, and discard it] Look at the top card of your deck, put it on the top or bottom of your deck, draw a card, and if the number of face up cards in your G zone is one or more, choose one of your units, and it gets power +5000 until end of turn.
 '
 
 global.UnitGrade[4074] = 0
@@ -1933,13 +1933,13 @@ CardStat = 4150
 
 {
 
-global.CardName[4150] = 'Praise Shipwright, Mike'
+global.CardName[4150] = 'Mike the Shipwright'
 
 global.CardText[4150] = 'Granblue/Skeleton
 
-CONT: You may have up to sixteen cards named "Praise Shipwright, Mike" in a deck.
+CONT: You may have up to sixteen cards named "Mike the Shipwright" in a deck.
 
-ACT [V/R]: [Choose one of your other rear-guards named "Praise Shipwright, Mike", and put it into your soul] Increase this units power by this units power until end of turn.
+ACT [VC/RC]: [Choose one of your other rear-guards named "Mike the Shipwright", and put it into your soul] Increase this unit’s power by this unit’s power until end of turn.
 '
 
 global.UnitGrade[4150] = 1
@@ -1955,7 +1955,7 @@ CardStat = 4250
 
 {
 
-global.CardName[4250] = 'Demonic Sword Pirate, Diane'
+global.CardName[4250] = 'Demonic Sword Pirate, Dianne'
 
 global.CardText[4250] = 'Granblue/Vampire
 
@@ -1963,7 +1963,7 @@ AUTO: Forerunner.
 
 AUTO: Hollow.
 
-AUTO [Drop Zone] Generation Break 1: [Counter Blast 1] During your turn, when your G unit Stride, you may pay the cost. If you do, call this card to R, and until end of turn, this unit gets "CONT: During your turn, if this unit is hollowed, this unit gets power +5000".
+AUTO [Drop Zone] Generation Break 1: [Counter Blast 1] During your turn, when your G unit Stride, you may pay the cost. If you do, call this card to RC, and until end of turn, this unit gets "CONT: During your turn, if this unit is hollowed, this unit gets power +5000".
 '
 
 global.UnitGrade[4250] = 0
@@ -1985,9 +1985,9 @@ global.CardText[4487] = 'Granblue/Ghost
 
 AUTO: Hollow.
 
-AUTO [Generation Break 1]: [Put this card on the bottom of your deck] When this unit is retired from R due to the effect of the hollow ability, if you have a vanguard with "Nightrose" in its card name, you may pay the cost. If you do, Counter Charge 1.
+AUTO [Generation Break 1]: [Put this card on the bottom of your deck] When this unit is retired from RC due to the effect of the hollow ability, if you have a vanguard with "Nightrose" in its card name, you may pay the cost. If you do, Counter Charge 1.
 
-AUTO [R]: When this unit attacks, if you have a vanguard with "Nightrose" in its card name, this unit gets power +2000 for each of your hollowed units until end of that battle.
+AUTO [RC]: When this unit attacks, if you have a vanguard with "Nightrose" in its card name, this unit gets power +2000 for each of your hollowed units until end of that battle.
 '
 
 global.UnitGrade[4487] = 2
@@ -2009,9 +2009,9 @@ global.CardText[4647] = 'Granblue/Ghost/Magallanica/Stand Trigger
 
 AUTO: Hollow.
 
-AUTO [Generation Break 1]: When this unit is placed on R, choose one of your other rear-guards with the hollow ability, and you may have it become hollowed.
+AUTO [Generation Break 1]: When this unit is placed on RC, choose one of your other rear-guards with the hollow ability, and you may have it become hollowed.
 
-AUTO [Generation Break 1]: When this unit is retired from R due to the effect of the hollow ability, you may bind this card face up. If you do, draw a card.
+AUTO [Generation Break 1]: When this unit is retired from RC due to the effect of the hollow ability, you may bind this card face up. If you do, draw a card.
 '
 
 global.UnitGrade[4647] = 0
@@ -2029,11 +2029,11 @@ CardStat = 4649
 
 {
 
-global.CardName[4649] = 'Seven Seas Sailor, Nightalert'
+global.CardName[4649] = 'Seven Seas Shipmate, Nightalert'
 
 global.CardText[4649] = 'Granblue/Vampire
 
-AUTO: [Counter Blast 1 "Seven Seas"] When this unit is placed on R from your drop zone, if you have a grade 3 or greater vanguard with "Seven Seas" in its card name, you may pay the cost. If you do, until end of turn, this unit gets power +2000, and "AUTO [R]: [Put this unit into your soul] When your vanguard attacks, you may pay the cost. If you do, draw a card".
+AUTO: [Counter Blast 1-card with "Seven Seas" in its card] When this unit is placed on RC from your drop zone, if you have a grade 3 or greater vanguard with "Seven Seas" in its card name, you may pay the cost. If you do, until end of turn, this unit gets power +2000, and "AUTO [RC]: [Put this unit into your soul] When your vanguard attacks, you may pay the cost. If you do, draw a card".
 '
 
 global.UnitGrade[4649] = 1
@@ -2055,7 +2055,7 @@ global.CardText[4650] = 'Granblue/Ghost
 
 AUTO: Forerunner.
 
-ACT [R]: [Put this unit into your soul] Put two cards from the top of your deck into your drop zone. If a card with "Ghostie" in its card name was put, Soul Charge 1, and then, if two cards were put, Counter Charge 1.
+ACT [RC]: [Put this unit into your soul] Put two cards from the top of your deck into your drop zone. If a card with "Ghostie" in its card name was put, Soul Charge 1, and then, if two cards were put, Counter Charge 1.
 '
 
 global.UnitGrade[4650] = 0
@@ -2071,13 +2071,13 @@ CardStat = 4651
 
 {
 
-global.CardName[4651] = 'Leader of Ghosties, Demetria'
+global.CardName[4651] = 'Ghostie Leade, Demetria'
 
 global.CardText[4651] = 'Granblue/Demon
 
-AUTO [V]: When your rear-guard is retired, choose a normal unit with "Ghostie" in its card name that is a grade less than that card from your drop zone, and you may call it to R. If you do, this unit loses this ability until end of turn.
+AUTO [VC]: When your rear-guard is retired, choose a normal unit with "Ghostie" in its card name that is a grade less than that card from your drop zone, and you may call it to RC. If you do, this unit loses this ability until end of turn.
 
-AUTO: [Soul Blast 2 <Ghost>] When this unit is placed on V, you may pay the cost. If you do, reveal cards from the top of your deck until you reveal a grade 1 card, choose a grade 1 card  with  "Ghostie" in its card name from among them, put it into your hand, and put the rest into your drop zone.
+AUTO: [Soul Blast 2 <Ghost>] When this unit is placed on VC, you may pay the cost. If you do, reveal cards from the top of your deck until you reveal a grade 1 card, choose a grade 1 card  with  "Ghostie" in its card name from among them, put it into your hand, and put the rest into your drop zone.
 '
 
 global.UnitGrade[4651] = 3
@@ -2099,7 +2099,7 @@ global.CardText[4654] = 'Granblue/Skeleton
 
 AUTO: Forerunner.
 
-AUTO [R]: [Put this unit into your soul] When your other unit with "Seven Seas" in its card name is placed on R from drop zone, if you have a grade 3 or greater vanguard with "Seven Seas" in its card name, you may pay the cost. If you do, choose one grade 1 or greater card with "Seven Seas" in its card name from your drop zone, call it to R, and at the end of that turn, retire that unit.
+AUTO [RC]: [Put this unit into your soul] When your other unit with "Seven Seas" in its card name is placed on RC from drop zone, if you have a grade 3 or greater vanguard with "Seven Seas" in its card name, you may pay the cost. If you do, choose one grade 1 or greater card with "Seven Seas" in its card name from your drop zone, call it to RC, and at the end of that turn, retire that unit.
 '
 
 global.UnitGrade[4654] = 0
@@ -2120,8 +2120,8 @@ global.CardName[4656] = 'Vampire Princess of Starlight, Nightrose'
 global.CardText[4656] = 'Granblue/Vampire
 
 AUTO: Hollow.
-AUTO [V/R] [1/Turn] Generation Break 2: [Soul Blast 1] When your unit is placed on another R from your drop zone during your turn, you may pay the cost. If you do, choose a grade 1 card from your drop zone, and call it to another R in the same column as this unit.
-AUTO [V]: [Counter Blast 1] During your turn, when your G unitStride, you may pay the cost. If you do, put up to three cards from the top of your deck into your drop zone, choose a card from your drop zone, call it to R, and if that unit has the hollow ability, it gets power +3000 until end of turn.
+AUTO [VC/RC] 1/Turn Generation Break 2: [Soul Blast 1] When your unit is placed on another RC from your drop zone during your turn, you may pay the cost. If you do, choose a grade 1 card from your drop zone, and call it to another RC in the same column as this unit.
+AUTO [VC]: [Counter Blast 1] During your turn, when your G unitStride, you may pay the cost. If you do, put up to three cards from the top of your deck into your drop zone, choose a card from your drop zone, call it to RC, and if that unit has the hollow ability, it gets power +3000 until end of turn.
 '
 
 global.UnitGrade[4656] = 3
@@ -2143,7 +2143,7 @@ global.CardText[4658] = 'Granblue/Ghost
 
 AUTO: Hollow.
 
-AUTO [Generation Break 1]: [Soul Blast 1 & Put this card into the bottom of your deck] When this unit is retired from R due to the effect of the hollow ability, if you have a vanguard with "Nightrose" in its card name, you may pay the cost. If you do, choose a card other than grade 1 from your drop zone, and call it to R.
+AUTO [Generation Break 1]: [Soul Blast 1 & Put this card into the bottom of your deck] When this unit is retired from RC due to the effect of the hollow ability, if you have a vanguard with "Nightrose" in its card name, you may pay the cost. If you do, choose a card other than grade 1 from your drop zone, and call it to RC.
 '
 
 global.UnitGrade[4658] = 1
@@ -2165,8 +2165,8 @@ global.CardText[4659] = 'Granblue/Ghost
 
 AUTO: Forerunner.
 AUTO: Hollow.
-AUTO [R]: [Counter Blast 1 & Put this unit into your soul] When your unit with "Nightrose" in its card names attack hits a vanguard, you may pay the cost. If you do, choose a grade 1 card from your drop zone, call it to R, and it gets power +3000 until end of turn.
-ACT [Drop Zone] Generation Break 1: [Soul Blast 1 & Choose one of your grade 1 or greater rear-guards, and rest it] Call this card to an open R as hollowed.
+AUTO [RC]: [Counter Blast 1 & Put this unit into your soul] When your unit with "Nightrose" in its card names attack hits a vanguard, you may pay the cost. If you do, choose a grade 1 card from your drop zone, call it to RC, and it gets power +3000 until end of turn.
+ACT [Drop Zone] Generation Break 1: [Soul Blast 1 & Choose one of your grade 1 or greater rear-guards, and rest it] Call this card to an open RC as hollowed.
 '
 
 global.UnitGrade[4659] = 0
@@ -2182,13 +2182,13 @@ CardStat = 4664
 
 {
 
-global.CardName[4664] = 'Seven Seas Head, Nightseolla'
+global.CardName[4664] = 'Seven Seas Dignitary, Nightzeolla'
 
 global.CardText[4664] = 'Granblue/Vampire
 
 Stride.
 
-AUTO [V] Limit Break 4: [Counter Blast 1 "Seven Seas" & Choose two cards with "Seven Seas" in its card name from your hand, and discard it] At the end of the battle that this unit attacked a vanguard, you may pay the cost. If you do, put this unit into your G zone face up, choose up to one grade 3 card with "Seven Seas" in its card name from your drop zone, andrideit on V as rest.
+AUTO [VC] Limit Break 4: [Counter Blast 1-card with "Seven Seas" in its card & Choose two cards with "Seven Seas" in its card name from your hand, and discard it] At the end of the battle that this unit attacked a vanguard, you may pay the cost. If you do, put this unit into your G zone face up, choose up to one grade 3 card with "Seven Seas" in its card name from your drop zone, andrideit on VC as rest.
 '
 
 global.UnitGrade[4664] = 4
@@ -2210,9 +2210,9 @@ global.CardName[4668] = 'Hesketh the Ghostie'
 
 global.CardText[4668] = 'Granblue/Ghost
 
-AUTO: When this unit is placed on R, this unit gets power +3000 until end of turn. If the number of cards with "Ghostie" in its card name in your drop zone is three or less, rest this unit.
+AUTO: When this unit is placed on RC, this unit gets power +3000 until end of turn. If the number of cards with "Ghostie" in its card name in your drop zone is three or less, rest this unit.
 
-ACT [R] [1/Turn]: [Counter Blast 1] Put the top card of your deck into your drop zone, if that card has "Ghostie" in its card name, stand this unit, and it gets power +3000 until end of turn.
+ACT [RC] 1/Turn: [Counter Blast 1] Put the top card of your deck into your drop zone, if that card has "Ghostie" in its card name, stand this unit, and it gets power +3000 until end of turn.
 '
 
 global.UnitGrade[4668] = 2
@@ -2228,11 +2228,11 @@ CardStat = 4669
 
 {
 
-global.CardName[4669] = 'Cremie the Ghostie'
+global.CardName[4669] = 'Clemmie the Ghostie'
 
 global.CardText[4669] = 'Granblue/Ghost
 
-CONT [R]: During your turn, if the number of cards in your drop zone is five or more, this unit gets power +2000, andthen, if the number of cards with "Ghostie" in its card name is ten or more, this unit gets power +5000.
+CONT [RC]: During your turn, if the number of cards in your drop zone is five or more, this unit gets power +2000, andthen, if the number of cards with "Ghostie" in its card name is ten or more, this unit gets power +5000.
 
 CONT [GC]: If the number of cards with "Ghostie" in its card name in your drop zone is ten or more, this unit gets shield +5000.
 '
@@ -2254,9 +2254,9 @@ global.CardName[4670] = 'Quincy the Ghostie'
 
 global.CardText[4670] = 'Granblue/Ghost
 
-ACT [Drop Zone] Generation Break 1: [Counter Blast 1 & Choose one of your grade 0 rear-guards, and put it on the bottom of your deck] Call this card to an open R.
+ACT [Drop Zone] Generation Break 1: [Counter Blast 1 & Choose one of your grade 0 rear-guards, and put it on the bottom of your deck] Call this card to an open RC.
 
-AUTO [R]: [Retire this unit] When your grade 3 vanguard with "Ghostie" in its card name is attacked, you may pay the cost. If you do, choose one of your vanguards, and it gets power +5000 until end of that battle.
+AUTO [RC]: [Retire this unit] When your grade 3 vanguard with "Ghostie" in its card name is attacked, you may pay the cost. If you do, choose one of your vanguards, and it gets power +5000 until end of that battle.
 '
 
 global.UnitGrade[4670] = 1
@@ -2278,9 +2278,9 @@ global.CardText[4671] = 'Granblue/Ghost
 
 AUTO: Hollow.
 
-AUTO [R] Generation Break 1: When this unit attacks a vanguard, this unit gets power +2000 until end of that battle.
+AUTO [RC] Generation Break 1: When this unit attacks a vanguard, this unit gets power +2000 until end of that battle.
 
-CONT [R]: If this unit is hollowed, this unit gets power +2000, and "Intercept".
+CONT [RC]: If this unit is hollowed, this unit gets power +2000, and "Intercept".
 '
 
 global.UnitGrade[4671] = 1
@@ -2302,7 +2302,7 @@ global.CardText[4674] = 'Granblue/Demon
 
 Stride.
 
-AUTO [V]: [Counter Blast 1 & Choose a face down card with the same card name as this unit from your G zone, and turn it face up & Choose a card from your hand, and discard it] At the end of the battle that this unit attacked, you may pay the cost. If you do, look at four cards from the top of your deck, put up to one card into your drop zone from among them, shuffle your deck, choose a card from your drop zone,callit to R, and it gets power +5000 for each face up card in your G zone until end of turn.
+AUTO [VC]: [Counter Blast 1 & Choose a face down card with the same card name as this unit from your G zone, and turn it face up & Choose a card from your hand, and discard it] At the end of the battle that this unit attacked, you may pay the cost. If you do, look at four cards from the top of your deck, put up to one card into your drop zone from among them, shuffle your deck, choose a card from your drop zone,callit to RC, and it gets power +5000 for each face up card in your G zone until end of turn.
 '
 
 global.UnitGrade[4674] = 4
@@ -2348,7 +2348,7 @@ global.CardText[4677] = 'Granblue/Vampire
 
 Stride.
 
-ACT [V] [1/Turn] Generation Break 2: [Counter Blast 2 & Choose a card from your hand, and discard it] Choose cards from your drop zone up to the same number of rear-guards you have, call them to separate R, for each called unit that has the hollow ability, your opponent chooses one of his or her rear-guards, and retires it. If your opponent has no rear-guards, draw a card.
+ACT [VC] 1/Turn Generation Break 2: [Counter Blast 2 & Choose a card from your hand, and discard it] Choose cards from your drop zone up to the same number of rear-guards you have, call them to separate RC, for each called unit that has the hollow ability, your opponent chooses one of his or her rear-guards, and retires it. If your opponent has no rear-guards, draw a card.
 '
 
 global.UnitGrade[4677] = 4
@@ -2365,11 +2365,11 @@ CardStat = 4678
 
 {
 
-global.CardName[4678] = 'Seven Seas Elite, Nightjasper'
+global.CardName[4678] = 'Seven Seas Crack Soldier, Nightjasper'
 
 global.CardText[4678] = 'Granblue/Vampire
 
-AUTO [R]: [Put two cards from the top of your deck into your drop zone] When this unit attacks a vanguard, you may pay the cost. If you do, until end of that battle, this unit gets "AUTO [R]: When this units attack hits, if you have a vanguard with "Seven Seas" in its card name, Counter Charge 1/Soul Charge 1".
+AUTO [RC]: [Put two cards from the top of your deck into your drop zone] When this unit attacks a vanguard, you may pay the cost. If you do, until end of that battle, this unit gets "AUTO [RC]: When this unit’s attack hits, if you have a vanguard with “Seven Seas” in its card name, Counter Charge 1 / Soul Charge 1".
 '
 
 global.UnitGrade[4678] = 2
@@ -2414,7 +2414,7 @@ global.CardText[4724] = 'Granblue/Skeleton
 
 Stride.
 
-AUTO: When this unit is placed on V, put up to four cards from the top of your deck into the drop zone. For each normal unit put into the drop zone this way, this unit gets power +5000 until end of turn. If the number of trigger units put into the drop zone this way is two or more, choose a card from your drop zone, and you may call it to R.
+AUTO: When this unit is placed on VC, put up to four cards from the top of your deck into the drop zone. For each normal unit put into the drop zone this way, this unit gets power +5000 until end of turn. If the number of trigger units put into the drop zone this way is two or more, choose a card from your drop zone, and you may call it to RC.
 '
 
 global.UnitGrade[4724] = 4
@@ -2438,9 +2438,9 @@ global.CardText[4725] = 'Granblue/Ghost
 
 AUTO: Hollow.
 
-AUTO [V/R] Generation Break 1: When this unit attacks a vanguard, it gets power +4000 until end of that battle.
+AUTO [VC/RC] Generation Break 1: When this unit attacks a vanguard, it gets power +4000 until end of that battle.
 
-AUTO: [Counter Blast 1] When this card is put into your drop zone from your deck, you may pay the cost. If you do, call this card to an open R as hollowed.
+AUTO: [Counter Blast 1] When this card is put into your drop zone from your deck, you may pay the cost. If you do, call this card to an open RC as hollowed.
 '
 
 global.UnitGrade[4725] = 3
@@ -2456,13 +2456,13 @@ CardStat = 4726
 
 {
 
-global.CardName[4726] = 'Skeleton Looter'
+global.CardName[4726] = 'Skeleton Marauder'
 
 global.CardText[4726] = 'Granblue/Skeleton
 
 AUTO: Hollow.
 
-ACT [Drop Zone] Generation Break 1: [Counter Blast 1 & Choose one of your grade 1 rear-guards, and rest it] Call this unit into an open R as hollowed, and it gets power +4000 until end of turn.
+ACT [Drop Zone] Generation Break 1: [Counter Blast 1 & Choose one of your grade 1 rear-guards, and rest it] Call this unit into an open RC as hollowed, and it gets power +4000 until end of turn.
 '
 
 global.UnitGrade[4726] = 2
@@ -2484,7 +2484,7 @@ global.CardText[4727] = 'Granblue/Workeroid
 
 AUTO: Hollow.
 
-ACT [Drop Zone] Generation Break 1: [Counter Blast 1 & Choose one of your grade 0 rear-guards, and rest it] Call this card to an open R as hollowed, and it gets power +4000 until end of turn.
+ACT [Drop Zone] Generation Break 1: [Counter Blast 1 & Choose one of your grade 0 rear-guards, and rest it] Call this card to an open RC as hollowed, and it gets power +4000 until end of turn.
 '
 
 global.UnitGrade[4727] = 1
@@ -2520,7 +2520,8 @@ CardStat = 4729
 
 {
 
-global.CardName[4729] = 'Seven Seas Deceased, Aurelio'
+global.CardName[4729] = 'Dead of the 
+Seven Seas, Aurelio'
 
 global.CardText[4729] = 'Granblue/Zombie/Magallanica/Draw Trigger
 '
@@ -2544,7 +2545,7 @@ global.CardName[4730] = 'Crusher Francesca'
 
 global.CardText[4730] = 'Granblue/Workeroid/Magallanica/Heal Trigger
 
-You may only have up to four cards with "HEAL" in adeck.
+(You may only have up to four cards with "HEAL" in a deck.)
 '
 
 global.UnitGrade[4730] = 0
@@ -2566,7 +2567,7 @@ global.CardName[4731] = 'Howard the Ghostie'
 
 global.CardText[4731] = 'Granblue/Ghost/Magallanica/Draw Trigger
 
-ACT [R]: [Put this unit into your soul] Choose one of your units, it gets power +3000 until end of turn.
+ACT [RC]: [Put this unit into your soul] Choose one of your units, it gets power +3000 until end of turn.
 '
 
 global.UnitGrade[4731] = 0
@@ -2583,7 +2584,7 @@ CardStat = 4753
 
 {
 
-global.CardName[4753] = 'Diabolist of Invitation, Negronola'
+global.CardName[4753] = 'Diabolist of Solicitation, Negronora'
 
 global.CardText[4753] = 'Granblue/Ghost
 
@@ -2606,15 +2607,15 @@ CardStat = 4763
 
 {
 
-global.CardName[4763] = 'Ocean Depths Zombie Whale'
+global.CardName[4763] = 'Zombie Whale of the Ocean Depths'
 
 global.CardText[4763] = 'Granblue/Zombie
 
 AUTO: Hollow.
 
-AUTO [R] Generation Break 1: When this unit attacks a vanguard, if this unit is hollowed, this unit gets power +1000 for every two cards in your drop zone until end of that battle.
+AUTO [RC] Generation Break 1: When this unit attacks a vanguard, if this unit is hollowed, this unit gets power +1000 for every two cards in your drop zone until end of that battle.
 
-CONT [V/R]: If the number of cards in your drop zone is five or less, this unit gets power -3000.
+CONT [VC/RC]: If the number of cards in your drop zone is five or less, this unit gets power -3000.
 '
 
 global.UnitGrade[4763] = 3
@@ -2634,9 +2635,9 @@ global.CardName[4765] = 'Bernard the Ghostie'
 
 global.CardText[4765] = 'Granblue/Ghost/Magallanica/Heal Trigger
 
-You may only have up to four cards with "HEAL" in adeck.
+(You may only have up to four cards with "HEAL" in a deck.)
 
-AUTO: [Choose a grade 1 or less card from your hand, and discard it] When this card is discarded from your hand for a cost to call "Diabolist of Invitation, Negronola" from your G zone, you may pay the cost. If you do, draw a card.
+AUTO: [Choose a grade 1 or less card from your hand, and discard it] When this card is discarded from your hand for a cost to call "Diabolist of Solicitation, Negronora" from your G zone, you may pay the cost. If you do, draw a card.
 '
 
 global.UnitGrade[4765] = 0
@@ -2660,7 +2661,7 @@ global.CardText[4803] = 'Granblue/Ghost
 
 Stride.
 
-AUTO [Generation Break 8]: When this unit is placed on V, choose up to five cards from your drop zone, call them to separate R, they get power +10000 until end of turn, and at the end of that turn, retire the units called with this effect.
+AUTO [Generation Break 8]: When this unit is placed on VC, choose up to five cards from your drop zone, call them to separate RC, they get power +10000 until end of turn, and at the end of that turn, retire the units called with this effect.
 '
 
 global.UnitGrade[4803] = 4
@@ -2682,7 +2683,7 @@ global.CardName[5111] = 'Flame Chef, Dee'
 
 global.CardText[5111] = 'Granblue/Zombie
 
-AUTO [Generation Break 1]: [Counter Blast 1 & Choose a card from your hand, and discard it] When this unit is retired from R for the effect or cost of your card, you may pay the cost. If you do, draw a card, choose one of your rear-guards, and it gets power +2000 until end of turn.
+AUTO [Generation Break 1]: [Counter Blast 1 & Choose a card from your hand, and discard it] When this unit is retired from RC for the effect or cost of your card, you may pay the cost. If you do, draw a card, choose one of your rear-guards, and it gets power +2000 until end of turn.
 '
 
 global.UnitGrade[5111] = 1
@@ -2698,15 +2699,15 @@ CardStat = 5172
 
 {
 
-global.CardName[5172] = 'Rosal Night Pirate King, Nightrose'
+global.CardName[5172] = 'Pirate King of the Roseate Twilight, Nightrose'
 
 global.CardText[5172] = 'Granblue/Vampire
 
 Stride.
 
-ACT [V] [1/Turn]: [Counter Blast 1 & Choose a face down card from your G zone with the same card name as this unit, and turn it face up] Choose up to a number of cards from your drop zone equal to one plus the number of face up cards in your G zone, call them to separate R as hollowed, and if you called three or more cards, this unit gets critical +1.
+ACT [VC] 1/Turn: [Counter Blast 1 & Choose a face down card from your G zone with the same card name as this unit, and turn it face up] Choose up to a number of cards from your drop zone equal to one plus the number of face up cards in your G zone, call them to separate RC as hollowed, and if you called three or more cards, this unit gets critical +1.
 
-AUTO [V]: At the beginning of your battle phase, choose one of your units for each card with "Nightrose" in its card name in your drop zone, and they get power +5000 until end of turn.
+AUTO [VC]: At the beginning of your battle phase, choose one of your units for each card with "Nightrose" in its card name in your drop zone, and they get power +5000 until end of turn.
 '
 
 global.UnitGrade[5172] = 4
@@ -2750,7 +2751,7 @@ global.CardName[5898] = 'Chappie the Ghostie '
 
 global.CardText[5898] = 'Granblue/Ghost
 
-AUTO [R/GC]: When placed, if you have ten or more cards in your drop zone, this unit gets power +10000/shield +10000 until end of turn.
+AUTO [RC/GC]: When placed, if you have ten or more cards in your drop zone, this unit gets power +10000/shield +10000 until end of turn.
 '
 
 global.UnitGrade[5898] = 0
@@ -2770,7 +2771,7 @@ global.CardName[5915] = 'Evil Shade '
 
 global.CardText[5915] = 'Granblue/Ghost
 
-ACT [R] [1/Turn]: COST [Counter Blast 1 & bind a card from your drop zone], and call a card with the same card name as the card bound for this cost from your drop zone to R.
+ACT [RC] 1/Turn: COST [Counter Blast 1 & bind a card from your drop zone], and call a card with the same card name as the card bound for this cost from your drop zone to RC.
 '
 
 global.UnitGrade[5915] = 1
@@ -2792,9 +2793,9 @@ global.CardText[5916] = 'Granblue/Skeleton
 
 CONT [Hand]: This card cannot be normal called.
 
-CONT [V/R]: During your turn, this unit gets power +2000 for each card in your drop zone.
+CONT [VC/RC]: During your turn, this unit gets power +2000 for each card in your drop zone.
 
-AUTO [R]: At the end of the battle that it attacked, retire this unit.
+AUTO [RC]: At the end of the battle that it attacked, retire this unit.
 '
 
 global.UnitGrade[5916] = 3
@@ -2816,9 +2817,9 @@ global.CardName[5917] = 'King of Demonic Seas, Basskirk '
 
 global.CardText[5917] = 'Granblue/Gillman
 
-CONT [V]: During your turn, if your drop zone has 10 or more cards, this unit gets power +5000/critical +1.
+CONT [VC]: During your turn, if your drop zone has 10 or more cards, this unit gets power +5000/critical +1.
 
-ACT [V] [1/Turn]: COST [Counter Blast 1 & Soul Blast 1], call a card from your drop zone to R, and this unit gets power +5000 until end of turn for each grade of that unit.
+ACT [VC] 1/Turn: COST [Counter Blast 1 & Soul Blast 1], call a card from your drop zone to RC, and this unit gets power +5000 until end of turn for each grade of that unit.
 '
 
 global.UnitGrade[5917] = 3
@@ -2864,9 +2865,9 @@ global.CardName[5923] = 'Ruin Shade '
 
 global.CardText[5923] = 'Granblue/Ghost
 
-AUTO [V/R]: When it attacks a vanguard, COST [Put two cards from the top of your deck into your drop zone], and this unit gets power +4000 until end of that battle.
+AUTO [VC/RC]: When it attacks a vanguard, COST [Put two cards from the top of your deck into your drop zone], and this unit gets power +4000 until end of that battle.
 
-CONT [R]: During your turn, if there are ten or more cards in your drop zone, this unit gets power +4000.
+CONT [RC]: During your turn, if there are ten or more cards in your drop zone, this unit gets power +4000.
 '
 
 global.UnitGrade[5923] = 2
@@ -2886,7 +2887,7 @@ global.CardName[5927] = 'Captain Nightmist '
 
 global.CardText[5927] = 'Granblue/Vampire
 
-AUTO [R]: When placed, COST [Counter Blast 1], and call a grade 1 or less card from your drop zone to R. If you have 10 or more cards in your drop zone, you may call any grade.
+AUTO [RC]: When placed, COST [Counter Blast 1], and call a grade 1 or less card from your drop zone to RC. If you have 10 or more cards in your drop zone, you may call any grade.
 '
 
 global.UnitGrade[5927] = 2
@@ -2906,7 +2907,7 @@ global.CardName[5928] = 'Dandy Guy, Romario '
 
 global.CardText[5928] = 'Granblue/Zombie
 
-CONT [R]: If there are 10 or more cards in your drop zone, this unit gets power +4000.
+CONT [RC]: If there are 10 or more cards in your drop zone, this unit gets power +4000.
 
 AUTO: When rode upon, COST [Counter Blast 1 & put a card from your hand into your soul], put the top three cards of your deck into your drop zone, and put a card from your drop zone into your hand.
 '
@@ -2924,13 +2925,13 @@ CardStat = 5936
 
 {
 
-global.CardName[5936] = 'Witch Doctor of Decay, Negrobreach'
+global.CardName[5936] = 'Witch Doctor of Treachery, Negrobreach'
 
 global.CardText[5936] = 'Granblue/Demon
 
-CONT [V/R]: During your turn, if your drop zone has ten or more cards, this unit gets power +10000.
+CONT [VC/RC]: During your turn, if your drop zone has ten or more cards, this unit gets power +10000.
 
-ACT [Drop Zone]: COST [Counter Blast 2], call this card to R. If your vanguard is grade 2 or greater, and it was not placed during this turn, you may ride it as stand instead of calling it.
+ACT [Drop Zone]: COST [Counter Blast 2], call this card to RC. If your vanguard is grade 2 or greater, and it was not placed during this turn, you may ride it as stand instead of calling it.
 '
 
 global.UnitGrade[5936] = 3
@@ -2952,7 +2953,7 @@ global.CardName[5937] = 'Dancing Cutlass '
 
 global.CardText[5937] = 'Granblue/Ghost
 
-ACT [Drop Zone]: COST [Bind one of your other "Dancing Cutlass" from your drop zone, and put the top card of your deck into your drop zone], call this card to R, and Counter Charge 1.
+ACT [Drop Zone]: COST [Bind one of your other "Dancing Cutlass" from your drop zone, and put the top card of your deck into your drop zone], call this card to RC, and Counter Charge 1.
 '
 
 global.UnitGrade[5937] = 1
@@ -2968,11 +2969,11 @@ CardStat = 5938
 
 {
 
-global.CardName[5938] = 'Painful Bullet, Nightgeweer'
+global.CardName[5938] = 'Grieving Bullet, Nightgewehr'
 
 global.CardText[5938] = 'Granblue/Vampire
 
-AUTO [R]: When placed, put the top card of your deck into your drop zone. If you have ten or more cards in your drop zone, this unit gets power +10000 until end of turn.
+AUTO [RC]: When placed, put the top card of your deck into your drop zone. If you have ten or more cards in your drop zone, this unit gets power +10000 until end of turn.
 '
 
 global.UnitGrade[5938] = 1
@@ -2992,9 +2993,9 @@ global.CardName[5953] = 'Commodore Blueblood '
 
 global.CardText[5953] = 'Granblue/Vampire
 
-CONT [R]: During your turn, if you have a "Commodore Blueblood" in your drop zone, this unit gets power +4000.
+CONT [RC]: During your turn, if you have a "Commodore Blueblood" in your drop zone, this unit gets power +4000.
 
-AUTO [R]: When its attack hits a vanguard, COST [Retire this unit], draw two cards, and discard a card from your hand.
+AUTO [RC]: When its attack hits a vanguard, COST [Retire this unit], draw two cards, and discard a card from your hand.
 '
 
 global.UnitGrade[5953] = 2
@@ -3032,13 +3033,13 @@ CardStat = 5955
 
 {
 
-global.CardName[5955] = 'Violence Franger'
+global.CardName[5955] = 'Violence Flanger'
 
 global.CardText[5955] = 'Granblue/Workeroid
 
-(STANDARD: banned.)
+(V PREMIUM: banned.)
 
-ACT [V/R] [1/Turn]: COST [Soul Blast 1 grade 3 & discard any number of cards from your hand], this unit gets power +5000 until end of turn, and during the battle that it attacked, your opponent cannot call sentinels nor cards with the same grade as the cards you discarded for this cost to GC from hand.
+ACT [VC/RC] 1/Turn: COST [Soul Blast 1 grade 3 & discard any number of cards from your hand], this unit gets power +5000 until end of turn, and during the battle that it attacked, your opponent cannot call sentinels nor cards with the same grade as the cards you discarded for this cost to GC from hand.
 '
 
 global.UnitGrade[5955] = 3
@@ -3056,11 +3057,11 @@ CardStat = 5956
 
 {
 
-global.CardName[5956] = 'Fancy Guy, Alvarro'
+global.CardName[5956] = 'Trendy Guy, Alvaro'
 
 global.CardText[5956] = 'Granblue/Zombie
 
-AUTO [R]: When placed from the drop zone, it gets power +10000 until end of turn.
+AUTO [RC]: When placed from the drop zone, it gets power +10000 until end of turn.
 '
 
 global.UnitGrade[5956] = 2
@@ -3080,7 +3081,7 @@ global.CardName[5957] = 'Skeleton Bomber'
 
 global.CardText[5957] = 'Granblue/Skeleton
 
-ACT [Drop Zone]: If you have three or more "Skeleton Bomber" in your drop zone, COST [Counter Blast 1], call up to four "Skeleton Bomber" from your drop zone to separate R, until end of turn, they get power +4000, and "Boost".
+ACT [Drop Zone]: If you have three or more "Skeleton Bomber" in your drop zone, COST [Counter Blast 1], call up to four "Skeleton Bomber" from your drop zone to separate RC, until end of turn, they get power +4000, and "Boost".
 '
 
 global.UnitGrade[5957] = 2
@@ -3118,7 +3119,7 @@ global.CardName[5959] = 'Norman the Ghostie'
 
 global.CardText[5959] = 'Granblue/Ghost
 
-ACT [R]: COST [Retire this unit & Put the top two cards from your deck into your drop zone], and one of your other units gets power +10000 until end of turn.
+ACT [RC]: COST [Retire this unit & Put the top two cards from your deck into your drop zone], and one of your other units gets power +10000 until end of turn.
 '
 
 global.UnitGrade[5959] = 1
@@ -3138,7 +3139,7 @@ global.CardName[5960] = 'Guiding Zombie '
 
 global.CardText[5960] = 'Granblue/Zombie
 
-AUTO: When rode upon, draw a card. Then, if your opponents vanguard is grade 1 or greater, put a quick shield ticket into your hand.
+AUTO: When rode upon, draw a card. Then, if your opponent’s vanguard is grade 1 or greater, put a Quick Shield Ticket into your hand.
 '
 
 global.UnitGrade[5960] = 0
@@ -3196,7 +3197,7 @@ CardStat = 5963
 
 {
 
-global.CardName[5963] = 'Steering Pirate, Paolo'
+global.CardName[5963] = 'Pirate Ship Handler, Paolo'
 
 global.CardText[5963] = 'Granblue/Vampire/Magallanica/Draw Trigger
 '
@@ -3220,7 +3221,7 @@ global.CardName[5964] = 'Rick the Ghostie '
 
 global.CardText[5964] = 'Granblue/Ghost/Magallanica/Heal Trigger
 
-You may only have up to four cards with "HEAL" in a deck.
+(You may only have up to four cards with "HEAL" in a deck.)
 '
 
 global.UnitGrade[5964] = 0
@@ -3242,7 +3243,7 @@ global.CardName[6102] = 'Samurai Spirit '
 
 global.CardText[6102] = 'Granblue/Ghost
 
-ACT [Drop Zone]: COST [Soul Blast 1 & retire one of your rear-guards other than "Samurai Spirit"], call this card to R, and it gets power +4000 until end of turn.
+ACT [Drop Zone]: COST [Soul Blast 1 & retire one of your rear-guards other than "Samurai Spirit"], call this card to RC, and it gets power +4000 until end of turn.
 '
 
 global.UnitGrade[6102] = 1
@@ -3258,7 +3259,7 @@ CardStat = 6596
 global.CardName[CardStat] = 'Ben the Ghostie'
 global.CardText[CardStat] = 'Granblue/Ghost
 
-AUTO: When it is put into drop zone from deck, COST [Soul Blast 1], and call this card to R.'
+AUTO: When it is put into drop zone from deck, COST [Soul Blast 1], and call this card to RC.'
 global.UnitGrade[CardStat] = 2
 global.CardInClan[CardStat] = 8
 }
@@ -3271,7 +3272,7 @@ global.CardText[CardStat] = 'Granblue/Ghost
 
 Stride.
 
-ACT [V] 1/Turn: COST [Counter Blast 1 & turn a card from your G zone face up], search your deck for up to five cards, put them into your drop zone, shuffle your deck, call up to two cards from your drop zone to R for each face up card in your G zone, and they get power +5000 until end of turn.'
+ACT [VC] 1/Turn: COST [Counter Blast 1 & turn a card from your G zone face up], search your deck for up to five cards, put them into your drop zone, shuffle your deck, call up to two cards from your drop zone to RC for each face up card in your G zone, and they get power +5000 until end of turn.'
 global.UnitGrade[CardStat] = 4
 global.CardInClan[CardStat] = 8
 global.ExtraDeck[CardStat] = 1
@@ -3283,7 +3284,7 @@ CardStat = 6740
 global.CardName[CardStat] = 'Raging Sea Banshee'
 global.CardText[CardStat] = 'Granblue/Ghost/Critical Trigger
 
-AUTO [R] Generation Break 1: When your vanguard attacks, COST [put this unit into your soul], draw a card, and one of your vanguards gets power +10000 until end of that battle.'
+AUTO [RC] Generation Break 1: When your vanguard attacks, COST [put this unit into your soul], draw a card, and one of your vanguards gets power +10000 until end of that battle.'
 global.UnitGrade[CardStat] = 0
 global.CardInClan[CardStat] = 8
 }
@@ -3295,7 +3296,7 @@ CardStat = 6761
 global.CardName[CardStat] = 'Seabed Demon Beast, Scaredick'
 global.CardText[CardStat] = 'Granblue/Zombie
 
-ACT [V/R] 1/Turn: If your drop zone has thirty or more cards, COST [discard all of the cards in your hand], and this unit gets power +30000/critical +1 until end of turn.'
+ACT [VC/RC] 1/Turn: If your drop zone has thirty or more cards, COST [discard all of the cards in your hand], and this unit gets power +30000/critical +1 until end of turn.'
 global.UnitGrade[CardStat] = 3
 global.CardInClan[CardStat] = 8
 }
@@ -3308,7 +3309,7 @@ CardStat = 6762
 global.CardName[CardStat] = 'Pat the Ghostie'
 global.CardText[CardStat] = 'Granblue/Ghost
 
-CONT [Drop zone]: During the battle that your opponents vanguard attacked, if your drop zone has ten or more cards, you may call this card to GC.
+CONT [Drop zone]: During the battle that your opponent’s vanguard attacked, if your drop zone has ten or more cards, you may call this card to GC.
 
 AUTO [GC]: When retired from GC, bind this card.'
 global.UnitGrade[CardStat] = 1
@@ -3322,9 +3323,9 @@ CardStat = 6769
 global.CardName[CardStat] = 'Master Swordsman, Nightstorm '
 global.CardText[CardStat] = 'Granblue/Vampire
 
-AUTO [V/R]: When placed, COST [put two cards from the top of your deck into your drop zone], and this unit gets power +5000 until end of turn.
+AUTO [VC/RC]: When placed, COST [put two cards from the top of your deck into your drop zone], and this unit gets power +5000 until end of turn.
 
-AUTO [V/R]: When it attacks a vanguard, if your drop zone has ten or more cards, COST [Counter Blast 1], and draw a card.'
+AUTO [VC/RC]: When it attacks a vanguard, if your drop zone has ten or more cards, COST [Counter Blast 1], and draw a card.'
 global.UnitGrade[CardStat] = 3
 global.CardInClan[CardStat] = 8
 }
@@ -3337,9 +3338,9 @@ CardStat = 6770
 global.CardName[CardStat] = 'Greed Shade '
 global.CardText[CardStat] = 'Granblue/Ghost
 
-CONT [V/R]: During your turn, if your drop zone has ten or more cards, this unit gets power +5000.
+CONT [VC/RC]: During your turn, if your drop zone has ten or more cards, this unit gets power +5000.
 
-AUTO [R]: When placed, COST [discard a card from your hand], put two cards from the top of your deck into your drop zone, and return a card not named "Greed Shade" from your drop zone to your hand.'
+AUTO [RC]: When placed, COST [discard a card from your hand], put two cards from the top of your deck into your drop zone, and return a card not named "Greed Shade" from your drop zone to your hand.'
 global.UnitGrade[CardStat] = 2
 global.CardInClan[CardStat] = 8
 }
@@ -3351,7 +3352,7 @@ CardStat = 6771
 global.CardName[CardStat] = 'King Tentacle'
 global.CardText[CardStat] = 'Granblue/Ghost
 
-AUTO: When it is put into the drop zone from your deck, COST [Soul Blast 1], call this card to R, and it gets power +10000 until end of turn.'
+AUTO: When it is put into the drop zone from your deck, COST [Soul Blast 1], call this card to RC, and it gets power +10000 until end of turn.'
 global.UnitGrade[CardStat] = 3
 global.CardInClan[CardStat] = 8
 }
@@ -3363,7 +3364,7 @@ CardStat = 6779
 global.CardName[CardStat] = 'Kicking Frangaru'
 global.CardText[CardStat] = 'Granblue/Workeroid
 
-AUTO [R]: When placed from drop zone, two of your grade 2 rear-guards get power +4000 until end of turn.'
+AUTO [RC]: When placed from drop zone, two of your grade 2 rear-guards get power +4000 until end of turn.'
 global.UnitGrade[CardStat] = 2
 global.CardInClan[CardStat] = 8
 }
@@ -3372,10 +3373,10 @@ global.PowerStat[CardStat] = 9000
 
 CardStat = 6780
 {
-global.CardName[CardStat] = 'Punching Franguru'
+global.CardName[CardStat] = 'Punching Frangul'
 global.CardText[CardStat] = 'Granblue/Workeroid
 
-ACT [R] 1/Turn: COST [Counter Blast 1 & Soul Blast 2], and call a card from your drop zone to R. If you called "Kicking Frangaru", Counter Charge 1/Soul Charge 1.'
+ACT [RC] 1/Turn: COST [Counter Blast 1 & Soul Blast 2], and call a card from your drop zone to RC. If you called "Kicking Frangaru", Counter Charge 1 / Soul Charge 1.'
 global.UnitGrade[CardStat] = 2
 global.CardInClan[CardStat] = 8
 }
@@ -3383,10 +3384,10 @@ global.PowerStat[CardStat] = 9000
 
 CardStat = 6788
 {
-global.CardName[CardStat] = 'Skeleton Sniper'
+global.CardName[CardStat] = 'Skeleton Sharpshooter'
 global.CardText[CardStat] = 'Granblue/Skeleton
 
-AUTO: When it is retired from R, you may put two cards from the top of your deck into your drop zone.'
+AUTO: When it is retired from RC, you may put two cards from the top of your deck into your drop zone.'
 global.UnitGrade[CardStat] = 1
 global.CardInClan[CardStat] = 8
 }
@@ -3398,7 +3399,7 @@ CardStat = 6790
 global.CardName[CardStat] = 'Ripple Banshee '
 global.CardText[CardStat] = 'Granblue/Ghost
 
-AUTO [R]: When placed from drop zone, COST [Soul Blast 1], draw a card, and this unit gets power +4000 until end of turn.'
+AUTO [RC]: When placed from drop zone, COST [Soul Blast 1], draw a card, and this unit gets power +4000 until end of turn.'
 global.UnitGrade[CardStat] = 1
 global.CardInClan[CardStat] = 8
 }
@@ -3410,9 +3411,9 @@ CardStat = 6794
 global.CardName[CardStat] = 'Ice Prison Necromancer, Cocytus '
 global.CardText[CardStat] = 'Granblue/Skeleton
 
-CONT [V]: During your turn, if your drop zone has ten or more cards, this unit gets power +10000. If it has twenty or more cards, it gets power +20000/critical +1 instead of +10000.
+CONT [VC]: During your turn, if your drop zone has ten or more cards, this unit gets power +10000. If it has twenty or more cards, it gets power +20000/critical +1 instead of +10000.
 
-ACT [V] 1/Turn: COST [Counter Blast 1 & put four cards from the top of your deck into your drop zone], and call up to the number of grade 3 cards in your soul +2 of cards from your drop zone to R. (If there is one grade 3, call up to three cards.)'
+ACT [VC] 1/Turn: COST [Counter Blast 1 & put four cards from the top of your deck into your drop zone], and call up to the number of grade 3 cards in your soul +2 of cards from your drop zone to RC. (If there is one grade 3, call up to three cards.)'
 global.UnitGrade[CardStat] = 3
 global.CardInClan[CardStat] = 8
 }
@@ -3427,7 +3428,7 @@ global.CardText[CardStat] = 'Granblue/Ghost
 
 CONT [Hand]: This card cannot be normal called. (Cannot be called to GC either.)
 
-AUTO [R]: When it attacks, this unit gets power +15000 until end of that battle. At the end of that battle, draw a card, and retire this unit.'
+AUTO [RC]: When it attacks, this unit gets power +15000 until end of that battle. At the end of that battle, draw a card, and retire this unit.'
 global.UnitGrade[CardStat] = 2
 global.CardInClan[CardStat] = 8
 }
@@ -3439,7 +3440,7 @@ CardStat = 6796
 global.CardName[CardStat] = 'Captain Nightkid '
 global.CardText[CardStat] = 'Granblue/Vampire
 
-AUTO: When rode upon, draw a card. Then, if your opponents vanguard is grade 1 or greater, put a quick shield ticket into your hand.'
+AUTO: When rode upon, draw a card. Then, if your opponent’s vanguard is grade 1 or greater, put a Quick Shield Ticket into your hand.'
 global.UnitGrade[CardStat] = 0
 global.CardInClan[CardStat] = 8
 }
@@ -3452,7 +3453,7 @@ CardStat = 6797
 global.CardName[CardStat] = 'Dragon Spirit '
 global.CardText[CardStat] = 'Granblue/Ghost
 
-AUTO [R]: When placed from drop zone, this unit gets power +4000 until end of turn. If your drop zone has ten or more cards, it gets +8000 instead of +4000.'
+AUTO [RC]: When placed from drop zone, this unit gets power +4000 until end of turn. If your drop zone has ten or more cards, it gets +8000 instead of +4000.'
 global.UnitGrade[CardStat] = 1
 global.CardInClan[CardStat] = 8
 }
@@ -3468,7 +3469,7 @@ CONT: Sentinel.
 
 AUTO [GC]: When placed, COST [discard a card from your hand], and one of your units cannot be hit until end of that battle.
 
-AUTO [V]: When placed, draw a card, and discard a card.'
+AUTO [VC]: When placed, draw a card, and discard a card.'
 global.UnitGrade[CardStat] = 1
 global.CardInClan[CardStat] = 8
 }
@@ -3477,7 +3478,7 @@ global.PowerStat[CardStat] = 7000
 
 CardStat = 6811
 {
-global.CardName[CardStat] = 'Night Patrol Pirate, Nilde'
+global.CardName[CardStat] = 'Nightwatch Pirate, Nilde'
 global.CardText[CardStat] = 'Granblue/Vampire
 '
 global.UnitGrade[CardStat] = 2
@@ -3488,7 +3489,7 @@ global.PowerStat[CardStat] = 7000
 
 CardStat = 6812
 {
-global.CardName[CardStat] = 'Skeleton Sword Soldier'
+global.CardName[CardStat] = 'Skeleton Drawn-Sword Soldier'
 global.CardText[CardStat] = 'Granblue/Skeleton
 '
 global.UnitGrade[CardStat] = 1
@@ -3510,10 +3511,10 @@ global.PowerStat[CardStat] = 5000
 
 CardStat = 6815
 {
-global.CardName[CardStat] = 'Troubadour Dead, Alfio'
+global.CardName[CardStat] = 'Troubadour Cadaver, Alfio'
 global.CardText[CardStat] = 'Granblue/Zombie
 
-AUTO [R]: When placed from hand, if your drop zone has ten or more cards, COST [discard a card from your hand], and Counter Charge 1/Soul Charge 1.'
+AUTO [RC]: When placed from hand, if your drop zone has ten or more cards, COST [discard a card from your hand], and Counter Charge 1 / Soul Charge 1.'
 global.UnitGrade[CardStat] = 1
 global.CardInClan[CardStat] = 8
 }
@@ -3537,7 +3538,7 @@ global.CardText[CardStat] = 'Granblue/Ghost
 
 Stride.
 
-AUTO [V]: At the end of the battle that it attacked, COST [Counter Blast 1 & discard three cards from your hand], put this unit into your G zone face up, and ride up to one grade 3 card from your drop zone as stand.'
+AUTO [VC]: At the end of the battle that it attacked, COST [Counter Blast 1 & discard three cards from your hand], put this unit into your G zone face up, and ride up to one grade 3 card from your drop zone as stand.'
 global.UnitGrade[CardStat] = 4
 global.CardInClan[CardStat] = 8
 global.ExtraDeck[CardStat] = 1
@@ -3562,9 +3563,9 @@ CardStat = 7622
 global.CardName[CardStat] = 'Seven Seas Apprentice, Nightrunner '
 global.CardText[CardStat] = 'Granblue/Vampire
 
-AUTO [V/R]: When its attack hits, choose one of your V or R without any Treasures markers, and put a Treasures marker.
+AUTO [VC/RC]: When its attack hits, choose one of your VC or RC without any Treasures markers, and put a Treasures marker.
 
-ACT [R]: COST [Bind this unit & put two cards from the top of your deck into the drop zone], and return a card with "Seven Seas" in its card name not named "Seven Seas Apprentice, Nightrunner" from your drop zone to your hand.
+ACT [RC]: COST [Bind this unit & put two cards from the top of your deck into the drop zone], and return a card with "Seven Seas" in its card name not named "Seven Seas Apprentice, Nightrunner" from your drop zone to your hand.
 
 (SHIFT + left mouse button to get a Treasure marker.)'
 global.UnitGrade[CardStat] = 0
@@ -3579,9 +3580,9 @@ CardStat = 7623
 global.CardName[CardStat] = 'Seven Seas Helmsman, Nightcrow '
 global.CardText[CardStat] = 'Granblue/Vampire
 
-AUTO [V/R]: When its attack hits, choose one of your V or R without any Treasures markers, and put a Treasures marker.
+AUTO [VC/RC]: When its attack hits, choose one of your VC or RC without any Treasures markers, and put a Treasures marker.
 
-ACT [Drop Zone]: If you have a vanguard with "Seven Seas" in its card name, COST [Soul Blast 1 & retire a rear-guard not named "Seven Seas Helmsman, Nightcrow"], and call this card to R.
+ACT [Drop Zone]: If you have a vanguard with "Seven Seas" in its card name, COST [Soul Blast 1 & retire a rear-guard not named "Seven Seas Helmsman, Nightcrow"], and call this card to RC.
 
 (SHIFT + left mouse button to get a Treasure marker.)'
 global.UnitGrade[CardStat] = 1
@@ -3596,9 +3597,9 @@ CardStat = 7624
 global.CardName[CardStat] = 'Witch Doctor of the Seven Seas, Raistutor '
 global.CardText[CardStat] = 'Granblue/Demon
 
-AUTO [V/R]: When its attack hits, choose one of your V or R without any Treasures markers, and put a Treasures marker.
+AUTO [VC/RC]: When its attack hits, choose one of your VC or RC without any Treasures markers, and put a Treasures marker.
 
-CONT [R]: If there is a marker on this units circle, this unit gets "Intercept".
+CONT [RC]: If there is a marker on this unit’s circle, this unit gets "Intercept".
 
 (SHIFT + left mouse button to get a Treasure marker.)'
 global.UnitGrade[CardStat] = 1
@@ -3613,9 +3614,9 @@ CardStat = 7625
 global.CardName[CardStat] = 'Seven Seas Pillager, Nightspinel '
 global.CardText[CardStat] = 'Granblue/Vampire
 
-AUTO [V/R]: When its attack hits, choose one of your V or R without any Treasures markers, and put a Treasures marker.
+AUTO [VC/RC]: When its attack hits, choose one of your VC or RC without any Treasures markers, and put a Treasures marker.
 
-AUTO [V/R]: When placed, COST [Counter Blast 1 & put two cards from the top of your deck into the drop zone], and call up to one card with "Seven Seas" in its card name not named "Seven Seas Pillager, Nightspinel" from your drop zone to R.
+AUTO [VC/RC]: When placed, COST [Counter Blast 1 & put two cards from the top of your deck into the drop zone], and call up to one card with "Seven Seas" in its card name not named "Seven Seas Pillager, Nightspinel" from your drop zone to RC.
 
 (SHIFT + left mouse button to get a Treasure marker.)'
 global.UnitGrade[CardStat] = 2
@@ -3630,9 +3631,9 @@ CardStat = 7626
 global.CardName[CardStat] = 'Seven Seas Master Swordsman, Slash Shade '
 global.CardText[CardStat] = 'Granblue/Ghost
 
-AUTO [V/R]: When its attack hits, choose one of your V or R without any Treasures markers, and put a Treasures marker.
+AUTO [VC/RC]: When its attack hits, choose one of your VC or RC without any Treasures markers, and put a Treasures marker.
 
-CONT [R]: During your turn, if there is a marker on this units circle, this unit gets power +15000.
+CONT [RC]: During your turn, if there is a marker on this unit’s circle, this unit gets power +15000.
 
 (SHIFT + left mouse button to get a Treasure marker.)'
 global.UnitGrade[CardStat] = 2
@@ -3647,12 +3648,12 @@ CardStat = 7627
 global.CardName[CardStat] = 'Lord of the Seven Seas, Nightmist '
 global.CardText[CardStat] = 'Granblue/Vampire
 
-AUTO [V/R]: When its attack hits, choose one of your V or R without any Treasures markers, and put a Treasures marker.
+AUTO [VC/RC]: When its attack hits, choose one of your VC or RC without any Treasures markers, and put a Treasures marker.
 
-CONT [V]: You get all of the effects below according to the number of your Treasures markers.
+CONT [VC]: You get all of the effects below according to the number of your Treasures markers.
 • 1 or more - All of your rear-guards with "Seven Seas" in their card names can attack and intercept from the back row.
 • 3 or more - During your turn, all of your units with "Seven Seas" in their card names get power +5000.
-• 6 or more - This unit gets "AUTO [V]: At the end of the battle it attacked, stand all of your rear-guards with "Seven Seas" in their card names".
+• 6 or more - This unit gets "AUTO [VC]: At the end of the battle it attacked, stand all of your rear-guards with “Seven Seas” in their card names".
 
 (SHIFT + left mouse button to get a Treasure marker.)'
 global.UnitGrade[CardStat] = 3
@@ -3661,13 +3662,14 @@ global.CardInClan[CardStat] = 8
 global.GreenTokenAdd[CardStat] = 1
 global.PowerStat[CardStat] = 12000
 global.MimicNotEvil[CardStat] = 1
+global.EnableAttackFromBackRow[CardStat] = 1
 
 CardStat = 7689
 {
 global.CardName[CardStat] = 'Undying Departed, Grenache '
 global.CardText[CardStat] = 'Granblue/Ghost
 
-AUTO: When rode upon, draw a card. Then, if your opponents vanguard is grade 1 or greater, put a Quick Shield Ticket into your hand.'
+AUTO: When rode upon, draw a card. Then, if your opponent’s vanguard is grade 1 or greater, put a Quick Shield Ticket into your hand.'
 global.UnitGrade[CardStat] = 0
 global.CardInClan[CardStat] = 8
 }
@@ -3680,7 +3682,7 @@ CardStat = 7690
 global.CardName[CardStat] = 'Skeleton Sea Navigator'
 global.CardText[CardStat] = 'Granblue/Skeleton
 
-ACT [R]: COST [Rest two rear-guards], and put five cards from the top of your deck into your drop zone.'
+ACT [RC]: COST [Rest two rear-guards], and put five cards from the top of your deck into your drop zone.'
 global.UnitGrade[CardStat] = 1
 global.CardInClan[CardStat] = 8
 }
@@ -3691,7 +3693,7 @@ CardStat = 7699
 global.CardName[CardStat] = 'Forebode Ghost Ship'
 global.CardText[CardStat] = 'Granblue/Ghost
 
-ACT [Drop Zone]: COST [Discard a card from your hand], call this card to R, and if your drop zone has ten or more cards, this unit gets power +10000 until end of turn.'
+ACT [Drop Zone]: COST [Discard a card from your hand], call this card to RC, and if your drop zone has ten or more cards, this unit gets power +10000 until end of turn.'
 global.UnitGrade[CardStat] = 3
 global.CardInClan[CardStat] = 8
 }
@@ -3703,9 +3705,9 @@ CardStat = 7714
 global.CardName[CardStat] = 'Tommy the Ghostie Brothers '
 global.CardText[CardStat] = 'Granblue/Ghost
 
-CONT [V/R]: During your turn, if your drop zone has five or more cards, this unit gets power +5000.
+CONT [VC/RC]: During your turn, if your drop zone has five or more cards, this unit gets power +5000.
 
-AUTO [V/R]: When placed from hand, look at five cards from the top of your deck, reveal up to one grade 3 from among them and put it into your hand, shuffle your deck, and if you put a card, discard a card from your hand.'
+AUTO [VC/RC]: When placed from hand, look at five cards from the top of your deck, reveal up to one grade 3 from among them and put it into your hand, shuffle your deck, and if you put a card, discard a card from your hand.'
 global.UnitGrade[CardStat] = 1
 global.CardInClan[CardStat] = 8
 }
@@ -3713,7 +3715,7 @@ global.PowerStat[CardStat] = 8000
 
 CardStat = 7722
 {
-global.CardName[CardStat] = 'Night-playing Zombie'
+global.CardName[CardStat] = 'Night Rendering Zombie'
 global.CardText[CardStat] = 'Granblue/Zombie
 '
 global.UnitGrade[CardStat] = 1
@@ -3724,10 +3726,10 @@ global.PowerStat[CardStat] = 9000
 
 CardStat = 7723
 {
-global.CardName[CardStat] = 'Racking Frankhini'
+global.CardName[CardStat] = 'Wracking Frankhini'
 global.CardText[CardStat] = 'Granblue/Workeroid
 
-AUTO [R]: When placed from drop zone, COST [Counter Blast 2], and this unit gets power +25000 until end of turn.'
+AUTO [RC]: When placed from drop zone, COST [Counter Blast 2], and this unit gets power +25000 until end of turn.'
 global.UnitGrade[CardStat] = 2
 global.CardInClan[CardStat] = 8
 }
@@ -3738,7 +3740,7 @@ CardStat = 7752
 global.CardName[CardStat] = 'Number One Harpoon, Bhoja'
 global.CardText[CardStat] = 'Granblue/Ghost
 
-AUTO [R]: When it attacks, if your vanguard is grade 3 or greater, COST [put the top card of your deck into the drop zone], this unit gets power +10000 until end of that battle, and at the end of that battle, retire this unit.'
+AUTO [RC]: When it attacks, if your vanguard is grade 3 or greater, COST [put the top card of your deck into the drop zone], this unit gets power +10000 until end of that battle, and at the end of that battle, retire this unit.'
 global.UnitGrade[CardStat] = 1
 global.CardInClan[CardStat] = 8
 }
@@ -3749,7 +3751,7 @@ CardStat = 7766
 global.CardName[CardStat] = 'Pirate Swordsman, Colombard '
 global.CardText[CardStat] = 'Granblue/Vampire
 
-AUTO [V/R]: When placed, COST [Counter Blast 1], search your deck for up to one card, put it into your drop zone, shuffle your deck, and call up to one card from your drop zone to R. This ability may only be used by a card with the same card name once a turn.'
+AUTO [VC/RC]: When placed, COST [Counter Blast 1], search your deck for up to one card, put it into your drop zone, shuffle your deck, and call up to one card from your drop zone to RC. This ability may only be used by a card with the same card name once a turn.'
 global.UnitGrade[CardStat] = 2
 global.CardInClan[CardStat] = 8
 }
@@ -3758,7 +3760,7 @@ global.PowerStat[CardStat] = 9000
 
 CardStat = 7767
 {
-global.CardName[CardStat] = 'Gunner Francette'
+global.CardName[CardStat] = 'Guner Francette'
 global.CardText[CardStat] = 'Granblue/Workeroid/Draw Trigger
 '
 global.UnitGrade[CardStat] = 0
@@ -3782,10 +3784,10 @@ global.PowerStat[CardStat] = 5000
 
 CardStat = 7785
 {
-global.CardName[CardStat] = 'Cyril the Ghostie'
+global.CardName[CardStat] = 'Cyrille the Ghostie'
 global.CardText[CardStat] = 'Granblue/Ghost
 
-CONT [R/GC]: If your drop zone has fifteen or more cards, this unit gets power +10000/shield +10000.'
+CONT [RC/GC]: If your drop zone has fifteen or more cards, this unit gets power +10000/shield +10000.'
 global.UnitGrade[CardStat] = 1
 global.CardInClan[CardStat] = 8
 }
@@ -3796,7 +3798,7 @@ CardStat = 7786
 global.CardName[CardStat] = 'Witch Doctor of Powdered Bone, Negrobone '
 global.CardText[CardStat] = 'Granblue/Demon
 
-ACT [Drop zone]: COST [Discard a card from your hand & put this card on the bottom of your deck], and call a grade 1 card from your drop zone to R. If your drop zone has ten or more cards, you may call regardless of the grade.'
+ACT [Drop zone]: COST [Discard a card from your hand & put this card on the bottom of your deck], and call a grade 1 card from your drop zone to RC. If your drop zone has ten or more cards, you may call regardless of the grade.'
 global.UnitGrade[CardStat] = 1
 global.CardInClan[CardStat] = 8
 }
@@ -3807,9 +3809,9 @@ CardStat = 7788
 global.CardName[CardStat] = 'Thin-mist Banshee'
 global.CardText[CardStat] = 'Granblue/Ghost
 
-AUTO [R]: When placed by your cards ability, this unit gets power +10000 until end of turn.
+AUTO [RC]: When placed by your cards ability, this unit gets power +10000 until end of turn.
 
-AUTO: When retired from R by your cards ability, draw a card. This ability may only be used by a card with the same card name once a turn.'
+AUTO: When retired from RC by your cards ability, draw a card. This ability may only be used by a card with the same card name once a turn.'
 global.UnitGrade[CardStat] = 2
 global.CardInClan[CardStat] = 8
 }
@@ -3821,9 +3823,9 @@ CardStat = 7789
 global.CardName[CardStat] = 'Vampire Princess of Night Fog, Nightrose '
 global.CardText[CardStat] = 'Granblue/Vampire
 
-AUTO [V]: When your rear-guard attacks or boosts, that unit gets power +5000 until end of that battle, and retire that unit at the end of that battle.
+AUTO [VC]: When your rear-guard attacks or boosts, that unit gets power +5000 until end of that battle, and retire that unit at the end of that battle.
 
-AUTO [V]: When it attacks, COST [Counter Blast 1], choose a column, call up to two cards from your drop zone to R in that column, and if your opponents vanguard is grade 3 or greater, this unit gets power +10000 until end of that battle.'
+AUTO [VC]: When it attacks, COST [Counter Blast 1], choose a column, call up to two cards from your drop zone to RC in that column, and if your opponent’s vanguard is grade 3 or greater, this unit gets power +10000 until end of that battle.'
 global.UnitGrade[CardStat] = 3
 global.CardInClan[CardStat] = 8
 }
@@ -3836,7 +3838,7 @@ CardStat = 7790
 global.CardName[CardStat] = 'Good Luck Charm Banshee '
 global.CardText[CardStat] = 'Granblue/Ghost/Heal Trigger
 
-You may only have up to four cards with "HEAL" in a deck.'
+(You may only have up to four cards with "HEAL" in a deck.)'
 global.UnitGrade[CardStat] = 0
 global.CardInClan[CardStat] = 8
 }
@@ -3849,7 +3851,7 @@ CardStat = 7791
 global.CardName[CardStat] = 'Parliament Shade'
 global.CardText[CardStat] = 'Granblue/Ghost
 
-AUTO [V]: When it attacks, COST [Soul Blast 3 grade 3], retire all of your and your opponents rear-guards, if your drop zone has fifteen or more cards, call five cards from your drop zone to R, and all of your units get power +10000 until end of turn.'
+AUTO [VC]: When it attacks, COST [Soul Blast 3 grade 3], retire all of your and your opponent’s rear-guards, if your drop zone has fifteen or more cards, call five cards from your drop zone to RC, and all of your units get power +10000 until end of turn.'
 global.UnitGrade[CardStat] = 3
 global.CardInClan[CardStat] = 8
 }
@@ -3861,7 +3863,7 @@ CardStat = 7792
 global.CardName[CardStat] = 'Skeleton Pirate Skipper'
 global.CardText[CardStat] = 'Granblue/Skeleton
 
-ACT [V] 1/Turn: COST [Counter Blast 1 & Put two cards from the top of your deck into your drop zone], call up to one card from your drop zone to R, and that unit and this unit get power +10000 until end of turn.'
+ACT [VC] 1/Turn: COST [Counter Blast 1 & Put two cards from the top of your deck into your drop zone], call up to one card from your drop zone to RC, and that unit and this unit get power +10000 until end of turn.'
 global.UnitGrade[CardStat] = 3
 global.CardInClan[CardStat] = 8
 }
@@ -3873,7 +3875,7 @@ CardStat = 7797
 global.CardName[CardStat] = 'Witch Doctor of Languor, Negrolazy '
 global.CardText[CardStat] = 'Granblue/Demon
 
-AUTO [V/R]: When placed, you may call a grade 0 from your drop zone to R.'
+AUTO [VC/RC]: When placed, you may call a grade 0 from your drop zone to RC.'
 global.UnitGrade[CardStat] = 2
 global.CardInClan[CardStat] = 8
 }
@@ -3885,7 +3887,7 @@ CardStat = 7798
 global.CardName[CardStat] = 'Head-seas Banshee'
 global.CardText[CardStat] = 'Granblue/Ghost
 
-AUTO [R]: When placed from drop zone, COST [Soul Blast 1], and this unit gets power +10000 until end of turn.'
+AUTO [RC]: When placed from drop zone, COST [Soul Blast 1], and this unit gets power +10000 until end of turn.'
 global.UnitGrade[CardStat] = 0
 global.CardInClan[CardStat] = 8
 }
@@ -3896,11 +3898,11 @@ CardStat = 8181
 global.CardName[CardStat] = 'Ghostie Leader, Beatrice'
 global.CardText[CardStat] = 'Granblue/Demon
 
-AUTO [V/R]: When placed, COST [Soul Blast 1], and call a card not named "Ghostie Leader, Beatrice" from your drop zone to R.
+AUTO [VC/RC]: When placed, COST [Soul Blast 1], and call a card not named "Ghostie Leader, Beatrice" from your drop zone to RC.
 
-CONT [V]: All of your units with "Ghostie" in their card names on your R or GC get "Intercept" and power +5000/shield +5000.
+CONT [VC]: All of your units with "Ghostie" in their card names on your RC or GC get "Intercept" and power +5000/shield +5000.
 
-AUTO [V]: When your rear-guard is retired by a cards ability during your turn, COST [Counter Blast 1], and call a card with "Ghostie" in its card name and grade less than the grade of the retired unit from your drop zone to R.'
+AUTO [VC]: When your rear-guard is retired by a cards ability during your turn, COST [Counter Blast 1], and call a card with "Ghostie" in its card name and grade less than the grade of the retired unit from your drop zone to RC.'
 global.UnitGrade[CardStat] = 3
 global.CardInClan[CardStat] = 8
 }
@@ -3914,9 +3916,9 @@ CardStat = 8182
 global.CardName[CardStat] = 'Jessie the Ghostie'
 global.CardText[CardStat] = 'Granblue/Ghost
 
-ACT [Drop Zone]: COST [Retire two rear-guards not named "Jessie the Ghostie"], and call this card to R. This ability may only be used by a card with the same card name once a turn.
+ACT [Drop Zone]: COST [Retire two rear-guards not named "Jessie the Ghostie"], and call this card to RC. This ability may only be used by a card with the same card name once a turn.
 
-AUTO [R]: When it attacks, this unit gets power +5000 until end of that battle. At the end of that battle, retire this unit, and if you did not Counter Charge by the ability of "Jessie the Ghostie" this turn, Counter Charge 1.'
+AUTO [RC]: When it attacks, this unit gets power +5000 until end of that battle. At the end of that battle, retire this unit, and if you did not Counter Charge by the ability of "Jessie the Ghostie" this turn, Counter Charge 1.'
 global.UnitGrade[CardStat] = 2
 global.CardInClan[CardStat] = 8
 }
@@ -3929,11 +3931,89 @@ CardStat = 8183
 global.CardName[CardStat] = 'Damian the Ghostie'
 global.CardText[CardStat] = 'Granblue/Ghost
 
-AUTO [V/R]: When placed from hand, search your deck for up to one card with "Ghostie" in its card name, put it into your drop zone, and shuffle your deck.
+AUTO [VC/RC]: When placed from hand, search your deck for up to one card with "Ghostie" in its card name, put it into your drop zone, and shuffle your deck.
 
-AUTO [R]: At the end of the battle it attacked, if you have a vanguard with "Ghostie" in its card name, COST [retire this unit], and if you did not Counter Charge by the ability of "Damian the Ghostie" this turn, Counter Charge 1.'
+AUTO [RC]: At the end of the battle it attacked, if you have a vanguard with "Ghostie" in its card name, COST [retire this unit], and if you did not Counter Charge by the ability of "Damian the Ghostie" this turn, Counter Charge 1.'
 global.UnitGrade[CardStat] = 1
 global.CardInClan[CardStat] = 8
 }
 global.PowerStat[CardStat] = 8000
 global.DefensePowerStat[CardStat] = 10000
+
+CardStat = 9002
+{
+global.CardName[CardStat] = 'Young Pirate Noble, Pinot Noir '
+global.CardText[CardStat] = 'Granblue/Vampire
+
+CONT [VC]: During your turn, all of your front row units get power +5000 for every three trigger units in your drop.
+
+AUTO [VC] 1/Turn: When your "Pirate Belle, Pinot Blanc" is placed on RC during your turn, COST [Soul Blast 1], discard two cards from the top of your deck, and activate all trigger effects of the discarded cards.'
+global.UnitGrade[CardStat] = 3
+global.CardInClan[CardStat] = 8
+}
+global.GreenTokenAdd[CardStat] = 1
+global.PowerStat[CardStat] = 12000
+global.DefensePowerStat[CardStat] = 0
+
+
+CardStat = 9003
+{
+global.CardName[CardStat] = 'Pirate Belle, Pinot Blanc '
+global.CardText[CardStat] = 'Granblue/Vampire
+
+AUTO [Drop]: When "Young Pirate Noble, Pinot Noir" on your VC attacks, COST [Counter Blast 1 & retire a rear-guard], draw a card, and call this card to your front row RC.
+
+CONT [RC/GC]: This unit cannot be attacked, and this unit gets shield +5000 for every three trigger units in your drop.'
+global.UnitGrade[CardStat] = 2
+global.CardInClan[CardStat] = 8
+}
+global.PowerStat[CardStat] = 9000
+global.DefensePowerStat[CardStat] = 5000
+
+
+CardStat = 9004
+{
+global.CardName[CardStat] = 'Sea Strolling Banshee '
+global.CardText[CardStat] = 'Granblue/Ghost
+
+AUTO: When this unit is placed on VC, search your deck for up to one card, discard it, and shuffle your deck.
+
+AUTO [RC]: At the end of the battle this unit attacked or boosted, you may discard two cards from the top of your deck. Then, if one or more trigger units were discarded, COST [retire this unit], and draw a card.'
+global.UnitGrade[CardStat] = 1
+global.CardInClan[CardStat] = 8
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 10000
+
+
+CardStat = 9005
+{
+global.CardName[CardStat] = 'Brandish Francess'
+global.CardText[CardStat] = 'Granblue/Workeroid
+
+AUTO [RC]: When this unit attacks, COST [discard the top two cards of your deck], and this unit gets power +5000 until end of that battle.
+
+AUTO: When this unit is retired from RC by your cards ability, COST [Soul Blast 1 & bind this card]], choose a "Brandish Francess" from your drop, and call it to RC.'
+global.UnitGrade[CardStat] = 2
+global.CardInClan[CardStat] = 8
+}
+global.PowerStat[CardStat] = 9000
+global.DefensePowerStat[CardStat] = 5000
+
+
+CardStat = 9006
+{
+global.CardName[CardStat] = 'Sea Cruising Banshee'
+global.CardText[CardStat] = 'Granblue/Ghost/Heal Trigger
+
+AUTO: When this unit is put on GC from hand, if you have not ridden a grade 3 or greater unit this fight, perform one of the following.
+— Choose one of your vanguards, and it gets power +10000 until end of turn.
+— Choose one of your opponent’s units, and it gets critical -2 until end of that battle.
+
+AUTO: When this unit is placed on RC from hand, if your damage zone has 0 cards, put the top card of your deck into the damage zone.'
+global.UnitGrade[CardStat] = 3
+global.CardInClan[CardStat] = 8
+}
+global.TriggerUnit[CardStat] = 4
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 15000

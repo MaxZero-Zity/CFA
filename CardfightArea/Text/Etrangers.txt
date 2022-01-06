@@ -5,7 +5,7 @@ CardStat = x
 global.CardName[CardStat] = 'Blaster Mameshiba'
 global.CardText[CardStat] = 'Etranger/High Beast/Star Gate
 
-AUTO: When this unit is put into the drop zone from the Guardian circle, put this card into your soul.'
+AUTO: When this unit is put into the drop zone from the GC, put this card into your soul.'
 global.UnitGrade[CardStat] = 0
 global.CardInClan[CardStat] = 22
 }
@@ -15,7 +15,7 @@ CardStat = x+1
 global.CardName[CardStat] = 'Kumamon'
 global.CardText[CardStat] = 'Etranger/High Beast/Star Gate
 
-AUTO: When this unit is put into the drop zone from the Guardian circle, put this card into your soul.'
+AUTO: When this unit is put into the drop zone from the GC, put this card into your soul.'
 global.UnitGrade[CardStat] = 0
 global.CardInClan[CardStat] = 22
 }
@@ -25,9 +25,9 @@ CardStat = x+2
 global.CardName[CardStat] = 'Princess of the Corals, Tethys'
 global.CardText[CardStat] = 'Etranger/Mermaid/Star Gate
 
-ACT [V/R]: [Counter Blast 1] This unit gets power +1000 until end of turn.
+ACT [VC/RC]: [Counter Blast 1] This unit gets power +1000 until end of turn.
 
-CONT:This card is also treated as «Aqua Force».'
+CONT: This card is also treated as «Aqua Force».'
 global.UnitGrade[CardStat] = 1
 global.CardInClan[CardStat] = 22
 }
@@ -37,7 +37,7 @@ CardStat = x+3
 global.CardName[CardStat] = 'Blaster Keroro'
 global.CardText[CardStat] = 'Etranger/Alien/Star Gate
 
-AUTO [V/R]: When this unit attacks, if the number of cards in your hand is greater than your opponents, this unit gets power +3000 until end of that battle.'
+AUTO [VC/RC]: When this unit attacks, if the number of cards in your hand is greater than your opponent’s, this unit gets power +3000 until end of that battle.'
 global.UnitGrade[CardStat] = 2
 global.CardInClan[CardStat] = 22
 }
@@ -47,7 +47,7 @@ CardStat = x+4
 global.CardName[CardStat] = 'Blaster Keroro Dark'
 global.CardText[CardStat] = 'Etranger/Alien/Star Gate
 
-AUTO [V/R]: When this unit attacks, if the number of Rear-guards you have is less than your opponents, this unit gets power +3000 until end of that battle.'
+AUTO [VC/RC]: When this unit attacks, if the number of Rear-guards you have is less than your opponent’s, this unit gets power +3000 until end of that battle.'
 global.UnitGrade[CardStat] = 2
 global.CardInClan[CardStat] = 22
 }
@@ -57,7 +57,7 @@ CardStat = x+5
 global.CardName[CardStat] = 'Incandescent Lion, Keroro Ezel'
 global.CardText[CardStat] = 'Etranger/Alien/Star Gate
 
-AUTO [V/R]: When this unit is boosted by a «Etranger», this unit gets power +2000 until end of that battle.'
+AUTO [VC/RC]: When this unit is boosted by a «Etranger», this unit gets power +2000 until end of that battle.'
 global.UnitGrade[CardStat] = 3
 global.CardInClan[CardStat] = 22
 }
@@ -67,9 +67,9 @@ CardStat = x+6
 global.CardName[CardStat] = 'Kidani Baron'
 global.CardText[CardStat] = 'Etranger/Human/Star Gate
 
-AUTO [V]: When this unit attacks, if during the fight theres a fighter name "Kidani Baron" that joins the game, this unit gets power +3000 until end of that battle.
+AUTO [VC]: When this unit attacks, if during the fight theres a fighter name "Kidani Baron" that joins the game, this unit gets power +3000 until end of that battle.
 
-AUTO [R]:When this unit attacks, if during the fight theres a fighter name "Kidani Baron" that joins the game, this unit gets power +1000 until end of that battle.'
+AUTO [RC]:When this unit attacks, if during the fight theres a fighter name "Kidani Baron" that joins the game, this unit gets power +1000 until end of that battle.'
 global.UnitGrade[CardStat] = 3
 global.CardInClan[CardStat] = 22
 }
@@ -80,9 +80,9 @@ CardStat = x+7
 global.CardName[CardStat] = 'Spiderman'
 global.CardText[CardStat] = 'Etranger/Human/Star Gate
 
-AUTO [V]: Limit Break 4 (This ability is active if you have four or more damage): When this unit attacks a Vanguard, this unit gets power +5000 until end of that battle.
+AUTO [VC]: Limit Break 4 (This ability is active if you have four or more damage): When this unit attacks a Vanguard, this unit gets power +5000 until end of that battle.
 
-AUTO: [Counter Blast 2] When this unit is placed on Vanguard circle, you may pay the cost. If you do, choose an opponents grade 2 or less Rear-guard, and retire it.'
+AUTO: [Counter Blast 2] When this unit is placed on VC, you may pay the cost. If you do, choose an opponent’s grade 2 or less Rear-guard, and retire it.'
 global.UnitGrade[CardStat] = 3
 global.CardInClan[CardStat] = 22
 }
@@ -108,7 +108,7 @@ CardStat = x
 global.CardName[CardStat] = 'Demonic Beast, Zaruba'
 global.CardText[CardStat] = 'Etranger/Demon/Star Gate
 
-AUTO [V/R]: When this unit attacks, if you have a «Etranger» Vanguard or Rear-guard that has Limit Break 4, this unit gets power +3000 until end of that battle.'
+AUTO [VC/RC]: When this unit attacks, if you have a «Etranger» Vanguard or Rear-guard that has Limit Break 4, this unit gets power +3000 until end of that battle.'
 global.UnitGrade[CardStat] = 2
 global.CardInClan[CardStat] = 22
 }
@@ -122,9 +122,9 @@ CardStat = x
 global.CardName[CardStat] = 'Blue Dragon Knight, Garo'
 global.CardText[CardStat] = 'Etranger/Human/Star Gate
 
-AUTO [V]: Limit Break 4 (This ability is active if you have four or more damage): When this unit attacks a Vanguard, this unit gets power +5000 until end of that battle.
+AUTO [VC]: Limit Break 4 (This ability is active if you have four or more damage): When this unit attacks a Vanguard, this unit gets power +5000 until end of that battle.
 
-AUTO [R]: When this unit attacks a Vanguard, if you have a «Etranger» Vanguard, this unit gets power +2000 until end of the battle.'
+AUTO [RC]: When this unit attacks a Vanguard, if you have a «Etranger» Vanguard, this unit gets power +2000 until end of the battle.'
 global.UnitGrade[CardStat] = 3
 global.CardInClan[CardStat] = 22
 }
@@ -138,9 +138,9 @@ CardStat = x
 global.CardName[CardStat] = 'Fire Leon'
 global.CardText[CardStat] = 'Etranger/Human/Star Gate
 
-AUTO [V]: Limit Break 4 (This ability is active if you have four or more damage): When this unit attacks a Vanguard, this unit gets power +5000 until end of that battle.
+AUTO [VC]: Limit Break 4 (This ability is active if you have four or more damage): When this unit attacks a Vanguard, this unit gets power +5000 until end of that battle.
 
-AUTO [R]: When this unit attacks a Vanguard, if you have a «Etranger» Vanguard, this unit gets power +2000 until end of the battle.'
+AUTO [RC]: When this unit attacks a Vanguard, if you have a «Etranger» Vanguard, this unit gets power +2000 until end of the battle.'
 global.UnitGrade[CardStat] = 3
 global.CardInClan[CardStat] = 22
 }
@@ -154,7 +154,7 @@ CardStat = x
 global.CardName[CardStat] = 'Ferald Kingdom, Queen Lyne'
 global.CardText[CardStat] = 'Etranger/Human/Star Gate
 
-ACT [V/R]: [Counter Blast 1] This unit gets power +1000 until end of turn.'
+ACT [VC/RC]: [Counter Blast 1] This unit gets power +1000 until end of turn.'
 global.UnitGrade[CardStat] = 1
 global.CardInClan[CardStat] = 22
 }
@@ -168,7 +168,7 @@ CardStat = x
 global.CardName[CardStat] = 'Dark Noble, Muma'
 global.CardText[CardStat] = 'Etranger/Demon/Star Gate
 
-AUTO [V/R]: When this unit attacks, if the number of Rear-guards you have is more than your opponents, this unit gets power+3000 until end of that battle.'
+AUTO [VC/RC]: When this unit attacks, if the number of Rear-guards you have is more than your opponent’s, this unit gets power+3000 until end of that battle.'
 global.UnitGrade[CardStat] = 2
 global.CardInClan[CardStat] = 22
 }
@@ -203,7 +203,7 @@ CardStat = x
 global.CardName[CardStat] = '"Man"'
 global.CardText[CardStat] = 'Etranger/Human/Star Gate
 
-ACT [V]: [Staring] Manipulate the will of a <Human> with the "power to manipulate".'
+ACT [VC]: [StarinGC] Manipulate the will of a <Human> with the "power to manipulate".'
 global.UnitGrade[CardStat] = 3
 global.CardInClan[CardStat] = 22
 }
@@ -213,9 +213,9 @@ CardStat = x+1
 global.CardName[CardStat] = '"Man who Cannot be Manipulated" Shuichi Tanaka'
 global.CardText[CardStat] = 'Etranger/Human/Star Gate
 
-CONT [V]: This unit cannot be manipulated with the "power to manipulate".
+CONT [VC]: This unit cannot be manipulated with the "power to manipulate".
 
-CONT [V]: This unit also have resilience of threat.'
+CONT [VC]: This unit also have resilience of threat.'
 global.UnitGrade[CardStat] = 3
 global.CardInClan[CardStat] = 22
 }
@@ -225,7 +225,7 @@ CardStat = x+2
 global.CardName[CardStat] = 'Kanae Kumoi'
 global.CardText[CardStat] = 'Etranger/Human/Star Gate
 
-CONT [V/R]: This unit is trying to publish a book of map itself.'
+CONT [VC/RC]: This unit is trying to publish a book of map itself.'
 global.UnitGrade[CardStat] = 1
 global.CardInClan[CardStat] = 22
 }
@@ -239,9 +239,9 @@ CardStat = x
 global.CardName[CardStat] = 'Golden Knight, Garo Sho'
 global.CardText[CardStat] = 'Etranger/Human/Star Gate
 
-AUTO [V] Limit Break 4 (This ability is active if you have four or more damage): When this unit attacks a vanguard, this unit gets power +5000 until end of that battle.
+AUTO [VC] Limit Break 4 (This ability is active if you have four or more damage): When this unit attacks a vanguard, this unit gets power +5000 until end of that battle.
 
-CONT [V]: If you have a card named "Golden Knight, Garo" in your soul, this unit gets power +1000.'
+CONT [VC]: If you have a card named "Golden Knight, Garo" in your soul, this unit gets power +1000.'
 global.UnitGrade[CardStat] = 3
 global.CardInClan[CardStat] = 22
 }
@@ -251,7 +251,7 @@ CardStat = x+1
 global.CardName[CardStat] = 'Demonic Beast, Degoru'
 global.CardText[CardStat] = 'Etranger/Demon/Star Gate
 
-ACT [V/R]: [Counter Blast 2] This unit gets power +4000 until end of turn.'
+ACT [VC/RC]: [Counter Blast 2] This unit gets power +4000 until end of turn.'
 global.UnitGrade[CardStat] = 2
 global.CardInClan[CardStat] = 22
 }
@@ -272,7 +272,7 @@ global.CardName[3689] = 'Sanctuary Guard DAIGO'
 
 global.CardText[3689] = 'Etranger/Human
 
-Stride [Choose one or more cards with the sum of their grades being 3 or greater from your hand, and discard them] Stride this card on your V from face down.
+Stride [Choose one or more cards with the sum of their grades being 3 or greater from your hand, and discard them] Stride this card on your VC from face down.
 '
 
 global.UnitGrade[3689] = 4
@@ -443,9 +443,9 @@ global.CardName[3698] = 'Machine Divine General Giga Road'
 
 global.CardText[3698] = 'Etranger/Battleroid
 
-AUTO [V] Limit Break 4 (This ability is active if you have four or more damage): When this unit attacks a vanguard, this unit gets power +5000 until end of that battle.
+AUTO [VC] Limit Break 4 (This ability is active if you have four or more damage): When this unit attacks a vanguard, this unit gets power +5000 until end of that battle.
 
-AUTO: [Counter Blast 2] When this unit is placed on V, you may pay the cost. If you do, choose one your opponents grade 2 or less rear-guards, and retire it.
+AUTO: [Counter Blast 2] When this unit is placed on VC, you may pay the cost. If you do, choose one your opponent’s grade 2 or less rear-guards, and retire it.
 '
 
 global.UnitGrade[3698] = 3
@@ -485,9 +485,9 @@ global.CardName[5418] = 'Classical Folk Dancer'
 
 global.CardText[5418] = 'Etranger/Human
 
-AUTO [V] Generation Break 1: When this unit attacks a vanguard, Counter Charge 1/Soul Charge 1, and this unit gets power +5000 until end of turn.
+AUTO [VC] Generation Break 1: When this unit attacks a vanguard, Counter Charge 1 / Soul Charge 1, and this unit gets power +5000 until end of turn.
 
-AUTO [V]: [Counter Blast 1] During your turn, when your G unit Stride, you may pay the cost. If you do, draw a card.
+AUTO [VC]: [Counter Blast 1] During your turn, when your G unit Stride, you may pay the cost. If you do, draw a card.
 '
 
 global.UnitGrade[5418] = 3
@@ -506,7 +506,7 @@ global.CardName[5515] = 'Happy Childrens Day'
 
 global.CardText[5515] = 'Etranger/Human
 
-AUTO [R] Generation Break 1: [Soul Blast 1] When this unit boosts a vanguard, you may pay the cost. If you do, choose one of your units, and that unit gets power +4000 until end of turn.
+AUTO [RC] Generation Break 1: [Soul Blast 1] When this unit boosts a vanguard, you may pay the cost. If you do, choose one of your units, and that unit gets power +4000 until end of turn.
 '
 
 global.UnitGrade[5515] = 1
@@ -527,7 +527,7 @@ global.CardText[5859] = 'Etranger/Human
 
 Stride.
 
-AUTO [V]: [Counter Blast 1] At the end of battle that this unit attacked, if the attack did not hit, you may pay the cost. If you do, choose up to two of your rear-guards, and those units get power +5000 until end of turn.
+AUTO [VC]: [Counter Blast 1] At the end of battle that this unit attacked, if the attack did not hit, you may pay the cost. If you do, choose up to two of your rear-guards, and those units get power +5000 until end of turn.
 '
 
 global.UnitGrade[5859] = 4
@@ -550,7 +550,7 @@ global.CardText[5929] = 'Etranger/Human
 
 CONT: You may have up to twelve cards named "Scout, Rather Lose Life Than Honesty" in a deck.
 
-CONT [R] Generation Break 1: During your turn, this unit gets power +1000 for each other unit named "Scout, Rather Lose Life Than Honesty" on your R.
+CONT [RC] Generation Break 1: During your turn, this unit gets power +1000 for each other unit named "Scout, Rather Lose Life Than Honesty" on your RC.
 '
 
 global.UnitGrade[5929] = 1
@@ -569,7 +569,7 @@ global.CardName[6016] = 'Thai Football Lover'
 
 global.CardText[6016] = 'Etranger/Human
 
-AUTO [R] [1/Turn] Generation Break 1: [Soul Blast 1]: When your other unit in the same column as this unit is returned to your deck, you may pay the cost. If you do, you may draw a card.
+AUTO [RC] 1/Turn Generation Break 1: [Soul Blast 1]: When your other unit in the same column as this unit is returned to your deck, you may pay the cost. If you do, you may draw a card.
 '
 
 global.UnitGrade[6016] = 1
@@ -588,9 +588,9 @@ global.CardName[6072] = 'Happy Mothers Day'
 
 global.CardText[6072] = 'Etranger/Human
 
-AUTO [V]: When a unit named "Happy Fathers Day" rides this unit, search your deck for up to one card named "Happy Childrens Day", reveal it, put it into your hand, and shuffle your deck.
+AUTO [VC]: When a unit named "Happy Fathers Day" rides this unit, search your deck for up to one card named "Happy Childrens Day", reveal it, put it into your hand, and shuffle your deck.
 
-AUTO: [Counter Blast 2] When this unit is placed on R, you may pay the cost. If you do, choose up to one trigger unit from your drop zone, and return it to your hand.
+AUTO: [Counter Blast 2] When this unit is placed on RC, you may pay the cost. If you do, choose up to one trigger unit from your drop zone, and return it to your hand.
 '
 
 global.UnitGrade[6072] = 2
@@ -684,9 +684,9 @@ global.CardText[CardStat] = 'Etranger/Dragod
 
 CONT: This card is from all clans and nations.
 
-CONT [R]: It cannot be normal called unless Counter Blast 1 is paid. If you do, Soul Charge 1.
+CONT [RC]: It cannot be normal called unless Counter Blast 1 is paid. If you do, Soul Charge 1.
 
-AUTO [V]: At the end of the battle it attacked, ride up to one <Dragod> from your hand as stand.'
+AUTO [VC]: At the end of the battle it attacked, ride up to one <Dragod> from your hand as stand.'
 global.UnitGrade[CardStat] = 2
 global.CardInClan[CardStat] = 22
 }

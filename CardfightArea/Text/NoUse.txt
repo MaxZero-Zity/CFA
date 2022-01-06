@@ -1,7 +1,14 @@
 n = x
 
-global.AllCard = 8435
-global.Versia = 400
+global.AllCard = 9405
+global.Versia = 407
+global.GameUpdateText = 'NEW FEATURES:
+- Cards in damage and music orders are now facing the right way.
+- New button for future Record of Ragnarok nation support.
+- New DressBoost keyword icon.
+- Option to turn off the following extended animations: ride visual effect, card rotation, precise card movement.
+- Option to save deck image at HD as well as SD quality.
+'
 
 CardStat = 1
 {
@@ -12,7 +19,7 @@ global.CardText[CardStat] = 'How much longer are you sleeping? Wake up!'
 CardStat = 2
 {
 global.CardName[CardStat] = 'Battle Sister, Cocoa'
-global.CardText[CardStat] = '[AUTO]: When this unit is placed on (V) or (R), if you have an <Oracle Think Tank> vanguard, look at the top card of your deck, and put that card on the top or the bottom of your deck.'
+global.CardText[CardStat] = 'AUTO: When this unit is placed on VC or RC, if you have an <Oracle Think Tank> vanguard, look at the top card of your deck, and put that card on the top or the bottom of your deck.'
 }
 
 
@@ -22,7 +29,7 @@ CardStat = 5818
 
 global.CardName[5818] = 'Accel Gift I'
 
-global.CardText[5818] = 'When an Accel gift I marker is acquired, it acts as an additional rear-guard circle in your front row for the rest of the game. Also, the unit on this circle gets power +10000 during your turn only.
+global.CardText[5818] = 'When an Accel gift I marker is acquired, it acts as an additional RC in your front row for the rest of the game. Also, the unit on this circle gets power +10000 during your turn only.
 '
 
 global.CardInClan[5818] = 29
@@ -50,7 +57,7 @@ CardStat = 5820
 
 global.CardName[5820] = 'Force Gift I'
 
-global.CardText[5820] = 'When a Force gift I marker is acquired, put it on top of one of your vanguard or rear-guard circles, and it remains there for the rest of the game. Also, any unit on the chosen circle gets power +10000 during your turn only.
+global.CardText[5820] = 'When a Force gift I marker is acquired, put it on top of one of your vanguard or RC, and it remains there for the rest of the game. Also, any unit on the chosen circle gets power +10000 during your turn only.
 '
 
 global.CardInClan[5820] = 29
@@ -78,7 +85,7 @@ CardStat = 6670
 
 global.CardName[6670] = 'Force Gift II'
 
-global.CardText[6670] = 'When a Force gift II marker is acquired, put it on top of one of your vanguard or rear-guard circles, and it remains there for the rest of the game. Also, any unit on the chosen circle has its original critical as 2. (Stacking doesnt increase it to 3 or 4.)
+global.CardText[6670] = 'When a Force gift II marker is acquired, put it on top of one of your vanguard or RC, and it remains there for the rest of the game. Also, any unit on the chosen circle has its original critical as 2. (Stacking doesn’t increase it to 3 or 4.)
 '
 
 global.CardInClan[6670] = 29
@@ -91,7 +98,7 @@ CardStat = 6671
 
 global.CardName[6671] = 'Accel Gift II'
 
-global.CardText[6671] = 'When an Accel gift II marker is acquired, it acts as an additional rear-guard circle in your front row for the rest of the game. When acquired, you draw a card. Also, the unit on this circle gets power +5000 during your turn only.
+global.CardText[6671] = 'When an Accel gift II marker is acquired, it acts as an additional RC in your front row for the rest of the game. When acquired, you draw a card. Also, the unit on this circle gets power +5000 during your turn only.
 '
 
 global.CardInClan[6671] = 29
@@ -104,7 +111,7 @@ CardStat = 6672
 
 global.CardName[6672] = 'Protect Gift II'
 
-global.CardText[6672] = 'When a Protect gift II marker is acquired, put it on top of one of your rear-guard circles, and it remains there for the rest of the game. Also, any unit on the chosen circle gets power +5000 and shield +10000.
+global.CardText[6672] = 'When a Protect gift II marker is acquired, put it on top of one of your RC, and it remains there for the rest of the game. Also, any unit on the chosen circle gets power +5000 and shield +10000.
 '
 
 global.CardInClan[6672] = 29
@@ -119,7 +126,7 @@ global.CardName[6675] = 'Vision Token'
 
 global.CardText[6675] = 'This represents a Vision token, and cannot be put in a deck.
 
-CONT [R]: Perform drive check for the battle it attacked.
+CONT [RC]: Perform drive check for the battle it attacked.
 '
 
 global.CardInClan[6675] = 29
@@ -154,7 +161,7 @@ global.CardName[7069] = 'Evil Decoy Token'
 
 global.CardText[7069] = '(This represents an evil decoy token, and cannot be put in a deck. It does not have boost, and has intercept.)
 
-CONT [R]: It cannot attack, and can intercept from the back row.
+CONT [RC]: It cannot attack, and can intercept from the back row.
 '
 
 global.CardInClan[7069] = 29
@@ -207,9 +214,9 @@ global.CardName[7403] = 'Ahshas Flower Fairy'
 
 global.CardText[7403] = '(This card represents an Ahshas Flower Fairy token, and cannot be put in a deck.)
 
-CONT [R]: This unit has the same card name as your vanguard with "Ahsha" in its card name.
+CONT [RC]: This unit has the same card name as your vanguard with "Ahsha" in its card name.
 
-AUTO [R]: When it attacks, choose one of your vanguards with "Ahsha" in its card name, and increase or decrease this units power and critical to match that units until end of that battle.
+AUTO [RC]: When it attacks, choose one of your vanguards with "Ahsha" in its card name, and increase or decrease this unit’s power and critical to match that unit’s until end of that battle.
 '
 
 global.CardInClan[7403] = 29
@@ -246,6 +253,7 @@ global.CardInClan[7949] = 29
 global.PowerStat[7949] = 0
 
 }
+global.CanAttackFromBackRow[CardStat] = 1
 
 CardStat = 8096
 
@@ -278,3 +286,30 @@ global.CardInClan[8425] = 29
 global.PowerStat[8425] = 15000
 
 }
+
+CardStat = 8811
+
+{
+
+global.CardName[8811] = 'Monster BOX'
+
+global.CardText[8811] = 'This represents a Monster BOX, and cannot be put in a deck.
+'
+
+global.CardInClan[8811] = 29
+
+global.PowerStat[8811] = 0
+
+}
+
+CardStat = 9175
+{
+global.CardName[CardStat] = 'Bone Soldier Token'
+global.CardText[CardStat] = 'Shaman King/Bone
+
+(This represents a Bone Soldier token, and cannot be put in a deck.)'
+global.UnitGrade[CardStat] = 0
+global.CardInClan[CardStat] = 29
+}
+global.PowerStat[CardStat] = 5000
+global.DefensePowerStat[CardStat] = 0

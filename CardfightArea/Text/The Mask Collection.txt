@@ -8,7 +8,7 @@ global.CardText[5419] = 'The Mask Collection/Human
 
 Stride.
 
-Vote 4 - AUTO [V]: Draw a card, choose one of your opponents rear-guards, and retire it.
+Vote 4 - AUTO [VC]: Draw a card, choose one of your opponent’s rear-guards, and retire it.
 
 (Vote - Activates when the sum of grades of the cards drive checked during this turn is equal to or greater than the specified number.)
 '
@@ -31,9 +31,9 @@ global.CardName[5420] = 'Black Crow Mask'
 
 global.CardText[5420] = 'The Mask Collection/Human
 
-Contest - ACT [R] [1/Turn]: [Rest this unit] Choose one of your opponents rear-guards, and this unit competes against that unit.
+Contest - ACT [RC] 1/Turn: [Rest this unit] Choose one of your opponent’s rear-guards, and this unit competes against that unit.
 
-AUTO [R] [1/Turn] Generation Break 1: Increase this units power by the original power of the unit retired due to this units contest ability until end of turn.
+AUTO [RC] 1/Turn Generation Break 1: Increase this unit’s power by the original power of the unit retired due to this unit’s contest ability until end of turn.
 
 Contest - Compares the power of units competing, and retires the unit with less power. Your opponent may discard a card from his or her hand to retire the unit with greater power instead.)
 '
@@ -54,9 +54,9 @@ global.CardName[5421] = 'Durian Mask'
 
 global.CardText[5421] = 'The Mask Collection/Human
 
-Vote 4 - AUTO [V] Generation Break 2: This unit gets power +10000/critical +1 until end of turn.
+Vote 4 - AUTO [VC] Generation Break 2: This unit gets power +10000/critical +1 until end of turn.
 
-AUTO [V]: During your turn, when your G unit Stride, choose one of your vanguards, and until end of turn, it gets "ACT [V] [1/Turn]: [Counter Blast 1] Choose one of your rear-guards, stand it, and draw a card".
+AUTO [VC]: During your turn, when your G unit Stride, choose one of your vanguards, and until end of turn, it gets "ACT [VC] 1/Turn: [Counter Blast 1] Choose one of your rear-guards, stand it, and draw a card".
 
 (Vote - Activates when the sum of grades of the cards drive checked during this turn is equal to or greater than the specified number.)
 '
@@ -77,9 +77,9 @@ global.CardName[5422] = 'Drone Mask'
 
 global.CardText[5422] = 'The Mask Collection/Human
 
-Vote 4 - AUTO [R]: This unit gets power +8000 until end of turn.
+Vote 4 - AUTO [RC]: This unit gets power +8000 until end of turn.
 
-AUTO: [Rest this unit] When this unit is placed on R from hand, you may pay the cost. If you do, choose one of your units, and that unit gets power +4000 until end of turn.
+AUTO: [Rest this unit] When this unit is placed on RC from hand, you may pay the cost. If you do, choose one of your units, and that unit gets power +4000 until end of turn.
 
 (Vote - Activates when the sum of grades of the cards drive checked during this turn is equal to or greater than the specified number.)
 '
@@ -100,7 +100,7 @@ global.CardName[5423] = 'Kangaroo Mask'
 
 global.CardText[5423] = 'The Mask Collection/Human
 
-Vote 4 - AUTO [V/R]: This unit gets power +5000 until end of turn.
+Vote 4 - AUTO [VC/RC]: This unit gets power +5000 until end of turn.
 
 CONT [Trigger Zone] Generation Break 1: This card gets grade +1.
 
@@ -123,7 +123,7 @@ global.CardName[5424] = 'Pony Mask'
 
 global.CardText[5424] = 'The Mask Collection/Human
 
-AUTO: [Choose a grade 3 card from your hand, and reveal it] When this unit is placed on R from hand, you may pay the cost. If you do, search your deck for up to one grade 3 card with "Durian" in its card name, reveal it to your opponent, put it into your hand, shuffle your deck, choose a card from your hand, and discard it.
+AUTO: [Choose a grade 3 card from your hand, and reveal it] When this unit is placed on RC from hand, you may pay the cost. If you do, search your deck for up to one grade 3 card with "Durian" in its card name, reveal it to your opponent, put it into your hand, shuffle your deck, choose a card from your hand, and discard it.
 
 CONT [Hand]: While you are paying the cost for Stride, this card gets grade +2.
 '
@@ -161,7 +161,7 @@ global.CardName[5426] = 'Samurai Mask'
 
 global.CardText[5426] = 'The Mask Collection/Human
 
-Contest - ACT [R] [1/Turn]: [Rest this unit] Choose one of your opponents rear-guards in the back row, and this unit competes against that unit. If an opponents rear-guard was retired with this effect, you draw a card.
+Contest - ACT [RC] 1/Turn: [Rest this unit] Choose one of your opponent’s rear-guards in the back row, and this unit competes against that unit. If an opponent’s rear-guard was retired with this effect, you draw a card.
 
 (Contest - Compares the power of units competing, and retires the unit with less power. Your opponent may discard a card from his or her hand to retire the unit with greater power instead.)'
 
@@ -181,7 +181,7 @@ global.CardName[5427] = 'Boar Mask'
 
 global.CardText[5427] = 'The Mask Collection/Human
 
-ACT [V/R] [1/Turn]: [Rest this unit & Choose a card from your hand, and discard it] Draw a card.
+ACT [VC/RC] 1/Turn: [Rest this unit & Choose a card from your hand, and discard it] Draw a card.
 '
 
 global.UnitGrade[5427] = 1
@@ -202,7 +202,7 @@ global.CardText[5428] = 'The Mask Collection/Human
 
 AUTO: Forerunner.
 
-AUTO [R] Generation Break 1: [Put this unit into your drop zone] When you drive check, you may pay the cost. If you do, choose a card from your trigger zone, and it gets grade +1.
+AUTO [RC] Generation Break 1: [Put this unit into your drop zone] When you drive check, you may pay the cost. If you do, choose a card from your trigger zone, and it gets grade +1.
 '
 
 global.UnitGrade[5428] = 0
@@ -262,7 +262,7 @@ global.CardName[5431] = 'Turtle Mask'
 
 global.CardText[5431] = 'The Mask Collection/Human/Heal Trigger
 
-You may only have up to four cards with "HEAL" in a deck.
+(You may only have up to four cards with "HEAL" in a deck.)
 '
 
 global.UnitGrade[5431] = 0
@@ -323,9 +323,9 @@ global.CardText[5473] = 'The Mask Collection/Human
 
 Stride.
 
-CONT[V]: When your opponent would discard cards to retire the unit with greater power for a contest ability, he or she discards one extra card.
+CONT [VC]: When your opponent would discard cards to retire the unit with greater power for a contest ability, he or she discards one extra card.
 
-Vote 3 - AUTO [V] [1/Turn] Generation Break 2: [Choose a face down card from your G zone with "Sumo Mask" in its card name, and turn it face up] When this unit attacks a vanguard, you may pay the cost. If you do, choose one of your rear-guards, and until end of turn, that unit gets power +3000 for each face up card with "Sumo Mask" in its card name in your G zone, and "CONT [R]: This unit can attack from the back row".
+Vote 3 - AUTO [VC] 1/Turn Generation Break 2: [Choose a face down card from your G zone with "Sumo Mask" in its card name, and turn it face up] When this unit attacks a vanguard, you may pay the cost. If you do, choose one of your rear-guards, and until end of turn, that unit gets power +3000 for each face up card with "Sumo Mask" in its card name in your G zone, and "CONT [RC]: This unit can attack from the back row".
 '
 
 global.UnitGrade[5473] = 4
@@ -337,6 +337,7 @@ global.ExtraDeck[5473] = 1
 }
 
 global.PowerStat[5473] = 15000
+global.EnableAttackFromBackRow[CardStat] = 1
 
 
 CardStat = 5490
@@ -347,7 +348,7 @@ global.CardName[5490] = 'Oracle of Maskelamek, Turtle Mask'
 
 global.CardText[5490] = 'The Mask Collection/Human
 
-AUTO: [Counter Blast 1 & Soul Blast 1] When this unit is placed on R, if you have a vanguard with "Jaguar Mask" or "Dragon Mask" in its card name, you may pay the cost. If you do, look at two cards from the top of your deck, search for one card from among them, put it into your hand, and put the rest on the top or the bottom of your deck, then, this unit gets power +2000 until end of turn.
+AUTO: [Counter Blast 1 & Soul Blast 1] When this unit is placed on RC, if you have a vanguard with "Jaguar Mask" or "Dragon Mask" in its card name, you may pay the cost. If you do, look at two cards from the top of your deck, search for one card from among them, put it into your hand, and put the rest on the top or the bottom of your deck, then, this unit gets power +2000 until end of turn.
 '
 
 global.UnitGrade[5490] = 2
@@ -367,7 +368,7 @@ global.CardName[5491] = 'Beloved Pony Mask'
 
 global.CardText[5491] = 'The Mask Collection/Human
 
-Vote 5 - AUTO [R]: If you have a vanguard with "Durian Mask" in its card name, until end of turn, this unit gets power +5000, and "CONT [R]: During the battle that this unit attacked a vanguard, your opponent cannot call grade 0 cards from hand to GC".
+Vote 5 - AUTO [RC]: If you have a vanguard with "Durian Mask" in its card name, until end of turn, this unit gets power +5000, and "CONT [RC]: During the battle that this unit attacked a vanguard, your opponent cannot call grade 0 cards from hand to GC".
 
 (Vote - Activates when the sum of grades of the cards drive checked during this turn is equal to or greater than the specified number.)
 '
@@ -389,9 +390,9 @@ global.CardName[5495] = 'Port City Guardian, Oyster Mask'
 
 global.CardText[5495] = 'The Mask Collection/Human
 
-Contest - ACT [R] [1/Turn]: [Rest this unit] Choose one of your opponents rear-guards, and this unit competes against that unit. If an opponents unit was retired with this effect, you Counter Charge 1 or Soul Charge 1.
+Contest - ACT [RC] 1/Turn: [Rest this unit] Choose one of your opponent’s rear-guards, and this unit competes against that unit. If an opponent’s unit was retired with this effect, you Counter Charge 1 or Soul Charge 1.
 
-AUTO [V]: [Counter Blast 1 & Soul Blast 1] When this unit is placed on V, you may pay the cost. If you do, look at five cards from the top of your deck, search for up to one card with the contest ability from among them, reveal it, put it into your hand, and shuffle your deck.
+AUTO [VC]: [Counter Blast 1 & Soul Blast 1] When this unit is placed on VC, you may pay the cost. If you do, look at five cards from the top of your deck, search for up to one card with the contest ability from among them, reveal it, put it into your hand, and shuffle your deck.
 '
 
 global.UnitGrade[5495] = 3
@@ -411,9 +412,9 @@ global.CardName[5500] = 'Mischievous Warrior Albino Monkey Mask'
 
 global.CardText[5500] = 'The Mask Collection/Human
 
-Contest - ACT [R] [1/Turn]: [Rest this unit] Choose one of your opponents rear-guards, and this unit competes against that unit. If an opponents unit was retired with this effect, choose one of your units, and it gets power +5000 until end of turn.
+Contest - ACT [RC] 1/Turn: [Rest this unit] Choose one of your opponent’s rear-guards, and this unit competes against that unit. If an opponent’s unit was retired with this effect, choose one of your units, and it gets power +5000 until end of turn.
 
-AUTO [R] [1/Turn] Generation Break 1: During your main phase, when your opponent discards a card, you choose a grade 2 or less rear-guard, and stand it.
+AUTO [RC] 1/Turn Generation Break 1: During your main phase, when your opponent discards a card, you choose a grade 2 or less rear-guard, and stand it.
 '
 
 global.UnitGrade[5500] = 2
@@ -433,7 +434,7 @@ global.CardName[5501] = 'Freedom-loving Kangaroo Mask'
 
 global.CardText[5501] = 'The Mask Collection/Human
 
-Vote 2 - AUTO [V/R]: This unit gets power +3000 until end of turn.
+Vote 2 - AUTO [VC/RC]: This unit gets power +3000 until end of turn.
 
 CONT [Trigger Zone] Generation Break 1: This card gets grade+1.
 '
@@ -455,9 +456,9 @@ global.CardName[5505] = 'Heaven Message Recipient, Dragon Mask'
 
 global.CardText[5505] = 'The Mask Collection/Human
 
-AUTO [V] [1/Turn] Generation Break 1: [Soul Blast 1] When your opponent draws a card other than during the draw phase, you may pay the cost. If you do, your opponent chooses a card from his or her hand, and discards it.
+AUTO [VC] 1/Turn Generation Break 1: [Soul Blast 1] When your opponent draws a card other than during the draw phase, you may pay the cost. If you do, your opponent chooses a card from his or her hand, and discards it.
 
-Vote 5 - AUTO [R]: [Soul Blast 1 & Choose a card from your hand, and discard it] You may pay the cost. If you do, this unit gets power +5000 until end of turn.
+Vote 5 - AUTO [RC]: [Soul Blast 1 & Choose a card from your hand, and discard it] You may pay the cost. If you do, this unit gets power +5000 until end of turn.
 '
 
 global.UnitGrade[5505] = 3
@@ -477,7 +478,7 @@ global.CardName[5506] = 'Regulator of Makal, Bell Mask'
 
 global.CardText[5506] = 'The Mask Collection/Human
 
-Vote 3 - AUTO [R]: [Counter Blast 1 & Retire this unit] You may pay the cost. If you do, choose one of your opponents rear-guards, retire it, and you draw a card.
+Vote 3 - AUTO [RC]: [Counter Blast 1 & Retire this unit] You may pay the cost. If you do, choose one of your opponent’s rear-guards, retire it, and you draw a card.
 '
 
 global.UnitGrade[5506] = 2
@@ -497,9 +498,9 @@ global.CardName[5507] = 'Sumo Mask "The Fighter"'
 
 global.CardText[5507] = 'The Mask Collection/Human
 
-Contest - ACT [R] [1/Turn]: [Rest this unit] Choose one of your opponents rear-guards, and this unit competes against that unit. If an opponents unit is retired with this effect, choose two of your rear-guards, return them to your deck, shuffle your deck, and draw a card.
+Contest - ACT [RC] 1/Turn: [Rest this unit] Choose one of your opponent’s rear-guards, and this unit competes against that unit. If an opponent’s unit is retired with this effect, choose two of your rear-guards, return them to your deck, shuffle your deck, and draw a card.
 
-AUTO [V]: [Counter Blast 1] During your turn, when your G unit Stride, you may pay the cost. If you do, choose a card with the contest ability from your drop zone, call it to R, and your opponent calls the top card of his or her deck to R.
+AUTO [VC]: [Counter Blast 1] During your turn, when your G unit Stride, you may pay the cost. If you do, choose a card with the contest ability from your drop zone, call it to RC, and your opponent calls the top card of his or her deck to RC.
 '
 
 global.UnitGrade[5507] = 3
@@ -519,9 +520,9 @@ global.CardName[5508] = 'Durian Mask "The Fighter"'
 
 global.CardText[5508] = 'The Mask Collection/Human
 
-Vote 7 - AUTO [V]: This unit gets power +8000/critical +1 until end of turn.
+Vote 7 - AUTO [VC]: This unit gets power +8000/critical +1 until end of turn.
 
-CONT [V] Generation Break 1: All cards in your trigger zone get grade+1.
+CONT [VC] Generation Break 1: All cards in your trigger zone get grade+1.
 '
 
 global.UnitGrade[5508] = 4
@@ -541,9 +542,9 @@ global.CardName[5511] = 'Assassin of Haya, Spider Mask'
 
 global.CardText[5511] = 'The Mask Collection/Human
 
-Contest - ACT [R] [1/Turn]: [Rest this unit] Choose one of your opponents rear-guards, and this unit competes against that unit. If an opponents unit was retired with this effect, put this unit into your soul, and Counter Charge 1.
+Contest - ACT [RC] 1/Turn: [Rest this unit] Choose one of your opponent’s rear-guards, and this unit competes against that unit. If an opponent’s unit was retired with this effect, put this unit into your soul, and Counter Charge 1.
 
-AUTO [R] [1/Turn] Generation Break 1: When an opponents unit competes against this unit due to this units ability, that unit cannot stand during your opponents next stand phase.
+AUTO [RC] 1/Turn Generation Break 1: When an opponent’s unit competes against this unit due to this unit’s ability, that unit cannot stand during your opponent’s next stand phase.
 '
 
 global.UnitGrade[5511] = 1
@@ -563,9 +564,9 @@ global.CardName[5512] = 'Durian Mask "The Legend"'
 
 global.CardText[5512] = 'The Mask Collection/Human
 
-Vote 5 - AUTO [V] Generation Break 2: [Counter Blast 1 & Soul Blast 1] You may pay the cost. If you do, choose one of your opponents guardians, retire it, and that units effects with "cannot be hit" are nullified.
+Vote 5 - AUTO [VC] Generation Break 2: [Counter Blast 1 & Soul Blast 1] You may pay the cost. If you do, choose one of your opponent’s guardians, retire it, and that unit’s effects with "cannot be hit" are nullified.
 
-AUTO [V]: During your turn, when your G unit Stride, choose up to one card from your hand, call it to R, until end of turn, the unit called with this effect  gets "Vote 3 - AUTO [V]: This unit gets power +5000 until end of turn", choose one of your units with the vote ability, and that unit gets vote-1.
+AUTO [VC]: During your turn, when your G unit Stride, choose up to one card from your hand, call it to RC, until end of turn, the unit called with this effect  gets "Vote 3 - AUTO [VC]: This unit gets power +5000 until end of turn", choose one of your units with the vote ability, and that unit gets vote-1.
 '
 
 global.UnitGrade[5512] = 3
@@ -609,9 +610,9 @@ global.CardText[5525] = 'The Mask Collection/Human
 
 Stride.
 
-ACT [V] [1/Turn]: [Soul Blast 1 & Choose a face down card from your G zone, and turn it face up] Until end of turn, this unit gets "CONT [V]: When this unit attacks, it battles all units in your opponents front row in one battle".
+ACT [VC] 1/Turn: [Soul Blast 1 & Choose a face down card from your G zone, and turn it face up] Until end of turn, this unit gets "CONT [VC]: When this unit attacks, it battles all units in your opponent’s front row in one battle".
 
-CONT [V] Generation Break 3: All units in your front row get power +2000 for each face up card with "Jaguar Mask" or "Dragon Mask" in your G zone.
+CONT [VC] Generation Break 3: All units in your front row get power +2000 for each face up card with "Jaguar Mask" or "Dragon Mask" in your G zone.
 '
 
 global.UnitGrade[5525] = 4
@@ -635,7 +636,7 @@ global.CardText[5526] = 'The Mask Collection/Human
 
 G guardian.
 
-AUTO: When this unit is placed on GC, choose one of your opponents units, until end of turn, that unit gets power -10000, and "Vote 4 - AUTO [V/R]: This unit gets power +10000 until end of turn".
+AUTO: When this unit is placed on GC, choose one of your opponent’s units, until end of turn, that unit gets power -10000, and "Vote 4 - AUTO [VC/RC]: This unit gets power +10000 until end of turn".
 '
 
 global.UnitGrade[5526] = 4
@@ -659,9 +660,9 @@ global.CardText[5527] = 'The Mask Collection/Human
 
 Stride.
 
-ACT [V] Generation Break 2: [Counter Blast 1 & Soul Blast 1 & Choose one of your rear-guards, and retire it & Choose a face down card with thevoteability from your G zone, and turn it face up] Reveal the top card of your deck, this unit gets vote-X until end of turn, and put the revealed card into your hand. (X is the sum of grades of the cards revealed and units retired with this effect.)
+ACT [VC] Generation Break 2: [Counter Blast 1 & Soul Blast 1 & Choose one of your rear-guards, and retire it & Choose a face down card with the vote ability from your G zone, and turn it face up] Reveal the top card of your deck, this unit gets vote-X until end of turn, and put the revealed card into your hand. (X is the sum of grades of the cards revealed and units retired with this effect.)
 
-Vote 9 - AUTO [V] [1/Turn] Generation Break 2: If the number of cards in your opponents damage zone is four or less, choose one of your opponents vanguards, and deal one damage.
+Vote 9 - AUTO [VC] 1/Turn Generation Break 2: If the number of cards in your opponent’s damage zone is four or less, choose one of your opponent’s vanguards, and deal one damage.
 '
 
 global.UnitGrade[5527] = 4
@@ -683,11 +684,11 @@ global.CardName[5528] = 'King of Haya, Jaguar Mask'
 
 global.CardText[5528] = 'The Mask Collection/Human
 
-ACT [V]: Legion 22000 "Heaven Message Recipient, Dragon Mask".
+ACT [VC]: Legion 22000 "Heaven Message Recipient, Dragon Mask".
 
-Vote 4 - AUTO [V] [1/Turn]: [Counter Blast 2 & Choose two cards from your hand, and discard them] If this unit is Legion, you may pay the cost. If you do, stand all of your vanguards.
+Vote 4 - AUTO [VC] 1/Turn: [Counter Blast 2 & Choose two cards from your hand, and discard them] If this unit is Legion, you may pay the cost. If you do, stand all of your vanguards.
 
-AUTO [V]: When this unit attacks, if you have a unit with "Turtle Mask" or "Dragon Mask" in its card name, this unit gets power +3000 until end of that battle.
+AUTO [VC]: When this unit attacks, if you have a unit with "Turtle Mask" or "Dragon Mask" in its card name, this unit gets power +3000 until end of that battle.
 '
 
 global.UnitGrade[5528] = 3
@@ -709,7 +710,7 @@ global.CardText[5529] = 'The Mask Collection/Human
 
 AUTO: Forerunner.
 
-ACT [R]: [Counter Blast 1 & Retire this unit] Search your deck for up to one grade 1 or less card, reveal it, put it into your hand, and shuffle your deck.
+ACT [RC]: [Counter Blast 1 & Retire this unit] Search your deck for up to one grade 1 or less card, reveal it, put it into your hand, and shuffle your deck.
 '
 
 global.UnitGrade[5529] = 0
@@ -729,7 +730,7 @@ global.CardName[5530] = 'Strict Bell Mask'
 
 global.CardText[5530] = 'The Mask Collection/Human/Critical Trigger
 
-ACT [R]: [Put this unit into your soul] Draw up to one card.
+ACT [RC]: [Put this unit into your soul] Draw up to one card.
 '
 
 global.UnitGrade[5530] = 0
@@ -753,7 +754,7 @@ global.CardText[5531] = 'The Mask Collection/Human
 
 AUTO: Forerunner.
 
-ACT [R]: [Counter Blast 1 & Put this unit into your soul] Look at five cards from the top of your deck, search for up to one grade 3 or greater «The Mask Collection» from among them, reveal it, put it into your hand, and shuffle your deck.
+ACT [RC]: [Counter Blast 1 & Put this unit into your soul] Look at five cards from the top of your deck, search for up to one grade 3 or greater «The Mask Collection» from among them, reveal it, put it into your hand, and shuffle your deck.
 '
 
 global.UnitGrade[5531] = 0
@@ -773,7 +774,7 @@ global.CardName[5532] = 'Deity of Liberation, Angel Mask'
 
 global.CardText[5532] = 'The Mask Collection/Human/Stand Trigger
 
-AUTO [R] Generation Break 1: [Put this unit on the bottom of your deck] When your other unit competes, you may pay the cost. If you do, Counter Charge 1, draw up to one card, and shuffle your deck.
+AUTO [RC] Generation Break 1: [Put this unit on the bottom of your deck] When your other unit competes, you may pay the cost. If you do, Counter Charge 1, draw up to one card, and shuffle your deck.
 '
 
 global.UnitGrade[5532] = 0
@@ -795,11 +796,11 @@ global.CardName[5533] = 'Beautiful Maiden of Makal, Geisha Mask'
 
 global.CardText[5533] = 'The Mask Collection/Human/Heal Trigger
 
-You may only have up to four cards with "HEAL" in adeck.
+(You may only have up to four cards with "HEAL" in a deck.)
 
 AUTO: Forerunner.
 
-AUTO [R]: When this unit boosts, the boosted unit gets power +3000 until end of that battle, and at the beginning of the end phase of that turn, return this unit to your deck, and shuffle your deck.
+AUTO [RC]: When this unit boosts, the boosted unit gets power +3000 until end of that battle, and at the beginning of the end phase of that turn, return this unit to your deck, and shuffle your deck.
 '
 
 global.UnitGrade[5533] = 0
@@ -821,7 +822,7 @@ global.CardName[5534] = 'Noble Oyster Mask'
 
 global.CardText[5534] = 'The Mask Collection/Human/Draw Trigger
 
-ACT [R]: [Put this unit into your soul] Choose one of your «The Mask Collection», and that unit gets power +3000 until end of turn.
+ACT [RC]: [Put this unit into your soul] Choose one of your «The Mask Collection», and that unit gets power +3000 until end of turn.
 '
 
 global.UnitGrade[5534] = 0
@@ -845,9 +846,9 @@ global.CardText[5535] = 'The Mask Collection/Human
 
 Stride.
 
-AUTO [V]: When this unit is placed on V, reveal the top card of your deck, and this unit gets vote-X until end of turn. Then, put the revealed card into your soul. (X is the grade of card revealed.)
+AUTO [VC]: When this unit is placed on VC, reveal the top card of your deck, and this unit gets vote-X until end of turn. Then, put the revealed card into your soul. (X is the grade of card revealed.)
 
-Vote 6 - AUTO [V]: Choose two of your units, those units get power +5000 until end of turn. If you chose a rear-guard, at the end of that turn, retire those rear-guards, and draw a card.
+Vote 6 - AUTO [VC]: Choose two of your units, those units get power +5000 until end of turn. If you chose a rear-guard, at the end of that turn, retire those rear-guards, and draw a card.
 '
 
 global.UnitGrade[5535] = 4
@@ -871,9 +872,9 @@ global.CardText[5536] = 'The Mask Collection/Human
 
 Stride.
 
-Vote 5 - AUTO [V]: [Counter Blast 1 & Choose a face down card named "Furious Dragon Mask" from your G zone, and turn it face up] You may pay the cost. If you do, choose one of your opponents rear-guards, and retire all of your opponents rear-guards in the same column as that unit.
+Vote 5 - AUTO [VC]: [Counter Blast 1 & Choose a face down card named "Furious Dragon Mask" from your G zone, and turn it face up] You may pay the cost. If you do, choose one of your opponent’s rear-guards, and retire all of your opponent’s rear-guards in the same column as that unit.
 
-CONT [V] Generation Break 3: During the turn that two or more of your opponents rear-guards are put into drop zone, this unit gets power +5000/critical +1.
+CONT [VC] Generation Break 3: During the turn that two or more of your opponent’s rear-guards are put into drop zone, this unit gets power +5000/critical +1.
 '
 
 global.UnitGrade[5536] = 4
@@ -895,9 +896,9 @@ global.CardName[5537] = 'Famous Leader, Lion Mask'
 
 global.CardText[5537] = 'The Mask Collection/Human
 
-AUTO [R] Generation Break 1: [Soul Blast 1] When this unit is placed on R, you may pay the cost. If you do, choose a card from your opponents drop zone, your opponent calls that card to an open R, and at the end of that turn, retire that unit.
+AUTO [RC] Generation Break 1: [Soul Blast 1] When this unit is placed on RC, you may pay the cost. If you do, choose a card from your opponent’s drop zone, your opponent calls that card to an open RC, and at the end of that turn, retire that unit.
 
-AUTO [R] Generation Break 1: When your other unitcompetes, this unit gets power +2000 until end of turn.
+AUTO [RC] Generation Break 1: When your other unitcompetes, this unit gets power +2000 until end of turn.
 '
 
 global.UnitGrade[5537] = 2
@@ -919,7 +920,7 @@ global.CardText[5538] = 'The Mask Collection/Human
 
 Stride.
 
-AUTO [V]: [Choose a face down "Knight of Haya, Black Crow Mask" from your G zone, and turn it face up] When this unit is placed on V, you may pay the cost. If you do, all units in your front row get power +3000 until end of turn, then, if the number of face up cards in your G zone is two or more, search your deck for up to one card with the vote ability, call it to R, and shuffle your deck. If you called, your opponent calls the top card of his or her deck to R.
+AUTO [VC]: [Choose a face down "Knight of Haya, Black Crow Mask" from your G zone, and turn it face up] When this unit is placed on VC, you may pay the cost. If you do, all units in your front row get power +3000 until end of turn, then, if the number of face up cards in your G zone is two or more, search your deck for up to one card with the vote ability, call it to RC, and shuffle your deck. If you called, your opponent calls the top card of his or her deck to RC.
 '
 
 global.UnitGrade[5538] = 4
@@ -941,7 +942,7 @@ global.CardName[5539] = 'Victorious Fighter, Baozi Mask'
 
 global.CardText[5539] = 'The Mask Collection/Human
 
-AUTO [R] Generation Break 1: [Counter Blast 1] When this unit attacks a vanguard, if this unit is boosted, you may pay the cost. If you do, choose one of your units, and that unit gets vote-1 until end of turn.
+AUTO [RC] Generation Break 1: [Counter Blast 1] When this unit attacks a vanguard, if this unit is boosted, you may pay the cost. If you do, choose one of your units, and that unit gets vote-1 until end of turn.
 '
 
 global.UnitGrade[5539] = 2
@@ -961,7 +962,7 @@ global.CardName[5540] = 'Futuristic Drone Mask'
 
 global.CardText[5540] = 'The Mask Collection/Human
 
-Vote 3 - AUTO [R]: [Put this unit into your soul] You may pay the cost. If you do, draw a card.
+Vote 3 - AUTO [RC]: [Put this unit into your soul] You may pay the cost. If you do, draw a card.
 '
 
 global.UnitGrade[5540] = 1
@@ -1003,7 +1004,7 @@ global.CardName[5542] = 'Advisor of Makal, Geisha Mask'
 
 global.CardText[5542] = 'The Mask Collection/Human
 
-AUTO [R]: [Soul Blast 1] When an attack hits a vanguard during the battle that this unit boosted, if you have a grade 3 or greater vanguard, you may pay the cost. If you do, choose one of your rear-guards, and stand it.
+AUTO [RC]: [Soul Blast 1] When an attack hits a vanguard during the battle that this unit boosted, if you have a grade 3 or greater vanguard, you may pay the cost. If you do, choose one of your rear-guards, and stand it.
 '
 
 global.UnitGrade[5542] = 1
@@ -1023,7 +1024,7 @@ global.CardName[5543] = 'Angel Mask Who Watches Over from the Heaven'
 
 global.CardText[5543] = 'The Mask Collection/Human
 
-Vote 3 - AUTO [Drop Zone] Generation Break 1: [Soul Blast 1] You may pay the cost. If you do, call this card to R. Then, if you have a vanguard with the vote ability, this unit gets power +4000 until end of turn.
+Vote 3 - AUTO [Drop Zone] Generation Break 1: [Soul Blast 1] You may pay the cost. If you do, call this card to RC. Then, if you have a vanguard with the vote ability, this unit gets power +4000 until end of turn.
 '
 
 global.UnitGrade[5543] = 1
@@ -1043,9 +1044,9 @@ global.CardName[5565] = 'Leader of Rebellion Troop, Black Crow Mask'
 
 global.CardText[5565] = 'The Mask Collection/Human
 
-Contest - ACT [R] [1/Turn]: [Rest this unit] Choose one of your opponents rear-guards, and this unit competes against that unit. If an opponents unit is retired with this effect, you may look at the top card of your deck. If you do, call it to R that this unit is not on.
+Contest - ACT [RC] 1/Turn: [Rest this unit] Choose one of your opponent’s rear-guards, and this unit competes against that unit. If an opponent’s unit is retired with this effect, you may look at the top card of your deck. If you do, call it to RC that this unit is not on.
 
-AUTO [R] Generation Break 1: When this unit is placed on R, until end of that turns main phase, this unit cannot be retired by card effects.
+AUTO [RC] Generation Break 1: When this unit is placed on RC, until end of that turn’s main phase, this unit cannot be retired by card effects.
 '
 
 global.UnitGrade[5565] = 3
@@ -1065,11 +1066,11 @@ global.CardName[5566] = 'Knight of Makal, Samurai Mask'
 
 global.CardText[5566] = 'The Mask Collection/Human
 
-CONT [V/R]: Restraint.
+CONT [VC/RC]: Restraint.
 
-AUTO [V/R]: When an opponents rear-guard is put into the drop zone during your main phase, this unit loses "Restraint" until end of turn.
+AUTO [VC/RC]: When an opponent’s rear-guard is put into the drop zone during your main phase, this unit loses "Restraint" until end of turn.
 
-Contest - ACT [R] [1/Turn]: [Rest this unit] Choose one of your opponents rear-guards, and this unit competes against that unit. If an opponents unit is retired with this effect, stand this unit.
+Contest - ACT [RC] 1/Turn: [Rest this unit] Choose one of your opponent’s rear-guards, and this unit competes against that unit. If an opponent’s unit is retired with this effect, stand this unit.
 '
 
 global.UnitGrade[5566] = 2
@@ -1089,7 +1090,7 @@ global.CardName[5567] = 'Street Performer of Haya, Kangaroo Mask'
 
 global.CardText[5567] = 'The Mask Collection/Human
 
-Vote 4 - AUTO [V/R]: Until end of turn, this unit gets power +5000, and "AUTO [R]: When this units attack hits a vanguard, draw a card".
+Vote 4 - AUTO [VC/RC]: Until end of turn, this unit gets power +5000, and "AUTO [RC]: When this unit’s attack hits a vanguard, draw a card".
 
 CONT [Trigger Zone] Generation Break 1: This card gets grade+1.
 '
@@ -1111,9 +1112,9 @@ global.CardName[5704] = 'Red Crow Mask'
 
 global.CardText[5704] = 'The Mask Collection/Human
 
-Contest - ACT [R] [1/Turn]: [Rest this unit] Choose one of your opponents rear-guards, and this unit competes against that unit. If an opponents unit is retired by this effect, choose up to one card from your drop zone, and call it to R.
+Contest - ACT [RC] 1/Turn: [Rest this unit] Choose one of your opponent’s rear-guards, and this unit competes against that unit. If an opponent’s unit is retired by this effect, choose up to one card from your drop zone, and call it to RC.
 
-CONT [V/R] Generation Break 1: During your turn, if you have another unit with "Crow" in its card name, this unit gets power +3000.
+CONT [VC/RC] Generation Break 1: During your turn, if you have another unit with "Crow" in its card name, this unit gets power +3000.
 '
 
 global.UnitGrade[5704] = 3
@@ -1133,9 +1134,9 @@ global.CardName[5705] = 'Powerful Insect Mask'
 
 global.CardText[5705] = 'The Mask Collection/Human
 
-Contest - ACT [R] [1/Turn]: [Rest this unit] Choose one of your opponents rear-guards, and this unit competes against that unit. If an opponents unit is retired by this cards contest ability, bind the retired unit face up.
+Contest - ACT [RC] 1/Turn: [Rest this unit] Choose one of your opponent’s rear-guards, and this unit competes against that unit. If an opponent’s unit is retired by this card’s contest ability, bind the retired unit face up.
 
-AUTO: During your main phase, when this unit is put into your drop zone from R due this cards contest ability, you may return this card to your hand. If you do, you cannot normal call "Powerful Insect Mask" until end of turn.
+AUTO: During your main phase, when this unit is put into your drop zone from RC due this card’s contest ability, you may return this card to your hand. If you do, you cannot normal call "Powerful Insect Mask" until end of turn.
 '
 
 global.UnitGrade[5705] = 2
@@ -1157,7 +1158,7 @@ global.CardText[5706] = 'The Mask Collection/Human
 
 AUTO: Forerunner.
 
-ACT [R]: [Counter Blast 1 & Put this unit into your soul] Choose up to one of your rear-guards, and until end of turn, that unit gets power +3000 and "AUTO: When this unit is put into your drop zone from R during your main phase, you may return this card to your hand".
+ACT [RC]: [Counter Blast 1 & Put this unit into your soul] Choose up to one of your rear-guards, and until end of turn, that unit gets power +3000 and "AUTO: When this unit is put into your drop zone from RC during your main phase, you may return this card to your hand".
 '
 
 global.UnitGrade[5706] = 0
@@ -1177,7 +1178,7 @@ global.CardName[5717] = 'Apple Mask SD'
 
 global.CardText[5717] = 'The Mask Collection/Human
 
-Vote 6 - AUTO [R]: [Put this unit into your soul & Choose two of your other rear-guards, and put them into your soul] You may pay the cost. If you do, choose all of your vanguards, stand them, and they get drive-1 until end of turn.
+Vote 6 - AUTO [RC]: [Put this unit into your soul & Choose two of your other rear-guards, and put them into your soul] You may pay the cost. If you do, choose all of your vanguards, stand them, and they get drive-1 until end of turn.
 '
 
 global.UnitGrade[5717] = 1
@@ -1199,7 +1200,7 @@ global.CardText[5718] = 'The Mask Collection/Human
 
 Stride.
 
-AUTO: When this unit is placed on V, choose up to one card from your hand, call it to R, and until end of turn, that unit gets "CONT [R]: This unit cannot be retired by card effects".
+AUTO: When this unit is placed on VC, choose up to one card from your hand, call it to RC, and until end of turn, that unit gets "CONT [RC]: This unit cannot be retired by card effects".
 '
 
 global.UnitGrade[5718] = 4
@@ -1221,9 +1222,9 @@ global.CardName[5719] = 'Cold Moon Mask'
 
 global.CardText[5719] = 'The Mask Collection/Human
 
-Vote 3 - AUTO [V/R]: [Counter Blast 1] You may pay the cost. If you do, choose one of your other rear-guards, and stand it.
+Vote 3 - AUTO [VC/RC]: [Counter Blast 1] You may pay the cost. If you do, choose one of your other rear-guards, and stand it.
 
-AUTO [R] Generation Break 1: At the end of battle that this unit boosted, you may return the boosted unit to your hand.'
+AUTO [RC] Generation Break 1: At the end of battle that this unit boosted, you may return the boosted unit to your hand.'
 
 global.UnitGrade[5719] = 1
 
@@ -1242,7 +1243,7 @@ global.CardName[5720] = 'Cherry Blossom Mask Who Loves Novelty'
 
 global.CardText[5720] = 'The Mask Collection/Human
 
-AUTO [Drop Zone]: [Counter Blast 1] When your opponents or your rear-guard is put into the drop zone due to an effect from your cards contest ability, you may pay the cost. If you do, return this card to your hand.
+AUTO [Drop Zone]: [Counter Blast 1] When your opponent’s or your rear-guard is put into the drop zone due to an effect from your cards contest ability, you may pay the cost. If you do, return this card to your hand.
 '
 
 global.UnitGrade[5720] = 1
@@ -1262,9 +1263,9 @@ global.CardName[5721] = 'Green Tea Worm Mask'
 
 global.CardText[5721] = 'The Mask Collection/Human
 
-AUTO [V] Generation Break 2: [Soul Blast 1] During your turn, when your opponents or your rear-guard is put into the drop zone due to an effect from your cards contest ability, you may pay the cost. If you do, draw a card.
+AUTO [VC] Generation Break 2: [Soul Blast 1] During your turn, when your opponent’s or your rear-guard is put into the drop zone due to an effect from your cards contest ability, you may pay the cost. If you do, draw a card.
 
-AUTO [V]: [Counter Blast 1] During your turn, when your G unit Stride, you may pay the cost. If you do, your opponent reveals the top card of his or her deck, and calls it to an open R. Then, you may choose up to one card from your hand, and call it to R. If you called, until end of turn, the called unit gets "CONT [R]: This unit cannot be retired by card effects".
+AUTO [VC]: [Counter Blast 1] During your turn, when your G unit Stride, you may pay the cost. If you do, your opponent reveals the top card of his or her deck, and calls it to an open RC. Then, you may choose up to one card from your hand, and call it to RC. If you called, until end of turn, the called unit gets "CONT [RC]: This unit cannot be retired by card effects".
 '
 
 global.UnitGrade[5721] = 3
@@ -1284,7 +1285,7 @@ global.CardName[5740] = 'Apple Mask'
 
 global.CardText[5740] = 'The Mask Collection/Human
 
-Vote 2 - AUTO [R]: [Put this unit into your soul] You may pay the cost. If you do, look at two cards from the top of your deck, choose a card from among them, put it on the top of your deck, and bind the rest face up.
+Vote 2 - AUTO [RC]: [Put this unit into your soul] You may pay the cost. If you do, look at two cards from the top of your deck, choose a card from among them, put it on the top of your deck, and bind the rest face up.
 '
 
 global.UnitGrade[5740] = 3
@@ -1325,7 +1326,7 @@ global.CardName[5743] = 'Diamond Crown Mask'
 
 global.CardText[5743] = 'The Mask Collection/Human
 
-AUTO [R]: When your other rear-guards vote ability activates, this unit gets power +3000 until end of turn.
+AUTO [RC]: When your other rear-guards vote ability activates, this unit gets power +3000 until end of turn.
 '
 
 global.UnitGrade[5743] = 1
@@ -1345,7 +1346,7 @@ global.CardName[5744] = 'Beautiful Diamond Crown Mask'
 
 global.CardText[5744] = 'The Mask Collection/Human
 
-AUTO [R]: When your other rear-guards voteability activates, this unit gets power +3000 until end of turn.
+AUTO [RC]: When your other rear-guards vote ability activates, this unit gets power +3000 until end of turn.
 '
 
 global.UnitGrade[5744] = 2
@@ -1365,7 +1366,7 @@ global.CardName[5745] = 'Doll Mask with Multiple Personality'
 
 global.CardText[5745] = 'The Mask Collection/Human
 
-Vote 1 - AUTO [R]: [Choose a card from your drop zone, and bind it face up] You may pay the cost. If you do, this unit gets power +5000 until end of turn.
+Vote 1 - AUTO [RC]: [Choose a card from your drop zone, and bind it face up] You may pay the cost. If you do, this unit gets power +5000 until end of turn.
 '
 
 global.UnitGrade[5745] = 1
@@ -1385,7 +1386,7 @@ global.CardName[5746] = 'Insect Mask'
 
 global.CardText[5746] = 'The Mask Collection/Human/Heal Trigger
 
-You may only have up to four cards with "HEAL" in a deck.
+(You may only have up to four cards with "HEAL" in a deck.)
 '
 
 global.UnitGrade[5746] = 0
@@ -1427,7 +1428,7 @@ global.CardName[5741] = 'Moon Mask'
 
 global.CardText[5741] = 'The Mask Collection/Human/Draw Trigger
 
-ACT [R]: [Put this unit into your soul] Counter Charge 1.
+ACT [RC]: [Put this unit into your soul] Counter Charge 1.
 '
 
 global.UnitGrade[5741] = 0
@@ -1449,7 +1450,7 @@ global.CardName[5748] = 'Candle Mask'
 
 global.CardText[5748] = 'The Mask Collection/Human/Stand Trigger
 
-ACT [R]: [Put this unit into your soul] Choose one of your units, and that unit gets power +3000 until end of turn.
+ACT [RC]: [Put this unit into your soul] Choose one of your units, and that unit gets power +3000 until end of turn.
 '
 
 global.UnitGrade[5748] = 0
@@ -1507,7 +1508,7 @@ global.CardName[5751] = 'Doll Mask'
 
 global.CardText[5751] = 'The Mask Collection/Human
 
-Vote 1 - AUTO [R]: [Choose a card from your drop zone, and bind it face up] You may pay the cost. If you do, this unit gets power +5000 until end of turn.
+Vote 1 - AUTO [RC]: [Choose a card from your drop zone, and bind it face up] You may pay the cost. If you do, this unit gets power +5000 until end of turn.
 '
 
 global.UnitGrade[5751] = 2
@@ -1527,9 +1528,9 @@ global.CardName[5788] = 'Green Tea Worm Mask SD'
 
 global.CardText[5788] = 'The Mask Collection/Human
 
-CONT [R]: Restraint.
+CONT [RC]: Restraint.
 
-Contest - ACT [R] [1/Turn]: [Rest this unit] Choose one of your opponents rear-guards, and this unit competes against that unit. If an opponents unit is retired by this effect, choose one of your opponents rear-guards, and that unit cannot stand during your opponents next stand phase.
+Contest - ACT [RC] 1/Turn: [Rest this unit] Choose one of your opponent’s rear-guards, and this unit competes against that unit. If an opponent’s unit is retired by this effect, choose one of your opponent’s rear-guards, and that unit cannot stand during your opponent’s next stand phase.
 '
 
 global.UnitGrade[5788] = 1
@@ -1549,7 +1550,7 @@ global.CardName[6134] = 'Grass Mask'
 
 global.CardText[6134] = 'The Mask Collection/Human
 
-Vote 3 - AUTO [V/R]: [Counter Blast 1] You may pay the cost. If you do, draw a card.
+Vote 3 - AUTO [VC/RC]: [Counter Blast 1] You may pay the cost. If you do, draw a card.
 '
 
 global.UnitGrade[6134] = 2
@@ -1569,7 +1570,7 @@ global.CardName[6135] = 'Bee Mask'
 
 global.CardText[6135] = 'The Mask Collection/Human
 
-AUTO: [Counter Blast 1] When this unit is placed on V or R, you may pay the cost. If you do, look at five cards from the top of your deck, reveal up to one card with vote or contest ability from among them, put it into your hand, and shuffle your deck.
+AUTO: [Counter Blast 1] When this unit is placed on VC or RC, you may pay the cost. If you do, look at five cards from the top of your deck, reveal up to one card with vote or contest ability from among them, put it into your hand, and shuffle your deck.
 '
 
 global.UnitGrade[6135] = 3
@@ -1589,7 +1590,7 @@ global.CardName[6136] = 'Wizard Mask'
 
 global.CardText[6136] = 'The Mask Collection/Human
 
-Contest - ACT [R] [1/Turn]: [Rest this unit] Choose one of your opponents rear-guards, and this unit competes against that unit. If an opponents unit is retired with this effect, draw a card.
+Contest - ACT [RC] 1/Turn: [Rest this unit] Choose one of your opponent’s rear-guards, and this unit competes against that unit. If an opponent’s unit is retired with this effect, draw a card.
 '
 
 global.UnitGrade[6136] = 1
@@ -1611,11 +1612,11 @@ global.CardText[6137] = 'The Mask Collection/Human
 
 Stride.
 
-Vote 3 - AUTO [V]: Choose one of your opponents rear-guards, and retire it.
+Vote 3 - AUTO [VC]: Choose one of your opponent’s rear-guards, and retire it.
 
-Vote 5 - AUTO [V]: Choose one of your opponents rear-guards, and retire it.
+Vote 5 - AUTO [VC]: Choose one of your opponent’s rear-guards, and retire it.
 
-Vote 7 - AUTO [V]: Choose one of your opponents rear-guards, and retire it.
+Vote 7 - AUTO [VC]: Choose one of your opponent’s rear-guards, and retire it.
 '
 
 global.UnitGrade[6137] = 4
@@ -1659,7 +1660,7 @@ global.CardText[CardStat] = 'The Mask Collection/Human
 
 Stride.
 
-ACT [V] 1/Turn: [Choose a face down card from your G zone, and turn it face up] This unit gets "CONT [V] Generation Break 2: During your turn, all of your units get power +3000".'
+ACT [VC] 1/Turn: [Choose a face down card from your G zone, and turn it face up] This unit gets "CONT [VC] Generation Break 2: During your turn, all of your units get power +3000".'
 global.UnitGrade[CardStat] = 4
 global.CardInClan[CardStat] = 28
 global.ExtraDeck[CardStat] = 1
@@ -1672,9 +1673,9 @@ CardStat = 6265
 global.CardName[CardStat] = 'Little Duck Mask'
 global.CardText[CardStat] = 'The Mask Collection/Human
 
-AUTO [V] Generation Break 2: When this unit attacks a vanguard, until end of that battle, this unit gets power +5000, and your opponent cannot call normal units from his or her hand to GC.
+AUTO [VC] Generation Break 2: When this unit attacks a vanguard, until end of that battle, this unit gets power +5000, and your opponent cannot call normal units from his or her hand to GC.
 
-AUTO [V]: [Counter Blast 1] During your turn, when your G unit Stride, you may pay the cost. If you do, choose one of your vanguards, and until end of turn, that unit gets "CONT [V] Generation Break 2: During your turn, all of your units get power +2000".'
+AUTO [VC]: [Counter Blast 1] During your turn, when your G unit Stride, you may pay the cost. If you do, choose one of your vanguards, and until end of turn, that unit gets "CONT [VC] Generation Break 2: During your turn, all of your units get power +2000".'
 global.UnitGrade[CardStat] = 3
 global.CardInClan[CardStat] = 28
 }
@@ -1686,7 +1687,7 @@ CardStat = 6266
 global.CardName[CardStat] = 'Reaper Mask'
 global.CardText[CardStat] = 'The Mask Collection/Human
 
-Vote 2 - AUTO [V/R]: This unit gets power +5000 until end of turn.'
+Vote 2 - AUTO [VC/RC]: This unit gets power +5000 until end of turn.'
 global.UnitGrade[CardStat] = 3
 global.CardInClan[CardStat] = 28
 }
@@ -1709,7 +1710,7 @@ CardStat = 6268
 global.CardName[CardStat] = 'Giant Mask'
 global.CardText[CardStat] = 'The Mask Collection/Human
 
-Vote 3 - AUTO [V/R]: [Counter Blast 1] You may pay the cost. If you do, choose one of your opponents rear-guards, and retire it.'
+Vote 3 - AUTO [VC/RC]: [Counter Blast 1] You may pay the cost. If you do, choose one of your opponent’s rear-guards, and retire it.'
 global.UnitGrade[CardStat] = 2
 global.CardInClan[CardStat] = 28
 }
@@ -1721,9 +1722,9 @@ CardStat = 6269
 global.CardName[CardStat] = 'Hunter Mask'
 global.CardText[CardStat] = 'The Mask Collection/Human
 
-CONT [R]: Restraint.
+CONT [RC]: Restraint.
 
-Contest - ACT [R] 1/Turn: [Rest this unit] Choose one of your opponents rear-guards, and this unit competes against that unit.'
+Contest - ACT [RC] 1/Turn: [Rest this unit] Choose one of your opponent’s rear-guards, and this unit competes against that unit.'
 global.UnitGrade[CardStat] = 2
 global.CardInClan[CardStat] = 28
 }
@@ -1735,7 +1736,7 @@ CardStat = 6270
 global.CardName[CardStat] = 'Pirate Mask'
 global.CardText[CardStat] = 'The Mask Collection/Human
 
-Vote 3 - AUTO [V/R]: [Counter Blast 2] You may pay the cost. If you do, choose a card from your drop zone, and return it to your hand.'
+Vote 3 - AUTO [VC/RC]: [Counter Blast 2] You may pay the cost. If you do, choose a card from your drop zone, and return it to your hand.'
 global.UnitGrade[CardStat] = 1
 global.CardInClan[CardStat] = 28
 }
@@ -1747,9 +1748,9 @@ CardStat = 6271
 global.CardName[CardStat] = 'Black Elephant Mask with Great Authority'
 global.CardText[CardStat] = 'The Mask Collection/Human
 
-CONT [R]: Restraint.
+CONT [RC]: Restraint.
 
-Contest - ACT [R] 1/Turn: [Rest this unit] Choose one of your opponents rear-guards, and this unit competes against that unit.'
+Contest - ACT [RC] 1/Turn: [Rest this unit] Choose one of your opponent’s rear-guards, and this unit competes against that unit.'
 global.UnitGrade[CardStat] = 1
 global.CardInClan[CardStat] = 28
 }
@@ -1777,7 +1778,7 @@ global.CardText[CardStat] = 'The Mask Collection/Human
 
 AUTO: Forerunner.
 
-ACT [R]: [Put this unit into your soul] Draw a card.'
+ACT [RC]: [Put this unit into your soul] Draw a card.'
 global.UnitGrade[CardStat] = 0
 global.CardInClan[CardStat] = 28
 }
@@ -1825,7 +1826,7 @@ CardStat = 6277
 global.CardName[CardStat] = 'Peaceful Flowering Grass Mask'
 global.CardText[CardStat] = 'The Mask Collection/Human/Heal Trigger
 
-You may only have up to four cards with "HEAL" in a deck.'
+(You may only have up to four cards with "HEAL" in a deck.)'
 global.UnitGrade[CardStat] = 0
 global.CardInClan[CardStat] = 28
 }

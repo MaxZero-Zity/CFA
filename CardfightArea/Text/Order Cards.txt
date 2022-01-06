@@ -34,9 +34,9 @@ global.CardName[CardStat] = 'When Light and Darkness Intersects'
 global.CardText[CardStat] = 'Normal Order/Royal Paladin
 
 Perform one of the abilities below, and shuffle your deck.
-â€¢ If you have "Blaster Blade" on your V or R, search your deck for up to one "Blaster Dark", reveal it and put it into your hand.
-â€¢ If you have "Blaster Dark" on your V or R, search your deck for up to one "Blaster Blade", reveal it and put it into your hand.
-â€¢ If you have "Blaster Blade" and "Blaster Dark" on your V or R, search your deck for up to one "Majesty Lord Blaster", reveal it and put it into your hand.'
+— If you have "Blaster Blade" on your VC or RC, search your deck for up to one "Blaster Dark", reveal it and put it into your hand.
+— If you have "Blaster Dark" on your VC or RC, search your deck for up to one "Blaster Blade", reveal it and put it into your hand.
+— If you have "Blaster Blade" and "Blaster Dark" on your VC or RC, search your deck for up to one "Majesty Lord Blaster", reveal it and put it into your hand.'
 global.UnitGrade[CardStat] = 2
 global.CardInClan[CardStat] = 30
 }
@@ -49,7 +49,7 @@ global.CardText[CardStat] = 'BanG Dream!/PoppinParty/Normal Order Music
 
 (After playing a music, put it in the back row of the middle column until end of turn.)
 
-AUTO [R]: At the beginning of your battle phase, if you have units with "Kasumi Toyama", "Tae Hanazono", "Rimi Ushigome", "Saya Yamabuki", "Arisa Ichigaya" in their card names each, reveal five cards from the top of your deck, put up to one critical trigger from among them on the top of your deck, and put the rest on bottom of your deck in any order. If your opponents vanguard is grade 3 or greater, all of your units get power +5000 until end of turn for each critical trigger that was revealed.'
+AUTO [RC]: At the beginning of your battle phase, if you have units with "Kasumi Toyama", "Tae Hanazono", "Rimi Ushigome", "Saya Yamabuki", "Arisa Ichigaya" in their card names each, reveal five cards from the top of your deck, put up to one critical trigger from among them on the top of your deck, and put the rest on bottom of your deck in any order. If your opponent’s vanguard is grade 3 or greater, all of your units get power +5000 until end of turn for each critical trigger that was revealed.'
 global.UnitGrade[CardStat] = 3
 global.CardInClan[CardStat] = 30
 }
@@ -62,9 +62,9 @@ global.CardText[CardStat] = 'BanG Dream!/PoppinParty/Normal Order Music
 
 (After playing a music, put it in the back row of the middle column until end of turn.)
 
-CONT [R]: If your opponents vanguard is grade 2 or greater, all of your front row units get power +5000.
+CONT [RC]: If your opponent’s vanguard is grade 2 or greater, all of your front row units get power +5000.
 
-AUTO [R]: When placed, COST [Soul Blast 1], look at five cards from the top of your deck, put a card from among them into your hand, and shuffle your deck.'
+AUTO [RC]: When placed, COST [Soul Blast 1], look at five cards from the top of your deck, put a card from among them into your hand, and shuffle your deck.'
 global.UnitGrade[CardStat] = 2
 global.CardInClan[CardStat] = 30
 }
@@ -77,7 +77,7 @@ global.CardText[CardStat] = 'BanG Dream!/PoppinParty/Normal Order Music
 
 (After playing a music, put it in the back row of the middle column until end of turn.)
 
-AUTO [R]: When placed, draw a card, look at three cards from the top of your deck, reveal up to one critical trigger from among them, put it into your hand, and put the rest on the bottom of your deck in any order.'
+AUTO [RC]: When placed, draw a card, look at three cards from the top of your deck, reveal up to one critical trigger from among them, put it into your hand, and put the rest on the bottom of your deck in any order.'
 global.UnitGrade[CardStat] = 1
 global.CardInClan[CardStat] = 30
 }
@@ -88,12 +88,15 @@ CardStat = 7569
 global.CardName[CardStat] = 'Tempest Sphere'
 global.CardText[CardStat] = 'Normal Order
 
+(PREMIUM: banned.)
+
 COST [Counter Blast 1 & Turn a card from your G zone face up].
 Look at seven cards from the top of your deck, reveal up to two unit cards without CONT, ACT, and AUTO abilities from among them, put them into your hand, and shuffle your deck.'
 global.UnitGrade[CardStat] = 1
 global.CardInClan[CardStat] = 30
 }
 global.PowerStat[CardStat] = 0
+global.CardBanned[CardStat] = 1
 
 CardStat = 7578
 {
@@ -113,7 +116,7 @@ global.CardText[CardStat] = 'BanG Dream!/Pastel Palettes/Normal Order Music
 
 (After playing a music, put it in the back row of the middle column until end of turn.)
 
-ACT [R] 1/Turn: If you have a unit with "Aya Maruyama" in its card name, COST [discard a card from your hand], search your deck or drop zone for up to one card with "Chisato Shirasagi" in its card name, call it to the frow row R, and if you searched your deck, shuffle your deck. If you have a vanguard with "Aya Maruyama" in its card name, the circle with the called unit on it becomes V until end of turn. (V abilities activate, and perform drive checks.)'
+ACT [RC] 1/Turn: If you have a unit with "Aya Maruyama" in its card name, COST [discard a card from your hand], search your deck or drop zone for up to one card with "Chisato Shirasagi" in its card name, call it to the frow row RC, and if you searched your deck, shuffle your deck. If you have a vanguard with "Aya Maruyama" in its card name, the circle with the called unit on it becomes VC until end of turn. (VC abilities activate, and perform drive checks.)'
 global.UnitGrade[CardStat] = 2
 global.CardInClan[CardStat] = 30
 }
@@ -121,12 +124,12 @@ global.PowerStat[CardStat] = 0
 
 CardStat = 7600
 {
-global.CardName[CardStat] = 'Shuwarin Drea~min'
+global.CardName[CardStat] = 'Shuwarin*Dreaming'
 global.CardText[CardStat] = 'BanG Dream!/Pastel Palettes/Normal Order Music
 
 (After playing a music, put it in the back row of the middle column until end of turn.)
 
-AUTO [R]: When placed, if a <Pastel Palettes> is on your V or R, draw two cards, and discard a card from your hand.'
+AUTO [RC]: When placed, if a <Pastel Palettes> is on your VC or RC, draw two cards, and discard a card from your hand.'
 global.UnitGrade[CardStat] = 1
 global.CardInClan[CardStat] = 30
 }
@@ -134,12 +137,12 @@ global.PowerStat[CardStat] = 0
 
 CardStat = 7601
 {
-global.CardName[CardStat] = 'Kyu~mai flower'
+global.CardName[CardStat] = 'Kyu~Mai?Flower'
 global.CardText[CardStat] = 'BanG Dream!/Pastel Palettes/Normal Order Music
 
 (After playing a music, put it in the back row of the middle column until end of turn.)
 
-CONT [R]: If your soul has eight or more <Pastel Palettes> with different names, when your vanguard with "Aya Maruyama" in its card name would attack, it battles all of your opponents units.'
+CONT [RC]: If your soul has eight or more <Pastel Palettes> with different names, when your vanguard with "Aya Maruyama" in its card name would attack, it battles all of your opponent’s units.'
 global.UnitGrade[CardStat] = 3
 global.CardInClan[CardStat] = 30
 }
@@ -152,9 +155,9 @@ global.CardText[CardStat] = 'BanG Dream!/Afterglow/Normal Order Music
 
 (After playing a music, put it in the back row of the middle column until end of turn.)
 
-AUTO [R]: When placed, draw a card.
+AUTO [RC]: When placed, draw a card.
 
-AUTO [R]: At the beginning of your battle phase, stand up to one of your <Afterglow>.'
+AUTO [RC]: At the beginning of your battle phase, stand up to one of your <Afterglow>.'
 global.UnitGrade[CardStat] = 1
 global.CardInClan[CardStat] = 30
 }
@@ -168,7 +171,7 @@ global.CardText[CardStat] = 'BanG Dream!/Afterglow/Normal Order Music
 
 (After playing a music, put it in the back row of the middle column until end of turn.)
 
-AUTO [R] 1/Turn: When your vanguard with "Ran Mitake" attacks, you may stand one of your units with "Moca Aoba" in its card name, one of your units with "Himari Uehara" in its card name, one of your units with "Tomoe Udagawa" in its card name, and one of your units with "Tsugumi Hazawa" in its card name. If four were stand, get two Imaginary Gift:Force.
+AUTO [RC] 1/Turn: When your vanguard with "Ran Mitake" attacks, you may stand one of your units with "Moca Aoba" in its card name, one of your units with "Himari Uehara" in its card name, one of your units with "Tomoe Udagawa" in its card name, and one of your units with "Tsugumi Hazawa" in its card name. If four were stand, get two Imaginary Gift:Force.
 
 (SHIFT + left mouse button to create Force gifts.)'
 global.UnitGrade[CardStat] = 3
@@ -184,9 +187,9 @@ global.CardText[CardStat] = 'BanG Dream!/Afterglow/Normal Order Music
 
 (After playing a music, put it in the back row of the middle column until end of turn.)
 
-AUTO [R]: When placed, if you have an <Afterglow> vanguard, search your deck for up to one <Afterglow> unit card with different card name from each of your units on V or R and reveal it, put it into your hand, and shuffle your deck.
+AUTO [RC]: When placed, if you have an <Afterglow> vanguard, search your deck for up to one <Afterglow> unit card with different card name from each of your units on VC or RC and reveal it, put it into your hand, and shuffle your deck.
 
-AUTO [R]: At the beginning of your battle phase, stand up to two of your <Afterglow>.'
+AUTO [RC]: At the beginning of your battle phase, stand up to two of your <Afterglow>.'
 global.UnitGrade[CardStat] = 2
 global.CardInClan[CardStat] = 30
 }
@@ -199,9 +202,9 @@ global.CardText[CardStat] = 'BanG Dream!/RAISE A SUILEN/Normal Order Music
 
 (After playing a music, put it in the back row of the middle column until end of turn.)
 
-AUTO [R]: When placed, draw two cards, and discard two card from your hand.
+AUTO [RC]: When placed, draw two cards, and discard two card from your hand.
 
-CONT [R]: If your drop zone has five or more musics, all of your front row units get power +5000.'
+CONT [RC]: If your drop zone has five or more musics, all of your front row units get power +5000.'
 global.UnitGrade[CardStat] = 2
 global.CardInClan[CardStat] = 30
 }
@@ -209,12 +212,12 @@ global.PowerStat[CardStat] = 0
 
 CardStat = 7739
 {
-global.CardName[CardStat] = 'Egao no Orchestra!'
+global.CardName[CardStat] = 'Orchestra Of Smiles!'
 global.CardText[CardStat] = 'BanG Dream!/Hello, Happy World!/Normal Order Music
 
 (After playing a music, put it in the back row of the middle column until end of turn.)
 
-AUTO [R]: When placed, if your vanguard is <Hello, Happy World!>, look at two cards from the top of your deck, put up to one card from among them into your hand, and put the rest into your soul.'
+AUTO [RC]: When placed, if your vanguard is <Hello, Happy World!>, look at two cards from the top of your deck, put up to one card from among them into your hand, and put the rest into your soul.'
 global.UnitGrade[CardStat] = 1
 global.CardInClan[CardStat] = 30
 }
@@ -222,14 +225,14 @@ global.PowerStat[CardStat] = 0
 
 CardStat = 7740
 {
-global.CardName[CardStat] = 'Sekai Nobbinobi Treasure!'
+global.CardName[CardStat] = 'Worldwide Treasure!'
 global.CardText[CardStat] = 'BanG Dream!/Hello, Happy World!/Normal Order Music
 
 (After playing a music, put it in the back row of the middle column until end of turn.)
 
-CONT [R]: If your opponents vanguard is grade 2 or greater, all of your front row units get power +5000.
+CONT [RC]: If your opponent’s vanguard is grade 2 or greater, all of your front row units get power +5000.
 
-AUTO [R] 1/Turn: When your <Hello, Happy World!>s attack hits, you may "Draw a card, and Soul Charge 1".'
+AUTO [RC] 1/Turn: When your <Hello, Happy World!>s attack hits, you may "Draw a card, and Soul Charge 1".'
 global.UnitGrade[CardStat] = 2
 global.CardInClan[CardStat] = 30
 }
@@ -237,14 +240,14 @@ global.PowerStat[CardStat] = 0
 
 CardStat = 7741
 {
-global.CardName[CardStat] = 'Egao Sing A Song'
+global.CardName[CardStat] = 'Smiling & Singing A Song'
 global.CardText[CardStat] = 'BanG Dream!/Hello, Happy World!/Normal Order Music
 
 (After playing a music, put it in the back row of the middle column until end of turn.)
 
-AUTO [R]: When your <Hello, Happy World!> is placed during your battle phase, if your opponents vanguard is grade 3 or greater, the placed unit gets power +10000 until end of turn.
+AUTO [RC]: When your <Hello, Happy World!> is placed during your battle phase, if your opponent’s vanguard is grade 3 or greater, the placed unit gets power +10000 until end of turn.
 
-AUTO [R] 1/Turn: At the end of the battle a <Hello, Happy World!> on your V or R attacked, COST [Counter Blast 1], call a card from your hand to R.'
+AUTO [RC] 1/Turn: At the end of the battle a <Hello, Happy World!> on your VC or RC attacked, COST [Counter Blast 1], call a card from your hand to RC.'
 global.UnitGrade[CardStat] = 3
 global.CardInClan[CardStat] = 30
 }
@@ -252,12 +255,12 @@ global.PowerStat[CardStat] = 0
 
 CardStat = 7742
 {
-global.CardName[CardStat] = 'R   I   O   T'
+global.CardName[CardStat] = 'R • I • O • T'
 global.CardText[CardStat] = 'BanG Dream!/RAISE A SUILEN/Normal Order Music
 
 (After playing a music, put it in the back row of the middle column until end of turn.)
 
-AUTO [R]: When placed, reveal two cards from the top of your deck, put all of the <RAISE A SUILEN> from among them into your hand, and put the rest on the bottom of your deck in any order.'
+AUTO [RC]: When placed, reveal two cards from the top of your deck, put all of the <RAISE A SUILEN> from among them into your hand, and put the rest on the bottom of your deck in any order.'
 global.UnitGrade[CardStat] = 1
 global.CardInClan[CardStat] = 30
 }
@@ -265,12 +268,12 @@ global.PowerStat[CardStat] = 0
 
 CardStat = 7743
 {
-global.CardName[CardStat] = 'EXPOSE Burn out!!!'
+global.CardName[CardStat] = 'EXPOSE ‘Burn out!!!’'
 global.CardText[CardStat] = 'BanG Dream!/RAISE A SUILEN/Normal Order Music
 
 (After playing a music, put it in the back row of the middle column until end of turn.)
 
-AUTO [R]: At the beginning of your battle phase, if your drop zone has seven or more <RAISE A SUILEN> musics, until end of turn, all of your front row units get power +10000, COST [Counter Blast 1], and all of your opponents units cannot increase their power by trigger effects.'
+AUTO [RC]: At the beginning of your battle phase, if your drop zone has seven or more <RAISE A SUILEN> musics, until end of turn, all of your front row units get power +10000, COST [Counter Blast 1], and all of your opponent’s units cannot increase their power by trigger effects.'
 global.UnitGrade[CardStat] = 3
 global.CardInClan[CardStat] = 30
 }
@@ -283,7 +286,7 @@ global.CardText[CardStat] = 'BanG Dream!/Roselia/Normal Order Music
 
 (After playing a music, put it in the back row of the middle column until end of turn.)
 
-AUTO [R] 1/Turn: At the end of the battle your vanguard with "Yukina Minato" in its card name attacked, COST [Soul Blast 4 & discard a card from your hand], stand your vanguard, and it gets drive -1 until end of turn.'
+AUTO [RC] 1/Turn: At the end of the battle your vanguard with "Yukina Minato" in its card name attacked, COST [Soul Blast 4 & discard a card from your hand], stand your vanguard, and it gets drive -1 until end of turn.'
 global.UnitGrade[CardStat] = 3
 global.CardInClan[CardStat] = 30
 }
@@ -296,7 +299,7 @@ global.CardText[CardStat] = 'BanG Dream!/Roselia/Normal Order Music
 
 (After playing a music, put it in the back row of the middle column until end of turn.)
 
-AUTO [R]: When placed, draw a card, and two of your units get power +5000 until end of turn.'
+AUTO [RC]: When placed, draw a card, and two of your units get power +5000 until end of turn.'
 global.UnitGrade[CardStat] = 1
 global.CardInClan[CardStat] = 30
 }
@@ -309,7 +312,7 @@ global.CardText[CardStat] = 'BanG Dream!/Roselia/Normal Order Music
 
 (After playing a music, put it in the back row of the middle column until end of turn.)
 
-AUTO [R] 1/Turn: When your <Roselia>s attack does not hit, COST [Counter Blast 1], choose one of your opponents rear-guards, and retire it. If a unit was retired, you draw the same number of cards as that units grade.'
+AUTO [RC] 1/Turn: When your <Roselia>s attack does not hit, COST [Counter Blast 1], choose one of your opponent’s rear-guards, and retire it. If a unit was retired, you draw the same number of cards as that unit’s grade.'
 global.UnitGrade[CardStat] = 2
 global.CardInClan[CardStat] = 30
 }
@@ -368,7 +371,7 @@ global.CardName[CardStat] = 'Lyricles Veil'
 global.CardText[CardStat] = 'Normal Order
 
 COST [Soul Blast 2 & Discard a "Lyricles Veil" from your hand].
-Choose up to two grade 2 or less unit cards from your drop zone, call them to R. Choose any number of any players rear-guards, and until end of your opponents next turn, they get "Intercept", and can intercept from the back row.'
+Choose up to two grade 2 or less unit cards from your drop zone, call them to RC. Choose any number of any player’s rear-guards, and until end of your opponent’s next turn, they get "Intercept", and can intercept from the back row.'
 global.UnitGrade[CardStat] = 2
 global.CardInClan[CardStat] = 30
 }
